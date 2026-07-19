@@ -3602,3 +3602,20 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
   v2.2.1, the new /papers structure, the derived-vs-adopted ledger (Schrodinger adopted; chemistry mechanical
   layer present; gravity falsified; nuclear one-constant predictor), kept-losses surfaced, all internal doc
   links verified to resolve. Stale-number scan clean; corpus still 116/116.
+
+### Addendum (2026-07-17) — post-publication review fixes (run-blocker + release hygiene)
+- RUN-BLOCKER FIXED: PyYAML was imported by tools/verify_corpus.py but undeclared, so the README's two-command
+  path failed on a clean install with ModuleNotFoundError: No module named 'yaml'. Added PyYAML>=6.0 to both
+  pyproject.toml dependencies and requirements.txt. (External reviewer's catch -- the only immediate
+  run-blocking defect; verified.)
+- Repository URL corrected in pyproject.toml: placeholder github.com/USER/rope_solver ->
+  github.com/mrpalmer100/rope-framework.
+- COUNT RECONCILED: CITATION.cff said '61 papers' while README said 57; CITATION corrected to 57 (the live
+  count from papers/_sources + docs). Both now agree.
+- CI ADDED: .github/workflows/verify.yml runs pip install -e ".[dev]", quickstart.py, verify_corpus.py, and
+  pytest across Python 3.10/3.11/3.12 on every push/PR -- turning the static verify badge into generated
+  evidence. CI status badge added to the README.
+- DEV EXTRAS: [project.optional-dependencies] dev = [pytest>=8, PyYAML>=6.0]; CONTRIBUTING documents
+  `pip install -e ".[dev]"` + `pytest`.
+- Dependency-completeness audit run: all third-party imports in tools/ and rope_solver/ are now declared.
+  Corpus 116/116.

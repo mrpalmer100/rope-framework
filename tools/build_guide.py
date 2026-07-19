@@ -1,3 +1,7 @@
+"""Optional doc-builder (NOT part of pip-install or verify_corpus). Requires
+external tools: LibreOffice (soffice) and the `diagrams` package, installed
+separately only if you are regenerating the guide. Ordinary users and CI never
+run this file."""
 #!/usr/bin/env python3
 """
 build_guide.py — assemble the plain-language guide from per-topic source files.

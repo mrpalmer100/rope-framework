@@ -9,6 +9,13 @@ Read **HOW_TO_CRITICIZE.md** — it maps where the programme is most vulnerable,
 assumptions are load-bearing, and which benchmark failures would collapse which sectors.
 Read **KNOWN_LIMITATIONS.md** for every caveat in one place.
 
+## To set up for development
+
+```bash
+pip install -e ".[dev]"   # installs pytest + PyYAML
+pytest                      # run the regression tests
+```
+
 ## To verify the corpus
 
 ```bash

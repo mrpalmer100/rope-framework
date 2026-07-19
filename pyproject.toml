@@ -10,11 +10,14 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
 authors = [{name = "Mark Palmer"}]
-dependencies = ["numpy>=1.21", "scipy>=1.7", "sympy>=1.9"]
+dependencies = ["numpy>=1.21", "scipy>=1.7", "sympy>=1.9", "PyYAML>=6.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "PyYAML>=6.0"]
 
 [project.urls]
 Zenodo = "https://doi.org/10.5281/zenodo.21430784"
-Repository = "https://github.com/USER/rope_solver"
+Repository = "https://github.com/mrpalmer100/rope-framework"
 
 [tool.setuptools]
 packages = ["rope_solver", "rope_solver.psi", "rope_solver.topology",
