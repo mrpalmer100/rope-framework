@@ -3729,3 +3729,27 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
   distance-go question, the fabric-rearrangement picture (with the mountain-road rerouting image tied to
   the ALREADY-DERIVED gravity mechanism), and the honest limit including the friction-free demand, citing
   FND-KIN-001. Validated; PDF regenerated. Corpus 120/120, 135 claims.
+
+### Addendum (2026-07-19) — NUC-007: the mode-capacity rebuild; two misses resolved, one claim reinstated, one new miss named
+- MECHANISM: per-nucleon capacity q = 3 (spin-isospin quartet motivation) + residual lambda, one structural
+  parameter across two sectors, one calibrated constant (e_b = 4.716 MeV from He-4). PASSED: the withdrawn
+  alpha-peak claim REINSTATED in core form (A=4 peak + A=5 instability, analytic lambda < 0.5); the
+  NUC-006 surface/volume miss RESOLVED (2.05 -> 1.171 at lambda = 0.25 vs empirical 1.16; window [1.03,
+  1.29] contains it, same lambda as the light-nuclei sector); magic numbers 2/8/20 from isotropic mode
+  counting with 40-vs-28 declared (spin-orbit underived); r = 0.954 over A = 2..16. REGISTERED MISS:
+  alpha-multiple periodicity (8/12/16 maxima) not reproduced -- diagnosis converged: STATE-BLIND capacity;
+  next-order named: state-labeled quartets, blind, own bars. Session hygiene: exploratory lexicographic
+  fill produced an impossible 5-bond He-4, caught by the tetrahedron sanity check before registration;
+  corrected to compactness-greedy. Corpus 121/121, 136 claims.
+
+### Addendum (2026-07-19) — NUC-008: state-labeled capacity; Be-8 recovered, symmetry sign derived, kinetic boundary located
+- The NUC-007 next-order run blind (bars B1-B6). RECOVERED: Be-8 as a genuine local maximum -- the second
+  tetrahedron completes because its members carry all four labels; the diagnosis confirmed. DERIVED: the
+  SEMF symmetry-energy SIGN -- balanced label populations strictly beat asymmetric ((2,2,2,2) > (3,3,1,1)
+  > (4,4,0,0)), so N=Z preference emerges from unlike-label bonding; direction derived, coefficient not
+  claimed. Correlation 0.954 -> 0.978; optimizer verified exhaustive-optimal at A=8. MISSES (registered):
+  A=12 periodicity and 13-16 overbinding on a rising baseline -- one converging diagnosis: a classical
+  bond count has NO kinetic/zero-point cost for compactness, the same omission registered in NUC-005/006
+  light-isotope residuals and adjacent to chemistry's hbar-fence -- located independently in three places.
+  Honest assessment recorded: the nuclear classical program may be at its natural completion point; the
+  remaining structure belongs to the quantum-kinetic layer. Corpus 122/122, 137 claims.
