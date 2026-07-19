@@ -3765,3 +3765,25 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
 - BE-8 QUALIFICATION added before a reviewer demands it: recovered as an alpha-structured LOCAL MAXIMUM
   in B/A, NOT as a stable bound nucleus -- physical Be-8 is ~92 keV unbound against two-alpha decay, far
   below the model's resolution. Claim note + benchmark docstring both state it. Corpus 122/122.
+
+### Addendum (2026-07-19) — FND-BOUND-001: the one fence; the programme's boundary triangulated
+- Synthesis claim registered at the operator's direction: the four hardest terminal residuals (gravity's
+  tensor half with classical channels exhausted by theorem; nuclear saturation; light-isotope masses;
+  dispersion) independently name ONE missing layer -- quantum kinetic / zero-point energy. GRV-014
+  upgraded from isolated escape hatch to the gravity-facing name of the single remaining boundary, with
+  the corpus-native hook stated (GRV-004: only deviations gravitate; zero-point stress is a deviation
+  field -- the one bath GRV-010 never tested) and the block restated (hbar + absolute scale,
+  FND-MATTER-003). Negative transfers checked against the theorems and recorded: state-labeling forbidden
+  by GRV-018/020; overlap forces wrong range by geometric dilution; saturation reweights magnitudes only.
+  Benchmark = registry-consistency checks so the triangulation cannot silently drift. KNOWN_LIMITATIONS
+  gains the closing synthesis. Corpus 123/123, 138 claims.
+
+### Addendum (2026-07-19) — standing challenge issued: docs/FUTURE_MODEL_PROMPT_one_fence.md
+- The FND-BOUND-001 companion: a research directive addressed to a future model (or human) capable of
+  crossing the fence. Targets: hbar from the postulates and the absolute scale (or theorem-grade no-gos,
+  full credit). Four pre-committed acceptance tests, one per triangulated residual (C6 dispersion; nuclear
+  saturation + A=12 with all current structure preserved; light-isotope closure; gamma = 1 through the
+  GRV-004 hook with a QUANTIZED bath, Cassini-respecting). One calibration permitted, spent explicitly.
+  The circularity ban, the standing theorems, the known traps, and the seven operator-error precedents all
+  encoded. Honorable failure given equal standing, per GRV-013 precedent. Cross-referenced from
+  FND-BOUND-001 and KNOWN_LIMITATIONS. The corpus now ships with its own succession plan. 123/123.

@@ -18,7 +18,8 @@ therefore **adopted, not derived**, or **open**:
   derived-in-structure (threshold nucleation, weak-field limit); the irreducible core is
   spacelike winner-take-all (classical models pinned at g2 >= 1 vs measured ~0.18), whose
   only escape is cornered to instantaneous constraint propagation in the mesh frame
-  (K_L/K_T >= 1.9e8 demanded; Conjecture). Amplitude interference remains unproduced by a
+  (K_L/K_T >= 1.9e8 demanded; Conjecture -- demonstrated SUFFICIENT for g2 ~ 0 in a
+  conservation toy, QB-009, with CHSH still failing: sufficiency, not truth). Amplitude interference remains unproduced by a
   counting model (QB-005); a documented boundary, sharpened, not solved.
 - **Quantum entanglement is RETIRED as an ambition** and preserved as a boundary finding:
   a configuration-counting model provably cannot reproduce CHSH violation. A future
@@ -76,3 +77,14 @@ therefore **adopted, not derived**, or **open**:
 - **PM-004**: The lepton mass spectrum does NOT fall out of the corpus knot/soliton excitation physics without tuning; lepton masses are irreduc
 - **QB-003**: Present counting form does not reproduce quantum entanglement
 - **QB-004**: One-loop fluctuation mass mechanism (log-det ≈ -1.29 vs electron ≈108)
+
+## The one fence (cross-sector synthesis)
+
+The four hardest residuals above -- gravity's tensor half, nuclear saturation, light-isotope
+masses, and dispersion forces -- were registered independently, in four sectors, over months.
+Their terminal diagnoses name the same missing layer: quantum kinetic / zero-point energy
+(FND-BOUND-001). The classical programme's boundary is one boundary. It is located from four
+directions and crossed from none; constructing the quantum layer requires hbar and the absolute
+mesh scale, which remain underived (FND-MATTER-003). A standing research directive for
+crossing this fence -- with pre-committed acceptance tests and the discipline required --
+is maintained at docs/FUTURE_MODEL_PROMPT_one_fence.md.
