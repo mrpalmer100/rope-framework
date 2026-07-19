@@ -1,0 +1,53 @@
+================================================================
+ROPE PROGRAMME -- OPEN PROBLEMS REGISTRY
+================================================================
+
+[OPEN]  (7)
+  - The absolute electron mass.
+      sector: particles  |  rope_fluctuation_determinant
+  - The Born rule P(q0) = |psi|^2 for kink initial positions.
+      sector: light  |  rope_theory_of_light
+  - What mass physically IS in the rope network, and what sets the intermediate (Compton) scale.
+      sector: particles  |  (this work, 2026)
+  - Compute the coefficient c of the EFT-constrained continuum energy c|curl A|^2 by coarse-graining microscopic rope elasticity (strand tension, bending, torsional moduli), upgrading the energy functional from EFT-constrained to microscopically derived.
+      sector: electromagnetism  |  (this work, 2026)
+  - EM-OP (current-to-curl): given a two-strand interpenetrable rope network supporting traveling strand-imbalance waves, derive why a moving imbalance induces a CIRCULATING connection field B = curl(A) rather than only a longitudinal/radial response.
+      sector: electromagnetism  |  (this work, 2026)
+  - The absolute value of Newton's G from rope parameters.
+      sector: gravity  |  rope_gem_equations
+  - The rope chirality parameters sin(2 theta_W), n_rope, r_H individually (only their product is constrained).
+      sector: light / magnetism  |  rope_theory_of_light
+
+[POSTULATE]  (1)
+  - EM-P2 (Linking Inheritance): proposed bridge postulate that the surrounding rope network's Hopf phase texture inherits the enclosed charged rope's strand-linking number, so transported linking (current) sources a circulating connection (magnetism).
+      sector: electromagnetism  |  (this work, 2026)
+
+[CONJECTURE]  (1)
+  - phi = (3+Phi) theta_W: the T-oddness of the helical fiber mode (the load-bearing step giving Phi rather than 1).
+      sector: particles  |  rope_cs_theorem
+
+[CANDIDATE]  (2)
+  - Pauli exclusion from rope-spin mode saturation (max two kinks per mode, opposite rope-spin).
+      sector: chemistry  |  rope_theory_of_chemistry
+  - New prediction from cross-sector unification: because the EM coupling (alpha ~ 3T^2/(kappa a)) and gravity are both set by the same rope tension T, alpha and G are NOT independent; a drift in the shared primitive forces correlated drift, in a scale-free fixed ratio -- testable against varying-constants data.
+      sector: electromagnetism / gravity (cross-sector)  |  (this work, 2026)
+
+[PARTIAL]  (3)
+  - kappa = alpha/(2 pi) beyond dimensional analysis.
+      sector: particles / electromagnetism  |  rope_alpha_higher_links
+  - Derive Newton's constant G from a cosmic source of rope tension (expansion acting on the universe's mass content).
+      sector: gravity  |  (this work, 2026)
+  - Lepton mass ratios as a parameter-free prediction.
+      sector: particles  |  rope_mass_weights
+
+[FALSIFIED]  (3)
+  - Derive the rope tension beta function to generate the mass scale by dimensional transmutation.
+      sector: particles  |  (this work, 2026)
+  - Electron mass from the one-loop fluctuation determinant.
+      sector: particles  |  rope_fluctuation_determinant
+  - Three generations from a knot writhe ladder.
+      sector: particles  |  rope_hopf_link
+
+----------------------------------------------------------------
+  CANDIDATE: 2, OPEN: 7, PARTIAL: 3, FALSIFIED: 3, POSTULATE: 1, CONJECTURE: 1
+================================================================

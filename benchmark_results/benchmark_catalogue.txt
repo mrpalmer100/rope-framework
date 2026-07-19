@@ -1,0 +1,40 @@
+======================================================================
+ROPE_SOLVER BENCHMARK CATALOGUE
+======================================================================
+
+[Numerical primitives]
+  N-001   Laplacian on plane wave            ratio 0.991            (test_validation)
+  N-002   psi ~ 1/r (boundary-corrected)     corr 0.99998           (test_validation)
+  N-003   Brill-Lindquist harmonic           max 0.003              (test_validation)
+  N-004   Tension force = -grad(length)      err 4e-10              (test_validation)
+  N-005   Stable ring knot                   R*=0.86, m=12.1 M_Pl   (reproduce_results)
+  N-006   Hopf link sourced minimum          R*=0.84                (reproduce_results)
+
+[Gravity]
+  G-001   Schwarzschild / PPN                gamma=beta=1           (test_physics)
+  G-002   Mercury perihelion                 43.00 arcsec/cy        (test_physics)
+  G-003   Light deflection                   1.751 arcsec           (test_physics)
+  G-004   Nordtvedt eta                      0                      (test_physics)
+
+[Electromagnetism + light]
+  EM-001  Maxwell chain                      4 eqs, d=3             (test_electromagnetism)
+  EM-002  EM constants (eps0, Z0, alpha)     Z0=376.7 ohm           (test_electromagnetism)
+  EM-003  Charge quantization (q=Lk)         integer Lk             (test_electromagnetism)
+  EM-004  Photon (Lk=0, non-dispersive)      omega=ck               (test_electromagnetism)
+  EM-005  Cosmic birefringence EB/EE         0.0119                 (test_electromagnetism)
+  EM-006  Cross-sector locks                 alpha, c, eps0 agree   (test_electromagnetism)
+
+[Particles]
+  P-001   Charge = linking number            q=Lk                   (test_physics)
+  P-002   Hopf relaxation conserves Lk       |Lk|=1,2,3             (reproduce_results)
+  P-003   Coupling kappa = alpha/2pi         0.00116                (test_physics)
+  P-004   Lepton mass ratios (Koide phase)   0.5% (CONJECTURE)      (test_physics)
+  P-005   Chiral central charge              c=9/5                  (test_physics)
+  P-006   Knot action O(1) / mass external   S_E=1                  (test_physics)
+
+[Spectrum]
+  S-001   Fluctuation determinant            Poschl-Teller validated (test_physics)
+
+----------------------------------------------------------------------
+  23 benchmarks. Cite by ID in papers, e.g. 'see benchmark G-002'.
+======================================================================

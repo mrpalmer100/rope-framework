@@ -1,0 +1,114 @@
+================================================================
+PHYSICS REGRESSION SUITE
+================================================================
+
+1. Gravity: PPN parameters and classical tests
+  [PASS] gamma = 1  gamma=1.0
+  [PASS] beta = 1  beta=1.0
+  [PASS] Mercury perihelion ~ 42.98 arcsec/cy  43.00
+  [PASS] Light deflection ~ 1.751 arcsec  1.751
+  [PASS] Nordtvedt eta = 0  0.0
+
+2. Spectrum: Poeschl-Teller validation + determinant magnitude
+  [PASS] Poeschl-Teller ell=1 has 1 bound state  n=1
+  [PASS] Poeschl-Teller ground state E ~ -1  E=-1.0001
+  [PASS] electron needs ln[det]~108 (one-loop gives O(1))  need=108, one-loop~0.1 -> falsified
+
+3. Particles: coupling, charge, transmutation
+  [PASS] kappa = alpha/2pi  0.00116
+  [PASS] Hopf charge q=Lk=1  q=-0.996
+  [PASS] electron transmutation b ~ 17  b=16.7
+  [PASS] higher-link E~Lk^p sub-linear (p<0.2)  p=0.082
+
+4. Lepton mass ratios via Koide phase (CONJECTURE -- see open_problems)
+  [PASS] d_1/2 = Phi at k=3 (rigorous TQFT)  d=1.618034
+  [PASS] (3+Phi) coefficient = 4.6180  4.61803
+  [PASS] m_mu/m_e ~ 206.8 (measured theta_W)  205.8
+  [PASS] m_tau/m_e ~ 3477 (measured theta_W)  3463
+  [PASS] NOT parameter-free: rope's own theta_W breaks it (>5x error)  mu/e=1605 with rope theta_W
+
+5. Chiral central charge -> fiber mode T-odd (rigorous upgrade)
+  [PASS] c(SU(2)_3) = 9/5 (exact)  c=1.8
+  [PASS] SU(2)_3 breaks time reversal (c != 0)  -> fiber mode T-odd by theorem, not by failed helicity/linking args
+  [PASS] rope sin2thetaW=1/(3sqrt2) is ~1.9% from measured 0.23122  1/(3sqrt2)=0.2357
+
+6. Absolute mass: suppression is provably external to the knot
+  [PASS] knot Euclidean action = O(1) in Planck units  S_E=1
+  [PASS] electron suppression NOT internal to knot (must be cosmological)  -> knot-cosmos coupling
+
+7. Tension beta function: dimensional transmutation closed by structure
+  [PASS] Luscher critical scale is O(1) Planck (power-law, no hierarchy)  0.512 L_Pl
+  [PASS] SU(2)_3 WZW beta = 0 (conformal fixed point, no running)  beta=0
+  [PASS] dimensional transmutation cannot make the mass scale  -> needs cosmological breaking
+
+8. Benchmark catalogue integrity
+  [PASS] catalogue non-empty  n=23
+  [PASS] all IDs unique  
+  [PASS] every benchmark cites a known test suite  
+  [PASS] G-002 is Mercury perihelion (frozen ID)  
+  [PASS] ID prefixes are the frozen set  
+
+9. Cosmic closure relation (expansion-tension origin of G)
+  [PASS] G M /(R c^2) = 1/2 (universe at its Schwarzschild radius)  ratio=0.5
+  [PASS] closure ratio is H0-independent (pure consistency relation)  same for any H0 -> yields no absolute G
+
+================================================================
+RESULT: 32/32 physics regression tests passed
+================================================================
+================================================================
+ELECTROMAGNETISM REGRESSION + CONSISTENCY
+================================================================
+
+1. Structural constant relations
+  [PASS] eps0 = 1/(mu0 c^2) ~ 8.854e-12  8.8537e-12
+  [PASS] Z0 = mu0 c ~ 376.73 ohm  376.740
+  [PASS] alpha = e^2 Z0/2h ~ 1/137  1/137.06
+
+2. Charge quantization (topological, q=Lk)
+  [PASS] charge q=Lk=1 is integer  q=-0.998 -> -1
+  [PASS] charge q=Lk=2 is integer  q=-1.991 -> -2
+  [PASS] charge q=Lk=3 is integer  q=-2.974 -> -3
+
+3. Dirac quantization (inherited from bundle identification)
+  [PASS] Dirac n=1 recovered  n=1.0000
+
+4. Wave speed (one rope, one speed)
+  [PASS] c^2 = T0/mu_rope  c^2=1.0
+
+5. Maxwell structure recorded (4 equations, d=3 dependence)
+  [PASS] four Maxwell equations recorded  n=4
+  [PASS] Ampere law cites d=3/Helmholtz  
+
+6. CROSS-SECTOR CONSISTENCY (the inter-paper guarantees)
+  [PASS] EM alpha == particle-sector alpha  EM=0.00730, particles=0.00730
+  [PASS] c_EM == c_gravity (one rope)  EM=2.9980e+08, gravity=2.9980e+08
+
+7. Photon / light (rope_theory_of_light)
+  [PASS] photon Lk = 0 (massless, chargeless)  Lk=0
+  [PASS] E = h nu  
+  [PASS] p = E/c  
+  [PASS] omega = c k (linear dispersion)  
+  [PASS] v_group - v_phase = 0 (non-dispersive)  2.86e-06
+  [PASS] chirality product ~ 9.18e-29 /m (Eskilt-Komatsu)  9.144e-29
+  [PASS] beta round-trips to 0.342 deg  0.342 deg
+  [PASS] EB/EE = sin(4 beta)/2 ~ 0.0119  0.0119
+  [PASS] photon massless consistent with particle sector (Lk=0)  Lk=0
+
+8. Cross-sector consistency: chemistry shares EM eps0
+  [PASS] H ground state from EM eps0 = -13.6 eV (consistency, not a rope result)  -13.60 eV
+
+9. Open-problems registry integrity
+  [PASS] registry non-empty  n=13
+  [PASS] Pauli exclusion registered as CANDIDATE (not a result)  
+  [PASS] one-loop mass kept as FALSIFIED  
+  [PASS] Koide phase registered as CONJECTURE (not a theorem)  
+  [PASS] mass scale-breaking reframe recorded as OPEN  
+  [PASS] 1/e mass coincidence recorded as REJECTED (not revivable)  
+  [PASS] all entries have valid status  {'CANDIDATE': 1, 'OPEN': 5, 'PARTIAL': 3, 'FALSIFIED': 3, 'CONJECTURE': 1}
+
+================================================================
+RESULT: 29/29 EM tests passed
+================================================================
+================================================================
+COMBINED PHYSICS+EM: 61/61 tests passed
+================================================================

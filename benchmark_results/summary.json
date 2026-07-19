@@ -1,0 +1,30 @@
+{
+  "toolkit": "rope_solver",
+  "version": "1.1.0",
+  "claim": "numerical reproducibility, not physical truth",
+  "heartbeat": {
+    "numerical_validation": "10/10",
+    "physics_regression": "12/12",
+    "prior_results_reproduced": "6/6"
+  },
+  "physics_endpoints": {
+    "gravity": {
+      "gamma": 1.0,
+      "beta": 1.0,
+      "mercury_arcsec_cy": 43.0,
+      "deflection_arcsec": 1.751,
+      "nordtvedt_eta": 0.0
+    },
+    "spectrum": {
+      "poschl_teller_validated": true,
+      "one_loop_mass": "falsified (O(1) vs needed exp(54))"
+    },
+    "particles": {
+      "charge": "q=Lk",
+      "kappa": "alpha/2pi=0.00116",
+      "electron_b": 16.7,
+      "higher_link_exponent": 0.082
+    }
+  },
+  "reference_implementation_principle": "every cited number comes from an installed rope_solver function with a test"
+}

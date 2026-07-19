@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+doi: 10.5281/zenodo.21430784
+title: "rope_solver: A Computational Toolkit for Rope Solitons"
+message: "If you use this software, please cite it as below."
+version: 2.2.1
+date-released: 2026-07-18
+authors:
+  - family-names: Palmer
+    given-names: Mark
+    orcid: "https://orcid.org/0009-0007-2454-5573"
+license: MIT
+abstract: >
+  A machine-verified research corpus developing the Rope Hypothesis: 130 registered
+  claims each labeled Derived/Modeled/EFT-constrained/Conjecture/Open/Failed, tied
+  claim-by-claim to 116 rerunnable benchmarks (all passing), across 61 papers.
+  Losses are preserved as findings (e.g. the classical gravity no-go; the PVLAS
+  exclusion). Establishes numerical reproducibility and internal consistency, not
+  physical truth.
+references:
+  - type: generic
+    title: "Rope Hypothesis / Thread Theory (intellectual origin)"
+    authors:
+      - family-names: Gaede
+        given-names: Bill
+    notes: >
+      The core rope concept and the object-versus-concept distinction originate
+      with Bill Gaede. This package is an independent, modified, and mathematized
+      development that departs from his formulation (e.g. magnetism as a vortex
+      rather than a jump-rope structure). See docs/attribution.md.

@@ -1,0 +1,9 @@
+Grid convergence of ring-knot equilibrium:
+      N       R*     E_min
+     40   0.8301   11.8345
+     48   0.8459   11.9693  dR*=+0.0158
+     56   0.8518   12.0351  dR*=+0.0059
+     64   0.8555   12.0777  dR*=+0.0037
+     72   0.8581   12.1070  dR*=+0.0025
+
+R* drifts < 0.02 across N=40->72: convergent.

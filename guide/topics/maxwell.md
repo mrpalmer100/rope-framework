@@ -1,0 +1,8 @@
+# Maxwell's Equations — The Four Rules, From Ropes
+
+Electricity and magnetism are governed by four equations — Maxwell's equations — that underpin every motor, radio, antenna, and magnet ever built. Their content, in plain words, is four statements: electric charges are sources that field lines spring from; there are no isolated magnetic "charges," so magnetic field lines never begin or end but always close on themselves; a changing magnetic field stirs up a circulating electric field; and a current or a changing electric field stirs up a circulating magnetic field.
+
+Each of these has a mechanical reading in the rope picture. Charges as sources are the strand-handedness the electricity chapter described. The absence of magnetic monopoles — that magnetic lines never start or stop — is the strongest single result: it falls out automatically because the magnetic field is defined as the *curl* of the network's orientation, and a curl can never have loose ends (a mathematical identity, not an added assumption). The two "induction" rules — changing one field stirring up the other — are the network's circulating response to a changing disturbance, the same swirl the magnetism chapter described, now running in both directions.
+
+> CALLOUT|WHAT THIS DOES AND DOESN'T CLAIM
+> Under the rope picture all four Maxwell equations are reproduced — the structure of classical electromagnetism comes out of the mechanics of a twisted-strand network. This is a mechanical RETELLING of known physics, not a replacement for it: it makes no prediction that classical electromagnetism does not already make. Its value is that one physical picture — ropes that ripple, wind, and swirl — yields the whole set, rather than four separately postulated laws.

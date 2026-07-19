@@ -1,0 +1,15 @@
+title: "The Rope Picture of the Universe"
+subtitle: "A Plain-Language Guide to Light, Electricity, Magnetism, Gravity, Chemistry, the Nucleus, and Black Holes"
+author: "Mark Palmer · June 2026"
+credit: "Building on Bill Gaede's Rope Hypothesis. Crediting the origin is not an endorsement of every position Gaede holds."
+order:
+  - intro          # One Object Six Tricks + Why Picture It (framing)
+  - light          # rope_classical_optics
+  - electricity    # rope_electricity (charge/current/voltage/resistance) - CORRECTED PHYSICS
+  - magnetism      # rope_theory_of_magnetism - CORRECTED (swinging ropes, force)
+  - maxwell        # rope_maxwell_equations
+  - gravity        # rope_gravity
+  - chemistry      # rope_chemistry
+  - nuclear        # rope_nuclear_physics (strong force = bundle contact)
+  - heat           # rope_thermodynamics
+  - closing        # What Ties This Together (honest limits)

@@ -1,0 +1,82 @@
+Rope Programme — claim dependency graph
+============================================================
+(roots have no dependencies; arrows = 'is required by')
+
+FND-001 [Derived] Endpoint force-balance gives locking energy J = T^2/
+  └─ FND-002 [Derived] Coarse-graining coefficient K = J/a scalar (2J/a dir
+    └─ FND-003 [Derived] Gamma-convergence of discrete locking energy to (K/2
+      └─ FND-004 [Derived] Vortex-free hypothesis is necessary (vortex: finite 
+        └─ FND-007 [Derived] Defect regime: single vortex energy E = pi K ln(R/a)
+          └─ FND-008 [Derived] Topological charge = integer winding number, quantiz
+            └─ FND-010 [Derived] Reconnection and annihilation conserve total topolog
+          └─ FND-009 [Derived] Vortex-antivortex pair energy 2 pi K ln(d/a); 2D Cou
+            └─ THM-004 [Derived] BKT transition T_BKT = pi K/2; universal correlation
+              └─ THM-005 [Derived] Helicity-modulus universal jump K_R(T_BKT)=2 T_BKT/p
+          └─ FND-011 [Derived] 3D: vortex-line tension = pi K ln(R/a) per length; o
+            └─ FND-012 [Derived] Defect-loop linking = integer Gauss invariant, share
+            └─ FND-013 [Open] EM flux tubes as defect lines vs smooth winding
+          └─ FND-014 [Derived] Defect core is finite and universal: E_core = E - pi
+            └─ FND-015 [Derived] Continuum cutoff DERIVED from discrete mechanics: a_
+            └─ FND-016 [Derived] Core finiteness explained: per-bond energy bounded b
+      └─ FND-007 [Derived] Defect regime: single vortex energy E = pi K ln(R/a)
+        (deps shown above)
+      └─ GG-001 [Derived] Unification: bundle/connection A/curvature F=dA fram
+        └─ GG-002 [Derived] Invariant hierarchy computed: winding (pi_1), linkin
+          └─ GG-003 [Derived] KEYSTONE: Hopf invariant = linking number of preimag
+        └─ GG-004 [Derived] Gauge invariance forced by phase-convention arbitrar
+        └─ GG-005 [Conjecture] Ropes physically instantiate the bundle (F IS the EM
+      └─ EFT-001 [EFT-constrained] Coarse-grained action S=(K/2)∫(grad theta)^2 justifi
+      └─ EM-001 [Derived] Electric charge = topological linking number (intege
+        └─ FND-013 [Open] EM flux tubes as defect lines vs smooth winding
+        └─ GG-003 [Derived] KEYSTONE: Hopf invariant = linking number of preimag
+        └─ EM-002 [Derived] Structural EM constants: free-space impedance Z0=sqr
+          └─ EM-002b [Modeled] Fine-structure constant alpha from the impedance rel
+        └─ EM-003 [Derived] Maxwell equations from Bianchi identities + Chern-We
+          └─ GG-001 [Derived] Unification: bundle/connection A/curvature F=dA fram
+            (deps shown above)
+          └─ EM-005 [Derived] Non-dispersive Maxwell propagation: omega(k)=ck, pha
+            └─ EM-004 [Derived] Classical two-slit interference I ∝ 1+cos(2π Δ/λ) fr
+            └─ EM-006 [Modeled] Birefringence structure: velocity split present, sca
+            └─ OPT-001 [Derived] Huygens construction: wavefront = envelope of second
+              └─ OPT-002 [Derived] Single-slit diffraction I(θ)=sinc^2(π a sinθ/λ), fir
+            └─ OPT-003 [Derived] Standing waves / cavity: omega_n = n pi c/L; fundame
+              └─ OPT-004 [Derived] Waveguide TE10 cutoff omega_c = pi c/a; evanescent b
+            └─ OPT-005 [Derived] Fibre total internal reflection: critical angle thet
+            └─ OPT-006 [Derived] Rope impedance Z = sqrt(T mu) = T/c is intrinsic to 
+              └─ OPT-007 [Derived] Snell's law n1 sin th1 = n2 sin th2 from wavefront c
+              └─ OPT-008 [Derived] Fresnel coefficients r=(Z1-Z2)/(Z1+Z2), t=2Z1/(Z1+Z2
+                └─ OPT-009 [Derived] Brewster angle tan th_B = n2/n1; polarization as tra
+                └─ OPT-010 [Derived] Multilayer: AR coating (R=0), Fabry-Perot (T=1 at 2p
+      └─ THM-001 [Modeled] Thermodynamic coarse-graining and coefficients from 
+      └─ THM-002 [Derived] Equilibrium Gaussian partition function Z=prod sqrt(
+        └─ THM-003 [Derived] Spin-wave specific heat C = 1/2 per mode (2D Dulong-
+        └─ THM-004 [Derived] BKT transition T_BKT = pi K/2; universal correlation
+          (deps shown above)
+      └─ CM-001 [Modeled] Condensed-matter analogues (vortex/phase order param
+  └─ FND-003 [Derived] Gamma-convergence of discrete locking energy to (K/2
+    (deps shown above)
+
+FND-005 [Derived] Parameter count: {T,kappa,a} carry one dimensionless
+  └─ FND-006 [Derived] Lorentz invariance fixes mu = T/c^2 but is orthogona
+
+GRV-001 [Derived] Rope effective metric = isotropic Schwarzschild (wea
+  └─ GRV-002 [Derived] Classical tests: light deflection 1.751″, Mercury 43
+
+SOL-001 [Modeled] Stable knotted solitons: ring R*=0.856 E=12.08 M_Pl;
+  └─ SOL-002 [Derived] Linking-number conservation under flexible relaxatio
+    └─ FND-012 [Derived] Defect-loop linking = integer Gauss invariant, share
+    └─ GG-003 [Derived] KEYSTONE: Hopf invariant = linking number of preimag
+
+PM-001 [Conjecture] Lepton mass ratios via Koide phase (3+Phi)=4.618 to 
+  └─ PM-002 [Failed] Lepton ratios with the model's own Weinberg angle
+
+EW-001 [Conjecture] Weinberg angle sin2thetaW = 1/(3sqrt2) = 0.2357 from
+
+QB-001 [Derived] Local rope model gives triangle wave, CHSH ≤ 2
+  └─ QB-002 [Derived] Config-counting gives (π−θ)/π, NOT Born cos^2(θ/2)
+    └─ QB-003 [Failed] Present counting form does not reproduce quantum ent
+      └─ QB-005 [Open] Amplitude interference from rope dynamics
+
+QB-004 [Failed] One-loop fluctuation mass mechanism (log-det ≈ -1.29
+
+Status legend: Derived / EFT-constrained / Modeled / Conjecture / Failed / Open

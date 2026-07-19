@@ -1,0 +1,21 @@
+================================================================
+REPRODUCING PRIOR RESULTS THROUGH CANONICAL SOLVER
+================================================================
+
+1. Stable ring knot (rope_computational): R*~0.85, E~12
+  [OK] ring R*: 0.856 (published 0.85, tol 0.1) reproduced
+  [OK] ring E_min: 12.078 M_Pl (published 12.0 M_Pl, tol 1.5) reproduced
+
+2. Hopf link sourced (rope_fullfield_solitons): R*~0.83
+  [OK] Hopf link R*: 0.838 (published 0.83, tol 0.12) reproduced
+
+3. Flexible Hopf link (rope_flexible_hopf): Lk conserved ~1
+  [OK] Hopf |Lk| conserved: 0.991 (published 1.0, tol 0.1) reproduced
+
+4. Higher links (rope_alpha_higher_links): Lk=2,3 conserved
+  [OK] torus Lk=2 conserved: 1.983 (published 2, tol 0.2) reproduced
+  [OK] torus Lk=3 conserved: 2.951 (published 3, tol 0.2) reproduced
+
+================================================================
+REPRODUCTION: 6/6 prior results reproduced
+================================================================
