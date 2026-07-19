@@ -3664,3 +3664,68 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
   dark). Status EFT-constrained; the conjecture remains a conjecture, now with one precisely-specified limb
   and no middle ground. KNOWN_LIMITATIONS Born-rule entry sharpened to the three-part decomposition.
   QB-007 pointer added. Corpus 118/118, 132 claims.
+
+### Addendum (2026-07-18) — QB-007/008 propagated into the documents
+- PLAIN-LANGUAGE GUIDE: new section 'The Mystery of the Single Dot' added before the closing -- the
+  one-dot-at-a-time mystery told honestly, the three-part dissection (whole by topology; where by wave
+  energy; the open third with its number: double-fires ~one-fifth of chance vs the classical floor of
+  chance), the cornered instantaneous-pull-back speculation flagged as speculation, QB-007/008 cited.
+  (Audit note: the guide previously had NO quantum-measurement section -- this is an addition, not an edit.)
+- NONLOCAL-DYNAMICS PAPER: technical addendum 'The Measurement Problem Decomposed' inserted before
+  Appendix A -- the three pieces with statuses, the declared circularity and semiclassical-parallel novelty
+  caveat, g2 >= 1 vs 0.18, v > 1.38e4 c, K_L/K_T >= 1.9e8, the Bancal corner, the P-VOL consistency
+  (explicitly not a confirmation), and both benchmarks named. CHSH wall explicitly stated unchanged.
+  Both docs validated; PDFs regenerated.
+
+### Addendum (2026-07-18) — QB-009: the conservation toy; the cornered limb shown SUFFICIENT
+- The QB-008 named test executed with design discipline: winner-take-all NOT coded in -- first-arrival race
+  at derived rates pays the one indivisible unit; control run = identical draws, budget off. RESULTS (four
+  pre-committed bars met): g2 = 0.0000 on / 0.998 off (mechanism isolated to one bit); 5% contamination
+  gives 0.095, mirroring the measured 0.18's own contamination structure; Born UPGRADED to the exact
+  per-quantum law P(i) = I_i/sum(I) (competing-exponentials identity, verified 6e-4); fringes r = 0.999;
+  no-signaling marginals invariant; CHSH S = 1.416 < 2 -- the two-particle boundary kept, asserted in our
+  own benchmark. Scope: SUFFICIENCY, not truth; QB-008 status unchanged; Bohmian-adjacency registration
+  named as next; the precise open question isolated: can any mesh-native shared budget push S past 2.
+  KNOWN_LIMITATIONS clause updated. Corpus 119/119, 133 claims.
+
+### Addendum (2026-07-18) — QB-010: Bohmian adjacency; the quantum arc closes at its planned stop
+- (i) EXISTENCE PROOF: the cornered limb = de Broglie-Bohm territory (de Broglie 1927; Bohm 1952;
+  Durr-Goldstein-Zanghi 1992) -- preferred-frame instantaneous influence reproducing ALL of QM incl.
+  CHSH; the limb is viable; priority is Bohm's, claimed plainly. (ii) GAP MACHINE-LOCALIZED: identical
+  first-arrival race, one structural change -- physical-space per-particle budget S = 1.418 vs
+  configuration-space joint budget S = 2.833 (circularity of the latter declared): the deficit is WHICH
+  SPACE THE BUDGET LIVES IN, so the summit question equals the known-open reconstruction problem of
+  emergent configuration-space guidance (Norsen 2010). (iii) LEDGER both ways: Bohm has entanglement +
+  decades; the mesh has DERIVED indivisibility (dBB postulates particles), an independently-motivated
+  foliation with K_L/K_T >= 1.9e8, and the g2 contamination match. Nonlocal paper addendum completed with
+  the positioning paragraph. ARC QB-007..010 CLOSED at its planned disciplined stop; further summit work
+  deferred to registered priorities. Corpus 120/120, 134 claims.
+
+### Addendum (2026-07-18) — version bumped to 2.2.2 for the quantum-arc release
+- pyproject.toml, CITATION.cff (version + date-released), README.md (version line, verify badge 116->120,
+  corpus-state line 130/116 -> 134/120) bumped ahead of the v2.2.2 GitHub release so the tagged tree
+  self-describes correctly. Release scope: the complete measurement arc QB-007..QB-010.
+
+### Addendum (2026-07-18) — reviewer tightening on the measurement addendum absorbed
+- PHRASE CONSERVATISM (reviewer's recommendation, correct): the addendum's piece (ii) retitled from 'the
+  single-site Born rate law, derived-in-structure' to 'BENCHMARKED QUADRATIC DETECTION-RATE SCALING under
+  threshold dynamics (weak-field regime)', with the Born-mechanism interpretation stated as CONDITIONAL on
+  the threshold model being the correct physical description of detection -- which is itself part of the
+  conjecture under test, not an established fact. QB-007's registry note mirrors the conditional.
+- STATUS TABLE added immediately after the addendum (the reviewer's 30-second-understanding table): eight
+  measurement components x status x evidence, from derived indivisibility through the gamma = 1 CHSH
+  identification, each row citing its claim ID and numbers. PDF regenerated; validated; corpus 120/120.
+
+### Addendum (2026-07-18) — FND-KIN-001 registered; guide gains 'How Anything Moves at All'
+- OPEN QUESTION REGISTERED after independent convergence (operator's slack-ropes/beads question; external
+  reviewer's four-mechanism analysis and where-did-the-meter-go decomposition): the strand-level kinematics
+  of transport is underived. The registration fixes what the corpus ALREADY constrains -- strand shortening
+  excluded by P-VOL; free reconnection forbidden because charge = linking (GG-006); crowding = the derived
+  contact repulsion; rerouting consonant with derived gravity-as-path-bending -- and states the sharp
+  demand on any future mechanism: DISSIPATIONLESS rearrangement (foam/tissue T1 analogies dissipate;
+  inertia forbids a drifting knot from decelerating). Named next step: a minimal lattice model testing
+  whether linking-preserving rearrangement can be simultaneously dissipationless and crowding-consistent.
+- GUIDE: new section 'How Anything Moves at All' before the single-dot section -- the where-did-the-
+  distance-go question, the fabric-rearrangement picture (with the mountain-road rerouting image tied to
+  the ALREADY-DERIVED gravity mechanism), and the honest limit including the friction-free demand, citing
+  FND-KIN-001. Validated; PDF regenerated. Corpus 120/120, 135 claims.
