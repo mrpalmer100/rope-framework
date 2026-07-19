@@ -13,8 +13,13 @@ therefore **adopted, not derived**, or **open**:
   continuum description of network modes; hbar, the electron mass, and hence the
   absolute atomic scale (Bohr radius, Rydberg, every eV in the chemistry paper) are
   inherited as inputs, not predicted. (Chemistry paper, Section 3.1a.)
-- **The Born rule is OPEN.** Amplitude interference is not produced by a counting model
-  (QB-005, Open); this is a documented boundary, not a solved problem.
+- **The Born rule is OPEN -- now as a three-part decomposition (QB-007/008).** Dot
+  indivisibility is derived from integer topology; the single-site |psi|^2 rate law is
+  derived-in-structure (threshold nucleation, weak-field limit); the irreducible core is
+  spacelike winner-take-all (classical models pinned at g2 >= 1 vs measured ~0.18), whose
+  only escape is cornered to instantaneous constraint propagation in the mesh frame
+  (K_L/K_T >= 1.9e8 demanded; Conjecture). Amplitude interference remains unproduced by a
+  counting model (QB-005); a documented boundary, sharpened, not solved.
 - **Quantum entanglement is RETIRED as an ambition** and preserved as a boundary finding:
   a configuration-counting model provably cannot reproduce CHSH violation. A future
   non-classical rope structure is not claimed impossible; none is claimed to exist.

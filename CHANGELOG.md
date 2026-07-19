@@ -3619,3 +3619,48 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
   `pip install -e ".[dev]"` + `pytest`.
 - Dependency-completeness audit run: all third-party imports in tools/ and rope_solver/ are now declared.
   Corpus 116/116.
+
+### Addendum (2026-07-17) — pytest CI failure fixed (tests were standalone scripts calling sys.exit at import)
+- ROOT CAUSE (external reviewer's diagnosis, correct): tests/test_electromagnetism.py, test_physics.py, and
+  test_validation.py executed their whole body at import and ended in sys.exit(), which pytest treats as an
+  INTERNALERROR during collection ('no tests ran'). The science was passing (40/40, 35/35, 10/10) — only the
+  harness shape was wrong.
+- FIX (reviewer's Option 1, plus a pytest hook): wrapped each module body in main() returning 0/1, added an
+  `if __name__ == "__main__": sys.exit(main())` guard so standalone `python tests/test_X.py` still works
+  unchanged, AND added a thin `test_<sector>_regression()` that asserts `main() == 0` so pytest actually
+  collects and reports a pass (not 'no tests ran').
+- SECONDARY BUG caught and fixed during the wrap: moving the body into main() turned redundant in-body
+  `import numpy as np` statements into function-local declarations that shadowed the module-level np for the
+  lines above them (UnboundLocalError). Removed 4 (EM) + 2 (physics) redundant in-body imports already present
+  at module top. Verified: all three pass standalone (exit 0) AND under a simulated pytest collect/run
+  (import raises no SystemExit; each test_* passes). Corpus verifier still 116/116.
+
+### Addendum (2026-07-18) — QB-006: knot-nucleation decomposition of the measurement problem
+- Session run from the operator's first-principles arc (mesh interference -> dot indivisibility -> resonant
+  absorbers -> integer knots), bars pre-declared, expectation set in advance: decomposition, not solution.
+- (a) INDIVISIBILITY derived from integer topology (homotopy invariance; Hopf Lk = -1 checked; the
+  dim-the-source fact -- same-size dots, less often -- follows). (b) BORN RATE LAW derived-in-structure:
+  threshold nucleation enhancement ~ amplitude^2 (simulated exponent ~2 vs pre-set bar), so single-site
+  rates ~ |psi|^2; one-at-a-time dots rebuild fringes at r > 0.99 (circularity noted: content is the
+  exponent). (d) THE ISOLATED CORE, registered negative: anticorrelation -- classical threshold sites are
+  pinned at g2(0) >= 1 (machine-checked, 2M windows) vs measured ~0.18; winner-take-all needs spacelike
+  wave depletion; the preferred-frame fast channel is the sole native candidate (Conjecture). CHSH boundary
+  unchanged. 'Born rule open' is now three labeled pieces: two closed, one named with a quantitative
+  discriminator. Corpus 117/117, 131 claims.
+
+### Correction (2026-07-18) — duplicate claim ID caught by the verifier and fixed
+- The knot-nucleation decomposition was registered as QB-006, but QB-006 already existed ('Quantum boundary
+  REFRAMED'). Operator error: inserted without checking ID availability; the verifier surfaced the duplicate
+  immediately. Renumbered to QB-007 (benchmark docstring updated to match). Fifth operator catch of the
+  campaign; the loop caught it within one verification cycle.
+
+### Addendum (2026-07-18) — QB-008: depletion-speed bounds; the fast-channel conjecture cornered
+- The QB-007 follow-on, numbers where a hand-wave sat. LADDER (inputs cited): anticorrelation geometry
+  >~10c; Bell timing (Salart 2008; Yin 2013, frames within 1e-3 c of Earth incl. the CMB/mesh candidate)
+  > 1.38e4 c, translating to strand stiffness K_L/K_T >= 1.9e8. CORNER: Bancal 2012 excludes ALL finite
+  speeds (finite-v influence models leak macroscopic signaling), forcing the conjecture onto the
+  instantaneous-constraint limb -- which is the ideal limit of the corpus's OWN P-VOL inextensibility
+  postulate (ideal strings propagate tension instantly; transverse EM stays luminal; longitudinal channel
+  dark). Status EFT-constrained; the conjecture remains a conjecture, now with one precisely-specified limb
+  and no middle ground. KNOWN_LIMITATIONS Born-rule entry sharpened to the three-part decomposition.
+  QB-007 pointer added. Corpus 118/118, 132 claims.
