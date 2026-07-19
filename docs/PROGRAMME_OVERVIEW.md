@@ -55,6 +55,8 @@ Maturity is **computed** from each sector's claim statuses and benchmark coverag
 | Particle Masses | Developing | 5 | 2 | 3 |
 | Gauge Geometry (unification) | Mature | 6 | 5 | 4 |
 | Quantum Boundary (Bell) | Developing | 10 | 3 | 8 |
+| Chemistry (bonding, geometry, dynamics) | Developing | 9 | 2 | 9 |
+| Nuclear Structure | Developing | 8 | 1 | 6 |
 
 ## Suggested reading order
 

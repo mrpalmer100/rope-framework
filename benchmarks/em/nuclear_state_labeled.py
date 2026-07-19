@@ -9,9 +9,13 @@ WHAT PASSES:
 (B1) Be-8 RECOVERED -- the primary target: B/A local maximum at A = 8
      (7.516 vs 7.074 at A = 7 and 9). The second tetrahedron completes its six
      strong bonds because its four members carry all four labels, exactly as
-     the NUC-007 diagnosis predicted.
+     the NUC-007 diagnosis predicted. QUALIFICATION: recovered as an
+     alpha-structured local maximum in B/A, NOT as a stable bound nucleus --
+     physical Be-8 is slightly unbound (~92 keV above two alphas), far below
+     this model's resolution.
 (B4) The A = 4 peak and A = 5 dip survive.
-(B6) BONUS, derived: the SEMF SYMMETRY-ENERGY SIGN. At fixed geometry,
+(B6) BONUS, derived WITHIN the adopted capacity rule (the rule is a model
+     postulate, not yet derived from rope dynamics): the SEMF SYMMETRY-ENERGY SIGN. At fixed geometry,
      balanced label populations strictly beat asymmetric ones
      (2,2,2,2) > (3,3,1,1) > (4,4,0,0) -- unlike-label bonding makes N = Z
      energetically preferred. Direction derived; coefficient not claimed.

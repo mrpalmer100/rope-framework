@@ -3753,3 +3753,15 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
   light-isotope residuals and adjacent to chemistry's hbar-fence -- located independently in three places.
   Honest assessment recorded: the nuclear classical program may be at its natural completion point; the
   remaining structure belongs to the quantum-kinetic layer. Corpus 122/122, 137 claims.
+
+### Addendum (2026-07-19) — nuclear-batch review absorbed: wording conditioned, Be-8 qualified, sector-table bug fixed
+- SECTOR-TABLE BUG (reviewer's catch, and bigger than reported): the registry's sectors block was missing
+  BOTH Nuclear and Chemistry -- two mature campaigns absent from the computed front-door maturity table.
+  Added: Chemistry (bonding, geometry, dynamics) and Nuclear Structure ('Developing: classical layer
+  mature; kinetic/zero-point boundary named'); PROGRAMME_OVERVIEW regenerated with both present.
+- SYMMETRY-ENERGY WORDING conditioned per review: 'derived, WITHIN THE ADOPTED CAPACITY RULE' -- the
+  unlike-label bonding rule is a model postulate, not yet derived from rope dynamics; title and note
+  updated, benchmark docstring mirrored.
+- BE-8 QUALIFICATION added before a reviewer demands it: recovered as an alpha-structured LOCAL MAXIMUM
+  in B/A, NOT as a stable bound nucleus -- physical Be-8 is ~92 keV unbound against two-alpha decay, far
+  below the model's resolution. Claim note + benchmark docstring both state it. Corpus 122/122.
