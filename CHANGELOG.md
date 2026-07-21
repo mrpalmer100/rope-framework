@@ -3787,3 +3787,156 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
   The circularity ban, the standing theorems, the known traps, and the seven operator-error precedents all
   encoded. Honorable failure given equal standing, per GRV-013 precedent. Cross-referenced from
   FND-BOUND-001 and KNOWN_LIMITATIONS. The corpus now ships with its own succession plan. 123/123.
+
+### Addendum (2026-07-20) — chemistry paper: table rendering bug fixed (vertical-text collapse)
+- SYMPTOM: rope_theory_of_chemistry.pdf rendered all 9 tables as vertical text (one character per line).
+- CAUSE: tables had tblW set as percent-type with no tblLayout and no explicit column widths; LibreOffice's
+  PDF converter (stricter than Word) collapsed each column to its minimum width, forcing per-character wrap.
+- FIX: set tblLayout=fixed, tblW as absolute dxa (6.5in usable), and explicit tblGrid + per-cell widths
+  (label column 1.6in, remainder even) on all 9 tables; schema element ordering respected (earlier attempt
+  failed validation on a misplaced w:jc -- caught by validate.py before shipping). Validated PASSED; PDF
+  regenerated and visually verified horizontal on the 5-column tables. docx source + PDF both updated.
+  Corpus unaffected (120... ) -- content unchanged, formatting only.
+
+### Addendum (2026-07-20) — rope_electricity: removed duplicate programme-credit line
+- The paper carried the "Programme credit: ... Bill Gaede ... Claude (Anthropic) ..." line twice at the
+  end (paragraphs 40 and 42, with an empty paragraph between). Removed the duplicate and the stray empty
+  paragraph; one credit line remains. Content otherwise unchanged; validated PASSED; PDF regenerated.
+
+### Addendum (2026-07-20) — plain-language guide: table rendering fixed (all 18) + garbled sentence repaired
+- TABLE COLLAPSE: all 18 guide tables had percent-type width with no fixed layout / no column widths, the
+  same defect fixed earlier in the chemistry paper -- LibreOffice collapsed columns to per-character width
+  (the "vertical text" in section 11 and elsewhere). Applied tblLayout=fixed + explicit dxa widths (label
+  column 2.0in, description gets the remainder) across all 18; schema-ordered inserts; validated PASSED;
+  PDF regenerated and verified horizontal.
+- GARBLED SENTENCE (Chemistry, "Standing Waves around a Nucleus", para 98): "...aren't tiny balls circling
+  like planets way a guitar string doesn't move at random..." had words missing/mangled. Rewritten:
+  electrons aren't tiny balls circling like planets -- they behave the way a guitar string does, settling
+  into specific standing-wave patterns. Content/meaning preserved, grammar repaired.
+
+### Addendum (2026-07-20) — entanglement boundary statement sharpened (verdict unchanged: retired, not open)
+- The "entanglement RETIRED as an ambition" statement in KNOWN_LIMITATIONS.md and docs/PAPERS.md was
+  accurate but understated post-arc. Sharpened to reflect QB-007--010: single-particle statistics
+  (indivisibility, Born rate law, anticorrelation) reproduced or cornered; the residual gap localized to
+  configuration-space guidance, which even Bohmian theories postulate rather than derive; the CHSH
+  impossibility given its receipts (QB-003 Failed, QB-005 negative, the S = 1.42 vs 2.83 identical-race
+  benchmark). VERDICT UNCHANGED: still 'retired,' not 'open' -- the counting model provably cannot cross
+  the wall, and calling it 'open' would overclaim an active solution attempt the corpus is not making.
+  The escape-hatch clause (a future non-classical structure not claimed impossible; none claimed to exist)
+  is preserved. Wording/documentation only; no claim status changed; corpus 123/123.
+
+### Addendum (2026-07-20) — ontology.md: electricity three-quantity fix + entanglement line corrected
+- ELECTRICITY (operator's catch): the line "Electricity and charge are linking numbers" was accurate for
+  charge but silently implied it covered electricity whole -- flattening the three distinct quantities the
+  registry actually derives. Expanded: CHARGE = linking number (integer topological invariant, EM-001);
+  CURRENT = transported linking, the rate the invariant moves via the screw mechanism (EM-008/014), a flux
+  not the invariant; VOLTAGE = the longitudinal tension field driving transport (EM-016). Only charge is
+  topological; current and potential are separate mechanical quantities. The line now reflects (and shows
+  off) structure the corpus already had.
+- ENTANGLEMENT (caught in the same pass): the adjacent line "a shared rope wave... not spooky action"
+  flatly contradicted the QB-003/005 boundary stated everywhere else. Corrected to the registered position:
+  a counting model provably cannot reproduce CHSH; the shared-rope connection is the intuition reached for,
+  not a claim that works; single-particle statistics mapped (QB-007-010), two-particle correlation beyond
+  the classical model; retired as ambition, preserved as limit. Documentation only; corpus 123/123.
+
+### Addendum (2026-07-20) — rope_electricity: moved awkward front-matter credit to the end
+- The paper carried TWO different credit lines: a short "Programme credit:" attribution awkwardly placed
+  in the title block (para 7, "...due to Bill Gaede; this work develops and formalises it") and the proper
+  fuller end credit (para 40). Removed the front-matter one and folded its distinctive "develops and
+  formalises it" clause into the end credit, so the full attribution now sits once, at the end, where it
+  belongs. (Distinct from the earlier fix, which removed a duplicated COPY of the end credit.) Validated;
+  PDF regenerated.
+
+### Addendum (2026-07-20) — rope_electricity: credit moved to the true end (after the Registered Claims block)
+- The consolidated credit sat before the "Registered Claims in This Paper" block, so the paper ended on the
+  claims list with the credit stranded above it. Moved the credit paragraph to the very end, after the
+  registered-claims list. Validated; PDF regenerated.
+
+### Addendum (2026-07-20) — corpus-wide credit-placement sweep: 40 papers fixed
+- SYSTEMATIC ISSUE (found by the credit-placement sweep): 40 of 52 papers carried a batch-generation
+  artifact -- a short "Programme credit" line in the front matter (paragraph 4) PLUS a duplicate full
+  credit later, and in the ~20 papers that had received "Registered Claims in This Paper" blocks, the
+  credit sat BEFORE that block, stranding it mid-document. (rope_parameter_count and rope_qpt had THREE
+  credit lines each.) rope_electricity was the only clean paper (hand-fixed earlier).
+- CANONICAL FIX applied uniformly: removed all front-matter and duplicate credits; placed exactly one
+  credit -- the full form ("...due to Bill Gaede; this work develops and formalises it. Computational
+  collaboration and drafting by Claude (Anthropic). Correspondence to palmer100@gmail.com.") -- as the
+  very last paragraph, after any Registered Claims block. All 40 re-verified (one credit, last paragraph),
+  validated PASSED (40/40), PDFs regenerated (40/40). 12 papers correctly skipped (11 had no credit line,
+  1 already clean). Content otherwise unchanged; corpus 123/123.
+
+### Addendum (2026-07-20) — QB-011: gamma = 1 identified; the nonlocal paper's open item closes
+- THE SESSION SECTION 7 REQUESTED, both outcomes pre-committed (gamma = 1 confirming, gamma != 1
+  falsifying). RESULT: gamma = 1, by three independent machine-checked constraints. (1) STRUCTURE, exact:
+  the spinor coordinatization of the Hopf bundle (GG-003) puts the half base-angle in the channel
+  amplitude; an ENERGY detector squares it, |cos(theta/2)|^2 = (1+cos theta)/2 -- linear in the full
+  base cosine, fibre-blind to 1e-15: the irreversible energy measurement projects onto the S^2 base, not
+  the fibre. (2) CONSISTENCY, theorem: relabeling antisymmetry + 2pi periodicity force gamma ODD INTEGER;
+  gamma = 1/2 and all even gamma fail a priori. (3) DYNAMICS: gamma = p/2; paired-CRN-ensemble Kramers
+  measurement gives p = 1.97-2.01 -> gamma ~ 1, excluding gamma = 3 (p = 6). Paper's fixed-angle map
+  reproduced (S(1/2) = 2.389, the quoted 2.39). HONEST CORRECTION registered: free-angle CHSH-max is
+  gamma-INVARIANT under rescaling -- CHSH-max was never the discriminator; the sharp tests are consistency
+  and the angle law itself (E(90deg) = 0 vs -0.707). Conditional caveat inherited from QB-007 (threshold
+  model); structure and consistency limbs unconditional. SCOPE: does NOT cross the CHSH wall -- the
+  nonlocal conditional (QB-010's configuration-space object) remains the sole import; QB-003/005
+  unchanged. Paper: addendum added; status-table row 'CHSH correlation' moved from Partial/open to
+  'gamma identified'. SESSION HYGIENE: the original single-walker escape design produced a non-positive
+  small-amplitude enhancement on rerun (nan log-fit) -- replaced with a 96-walker common-random-number
+  paired ensemble; a duplicated QB-011 registration from a timed-out tool call was caught by grep count
+  and excised before verify. Corpus 124/124, 139 claims.
+
+### Addendum (2026-07-20) — glossary refreshed for the quantum-measurement arc (option-2 scope)
+- CORRECTNESS FIX: the Born-rule, pilot-wave, and quantum-equilibrium entries implied the rope model
+  ACHIEVES quantum correlations. Softened to match the registered boundary: the Born entry now carries the
+  QB-007 threshold-model conditional; both quantum-equilibrium entries now state that equilibrium is an
+  imported CONDITION of pilot-wave accounts, not something the rope model derives, and that the
+  counting form provably cannot cross CHSH.
+- FOUR NEW SECTION-13 ENTRIES capturing the month's headline work: ENTANGLEMENT (the registered boundary,
+  with the S = 1.42 vs 2.83 localization); CHSH BOUNDARY (the wall, form-reproduced only with the nonlocal
+  conditional); MEASUREMENT DECOMPOSITION (indivisibility derived, Born rate conditional, anticorrelation
+  the g2 core); GAMMA IDENTIFICATION (gamma = 1 by three constraints, with an explicit note disambiguating
+  it from the Lorentz factor and the twist-stretch locking gamma that share the symbol). Footer 133 -> 137
+  terms, Version 4 arc addendum. Validated; PDF regenerated. Corpus 124/124 (glossary carries no claims).
+
+### Addendum (2026-07-20) — version bumped to 2.2.3 for release
+- pyproject.toml, CITATION.cff (version + date-released 2026-07-20), README.md (version, verify badge
+  120->124, corpus-state line 134/120 -> 139/124) bumped ahead of the v2.2.3 GitHub release. Release scope:
+  the nuclear rebuild (NUC-007/008), the one-fence synthesis (FND-BOUND-001) + future-model directive, the
+  gamma=1 identification (QB-011), and the documentation sweep (40-paper credit fix, table fixes, ontology
+  + glossary + entanglement-language corrections).
+
+### Addendum (2026-07-20) — rope_electricity: added Current and Voltage sections (paper now matches its title + ontology)
+- GAP (operator's catch): the paper titled "Electricity in the Rope Framework" covered only charge, the
+  Coulomb field, EM constants, and Maxwell -- no current or voltage sections -- while the ontology (just
+  corrected) advertises current and voltage as distinct derived quantities. Resolved at the root by adding
+  the exposition, built on already-registered/benchmarked claims (no new physics):
+  - Section 5 "Current as Transported Linking": current = flux of the linking invariant via the helix
+    screw mechanism; the continuity result (EM-008) collapsing charge conservation, div J = 0, and
+    closed-loop into one condition; screw type/sign and power delivery (EM-009, EM-014).
+  - Section 6 "Voltage as the Tension Field": potential = longitudinal strand tension (why voltage is not
+    a linking number); the three-quantity account (charge topological / current its flux / voltage the
+    tension field); the field-tensor dictionary mapping to phi, A, F_munu, (E,B) (EM-016), with the
+    Modeled calibration caveat stated.
+  Status heading renumbered to 7; the four claims (EM-008/009/014/016) appended to the paper's Registered
+  Claims list (their registry paper-anchors unchanged -- primary homes retained). Credit remains last;
+  validated; PDF regenerated. Corpus 124/124.
+
+### Addendum (2026-07-20) — glossary: corrected stale byline date and count
+- Byline "June 2026" -> "July 2026" (the glossary was updated this month for the measurement arc). Also
+  fixed two leftovers in the intro paragraph: term count 133 -> 137, and the stale "added in this version
+  (v3)" note clarified to reflect the v4 quantum-arc addendum. Validated; PDF regenerated.
+
+### Addendum (2026-07-20) — summary-document consistency sweep (prose staleness)
+- Focused pass over the hand-written (non-machine-checked) summary docs for prose the recent arcs outdated.
+  Counts/dates/versions were already current (README + OVERVIEW auto-regenerated; glossary date fixed
+  prior). Three genuine prose-staleness spots corrected:
+  (1) README scope blurb + honesty paragraph: the flat "cannot produce amplitude interference / Born rule,
+      entanglement, Pauli as undifferentiated limits" sharpened to reflect the measurement arc
+      (QB-007-011): single-particle statistics mapped, gamma = 1 identified, boundary localized not
+      crossed, Pauli still Conjecture.
+  (2) PAPERS.md non-local paper blurb: "one angle map (gamma=1); honestly reported as OPEN" -> gamma is
+      IDENTIFIED (QB-011, three constraints); residual import = the nonlocal conditional alone.
+  (3) PAPERS.md nuclear paper blurb: listed only NUC-001/002/003 -> now reflects NUC-004 (Yukawa),
+      NUC-005/006 (mass predictions, SEMF), and the NUC-007/008 rebuild (alpha peak, Be-8, symmetry sign)
+      as one face of the one-fence boundary; sector maturity Developing.
+  Documentation only; corpus 124/124.
