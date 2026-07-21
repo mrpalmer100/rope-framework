@@ -3940,3 +3940,11 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
       NUC-005/006 (mass predictions, SEMF), and the NUC-007/008 rebuild (alpha peak, Be-8, symmetry sign)
       as one face of the one-fence boundary; sector maturity Developing.
   Documentation only; corpus 124/124.
+
+### Addendum (2026-07-20) — README: added a CONTRIBUTE path alongside the criticize path
+- The landing page invited criticism ("Reviewer or skeptic?") but named no path for people who want to
+  BUILD. Added a "Want to contribute?" bullet to Start here (pick an Open registry problem -- chemistry
+  tail-asymmetry charges, FND-KIN-001 transport, the two Lean-formalization theorems -- or take the
+  standing FUTURE_MODEL_PROMPT_one_fence challenge; submit as claim + rerunnable benchmark, no hidden
+  fitted parameters). Rebalanced the bottom "Contributing and criticizing" section to present building and
+  criticizing as first-class equals rather than criticism-only. Documentation only; corpus 124/124.
