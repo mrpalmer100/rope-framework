@@ -36,7 +36,7 @@ The corpus is organised in three tiers: **(1) In-domain** classical results (the
 
 - **Dynamics of Non-Local Rope Correlations** 📄
   `rope_nonlocal.js` -> `docs/rope_nonlocal_dynamics.docx`  
-  *PARTIAL RESULT: local model falsified; non-local update reproduces −cos(a−b) + Tsirelson + no-signalling, but the conditional is imposed; whole viability reduces to one angle map (gamma=1). Honestly reported as open.*
+  *PARTIAL RESULT: local model falsified; non-local update reproduces −cos(a−b) + Tsirelson + no-signalling, but the conditional is imposed; whole viability reduces to one angle map. As of QB-011 that angle is IDENTIFIED (γ = 1, by three independent constraints — energy detection projects onto the Hopf S² base, relabeling consistency forces γ odd, the threshold exponent selects 1); the residual import is now the nonlocal conditional alone. Does not cross the CHSH wall.*
 
 - **Renormalization and Effective Field Theory of the Rope Medium** 📄
   `rope_eft_rg.js` -> `docs/rope_renormalization_eft.docx`  
@@ -228,7 +228,7 @@ The corpus is organised in three tiers: **(1) In-domain** classical results (the
   `rope_coherence.js`
 
 ## Chemistry, Nuclear & Black Holes
-- **Nuclear Physics in the Rope Framework** ✅ *shipped* — strong force as rope-bundle contact (atomic contact scaled ~1e5); quarks as confined fractional sub-knots summing to integer winding; nuclear binding as rope-mode overlap (Fe-56 peak); alpha/beta/gamma decay mechanisms. Atomic masses reproduced <0.1% from nucleon-knot count minus binding (NUC-001). Claims NUC-001/002/003; benchmark benchmarks/em/atomic_mass_from_nucleons.py.
+- **Nuclear Physics in the Rope Framework** ✅ *shipped* — strong force as rope-bundle contact; nuclear binding as rope-mode overlap. Atomic masses reproduced <0.1% from nucleon-knot count minus binding (NUC-001); Yukawa form derived (NUC-004); masses predicted C-12 to U-238 (NUC-005) with SEMF volume/surface from bundle geometry (NUC-006). The mode-capacity rebuild (NUC-007/008) reinstates the alpha peak and A=5 instability, resolves the surface/volume ratio (2.05→1.17 vs 1.16), recovers Be-8 as an alpha-structured local maximum, derives the SEMF symmetry-energy sign, and names the residual miss (alpha-multiple periodicity) as a kinetic/zero-point omission — one face of the one-fence boundary (FND-BOUND-001). Sector maturity: Developing.
   `docs/rope_nuclear_physics.docx`
 - **Chemistry in the Rope Framework** ✅ *shipped* — atomic structure, bonding, and molecular geometry from rope network modes. Hydrogen rope-mode equation identical to the hydrogen Schrödinger equation (Eₙ=−13.6/n² eV, orbital shapes); shell filling 2n²; covalent/ionic/metallic/H-bonding; sp/sp²/sp³ hybridisation; electronegativity as nuclear tension; a proposed Pauli mechanism. Honest three-level scope (clean / needs-rope-math / open). Shell-counting reproduced by benchmarks/em/periodic_shell_counting.py (claim CHEM-STRUCT-001).
   `docs/rope_theory_of_chemistry.docx`
