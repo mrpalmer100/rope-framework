@@ -41,8 +41,8 @@ status `Open` is an invitation; the current set includes:
   between the model and quantum correlations (see the measurement arc, QB-007–011).
 - **FND-KIN-001 — kinematics of transport.** How a knot moves through the inextensible
   mesh without dissipation; a minimal lattice model would move this.
-- **CHEM (tail-asymmetry charges), the chemistry sector's next-order** — a blind
-  derivation of the F/O bond-angle ordering.
+- **The reaction-coherence fraction** — CHEM-DYN-002's registered next step: where
+  between the coherent and incoherent sharing brackets the physical system sits.
 - **FND-MATTER-003 — the absolute scale**, and **GRV-012** — the standing gravity
   verdict. The hardest, and the subject of the standing challenge below.
 
