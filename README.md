@@ -1,11 +1,11 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21430784.svg)](https://doi.org/10.5281/zenodo.21430784)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Verify](https://img.shields.io/badge/verify-116%2F116%20passing-brightgreen.svg)](#verify-it-yourself)
+[![Verify](https://img.shields.io/badge/verify-120%2F120%20passing-brightgreen.svg)](#verify-it-yourself)
 [![verify-corpus](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml/badge.svg)](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml)
 
 # rope-framework
 
-**Published:** [https://doi.org/10.5281/zenodo.21430784](https://doi.org/10.5281/zenodo.21430784) · **Author ORCID:** [https://orcid.org/0009-0007-2454-5573](https://orcid.org/0009-0007-2454-5573) · **Version:** 2.2.1
+**Published:** [https://doi.org/10.5281/zenodo.21430784](https://doi.org/10.5281/zenodo.21430784) · **Author ORCID:** [https://orcid.org/0009-0007-2454-5573](https://orcid.org/0009-0007-2454-5573) · **Version:** 2.2.2
 
 A machine-verified development of the Rope Hypothesis — a classical, mechanical model in which matter and light are configurations of physical filaments — into falsifiable, independently checkable form.
 
@@ -13,7 +13,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 
 > **Scope (read first):** The Rope Hypothesis is a *classical, configuration-counting* model. It is strongest in electromagnetism, optics, and the mechanical sectors; its classical weak-field gravity is **falsified under stated assumptions** (kept as a finding, not hidden); and it **provably does not reproduce quantum entanglement** in its present form (a counting model cannot produce amplitude interference; a future non-classical rope structure is not claimed impossible). Nothing is hidden — see [`KNOWN_LIMITATIONS.md`](KNOWN_LIMITATIONS.md).
 
-> **Corpus state:** 130 registered claims (69 Derived, 39 Modeled, 3 EFT-constrained, 4 Conjecture, 8 Open, 7 Failed-and-kept); 116 code-backed, all passing; 57 papers. Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
+> **Corpus state:** 134 registered claims (69 Derived, 42 Modeled, 4 EFT-constrained, 4 Conjecture, 8 Open, 7 Failed-and-kept); 120 code-backed, all passing; 57 papers. Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
 
 ## Start here
 

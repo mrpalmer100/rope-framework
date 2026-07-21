@@ -21,9 +21,16 @@ therefore **adopted, not derived**, or **open**:
   (K_L/K_T >= 1.9e8 demanded; Conjecture -- demonstrated SUFFICIENT for g2 ~ 0 in a
   conservation toy, QB-009, with CHSH still failing: sufficiency, not truth). Amplitude interference remains unproduced by a
   counting model (QB-005); a documented boundary, sharpened, not solved.
-- **Quantum entanglement is RETIRED as an ambition** and preserved as a boundary finding:
-  a configuration-counting model provably cannot reproduce CHSH violation. A future
-  non-classical rope structure is not claimed impossible; none is claimed to exist.
+- **Quantum entanglement is RETIRED as an ambition** and preserved as a boundary finding,
+  now mapped in detail (QB-007 through QB-010): the single-particle statistics --
+  indivisibility (derived from integer topology), the Born rate law (threshold nucleation),
+  and single-photon anticorrelation -- are reproduced or cornered, and the residual gap is
+  localized precisely to configuration-space guidance, which even pilot-wave (Bohmian)
+  theories postulate rather than derive from physical-space mechanics. A configuration-counting
+  model provably cannot reproduce CHSH violation (QB-003 Failed; QB-005 negative; the
+  identical-race benchmark gives S = 1.42 in physical space vs 2.83 only when the
+  configuration-space object is imported by hand). A future non-classical rope structure is
+  not claimed impossible; none is claimed to exist.
 - **Pauli exclusion is INCOMPLETE** (Conjecture-level spin-mode-saturation proposal); the
   contact core supplies a mechanical steric repulsion that partially routes around it.
 - **He-4 absolute binding is a declared FAILURE** of the classical nuclear model; the
