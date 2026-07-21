@@ -4025,3 +4025,53 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
   as structural observation, NOT a prediction (no absolute a, FND-MATTER-003). FND-KIN-001 stays Open,
   sharpened; named next-order: 2D/3D linking + crowding. Guide's honest-limit paragraph updated with the
   answer. Corpus 127/127, 142 claims.
+
+### Addendum (2026-07-20) — CHEM-HB-005: derived charges; the F/O inversion maximally isolated (bar FAILED 2-of-3)
+- The CHEM-HB-004 registered fix path, executed against its cross-session pre-committed bar (all in band
+  AND ordering O>F>N AND S-S sign). DERIVATION, corpus-native: delta = d_eps/sqrt(d_eps^2+4t^2) -- the
+  CHEM-DYN-001 coherent-sharing eigenvector at unequal wells -- with t computed field-level (normalized
+  basis, frozen xi table, H-calibrated T) and eps = declared valence-orbital binding energies replacing
+  the arbitrary chi-functional. Reconstruction fidelity verified first (rebuilt pipeline = HB-004 stored
+  values to 3 decimals). VERDICT: 2 of 3 limbs -- all-in-band PASS (F 0.440, O 0.223 vs 0.217 near-exact,
+  N 0.074: nitrogen in band for the FIRST TIME in the chain), S-S sign PASS (stabilization excess > 0,
+  monotone), ordering FAIL (F > O persists). THE PRODUCT: fluorine's derived charge lands exactly on the
+  Pauling value (0.548 vs 0.547) by an independent route while the same route repairs O and N -- so the
+  charge is right and F's 2.2x overshoot is NOT a charge error. Fourth consecutive F/O failure
+  (HB-002/003/004/005): the inversion is isolated as short-range closed-shell/overlap saturation at the
+  2.72 A contact, hbar-adjacent, beyond any point-charge electrostatics. Session corrections logged:
+  normalized-basis convention bug caught in-session (identifiable a priori, not outcome-tuned); F-lobe
+  azimuth recovered against HB-004's stored output (same azimuth both maps). The Pauling functional is
+  retired as the load-bearing input. Corpus 128/128, 143 claims.
+
+### Addendum (2026-07-20) — FND-013 CLOSED: flux tubes are unit-quantized defect lines (Open -> Derived)
+- One of the corpus's oldest Open items ('stated open bridge... would require settling core
+  singular-vs-smooth'), closed by the FND-007..016 defect toolkit built after it was registered. Four
+  limbs, bars pre-committed: (B1a) discrete Stokes EXACT on arbitrary fields -- defect-free smooth winding
+  carries ZERO flux; flux is necessarily carried by defect lines. (B1b) unit quantization forced at the
+  cell level (bounded bond angles, the FND-016 mechanism): no plaquette carries |winding| >= 2; the
+  charge-2 ansatz reads as two adjacent unit cores. (B2) same-sign tubes repel (monotone 60.3 -> 42.8
+  across d=4..64); under overdamped descent the cores DO NOT move (separation preserved exactly despite
+  the downhill landscape) -- identified as Peierls-Nabarro cell-trapping, FND-KIN-002's phenomenon
+  reappearing unprompted in 2D, encoded as a positive assertion. (B3) far-field slope = pi K N^2 to three
+  digits (ratios 4.00, 9.00): the quadratic cost driving multi-quantum instability -- the type-II
+  structure, derived. (B4) unit core = FND-014's universal 5.448 K. The registered question's answer: the
+  core is neither singular nor smooth-spread -- it is the finite universal derived object, and flux is
+  quantized in units with mutual repulsion. Session note: the initial dynamic-splitting design expected
+  separation; the diagnostic identified lattice pinning rather than confinement -- strengthening the
+  cross-sector hierarchy (discrete defects pinned at mesh scale, mobile toward the continuum). Paper
+  anchor rope_defect_topology_3d. Open 9 -> 8; Derived 69 -> 70. README/CONTRIBUTING open-problem lists
+  refreshed (tail-asymmetry executed -> coherence fraction). Corpus 129/129, 143 claims.
+
+### Addendum (2026-07-20) — CHEM-DYN-003: the field-level reaction-dynamics program completed
+- The rounding-out session, framed as such (the lowest-yield quick-win, run to extract its real content).
+  THREE RESULTS: (1) catalysis shape-independence upgraded from observation to DERIVATION -- the
+  capacity-donation barrier minimizes over the reachable amplitude range, so field amplitudes reproduce
+  the analytic 1-(1+kappa)^2/8 to FOUR DECIMALS at every kappa (0.8750 -> 0.5000), catalyst returned
+  unchanged. (2) Hammond emerges as a THRESHOLD, not a gradient: thermoneutral saddle symmetric; any
+  asymmetry rr <= 0.9 jumps the TS maximally early (the Hammond extreme). (3) BEP with the surprise
+  straight: fwd barriers strictly monotone in rr and ZERO within resolution for every exothermic case --
+  exothermic steps are BARRIERLESS in this surface; the +0.0122 barrier belongs to the thermoneutral
+  exchange alone; rev = fwd - dH exactly. Caveat stated: the surface lacks entrance-channel contact
+  structure; direction and extreme captured, not asymmetric barrier magnitudes. The sector's classical
+  dynamics program (CHEM-DYN-001/002/003) is complete; rates/tunneling/coherence = hbar-layer. Paper
+  section extended. Corpus 130/130, 144 claims.
