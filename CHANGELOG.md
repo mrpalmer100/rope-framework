@@ -4010,3 +4010,18 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
   kinetic/zero-point omission stands ALONE for the baseline (one face of FND-BOUND-001). Alpha physics is
   now classically complete: A=4 peak, A=5 instability, Be-8 maximum, C-12 three-alpha ground state -- one
   constant, one capacity rule. Corpus 126/126, 141 claims.
+
+### Addendum (2026-07-20) — FND-KIN-002: the transport toy; the dissipation tension resolved by an exponential hierarchy
+- The minimal lattice model FND-KIN-001 called for (the foundations analogue of the QB-009 toy), bars
+  pre-committed. FINDINGS: (B1) winding exactly conserved -- rearrangement carries topology without
+  creating/destroying it. (B2) the pattern travels, the medium does not: 185 sites crossed while every
+  site displaces at most ~2pi. (B3) BOTH registered intuitions right, on opposite sides of an exponential
+  hierarchy: the Peierls-Nabarro microbarrier makes rearrangement dissipative at lattice scale -- at
+  w=0.8a the kink radiates and SELF-TRAPS after 8 sites (the foam limit) -- while the barrier falls
+  log-linearly over seven orders (r^2=0.999, suppression 2e7) and dynamical velocity loss drops ~1e16 by
+  w=2.0 (185 sites, loss at the 1e-3 floor): dissipationless drift is the continuum-limit property,
+  protecting inertia to exponential accuracy for knots much wider than the mesh (FND-MATTER-001). (B4)
+  energy budgets closed (1e-4..1e-6): the loss is genuine phonon radiation. Residual-drag signature noted
+  as structural observation, NOT a prediction (no absolute a, FND-MATTER-003). FND-KIN-001 stays Open,
+  sharpened; named next-order: 2D/3D linking + crowding. Guide's honest-limit paragraph updated with the
+  answer. Corpus 127/127, 142 claims.
