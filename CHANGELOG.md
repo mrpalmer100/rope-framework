@@ -3997,3 +3997,16 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
   inherit Normal); all three validated PASSED; PDFs regenerated; post-fix rendering verified (zero
   bullet-only lines; magnetism's Quantity table renders correctly). Remaining 53 papers confirmed clean.
   Corpus 125/125.
+
+### Addendum (2026-07-20) — NUC-009: the A=12 geometry suspect confirmed; the model discovers the three alphas
+- The NUC-008 secondary suspect's dedicated test, bars pre-committed, fairness constraint first (candidate
+  geometries expanded SYMMETRICALLY for every A; same labels, lambda, one constant). CONFIRMED: A=12
+  becomes a local maximum (7.824 < 8.351 > 8.072, robust lambda 0.20-0.30). STRONGER THAN ASKED: the
+  winning configuration was DISCOVERED by greedy max-contact attachment, not hand-placed -- it decomposes
+  into exactly three disjoint geometric tetrahedra with all 18 strong bonds intra-quartet (the hand-built
+  minimal-contact triangle scores lower). Be-8 and A=4/5 unchanged (A=9 ground state computed: 7.467);
+  A=16 stays compact-driven (four-alpha loses; weak-evidence flag retained); 13-16 absolute overbinding
+  persists as pre-declared. DIAGNOSIS LEDGER RESOLVED: geometry accounts for the A=12 periodicity; the
+  kinetic/zero-point omission stands ALONE for the baseline (one face of FND-BOUND-001). Alpha physics is
+  now classically complete: A=4 peak, A=5 instability, Be-8 maximum, C-12 three-alpha ground state -- one
+  constant, one capacity rule. Corpus 126/126, 141 claims.
