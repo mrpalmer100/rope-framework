@@ -2,8 +2,8 @@ cff-version: 1.2.0
 doi: 10.5281/zenodo.21430784
 title: "rope_solver: A Computational Toolkit for Rope Solitons"
 message: "If you use this software, please cite it as below."
-version: 2.2.2
-date-released: 2026-07-18
+version: 2.2.3
+date-released: 2026-07-20
 authors:
   - family-names: Palmer
     given-names: Mark
