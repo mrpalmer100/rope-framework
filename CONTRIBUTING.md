@@ -1,7 +1,10 @@
 # Contributing / Criticizing
 
-This is a falsifiable research programme. Rigorous criticism is the most valuable
-contribution you can make, and this repository is set up to receive it.
+This is a falsifiable research programme, open to two kinds of contribution: **building**
+(new derivations, benchmarks, and closed open-problems) and **criticism** (finding where it
+breaks). Both are first-class, and this repository is set up to receive both. Rigorous
+criticism is especially valued because the method is built to invite it — but new results
+that extend the corpus are equally welcome, under the same one rule: no hidden fitted parameters.
 
 ## Before anything else
 
@@ -22,6 +25,49 @@ pytest                      # run the regression tests
 pip install -e .
 python tools/verify_corpus.py     # ~90s on a laptop; exit 0 iff all benchmarks pass
 ```
+
+## To contribute a result
+
+New derivations and benchmarks are welcome, not only bug reports. A contribution is
+accepted on the same terms every existing claim meets: a status-labelled entry in the
+registry backed by a benchmark that reruns on a laptop, with **no hidden fitted
+parameters** (a `Derived` claim that secretly needs a tuned constant is the one thing
+the methodology exists to prevent).
+
+**Where the open problems are.** The registry is the to-do list. Every claim with
+status `Open` is an invitation; the current set includes:
+
+- **QB-005 — amplitude interference from rope dynamics.** The one object standing
+  between the model and quantum correlations (see the measurement arc, QB-007–011).
+- **FND-KIN-001 — kinematics of transport.** How a knot moves through the inextensible
+  mesh without dissipation; a minimal lattice model would move this.
+- **CHEM (tail-asymmetry charges), the chemistry sector's next-order** — a blind
+  derivation of the F/O bond-angle ordering.
+- **FND-MATTER-003 — the absolute scale**, and **GRV-012** — the standing gravity
+  verdict. The hardest, and the subject of the standing challenge below.
+
+Browse them all with `grep "status: Open" claims.yaml`, or read the issue templates in
+[`docs/SUGGESTED_ISSUES.md`](docs/SUGGESTED_ISSUES.md). The single largest open target
+is **[`docs/FUTURE_MODEL_PROMPT_one_fence.md`](docs/FUTURE_MODEL_PROMPT_one_fence.md)** —
+derive the quantum-kinetic layer that four sectors triangulate (FND-BOUND-001).
+
+**How to submit.** In order of preference:
+
+1. **Pull request** (preferred). Fork the repo, add your claim to `claims.yaml` (use
+   `tools/add_claim.py`; never hand-edit the whole file), add your benchmark under
+   `benchmarks/<sector>/`, and confirm `python tools/verify_corpus.py` exits 0. Open the
+   PR against `main`; CI runs the full verifier on your branch.
+2. **Issue with a patch or gist**, if you can't open a PR — include the benchmark code
+   and the claim text, and note which `Open` problem it addresses.
+3. **Email** for anything not yet code-ready (a derivation sketch, a partial result, a
+   question about scope): **palmer100@gmail.com**. Correspondence is welcome before the
+   work is benchmark-ready.
+
+A contribution that **closes** an open problem, **registers a new negative result**
+(a clean falsification, kept as a finding), or **formalizes a load-bearing theorem**
+(the Γ-convergence homogenization or the gravity metric-order no-go, both slated for
+Lean) is worth as much as a derivation. Honorable failure has equal standing here — the
+registry treats a sharp impossibility proof exactly like a success.
 
 ## To report a problem
 

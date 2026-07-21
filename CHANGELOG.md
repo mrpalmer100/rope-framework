@@ -3948,3 +3948,14 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
   standing FUTURE_MODEL_PROMPT_one_fence challenge; submit as claim + rerunnable benchmark, no hidden
   fitted parameters). Rebalanced the bottom "Contributing and criticizing" section to present building and
   criticizing as first-class equals rather than criticism-only. Documentation only; corpus 124/124.
+
+### Addendum (2026-07-20) — CONTRIBUTING.md: added a 'To contribute a result' section
+- The file titled "Contributing / Criticizing" gave actionable steps only for reporting problems; a would-
+  be contributor had no idea where a derivation goes. Added a "To contribute a result" section (placed
+  before "To report a problem" so building leads): acceptance terms (claim + laptop-rerunnable benchmark,
+  no hidden fitted parameters); WHERE THE OPEN PROBLEMS ARE (real registry Open claims -- QB-005,
+  FND-KIN-001, chemistry tail-asymmetry, FND-MATTER-003, GRV-012 -- plus the FUTURE_MODEL_PROMPT
+  challenge); and HOW TO SUBMIT (1: pull request against main, CI runs the verifier; 2: issue + patch/gist;
+  3: email palmer100@gmail.com for pre-benchmark work). Notes that closing an open problem, registering a
+  clean negative, or Lean-formalizing a theorem count equally, with honorable failure at equal standing.
+  Intro rebalanced: building and criticism both first-class. Documentation only; corpus 124/124.
