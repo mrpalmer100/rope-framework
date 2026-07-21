@@ -3959,3 +3959,30 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
   3: email palmer100@gmail.com for pre-benchmark work). Notes that closing an open problem, registering a
   clean negative, or Lean-formalizing a theorem count equally, with honorable failure at equal standing.
   Intro rebalanced: building and criticism both first-class. Documentation only; corpus 124/124.
+
+### Addendum (2026-07-20) — CHEM-DYN-002: the barrier survives the derived functional (field-level confirmation)
+- The session CHEM-DYN-001 pointed at, bars pre-committed. CHEM-DYN-001's barrier results rested on
+  exponential-hopping ANSATZ amplitudes; the frozen EM-RECON-006 functional had never been run along a
+  reaction coordinate. Anti-tuning design: amplitudes |A(r)| computed from the frozen functional (declared
+  profiles, frozen calibrations); pair-repulsion + third-body structure inherited UNCHANGED as the
+  CORE-CONDITIONAL element; d0 anchor already in corpus use; nothing new invented. ALL FOUR BARS PASSED:
+  coherent barrier +0.0122 De (ansatz 0.0142, ratio 0.86 -- the field shape's heavier tail slightly lowers
+  it); saddle exactly symmetric; incoherent 0.502 (shape-insensitive); parameter-free bracket [0.0122,
+  0.502] still contains the measured 0.0885 (log-mid 0.078, observation only); Hammond early TS from
+  computed amplitudes; sign robust under +-20% anchor jitter. VERDICT: barrier existence is a property of
+  the derived field-level machinery, not the stand-in -- the mechanical account (one mode cannot fully
+  bond two partners + third-body contact) is anchored end-to-end: profile -> grid integral -> amplitude ->
+  frustration -> barrier. OPEN, unchanged: the coherence fraction (next step); rates/tunneling = the
+  hbar-layer (FND-BOUND-001). Paper section extended; corpus 125/125, 140 claims.
+
+### Addendum (2026-07-20) — chemistry paper: dangling-style bullet artifact fixed; errors phrasing softened
+- ORPHAN BULLETS (operator's catch): section 2 rendered an 18-bullet grid with displaced text and the
+  errors table reduced to markers. ROOT CAUSE: the paper (Pandoc-converted) referenced three paragraph
+  styles never defined in styles.xml -- Compact, BodyText, FirstParagraph -- 331 dangling references;
+  LibreOffice's fallback for the undefined styles sprayed bullet markers. All 331 stripped (paragraphs
+  inherit Normal, matching the paper's other tables). Page 3 verified post-fix: three clean list items,
+  errors table rendering as a proper 3-column table.
+- PHRASING (operator's request): conclusion softened from "correcting Gaede's original errors and
+  building" to "modifying Gaede's original claims where observation requires, and building". In-body
+  technical assessment language (section 2 headings, the right/wrong analysis) left as-is unless further
+  softening is requested. Validated PASSED; PDF regenerated; corpus 125/125 (no claims touched).
