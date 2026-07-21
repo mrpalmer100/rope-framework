@@ -16,11 +16,21 @@ abstractions:
   *(code: `rope_solver.gravity`)*
 - **Magnetism** — why magnets pull and push — comes from the rope's helical
   winding, the geometry that makes left- and right-wound ropes mirror images.
-- **Electricity and charge** are linking numbers in the rope topology: charge is
-  quantized because you cannot link two loops a fractional number of times.
+- **Electricity** is three distinct mechanical quantities, not one. **Charge** is the
+  linking number of the rope curves (an integer topological invariant): it is quantized
+  because you cannot link two loops a fractional number of times. **Current** is *transported*
+  linking — the rate at which that linking moves along the rope, delivered by the screw
+  rotation of the two-strand helix — a flux of the invariant, not the invariant itself.
+  **Voltage** is the longitudinal *tension* field that drives the transport. Only charge is
+  topological; current and potential are separate mechanical quantities the framework derives
+  in their own right (EM-001, EM-008, EM-014, EM-016).
   *(code: `rope_solver.topology`, `rope_solver.electromagnetism`)*
-- **Entanglement** is a shared rope wave connecting the particles — a physical
-  link, not spooky action at a distance.
+- **Entanglement** is the framework's registered *boundary*, not a solved item: a
+  configuration-counting rope model provably cannot reproduce Bell/CHSH violation
+  (QB-003 Failed, QB-005 negative). A shared physical rope connection is the intuition
+  the picture *reaches for*, but it is not claimed to work — the single-particle
+  statistics are mapped (QB-007–010) while the two-particle correlation remains beyond
+  a classical counting model. Retired as an ambition, preserved as an honest limit.
 - **Chemistry** is standing-wave modes of the rope network around nuclei.
   (By the framework's own admission, mathematically identical to standard quantum
   chemistry — hence *no* chemistry module; see `open_problems` and the README
