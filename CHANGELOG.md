@@ -3986,3 +3986,14 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
   building" to "modifying Gaede's original claims where observation requires, and building". In-body
   technical assessment language (section 2 headings, the right/wrong analysis) left as-is unless further
   softening is requested. Validated PASSED; PDF regenerated; corpus 125/125 (no claims touched).
+
+### Addendum (2026-07-20) — corpus-wide dangling-style sweep: 3 more papers cleaned (976 refs total)
+- Following the chemistry orphan-bullet root cause (undefined Pandoc styles), swept all 57 sources for
+  used-but-undefined paragraph styles. Three more carriers found: rope_glossary_v4 (347 refs: BlockText/
+  FirstParagraph/BodyText), rope_nuclear_physics (284: Compact/BodyText/FirstParagraph), and
+  rope_theory_of_magnetism (345: Compact/BodyText/FirstParagraph). None currently exhibited the bullet
+  artifact (chemistry's trip needed Compact inside table cells), but the danglers were latent -- any edit
+  or regeneration could trigger the same LibreOffice fallback. All 976 references stripped (paragraphs
+  inherit Normal); all three validated PASSED; PDFs regenerated; post-fix rendering verified (zero
+  bullet-only lines; magnetism's Quantity table renders correctly). Remaining 53 papers confirmed clean.
+  Corpus 125/125.
