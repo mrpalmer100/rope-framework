@@ -11,7 +11,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 
 > **This corpus establishes numerical reproducibility and internal consistency, not physical truth.** Whether the underlying physics is correct is exactly what external scrutiny is invited to decide.
 
-> **Scope (read first):** The Rope Hypothesis is a *classical, configuration-counting* model. It is strongest in electromagnetism, optics, and the mechanical sectors; its classical weak-field gravity is **falsified under stated assumptions** (kept as a finding, not hidden); and it **provably does not reproduce quantum entanglement** in its present form (a counting model cannot produce amplitude interference; a future non-classical rope structure is not claimed impossible). Nothing is hidden — see [`KNOWN_LIMITATIONS.md`](KNOWN_LIMITATIONS.md).
+> **Scope (read first):** The Rope Hypothesis is a *classical, configuration-counting* model. It is strongest in electromagnetism, optics, and the mechanical sectors; its classical weak-field gravity is **falsified under stated assumptions** (kept as a finding, not hidden); and it **provably does not reproduce quantum entanglement** in its present form (a counting model cannot produce Bell/CHSH violation; QB-003 Failed, QB-005 negative). The measurement arc (QB-007–011) maps this boundary in detail — single-particle statistics reproduced or cornered, the detector angle fixed at γ = 1, the residual gap localized to configuration-space guidance — without crossing it; a future non-classical rope structure is not claimed impossible. Nothing is hidden — see [`KNOWN_LIMITATIONS.md`](KNOWN_LIMITATIONS.md).
 
 > **Corpus state:** 139 registered claims (69 Derived, 46 Modeled, 4 EFT-constrained, 4 Conjecture, 9 Open, 7 Failed-and-kept); 124 code-backed, all passing; 57 papers. Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
 
@@ -40,7 +40,7 @@ Every claim carries a status label and, where code-backed, a rerunnable benchmar
 - **`/papers`** — the physics papers (PDF), with editable sources in `/papers/_sources`.
 - **`/benchmarks`** — one rerunnable check per code-backed claim.
 
-**How to read the honesty of the corpus.** The registry makes the `Failed` and `Open` claims as visible as the `Derived` ones. Losses are preserved as findings: the classical weak-field gravity no-go (derived deflection 0.44″ vs measured 1.75″), the PVLAS vacuum-birefringence exclusion (~570×), and the quantum boundary (Born rule, entanglement, Pauli) documented as explicit limits rather than solved problems.
+**How to read the honesty of the corpus.** The registry makes the `Failed` and `Open` claims as visible as the `Derived` ones. Losses are preserved as findings: the classical weak-field gravity no-go (derived deflection 0.44″ vs measured 1.75″), the PVLAS vacuum-birefringence exclusion (~570×), and and the quantum boundary documented as explicit limits rather than solved problems — now mapped to high precision by the measurement arc (Born-rate scaling benchmarked-but-conditional, entanglement localized to one imported object, γ = 1 identified), with Pauli still Conjecture-level.
 
 ## What is derived, what is adopted
 
