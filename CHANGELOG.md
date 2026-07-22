@@ -4075,3 +4075,9 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
   structure; direction and extreme captured, not asymmetric barrier magnitudes. The sector's classical
   dynamics program (CHEM-DYN-001/002/003) is complete; rates/tunneling/coherence = hbar-layer. Paper
   section extended. Corpus 130/130, 144 claims.
+
+### Addendum (2026-07-20) — v2.2.3 release prep: README counts re-synced to final batch state
+- Badge 124/124 -> 130/130; corpus-state line 139/124 -> 144 claims (70 Derived, 51 Modeled, 4 EFT, 4
+  Conjecture, 8 Open, 7 Failed-and-kept), 130 code-backed. The five post-bump sessions (QB-011,
+  CHEM-DYN-002/003, NUC-009, FND-KIN-002, CHEM-HB-005, FND-013) are now reflected in the tagged tree's
+  self-description.
