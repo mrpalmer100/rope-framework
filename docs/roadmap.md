@@ -7,7 +7,7 @@ maturity; mismatches are flagged below.*
 
 | Sector | Computed maturity | Stated readiness | Claims | Basis |
 |---|---|---|---:|---|
-| Microscopic Mechanics & Foundations | **Mature** | Ready for expert review | 26 | 19/26 derived/EFT, 22/26 benchmark-backed |
+| Microscopic Mechanics & Foundations | **Mature** | Ready for expert review | 30 | 20/30 derived/EFT, 27/30 benchmark-backed |
 | Renormalization / EFT | **Mature** | Ready for expert review | 1 | 1/1 derived/EFT, 1/1 benchmark-backed |
 | Electromagnetism | **Developing** | Ready for expert review | 35 | 16/35 solid, 35/35 benchmarked |
 | Classical Optics | **Mature** | Ready for expert review | 10 | 10/10 derived/EFT, 10/10 benchmark-backed |
@@ -18,17 +18,16 @@ maturity; mismatches are flagged below.*
 | Electroweak (Weinberg angle) | **Exploratory** | Exploratory (conjectural) | 1 | 1/1 conjectural |
 | Particle Masses | **Developing** | Internal / open problem | 5 | 2/5 solid, 3/5 benchmarked |
 | Gauge Geometry (unification) | **Mature** | Ready for expert review | 6 | 5/6 derived/EFT, 4/6 benchmark-backed |
-| Quantum Boundary (Bell) | **Developing** | Ready (documented boundary / negative result) | 11 | 3/11 solid, 9/11 benchmarked |
-| Chemistry (bonding, geometry, dynamics) | **Developing** | Ready for expert review (Schrodinger adopted; hbar-fence declared) | 9 | 2/9 solid, 9/9 benchmarked |
-| Nuclear Structure | **Developing** | Developing (classical layer mature; kinetic/zero-point boundary named) | 8 | 1/8 solid, 6/8 benchmarked |
+| Quantum Boundary (Bell) | **Mature (conditional)** | Ready (documented boundary / negative result) | 18 | 10/18 solid, 16/18 benchmarked |
+| Chemistry (bonding, geometry, dynamics) | **Developing** | Ready for expert review (Schrodinger adopted; hbar-fence declared) | 15 | 2/15 solid, 15/15 benchmarked |
+| Nuclear Structure | **Developing** | Developing (classical layer mature; kinetic/zero-point boundary named) | 9 | 1/9 solid, 7/9 benchmarked |
 
 ## ⚠ Readiness-vs-evidence flags
 
 These sectors state an external readiness that the computed maturity does not yet fully support. This is a prompt to either add benchmark backing or soften the readiness label — not a claim the physics is wrong.
 
 - **Electromagnetism**: stated *Ready for expert review*, but computed *Developing* (16/35 solid, 35/35 benchmarked). Add benchmark-backed claims or relabel.
-- **Quantum Boundary (Bell)**: stated *Ready (documented boundary / negative result)*, but computed *Developing* (3/11 solid, 9/11 benchmarked). Add benchmark-backed claims or relabel.
-- **Chemistry (bonding, geometry, dynamics)**: stated *Ready for expert review (Schrodinger adopted; hbar-fence declared)*, but computed *Developing* (2/9 solid, 9/9 benchmarked). Add benchmark-backed claims or relabel.
+- **Chemistry (bonding, geometry, dynamics)**: stated *Ready for expert review (Schrodinger adopted; hbar-fence declared)*, but computed *Developing* (2/15 solid, 15/15 benchmarked). Add benchmark-backed claims or relabel.
 
 ### How maturity is computed (auditable rules)
 - **Mature (boundary)**: ≥half claims Failed/Open *with* ≥1 solid result — a documented limit (e.g. the Bell/quantum boundary). A strong negative result.
