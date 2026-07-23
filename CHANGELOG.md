@@ -4544,3 +4544,22 @@ closed on literal strands, and the gapped-bath prediction.
   (the >24-degree channel); P11 Born's square from channel energy; P12 analog universality (cliff +
   coverage crossover, testable now, no-scale caveat inapplicable). Calugareanu/supercoiling declared
   retrodiction. Six new claim IDs added to the paper's registered-claims list. Doc-only; 169/155.
+
+### Addendum (2026-07-23, post-v2.2.5) — Predictions paper: front matter redone for the full inventory
+- Author-caught inconsistency: the glance section still said four/five predictions while the paper held
+  twelve. Subtitle now "Twelve Predictions and a Reproducibility Standard"; date line extended (June
+  2026, extended July 2026 v2.2.5); abstract supersession paragraph covers the measurement-sector
+  family; the at-a-glance table now carries all 14 rows (P1-P12 + E1/E2 extensibility/chemistry) with
+  test arenas and verdict horizons; footnote rewritten to define starred/structural, scale-open, and
+  E-entries; the invitation updated to twelve. Doc-only; 169/155.
+
+### Addendum (2026-07-23, post-v2.2.5) — Predictions paper rebuilt from scratch
+- Author-directed full rebuild after the accretion of eras left mixed table styles and two numbering
+  schemes. The paper is now one document in one voice: "Fifteen Predictions and a Reproducibility
+  Standard" -- Part I the four testable numbers (1-4), Part II structural consequences (5-6), Part III
+  extensibility and molecular geometry (7-9, with the PVLAS confrontation and the hydride windows
+  carried intact), Part IV the measurement-sector family (10-15) plus the declared retrodiction. One
+  uniform glance table (15 rows, single style), consistent relation/inputs/falsifier discipline
+  throughout, Honest Status updated (the two named grants; the scale-open tie to the mass problem),
+  references updated to the v2.2.5 DOI and 155-benchmark registry, registered-claims list carried over.
+  A template zoom-attribute defect caught by validation and repaired. Doc-only; 169/155.
