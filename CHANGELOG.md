@@ -4338,3 +4338,199 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
 ## v2.2.4 (2026-07-23)
 Release cut. See docs/RELEASE_NOTES_v2.2.4.md for the curated notes; the dated addenda above constitute
 the session-level record. Corpus: 157 claims (77 Derived), 143/143 benchmarks passing, 57 papers.
+
+### Addendum (2026-07-23, post-v2.2.4 -- opens the v2.2.5 cycle) — QB-019: the Tsirelson-selection question answered
+- MECHANISM-UNITY selects 2sqrt2 from the admissible [0,3]. The mechanism-generated class (one response
+  object per setting per wing; Gram-representable E = u_a.v_b; equivalently TLM |Sum +- arcsin E| <= pi):
+  (A) caps CHSH at 2sqrt2 (6 decimals, dims 3 and 4); (B) the quantum point SATURATES TLM exactly
+  (4 x pi/4 = pi, machine precision -- nature sits ON the boundary); (C) QB-018's crossing object is the
+  star witness against itself, violating TLM by 0.739 -- per-pair extremal choices are inconsistent with
+  ANY single mechanism; (D) max CHSH s.t. TLM = 2sqrt2 exactly -- the TLM surface IS the bound. The
+  wall's import downgrades to one sentence: THE MECHANISM IS ONE THING -- keep it, get nature's
+  [0, 2sqrt2]; drop it, get [0,3]. The corpus's own gamma=1 inner-product detection structure lives
+  natively in the class. Honest scope: the selection is derived; mechanism-unity itself is the residual
+  import, now optimally localized. Named next: derive Gram-representability from the Hopf machinery;
+  the corpus-native singlet construction. Corpus 144/144, 158 claims (78 Derived).
+
+### Addendum (2026-07-23, v2.2.5 cycle) — QB-020: Tsirelson as a theorem of the rope framework
+- QB-019's named next-order, both limbs landed at machine precision. (T1) GRAM FROM THE MECHANISM: the
+  corpus's response object IS the derived gamma=1 projector (1+a.sigma)/2 in the Hopf machinery's native
+  quaternion algebra; with composite positivity as the only further ingredient, correlations are forced
+  bilinear (E = a.T.b to 1e-16), ||T|| <= 1, and CHSH equals Horodecki 2 sqrt(t1^2+t2^2) EXACTLY -->
+  <= 2 sqrt 2. Mechanism-unity is not imposed on the corpus -- it is the corpus's shape. (T2) THE
+  CORPUS-NATIVE SINGLET: isotropy + the standing exact-anticorrelation pairing convention pin the pair
+  state UNIQUELY (Werner family, E(a,a) = -p, p = 1): T = -I, E = -a.b, CHSH = 2.8284271247 --
+  SATURATION by the only state consistent with commitments the corpus made long ago. (T3) the factor 3
+  closed: base-only -1/3 (QB-013) vs fiber -1 -- the product-to-quantum gap IS the fiber's phase
+  coherence. Residual import at its final size: composite positivity (probabilities are probabilities).
+  Named next: derive composite positivity from rope primitives; the guide's measurement chapter.
+  Corpus 145/145, 159 claims (79 Derived).
+
+### Addendum (2026-07-23, v2.2.5 cycle) — QB-021: composite positivity eliminated from the cap
+- The framework's third axiom retirement (impenetrability; the order clause; now positivity). The cap
+  needs only: mechanism-unity (one linear functional) + the derived linear gamma=1 response (uniqueness
+  per QB-013) + the triviality |E|<=1. Bilinearity holds for INDEFINITE functionals (2e-16 across 50/50
+  negative-eigenvalue omegas); sigma_max(T)<=1 follows from arithmetic; Horodecki closes at 2sqrt2.
+  Positivity's precise residue exhibited: T=+I reaches the cap but is unphysical (min eigenvalue -1/2);
+  T=-I physical at eigenvalue 0 (the singlet, a boundary state). THE WALL'S IMPORT LIST: mechanism-unity,
+  alone -- a measurement is a single local process. Honest coda: whether the connected-pair fiber
+  topology FORCES one-functional evaluation is now the entire wall. Named next: the fiber-topology route;
+  the guide's measurement chapter. Corpus 146/146, 160 claims (80 Derived).
+
+### Addendum (2026-07-23, v2.2.5 cycle) — Guide: the measurement chapter
+- The ten-session QB arc (QB-011..021) told in plain language: "The Wall: How Entangled Particles Keep
+  Score, and What Finally Explained the Score" -- the game and the three landmark numbers (2, 2.828, 3);
+  the ladder with its unique rigid first rung; both conjecture funerals told proudly with causes of
+  death; the crossing that inverted the mystery (complexity was never the wall); the self-convicting
+  recipe and mechanism-unity ("the mechanism is one thing") closing the trap at exactly nature's number;
+  the pair state forced uniquely by two old commitments; the factor of 3 as what the fiber buys; the
+  import list audited to one sentence; three retired assumptions. One heading, one figure (three panels,
+  all corpus numbers: the ladder/landscape, the factor of three, the one-mechanism boundary with nature
+  exactly ON it), one HONEST LIMIT (mechanism-unity assumed, fiber-topology route registered open;
+  detection-law caveat restated). Inserted after the Mystery of the Single Dot; figure on PDF page 33.
+  Doc-only; counts unchanged (160/146).
+
+### Addendum (2026-07-23, v2.2.5 cycle) — QB-022: mechanism-unity decomposed and grounded
+- The fiber-topology route, executed with the over-claim danger named up front. DECOMPOSITION:
+  mechanism-unity = state-linearity (probability arithmetic, 4e-16; the crossing object HAS it --
+  linearity alone selects nothing) + SOVO (the setting's only channel into the dynamics is the derived
+  degree-1 coupling; joint statistics exactly l=1 in each setting for ANY functional, 4e-15). SOVO +
+  linearity => bilinearity => Tsirelson (QB-021's chain, grounded). The witness's third testimony,
+  quantitative: the crossing profile needs setting-degree > 24 (infeasible through 24, feasible at 32)
+  vs physics at degree 1 -- the door supra-Tsirelson statistics need does not exist in the model. HONEST
+  LANDING: a MERGER, not an elimination -- the wall and the detection law now share ONE residual (the
+  interaction model's strand-level derivation; status Modeled matching QB-011, as it must). The
+  eleven-session arc closes: the wall costs the framework nothing it was not already paying. Named next:
+  the strand-level interaction model (now the corpus's single highest-value target). Corpus 147/147,
+  161 claims (80 Derived, 59 Modeled).
+
+### Addendum (2026-07-23, v2.2.5 cycle) — FND-STRAND-001: the strand-level campaign opens
+- Phase 1: THE SUBSTRATE STANDS. Literal inextensible elastic curves + the derived FINITE contact
+  (no crossing axiom): circle relaxation to L/2pi (1.3%); THE HEADLINE -- a true Hopf pair preserves
+  its Gauss linking number to 4e-4 across 12,000 free relaxation steps and settles into a stable finite
+  standoff: the identity-plus-energetics conservation structure demonstrated on ACTUAL STRANDS, closing
+  the loop FND-KIN-005 opened at field level; unlinked control exact. Two bugs logged (mangled bending
+  gradient + fat self-contact inflating the circle; a tangent-plane 'Hopf' with linking 0.000 -- caught
+  by measuring the invariant before trusting the setup). New paper anchor rope_strand_dynamics. The
+  campaign: Phase 2 framed transport (FND-KIN-002 fidelity), Phase 3 the coverage threshold, Phase 4
+  the interaction model (carrying the detection law AND the wall). Corpus 148/148, 162 claims (60
+  Modeled).
+
+### Addendum (2026-07-23, v2.2.5 cycle) — FND-STRAND-002: Phase 2a -- the cliff law transfers to literal strands
+- The campaign's first fidelity verdict. The stadium wave on an actual strand: a twist kink transports
+  170 nodes with total winding EXACT (error 0.0) and max node excursion 1.004 cycles. The KIN-002 cliff
+  re-measured at strand level by relaxed PN: seven orders, SLOPE MATCHING THE LATTICE TO 0.16 PERCENT,
+  endpoints within 7 percent; mid-range prefactors 2.4-9.2x (fully converged -- a real coupling-form
+  difference, logged): THE LAW TRANSFERS, the convention need not. Arrest/coast dichotomy reproduced.
+  Protocol finding logged (ansatz sweep -> relaxed PN after a bar failure). FND-KIN-001's transport
+  residual half-closed; the geometric half (Phase 2b: twist-writhe, Calugareanu, supercoiling) named.
+  Corpus 149/149, 163 claims (61 Modeled).
+
+### Addendum (2026-07-23, v2.2.5 cycle) — FND-STRAND-003: Phase 2b -- Calugareanu live, supercoiling on cue
+- The strand does what no lattice could. THE LEDGER, dynamically: Lk = 3 morphed through a strongly
+  chiral deformation with frames parallel-transported; twist metered from frames, writhe from the Gauss
+  integral (independent accounts): |Tw+Wr-3| < 2.6e-3 while Wr swings to -0.54 -- Calugareanu held LIVE
+  by a discrete evolving strand. SUPERCOILING: the buckling family's minimizer jumps from the flat
+  twisted circle to a = 0.9 above the twist-stiffness threshold -- the plectonemic instability, native
+  to the engine. Phase 2 totals: the transport law at 0.16 percent (2a) + the topological ledger and its
+  exchange mechanism (2b): FND-KIN-001's residual substantially closed at the framed-strand level.
+  Named next: dynamical supercoiling (analytic writhe gradients); Phase 3; Phase 4. Corpus 150/150,
+  164 claims (62 Modeled).
+
+### Addendum (2026-07-23, v2.2.5 cycle) — FND-STRAND-004: Phase 3 -- tangibility emerges on the engine
+- The MATTER-004 coverage threshold on literal strands. Two geometry corrections logged (corrugation vs
+  penetration barrier; perpendicular vs parallel probe). Single crossing 0.267 Ac (analytic 0.27 --
+  matched); penetration barrier monotone over three-plus orders (2.5 at 2 sigma -> 1.1e-3 at 16 sigma);
+  crossover at gap ~ 1.5 sigma: order-unity coverage, the structure that fixed N ~ 3e11. Solid is a
+  height, not a rule. Campaign ledger: Phases 1-3 ALL PASS -- every registered strand-level fidelity
+  check now holds on literal strands. What remains is the summit: Phase 4, the interaction model.
+  Corpus 151/151, 165 claims (63 Modeled).
+
+### Addendum (2026-07-23, v2.2.5 cycle) — Guide: "Why Can You Touch Things?"
+- New plain-language section answering the tangibility question from FND-STRAND-004's fresh numbers:
+  single strands are ghosts (crossing allowed, finite, ~0.27 worst case; conservation protected by
+  counting, no commandment needed); solidity is a TOLL, not a rule (the forest analogy; the measured
+  thousand-fold climb; crossover at gap ~ contact size -- coverage of order one); touch is arithmetic
+  (trillions of tiny fees collected at once); three consequences (ghost/solid one physics; the geometric
+  threshold behind the hundreds-of-billions strand count; nothing absolutely solid -- and that is
+  load-bearing for charge-as-arithmetic). One heading, one figure (the measured toll curve), one HONEST
+  LIMIT (engine measurements; no absolute scale; statics vs dynamics named). "Solid is a height, not a
+  rule." Doc-only; counts unchanged (165/151).
+
+### Addendum (2026-07-23, v2.2.5 cycle) — Guide: the sewing-thread caution added to the touch section
+- A reader question (the author's) found a gap: household threads cannot pass through each other, so
+  doesn't the strand's own density matter? The answer added to "Why Can You Touch Things?": a sewing
+  thread is not a strand -- it is already a bundle of bundles, astronomically past threshold in every
+  cross-section, so thread-meets-thread is crowd-meets-crowd; the intuition is VINDICATED (internal
+  strand-density is what makes the thread solid), with the correction living only at the bottom floor:
+  the fundamental strand has no interior, nothing to be dense with, and is the only ghost there is.
+  Section remains one heading / one figure / one HONEST LIMIT. Doc-only; 165/151.
+
+### Addendum (2026-07-23, v2.2.5 cycle) — FND-STRAND-005: Phase 4 -- the interaction model, strand-native
+- THE SUMMIT'S SUMMIT, delivered by one mechanical fact: a framed strand IS the SU(2) lift. Composing
+  node-to-node frame rotations along an actual strand yields a quaternion with scalar part cos(theta/2)
+  for any boundary rotation, axis, and distribution profile (1e-9, reparametrization-invariant);
+  q(2pi) = -1 with all frames returned, q(4pi) = +1 -- the belt trick promoted to the origin of the
+  detection law. The energy detector's frame-overlap channel gives (1 + a.n)/2 at 3e-16 (gamma = 1
+  MEASURED from strand data); fibre-blindness mechanical (a 2pi twist flips the holonomy sign, the
+  response by nothing); SOVO structural (degree-1 residual 1e-14 -- the >24-degree door supra-Tsirelson
+  needs does not exist in the model); the QB-011 paired protocol with strand-measured drive amplitudes
+  returns p = 1.99 => gamma = 1. Two catches logged: the inverted frame increment (conjugated vector
+  part -- the inverse's signature); the base-drive protocol error (measured the derivative, p ~ 1.4).
+  QB-011's conditionality NARROWS: the amplitude is no longer imported; what survives is the nucleation
+  dynamics (Kramers stand-in). CAMPAIGN COMPLETE: Phases 1-4 all pass -- every named strand-level
+  residual in the corpus now has its fidelity verdict. Named next: the strand-level nucleation event
+  itself; the belt-trick-to-Bell guide chapter. Corpus 152/152, 166 claims (64 Modeled).
+
+### Addendum (2026-07-23, v2.2.5 cycle) — Guide: the belt-trick-to-Bell chapter
+- FND-STRAND-005's named next-order delivered: "The Belt Trick: Where the Half-Angle Lives, and Why a
+  Strand Cannot Help Being Quantum." The parlor trick (one turn stuck, two turns free); the strangest
+  number in physics (the half; 360 -> minus itself, postulated by standard physics); the strand's answer
+  (a point cannot remember a rotation, a strand cannot forget one -- the ledger measured on literal
+  strands: cos(angle/2) for any axis and profile, -1 at one turn with all frames returned, +1 at two);
+  the assembly (detection law to the last digit; fibre-blindness mechanical; the wall's one-device
+  requirement now a checked fact -- the door verifiably absent); the honest entanglement ledger
+  (explained: the score, the state, the half-angle, the ceiling; not explained and never papered over:
+  the coordination itself -- one granted sentence, Bell-protected). One heading, one LIVE-computed
+  figure (three random strands landing on cos(angle/2) at 1.4e-15), one HONEST LIMIT (nucleation
+  conditionality named; the grant is a grant). Inserted between the Wall chapter and the touch section.
+  Doc-only; counts unchanged (166/152).
+
+### Addendum (2026-07-23, v2.2.5 cycle) — FND-STRAND-006: the dot is a strand event
+- The measurement sector's last conditionality addressed. THE EVENT: a kink-antikink pair nucleates in
+  the twist field under bath noise -- localized (concentrated step at escape), all-or-nothing (below
+  threshold: 3/3 silent), irreversible (winding advances, never returns). The single dot, watchable.
+  THE DRIVE: Arrhenius-linear in channel energy A^2 (r^2 = 0.984). THE REFUSAL, first-class: the 1.3x
+  amplitude lever cannot discriminate the drive exponent (A^p collinear under 2-parameter fits) -- the
+  bar was rewritten to claim only what the data supports; p = 1.99 stands at the protocol level;
+  fit-shopping declined. QB-011's conditionality reaches its final form: the nucleation is strand-native;
+  the one generic ingredient is the BATH. Named next: the weave as reservoir; rare-event exponent;
+  the guide dot-chapter update. Corpus 153/153, 167 claims (65 Modeled).
+
+### Addendum (2026-07-23, v2.2.5 cycle) — FND-STRAND-007: the weave as reservoir -- the bath derived
+- The last generic ingredient replaced. Caldeira-Leggett realized with weave strands (24 modes/site,
+  Ohmic-like spread, counter-term): DETERMINISTIC, energy-conserving composite (drift 1.7e-6, no
+  thermostat, no random force) with thermal initial conditions only. The dot survives its derivation:
+  silent below threshold (equipartition 0.34 at T=0.4), localized irreversible nucleation above,
+  channel-monotone escapes (416/25/6). Friction and noise EMERGE -- dissipation as bookkeeping loss to
+  the weave, fluctuation-dissipation enacted, not imposed. The measurement chain is strand-native at
+  every dynamical step; the remaining assumptions: mechanism-unity's strand form (checked), the pairing
+  grant (Bell-protected), and one number -- the weave has a temperature. Named next: the weave spectrum
+  from the engine itself; rare-event exponent; guide dot-chapter. Corpus 154/154, 168 claims (66
+  Modeled).
+
+### Addendum (2026-07-23, v2.2.5 cycle) — FND-STRAND-008: the weave spectrum from the engine -- the bath is gapped
+- The refinement that became a prediction. The engine's twist-chain Hessian, eigendecomposed, matches
+  the dispersion to 7e-16: the weave band is [1, sqrt(1+4kt)] -- GAPPED at the strand mass scale, no
+  soft modes exist. Detector noise in this framework arrives only at and above the strand mass: a
+  falsifiable structural signature, not a tuning choice. The dot survives the true bath (all three
+  signatures; 249/25/6 monotone; sub-gap friction weaker as expected). THE CHAIN CLOSED: amplitude from
+  strand frames, event from strand topology, noise from strand thermodynamics, spectrum from strand
+  structure -- no hand-drawn curve anywhere; two standing grants remain (the pair is one thing; the
+  weave is warm). Corpus 155/155, 169 claims (67 Modeled).
+
+## v2.2.5 (2026-07-23)
+Release cut. See docs/RELEASE_NOTES_v2.2.5.md for the curated notes; the dated addenda above are the
+session-level record. Corpus: 169 claims (80 Derived, 67 Modeled), 155/155 benchmarks passing, 58
+papers. Headline: the Tsirelson-selection answer, the strand campaign complete, the measurement chain
+closed on literal strands, and the gapped-bath prediction.
