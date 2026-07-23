@@ -14,10 +14,10 @@ The programme's discipline is its defining feature: **derived results, empirical
 
 ## Corpus at a glance (generated)
 
-- **Bundled papers:** 57
-- **Reproducible benchmarks:** 112
-- **Registered claims:** 157 (143 code-backed and machine-verified)
-- **Claim status distribution:** Derived 77, EFT-constrained 4, Modeled 58, Conjecture 4, Failed 7, Open 7
+- **Bundled papers:** 58
+- **Reproducible benchmarks:** 124
+- **Registered claims:** 169 (155 code-backed and machine-verified)
+- **Claim status distribution:** Derived 80, EFT-constrained 4, Modeled 67, Conjecture 4, Failed 7, Open 7
 
 Verify it yourself in one command: `make verify` (runs every benchmark the registry references) or `python tools/verify_corpus.py`.
 
@@ -43,7 +43,7 @@ Maturity is **computed** from each sector's claim statuses and benchmark coverag
 
 | Sector | Computed maturity | Claims | Derived | Benchmarked |
 |---|---|---:|---:|---:|
-| Microscopic Mechanics & Foundations | Mature | 30 | 20 | 27 |
+| Microscopic Mechanics & Foundations | Mature (conditional) | 38 | 20 | 35 |
 | Renormalization / EFT | Mature | 1 | 1 | 1 |
 | Electromagnetism | Developing | 35 | 16 | 35 |
 | Classical Optics | Mature | 10 | 10 | 10 |
@@ -54,7 +54,7 @@ Maturity is **computed** from each sector's claim statuses and benchmark coverag
 | Electroweak (Weinberg angle) | Exploratory | 1 | 0 | 0 |
 | Particle Masses | Developing | 5 | 2 | 3 |
 | Gauge Geometry (unification) | Mature | 6 | 5 | 4 |
-| Quantum Boundary (Bell) | Mature (conditional) | 18 | 10 | 16 |
+| Quantum Boundary (Bell) | Mature (conditional) | 22 | 13 | 20 |
 | Chemistry (bonding, geometry, dynamics) | Developing | 15 | 2 | 15 |
 | Nuclear Structure | Developing | 9 | 1 | 7 |
 

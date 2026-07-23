@@ -9,28 +9,386 @@ FND-001 [Derived] Endpoint force-balance gives locking energy J = T^2/
         └─ FND-007 [Derived] Defect regime: single vortex energy E = pi K ln(R/a)
           └─ FND-008 [Derived] Topological charge = integer winding number, quantiz
             └─ FND-010 [Derived] Reconnection and annihilation conserve total topolog
+            └─ FND-013 [Derived] EM flux tubes ARE unit-quantized defect lines (Deriv
+              └─ FND-KIN-003 [Modeled] 2D VORTEX MOBILITY (Modeled): the pinning hierarchy 
+                └─ FND-KIN-004 [Modeled] 3D LINE TRANSPORT WITH CROWDING (Modeled; two commit
+                  └─ FND-KIN-005 [Modeled] CONSERVATION BY IDENTITY; ANNIHILATION FREE; CONTACT
+                    └─ QB-012 [Derived] THE WALL CHARACTERIZED (Derived; no crossing claimed
+                      └─ QB-013 [Derived] DIPOLE RIGIDITY (Derived; the continuity-refined cei
+                        └─ QB-014 [Derived] THE QUADRUPOLE RUNG (Derived): extending the conditi
+                          └─ QB-015 [Derived] THE CUBIC RUNG (Derived; QB-014's B-pinning conjectu
+                            └─ QB-016 [Derived] THE QUARTIC RUNG (Derived): THE LADDER PLATEAUS -- t
+                              └─ QB-017 [Derived] THE QUINTIC RUNG (Derived): THE PLATEAU BREAKS at it
+                                └─ QB-018 [Derived] THE ALL-ORDERS BOUND SETTLED CONSTRUCTIVELY (Derived
+                                  └─ QB-019 [Derived] THE TSIRELSON-SELECTION QUESTION ANSWERED (Derived):
+                                    └─ QB-020 [Derived] TSIRELSON AS A THEOREM OF THE ROPE FRAMEWORK (Derive
+                                      └─ QB-021 [Derived] COMPOSITE POSITIVITY ELIMINATED FROM THE TSIRELSON D
+                                        └─ QB-022 [Modeled] MECHANISM-UNITY DECOMPOSED AND GROUNDED (Modeled; co
+                                          └─ FND-STRAND-005 [Modeled] THE INTERACTION MODEL ON LITERAL STRANDS (Modeled) -
+                                    └─ QB-021 [Derived] COMPOSITE POSITIVITY ELIMINATED FROM THE TSIRELSON D
+                                      (deps shown above)
+                                    └─ QB-022 [Modeled] MECHANISM-UNITY DECOMPOSED AND GROUNDED (Modeled; co
+                                      (deps shown above)
+                            └─ QB-017 [Derived] THE QUINTIC RUNG (Derived): THE PLATEAU BREAKS at it
+                              (deps shown above)
+                        └─ QB-020 [Derived] TSIRELSON AS A THEOREM OF THE ROPE FRAMEWORK (Derive
+                          (deps shown above)
+                        └─ QB-021 [Derived] COMPOSITE POSITIVITY ELIMINATED FROM THE TSIRELSON D
+                          (deps shown above)
+                      └─ QB-014 [Derived] THE QUADRUPOLE RUNG (Derived): extending the conditi
+                        (deps shown above)
+                      └─ QB-015 [Derived] THE CUBIC RUNG (Derived; QB-014's B-pinning conjectu
+                        (deps shown above)
+                      └─ QB-016 [Derived] THE QUARTIC RUNG (Derived): THE LADDER PLATEAUS -- t
+                        (deps shown above)
+                      └─ QB-018 [Derived] THE ALL-ORDERS BOUND SETTLED CONSTRUCTIVELY (Derived
+                        (deps shown above)
+                      └─ QB-019 [Derived] THE TSIRELSON-SELECTION QUESTION ANSWERED (Derived):
+                        (deps shown above)
+                    └─ FND-STRAND-001 [Modeled] THE STRAND-LEVEL SUBSTRATE STANDS (Modeled) -- Phase
+                      └─ FND-STRAND-002 [Modeled] STRAND-LEVEL TWIST TRANSPORT AND THE CLIFF FIDELITY 
+                        └─ FND-STRAND-003 [Modeled] THE CALUGAREANU LEDGER ON LITERAL STRANDS, AND SUPER
+                          └─ FND-STRAND-005 [Modeled] THE INTERACTION MODEL ON LITERAL STRANDS (Modeled) -
+                      └─ FND-STRAND-003 [Modeled] THE CALUGAREANU LEDGER ON LITERAL STRANDS, AND SUPER
+                        (deps shown above)
+                      └─ FND-STRAND-004 [Modeled] TANGIBILITY EMERGES ON THE ENGINE (Modeled) -- Phase
+                        └─ FND-STRAND-005 [Modeled] THE INTERACTION MODEL ON LITERAL STRANDS (Modeled) -
+                    └─ FND-STRAND-004 [Modeled] TANGIBILITY EMERGES ON THE ENGINE (Modeled) -- Phase
+                      (deps shown above)
+              └─ FND-KIN-004 [Modeled] 3D LINE TRANSPORT WITH CROWDING (Modeled; two commit
+                (deps shown above)
+              └─ FND-KIN-005 [Modeled] CONSERVATION BY IDENTITY; ANNIHILATION FREE; CONTACT
+                (deps shown above)
+            └─ EM-008 [Derived] Current = transported linking: no-wind-up, continuit
+              └─ EM-010 [Modeled] Dynamical drive: field EOM evolves a switched-on cur
+                └─ EM-012 [Derived] Magnetic force between currents reproduced from the 
+                  └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+                  └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+                └─ EM-013 [Derived] Lorentz force F = q v x B on a moving charge, from t
+                  └─ EM-015 [Derived] ELECTROSTATIC SIGN THEOREM (Derived; closes the stat
+                    └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+                    └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+                    └─ CHEM-HB-001 [Modeled] HYDROGEN BONDING COMPLETED (Modeled): the water-dime
+                      └─ CHEM-DYN-001 [Modeled] OPEN (reviewer-named, the sector's next frontier): R
+                        └─ CHEM-DYN-002 [Modeled] FIELD-LEVEL BARRIER CONFIRMATION (Modeled): the acti
+                          └─ CHEM-DYN-003 [Modeled] FIELD-LEVEL PROGRAM COMPLETED (Modeled): catalysis s
+                            └─ CHEM-DYN-004 [Modeled] ENTRANCE-CHANNEL STRUCTURE (Modeled; committed bar B
+                              └─ CHEM-DYN-005 [Modeled] BRACKET RESTATED AND CATALYSIS CONFIRMED ON THE CORR
+                          └─ CHEM-HB-006 [Modeled] CONTACT ANISOTROPY (Modeled; the registered bar FAIL
+                            └─ CHEM-DYN-004 [Modeled] ENTRANCE-CHANNEL STRUCTURE (Modeled; committed bar B
+                              (deps shown above)
+                        └─ CHEM-DYN-003 [Modeled] FIELD-LEVEL PROGRAM COMPLETED (Modeled): catalysis s
+                          (deps shown above)
+                        └─ CHEM-HB-005 [Modeled] TAIL-ASYMMETRY CHARGES (Modeled; registered bar FAIL
+                          └─ CHEM-DYN-004 [Modeled] ENTRANCE-CHANNEL STRUCTURE (Modeled; committed bar B
+                            (deps shown above)
+                          └─ CHEM-HB-006 [Modeled] CONTACT ANISOTROPY (Modeled; the registered bar FAIL
+                            (deps shown above)
+                      └─ CHEM-HB-002 [Modeled] HYDROGEN-BOND ORDERING TEST (Modeled; TWO REGISTERED
+                        └─ CHEM-HB-003 [Modeled] LONE-PAIR DIPOLE FROM OCCUPIED LOBES (Modeled; the C
+                          └─ CHEM-HB-004 [Modeled] CONTACT-REPULSION TEST (Modeled; bar FAILED 2-of-4, 
+                            └─ CHEM-HB-005 [Modeled] TAIL-ASYMMETRY CHARGES (Modeled; registered bar FAIL
+                              (deps shown above)
+                    └─ CHEM-HB-002 [Modeled] HYDROGEN-BOND ORDERING TEST (Modeled; TWO REGISTERED
+                      (deps shown above)
+                    └─ NUC-006 [Modeled] SEMF VOLUME/SURFACE FROM BUNDLE-CONTACT GEOMETRY (Mo
+                      └─ NUC-007 [Modeled] MODE-CAPACITY REBUILD (Modeled; partial, one registe
+                        └─ NUC-008 [Modeled] STATE-LABELED CAPACITY (Modeled; partial, misses reg
+                          └─ NUC-009 [Modeled] ALPHA-GEOMETRY TEST (Modeled): the NUC-008 secondary
+                          └─ FND-BOUND-001 [Modeled] THE ONE FENCE (Modeled; registry-consistency, no new
+                  └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+                  └─ EM-015 [Derived] ELECTROSTATIC SIGN THEOREM (Derived; closes the stat
+                    (deps shown above)
+                  └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+                └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+                └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+              └─ EM-014 [Derived] Screw mechanism of current: rotating the two-strand 
+                └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+                └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+                └─ CHEM-MET-001 [Modeled] OPEN: METALLIC BONDING -- the chemistry sector's rem
+                  └─ FND-BOUND-001 [Modeled] THE ONE FENCE (Modeled; registry-consistency, no new
+                  └─ CHEM-DYN-001 [Modeled] OPEN (reviewer-named, the sector's next frontier): R
+                    (deps shown above)
+              └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+              └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+              └─ FND-REL-002 [Derived] Strand mechanics FORBID the Galilean convective term
+                └─ GRV-014 [Conjecture] CONJECTURE (Mark's, audited and admitted): the quant
+                  └─ FND-BOUND-001 [Modeled] THE ONE FENCE (Modeled; registry-consistency, no new
+                └─ GRV-019 [Derived] H5 EMERGENT-TENSOR AUDIT (Derived; the last serious 
+                └─ FND-REL-003 [EFT-constrained] RESOLVED-CONDITIONALLY: lattice Lorentz violation ~(
+                  └─ FND-MATTER-001 [Open] REFRAMED via Gaede's atom: atomic size is a standing
+                    └─ GRV-008 [Derived] TENSOR STRUCTURE REDUCED: three theorems -- (T1) loc
+                      └─ GRV-009 [Failed] FAILED CANDIDATE: per-strand STRAIN conditioning -- 
+                        └─ GRV-010 [Failed] FAILED: mode-bath conditioning -- after correcting m
+                          └─ GRV-011 [Modeled] EXECUTED: three theorems -- (A) the defect strain fi
+                            └─ GRV-012 [Open] STANDING ADVERSE VERDICT (stated plainly): on curren
+                              └─ GRV-013 [Derived] THE HUNT CONCLUDED -- NO-GO: the constructible chann
+                                └─ GRV-014 [Conjecture] CONJECTURE (Mark's, audited and admitted): the quant
+                                  (deps shown above)
+                                └─ GRV-015 [Derived] RESOLVED (door closed, no-go STRENGTHENED): the grap
+                                  └─ GRV-016 [Modeled] PREMISE-INDEPENDENCE AUDIT (reviewer's meta-question
+                                    └─ GRV-018 [Derived] INTERNAL-MODE DICHOTOMY (Derived; H1 defended agains
+                                      └─ GRV-019 [Derived] H5 EMERGENT-TENSOR AUDIT (Derived; the last serious 
+                                      └─ GRV-020 [Derived] INTERNAL SYMMETRY THEOREM, FORMAL (Derived; the rigo
+                                └─ GRV-016 [Modeled] PREMISE-INDEPENDENCE AUDIT (reviewer's meta-question
+                                  (deps shown above)
+                                └─ GRV-017 [Derived] NO-MONOPOLE LEMMA (Derived; closes the reviewer-foun
+                                  └─ GRV-018 [Derived] INTERNAL-MODE DICHOTOMY (Derived; H1 defended agains
+                                    (deps shown above)
+                                  └─ GRV-020 [Derived] INTERNAL SYMMETRY THEOREM, FORMAL (Derived; the rigo
+                                └─ GRV-018 [Derived] INTERNAL-MODE DICHOTOMY (Derived; H1 defended agains
+                                  (deps shown above)
+                                └─ GRV-019 [Derived] H5 EMERGENT-TENSOR AUDIT (Derived; the last serious 
+                              └─ GRV-014 [Conjecture] CONJECTURE (Mark's, audited and admitted): the quant
+                                (deps shown above)
+                            └─ GRV-013 [Derived] THE HUNT CONCLUDED -- NO-GO: the constructible chann
+                              (deps shown above)
+                            └─ GRV-017 [Derived] NO-MONOPOLE LEMMA (Derived; closes the reviewer-foun
+                              (deps shown above)
+                          └─ GRV-012 [Open] STANDING ADVERSE VERDICT (stated plainly): on curren
+                            (deps shown above)
+                        └─ GRV-011 [Modeled] EXECUTED: three theorems -- (A) the defect strain fi
+                          (deps shown above)
+                        └─ GRV-012 [Open] STANDING ADVERSE VERDICT (stated plainly): on curren
+                          (deps shown above)
+                      └─ GRV-010 [Failed] FAILED: mode-bath conditioning -- after correcting m
+                        (deps shown above)
+                      └─ GRV-011 [Modeled] EXECUTED: three theorems -- (A) the defect strain fi
+                        (deps shown above)
+                      └─ GRV-012 [Open] STANDING ADVERSE VERDICT (stated plainly): on curren
+                        (deps shown above)
+                      └─ GRV-015 [Derived] RESOLVED (door closed, no-go STRENGTHENED): the grap
+                        (deps shown above)
+                    └─ FND-MATTER-002 [Modeled] Star-convergence geometry gives R ~ a*sqrt(N) (struc
+                      └─ FND-MATTER-003 [Open] Derivation of the atomic scale is BLOCKED: two indep
+                        └─ FND-MATTER-004 [Modeled] The rope count N of an atom is fixed by the interpen
+                          └─ EM-RECON-008 [Open] The repulsive-core residual is located precisely and
+                            └─ EM-RECON-009 [Modeled] The EM-RECON-008 missing coefficient identified: fin
+                              └─ EM-RECON-010 [Modeled] k is independently measurable: vacuum optical nonlin
+                                └─ EM-RECON-014 [Modeled] Field<->strain calibration DERIVED in form by energy
+                                  └─ EM-RECON-015 [Open] OPEN (created by the calibration, flagged not hidden
+                                    └─ GRV-004 [Modeled] ZERO-POINT THEOREM: given the framework commitment t
+                                  └─ EM-RECON-016 [Modeled] Discriminator COMPLETED and CONFRONTED: rope vacuum 
+                                  └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+                                  └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+                                  └─ GRV-006 [Derived] G is NOT derivable from current commitments (constru
+                                    └─ GRV-007 [Modeled] CONJECTURE (a measurement route, not a derivation): 
+                                      └─ GRV-014 [Conjecture] CONJECTURE (Mark's, audited and admitted): the quant
+                                        (deps shown above)
+                                    └─ GRV-014 [Conjecture] CONJECTURE (Mark's, audited and admitted): the quant
+                                      (deps shown above)
+                              └─ EM-RECON-011 [Modeled] RESOLVED IN STRUCTURE (corrected by EM-RECON-012): t
+                                └─ EM-RECON-012 [Derived] COMPUTED: gamma = 1/sin^2(theta) derived exactly fro
+                                  └─ EM-RECON-013 [Modeled] RESOLVED (conditional on adopted postulate P-VOL): t
+                                    └─ GRV-009 [Failed] FAILED CANDIDATE: per-strand STRAIN conditioning -- 
+                                      (deps shown above)
+                                    └─ GRV-013 [Derived] THE HUNT CONCLUDED -- NO-GO: the constructible chann
+                                      (deps shown above)
+                                    └─ NUC-005 [Modeled] Atomic masses PREDICTED across the table (C-12 to U-
+                                      └─ GRV-014 [Conjecture] CONJECTURE (Mark's, audited and admitted): the quant
+                                        (deps shown above)
+                                      └─ NUC-006 [Modeled] SEMF VOLUME/SURFACE FROM BUNDLE-CONTACT GEOMETRY (Mo
+                                        (deps shown above)
+                                  └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+                                  └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+                                  └─ GRV-005 [Modeled] GRV-003's assumed premise DERIVED from network stati
+                                    └─ GRV-006 [Derived] G is NOT derivable from current commitments (constru
+                                      (deps shown above)
+                                    └─ GRV-008 [Derived] TENSOR STRUCTURE REDUCED: three theorems -- (T1) loc
+                                      (deps shown above)
+                                    └─ GRV-011 [Modeled] EXECUTED: three theorems -- (A) the defect strain fi
+                                      (deps shown above)
+                                  └─ GRV-018 [Derived] INTERNAL-MODE DICHOTOMY (Derived; H1 defended agains
+                                    (deps shown above)
+                                  └─ GRV-020 [Derived] INTERNAL SYMMETRY THEOREM, FORMAL (Derived; the rigo
+                                  └─ QB-006 [Modeled] Quantum boundary REFRAMED (corrected by Mark): the Q
+                                └─ EM-RECON-016 [Modeled] Discriminator COMPLETED and CONFRONTED: rope vacuum 
+                                └─ EM-015 [Derived] ELECTROSTATIC SIGN THEOREM (Derived; closes the stat
+                                  (deps shown above)
+                                └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+                                └─ EM-015 [Derived] ELECTROSTATIC SIGN THEOREM (Derived; closes the stat
+                                  (deps shown above)
+                                └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+                                └─ QB-006 [Modeled] Quantum boundary REFRAMED (corrected by Mark): the Q
+                              └─ EM-RECON-014 [Modeled] Field<->strain calibration DERIVED in form by energy
+                                (deps shown above)
+                              └─ EM-RECON-016 [Modeled] Discriminator COMPLETED and CONFRONTED: rope vacuum 
+                              └─ GRV-005 [Modeled] GRV-003's assumed premise DERIVED from network stati
+                                (deps shown above)
+                              └─ GRV-009 [Failed] FAILED CANDIDATE: per-strand STRAIN conditioning -- 
+                                (deps shown above)
+                              └─ NUC-005 [Modeled] Atomic masses PREDICTED across the table (C-12 to U-
+                                (deps shown above)
+                            └─ NUC-004 [Modeled] The strong-force YUKAWA FORM exp(-r/L)/r is derived 
+                              └─ EM-RECON-009 [Modeled] The EM-RECON-008 missing coefficient identified: fin
+                                (deps shown above)
+                              └─ NUC-005 [Modeled] Atomic masses PREDICTED across the table (C-12 to U-
+                                (deps shown above)
+                              └─ NUC-006 [Modeled] SEMF VOLUME/SURFACE FROM BUNDLE-CONTACT GEOMETRY (Mo
+                                (deps shown above)
+                          └─ EM-RECON-013 [Modeled] RESOLVED (conditional on adopted postulate P-VOL): t
+                            (deps shown above)
+                          └─ FND-MATTER-005 [Derived] The absolute mesh scale a is IRREDUCIBLE within the 
+                            └─ GRV-006 [Derived] G is NOT derivable from current commitments (constru
+                              (deps shown above)
+                          └─ FND-STRAND-001 [Modeled] THE STRAND-LEVEL SUBSTRATE STANDS (Modeled) -- Phase
+                            (deps shown above)
+                          └─ FND-STRAND-004 [Modeled] TANGIBILITY EMERGES ON THE ENGINE (Modeled) -- Phase
+                            (deps shown above)
+                        └─ FND-MATTER-005 [Derived] The absolute mesh scale a is IRREDUCIBLE within the 
+                          (deps shown above)
+                        └─ FND-BOUND-001 [Modeled] THE ONE FENCE (Modeled; registry-consistency, no new
+                      └─ FND-MATTER-004 [Modeled] The rope count N of an atom is fixed by the interpen
+                        (deps shown above)
+                  └─ FND-MATTER-002 [Modeled] Star-convergence geometry gives R ~ a*sqrt(N) (struc
+                    (deps shown above)
+            └─ NUC-001 [Derived] Atomic masses reproduced to <0.1% from nucleon-knot 
+              └─ PM-003 [Derived] The NUC-001 mass mechanism (knot-count minus binding
+                └─ PM-004 [Failed] The lepton mass spectrum does NOT fall out of the co
+                  └─ PM-005 [Derived] Scope statement: the rope programme is a theory of O
+                    └─ GRV-006 [Derived] G is NOT derivable from current commitments (constru
+                      (deps shown above)
+                    └─ NUC-005 [Modeled] Atomic masses PREDICTED across the table (C-12 to U-
+                      (deps shown above)
+                └─ PM-005 [Derived] Scope statement: the rope programme is a theory of O
+                  (deps shown above)
+              └─ PM-005 [Derived] Scope statement: the rope programme is a theory of O
+                (deps shown above)
+              └─ NUC-002 [Conjecture] Strong nuclear force identified as rope-bundle conta
+                └─ NUC-004 [Modeled] The strong-force YUKAWA FORM exp(-r/L)/r is derived 
+                  (deps shown above)
+              └─ NUC-005 [Modeled] Atomic masses PREDICTED across the table (C-12 to U-
+                (deps shown above)
+            └─ NUC-003 [Open] Fractional quark sub-knots are CONSISTENT with integ
           └─ FND-009 [Derived] Vortex-antivortex pair energy 2 pi K ln(d/a); 2D Cou
             └─ THM-004 [Derived] BKT transition T_BKT = pi K/2; universal correlation
               └─ THM-005 [Derived] Helicity-modulus universal jump K_R(T_BKT)=2 T_BKT/p
           └─ FND-011 [Derived] 3D: vortex-line tension = pi K ln(R/a) per length; o
             └─ FND-012 [Derived] Defect-loop linking = integer Gauss invariant, share
-            └─ FND-013 [Open] EM flux tubes as defect lines vs smooth winding
+            └─ FND-KIN-004 [Modeled] 3D LINE TRANSPORT WITH CROWDING (Modeled; two commit
+              (deps shown above)
+          └─ FND-013 [Derived] EM flux tubes ARE unit-quantized defect lines (Deriv
+            (deps shown above)
           └─ FND-014 [Derived] Defect core is finite and universal: E_core = E - pi
+            └─ FND-013 [Derived] EM flux tubes ARE unit-quantized defect lines (Deriv
+              (deps shown above)
             └─ FND-015 [Derived] Continuum cutoff DERIVED from discrete mechanics: a_
             └─ FND-016 [Derived] Core finiteness explained: per-bond energy bounded b
+              └─ FND-013 [Derived] EM flux tubes ARE unit-quantized defect lines (Deriv
+                (deps shown above)
       └─ FND-007 [Derived] Defect regime: single vortex energy E = pi K ln(R/a)
         (deps shown above)
       └─ GG-001 [Derived] Unification: bundle/connection A/curvature F=dA fram
         └─ GG-002 [Derived] Invariant hierarchy computed: winding (pi_1), linkin
           └─ GG-003 [Derived] KEYSTONE: Hopf invariant = linking number of preimag
         └─ GG-004 [Derived] Gauge invariance forced by phase-convention arbitrar
-        └─ GG-005 [Conjecture] Ropes physically instantiate the bundle (F IS the EM
+          └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+          └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+        └─ GG-005 [Modeled] Ropes physically instantiate the bundle (F IS the EM
+          └─ FND-REL-002 [Derived] Strand mechanics FORBID the Galilean convective term
+            (deps shown above)
+        └─ GG-006 [Derived] Gaede's strand handedness is a computable integer id
+          └─ EM-RECON-001 [Modeled] Gaede's swinging-threads magnetism reconciles with t
+            └─ EM-RECON-002 [Modeled] Permanent magnets = aligned atomic rope-swirls summi
+              └─ EM-RECON-003 [Derived] 2D square-lattice swirl-field strain calculator (bui
+                └─ EM-RECON-004 [Derived] The lattice field-term ferro/antiferro ordering is G
+                  └─ EM-RECON-005 [Modeled] PARTIALLY RESOLVED (see EM-RECON-006/007): the mode-
+                    └─ EM-RECON-006 [Derived] Rope mode-overlap functional constructed from networ
+                      └─ EM-RECON-007 [Modeled] Same frozen functional yields sigma>pi bond ordering
+                        └─ CHEM-GEO-001 [Modeled] OPEN (the chemistry sector's next problem, reviewer-
+                          └─ CHEM-GEO-002 [Derived] HEAVY-HYDRIDE 90-DEGREE ASYMPTOTE (Derived; the theo
+                            └─ CHEM-HB-004 [Modeled] CONTACT-REPULSION TEST (Modeled; bar FAILED 2-of-4, 
+                              (deps shown above)
+                          └─ CHEM-MET-001 [Modeled] OPEN: METALLIC BONDING -- the chemistry sector's rem
+                            (deps shown above)
+                          └─ CHEM-DYN-001 [Modeled] OPEN (reviewer-named, the sector's next frontier): R
+                            (deps shown above)
+                          └─ CHEM-HB-001 [Modeled] HYDROGEN BONDING COMPLETED (Modeled): the water-dime
+                            (deps shown above)
+                          └─ CHEM-HB-003 [Modeled] LONE-PAIR DIPOLE FROM OCCUPIED LOBES (Modeled; the C
+                            (deps shown above)
+                      └─ EM-RECON-008 [Open] The repulsive-core residual is located precisely and
+                        (deps shown above)
+                      └─ EM-RECON-009 [Modeled] The EM-RECON-008 missing coefficient identified: fin
+                        (deps shown above)
+                      └─ CHEM-GEO-001 [Modeled] OPEN (the chemistry sector's next problem, reviewer-
+                        (deps shown above)
+                      └─ CHEM-MET-001 [Modeled] OPEN: METALLIC BONDING -- the chemistry sector's rem
+                        (deps shown above)
+                      └─ CHEM-DYN-001 [Modeled] OPEN (reviewer-named, the sector's next frontier): R
+                        (deps shown above)
+                      └─ NUC-004 [Modeled] The strong-force YUKAWA FORM exp(-r/L)/r is derived 
+                        (deps shown above)
+                    └─ EM-RECON-008 [Open] The repulsive-core residual is located precisely and
+                      (deps shown above)
+                    └─ CHEM-GEO-001 [Modeled] OPEN (the chemistry sector's next problem, reviewer-
+                      (deps shown above)
+                    └─ CHEM-MET-001 [Modeled] OPEN: METALLIC BONDING -- the chemistry sector's rem
+                      (deps shown above)
+                └─ EM-RECON-005 [Modeled] PARTIALLY RESOLVED (see EM-RECON-006/007): the mode-
+                  (deps shown above)
+                └─ EM-RECON-006 [Derived] Rope mode-overlap functional constructed from networ
+                  (deps shown above)
+              └─ EM-RECON-005 [Modeled] PARTIALLY RESOLVED (see EM-RECON-006/007): the mode-
+                (deps shown above)
+            └─ EM-RECON-003 [Derived] 2D square-lattice swirl-field strain calculator (bui
+              (deps shown above)
+          └─ EM-015 [Derived] ELECTROSTATIC SIGN THEOREM (Derived; closes the stat
+            (deps shown above)
+          └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+          └─ EM-015 [Derived] ELECTROSTATIC SIGN THEOREM (Derived; closes the stat
+            (deps shown above)
+          └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+          └─ GRV-016 [Modeled] PREMISE-INDEPENDENCE AUDIT (reviewer's meta-question
+            (deps shown above)
+          └─ GRV-018 [Derived] INTERNAL-MODE DICHOTOMY (Derived; H1 defended agains
+            (deps shown above)
+          └─ GRV-020 [Derived] INTERNAL SYMMETRY THEOREM, FORMAL (Derived; the rigo
+          └─ QB-007 [Modeled] KNOT-NUCLEATION DECOMPOSITION OF MEASUREMENT (Modele
+            └─ QB-008 [EFT-constrained] DEPLETION-SPEED BOUNDS (EFT-constrained): the QB-007
+              └─ QB-009 [Modeled] THE CONSERVATION TOY (Modeled): the cornered limb SU
+                └─ QB-010 [Modeled] BOHMIAN ADJACENCY (Modeled): the cornered limb's ter
+                  └─ QB-011 [Modeled] GAMMA = 1 IDENTIFIED (Modeled; conditional on the th
+                    └─ QB-012 [Derived] THE WALL CHARACTERIZED (Derived; no crossing claimed
+                      (deps shown above)
+                    └─ QB-013 [Derived] DIPOLE RIGIDITY (Derived; the continuity-refined cei
+                      (deps shown above)
+                    └─ QB-019 [Derived] THE TSIRELSON-SELECTION QUESTION ANSWERED (Derived):
+                      (deps shown above)
+                    └─ QB-020 [Derived] TSIRELSON AS A THEOREM OF THE ROPE FRAMEWORK (Derive
+                      (deps shown above)
+                    └─ QB-022 [Modeled] MECHANISM-UNITY DECOMPOSED AND GROUNDED (Modeled; co
+                      (deps shown above)
+                    └─ FND-STRAND-005 [Modeled] THE INTERACTION MODEL ON LITERAL STRANDS (Modeled) -
+                  └─ QB-012 [Derived] THE WALL CHARACTERIZED (Derived; no crossing claimed
+                    (deps shown above)
+              └─ QB-010 [Modeled] BOHMIAN ADJACENCY (Modeled): the cornered limb's ter
+                (deps shown above)
+            └─ QB-009 [Modeled] THE CONSERVATION TOY (Modeled): the cornered limb SU
+              (deps shown above)
+            └─ QB-011 [Modeled] GAMMA = 1 IDENTIFIED (Modeled; conditional on the th
+              (deps shown above)
+          └─ CHEM-STRUCT-001 [Derived] Periodic shell capacities 2n^2 from n^2 rope modes x
+            └─ CHEM-MET-001 [Modeled] OPEN: METALLIC BONDING -- the chemistry sector's rem
+              (deps shown above)
+          └─ CHEM-HB-001 [Modeled] HYDROGEN BONDING COMPLETED (Modeled): the water-dime
+            (deps shown above)
+          └─ NUC-003 [Open] Fractional quark sub-knots are CONSISTENT with integ
+        └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+        └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
       └─ EFT-001 [EFT-constrained] Coarse-grained action S=(K/2)∫(grad theta)^2 justifi
       └─ EM-001 [Derived] Electric charge = topological linking number (intege
-        └─ FND-013 [Open] EM flux tubes as defect lines vs smooth winding
         └─ GG-003 [Derived] KEYSTONE: Hopf invariant = linking number of preimag
         └─ EM-002 [Derived] Structural EM constants: free-space impedance Z0=sqr
           └─ EM-002b [Modeled] Fine-structure constant alpha from the impedance rel
+          └─ EM-007 [Derived] Continuum stiffness reconciliation: K=J/a (lattice) 
+            └─ EM-RECON-001 [Modeled] Gaede's swinging-threads magnetism reconciles with t
+              (deps shown above)
+            └─ EM-010 [Modeled] Dynamical drive: field EOM evolves a switched-on cur
+              (deps shown above)
+            └─ EM-011 [Failed] Cosmological alpha-variation test FALSIFIES the stro
+            └─ EM-012 [Derived] Magnetic force between currents reproduced from the 
+              (deps shown above)
         └─ EM-003 [Derived] Maxwell equations from Bianchi identities + Chern-We
           └─ GG-001 [Derived] Unification: bundle/connection A/curvature F=dA fram
             (deps shown above)
@@ -47,6 +405,14 @@ FND-001 [Derived] Endpoint force-balance gives locking energy J = T^2/
               └─ OPT-008 [Derived] Fresnel coefficients r=(Z1-Z2)/(Z1+Z2), t=2Z1/(Z1+Z2
                 └─ OPT-009 [Derived] Brewster angle tan th_B = n2/n1; polarization as tra
                 └─ OPT-010 [Derived] Multilayer: AR coating (R=0), Fabry-Perot (T=1 at 2p
+          └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+          └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+        └─ EM-009 [Modeled] Helix screw-sense makes circulation possible and cor
+          └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+          └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+        └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+        └─ EM-016 [Modeled] THE FIELD-TENSOR DICTIONARY (Modeled): the complete 
+        └─ NUC-003 [Open] Fractional quark sub-knots are CONSISTENT with integ
       └─ THM-001 [Modeled] Thermodynamic coarse-graining and coefficients from 
       └─ THM-002 [Derived] Equilibrium Gaussian partition function Z=prod sqrt(
         └─ THM-003 [Derived] Spin-wave specific heat C = 1/2 per mode (2D Dulong-
@@ -59,24 +425,53 @@ FND-001 [Derived] Endpoint force-balance gives locking energy J = T^2/
 FND-005 [Derived] Parameter count: {T,kappa,a} carry one dimensionless
   └─ FND-006 [Derived] Lorentz invariance fixes mu = T/c^2 but is orthogona
 
-GRV-001 [Derived] Rope effective metric = isotropic Schwarzschild (wea
-  └─ GRV-002 [Derived] Classical tests: light deflection 1.751″, Mercury 43
+GRV-001 [Modeled] Rope effective metric is IDENTIFIED WITH isotropic S
+  └─ GRV-002 [Derived] Given the matched weak-field metric (GRV-001), the f
+  └─ GRV-003 [Modeled] Weak-field field equation: laplacian(psi) = -k rho g
+    └─ GRV-005 [Modeled] GRV-003's assumed premise DERIVED from network stati
+      (deps shown above)
+  └─ GRV-004 [Modeled] ZERO-POINT THEOREM: given the framework commitment t
+  └─ GRV-008 [Derived] TENSOR STRUCTURE REDUCED: three theorems -- (T1) loc
+    (deps shown above)
 
-SOL-001 [Modeled] Stable knotted solitons: ring R*=0.856 E=12.08 M_Pl;
-  └─ SOL-002 [Derived] Linking-number conservation under flexible relaxatio
-    └─ FND-012 [Derived] Defect-loop linking = integer Gauss invariant, share
-    └─ GG-003 [Derived] KEYSTONE: Hopf invariant = linking number of preimag
+FND-REL-001 [EFT-constrained] Matter-sector Lorentz: the lattice preferred frame i
+  └─ FND-MATTER-005 [Derived] The absolute mesh scale a is IRREDUCIBLE within the 
+    (deps shown above)
+  └─ QB-006 [Modeled] Quantum boundary REFRAMED (corrected by Mark): the Q
+
+SOL-002 [Derived] Linking-number conservation under flexible relaxatio
+  └─ FND-012 [Derived] Defect-loop linking = integer Gauss invariant, share
+  └─ GG-003 [Derived] KEYSTONE: Hopf invariant = linking number of preimag
 
 PM-001 [Conjecture] Lepton mass ratios via Koide phase (3+Phi)=4.618 to 
   └─ PM-002 [Failed] Lepton ratios with the model's own Weinberg angle
+  └─ PM-003 [Derived] The NUC-001 mass mechanism (knot-count minus binding
+    (deps shown above)
 
 EW-001 [Conjecture] Weinberg angle sin2thetaW = 1/(3sqrt2) = 0.2357 from
 
 QB-001 [Derived] Local rope model gives triangle wave, CHSH ≤ 2
   └─ QB-002 [Derived] Config-counting gives (π−θ)/π, NOT Born cos^2(θ/2)
     └─ QB-003 [Failed] Present counting form does not reproduce quantum ent
-      └─ QB-005 [Open] Amplitude interference from rope dynamics
+      └─ QB-006 [Modeled] Quantum boundary REFRAMED (corrected by Mark): the Q
+    └─ QB-006 [Modeled] Quantum boundary REFRAMED (corrected by Mark): the Q
+  └─ QB-006 [Modeled] Quantum boundary REFRAMED (corrected by Mark): the Q
 
 QB-004 [Failed] One-loop fluctuation mass mechanism (log-det ≈ -1.29
+
+QB-005 [Open] Amplitude interference from rope dynamics
+  └─ QB-007 [Modeled] KNOT-NUCLEATION DECOMPOSITION OF MEASUREMENT (Modele
+    (deps shown above)
+
+FND-KIN-001 [Modeled] KINEMATICS OF TRANSPORT (Open): the strand-level mec
+  └─ FND-KIN-002 [Modeled] TRANSPORT TOY (Modeled): the minimal lattice model F
+    └─ FND-KIN-003 [Modeled] 2D VORTEX MOBILITY (Modeled): the pinning hierarchy 
+      (deps shown above)
+    └─ FND-STRAND-002 [Modeled] STRAND-LEVEL TWIST TRANSPORT AND THE CLIFF FIDELITY 
+      (deps shown above)
+  └─ FND-STRAND-001 [Modeled] THE STRAND-LEVEL SUBSTRATE STANDS (Modeled) -- Phase
+    (deps shown above)
+  └─ FND-STRAND-002 [Modeled] STRAND-LEVEL TWIST TRANSPORT AND THE CLIFF FIDELITY 
+    (deps shown above)
 
 Status legend: Derived / EFT-constrained / Modeled / Conjecture / Failed / Open

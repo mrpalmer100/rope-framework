@@ -7,7 +7,7 @@ maturity; mismatches are flagged below.*
 
 | Sector | Computed maturity | Stated readiness | Claims | Basis |
 |---|---|---|---:|---|
-| Microscopic Mechanics & Foundations | **Mature** | Ready for expert review | 30 | 20/30 derived/EFT, 27/30 benchmark-backed |
+| Microscopic Mechanics & Foundations | **Mature (conditional)** | Ready for expert review | 38 | 20/38 solid, 35/38 benchmarked |
 | Renormalization / EFT | **Mature** | Ready for expert review | 1 | 1/1 derived/EFT, 1/1 benchmark-backed |
 | Electromagnetism | **Developing** | Ready for expert review | 35 | 16/35 solid, 35/35 benchmarked |
 | Classical Optics | **Mature** | Ready for expert review | 10 | 10/10 derived/EFT, 10/10 benchmark-backed |
@@ -18,7 +18,7 @@ maturity; mismatches are flagged below.*
 | Electroweak (Weinberg angle) | **Exploratory** | Exploratory (conjectural) | 1 | 1/1 conjectural |
 | Particle Masses | **Developing** | Internal / open problem | 5 | 2/5 solid, 3/5 benchmarked |
 | Gauge Geometry (unification) | **Mature** | Ready for expert review | 6 | 5/6 derived/EFT, 4/6 benchmark-backed |
-| Quantum Boundary (Bell) | **Mature (conditional)** | Ready (documented boundary / negative result) | 18 | 10/18 solid, 16/18 benchmarked |
+| Quantum Boundary (Bell) | **Mature (conditional)** | Ready (documented boundary / negative result) | 22 | 13/22 solid, 20/22 benchmarked |
 | Chemistry (bonding, geometry, dynamics) | **Developing** | Ready for expert review (Schrodinger adopted; hbar-fence declared) | 15 | 2/15 solid, 15/15 benchmarked |
 | Nuclear Structure | **Developing** | Developing (classical layer mature; kinetic/zero-point boundary named) | 9 | 1/9 solid, 7/9 benchmarked |
 
