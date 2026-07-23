@@ -4563,3 +4563,16 @@ closed on literal strands, and the gapped-bath prediction.
   throughout, Honest Status updated (the two named grants; the scale-open tie to the mass problem),
   references updated to the v2.2.5 DOI and 155-benchmark registry, registered-claims list carried over.
   A template zoom-attribute defect caught by validation and repaired. Doc-only; 169/155.
+
+### Addendum (2026-07-23, post-v2.2.5) — Guide: "The Machine Made of Twists" (quantum computers)
+- New chapter between the belt-trick and touch sections, built on Phase 4: A QUBIT IS A FRAMED STRAND
+  (Bloch sphere = the sphere of directions; amplitudes = the measured ledger components); superposition
+  is orientation, not duplication (the compass-needle correction of the slogan); global-phase
+  unobservability as MECHANICS (fibre-blindness, measured); gates as twists with non-commutativity as
+  tumbled-book geometry (live-computed figure: quarter-twists in opposite orders separate by 1.72,
+  with the fibre footnote that FULL X/Z twists land identically -- the sphere cannot see the sign);
+  readout as the dot (the full nucleation chain); THE HONEST WALL told without flinching (the
+  exponential power lives in the one granted sentence -- the pair is one thing -- proved capped at
+  2.828 but not yet built from strands); the linked-strands direction recorded WITH the discipline line
+  (a claim to earn at a benchmark, not assert in a book). One heading, one live figure, one HONEST
+  LIMIT. Doc-only; 169/155.
