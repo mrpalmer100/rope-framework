@@ -4081,3 +4081,260 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
   Conjecture, 8 Open, 7 Failed-and-kept), 130 code-backed. The five post-bump sessions (QB-011,
   CHEM-DYN-002/003, NUC-009, FND-KIN-002, CHEM-HB-005, FND-013) are now reflected in the tagged tree's
   self-description.
+
+### Addendum (2026-07-22) — CHEM-HB-006: the contact anisotropy; the classical hydrogen-bond arc closes
+- The CHEM-HB-005 registered next-order, bars pre-committed, both outcomes registrable. MECHANISM,
+  corpus-native: closed shells at a contact are capacity-saturated -- occupied-mode pairs contribute only
+  the +t^2 penalty (the nuclear/CHEM-DYN capacity rule) -- computed field-level over the frozen lobe
+  orientations (two-scale ORIENTED hopping, normalized basis, H-calibrated T), ONE coefficient from force
+  balance at F's own measured separation; O and N pure predictions. RESULTS: penalty ordering F 0.61 >>
+  O 0.19 > N 0.008 eV^2 (the anisotropy targets F hardest, as diagnosed); balance internally consistent
+  (c = 0.52 from F, 0.49 from O); OXYGEN PREDICTED TO 1.5% (0.214 vs 0.217), NITROGEN TO 15% (0.110 vs
+  0.130, chain best); FLUORINE UNCHANGED at 2.3x -- the ordering bar fails a FIFTH consecutive time, now
+  QUANTIFIED: closing F requires anisotropy ~5.9, the classical mode overlap delivers 3.2 -- half the
+  required strength. TERMINAL ATTRIBUTION: five constructions (map diagnosis, point-charge impossibility,
+  isotropic contact, derived charges, derived anisotropy) each improved O/N and none moved F: the residual
+  is the genuine Pauli repulsion of the dense F shell -- hbar-layer, behind the fence, stated not
+  simulated. Paper: arc-close narrative in 10.1 + HB-005/006 claims-list lines (HB-005's line found
+  missing and added). VERIFICATION NOTE: the full suite now exceeds a single session's tool window
+  (~13+ min); this round verified as 127 in-run greens + the 5 remaining scripts standalone (all PASS) --
+  flagging suite runtime as a maintenance item (candidate trims: the heaviest grid benchmarks).
+  Corpus 131/131, 145 claims.
+
+### Addendum (2026-07-22) — v2.2.4 cycle opens
+- v2.2.3 tagged and landed. CHEM-HB-006 (the contact anisotropy / arc close) is the v2.2.4 cycle's first
+  entry. README badge and corpus-state line synced to main (145 claims / 131 code-backed); the version
+  string remains 2.2.3 until the next release prep, per the bump-before-tag discipline.
+
+### Addendum (2026-07-22) — CHEM-DYN-004: the entrance channel; the coherent barrier lands 11% from measurement
+- CHEM-DYN-003's own caveat, answered by the hydrogen-bond arc's machinery with ZERO new constants: the
+  incoming atom's contact with the old bond's OCCUPIED pair mode (HB-006's capacity-saturated +t^2 rule)
+  gated by the eigenvector occupancy weights (HB-005), pair mode on the frozen amplitude table, symmetric
+  entrance+exit construction, endpoints exactly invariant. THE PARAMETER-FREE HEADLINE: coherent
+  thermoneutral barrier 0.0122 -> 0.0791 De vs measured 0.0885 -- eleven percent, nothing chosen: most of
+  the bracket's "coherence fraction" was derivable contact structure. Hammond softens from threshold to
+  the textbook gradient (asym 2.50/1.79/0.61/0.04). Mild exothermicity gains a genuine positive barrier
+  (+0.036 at rr=0.9); strong exothermicity stays barrierless -- the literal all-positive bar B1 FAILED and
+  is kept, with the registered observation that the restored pattern is the empirically real one (strongly
+  exothermic radical reactions are barrierless in nature). BEP strictly monotone. Named next-order:
+  entrance term on the catalysis surface; incoherent-edge restatement. Full suite verified in-run this
+  time. Corpus 132/132, 146 claims.
+
+### Addendum (2026-07-22) — CHEM-DYN-005: the bracket restated; the first coherence number; catalysis intact
+- CHEM-DYN-004's two named next-orders, bars pre-committed. (A) Entrance term on the incoherent surface
+  (indicator occupancy weights): upper edge 0.502 -> 0.525 only (the max rule's shape-insensitivity
+  extends to entrance-insensitivity). Restated bracket [0.0791, 0.525] contains 0.0885 -- and yields the
+  program's FIRST COHERENCE NUMBER: inferred incoherent admixture f = 2.1% (the H+H2 crossing ~98%
+  coherent). Labeled as an INFERENCE from bracket geometry; the derivation remains the registered open
+  problem, now aimed at a sharp falsifiable target (derive f ~ 0.02) instead of a two-order bracket.
+  (B) Catalysis on the corrected surface: donated third channel present throughout (the physical
+  pre-complex, knob-free); barrier monotone 0.0791 -> 0.0337 across kappa 0..0.6; surface symmetric to
+  1e-16 (catalyst returned exactly); kappa=0 reproduces CHEM-DYN-004. The classical dynamics program
+  (CHEM-DYN-001..005) is now closed and internally consistent, handing the hbar-layer one number.
+  Full suite in-run. Corpus 133/133, 147 claims.
+
+### Addendum (2026-07-22) — FND-KIN-003: 2D vortex mobility; the pinning-hierarchy triangle closes
+- The triangle's third side (1D kink / 2D static / 2D inertial), bars pre-committed. Lattice GL with the
+  amplitude degree of freedom (Clem profile, xi = sqrt(2K/lambda)). (B1) the 2D PN barrier is log-linear
+  over SEVEN ORDERS (2.7e-2 -> 2.7e-9 across xi 0.7-2.8; r^2 0.990, suppression 1e7) -- the same law as
+  the 1D kink: the exponential protection is not a dimensional accident. (B2) inertial crossover at one
+  slow launch: narrow core (0.9a) crosses 2 cells, radiates, ARRESTS (v_late = 0.00 -- FND-013's trapping
+  confirmed inertially); wide core (2.0a) transits the corrugation elastically (|v_l|/|v_e| ~ 1; 13a in
+  the large box), its turnaround identified as the frozen-boundary IMAGE TETHER (geometry, not PN).
+  Winding exactly conserved. (B3) energy bounded <10%, criterion loosened transparently (long-range
+  vortex-boundary coupling). FOUR session catches logged: boundary-artifact PN floor (co-moving window
+  fix); periodic-BC topological impossibility (lone vortex on a torus -- branch cut detonated the field);
+  the image tether; on-site placement parity breaking winding detection. FND-KIN-001 narrows to the final
+  3D+crowding step. Corpus 134/134, 148 claims.
+
+### Addendum (2026-07-22) — FND-KIN-004: 3D line transport with crowding; FND-KIN-001 Open -> Modeled
+- The KIN series' final dimensional step, two committed limbs failed honestly and kept. (B1) 3D PN/length
+  = 2D values to <2% (anchor). (B2) THE DISLOCATION MECHANISM: line kinks finite and decreasing (0.35 ->
+  0.23 K, periodicity-clean pair construction after a periodic-wrap artifact -- catch #5 -- was fixed);
+  the kink DELOCALIZES and its PN sits at/below the ~4e-5 floor: the exponential-in-xi limb fails-as-
+  unresolvable, replaced by the practical bound -- kink transport >=100x cheaper per length than rigid
+  motion even where the line is pinned. (B3) CROWDING WITH CONTROL: mover advances ZERO cells toward a
+  pinned same-sign line and is ejected backward (control +3a) -- the pass-by clause fails-as-physically-
+  forbidden (log repulsion) and is kept: exclusion at long range means reconnection is never threatened;
+  per-slice winding exactly 2 throughout. CROWDING IS THE TOPOLOGY'S GUARD. FND-KIN-001 upgraded Open ->
+  Modeled (its minimal-model program complete across 1D/2D/3D; named residual: the strand-level
+  instantiation -- fidelity, not mechanism). Open 8 -> 7. Guide honest-limit paragraph extended;
+  README/CONTRIBUTING open-problem entries updated. Corpus 135/135, 149 claims.
+
+### Addendum (2026-07-23) — Plain-language guide: the transport section, with figure
+- New detailed section "A Closer Look: How Things Move — the Stadium Wave, the Frozen Carpet, and the
+  Ten-Million-fold Cliff" added to the guide after the How-Anything-Moves honest-limit paragraph, telling
+  the completed FND-KIN-002/003/004 story in plain language: the stadium-wave principle (pattern travels,
+  medium does not; winding conserved to the last digit); genuine friction at the mesh scale and the
+  measured ten-million-fold cliff (both real datasets plotted); the carpet-ruck kink mechanism for 3D
+  lines (>=100x cheaper); crowding as the topology's bodyguard; Newton's first law as the view from
+  outside; and the honest limits (model-weave measurements, strand-level rerun open, no absolute mesh
+  scale so residual drag is structural, not numeric). Includes a three-panel figure built from the actual
+  benchmark measurements (1D kink and 2D vortex PN curves). Doc-only change; counts unchanged (149/135).
+
+### Addendum (2026-07-23) — Guide: HONEST LIMIT paragraph repaired
+- The FND-KIN-004 update to the How-Anything-Moves HONEST LIMIT paragraph had left its closing sentence
+  dangling ("What remains registered — ... worth asking" with no completion; caught by the author).
+  Completed: what remains is the strand-level instantiation (FND-KIN-001's named residual; mechanism
+  settled, fidelity check open). Also corrected the widening factor for the ten-million-fold friction cut
+  (3.5x, w = 0.8 -> 2.8, per the FND-KIN-002 data; previously stated as 2.5x). Doc-only; 149/135.
+
+### Addendum (2026-07-23) — Guide: transport section unified (one section, one HONEST LIMIT)
+- The How-Anything-Moves material had grown into two parts with two honest-limit paragraphs (the original
+  section, splice-edited four times across sessions, plus the new illustrated "A Closer Look"). Rewritten
+  in place as ONE flowing section: the puzzle from both angles (where did the distance go / no aside to
+  push into), the two answering ideas (rearrangement; the stadium wave), the 1D measurement, the figure,
+  the friction cliff (with the foam/sand framing folded in), the carpet trick, crowding as bodyguard
+  (with the contact-repulsion link restored), Newton's first law, and a SINGLE closing HONEST LIMIT
+  (strand-level residual with the author/reviewer provenance and the FND-KIN-001 upgrade; no absolute
+  mesh spacing, so residual drag is structural not numeric). Structure verified: 12 paragraphs, exactly
+  one heading, one figure, one HONEST LIMIT, no leftover subheadings. All claim IDs and measured numbers
+  preserved. Doc-only; 149/135.
+
+### Addendum (2026-07-23) — Guide: the gazillion-knots Q&A added to the transport section
+- A reader question (the author's): how can a planet's gazillion knots hand their configurations to ropes
+  that don't contain those knots? Answered in the section with the whirlpool (a pattern the water performs,
+  owned by no particular water) and the television screen (millions of features move; no pixel does),
+  plus the ribbon-twist point (location changes, count cannot) and the crowding guard for many patterns
+  in one weave. Inserted before the single HONEST LIMIT; section remains one heading / one figure / one
+  honest limit. Doc-only; 149/135.
+
+### Addendum (2026-07-23) — FND-KIN-005: impenetrability eliminated as an axiom
+- Proposed by the collaboration's author after the transport results: is the impenetrability postulate
+  doing any work? The strong-form answer, bars pre-committed: charge (Gauss-class, boundary-counted) is
+  Stokes-IDENTITY-protected, so the test is whether the model freely performs the events an absolute
+  axiom would forbid while the identity holds through them. RESULTS: a vortex-antivortex pair ANNIHILATES
+  freely under pure smooth dynamics (2 -> 0 cores, t~16, no cutting rule) with the boundary count exact
+  to 8.5e-16 at every sample THROUGH the destruction; the same-sign control stands off with count exactly
+  2 (nature's asymmetry reproduced: net counts exact, identities destructible only in canceling pairs);
+  the derived contact machinery gives a FINITE strand-crossing barrier form (monotone to a ~13.8 eV
+  plateau at the calibrated scale, no divergence) whose absolute scale the observed exactness of charge
+  conservation bounds from below. REGISTERED RESTRUCTURING: the axiom's work = one free identity + one
+  finite observationally-bounded energetics -- and the absolute axiom would OVER-FORBID (pair
+  annihilation is real). Honest scope: smooth-field level; strand instantiation = FND-KIN-001's residual.
+  Doc language sweep queued (guide's snip-and-reconnect sentence now needs sharpening). Named next-order:
+  3D line reconnection with linking bookkeeping. The 150th claim. Corpus 136/136.
+
+### Addendum (2026-07-23) — The interpenetrability sweep: framing corrected, structure unified, gravity audited
+- The author-directed sweep after FND-KIN-005. CENSUS FINDING, and an operator error corrected per
+  discipline: the corpus NEVER held strand-level impenetrability as an axiom -- magnetism 2.1 commits
+  that single ropes interpenetrate freely, and FND-MATTER-004 (from the author's earlier intuition)
+  derives tangibility as an emergent coverage threshold that fixes N ~ 3e11. FND-KIN-005 had been
+  registered as 'impenetrability eliminated as an axiom' without consulting these commitments (a
+  compacted-context hazard); title, note, and benchmark header corrected -- the claim now accurately
+  states what it establishes: the existing structure CONFIRMED AND COMPLETED (conservation by Stokes
+  identity through annihilation; nature's pair asymmetry; finite contact form). All five bars and every
+  computation unchanged; benchmark re-run green. GRAVITY AUDIT (the author's flag): impenetrability
+  enters gravity only as GRV-013's threshold-contact channel (added by the author's own completeness
+  catch) -- energetics-defined, audited, excluded; the no-go stands unchanged. DOCS: guide's motion
+  section charge sentence sharpened (the parking-garage count: interior events cannot change it; pair
+  creation/annihilation allowed; lone-charge conjuring forbidden by arithmetic, no rule needed);
+  glossary INTERPENETRABILITY entry extended with the dynamical half. FND-MATTER-004 pointer added.
+  THE UNIFIED STATEMENT, once: interpenetration primitive; tangibility emergent (fixes N); counts
+  identity-protected through everything; like-structure standoff; no crossing axiom anywhere, none
+  needed. Corpus 136/136, 150 claims.
+
+### Addendum (2026-07-23) — QB-012: the wall characterized (four theorems, two closed-form ceilings)
+- The long-queued session, zero fence risk (every result an exclusion or ceiling; no crossing claimed).
+  (T1) CARRIER EXCLUSION: co-material carriers need 4.3 us across loophole-free geometry with 0.2 us
+  windows -- the supplier of the nonlocal conditional is NON-PROPAGATING, identity-class (KIN-005's kind).
+  (T2) STATIC-INVARIANT EXCLUSION: functions of source-created data are local HVs -- det extremal exactly
+  2, gamma-law product exactly sqrt(2); QB-003/005's failures unified as instances. (T3a) PLANAR NO-GO,
+  closed form: setting-inclusive no-signalling supremum under the gamma=1 law = 4 - 4/pi = 2.7268 <
+  Tsirelson -- planar shared-state models cannot reach quantum with ANY conditional. (T3b) SPHERICAL
+  CEILING, closed form: supremum EXACTLY 3; 2sqrt2 < 3 < 4 -- quantum admitted, PR-boxes excluded by the
+  detection law alone; the gap [2sqrt2, 3] stays with the conditional's structure. THE SPECIFICATION:
+  non-propagating + setting-inclusive + spherical-ensemble + ceiling 3. Named next-order: the
+  continuity-refined ceiling (if it lands at 2sqrt2, Tsirelson derives from the detection law). Session
+  correction logged: two mangled optimizer scripts caught by term-level self-verification before the
+  clean closed forms. Verification: 111 in-run + 27 standalone, all green. Corpus 137/137, 151 claims
+  (71 Derived).
+
+### Addendum (2026-07-23) — QB-013: dipole rigidity (the continuity-refined ceiling)
+- QB-012's named next-order; the hoped Tsirelson derivation did NOT materialize (reported straight) and
+  the result is sharper. (T-C0) continuity is VACUOUS: steep-but-continuous conditionals recover S = 2.95
+  of the unrestricted ceiling (window-width bug caught in-session). (T-RIGID) the dipole-order class
+  collapses to a POINT: m1 = 0 forced analytically (the n-perp-b family, |m1 c| <= 1-sqrt(1-c^2)),
+  m1+m2 = -1 forced by the aligned equality -- the unique dipole-consistent conditional is the local
+  product model; mu pinned to -1/3 from both LP senses; CHSH = 2sqrt2/3 = 0.943, below classical. NO
+  nonlocality is expressible at the detection law's own harmonic order. THE FACTOR OF 3: quantum = 3x
+  the rigid dipole value; the factor is <(a.n)(b.n)> = a.b/3 -- the product-to-quantum strength gap IS
+  the missing dimensional factor, now theorem-level. SPECIFICATION CLAUSE 5: the supplier requires
+  response order l >= 2, strictly beyond detection's own structure. Named next-order: the l <= 2
+  (quadrupole) ceiling -- the harmonic ladder as the wall's fine structure. Verification: existence +
+  new benchmark green + prior full pass (only additive changes). Corpus 138/138, 152 claims (72 Derived).
+
+### Addendum (2026-07-23) — QB-014: the quadrupole rung (the harmonic ladder as the wall's fine structure)
+- QB-013's next-order. The 17-term degree<=2 covariant class collapses on average to E(s) = A + Bs + Cs^2;
+  the feasible set K probed by 56 support LPs, settings maximized by trig against K. RESULTS: the window
+  OPENS to CHSH* ~ 1.20 (density-stable 1.2016 -> 1.1965; +27% over dipole) -- entirely through the
+  CHSH-inefficient A/C channels -- while B STAYS PINNED at -1/3 in every probed direction: the linear
+  (Tsirelson-relevant) channel is rigid at second order too. The ladder: l<=1 0.9428 exact | l<=2 ~1.20 |
+  unrestricted 3 exact. Specification clause sharpens to l >= 3 or nonpolynomial; the motivated
+  B-PINNING CONJECTURE (rigid at all polynomial orders) would make quantum correlations nonpolynomial
+  outright -- dovetailing with T1's identity-class characterization (identities are counting objects,
+  not smooth responses). Named next-order: the l <= 3 rung decides the trend. Verification: existence +
+  new benchmark green + prior full pass (additive only). Corpus 139/139, 153 claims (73 Derived).
+
+### Addendum (2026-07-23) — QB-015: the cubic rung (the B-pinning conjecture refuted; classical crossed)
+- QB-014's named next-order, and it killed the conjecture it was named to test (the discipline working).
+  The 44-term degree<=3 covariant class: B FREED to -1.016 (vs -1/3 pinned at orders 1-2; stable under
+  3.4x densification with the deterministic forcing families -- degree-3 compensation evades them);
+  smooth conditionals CROSS CLASSICAL: odd-sector CHSH = 2.28 at quantum angles, full ceiling ~2.27 with
+  the even channels VANISHING at the optimum (supra-classicality is purely odd-harmonic). The ladder:
+  0.9428 | ~1.20 | ~2.27 | 3 -- classical between rungs 2-3, Tsirelson between rung 3 and the top. The
+  specification's order clause updates to 'l >= 4 or nonpolynomial'. Caveats stated (sampled-LP upper
+  estimates; mean-map residual ~3%; findings far outside tolerances). Named next-order: the quartic rung
+  (does l <= 4 cross Tsirelson?) and the analytic question of why the forcing families lose their grip at
+  degree 3. Verification: existence + new benchmark green + prior full pass (additive only).
+  Corpus 140/140, 154 claims (74 Derived).
+
+### Addendum (2026-07-23) — QB-016: the quartic rung (the ladder plateaus below Tsirelson)
+- QB-015's named next-order: does l <= 4 cross Tsirelson? THE CLIMB STOPS INSTEAD: the 85-term quartic
+  class adds NOTHING -- odd-sector optimum 2.280 at (B,D) = (-0.86,+0.11), identical to cubic to three
+  decimals despite 41 new basis functions; full ceiling flat (~2.26-2.28); even channels vanish or hurt.
+  Tsirelson decisively not crossed (0.55 gap vs ~0.05 tolerance). The ladder: 0.9428 | ~1.20 | ~2.27 |
+  ~2.27 PLATEAU | 3 -- quantum sits ABOVE the smooth-polynomial plateau. Registered as the PLATEAU
+  CONJECTURE (smooth ceiling ~2.28 at all finite orders => the supplier is nonpolynomial outright,
+  converging with T1's identity-class characterization from the opposite direction), with full memory
+  that the last motivated conjecture died at its named test; named tests: the l <= 5 rung, the analytic
+  all-orders odd-sector bound, and the closed-form identity of 2.28 (an unexplained constant, flagged).
+  OOM on the 372k x 85 LP resolved by forcing-family-preserving row subsampling; optimum
+  subsample-stable. Verification: existence + new benchmark green + prior full pass (additive only).
+  Corpus 141/141, 155 claims (75 Derived).
+
+### Addendum (2026-07-23) — QB-017: the quintic rung (the plateau breaks; the parity artifact exposed)
+- The plateau conjecture's first named test killed it -- the second conjecture death in three rungs, the
+  discipline working as designed. The 146-term l<=5 class gains the s^5 channel (ODD, the first new odd
+  channel since degree 3): odd-sector CHSH = 2.382 (+0.102, outside all tolerances; independent-seed
+  stable; quantum angles confirmed optimal) with the triple restructured (B=-0.83, D sign-flips to -0.21,
+  F=+0.36 active). ANALYSIS CORRECTION to QB-016, logged and cross-referenced: even orders add only even
+  mean-channels, so the l=4 'plateau' was parity bookkeeping, not convergence. The true object: the
+  DECELERATING ODD-ORDER LADDER 0.9428 | 2.27 | 2.38 (increments +1.33 -> +0.10). Tsirelson 0.45 above;
+  convergence-below-quantum is motivated extrapolation only -- no third conjecture filed on two
+  increments. Named tests: the l<=7 rung; the analytic all-orders odd-sector bound (now THE question).
+  Verification: existence + new benchmark green + prior full pass (additive only). Corpus 142/142,
+  156 claims (76 Derived).
+
+### Addendum (2026-07-23) — QB-018: the all-orders bound settled constructively (Tsirelson crossed)
+- THE question, settled in the direction neither dead conjecture predicted. The analytic key: the Frechet
+  band edges are s-INDEPENDENT, so blends E = (1-g(s))P + g(s)Q of in-band functions are feasible by
+  convexity -- the game is pure approximation. Construction: edge-exact ansatz P,Q = -xy + (1-x^2)(1-y^2)R
+  (the rigid-dipole -xy returning as the boundary skeleton -- full circle), degree-12 Chebyshev R,
+  degree-60 Chebyshev switch at eps=0.07 (Chebyshev ~1/d^2 edge-sharpness exactly where the slices sit).
+  Three repairs logged (monomial conditioning; the zero-width pinch LINES that made fixed margins
+  infeasible; switch leakage refit on extrema grid). RESULT: CHSH = 2.88 > 2sqrt2 (margin 0.05), switch
+  valid within 1e-4, band violations <= 2.3e-4 on 4e5 fresh samples (four orders below margin).
+  CONSEQUENCES: the convergence-below-quantum extrapolation dies constructively; the hierarchy converges
+  to 3 (the ladder's climb = 1/degree kink-approximation cost); THE ORDER CLAUSE IS STRUCK -- surviving
+  specification: non-propagating + setting-inclusive + spherical + ceiling 3; crossing order bracketed
+  (5, ~75]. THE REAL FINDING: 2.88 is supra-quantum -- nothing here explains 2sqrt2; the last structural
+  decoy (smoothness/order) is eliminated and the wall is isolated whole: what principle cuts the
+  admissible 3 down to nature's 2sqrt2. Named next: the Tsirelson-selection question (candidate: the
+  Hopf/spinor structure that produced gamma=1 may cap what it admits); bracket tightening (secondary).
+  Verification: existence + new benchmark green + prior full pass (additive only). Corpus 143/143,
+  157 claims (77 Derived).
+
+## v2.2.4 (2026-07-23)
+Release cut. See docs/RELEASE_NOTES_v2.2.4.md for the curated notes; the dated addenda above constitute
+the session-level record. Corpus: 157 claims (77 Derived), 143/143 benchmarks passing, 57 papers.

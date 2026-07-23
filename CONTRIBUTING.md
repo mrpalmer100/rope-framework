@@ -39,8 +39,9 @@ status `Open` is an invitation; the current set includes:
 
 - **QB-005 — amplitude interference from rope dynamics.** The one object standing
   between the model and quantum correlations (see the measurement arc, QB-007–011).
-- **FND-KIN-001 — kinematics of transport.** How a knot moves through the inextensible
-  mesh without dissipation; a minimal lattice model would move this.
+- **The strand-level transport instantiation** — FND-KIN-001's named residual: the
+  1D/2D/3D defect-level mechanism is complete; instantiate it with literal
+  rope_solver knots.
 - **The reaction-coherence fraction** — CHEM-DYN-002's registered next step: where
   between the coherent and incoherent sharing brackets the physical system sits.
 - **FND-MATTER-003 — the absolute scale**, and **GRV-012** — the standing gravity
