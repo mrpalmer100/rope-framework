@@ -4534,3 +4534,13 @@ Release cut. See docs/RELEASE_NOTES_v2.2.5.md for the curated notes; the dated a
 session-level record. Corpus: 169 claims (80 Derived, 67 Modeled), 155/155 benchmarks passing, 58
 papers. Headline: the Tsirelson-selection answer, the strand campaign complete, the measurement chain
 closed on literal strands, and the gapped-bath prediction.
+
+### Addendum (2026-07-23, post-v2.2.5) — Predictions unified: the measurement-sector family joins the paper
+- Single predictions file maintained: papers/falsifiable_predictions gains "The Measurement-Sector
+  Predictions (added at v2.2.5)" in the paper's own discipline (relation / derived-vs-assumed /
+  falsifier): P7 the gapped noise floor (shape committed, location scale-open); P8 detection as
+  nucleation kinetics (the whole first-passage package, avalanche overlap declared); P9 spin-1/2
+  requires extension (in-principle, one-sided); P10 Tsirelson forever with the failed organ named
+  (the >24-degree channel); P11 Born's square from channel energy; P12 analog universality (cliff +
+  coverage crossover, testable now, no-scale caveat inapplicable). Calugareanu/supercoiling declared
+  retrodiction. Six new claim IDs added to the paper's registered-claims list. Doc-only; 169/155.
