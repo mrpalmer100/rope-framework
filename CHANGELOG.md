@@ -4576,3 +4576,17 @@ closed on literal strands, and the gapped-bath prediction.
   2.828 but not yet built from strands); the linked-strands direction recorded WITH the discipline line
   (a claim to earn at a benchmark, not assert in a book). One heading, one live figure, one HONEST
   LIMIT. Doc-only; 169/155.
+
+### Addendum (2026-07-23, post-v2.2.5) — Guide: "Machines You Already Own"
+- The applied tour, between the quantum-computing chapter and the touch section: MRI (with a NEW live
+  figure -- the spin echo computed from strand ledgers: dephase to 0.05, one pi twist, refocus to
+  1.000 at exactly 2T; 'the echo is arithmetic running backwards after a twist'); neutron 4pi
+  interferometry (the belt trick performed by nature in the 1970s); the coiled optical fiber (Berry
+  phase with the word 'abstract' dropped -- frame transport is the campaign's machinery); the
+  superconducting logic chip (the Josephson equation IS the twist chain, symbol for symbol; fluxons
+  are the kinks; the cliff in a purchasable device); the single-photon detector (the nucleation
+  chapters' machine, carrying a prediction); racetrack memory and DNA topoisomerases (counts as bits;
+  biology running Calugareanu for four billion years). Closing: mechanism where there was formalism,
+  and the two-way street to the analog-universality prediction. One heading, one live figure, one
+  HONEST LIMIT (shared-equations level, not device engineering; entanglement machines behind the
+  grant; scale caveat). Doc-only; 169/155.
