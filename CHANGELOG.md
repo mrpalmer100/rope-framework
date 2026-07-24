@@ -4696,3 +4696,199 @@ conjecture funded, tested, nearly falsely executed, and completed: the IR-univer
 Einstein-Hilbert; 1.751 arcseconds as a theorem conditional on one measured locus in conditioning
 space. Plus the predictions paper rebuilt (fifteen predictions), INSTRUMENTS.md, and two guide
 chapters.
+
+### Addendum (2026-07-23, v2.2.7 cycle) — GRV-028: the locus test run; the scalar screened; ONE condition left
+- The locus test executed: the far field is OFF-locus (t ~ 1/r^2 stress flux, s ~ 1/r^3 Hessian
+  strain, ratio ~ 1/r) -- an apparent kill. The mandated audit found the massless-scalar assumption
+  buried in the Brans-Dicke bridge; phi is a lock-deviation with no symmetry protection, penalized at
+  O(1) by the weave's own stability; the universal zero-point correction is negative but 2 percent
+  (closed form -(1/8)<lambda^(-3/2)> = -0.019/site, instrument-matched with the convention factor
+  verified). Net: phi massive at lattice scale, Yukawa range ~ strand scale, invisible to every PPN
+  observable. gamma = 1 from EH + covariant sourcing alone: 1.751 arcseconds (and Mercury, Shapiro,
+  Nordtvedt) conditional ONLY on one-metric coupling. GRV-027 re-scoped to microscopic scalar
+  phenomenology. Third instance of the arc's pattern: audit before executing -- and again the
+  instrument was at fault, not the physics. Corpus 163/163, 177 claims (86 Derived).
+
+### Addendum (2026-07-23, v2.2.7 cycle) — GRV-029: THE PHYSICAL ONE-METRIC DERIVATION -- the summit reached, C1 discharged
+- The gravity sector's last hypothesis is now a theorem of the corpus's own structure, bars locked
+  before any computation (analysis/GRV029_bars_LOCKED.md). (a) BY COUNTING, exact: the gapless mode's
+  wave operator carries exactly (mu, T_x, T_y, T_z); a static metric carries exactly (alpha, b_a); the
+  map is a bijection (closed inverse, Jacobian -16 alpha B; isotropic b = (T mu)^(1/4),
+  alpha = T^(3/4) mu^(-1/4)) -- light is one-metric because no fifth function exists. (b) EXCLUSIVITY:
+  the single off-metric operator direction is the gap coefficient, and its metric-compatible value is
+  ALGEBRAICALLY IDENTICAL to GRV-026's gap-lock T^(3/2) mu^(1/2) -- the condition GRV-028 already
+  screened; the lock was the one-metric condition wearing different clothes. Slaving measured: kernel
+  (omega/m)^1.92; total suppression omega^3.9 for the protected gradient coupling -- a BAR BREACH
+  ([1.8,2.2] locked) resolved a fortiori by the mandated audit: the protected vertex adds its own
+  omega^2, and the fixed-coupling control COLLAPSES (negative omega^2): non-gradient couplings
+  mass-poison the gapless mode, EM-RECON-012's protection enforcing its own coupling class; 475x at
+  omega = 0.1 m. (c) IDENTIFICATION: the instrument extended with the alpha channel (validated
+  0.006-0.025% vs exact on eight directions), EH pattern reproduced (K_xy = 86.68 = GRV-026's K_EH),
+  FIFTH parameter-free covariance fingerprint passed (|K_zs/K_xs| = 0.0098), and the physical-basis
+  (T_a, mu) channels through the full nonlinear dictionary match the covariant pull-back at 1.0000 --
+  with the pre-registered honesty that this verifier is a dictionary/instrument consistency theorem
+  (bilinearity of the q^2 m-odd form), load-bearing against any wrong dictionary power but not an
+  independent dynamical test. VERDICT: 1.751 arcseconds, Mercury 43.0, Shapiro, Nordtvedt --
+  UNCONDITIONAL derived predictions of the corpus (standing named items: absolute scale, the m^3
+  cosmological locus, hbar's inherited status -- none entering these numbers). Corpus 164/164, 178
+  claims (87 Derived).
+
+## v2.2.7 (2026-07-24)
+Release cut. See docs/RELEASE_NOTES_v2.2.7.md. Corpus: 186 claims (87 Derived, 77 Modeled), 174/174
+benchmarks passing, 58 papers; SPARC data in-repo. Headline arcs: the gravity summit (GRV-029:
+unconditional 1.751"), the SPARC confrontation (zero-parameter g_dagger; P4 retired; the H0 meter
+brackets the tension), and the black-hole arc (a comb, not a point; the Hawking divergence
+registered with its PBH falsifier). Guide GPS chapter; glossary TIME entry; registry dedup.
+
+### Addendum (2026-07-23, v2.2.7) — Registry dedup: EM-015/EM-016 double entries removed
+- Author-caught during the v2.2.7 verification pass: EM-015 and EM-016 each appeared twice in
+  claims.yaml (fully identical entries -- title, status, note, benchmark -- a pre-existing insertion
+  artifact), inflating every headline count by two (and Derived/Modeled by one each). Second
+  occurrences surgically removed; TRUE corpus counts: 176 claims (86 Derived, 68 Modeled, 4
+  EFT-constrained, 4 Conjecture, 7 Open, 7 Failed-and-kept), 164/164 benchmarks. All release
+  documents corrected before shipping -- honest counts are the corpus's currency, and the release
+  ships with them or not at all. (Also repaired: pyproject.toml and README version strings, which the
+  cutting session had left at 2.2.6.)
+- (Same pass) Stowaway removed: a stale nested rope_github/ working-directory copy (18 MB, v2.2.6
+  state, no GRV-029) had been swept into the export -- the du -sh rule catching its second offender.
+
+### Addendum (2026-07-23, v2.2.7 cycle) — GRV-030: the SPARC confrontation -- a win and a hit, both kept
+- Full Rotmod_LTG (155 galaxies, 2788 points, data shipped in-repo). Prediction 1 CONFIRMED at zero
+  parameters: g_dagger = cH0/2pi within 4.5 percent of fitted, RMS at the predicted value within
+  0.0002 dex of the best fit. Prediction 4 takes its hit: data prefer simple over the canonical tanh
+  by 0.0086 dex, and the shape was never pinned to an exact nu(y) -- underoperationalized; named debt:
+  derive the tension-response nu(y) or retire the shape claim (predictions-paper revision flagged for
+  v2.2.8). Structural sharpening: with the scalar screened and the metric EH, the horizon channel is
+  the ONLY MOND carrier -- the prediction became more falsifiable as the sector became more precise.
+  Corpus 165/165, 177 claims (69 Modeled).
+
+### Addendum (2026-07-23, v2.2.7 cycle) — Guide: "Why Your GPS Works: Time, Told by Strands"
+- The gravity sector's guide debut, placed before the closing season chapter: time dilation as the
+  temporal half of the newly derived metric. A clock is strands oscillating (no freestanding time);
+  near a mass the conditioned medium sets every loop's rate -- 'every physical process slowing
+  together, because every physical process is made of the same stuff'; universality DERIVED as
+  co-materiality where Einstein postulated it (equivalence as identity); the twin as plain mechanics;
+  the one honest departure stated (a preferred frame underneath, concealed by the corpus's own no-go,
+  with its single named instrument). Live-computed figure: the two-effect battle vs altitude --
+  crossover ~3,200 km, ISS slow, GPS +38 microseconds/day, 'or the system drifts by kilometers every
+  day.' Pound-Rebka to centimeter-resolving optical clocks. HONEST LIMIT: the metric matched-then-
+  derived story told straight; absolute G still open; the rates never needed it. One heading, one
+  live figure, one honest limit. Doc-only; 177/165 unchanged.
+- (Same pass) Figure sign-error caught by the live-print discipline: the first build's gravitational
+  term was flipped (printed -52.9 us/day against the caption's +38); corrected formula asserts its own
+  outputs (GPS +38.6, crossover ~3,190 km) before the figure ships. The guide's figures print their
+  numbers precisely so this class of error cannot ride a pretty plot into print.
+
+### Addendum (2026-07-23, v2.2.7 cycle) — Glossary v4: TIME gets its headword; SIMULTANEITY corrected
+- Author-flagged: the ontology's deepest move had no entry of its own. New first-class TIME entry --
+  'Strands moving... the past is not a place but a configuration the weave no longer occupies...
+  proper time is a COUNT, and counts only accumulate... time is not a river you could swim against;
+  it is the swimming' -- with the presentism consequences (no time travel as grammar, forward
+  differential aging real, the hidden ontological now) cross-referenced. SIMULTANEITY corrected for
+  the pre-QB-008 voice: 'no DETECTABLE global simultaneity' with the hidden preferred frame stated
+  ('hidden and nonexistent are different claims, and the rope model makes the first'). CLOCK's
+  gravitational mechanism updated from the tension-only era to the derived-metric chain (GRV-025/029),
+  with universality noted. Doc-only; 177/165 unchanged.
+
+### Addendum (2026-07-23, v2.2.7 cycle) — GRV-031: the shape debt collected -- by retirement
+- Both branches of GRV-030's debt executed in order, bars locked before data. The corpus-natural
+  candidate (Langevin alignment-saturation against the horizon floor, parameter-free, the 3 fixed by
+  the deep-MOND asymptotic) loses by +0.0151 dex at the predicted g_dagger -- crossing the locked
+  RETIRE bar. Prediction 4 retired as a shape claim, rewritten in place in the paper (failures stay
+  visible); glance row amended; the future-candidate bar recorded (beat 0.1421 + 0.003 at predicted
+  g_dagger or stay out). The framework's MOND content contracts to its confirmed strength: the scale,
+  one number, one channel, no overreach. Methodology precedent recorded: shape claims enter only with
+  nu(y) pinned and bars pre-committed. Corpus 166/166, 178 claims (87 Derived).
+
+### Addendum (2026-07-24, v2.2.7 cycle) — GRV-032: the RAR as an H0 meter -- a signal wearing a blindfold
+- Morning-after science: GRV-030's 4.5-percent 'miss' inverted through the confirmed relation reads
+  H0 = 73.4 +5.3/-4.9 (stat) at standard M/L -- the SH0ES local value almost exactly; if local H0 is
+  true, the prediction never missed. The discipline then measured the blindfold: disk M/L 0.4-0.6
+  swings the reading 91-60, dominating the tension itself -- the meter is real but cannot adjudicate,
+  and sharpens only as external M/L priors sharpen. The 2pi-vs-6 coefficient caveat QUANTIFIED as
+  degenerate with H0 inside systematics (73.4 vs 70.0); the z-drift test remains the discriminator.
+  Named next-orders: hierarchical per-galaxy M/L marginalization; the high-z RAR. Corpus 167/167,
+  179 claims (70 Modeled).
+
+### Addendum (2026-07-24, v2.2.7 cycle) — GRV-033: the sharpened meter flips -- and the flip is the finding
+- Hierarchical per-galaxy M/L (0.10-dex prior): RAR scatter 0.1421 -> 0.0933; calibration systematic
+  shrunk tenfold (+/-15 -> +/-1.5); Upsilon posterior sane. And the reading FLIPS: H0 = 64.6
+  [60.5,70.1] -- Planck-side; yesterday's local-side reading was fixed-M/L-driven. Honest headline:
+  the M/L treatment is the dominant systematic; between defensible treatments the meter brackets the
+  tension (65-73) rather than adjudicating it. The scale's zero-parameter landing survives either
+  way; the z-drift test -- a ratio, immune to absolute M/L calibration -- is proven to be the right
+  discriminator. One-day-old delight retired by its own named next-order: the registry working as
+  designed. Corpus 168/168, 180 claims (71 Modeled).
+
+### Addendum (2026-07-24, v2.2.7 cycle) — GRV-034: what a black hole is -- the tension-exhaustion surface
+- The audit found a live internal contradiction: the guide said tension EXHAUSTED, the technical
+  papers said EXTREME-tension. GRV-029's dictionary adjudicates in the guide's favor: along
+  Schwarzschild, T = AB -> 0 exactly at the horizon, mu -> infinity, c_local -> 0 -- the frozen-star
+  picture as mechanics (benchmarked). The interior given a corpus-native fate via GRV-027's measured
+  punch-through: extreme conditioning RECONNECTS the weave -- the singularity as a topology-change
+  region, mechanism not mystery. Cosmology and thermodynamics passages corrected in place; the guide
+  needed no edit -- the rare audit where the plain-language document was ahead of the technical ones.
+  Honest limits: weak-field-derived dynamics extrapolated; near-horizon band collapse and
+  Bekenstein-Hawking filed open. Corpus 169/169, 181 claims (72 Modeled).
+
+### Addendum (2026-07-24, v2.2.7 cycle) — GRV-035: the horizon as percolation collapse
+- Mark's paradox ('intuition says tension should be HIGH near huge masses') resolved by refusing the
+  dichotomy: radial per-strand tension IS high; the dictionary's vanishing T is TRANSVERSE,
+  crossing-mediated -- and light is transverse. GRV-027's measured punch-through deletes bonds;
+  connectivity collapses. Two-stage model: p(T_press) from the exact crossing solver with disorder;
+  K_eff(p) vanishing at p ~ 0.25 -- reproducing the known 3D bond-percolation threshold the model was
+  never told. The horizon is sharp because percolation transitions are. The interior: a comb, not a
+  point -- radially taut, transversely silent, reconnecting. The entropy door opened one inch
+  (severed bonds live on a surface: area-law flavor) and filed open. Corpus 170/170, 182 claims
+  (73 Modeled).
+
+### Addendum (2026-07-24, v2.2.7 cycle) — GRV-036: mass without knots -- and no-hair as strand mechanics
+- Mark's audit question resolved by separating two definitions that coincide for particles and part
+  for black holes: knot-resistance (particle inertia) vs stress-energy (the gravitating source). The
+  comb's radial tension-energy IS the black hole's mass -- Mark's 'tension should be high' intuition
+  lands as the MASS while 'ropes run out of tension' remains the HORIZON: two directions, two truths.
+  Verified: far-field M read from the (T,mu) field alone; punch-through releases (not loses) energy.
+  The gift: the survives/dies ledger reproduces no-hair exactly -- strand-local invariants (energy,
+  handedness=charge, circulation=spin) survive; knot-topological ones (baryon number, identity) die
+  into reconnection microstates: baryon non-conservation gets a mechanism, and the information
+  paradox files beside the entropy question, both pointing at the reconnection count. Glossary MASS
+  entry gains its scope note. Corpus 171/171, 183 claims (74 Modeled).
+- (Same pass) V1's asymptotic readout coefficient corrected (c_local ~ 1 - 4M/r: slope/4, not /2) --
+  caught by the benchmark's own assert before shipping; fifth instrument-catch of the two-day arc.
+
+### Addendum (2026-07-24, v2.2.7 cycle) — GRV-037: the reconnection count -- one-way bits, an area law, and a Planck-length handshake
+- The ratchet measured: the through-state is ABSORBING at every tension -- each marginal crossing is
+  a one-way bit; the count is monotone (Hawking's area theorem as crossing mechanics); GRV-036's
+  erased identity is frozen, not destroyed -- unread. The counting rule: the mixed-population shell
+  (the measured [1,4.5] disorder band). The conditional area law: under the Rindler-class profile the
+  shell thickness is M-independent and the count scales as R^1.90 -- with the pressing-profile bridge
+  named as the condition, now carrying both the horizon model and the entropy law. The closure:
+  S ~ A/a^2 meets GRV-007's a_grav ~ l_P from two eras ago -- Bekenstein-Hawking FORM up to the
+  underived 1/4. Internal falsifiers stated (tidal-class profile kills the area law; non-absorbing
+  through-state kills the ratchet). Corpus 172/172, 184 claims (75 Modeled).
+
+### Addendum (2026-07-24, v2.2.7 cycle) — GRV-038: the pressing profile derived -- the bridge delivered
+- The load-bearing summit: one premise (the frozen medium bears its static support load -- GRV-034's
+  own picture stated as input), one exact theorem (a*s -> c^2 at every mass; four-decimal collapse of
+  r_s = 1/10/100 onto one universal curve; M-dependence O(s/r_s) ~ 1e-50 at the shell), one dispatch
+  (tidal/static = (a/r_s)^2, dead at a thousand cells). The pressing profile is RINDLER-CLASS,
+  derived. GRV-037's area-law condition DISCHARGED: N ~ A/a^2 stands within the arc's shared
+  extrapolation; Bekenstein-Hawking FORM on named parts. Sole remaining summit: the temperature --
+  does the comb radiate as the band collapses? Corpus 173/173, 185 claims (76 Modeled).
+- (Same pass) T1's numerical integral replaced with the exact closed-form proper distance after the
+  benchmark's own assert flagged a trapezoid bias near the integrable singularity -- sixth
+  assert-catch of the arc; the mass-collapse check had passed regardless (bias cancels across
+  masses), but the absolute a*s -> c^2 check demanded exactness and got it.
+
+### Addendum (2026-07-24, v2.2.7 cycle) — GRV-039: the Hawking channel tested -- birth-cry, then silence
+- The formation experiment (exact Gaussian quantum dynamics): the collapse radiates a measured
+  directed burst; the steady late-time current settles to |J|/P_SB ~ 0.01. Audit verdict: physics,
+  not instrument -- steady Hawking flux needs infinite redshift or a supply flow, and the corpus's
+  percolation-severed horizon provides neither. THE DIVERGENCE REGISTERED: formation- and
+  accretion-powered emission (reconnection noise, dE ~ +0.07 per ratchet event) but no steady
+  evaporation of isolated holes -- A DETECTED PBH EVAPORATION BURST WOULD FALSIFY THIS BRANCH. The
+  1/4: the conditional closure T = kappa/2pi -> S = A/4 verified as arithmetic and declined as a
+  claim; the entropy stands as the count, S ~ A/a^2, coefficient open. Two instrument iterations
+  (spectral window, parity artifact) logged en route to the resolution-robust flux observable. The
+  nine-claim black-hole arc closes: a comb that remembers its area, announces its birth, whispers
+  when it eats, and otherwise keeps perfect silence. Corpus 174/174, 186 claims (77 Modeled).
