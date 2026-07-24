@@ -173,6 +173,52 @@ information:
 A well-characterized impossibility tells engineers where not to spend money;
 QB-012's four-clause wall specification is the corpus's most developed example.
 
+## The whisper: an in-principle observable
+
+The v2.2.8 whisper arc (GRV-040…GRV-044) registered the first emission signal
+this corpus predicts from an astrophysical object, so it belongs in this
+document — stated with this document's usual discipline: a well-characterized
+in-principle signal, not a mission proposal.
+
+**What it is.** Accretion-powered reconnection noise: each crossing pressed
+past its barrier at the marginal shell releases a measured quantum of energy,
+and the climb out of the exhaustion gradient redshifts every event — whatever
+its microscopic character — to the horizon's own frequency scale (the strand
+scale cancels; GRV-040).
+
+**The numbers.**
+
+| Source | frequency | band |
+|---|---|---|
+| 10 M☉ hole | ~182 Hz | audio / ground-based |
+| Sgr A* (4×10⁶ M☉) | ~0.5 mHz | LISA band |
+| M87* (6.5×10⁹ M☉) | ~0.3 µHz | below all current bands |
+
+Luminosity law: L = f · Ṁc² · T_grey with f ≤ 1 by energetics and T_grey
+measured at 4–11 percent. **f is bounded, not derived** — the loudness is an
+open parameter, and no claim of detectability is made.
+
+**The discriminator that survives even a thermal look-alike.** The spectrum
+is Planck-like near the peak with temperature 1.3 × κ/2π (GRV-043), but the
+tail's effective temperature RUNS — T_eff ∝ 1/ω, in closed form (GRV-044,
+Derived) — so relative to a true Hawking spectrum matched at the peak, the
+whisper is tail-deficient. Constant temperature identifies vacuum conversion;
+a running one identifies reconnection noise. The line shape is the
+power-source test.
+
+**The two silences.** No feeding, no whisper: isolated holes emit nothing
+(GRV-039), and primordial black holes do not undergo terminal evaporation —
+a detected PBH burst falsifies this branch outright. That negative is this
+corpus's cleanest observational fork, and any gamma-ray transient survey is,
+in principle, already testing it.
+
+**What is deliberately not claimed.** Separability of the whisper from
+ordinary accretion noise (filed as open); the 3D greybody; the efficiency f;
+and any statement that current instruments could reach the signal. A
+well-characterized whisper tells observers what its detection — or the
+detection of the forbidden PBH burst — would mean; that is this document's
+standard for inclusion.
+
 ## What is deliberately NOT here
 
 The tempting sci-fi tier. The coverage threshold is real in the model
@@ -188,5 +234,5 @@ arrive through the registry with a benchmark, not through this document.
 *Doc-only; registers no claims; corpus counts unaffected. Anchored claims
 carry their statuses unchanged.*
 
-*Companion document: papers/falsifiable_predictions — the fifteen-prediction
-inventory; this map supplies the hardware side of Predictions 3, 10, 11, and 15.*
+*Companion document: papers/falsifiable_predictions — the seventeen-prediction
+inventory; this map supplies the hardware side of Predictions 3, 10, 11, and 15; the whisper section above supplies the observational side of Predictions 16 and 17.*

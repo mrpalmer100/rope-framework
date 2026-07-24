@@ -236,7 +236,7 @@ The corpus is organised in three tiers: **(1) In-domain** classical results (the
 
 - **Nuclear Physics in the Rope Framework** 📝 *planned* — title only; no shipped content or code in this release
   `rope_nuclear_paper.js`
-- **Black Holes in the Rope Framework** 📝 *planned* — title only; no shipped content or code in this release
+- **Black Holes in the Rope Framework** ✅ *shipped in v2.2.7* — `papers/rope_blackholes.pdf` — the eleven-claim arc GRV-034…GRV-044: the tension-exhaustion horizon, the percolation collapse (3D threshold reproduced unprompted), mass without knots and no-hair as strand mechanics, the one-way reconnection count on a derived Rindler shell (S ~ A/a², Planck-length handshake), the Hawking channel tested (birth-cry, then silence, PBH falsifier armed), and the whisper arc — Hawking's radiation rebuilt from rope: scale 0.23 kappa, temperature 1.3 kappa/2pi, and a running-temperature tail in closed form (Derived)
   `rope_blackhole_v2.js`
 
 ## Predictions, Audits & Methods

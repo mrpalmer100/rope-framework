@@ -73,7 +73,9 @@ purged a stowaway working-copy — both documented.
 
 ## Documents
 
-The plain-language guide gains its gravity chapter — "Why Your GPS Works: Time, Told by Strands"
+The black-hole paper — planned-with-title-only since the sector began — is WRITTEN and ships in
+this release (papers/rope_blackholes.pdf): the full six-claim arc as continuous prose, every
+quantitative statement benchmark-backed, closing on the registered Hawking divergence. The plain-language guide gains its gravity chapter — "Why Your GPS Works: Time, Told by Strands"
 (live-computed figure: the two-effect battle, crossover ~3,160 km, GPS +38.5 microseconds/day; a
 sign error caught by the print-your-numbers discipline before shipping). The glossary gains a
 first-class TIME entry ("Strands moving… time is not a river you could swim against; it is the
