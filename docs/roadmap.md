@@ -13,7 +13,7 @@ maturity; mismatches are flagged below.*
 | Classical Optics | **Mature** | Ready for expert review | 10 | 10/10 derived/EFT, 10/10 benchmark-backed |
 | Thermodynamics | **Mature** | Ready for expert review | 5 | 4/5 derived/EFT, 4/5 benchmark-backed |
 | Condensed-Matter Analogues | **Developing** | Conditional (analogue-level) | 1 | 0/1 solid, 0/1 benchmarked |
-| Gravity (weak field) | **Developing** | Developing (weak-field metric matched, not derived; needs more benchmark-backed claims) | 20 | 9/20 solid, 20/20 benchmarked |
+| Gravity (weak field) | **Mature (conditional)** | Developing (weak-field metric matched, not derived; needs more benchmark-backed claims) | 27 | 14/27 solid, 27/27 benchmarked |
 | Solitons & Knot Spectrum | **Mature** | Ready with caveats (not identified with particles) | 1 | 1/1 derived/EFT, 1/1 benchmark-backed |
 | Electroweak (Weinberg angle) | **Exploratory** | Exploratory (conjectural) | 1 | 1/1 conjectural |
 | Particle Masses | **Developing** | Internal / open problem | 5 | 2/5 solid, 3/5 benchmarked |
