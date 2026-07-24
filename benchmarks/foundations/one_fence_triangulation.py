@@ -23,8 +23,10 @@ single remaining boundary. A corpus-native hook exists (GRV-004: rest tension
 does not gravitate, only deviations do -- and a zero-point spectrum is a
 structured deviation field, the one bath GRV-010 never tested). WHAT IT DOES
 NOT ASSERT: any mechanism. Testing the quantum bath requires hbar and the
-absolute scale, blocked by FND-MATTER-003. The fence is located; it is not
-crossed.
+absolute scale, blocked by FND-MATTER-003. The fence is located. [v2.2.9 UPDATE: the
+gravity panel has since been CROSSED -- GRV-014 discharged Conjecture -> Derived
+by the Sakharov-induced completion (GRV-025/029), exactly the mechanism this
+triangulation named: its first confirmation. The other three panels stand.]
 """
 import os, yaml
 
@@ -47,8 +49,12 @@ def test():
         "the CLASSICAL bath failed (gamma = -1/2); the quantum bath was never tested"
     assert by["GRV-018"]["status"] == "Derived" and by["GRV-020"]["status"] == "Derived", \
         "internal-mode channels formally closed (one Goldstone, spent on EM)"
-    assert by["GRV-014"]["status"] == "Conjecture" and has("GRV-014", "quantum", "sakharov"), \
-        "the surviving gravity conjecture is quantum-level completion"
+    # v2.2.9 update: the gravity panel has been CROSSED -- GRV-014 was discharged
+    # Conjecture -> Derived by precisely the mechanism this triangulation named
+    # (the Sakharov-induced completion, GRV-025/029). The fence's first confirmation.
+    assert by["GRV-014"]["status"] == "Derived" and has("GRV-014", "quantum", "sakharov"), \
+        "the gravity panel: quantum/Sakharov completion, now DISCHARGED (was Conjecture)"
+    assert has("GRV-014", "discharged"), "the discharge is recorded on the claim itself"
     # residual 2: nuclear saturation names the kinetic layer
     assert has("NUC-008", "kinetic", "zero-point"), "nuclear baseline diagnosis names the layer"
     # residual 3: light isotopes name it
@@ -58,12 +64,14 @@ def test():
     # the hook: rest tension does not gravitate -- only deviations do
     assert has("GRV-004", "deviations"), "GRV-004 hook: a zero-point spectrum is a deviation field"
     print("residual 1 (gravity tensor half): classical exhaustion Derived x3, classical bath Failed,")
-    print("            surviving conjecture = quantum/Sakharov (GRV-014)")
+    print("            quantum/Sakharov completion DISCHARGED at v2.2.9 (GRV-014 -> Derived)")
     print("residual 2 (nuclear saturation):  kinetic/zero-point named (NUC-008)")
     print("residual 3 (light isotopes):      zero-point named (NUC-005/006)")
     print("residual 4 (dispersion):          hbar-fence named (CHEM-MET-001)")
     print("hook: GRV-004 -- only DEVIATIONS gravitate; zero-point stress is a deviation field")
-    print("PASS: four sectors, one fence. The boundary is located, not crossed.")
+    print("PASS: four sectors, one fence -- and the gravity panel now CROSSED by exactly the")
+    print("      mechanism the triangulation named: the fence's first confirmation. Three")
+    print("      panels stand (nuclear zero-point, light isotopes, dispersion).")
 
 
 if __name__ == "__main__":
