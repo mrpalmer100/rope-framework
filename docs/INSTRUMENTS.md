@@ -194,9 +194,11 @@ scale cancels; GRV-040).
 | Sgr A* (4×10⁶ M☉) | ~0.5 mHz | LISA band |
 | M87* (6.5×10⁹ M☉) | ~0.3 µHz | below all current bands |
 
-Luminosity law: L = f · Ṁc² · T_grey with f ≤ 1 by energetics and T_grey
-measured at 4–11 percent. **f is bounded, not derived** — the loudness is an
-open parameter, and no claim of detectability is made.
+Luminosity law (revised at GRV-047): the whisper is CHANNEL-limited, not
+supply-limited — a switch, not a slope. At any physical feeding it saturates
+at **L = 5.8×10⁻⁴ × P_Hawking**, mass-independently (~5×10⁻³⁴ W for a stellar
+hole: Hawking-faint). f is dissolved into a ratio (~10⁻⁶⁷ at Eddington). No
+claim of detectability is made — and the number now says why.
 
 **The discriminator that survives even a thermal look-alike.** The spectrum
 is Planck-like near the peak with temperature 1.3 × κ/2π (GRV-043), but the
@@ -212,8 +214,9 @@ a detected PBH burst falsifies this branch outright. That negative is this
 corpus's cleanest observational fork, and any gamma-ray transient survey is,
 in principle, already testing it.
 
-**What is deliberately not claimed.** Separability of the whisper from
-ordinary accretion noise (filed as open); the 3D greybody; the efficiency f;
+**What is deliberately not claimed.** Detectability (closed in the negative at
+GRV-047); separability from accretion noise (moot at the computed level); the
+3D greybody and mode count;
 and any statement that current instruments could reach the signal. A
 well-characterized whisper tells observers what its detection — or the
 detection of the forbidden PBH burst — would mean; that is this document's
