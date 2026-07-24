@@ -4590,3 +4590,109 @@ closed on literal strands, and the gapped-bath prediction.
   and the two-way street to the analog-universality prediction. One heading, one live figure, one
   HONEST LIMIT (shared-equations level, not device engineering; entanglement machines behind the
   grant; scale caveat). Doc-only; 169/155.
+
+### Addendum (2026-07-23, post-v2.2.5) — docs/INSTRUMENTS.md: the instrument map joins the corpus
+- Cross-session document adopted (registers no claims; all nine anchor IDs verified present) and
+  extended with the measurement-sector instruments it predated: 5 the decoherence spectrometer (the
+  gapped-floor hunt; shape committed, frequency scale-open); 6 the click statistician (the cheapest
+  instrument on the list -- existing detectors, new statistics; Prediction 11); 7 the analog bench
+  (universality made tabletop; the one entry where the no-scale caveat does not apply; Josephson
+  arrays as the unlabeled bench already running). Impossibility results renumbered to section 8;
+  companion pointer to the fifteen-prediction paper added. The mesh anemometer stands as the unique
+  channel FND-REL-002's own no-go leaves open; the sci-fi tier stays deliberately excluded. Doc-only;
+  registers no claims; 169/155 unchanged.
+
+### Addendum (2026-07-23, v2.2.6 cycle opens) — GRV-021: the quantum-completion conjecture funded
+- Mark asked whether the measurement campaign's results update gravity; the audit found the exact
+  junction. GRV-014 (the quantum-completion conjecture) named its supplier as loop-level mode-vacuum
+  fluctuations, invisible to GRV-013's classical map by construction -- and FND-STRAND-008 built that
+  supplier without knowing: the measured gapped weave band. Computed: (1) zero-point density finite at
+  every stiffness with NO imported cutoff -- the lattice regulates, partially internalizing GRV-007's
+  conditional; (2) induced gradient stiffness chi(q) = -6.922 + 0.967 q^2 at r^2 = 0.99997 -- the mode
+  vacuum penalizes inhomogeneity: Sakharov-type induced elasticity computed, not invoked; (3) response
+  enters at delta^2 -- GRV-004's rest-vacuum theorem automatic; (4) GRV-013 untouched, the channel
+  outside its space by its own construction. NOT gamma = 1, NOT the tensor structure -- the 1D scalar
+  ingredient, said at full volume. NAMED SUMMIT: the 3D metric-covariant induction -- if it lands
+  Einstein-Hilbert, the missing arcsecond becomes a loop integral over a spectrum the corpus measured.
+  Corpus 156/156, 170 claims (68 Modeled).
+
+### Addendum (2026-07-23, v2.2.6 cycle) — GRV-022: the tensor test -- Einstein-Hilbert does NOT land
+- The summit attempt at full risk, and a registered negative of theorem quality. PT engine calibrated
+  (3e-4 vs exact 1D); all tensor channels measured; sympy EH prediction hand-verified against
+  Fierz-Pauli. The parameter-free covariance degeneracy chi_xy = chi_xz -- forced by EH plus ANY
+  conformal sector -- violated 27x (18 vs 502): the induced invariant is longitudinal-elastic; the
+  flat-measure mode vacuum is a medium, not geometry. Session turn logged: the conformal near-rescue
+  improved the raw fit; the REFINED extraction killed it structurally -- re-measure before believing a
+  rescue. GRV-014 SHARPENED, not killed: EH requires the one-metric condition, now the conjecture's
+  exact burden with its verifying instrument built (rerun the test with one-metric coupling; watch
+  chi_xy rise or the conjecture die at a named test). GRV-021's scalar ingredient stands. Corpus
+  157/157, 171 claims (81 Derived).
+
+### Addendum (2026-07-23, v2.2.6 cycle) — GRV-023: the gate mapped -- one-metric necessary, not sufficient
+- Session #4 at full risk. F1: the measure-corrected covariant coupling still induces non-EH structure
+  (|xx/xy| ~ 1 where EH says 0). F2: shell decomposition collapses the excess toward the IR -- the
+  lattice-regulator (ka)^2 class dominates the loop. F3: the window no-go -- the clean EH limit needs
+  q << m << Lc << 1/a, and the corpus band has m ~ 1/a: it cannot exist. Five instructive failures
+  logged (precision death caught by the flat control; the sign-crossing; the q/m = 0.65 lesson that
+  outside the heat-kernel regime the self-energy carries spin-2 AND spin-0 -- my EH-only expectation
+  was wrong there and the record says so). THE LANDING: the classic induced-gravity obstruction,
+  MEASURED in the corpus's own machinery. GRV-014's burden relocates finally to the ABSORPTION
+  HYPOTHESIS -- the elastic excess must renormalize the medium sector, leaving a covariant remainder;
+  and since a covariant UV completion would contradict QB-008, absorption is the ONLY door: the final
+  exam is decisive. Corpus 158/158, 172 claims (82 Derived).
+
+### Addendum (2026-07-23, v2.2.6 cycle) — GRV-024: the absorption exam armed; verdict withheld by its own audit
+- The final exam run in-session, and its finest result is a refusal. Integrity first: 'medium-sector'
+  defined before computing -- pattern absorption DISQUALIFIED (stiffness-gradient invariants span the
+  full channel space); the principled split is analyticity in m^2, strengthened by the 3D discovery
+  that the continuum covariant expansion is ENTIRELY m-odd (the target pattern is parameter-free EH).
+  Instrument calibrated; extensivity verified (per-volume m-odd tensor to 0.5%, ratios <1% across
+  M=64/96). The measured ratios would have FAILED the conjecture -- but the audit found the omission
+  first: the covariant coupling is nonlinear in h, and the tadpole Tr[f'(H0)H2] is missing from every
+  covariant run (GRV-022 flat-measure unaffected; GRV-023 F1/F2 flagged, its theory limbs stand). Per
+  the pre-committed bars, no verdict is claimable: the exam is armed, the H2 expansion recorded, the
+  bars locked against post-hoc adjustment. Corpus 159/159, 173 claims (8 Open).
+
+### Addendum (2026-07-23, v2.2.6 cycle) — GRV-025: THE ABSORPTION EXAM PASSED -- the IR remainder is Einstein-Hilbert
+- The exam GRV-024 armed was completed and the verdict delivered under the locked bars: PASS. The
+  instrument's repair chain: factors determined empirically by matrix PT (exact = 1.000 tadpole +
+  0.500 bilinear, resid 2e-4); the z-bond element rederived as the purely real W[cos(q/2)-cos(k-q/2)]
+  (the spurious phase carried since GRV-022 was harmless in |me|^2 but wrong in the cross term, caught
+  by plane-wave fingerprinting); final validation 0.025% vs exact diagonalization on all channels.
+  The m-odd tensor went from (0.72, 0.14, 1, 0.33) -- which would have executed the conjecture on a
+  broken instrument -- to (0.064, 0.050, 1, 0.005): Einstein-Hilbert, fifteen-to-two-hundred-fold
+  dominance. The non-covariant excess is exactly m^2-analytic: medium renormalization, as absorption
+  demanded. GRV-012's scalar mimic becomes the classical half of a two-level story whose quantum half
+  now exists. GRV-024 Open -> Derived (verdict delivered); GRV-014's mathematical core COMPLETE, its
+  remaining gaps (physical one-metric realization; absolute scale) the corpus's standing ones.
+  Corpus 160/160, 174 claims (84 Derived).
+
+### Addendum (2026-07-23, v2.2.6 cycle) — GRV-026: gamma = 1 and 1.751" as a two-condition theorem
+- The conditioning question dissolved at the right level: EH dynamics (GRV-025) + covariant sourcing
+  (GRV-005's force balance) give gamma = 1 and all of GRV-002's numbers automatically -- unless the
+  one candidate scalar (the gap-mismatch field phi) is sourced. The induced scalar sector MEASURED:
+  the covariant R-phi fingerprint passed at 0.0035 (fourth parameter-free covariance check of the
+  arc); |gamma - 1| = 4.2 eps^2; Cassini -> the gap must track the covariant combination to 0.24
+  percent. VERDICT: 1.751 arcseconds is now derived conditional on (C1) one-metric coupling and (C2)
+  the gap-lock -- both named, both strand-computable, neither touching the absolute-scale problem.
+  From 0.44" as an adverse verdict to 1.751" as a two-condition theorem, with instrument and failure
+  modes in the registry. GRV-001's match upgraded to conditional derivation. Corpus 161/161, 175
+  claims (85 Derived).
+
+### Addendum (2026-07-23, v2.2.6 cycle) — GRV-027: the gap-lock measured on the engine -- the lock selects
+- The crossing stiffness with the exact corpus contact law: k_c ~ T^1.11 on a two-decade plateau
+  (quartic-tail class; the lock's 3/2 is not in this potential's range at any pressing strength).
+  eps_T = -0.39: pure-tension conditioning EXCLUDED as the gamma = 1 carrier. With eps_l = +1
+  (analytic), gamma = 1 survives only on the conditioning locus d ln l = +0.39 d ln T (0.6 percent
+  tolerance via Cassini). Bonus: the engine mapped its own regime boundary -- punch-through above
+  T ~ 1-2, the finite barrier surrendering as the ontology permits. C1 and C2 merge: 1.751 arcseconds
+  now hangs on ONE strand-computable question -- does GRV-005's defect far field lie on the locus?
+  Corpus 162/162, 176 claims (69 Modeled).
+
+## v2.2.6 (2026-07-23)
+Release cut. See docs/RELEASE_NOTES_v2.2.6.md. Corpus: 176 claims (85 Derived, 69 Modeled), 162/162
+benchmarks passing, 58 papers. Headline: the seven-claim gravity arc -- the quantum-completion
+conjecture funded, tested, nearly falsely executed, and completed: the IR-universal induced action is
+Einstein-Hilbert; 1.751 arcseconds as a theorem conditional on one measured locus in conditioning
+space. Plus the predictions paper rebuilt (fifteen predictions), INSTRUMENTS.md, and two guide
+chapters.
