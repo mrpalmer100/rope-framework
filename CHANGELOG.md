@@ -4892,3 +4892,124 @@ registered with its PBH falsifier). Guide GPS chapter; glossary TIME entry; regi
   (spectral window, parity artifact) logged en route to the resolution-robust flux observable. The
   nine-claim black-hole arc closes: a comb that remembers its area, announces its birth, whispers
   when it eats, and otherwise keeps perfect silence. Corpus 174/174, 186 claims (77 Modeled).
+
+### Addendum (2026-07-24, v2.2.7 cycle) — The black-hole paper written: planned-with-title-only no more
+- Author-caught in the release audit: the arc's nine claims were registered but the dedicated paper
+  was still the PAPERS.md placeholder. papers/rope_blackholes.docx + PDF written -- seven sections,
+  the full GRV-034..039 arc as continuous prose with every number benchmark-backed, the shared
+  weak-field caveat stated at full volume, and the closing sentence where it belongs. PAPERS.md
+  entry flipped to shipped; release notes amended. Doc-only; 186/174 unchanged.
+- (Same pass, author edit) Section 2 gains its plain-terms call-out at the "T -> 0" sentence: the
+  strands do not go slack -- radial tension is ENORMOUS (and is the mass); what vanishes is the
+  transverse wave-carrying capacity, because tension so high in one direction severs the couplings
+  that carry the other. The intuitive reading placed where the reader first needs it, not a section
+  later.
+- (Same pass, author edits) The call-out rewritten to carry BOTH transverse-shutdown mechanisms
+  precisely: the FREEZE (a lone taut strand carries transverse waves with no crossings at all -- the
+  outbound channel is not destroyed but time-dilated to a standstill, redshifting toward zero
+  frequency) and the DECOUPLING (punch-through is a configuration change -- the over-strand slips to
+  the under side; no rope ever breaks; strands are inextensible and unbreakable, and conservation
+  depends on it). 'Snap' language removed from the paper; Section 3 wording aligned. The author's
+  question -- can T be carried with no crossings at all? -- answered yes in the text, with the freeze
+  as that channel's verdict.
+- (Same pass, author edit) Section 4 gains a first-encounter explanation of the no-hair theorem
+  (three numbers, Wheeler's phrase, and why any microscopic account must reproduce exactly that
+  inventory) at the term's first appearance.
+
+### Addendum (2026-07-24, v2.2.8 cycle opens) — GRV-040: the whisper at Hawking's frequency
+- The reconnection-noise program run with bars locked first, and the cancellation held: emission ~1/a
+  from depth ~a redshifts to pure kappa -- the strand scale cancels, and the engine's own measured
+  quantities (ringdown 0.35, shell depth 0.65) give omega_inf = 0.23 kappa, WITHIN A FACTOR OF TWO of
+  the Hawking thermal peak (0.45 kappa), by a different power source. Escape verified (transfer-matrix
+  T ~ 0.04-0.11 at kappa); luminosity law L = f Mdot c^2 T_grey, f <= 1: accretion-powered, isolated
+  silence preserved. The GRV-039 divergence is now two-sided: same tune where holes shine, no
+  evaporation where they don't. Observational face: ~180 Hz (stellar), LISA band (Sgr A*). Shape,
+  efficiency, and the carrying sector named as next-orders. Corpus 175/175, 187 claims (78 Modeled).
+
+### Addendum (2026-07-24, v2.2.8 cycle) — GRV-041: the shape verdict -- quasi-thermal, not proven thermal
+- The thermalization question answered exactly as far as the instrument reaches: events as engine-
+  faithful quenches inside the graded profile (the chain doing its own redshifting; deeper events
+  observed lower -- the ordering check passed); the ensemble prefers PLANCK over power law at both
+  instrument generations (0.443 vs 0.563 final) with the two temperature estimators agreeing at ten
+  percent (4.7 vs 4.2 kappa); and the locked exponential-tail bar FAILED both times (r^2 = 0.58 vs
+  0.98) -- so thermality is NOT claimed, and the failure ships in the verdict. Regime honesty: the
+  lattice's weak-redshift T answers shape only, never to be compared with GRV-040's scale. The fork
+  now instrument-limited, not concept-limited: thermal-firmed tail -> Hawking phenomenology rebuilt
+  from crossing mechanics with isolated silence the sole daylight; surviving structure -> a
+  line-shape discriminator. Decisive tail test specified for the successor session. Corpus 176/176,
+  188 claims (79 Modeled).
+
+### Addendum (2026-07-24, v2.2.8 cycle) — GRV-042: the tail convergence -- thermality as the apparent continuum limit
+- The decisive test across three instrument generations, and the middle one proved the diagnosis:
+  r^2 went 0.58 -> 0.33 -> 0.91 -- the dip is the discrete-peak lattice fingerprint sharpening before
+  the depth continuum filled in, exactly as the hypothesis required. The mechanism now visible:
+  thermality here is not detailed balance but the REDSHIFT PILE-UP -- the A -> 0 compression of the
+  deep shell laundering the microphysics out of the spectrum; universality from geometry, again. The
+  0.98 bar NOT crossed at any finite lattice: the claim registers a trend, a mechanism, and an
+  apparent limit -- nothing more. If the continuum settles thermal, the corpus will have declined
+  Hawking's mechanism and rebuilt his phenomenology, leaving isolated silence and the PBH falsifier
+  as the sole daylight. Named next: the analytic pile-up integral (the elegant route). Corpus
+  177/177, 189 claims (80 Modeled).
+- (Same pass) The compact benchmark encoding initially failed its own bar -- fewer depths reproduce
+  the CONTAMINATION, the claim's own physics biting its encoder -- and was restructured so the
+  executable assertion is the trend itself: sparse-vs-dense ensembles run in one benchmark, with
+  convergence direction asserted. The eighth instrument-catch of the arc, and the most fitting: a
+  benchmark corrected by the phenomenon it certifies.
+
+### Addendum (2026-07-24, v2.2.8 cycle) — GRV-043: the pile-up integral -- thermality established, temperature 1.3x Hawking's
+- The analytic continuum: every ingredient independently measured (Gaussian-tailed burst kernel;
+  GRV-035's survival curve; GRV-040's greybody), the integral evaluated instrument-free. The locked
+  bar PASSES (r^2 = 0.983) -- confirming GRV-042's apparent limit and vindicating its refusal: had
+  0.91 been declared thermal, today would be confirmation theater; because it wasn't, today is a
+  derivation. GEOMETRY THERMALIZES: the depth integral converts the Gaussian kernel into an
+  exponential tail (0.378 vs 0.801) -- transmutation, not just laundering; saddle-point derivation
+  named as the Modeled-to-Derived upgrade. THE NUMBER: T = 0.21 kappa vs Hawking's 0.16 -- ratio 1.3
+  from inputs that never met a 2pi; recorded as a striking O(1) agreement with the offset
+  unexplained, no exact claim. Hawking's radiation rebuilt from rope in one day (scale, family,
+  tail, temperature); isolated silence the sole daylight; the PBH falsifier on guard. Corpus
+  178/178, 190 claims (81 Modeled).
+
+### Addendum (2026-07-24, v2.2.8 cycle) — GRV-044: the saddle-point derivation -- the tail's anatomy, and a running temperature
+- The boundary-Laplace analysis: closed-form asymptotics verified to 5 percent (with the flat 0.0428
+  first-pass ratio catching a dropped e^lnA -- the ninth assert-catch, this time of the analyst).
+  THE AMENDMENT: the true asymptotic tail is GAUSSIAN with running T_eff ~ 1/om (0.8-percent
+  verification); GRV-043's exponential was the finite-window effective slope, and the window T
+  computed here (0.209 kappa) reproduces its 0.21 exactly. The pattern named: the numerics propose,
+  the bar restrains, the derivation disposes. THE THIRD DISCRIMINATOR: Hawking's T is constant, the
+  whisper's runs -- tail-deficient relative to matched Planck; measure the tail and the power source
+  identifies itself. Registered at Derived. Corpus 179/179, 191 claims (88 Derived).
+
+### Addendum (2026-07-24, v2.2.8 cycle) — Paper synchronization pass before the release
+- Author-ordered audit executed on all four accuracy debts: (1) the black-hole paper gains its
+  Section 7 -- The Whisper (the full GRV-040..044 arc: the cancellation, the escape, the law,
+  geometry-thermalizes, T = 1.3 kappa/2pi with the offset open, the running-tail closed form, and
+  the three-discriminator ledger), old Section 7 renumbered to 8 with next-orders refreshed and the
+  registered-claims list extended through GRV-044; (2) the predictions paper retitled to SEVENTEEN
+  with Part V added -- Prediction 16 (isolated holes do not evaporate; PBH-burst falsifier) and
+  Prediction 17 (the whisper, with the running-temperature tail as a power-source discriminator) --
+  and two glance rows appended; (3) thermodynamics and cosmology Bekenstein-Hawking status lines
+  updated to the honest current state (form derived, temperature 1.3x, 1/4 open, divergence
+  registered); (4) GRV-034..039 repointed from rope_gravity to rope_blackholes; PAPERS.md updated to
+  the eleven-claim arc. All four documents validated; PDFs regenerated. Doc-and-registry-only;
+  191/179 unchanged.
+
+### Addendum (2026-07-24, v2.2.8 cycle) — The guide's black-hole chapter and the whisper's observability note
+- The plain-language guide gains "A Comb, Not a Point — What a Black Hole Actually Is": the freeze
+  and the decoupling for general readers, mass without particles (the drawn bow, the box of light),
+  no-hair as the-knots-are-gone (the library pulped into paper: not destroyed, unreadable), the
+  birth cry, the whisper's cancellation ("a feeding hole of ten suns hums an F-sharp below middle
+  C"), the thirty-percent brush with Hawking's temperature stated with its 'almost' intact, the
+  eternal silence with its death warrant attached ("we would rather be falsifiable than
+  fashionable"), and the honest fine print naming the strong-field audit. INSTRUMENTS.md gains the
+  whisper as an in-principle observable (frequency table, luminosity law with f bounded-not-derived,
+  the running-temperature line-shape test, the PBH fork already in-principle under test) and its
+  footer catches up to seventeen predictions. Doc-only; 191/179 unchanged.
+
+
+## v2.2.8 (2026-07-24)
+Release cut. See docs/RELEASE_NOTES_v2.2.8.md. Corpus: 191 claims (88 Derived, 81 Modeled), 179/179
+benchmarks passing, 59 papers. Headline: the whisper arc GRV-040..044 -- Hawking's radiation rebuilt
+from rope (scale 0.23 kappa with the strand scale cancelling; geometry thermalizes; T = 1.3 kappa/2pi
+from inputs that never met a 2pi; the running-temperature tail in closed form, Derived). Three
+observational discriminators; Predictions 16-17; the guide's black-hole chapter; INSTRUMENTS
+whisper note; papers synchronized.
