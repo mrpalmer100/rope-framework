@@ -9,11 +9,11 @@ maturity; mismatches are flagged below.*
 |---|---|---|---:|---|
 | Microscopic Mechanics & Foundations | **Mature (conditional)** | Ready for expert review | 38 | 20/38 solid, 35/38 benchmarked |
 | Renormalization / EFT | **Mature** | Ready for expert review | 1 | 1/1 derived/EFT, 1/1 benchmark-backed |
-| Electromagnetism | **Developing** | Ready for expert review | 35 | 16/35 solid, 35/35 benchmarked |
+| Electromagnetism | **Developing** | Ready for expert review | 33 | 15/33 solid, 33/33 benchmarked |
 | Classical Optics | **Mature** | Ready for expert review | 10 | 10/10 derived/EFT, 10/10 benchmark-backed |
 | Thermodynamics | **Mature** | Ready for expert review | 5 | 4/5 derived/EFT, 4/5 benchmark-backed |
 | Condensed-Matter Analogues | **Developing** | Conditional (analogue-level) | 1 | 0/1 solid, 0/1 benchmarked |
-| Gravity (weak field) | **Mature (conditional)** | Developing (weak-field metric matched, not derived; needs more benchmark-backed claims) | 27 | 14/27 solid, 27/27 benchmarked |
+| Gravity (weak field) | **Developing** | Developing (weak-field metric matched, not derived; needs more benchmark-backed claims) | 39 | 17/39 solid, 39/39 benchmarked |
 | Solitons & Knot Spectrum | **Mature** | Ready with caveats (not identified with particles) | 1 | 1/1 derived/EFT, 1/1 benchmark-backed |
 | Electroweak (Weinberg angle) | **Exploratory** | Exploratory (conjectural) | 1 | 1/1 conjectural |
 | Particle Masses | **Developing** | Internal / open problem | 5 | 2/5 solid, 3/5 benchmarked |
@@ -26,7 +26,7 @@ maturity; mismatches are flagged below.*
 
 These sectors state an external readiness that the computed maturity does not yet fully support. This is a prompt to either add benchmark backing or soften the readiness label — not a claim the physics is wrong.
 
-- **Electromagnetism**: stated *Ready for expert review*, but computed *Developing* (16/35 solid, 35/35 benchmarked). Add benchmark-backed claims or relabel.
+- **Electromagnetism**: stated *Ready for expert review*, but computed *Developing* (15/33 solid, 33/33 benchmarked). Add benchmark-backed claims or relabel.
 - **Chemistry (bonding, geometry, dynamics)**: stated *Ready for expert review (Schrodinger adopted; hbar-fence declared)*, but computed *Developing* (2/15 solid, 15/15 benchmarked). Add benchmark-backed claims or relabel.
 
 ### How maturity is computed (auditable rules)

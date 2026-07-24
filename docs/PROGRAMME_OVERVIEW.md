@@ -15,9 +15,9 @@ The programme's discipline is its defining feature: **derived results, empirical
 ## Corpus at a glance (generated)
 
 - **Bundled papers:** 58
-- **Reproducible benchmarks:** 131
-- **Registered claims:** 176 (162 code-backed and machine-verified)
-- **Claim status distribution:** Derived 85, EFT-constrained 4, Modeled 69, Conjecture 4, Failed 7, Open 7
+- **Reproducible benchmarks:** 143
+- **Registered claims:** 186 (172 code-backed and machine-verified)
+- **Claim status distribution:** Derived 87, EFT-constrained 4, Modeled 77, Conjecture 4, Failed 7, Open 7
 
 Verify it yourself in one command: `make verify` (runs every benchmark the registry references) or `python tools/verify_corpus.py`.
 
@@ -45,11 +45,11 @@ Maturity is **computed** from each sector's claim statuses and benchmark coverag
 |---|---|---:|---:|---:|
 | Microscopic Mechanics & Foundations | Mature (conditional) | 38 | 20 | 35 |
 | Renormalization / EFT | Mature | 1 | 1 | 1 |
-| Electromagnetism | Developing | 35 | 16 | 35 |
+| Electromagnetism | Developing | 33 | 15 | 33 |
 | Classical Optics | Mature | 10 | 10 | 10 |
 | Thermodynamics | Mature | 5 | 4 | 4 |
 | Condensed-Matter Analogues | Developing | 1 | 0 | 0 |
-| Gravity (weak field) | Mature (conditional) | 27 | 14 | 27 |
+| Gravity (weak field) | Developing | 39 | 17 | 39 |
 | Solitons & Knot Spectrum | Mature | 1 | 1 | 1 |
 | Electroweak (Weinberg angle) | Exploratory | 1 | 0 | 0 |
 | Particle Masses | Developing | 5 | 2 | 3 |
