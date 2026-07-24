@@ -15,9 +15,9 @@ The programme's discipline is its defining feature: **derived results, empirical
 ## Corpus at a glance (generated)
 
 - **Bundled papers:** 59
-- **Reproducible benchmarks:** 154
-- **Registered claims:** 195 (181 code-backed and machine-verified)
-- **Claim status distribution:** Derived 92, EFT-constrained 4, Modeled 84, Conjecture 3, Failed 7, Open 5
+- **Reproducible benchmarks:** 159
+- **Registered claims:** 200 (186 code-backed and machine-verified)
+- **Claim status distribution:** Derived 94, EFT-constrained 4, Modeled 87, Conjecture 3, Failed 7, Open 5
 
 Verify it yourself in one command: `make verify` (runs every benchmark the registry references) or `python tools/verify_corpus.py`.
 
@@ -54,7 +54,7 @@ Maturity is **computed** from each sector's claim statuses and benchmark coverag
 | Electroweak (Weinberg angle) | Exploratory | 1 | 0 | 0 |
 | Particle Masses | Developing | 5 | 2 | 3 |
 | Gauge Geometry (unification) | Mature | 6 | 5 | 4 |
-| Quantum Boundary (Bell) | Mature (conditional) | 22 | 13 | 20 |
+| Quantum Boundary (Bell) | Mature (conditional) | 27 | 15 | 25 |
 | Chemistry (bonding, geometry, dynamics) | Developing | 15 | 2 | 15 |
 | Nuclear Structure | Developing | 9 | 1 | 7 |
 
