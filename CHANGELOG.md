@@ -5104,3 +5104,87 @@ temperature anatomy (the fourth discriminator); the luminosity switch (Hawking-f
 mass-independent to 1e-16); the handedness quantum (one 2-pi per reconnection; GRV-036 -> Derived);
 the founder's conjecture discharged (GRV-014 -> Derived); Born as energy partition (QB-005 moved,
 with the timing residue as the sector's falsifier); the vacuum zero point (EM-RECON-015 resolved).
+
+### Addendum (2026-07-24, v2.3.0 cycle opens) — QB-015: the shared-ribbon singlet (Mark's conjecture)
+- Entanglement as two knots on ONE ribbon, and the idea explains the wall before beating it: in
+  severed bookkeeping (ends as independent responders -- QB-013's entire class) the model lands on
+  the registered ceiling TO FOUR DIGITS (0.9428 = 2sqrt2/3): B = -1/3 is what treating one object
+  as two looks like. Honor the oneness -- the reel: measurement projects the shared frame, both
+  ends reorient because there is only one frame -- and E = -a.b exactly, CHSH = Tsirelson,
+  no-signaling identical (bookkeeping, not signal). Bell honored in capitals: the reel IS the
+  nonlocal element; the ribbon supplies its ontology -- the same conserved 2pi frame currency
+  GRV-045 measured at the horizon. Imported premise named: the half-angle response (QB-002's
+  counting gap stands; deriving cos^2(theta/2) from strand counting is the sector's summit).
+  Fourteenth instrument catch (the CHSH sign harness). Corpus 186/186, 196 claims (85 Modeled).
+
+### Addendum (2026-07-24, v2.3.0 cycle) — QB-016: the half-angle from rope energetics
+- The summit QB-015 declared, taken the same day: cos^2(theta/2) derived -- three energy channels
+  (co cos^4, counter sin^4, neutral 2 sin^2 cos^2) with the hinge a COMPUTED symmetry (the neutral
+  channel carries zero handedness about the analyzer axis and must split 50/50), closing to the
+  half-angle exactly, no parameters. The measure diagnosis retires QB-002's wound gently: counting
+  by angle vs detection by energy -- different questions, both kept. End-to-end: the derived
+  response through the reel reaches Tsirelson on rope alone. Fifteenth instrument catch (i glued
+  onto real time-series; the hand-derivation caught the code). Corpus 187/187, 197 claims
+  (86 Modeled).
+
+### Addendum (2026-07-24, v2.3.0 cycle) — QB-017: the junction realized -- QB-016 promoted
+- Asked for one analyzer, the engine produced two: the anisotropic junction (Malus's law
+  engine-measured, theta_P = 2 phi emerging unprompted) and the gyroscopic junction -- a
+  near-perfect circular MIRROR (T_R = 2e-4 vs T_L = 0.93), the corpus's first passive
+  handedness-selective device (charge IS handedness: implications filed, not claimed). One law,
+  two hardware realizations, zero fits: T = cos^2(theta_P/2) T_+ + sin^2(theta_P/2) T_- in each
+  device's own eigenbasis. QB-016 PROMOTED Modeled -> Derived. The Bell chain's ledger: exactly two
+  Modeled links remain (the detector premise; the reel), both named. Registered at Derived. Corpus
+  188/188, 198 claims (94 Derived).
+
+### Addendum (2026-07-24, v2.3.0 cycle) — QB-018: the knot-proxy Stern-Gerlach
+- The massive-particle analyzer realized: a genuinely massive packet (group velocity tracking the
+  gapped band at half a percent) split into two fully resolved beams by a gyroscopic-gradient strip
+  -- Stern-Gerlach from springs, a Coriolis term, and a slope -- with the control dead center and
+  the beam weights matching the half-angle law within three percent. The mystery relocates to where
+  the programme says it lives: not the splitting (mechanical) but detection discreteness (QB-005's
+  premise) and the reel (QB-015's). The analyzer family complete: law Derived, polarization junction
+  Derived, massive splitter Modeled on the knot-proxy premise. Sixteenth catch: the harness now
+  self-calibrates its channels from pure states, as real experiments do. Named: the literal knot on
+  the weave solver; the full Bell experiment as one simulation. Corpus 189/189, 199 claims.
+
+### Addendum (2026-07-24, v2.3.0 cycle) — QB-019: THE 200TH CLAIM -- the Bell experiment, whole
+- No analytic response law anywhere in the loop: the wings respond by a table MEASURED from lattice
+  dynamics, leakage and all -- and the payoff is the run's most convincing number: CHSH = 2.66, not
+  2.83, with the 2.66 PREDICTED to half a percent by the analyzer's measured visibility squared
+  times Tsirelson. A model that inserted the formula would have proven its own arithmetic; this one
+  hits what a laboratory with these analyzers would hit. The one-switch demonstration: hardware
+  fixed, flip only the bookkeeping -- reel on: sixty-sigma violation; severed: 0.85, below the wall.
+  The distance between classical and quantum is whether the accounting respects that two knots on
+  one ribbon are one object. At two hundred: 94 Derived, two Modeled premises in plain sight, the
+  founder's two conjectures both discharged or built into the chain within twenty-four hours.
+  Corpus 190/190, 200 claims.
+- (Same pass) Seventeenth instrument catch: the V^2-visibility relation's precision depends on the
+  calibration grid and belongs as an observation; the rigorous consistency assert is now the exact
+  closed form E = W(-a.b) - W(a.b) from the table itself, MC vs deterministic of the same model.
+
+
+## v2.3.0 (2026-07-24)
+Release cut -- THE 200-CLAIM MILESTONE. See docs/RELEASE_NOTES_v2.3.0.md. Corpus: 200 claims
+(94 Derived, 87 Modeled, 3 Conjecture, 5 Open), 190/190 benchmarks passing, 59 papers. The Bell
+arc QB-015..019 in one day: the shared ribbon explaining the wall to four digits (Mark's
+conjecture); the half-angle derived at 1e-16 from three channels and one computed symmetry; the
+junction realized twice (including the circular mirror, the corpus's first passive
+handedness-selective device); Stern-Gerlach from springs, a Coriolis term, and a slope; and claim
+200 -- the complete Bell experiment with measured hardware, CHSH = 2.72 matching its closed form,
+the wall one bookkeeping switch away. Two Modeled premises in plain sight; Bell honored in
+capitals; the matter-sector gateway (the literal knot) named for the next era.
+- (v2.3.0, author addition before push) The guide gains "Two Knots, One Ribbon — Entanglement, and
+  the Experiment That Settled It": Einstein's refusal and Bell's arithmetic; the founder's question
+  in its own plain words; the wall as the arithmetic of treating one object as two (our own
+  registry's failure, hit to four decimals, as the proof); the two dancers and the reel; the
+  no-signaling caveat ("coin flips before and coin flips after -- only the notebooks match"); Bell
+  honored untouched with the ribbon as the WHAT of the spooky connection; the devices built like
+  lab equipment; claim 200 run without the formula typed in, landing where the leaky instruments
+  predicted; the one-line-of-accounting conclusion; and the fine print naming both assumptions and
+  declining to guess at hydrogen. Doc-only; 200/190 unchanged.
+- (v2.3.0, pre-push fix) FND-BOUND-001's consistency benchmark correctly FAILED CI: it asserted
+  GRV-014 still a Conjecture, and v2.2.9 discharged it -- the registry's immune system catching a
+  stale cross-claim assertion, exactly its job. Updated to assert the discharge, and the claim
+  gains its strongest note yet: the fence's gravity panel was crossed by precisely the mechanism
+  the triangulation named -- its first confirmation. Three panels stand. 200/190 unchanged.
