@@ -5013,3 +5013,94 @@ from rope (scale 0.23 kappa with the strand scale cancelling; geometry thermaliz
 from inputs that never met a 2pi; the running-temperature tail in closed form, Derived). Three
 observational discriminators; Predictions 16-17; the guide's black-hole chapter; INSTRUMENTS
 whisper note; papers synchronized.
+
+### Addendum (2026-07-24, v2.2.9 cycle opens) — The consolidation session: two promotions, both earned
+- GRV-045 (Derived, NEW): handedness survives reconnection -- the 3D punch-through exchanges exactly
+  ONE 2-pi quantum of frame winding (1.007 x 2pi, length-independent across system sizes: the
+  locality proof), and a fixed local quantum cannot flip an extensive handedness sign; charge
+  conservation through reconnection derived, the belt-trick resonance noted, the tenth instrument
+  catch logged (a symmetric seed cancelled the signed torsion identically -- 0.0000 at every
+  snapshot is too perfect). GRV-036 PROMOTED Modeled -> Derived (the no-hair charge column was its
+  Modeled residue). GRV-014 -- Mark's quantum-completion conjecture -- AUDITED AND DISCHARGED:
+  clause-by-clause against GRV-025 (the Sakharov-induced Einstein-Hilbert remainder, by name and by
+  mathematics) and GRV-029 (gamma = 1 unconditional); promoted Conjecture -> Derived. The founder's
+  conjecture is the first Conjecture-class claim discharged by derivation. Corpus 180/180, 192
+  claims (91 Derived, 3 Conjecture).
+
+### Addendum (2026-07-24, v2.2.9 cycle) — GRV-046: the temperature-offset anatomy -- the 1.3 made arithmetic
+- The whisper's coefficient decomposed with bars locked first: no-greybody core 0.24 x greybody
+  factor 0.81 = 0.196 (reproducing GRV-043 within the kernel spread); elasticities measured (width
+  +1.1, shell edge +0.7, regime-mixing dilution understood); GRV-044's formula captures the tail T
+  at the few-percent level. THE 2PI VERDICT: c1 sweeps smoothly THROUGH 1/2pi as kernel width
+  varies -- Hawking's 2pi is kinematic, the whisper's coefficient is mechanical, and the mechanical
+  one meets the kinematic one nowhere special. The offset is a PREDICTION: the temperature becomes
+  the FOURTH discriminator (1.2-1.3 x 1/2pi identifies reconnection noise). Eleventh instrument
+  catch: the first pass ran the tail-only Gaussian model outside its validity; the audit caught the
+  premise violation pre-registration, and the discarded run still contributed the width-sweep idea.
+  Corpus 181/181, 193 claims (81 Modeled).
+
+### Addendum (2026-07-24, v2.2.9 cycle) — GRV-047: the f-efficiency resolved by channel saturation
+- The two-sided budget: supply (Planck-cell sweep, quanta at 0.23 kappa) oversupplies the channel by
+  10^105-141 at Eddington -- the naive f would exceed unity by seventy orders, the energetics bar
+  caught it, and the diagnosis is the claim: the whisper is CHANNEL-limited (deep-sub-wavelength
+  emitter, per-mode Stefan-Boltzmann at the measured T, measured greybody). The ceiling:
+  L = 5.8e-4 x P_Hawking, MASS-INDEPENDENT across nine decades (the certifying check). THE REVISION,
+  registered loudly: L ~ Mdot becomes a SWITCH (Mdot_crit ~ 1e-113 Msun/yr is unphysical); fed holes
+  hum at a universal Hawking-faint ceiling, unfed holes silent. Observability closed in the negative
+  (5e-34 W stellar) with no detection claim ever made; the four discriminators stand as in-principle
+  physics; f dissolved into a ratio (~4e-67 at Eddington). GRV-040 pointer amended. The corpus's
+  black hole is strictly quieter than the textbook's in every state. Corpus 182/182, 194 claims.
+- (Same pass) The GRV-047 revision synchronized into the documents: Prediction 17 (switch + ceiling
+  + f dissolved), black-hole paper discriminator (2), INSTRUMENTS whisper section (detectability
+  closed in the negative, with the number saying why), and the guide's fine print ("the song is
+  real physics, not a listening proposal"). All validated; PDFs regenerated.
+
+### Addendum (2026-07-24, v2.2.9 cycle) — GRV-048: the strong-field audit -- the gate opens
+- The reframing that opened it: strong potential is NOT strong curvature -- induced-action
+  corrections couple to curvature invariants times the lattice scale, never to Phi/c^2, and the
+  parameter evaluates to 1e-78 at a stellar horizon (mildness theorem; r_break 26-32 orders below
+  r_s). The exactness lemma supplies the teeth: Ricci = 0 on Schwarzschild, so Ricci-class Sakharov
+  corrections leave the solution EXACT -- the horizon does not move; only Weyl-squared enters,
+  bounded at eps^2. The dictionary verified at O(1) amplitude (10x conditioning, ~2% pointwise
+  including the near-exhaustion dip): not a linearization. The arc's shared caveat upgraded across
+  fourteen claims; the paper's Section 2 call-out and Section 8 next-orders amended; residual
+  premises kept sharp (the generic-series completion; the sub-r_break interior; 1+1 scope).
+  Registered at Derived. Corpus 183/183, 195 claims (92 Derived).
+
+### Addendum (2026-07-24, v2.2.9 cycle) — QB-005 moved: Born as energy partition
+- The oldest structural open in the quantum sector, Open -> Modeled with three theorems and one
+  residue: the SQUARE derived (channel energy = |amplitude|^2 to 7e-4 on a dynamically split
+  packet -- Prediction 14's energetics half computed); the FRINGES exact (monochromatic one-quantum
+  transmission: unitarity 1e-14, visibility 0.75, FP correlation 0.9997, the phase mechanical);
+  the STATISTICS from one named premise (threshold detectors, survival integral: P = |c|^2 at
+  sub-percent, symmetric arrival); and the RESIDUE registered loudly -- skewed arrival favors the
+  early channel beyond Born (+0.32), where standard QM is timing-blind: a falsifiable divergence
+  for time-resolved interferometry. Twelfth instrument catch (pulsed-packet bandwidth; the transfer
+  matrix was the right tool). Walls untouched and said so: single-particle only; QB-002 stands.
+  Corpus 184/184, 195 claims (83 Modeled, 6 Open).
+
+### Addendum (2026-07-24, v2.2.9 cycle) — EM-RECON-015 resolved: the vacuum tension is the zero point
+- The rope model's vacuum-energy problem -- flagged at its worst the day the calibration created it
+  (Sigma ~ 1e25 J/m^3, five orders denser than lead, thirty-three orders above the observed vacuum)
+  -- resolved structurally by machinery built two eras later: in the Sakharov-induced architecture
+  the uniform medium IS flat space, sources enter only through excitation stress-energy, and Sigma
+  sets NEWTON'S CONSTANT, not a gravitating density. Verified at machine precision: uniform media
+  at any scale exactly transparent (1e-15) and exactly flat; local deviations scatter and curve;
+  zero-point scaling exactly sqrt(Sigma). The successor registered rather than celebrated away: the
+  observed residual Lambda is NOT predicted -- from catastrophe to ordinary open question. The
+  flag-not-hide discipline is this entry's hero. Open -> Modeled. Corpus 185/185, 195 claims
+  (84 Modeled, 5 Open).
+- (Same pass) The benchmark's B2 assert initially failed at 1e-6 because the regulator mass did not
+  scale with the medium rescale -- the assert was physically right and the encoding was not; a
+  global Sigma rescale scales everything, including the regulator. Thirteenth instrument catch.
+
+
+## v2.2.9 (2026-07-24)
+Release cut. See docs/RELEASE_NOTES_v2.2.9.md. Corpus: 195 claims (92 Derived, 84 Modeled, 3
+Conjecture, 5 Open), 185/185 benchmarks passing, 59 papers. Headline: the strong-field audit
+(GRV-048, Derived) -- the gate on fourteen black-hole claims opens: corrections 1e-78 at the
+horizon, Ricci-class terms vanishing exactly, the dictionary verified at O(1) amplitude. Plus: the
+temperature anatomy (the fourth discriminator); the luminosity switch (Hawking-faint ceiling,
+mass-independent to 1e-16); the handedness quantum (one 2-pi per reconnection; GRV-036 -> Derived);
+the founder's conjecture discharged (GRV-014 -> Derived); Born as energy partition (QB-005 moved,
+with the timing residue as the sector's falsifier); the vacuum zero point (EM-RECON-015 resolved).
