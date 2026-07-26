@@ -81,7 +81,9 @@ The corpus is organised in three tiers: **(1) In-domain** classical results (the
   `rope_ontology_v2.js`
 - **The Weinberg Angle from Three Dimensions and Two Strands** 📄
   `rope_two_axioms.js`
-- **Particles as Rope Knots** 📝 *planned* — title only; no shipped content or code in this release
+- **The Mass of Matter Gets a Receipt** 📄 `papers/rope_matter_mass.pdf`
+  *The matter-era campaign (FND-MATTER-006..038): the knot solver and its thirteen-knot certified table; the two-certificate identity pipeline (determinant + Alexander); the mover epic ending in the reptation conveyor's one-hundredth answer-key confirmation and the congestion gauge; the +2.3% solver systematic and the figure-eight DEAD ZERO (21.039 vs 21.040); source-grade ridgerunner anchors and the near-degenerate ideal doublet (0.05%); and the gate saga -- lambda collapsed to hbar c/(aTD), its quantum reading KILLED by the framework's own Lorentz bound, the surviving trace ledger exactly extensive, the last parameter confiscated by collision saturation, closed by the density-onset principle (x = sqrt(f_c)), and COMPUTED by percolation: Lambda = 0.013-0.017, zero free parameters, landing at the phenomenological window's edge. The conditioning sector is parameter-free (m = TD(L - Lambda ell)); T D is the single scale input. No knot is identified with any particle; every hypothesis is marked. Reproducible: benchmarks/foundations/ (33 benchmarks).*
+- **Particles as Rope Knots** 📝 *planned* — the identification question (which knot is which particle), now gated on the campaign above
   `rope_knots.js`
 - **The Nonlinear Rope Action** 📝 *planned* — title only; no shipped content or code in this release
   `rope_nonlinear.js`

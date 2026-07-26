@@ -239,3 +239,67 @@ carry their statuses unchanged.*
 
 *Companion document: papers/falsifiable_predictions — the seventeen-prediction
 inventory; this map supplies the hardware side of Predictions 3, 10, 11, and 15; the whisper section above supplies the observational side of Predictions 16 and 17.*
+
+## The matter-era instruments (v2.3.1)
+
+Three instruments commissioned: the KNOT-TIGHTENING SOLVER (SONO-class; unknot control at
+0.04 percent of pi; deterministic), the ZERO-POINT SPECTROMETER (exact eigenvalue sums,
+band-edge regulated, 3e-7 converged), and the BEND SPECTROSCOPE (boundary-free closed loops;
+exact per-mode Bloch ledger closing on totals at six decimals).
+
+Catches eighteen through twenty-two, each paid for once:
+18. **The tube-neighbor exclusion** — thickness constraints apply only beyond the pi-D/2 arc
+    boundary; both controls stalling at the SAME wrong number convicted the instrument's concept
+    of neighbor, not either knot.
+19. **Boundary contamination** — clamped-arc spectroscopy at 1e-4 signals is polluted by end
+    geometry; the closed loop is the spectroscopy-grade tool.
+20. **The rotation that isn't a symmetry** — a ring held bent by external contacts cannot rotate
+    for free (linearized rotation dilates at second order); both loop geometries carry exactly
+    two zero modes, and a knot's bent segments are stiffer than symmetry-counting suggests.
+21. **Eigenvalues, not entries** — unitarily equivalent Bloch blocks agree in spectrum while
+    differing entrywise; an 8e-2 "failure" over a 9e-16 agreement.
+22. **Certify the intercept separately from the slope** — float64 evaluation of symbolic closed
+    forms silently corrupts low modes (O(1) terms subtracting to O(q^2)); the log slope survives
+    such corruption, the constant does not. mpmath low modes spliced onto O(1)-scaled kernels is
+    the certified pattern.
+
+## The identification, mover, and gate instruments (v2.3.2–v2.3.6)
+
+Nine instruments commissioned across the epic: the ALEXANDER CERTIFIER (Wirtinger relations at
+t = 2, exact integers; the odd part of |Delta(2)| as the convention-proof statistic; reproduced
+multiplicativity under connected sum unprompted); the PLAT CONSTRUCTOR (two-bridge access;
+single-component walk verified; the twist ladder found by certificate scan); CERTIFIER-GATED
+BASIN HOPPING (best-certified banking + rollback; zero corruption through pi-scale rotations);
+the REPTATION CONVEYOR family (uniform, reversed, oscillatory; the answer-key confirmation to
+one hundredth); the CONGESTION GAUGE (flow-stability thresholds 0.12/0.05/0.03 as a
+literature-free ranking of clasp congestion); the SELF-SPACING PROFILER (curvature-safe arc
+exclusion; the tight-tangles-contact-everywhere measurement); the SATURATION MC (thermal-to-
+saturated crossover; drive-independent plateau at g^2/12); and the TRANSPARENCY-LOSS
+PERCOLATION RIG (number-density formulation; grid-inflation systematics stated as a band).
+
+Catches twenty-three through twenty-eight, each paid for once:
+23. **The control convicts the certifier** — the topology certifier's own over-strand bug was
+    caught by its trefoil control before it could misjudge a knot; controls are for instruments
+    first.
+24. **The +1.000 confession** — a mode regulator that subtracted a difference of top modes added
+    back exactly half the free band edge; an error that arrives as a clean integer offset is an
+    error naming its own mechanism.
+25. **diag(1,-1,1) is a reflection** — a chirality control almost passed on a matrix that was
+    secretly orientation-reversing; check determinants of "rotations."
+26. **Bank, dashboard, budget** — stochastic movers must bank the best certified state (the naive
+    last-state basin hopper returned worse than its own greedy), publish acceptance rates
+    (silent 0/420 rounds hid a clearance constraint), and fund the final descent (~1 L/D was
+    recovered by convergence alone).
+27. **The amplitude threshold is a measurement** — coherent tangential flow tears the
+    equalize-shrink loop above a knot-dependent speed set by clasp congestion; the instability
+    is physics, and it became the congestion gauge.
+28. **Assert mechanisms, not boundary-straddlers** — three benchmarks in one weekend failed on
+    configuration-fragile asserts (a cross-sibling energy at compact iterations, a marginal
+    rescue straddling zero, a noisy drive-independence); the certified pattern is to assert the
+    stable mechanism (a lift, a threshold, a seed-averaged plateau) with bars set from measured
+    scatter, and band the marginal outcome honestly.
+
+One principle, permanent: **THE INCOMPRESSIBILITY CONSTRAINT** — per-region tangential flow on
+an inextensible tube violates material conservation (slowdown IS accumulation; the failure mode
+is constipation at the clasp mouth, not tearing). Tube flows must be uniform along the tube;
+adaptivity may live only in the global magnitude or the time profile.

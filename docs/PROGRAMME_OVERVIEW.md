@@ -14,10 +14,10 @@ The programme's discipline is its defining feature: **derived results, empirical
 
 ## Corpus at a glance (generated)
 
-- **Bundled papers:** 59
-- **Reproducible benchmarks:** 159
-- **Registered claims:** 200 (186 code-backed and machine-verified)
-- **Claim status distribution:** Derived 94, EFT-constrained 4, Modeled 87, Conjecture 3, Failed 7, Open 5
+- **Bundled papers:** 60
+- **Reproducible benchmarks:** 192
+- **Registered claims:** 233 (219 code-backed and machine-verified)
+- **Claim status distribution:** Derived 102, EFT-constrained 4, Modeled 112, Conjecture 3, Failed 7, Open 5
 
 Verify it yourself in one command: `make verify` (runs every benchmark the registry references) or `python tools/verify_corpus.py`.
 
@@ -43,7 +43,7 @@ Maturity is **computed** from each sector's claim statuses and benchmark coverag
 
 | Sector | Computed maturity | Claims | Derived | Benchmarked |
 |---|---|---:|---:|---:|
-| Microscopic Mechanics & Foundations | Mature (conditional) | 38 | 20 | 35 |
+| Microscopic Mechanics & Foundations | Developing | 71 | 28 | 68 |
 | Renormalization / EFT | Mature | 1 | 1 | 1 |
 | Electromagnetism | Developing | 33 | 15 | 33 |
 | Classical Optics | Mature | 10 | 10 | 10 |
