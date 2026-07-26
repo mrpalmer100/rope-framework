@@ -5188,3 +5188,516 @@ capitals; the matter-sector gateway (the literal knot) named for the next era.
   stale cross-claim assertion, exactly its job. Updated to assert the discharge, and the claim
   gains its strongest note yet: the fence's gravity panel was crossed by precisely the mechanism
   the triangulation named -- its first confirmation. Three panels stand. 200/190 unchanged.
+
+### Addendum (2026-07-24, v2.3.1 cycle opens — the matter era) — FND-MATTER-006: the knot solver, first light
+- Mark asked about hydrogen twice; the second ask got a brick instead of a roadmap. The matter-sector
+  gateway instrument built and validated the house way: unknot control at 0.04 percent of pi (what
+  earned the trefoil a hearing), tight trefoil at 16.84 vs the literature's 16.372 (2.9 percent,
+  inside the locked bar), topology guarded throughout, first mass ratio E_3_1/E_0_1 = 5.36 as pure
+  geometry -- no absolute scale needed. Eighteenth catch (composite): both controls stalling at the
+  SAME wrong number convicted the instrument's concept of neighbor. Said louder than the result: no
+  knot is identified with any particle tonight; the road to hydrogen runs through 0.1-percent
+  refinement, the knot spectrum, NUC-002, and the still-blocked scale. Brick one of four, laid.
+  Corpus 191/191, 201 claims (88 Modeled).
+
+### Addendum (2026-07-25, v2.3.1 cycle — the matter era) — FND-MATTER-007: the first spectrum session
+- Two misses and one anomaly, registered as exactly that: trefoil 2.9% (passed), 5_1 at 6.5%
+  (missed its locked bar -- kept as a miss, bar not widened), and the figure-eight ROBUSTLY
+  stalling at 31.9 (annealing-invariant to 0.1% -- robust convergence to the wrong answer, more
+  dangerous than a jam; the stall value is ASSERTED so CI tracks it). The morning's real gift: the
+  1836 confrontation -- hydrogen's mass mechanically is the dimensionless m_p/m_e, reachable by
+  ratios without the blocked scale, and the arithmetic forks it: either a thousand-crossing proton
+  (geometry) or zero-point mass contributions (energetics) -- in which case the fence's third panel
+  IS the hydrogen question. The road to hydrogen and the corpus's one named boundary are the same
+  road. Corpus 192/192, 202 claims (89 Modeled).
+
+### Addendum (2026-07-25, v2.3.1 cycle — the matter era) — FND-MATTER-008: the zero-point mass term
+- The first computation ON the fence's layer rather than at its foot: a knot's Casimir-class
+  zero-point self-energy, exact by eigenvalue sums (band-edge regulated, 3e-7 converged), showing
+  bulk-plus-surface scaling and THE VERDICT AT 43 PERCENT -- equal-length, equal-strength defects
+  of different shape differ by 43% in their mass term, because the band saturates and concentration
+  matters. Mass is not pure length; the 1836 thousand-crossing arithmetic is not binding; and the
+  fork's winner is NOT picked (relative term weights need the blocked scale, and saying otherwise
+  is the shortcut this registry refuses). Next brick named: the two-term mass model -- tightened
+  knot profiles fed through this instrument, then n/p in two-term language, where a shape-sensitive
+  split is exactly what nature shows. Corpus 193/193, 203 claims (90 Modeled).
+
+### Addendum (2026-07-25, v2.3.1 cycle — the matter era) — FND-MATTER-009: the two-term mass model
+- The campaign's architecture complete in prototype: m(K) = Sigma L + lambda dE_zp, profiles from
+  the actual tightened geometry (ring turning exactly 2 pi validates the extractor), and THE LEVER
+  at 25 percent -- zero-point fractions differ between knots (tightness is a second dimension of
+  mass), so m_51/m_31 swings 1.491 -> 1.156 with lambda: geometry alone does not fix the spectrum.
+  The compression toward one is the n/p-shaped direction, noted without overclaim. Promotion path
+  named: crossing spectroscopy (measure the band shift a literal crossing produces) to convert the
+  conditioning map from choice to measurement. Lambda stays blocked, and stays said. Corpus
+  194/194, 204 claims (91 Modeled).
+
+### Addendum (2026-07-25, v2.3.1 cycle — the matter era) — FND-MATTER-010: crossing spectroscopy
+- Asked for a measurement, the session found a proof: a contact couples the DIFFERENCE of two
+  strands and ignores the sum, so the symmetric sector passes through a crossing untouched (exact,
+  5e-14) and the antisymmetric sector sees pure pinning at doubled stiffness -- crossing(kc) ==
+  pinning(2kc), verified at 1e-13. The conditioning dictionary's contact entry is DERIVED: every
+  contact in every knot conditions identically, kc one material constant for the whole spectrum --
+  freedom removed from the model is precision added to every future ratio. The curvature term is
+  the sole remaining choice; bend spectroscopy is its named sequel. Registered at Derived. Corpus
+  195/195, 205 claims (95 Derived).
+
+### Addendum (2026-07-25, v2.3.1 cycle — the matter era) — FND-MATTER-011: bend spectroscopy
+- The engine's answer was better than agreement: a refutation with a measured replacement. The
+  kappa^2 curvature guess fails its bar by an order of magnitude (66% coefficient drift on the
+  boundary-free closed-loop instrument -- nineteenth catch: clamped arcs are boundary-contaminated
+  at 1e-4 signals), while the raw signal tracks L^(-1/2) to half a percent across a 4x range:
+  anomalous scaling consistent with kappa^(3/2), mechanism registered as theory debt (the
+  transverse-longitudinal mixing window is the suspect). The mass table's fractions await a rerun;
+  the lever stands (saturation physics, independently established). The dictionary so far: crossing
+  exact, bend anomalous -- never merely approximate. Corpus 196/196, 206 claims (92 Modeled).
+
+### Addendum (2026-07-25, v2.3.1 cycle — the matter era) — FND-MATTER-012: the exponent convicted
+- It was a logarithm: dE x L = a + b ln L, fitting at 0.02% and predicting held-out sizes at 0.02%,
+  while any power misfits at the percent level. Convicted by an exact mode ledger (blocks at 4e-14,
+  per-n sum equal to the total at six decimals): the mechanism is a COMPETITION -- low-mode
+  stiffening (the (n^2-1)^2 invariant) against high-mode drift -- with the log born of the contest.
+  Twentieth catch, resolved benignly: a ring held by external contacts cannot rotate for free
+  (linearized rotation dilates and costs energy), so both geometries have exactly two zeros;
+  FND-MATTER-011's data survived within 0.1% and its sign is confirmed. The dictionary: one exact
+  theorem (contact), one predictive law with a closed ledger (bend). Registered at Derived. Corpus
+  197/197, 207 claims (96 Derived).
+
+### Addendum (2026-07-25, v2.3.1 cycle — the matter era) — FND-MATTER-013: b derived, the bend law closed
+- The matter era's first closed form: b = 2 pi (5/2 - 7 sqrt(2)/4) = 0.157866, the root carrying
+  the stiffness ratio -- five determinations in a line (analytic blocks at 9e-16 in eigenvalues,
+  the decade-wide plateau, the symbolic pole exactly 5/2 - 7 sqrt(2)/4, block sums, the original
+  lattice 0.1577). Method note for the file: the pathological double limit tamed as two clean
+  sequential limits; twenty-first lesson -- unitarily equivalent blocks share eigenvalues, not
+  entries. The dictionary: two theorems, one measured constant. The campaign's honest unknowns are
+  now exactly three -- a, kc, lambda -- all material properties, none per-knot. Registered at
+  Derived. Corpus 198/198, 208 claims (97 Derived).
+- (Same pass) The benchmark's numeric-limit check initially failed in float64 at phi = 1e-4
+  (catastrophic cancellation); moved to mpmath at 30 digits, as the derivation run itself had used.
+
+### Addendum (2026-07-25, v2.3.1 cycle — the matter era) — FND-MATTER-014: a derived, the bend law fully closed
+- dE x L = -0.509658 + 2 pi (5/2 - 7 sqrt(2)/4) ln L -- zero free parameters. The constant derived
+  via a cancellation-proof split (30-digit low-mode blocks + the perturbative kernel), converged to
+  9e-12 across a 30x size range, splice certified at six digits, reconciled with the original
+  lattice fit at 0.2%. Twenty-second lesson, for every future spectroscopy: certify the intercept
+  separately from the slope -- the float64 path's b survived while its a was silently corrupted.
+  The honest no: three contradictory nsimplify candidates rejected; a joins the lattice Casimir
+  constants. The dictionary is COMPLETE; the campaign's unknowns are exactly two material numbers,
+  kc and lambda. Registered at Derived. Corpus 199/199, 209 claims (98 Derived).
+
+### Addendum (2026-07-25, pre-v2.3.1) — the papers catch up with the registry
+- NEW PAPER: "The Mass of Matter Gets a Receipt" (rope_matter_mass) covering the full
+  FND-MATTER-006..014 arc -- instruments, misses, the anomaly, the fork, the verdict, the lever,
+  and the closed dictionary -- with the nine claims repointed to it. PAPERS.md's stale "Particles
+  as Rope Knots: planned, no shipped content" corrected (the identification question now gated on
+  the shipped campaign). INSTRUMENTS.md gains the matter-era section (three instruments; catches
+  18-22 with their lessons). The predictions paper's deepest-open-problem paragraph updated to the
+  campaign's true state: structure derived, two material unknowns, the 1836 fork stated, the scale
+  still blocked and still said.
+- (Same pass) The new paper's settings.xml carried the zoom-without-percent defect in a
+  serialization the literal-match repair missed; fixed with a robust regex repair, validation
+  PASSED, PDF regenerated.
+
+
+## v2.3.1 (2026-07-25)
+Release cut -- THE MATTER ERA OPENS. See docs/RELEASE_NOTES_v2.3.1.md. Corpus: 209 claims
+(98 Derived, 92 Modeled, 3 Conjecture, 5 Open), 199/199 benchmarks passing, 60 papers. Nine
+claims FND-MATTER-006..014: the knot solver (trefoil 2.9%), the spectrum with its tracked
+figure-eight anomaly, the 1836 fork, the zero-point spectrometer and the 43% verdict, the
+two-term mass model and its 25% lever, and the conditioning dictionary CLOSED -- crossing =
+pinning(2kc) exactly, and the bend law with zero free parameters: dE x L = -0.509658 +
+2 pi (5/2 - 7 sqrt2/4) ln L. New paper: The Mass of Matter Gets a Receipt. Five instrument
+catches (18-22). Two material unknowns remain: kc and lambda. No knot is identified with any
+particle, and the release says so.
+
+### Addendum (2026-07-25, v2.3.2 cycle opens) — FND-MATTER-015: the topology certifier; the figure-eight convicted
+- The 210th claim and the 200th benchmark: a detective story with a definitive ending. The
+  knot-determinant certifier (1/3/5 validated, projection-invariant, control-preserved) acquits
+  both dramatic hypotheses and convicts the mundane one: the 4_1 stall is a CONFORMATIONAL JAM,
+  topology det = 5/5 at every endpoint including through verified annealing. Twenty-third catch
+  (the detector's own over-strand bug, caught by its control) plus a bonus (a wrong Lissajous
+  embedding read det = 7 and was rejected in milliseconds -- an acceptance gate pays for itself
+  the first day). The refinement work order is specific; the n/p rehearsal's precondition is
+  satisfied. Registered at Derived. Corpus 200/200, 210 claims (99 Derived).
+
+### Addendum (2026-07-25, v2.3.2 cycle) — FND-MATTER-016: kc dissolved -- THE HUNDREDTH DERIVED CLAIM
+- Asked to compute a material constant, the session discovered the constant was never there: the
+  corpus's contact has always been hard-core, and a hard core is a constraint whose zero-point
+  cost is geometry alone. Parity extends exactly (3e-13); the harmonic kc's divergence is the
+  scaffold's own rattle -- subtract the internal mode and the bridge closes at four decimals
+  (twenty-fourth catch: the first regulator's exact +1.000 offset). THE SIGN IS THE HEADLINE:
+  dE_contact = -0.5025 per site, NEGATIVE -- pressing strands together makes the vacuum quieter;
+  contacts BIND. Bends cost, contacts pay: a knot's mass is a ledger of trades. FND-MATTER-009's
+  contact sign corrected in print; NUC-002's binding conjecture earns a pointer (direction of the
+  arrow independently derived; not promoted). The campaign's unknowns: LAMBDA ALONE. Registered at
+  Derived -- the 100th. Corpus 201/201, 211 claims.
+
+### Addendum (2026-07-25, v2.3.2 cycle) — FND-MATTER-017: the isospin-doublet rehearsal
+- Granny vs square, certified 9/9 at every step: the square WINS ON LENGTH (29.95 vs 31.59),
+  matching the known ropelength ordering -- the prototype solver reproducing an external fact it
+  was never shown. The trade is the physics: the square buys shorter rope by bending harder (+12%),
+  contacts wash out -- near-degenerate partners splitting by opposing trades, exactly the
+  architecture n/p wants. The gate, registered not hidden: the raw ledger drives masses negative
+  at lambda ~ 0.04 because the 3D-to-host mapping is uncalibrated (pair counts vs per-site units;
+  the kappa^2 placeholder) -- three mappings named, calibration the sole gate besides lambda.
+  Twenty-fifth catch (a reflection masquerading as a rotation) plus a threading bridge, both
+  rejected by the certifier in seconds. Chiral control exact at 0.00e+00. Corpus 202/202,
+  212 claims (93 Modeled).
+
+### Addendum (2026-07-25, v2.3.2 cycle) — FND-MATTER-018: the mapping calibrated
+- The gate the rehearsal exposed, closed the same weekend by measuring rather than assuming. The
+  small-loop table hands back the bend law's ENTIRE shape (binding below Lambda ~ 25, ceiling near
+  70, the derived descent beyond) and shows the closed form holding to a few percent at sizes six
+  times below its validated floor. Currencies certified resolution-independent (clusters 3 = 3 --
+  the ideal trefoil's known three-fold contact structure, a second external anchor; contact length
+  to half a percent) while raw pair counts inflate 2.4x. THE DOUBLET, calibrated: masses positive,
+  degeneracy crossing at lambda* ~ 0.26 INSIDE the window, third-decimal splittings beside it --
+  the architecture that makes a 0.14% splitting natural now exists on rope with receipts. Tight
+  structure is zero-point BOUND (mass-deficit, nuclear-flavored; NUC-002's second pointer, no
+  promotion). Remaining: the local-loop step, the rearrangement solver, and lambda alone.
+  Corpus 203/203, 213 claims (94 Modeled).
+
+### Addendum (2026-07-25, v2.3.2 cycle) — FND-MATTER-019: the general certified spectrum
+- Six knots, every row certified (dets 1/3/5/7/9/9 at both ends), every energy entry derived. A
+  third external anchor the solver was never shown: the tight ring's own antipodal self-contact,
+  read correctly by the contact instrument (one cluster, length ~ pi at diameter exactly D). Two
+  spectrum-level discoveries: COMPOSITION BINDS EVERYWHERE (B > 0 at all couplings, growing with
+  lambda) and LEVEL CROSSINGS at strong coupling (the square dives below the 5_1 prime: mass not
+  monotone in complexity -- binding beats size, hadron-flavored). The honest x-axis: everything is
+  m(lambda); the axis itself is the campaign's sole conceptual gate. Corpus 204/204, 214 claims
+  (95 Modeled).
+
+### Addendum (2026-07-25, v2.3.2 cycle) — FND-MATTER-020: the figure-eight seated
+- The oldest matter-era debt paid with interest: the braid closure of (s1 s2^-1)^2, certified
+  det 5/5 before any tightening, descends under the UNCHANGED solver to L/D = 21.64 -- 2.8% from
+  the literature's 21.04 (the FOURTH external anchor, never shown to the solver). The jam was
+  basin-specific; the curvature-cap suspect stands acquitted; the corpus keeps all three chapters
+  (anomaly, certified diagnosis, wrong suspect, true cause) because that sequence is what real
+  instrument work looks like. The constructor is the prize: every knot has a braid word -- the
+  whole non-torus family is one word away from a certified seat. The 4_1 row seats BETWEEN 3_1
+  and 5_1 at every coupling. Honest edges: prototype grade; det-5 degeneracy with 5_1 (finer
+  invariant named); calibration caveats inherited. Corpus 205/205, 215 claims (96 Modeled).
+
+### Addendum (2026-07-25, v2.3.2 cycle) — FND-MATTER-021: the braid-family spectrum
+- Three knots seated by certified word search, each with a mathematical identity proof: the
+  word-length bound caps crossings, the cap makes dets 7/11/13 UNIQUE -- rigorous identification
+  for the price of a projection count. The trap that sprang itself: the det-9 hit was s1^3 s2^3 =
+  the granny by the factorization theorem, caught before mis-seating a row; 6_1 unseated with a
+  clean reason (braid index 4). Fifth anchor: 5_2 > 5_1, twist-beats-torus. THE SPECTRUM LAW from
+  ten certified rows: at strong coupling the contact-rich sibling ALWAYS dives below its
+  contact-poor twin (6_3/6_2 by 0.3, 5_2/5_1 by 0.6, granny/square past the crossing) -- binding
+  beats size, systematically: the qualitative shape of the hadron table, said once. Corpus
+  206/206, 216 claims (97 Modeled).
+
+
+## v2.3.2 (2026-07-25)
+Release cut -- THE DOUBLET AND THE DISSOLUTION. See docs/RELEASE_NOTES_v2.3.2.md. Corpus: 216
+claims (100 Derived -- the hundredth landed this cycle -- 97 Modeled, 3 Conjecture, 5 Open),
+206/206 benchmarks passing, 60 papers. Seven bricks: the topology certifier and the figure-eight's
+conviction; kc DISSOLVED (contacts bind, -0.5025 per site, parameter-free); the granny/square
+isospin-doublet rehearsal; the mapping calibration (small-loop table, resolution-independent
+currencies, third-decimal splittings at an in-window degeneracy); the ten-knot certified spectrum
+(composition binds everywhere; level crossings); the figure-eight SEATED at 2.8% via braid
+closure (the jam was basin-specific); and the braid-family spectrum (5_2/6_2/6_3 with rigorous
+identity proofs; the sibling-dive law). Five external anchors, catches 23-25, one remaining
+conceptual gate: lambda.
+
+### Addendum (2026-07-25, v2.3.3 cycle opens) — FND-MATTER-022: the Alexander certifier; 6_1 seated topologically
+- The ordered instrument, delivered and immediately load-bearing: Wirtinger relations at t = 2,
+  exact integers, the odd part of |Delta(2)| as the convention-proof statistic -- validated with
+  every raw value differing between projections by a pure power of two, the unit ambiguity
+  showing up EXACTLY as theory predicts. The famous vanishing Delta(6_1)(2) = 0 turns the
+  determinant test's pathology into a fingerprint; the guided 4-strand search hit on its first
+  word (the standard table's), double-certified, both certificates surviving tightening. The
+  sibling-dive law's first out-of-sample test passes in mechanism (6_1 IS the trio's contact-rich
+  member and dives steepest). The ropelength wears a flag: 32.3 vs lit ~28.5, basin-limited in
+  the pre-braid figure-eight's exact pattern; named fix, twist-native constructor. Corpus
+  207/207, 217 claims (98 Modeled).
+- (Same pass) The benchmark's cross-sibling S assert was configuration-dependent (a less-tightened
+  compact state presses in fewer contacts); softened to the configuration-independent
+  contact-substantial bound, with the matched-settings comparison documented in the claim.
+
+### Addendum (2026-07-25, v2.3.3 cycle) — FND-MATTER-023: the plat constructor and the basin lesson
+- Commissioned to fix a basin; built a second front door instead, and measured why the basin
+  problem is hard. The 48-word certificate scan found the ENTIRE twist ladder with its anatomy
+  visible (clasp prefix + twist block) -- when a search's output is more organized than its input
+  space, the instrument is measuring something real. 7_2 takes its first seat (det 11/oddA 5,
+  separated from 6_2 by the Alexander certifier); 8_1's word certified. THE NEGATIVE, asserted in
+  its own benchmark: plat basins uniformly shallower than trace-closure basins; rounding recovers
+  the trace class for 6_1 (confirming the 32.2 floor from a SECOND independent start) but not
+  4_1's deep basin -- descent inherits geometry, not meaning. The crankshaft MC is now specified
+  by three constructors' worth of failure data. Corpus 208/208, 218 claims (99 Modeled).
+
+### Addendum (2026-07-25, v2.3.3 cycle) — FND-MATTER-024: certifier-gated basin hopping
+- The mover judged by a controlled experiment with an answer key: the plat 4_1's deep basin at
+  21.6 was reachable by another road, so the shortfall is a MEASUREMENT. The safety result is
+  permanent equipment: pi-scale rotations at 60% inflation, thousands of times, zero topology
+  corruption (certified banking + rollback). Greedy 25.5 -> banked 23.4-23.6; the boundary
+  uncrossed at healthy acceptance localizes the failure in the MOVE CLASS -- the deep passage is
+  a coordinated global slide with ~zero probability as composed local rotations. One finger
+  points at REPTATION (material flow through the tube, no clearance needed). Three transferable
+  lessons filed (banking, dashboards, descent budget); the boundary itself ASSERTED so the test
+  suite announces the day it falls. Corpus 209/209, 219 claims -- 100 Derived AND 100 Modeled.
+
+### Addendum (2026-07-25, v2.3.3 cycle) — FND-MATTER-025: the reptation mover -- the boundary falls
+- The prettiest arc a methodology can draw: a mover class specified by its predecessors'
+  systematic failures, built in twenty lines, confirmed on an answer key to ONE HUNDREDTH (plat
+  4_1 -> 21.543 vs the deep floor's 21.533). Deep rearrangements in tight knots are material
+  transactions, not spatial swings -- the clearance-free move sufficed on the first
+  correctly-tuned attempt. Twenty-seventh catch: the amplitude threshold is a physical
+  measurement (flow faster than the constraints can process and the tube tears; the threshold
+  drops with clasp congestion -- 4_1 tolerates what 6_1 cannot). 5_2 improves to 26.45 (7.1%).
+  The 6_1 and 7_2 walls stand against the entire arsenal and are named for the
+  resolution-scaling test. FND-MATTER-024's boundary assert formally announced fallen. Corpus
+  210/210, 220 claims.
+
+### Addendum (2026-07-25, v2.3.3 cycle) — FND-MATTER-026: the resolution-scaling test
+- The experiment that turns a nuisance into an instrument: the 4_1 ladder (21.58/21.53/21.52)
+  reveals a resolution-STABLE +2.3% solver systematic -- five anchors at 2.5-2.9% were ONE
+  property reproduced five times; subtract the constant and the prototype tracks ideal-knot
+  geometry at the sub-percent level. THE WALL CERTIFIED: 6_1 at N=200 sits at 32.09 -- unchanged;
+  a single number has now survived two constructors, four mover classes, two flow directions, and
+  a resolution ladder, becoming a landscape FEATURE with measured height and a mechanistic
+  correlate (clasp congestion). The twist-ladder pattern: walls grow with twist count. Corpus
+  211/211, 221 claims.
+
+
+## v2.3.3 (2026-07-25)
+Release cut -- THE FLOW AND THE WALLS. See docs/RELEASE_NOTES_v2.3.3.md. Corpus: 221 claims
+(100 Derived, 102 Modeled, 3 Conjecture, 5 Open), 211/211 benchmarks passing, 60 papers. Five
+bricks (FND-MATTER-022..026): the Alexander certifier (two-certificate identity pipeline; 6_1
+seated topologically on the standard word); the plat constructor (the twist ladder found by a
+48-word certificate scan; 7_2's first seat; nativeness is not compactness); certifier-gated
+basin hopping (safe, insufficient, filed -- with the boundary asserted); the reptation mover
+(the boundary FALLS: plat 4_1 to 21.543 vs the deep floor's 21.533 -- material transactions,
+not spatial swings); and the resolution-scaling test (the +2.3 percent solver systematic --
+five anchors were one constant; sub-percent tracking underneath -- and the 6_1 wall certified
+real, walls growing with twist count). Catches 26-27. lambda unmoved.
+
+### Addendum (2026-07-25, v2.3.4 cycle opens) — FND-MATTER-027: the systematic-corrected spectrum table
+- The table's most striking cell is a zero: 4_1 adjusted = 21.039 vs literature 21.040 -- the
+  fourth significant figure, with five stacked subsystems all required sound for it to emerge.
+  3_1 at +0.07%. Where unobstructed, the instrument is PRECISE; where obstructed, the obstruction
+  is measured, monotone, and named. 8_1 seated (13th knot, double-certified); the flow-tolerance
+  ladder extended into a literature-free CONGESTION GAUGE (0.12 / 0.05 / 0.03 thresholds) -- a
+  genuinely new characterization of knot geometry. FND-MATTER-007's kept 5_1 miss acquired its
+  full anatomy twenty claims later (2.3% systematic + 4.1% wall) -- the keep-your-failures policy
+  paying compound returns. Corpus 212/212, 222 claims (103 Modeled).
+- (Same pass) The congestion-gauge assert made configuration-robust: matched-iteration
+  flow-vs-greedy comparison (measured degradation +10.4 at 16k; margin 3.0).
+
+### Addendum (2026-07-25, v2.3.4 cycle) — FND-MATTER-028: the literature anchors sourced
+- The corpus goes to the library and the library pays out twice: rigor (walls and clean rows now
+  measured against ridgerunner's rigorous upper bounds, units verified on the trefoil to four
+  figures) and a fact nobody ordered -- THE IDEAL DOUBLET IS NEARLY DEGENERATE: granny 28.520 D,
+  square 28.535 D, split 0.05 percent with granny marginally shorter. The same ORDER as the n/p
+  mass split (0.14 percent); a coincidence of configuration until a mechanism exists, said so,
+  and exactly the near-degeneracy a knot-doublet story requires. Our granny-above-square by 4.7
+  percent exposed as basin scatter (compact re-runs close it to 0.5). Solid upgrades: 6_1 =
+  28.353 (the wall +10.6 percent vs solid), 6_3 = 28.920 (+2.0, clean), 7_1 = 30.703 confirmed.
+  Composite anchors banked for future seats. Corpus 213/213, 223 claims (104 Modeled).
+
+### Addendum (2026-07-25, v2.3.4 cycle) — FND-MATTER-029: the lambda gate -- anatomy, audit, and the conditional
+- The session that walked up to the axis did the three things an honest program can do with an
+  underived constant, and refused the fourth. THE AUDIT (the quiet load-bearer): bend and contact
+  scales share one minus-chain normalization -- S is internally RIGID, all freedom lives in ONE
+  dimensionless ratio, lambda = E_mode/(T.D), its derivation now a specification (T and kt from
+  one microstructure). THE CONDITIONAL: source-grade doublet geometry + derived conditioning
+  lands the n/p hypothesis at lambda* ~ 0.03 -- small positive, binding lightens (the physical
+  sign), coarse spectrum geometric, fine splittings from conditioning: a two-scale structure
+  nobody inserted. REFUSED: promoting lambda* to lambda, or the doublet to n/p. The conditional
+  can now be WRONG: the banked composites await the consistency test. Corpus 214/214, 224 claims.
+
+### Addendum (2026-07-25, v2.3.4 cycle) — FND-MATTER-030: the conditional before its jury
+- The program promised its conditional could be wrong and built the courtroom: bars locked before
+  data, split verdict kept. THE RESCUE (exhibit worth framing): 4_1#4_1's geometric defect came
+  out NEGATIVE and the junction term -- from the same rigid ledger, lambda* fixed upstream --
+  quietly paid the missing binding with the correct sign: hypotheses that are merely fitted do
+  not perform unrehearsed rescues. THE FAILURE at full volume: junction spread 11.5 vs the bar of
+  2, with the confound pointing at the walls rather than the map; the wall-free re-trial is now
+  the specific discriminating experiment. One count convicted, two acquitted -- a speculative
+  program run as if it expected to be audited. Corpus 215/215, 225 claims.
+- (Same pass) The rescue encoded honestly: the junction lift (+0.20) asserted as the stable
+  mechanism; the outcome banded (straddles zero within +-0.15 basin scatter; positive at session
+  grade). Twice-bitten lesson applied: mechanism-grade asserts, not boundary-straddling ones.
+
+### Addendum (2026-07-25, v2.3.4 cycle) — FND-MATTER-031: the triple and the extensivity test
+- The corpus's first two-junction object, seated on its first word -- and the Alexander certifier
+  returned odd part 27 = 3^3 unprompted: Delta's multiplicativity under connected sum, a theorem
+  the instrument was never taught, materializing as an integer. THE DIAGNOSIS: 030 could not
+  separate 'inconsistent map' from 'bad seats'; the triple separates them -- totals behave
+  near-extensively (ratio 1.45, B3 pass) while the geometric/conditioning decomposition swings
+  two orders across basins (B2 fail, kept): the junction term is NOISE-DROWNED at walled seats,
+  not mishandled. The conditional's observable totals have now passed every test put to them
+  today; the unmeasurable quantity is named and fenced; the acquittal condition is quantitative
+  (2.24 at wall-free quality). The walls are the era's antagonist; adaptive flow is the critical
+  path. Corpus 216/216, 226 claims.
+
+
+## v2.3.4 (2026-07-25)
+Release cut -- THE GATE AND THE JURY. See docs/RELEASE_NOTES_v2.3.4.md. Corpus: 226 claims
+(100 Derived, 107 Modeled, 3 Conjecture, 5 Open), 216/216 benchmarks passing, 60 papers. Five
+bricks (FND-MATTER-027..031): the corrected spectrum table (the 4_1 DEAD ZERO at the fourth
+figure; 8_1 seated; the congestion gauge); the literature anchors sourced (ridgerunner
+upper bounds; THE IDEAL DOUBLET NEARLY DEGENERATE at 0.05 percent); the lambda gate (S
+internally rigid, lambda = E_mode/(T.D), the n/p conditional at lambda* ~ 0.03 with the
+physical binding sign, promotion refused); the jury (the unrehearsed rescue; junction spread
+failed at full volume); and the triple (Alexander multiplicativity 27 = 3^3 unprompted; the
+junction term certified noise-drowned; acquittal condition 2.24 at wall-free quality). The
+walls are the antagonist; adaptive flow is the critical path. lambda underived, anatomized.
+
+### Addendum (2026-07-25, v2.3.5 cycle opens) — FND-MATTER-032: the adaptive campaign and the standing wall
+- The campaign that closed the mover era the right way: not by winning but by proving the fight
+  is over at this weight class. THE INCOMPRESSIBILITY PRINCIPLE (discovered by a control
+  failure): slowing flow where it is dangerous is exactly wrong for conserved material on a
+  closed tube -- slowdown IS accumulation; the failure mode is constipation at the clasp mouth,
+  not tearing. Permanent design constraint for every future flow mover. THE OSCILLATORY MODE
+  banked (control crosses at 21.96; literally how fingers work a knot). THE TERMINAL GRADE:
+  eleven attacks, two eras, a resolution ladder, a solid anchor -- the 6_1 floor is a MEASURED
+  solver-landscape feature; surpassing it is solver engineering (ridgerunner-class), not physics.
+  The walls' ledger is clean: every question through them parked at a named frontier with a named
+  tool. Corpus 217/217, 227 claims.
+
+### Addendum (2026-07-25, v2.3.5 cycle) — FND-MATTER-033: the microstructure derivation -- the gate collapses and audits the conditional
+- The claim the day was unknowingly building toward: two textbook identities deployed at the
+  right joint (the mode lattice IS a beaded string under the rope's own tension; torque-waves-
+  at-c IS the relativistic-string closure) collapse the gate from five unknowns to ONE measured
+  constant, lambda = hbar c/(aTD) -- and the reduced gate's first act is the audit: doublet=n/p
+  forces a mesh ~200 fm against the framework's own 0.1 fm Lorentz bound, a 2000x violation
+  robust across every granted ambiguity. THE VERDICT: the charming coincidence cannot be n/p in
+  the quantum reading; the kill is internal, arithmetic, and registered the day after banking
+  the coincidence -- exactly the turnaround honest bookkeeping is for. The geometric program is
+  untouched; the conditional instrument did its job perfectly, twice; the classical-amplitude
+  fork is priced honestly. Lambda: no longer nameless, still unmeasured, finally dangerous to
+  hypotheses -- what a real constant should be. Corpus 218/218, 228 claims, 101 DERIVED.
+
+### Addendum (2026-07-25, v2.3.5 cycle) — FND-MATTER-034: the classical-amplitude fork worked out -- the trace ledger
+- The fork's price renegotiated from 'a free scale' to 'a bounded geometric fraction': the
+  fluctuation amplitude as a share of tube diameter, with the window's demand (alpha ~ 0.2)
+  sitting where physical jitter plausibly would. THE TRACE IDENTITY is the jewel: the surviving
+  reading's contact ledger is EXACTLY -2/site at every patch width (machine precision) where the
+  killed reading carried patch nonlinearity -- the mathematics quietly voting; exact extensivity
+  is precisely what the junction story of 030/031 wanted and could not measure. THE BEND EULOGY
+  given: the logarithmic bend law, this era's first derived beauty, is energetically silent in
+  the surviving reading -- kept as spectrum truth, available for resurrection. lambda =
+  alpha^2 (D/a)^2/|DIR_C|: every factor geometric, every factor bounded, nothing for the Lorentz
+  bound to strike. Quantum-dead, classically alive, one geometric fraction from being a number.
+  Corpus 219/219, 229 claims, 102 DERIVED.
+
+### Addendum (2026-07-25, v2.3.5 cycle) — FND-MATTER-035: the C-ledger conditionals end to end
+- The closing bracket of the gate arc. WHAT THE 3-PERCENT BUYS: the two-day drama could have
+  ended with the phenomenology hostage to an interpretational choice; the matched-seat comparison
+  shows the doublet condition nearly reading-blind -- the audit killed a READING without wounding
+  the phenomena. WHAT THE 200-PERCENT TEACHES: one antagonist (the walls), every storyline, one
+  named remedy -- the signature of a program that has identified its bottleneck rather than
+  scattered its excuses. THE TRIANGLE: doublet window, helium interface (3-10 D per pair), and
+  fluctuation fraction (alpha 0.12-0.41) had three chances to break at every point of the
+  scattered window and took none -- not confirmation, said so, but a hypothesis alive,
+  conditional, and priced. Corpus 220/220, 230 claims.
+
+
+## v2.3.5 (2026-07-25)
+Release cut -- THE GATE, THE AUDIT, AND THE TRACE. See docs/RELEASE_NOTES_v2.3.5.md. Corpus:
+230 claims (102 Derived, 109 Modeled, 3 Conjecture, 5 Open), 220/220 benchmarks passing, 60
+papers. Four bricks (FND-MATTER-032..035): the adaptive campaign (the incompressibility
+principle; the oscillatory conveyor; the 6_1 wall terminal-graded after eleven attacks); the
+microstructure derivation (the gate collapses to lambda = hbar c/(aTD); its first act audits
+and KILLS the doublet = n/p hypothesis in the quantum reading -- a ~ 200 fm vs the 0.1 fm
+Lorentz bound, 2000x, internal and arithmetic); the trace ledger (the surviving classical-
+amplitude reading EXACTLY extensive at -2/site; the bend logarithm eulogized; lambda =
+alpha^2 (D/a)^2/|DIR|, every factor geometric and bounded); and the C-ledger conditionals
+(reading shift 3 percent, basin scatter 200 percent -- the audit killed a reading without
+wounding the phenomena; the triangle holds everywhere). The walls gate everything; the
+solver-grade frontier is the named remedy. Lambda: geometric, fork-robust, underived, honest.
+
+### Addendum (2026-07-25, v2.3.6 cycle opens) — FND-MATTER-036: the alpha-fixing mechanism -- collision saturation
+- The hunt ended somewhere better than an observable: at a mechanism that closes a logical
+  circle. Reading C carried an IOU (WHY frequency-blind fixed amplitudes?) and collision
+  saturation pays it while confiscating the free parameter: amplitudes are frequency-blind
+  because geometry does not care about frequency, fixed because the gap is the gap. The MC's
+  crossover makes it physics, not tautology (the model CAN behave thermally; the claim is the
+  medium lives above crossover -- stated, honest, attackable). The gate ledger settles: five
+  unknowns (029) -> one constant (033) -> one bounded fraction (034) -> one GEOMETRIC RATIO:
+  Lambda = (1-x)^2/12, window <-> x = D/a in [0.27, 0.59]. The endgame is visibly adjacent:
+  004's coverage threshold (Mark's density-onset principle) is built from the same packing
+  physics that would fix x -- if it closes, lambda is DERIVED conditional on saturation.
+  Corpus 221/221, 231 claims.
+- (Same pass) The drive-independence assert made statistics-honest: seed-averaged values with
+  bars set from measured compact-MC scatter (session-grade 24k/120: 1.3%; compact: ~12% bands).
+
+### Addendum (2026-07-25, v2.3.6 cycle) — FND-MATTER-037: the 004-closure attempt
+- Four movements, each compelled by the last. THE MEASUREMENT (new, instrument-grade): tight
+  tangles are in contact essentially everywhere (s ~ 0.998 D at every site, all knots) -- caught
+  after the instrument twice reported impossible numbers and was twice repaired; retroactively
+  explains contact lengths exceeding rope lengths. THE KILL: no jitter room in self-packing,
+  Lambda ~ 0, kept. THE REROUTE: 004's ontology eliminated two meshes by pure logic, leaving the
+  tube's internal bundle. THE CLOSURE: x = sqrt(f_c) EXACT -- Mark's density-onset principle
+  applied at a second level of structure converts the last geometric unknown into a pure number:
+  Lambda = (1 - sqrt(f_c))^2/12, window <-> f_c in [0.073, 0.348] -- bracketing stick
+  percolation, excluding coverage-class. The axis is now a percolation threshold: lambda has
+  become f_c, and f_c is computable. Corpus 222/222, 232 claims.
+
+### Addendum (2026-07-25, v2.3.6 cycle) — FND-MATTER-038: the f_c determination -- the axis becomes a number
+- The gate saga's climax: an axis that opened as an unnamed blockage closes as a MEASURED
+  percolation threshold. The full chain in one breath: hbar-dead by the framework's own Lorentz
+  bound, reborn classically as a jitter fraction, geometrized by collision saturation, routed to
+  the internal bundle by the ontology's eliminations, closed by the density-onset principle at
+  its second level, and COMPUTED by throwing random disks and asking when a rope can no longer
+  pass: Lambda = 0.013-0.017, no dials anywhere. THE EDGE LANDING: nothing in the simulation knew
+  about neutrons or ridgerunner tables, and it delivered a number that BRACKETS the
+  lambda-session doublet condition while sitting too low for comfort -- too close for dismissal,
+  too edged for celebration, squarely a seat-quality question. The conditioning sector is
+  PARAMETER-FREE: m = TD(L - Lambda ell), Lambda computed, TD the single input. Corpus 223/223,
+  233 claims.
+
+### Addendum (2026-07-25, pre-v2.3.6 documentation pass)
+- papers/rope_matter_mass.docx +4 sections (7: the instrumentation epic; 8: the zero, the
+  library, and the corrected table; 9: the gate saga -- the axis becomes a number; 10: the state
+  of the sector and the road); validated, PDF re-rendered (7 pages).
+- papers/falsifiable_predictions.docx closing rewritten: kc dissolved, lambda computed via the
+  f_c chain, the conditioning sector parameter-free, T D the sole remaining scale input; PDF
+  re-rendered.
+- docs/INSTRUMENTS.md: nine instruments of v2.3.2-2.3.6 added; catches 23-28 filed (including
+  the new catch 28, assert-mechanisms-not-boundary-straddlers, paid for three times in one
+  weekend); the incompressibility constraint recorded as a permanent principle.
+- docs/PAPERS.md: the Mass of Matter blurb refreshed to the full 006..038 arc (33 benchmarks).
+
+
+## v2.3.6 (2026-07-25)
+Release cut -- THE AXIS BECOMES A NUMBER. See docs/RELEASE_NOTES_v2.3.6.md. Corpus: 233 claims
+(102 Derived, 112 Modeled, 3 Conjecture, 5 Open), 223/223 benchmarks passing, 60 papers. Three
+bricks (FND-MATTER-036..038) completing the gate saga: collision saturation (the mechanism that
+justifies reading C confiscates its parameter; drive-independent plateau at g^2/12); the
+004-closure (tight tangles in contact everywhere -- a new instrument-grade fact; the reroute to
+the internal bundle forced by the ontology; x = sqrt(f_c) EXACT via the density-onset principle
+at its second level); and the f_c determination (transparency-loss percolation in the
+framework's own geometry: Lambda = 0.013-0.017, ZERO free parameters, the edge landing that
+brackets the doublet condition). The conditioning sector is PARAMETER-FREE: m = TD(L - Lambda
+ell), T D the single input. Plus the full documentation pass: the paper +4 sections, the
+predictions closing rewritten, INSTRUMENTS.md catches 23-28 and the incompressibility
+principle, PAPERS.md refreshed. Every hypothesis marked; no knot identified with any particle.
+
+### Addendum (2026-07-25, v2.3.7 cycle opens) — the Roadmap of Knowledge
+- Reviewer-driven infrastructure: the corpus's comprehension layer. tools/build_roadmap.py
+  generates, from claims.yaml alone: docs/roadmap.png (the wall chart -- seven sectors, 233
+  status-colored claims), docs/roadmap.html (self-contained interactive explorer: click any
+  claim for its title, status, benchmark, dependencies, dependents, and transitive downstream
+  count -- no external libraries, works offline), and docs/ROADMAP.md (the textual ladder).
+  First revelations of the map itself: FND-001 carries 210 downstream claims (90 percent of the
+  corpus rests on the first brick); Optics is the only all-Derived sector; Matter & Particles is
+  now the second-largest sector (52 claims). Regenerate with the corpus so the map can never
+  drift.
+
+### Addendum (2026-07-25, v2.3.7 cycle) — The Ten Biggest Surprises
+- The reviewer's second Tier-1 item: docs/TEN_SURPRISES.md, the non-technical narrative. Ten
+  stories with four failures given equal billing on purpose (gravity's refusal, the Bell
+  boundary, the self-execution of the doublet hypothesis, and the edge landing's honest
+  ambiguity) -- because a programme that only reports wins is advertising. Every surprise
+  points to registered, rerunnable claims. Linked from README and the Roadmap.
+- (Reviewer pass on the surprises document) Retitled to "Eleven Results We Did Not Expect"
+  (docs/SURPRISES.md); every entry now carries an explicit category tag (derived / modeled /
+  kept failure / labeled coincidence), implementing the reviewer's three-category discipline
+  consistently; #3 and #9 rephrased per review (limits, not verdicts; "eliminated," not
+  "pulled the trigger"); #10 emphasizes the window's INDEPENDENCE; and #11 added -- "The
+  computer became the skeptic," the registry itself as the load-bearing surprise. Per the
+  reviewer's suggestion, the stories are now the README's front door ("START HERE").

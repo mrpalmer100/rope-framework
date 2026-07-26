@@ -1,11 +1,11 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21430784.svg)](https://doi.org/10.5281/zenodo.21430784)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Verify](https://img.shields.io/badge/verify-190%2F190%20passing-brightgreen.svg)](#verify-it-yourself)
+[![Verify](https://img.shields.io/badge/verify-223%2F223%20passing-brightgreen.svg)](#verify-it-yourself)
 [![verify-corpus](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml/badge.svg)](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml)
 
 # rope-framework
 
-**Published:** [https://doi.org/10.5281/zenodo.21430784](https://doi.org/10.5281/zenodo.21430784) · **Author ORCID:** [https://orcid.org/0009-0007-2454-5573](https://orcid.org/0009-0007-2454-5573) · **Version:** 2.3.0
+**Published:** [https://doi.org/10.5281/zenodo.21430784](https://doi.org/10.5281/zenodo.21430784) · **Author ORCID:** [https://orcid.org/0009-0007-2454-5573](https://orcid.org/0009-0007-2454-5573) · **Version:** 2.3.6
 
 A machine-verified development of the Rope Hypothesis — a classical, mechanical model in which matter and light are configurations of physical filaments — into falsifiable, independently checkable form.
 
@@ -13,7 +13,11 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 
 > **Scope (read first):** The Rope Hypothesis is a *classical, configuration-counting* model. It is strongest in electromagnetism, optics, and the mechanical sectors; its classical weak-field gravity is **falsified under stated assumptions** (kept as a finding, not hidden); and it **provably does not reproduce quantum entanglement** in its present form (a counting model cannot produce Bell/CHSH violation; QB-003 Failed, QB-005 negative). The measurement arc (QB-007–011) maps this boundary in detail — single-particle statistics reproduced or cornered, the detector angle fixed at γ = 1, the residual gap localized to configuration-space guidance — without crossing it; a future non-classical rope structure is not claimed impossible. Nothing is hidden — see [`KNOWN_LIMITATIONS.md`](KNOWN_LIMITATIONS.md).
 
-> **Corpus state:** 200 registered claims (94 Derived, 87 Modeled, 4 EFT-constrained, 3 Conjecture, 5 Open, 7 Failed-and-kept); 190 code-backed, all passing; 58 papers. Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
+> **Corpus state:** 233 registered claims (102 Derived, 112 Modeled, 4 EFT-constrained, 3 Conjecture, 5 Open, 7 Failed-and-kept); 223 code-backed, all passing; 58 papers. Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
+
+**✨ START HERE: [Eleven Results We Did Not Expect](docs/SURPRISES.md)** — how the investigation actually unfolded: derived emergences, kept failures, labeled coincidences, and the day the framework eliminated its own favorite hypothesis. The best answer to "why spend an afternoon here?"
+
+**🗺️ [Roadmap of Knowledge](docs/ROADMAP.md)** — the whole corpus at a glance: [wall chart](docs/roadmap.png) and [interactive dependency explorer](docs/roadmap.html) (click any claim; see its dependencies, dependents, and full downstream), all generated from claims.yaml by `tools/build_roadmap.py`.
 
 ## Start here
 
