@@ -15,6 +15,8 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 
 > **Corpus state:** 233 registered claims (102 Derived, 112 Modeled, 4 EFT-constrained, 3 Conjecture, 5 Open, 7 Failed-and-kept); 223 code-backed, all passing; 58 papers. Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
 
+**🎨 [Figure gallery](figures/README.md)** — conceptual diagrams, each labeled with its corpus status (derived / modeled / hypothesis).
+
 **✨ START HERE: [Eleven Results We Did Not Expect](docs/SURPRISES.md)** — how the investigation actually unfolded: derived emergences, kept failures, labeled coincidences, and the day the framework eliminated its own favorite hypothesis. The best answer to "why spend an afternoon here?"
 
 **🗺️ [Roadmap of Knowledge](docs/ROADMAP.md)** — the whole corpus at a glance: [wall chart](docs/roadmap.png) and [interactive dependency explorer](docs/roadmap.html) (click any claim; see its dependencies, dependents, and full downstream), all generated from claims.yaml by `tools/build_roadmap.py`.

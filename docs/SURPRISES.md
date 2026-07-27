@@ -19,6 +19,9 @@ kinematics — fields as states of the medium, light as torque waves running alo
 first surprise is finding something in the box you didn't pack. *(Electromagnetism sector — 34
 claims, 15 Derived.)*
 
+![Magnetism in the rope model: field as circulating phase in the surrounding network](../figures/rope_magnetism.png)
+*Magnetism as phase circulation; current as a traveling strand-imbalance. Backed by EM-012/013 (Derived) and EM-RECON-001 (Modeled). [Figure notes.](../figures/README.md)*
+
 ## 2. Electric charge behaves like a knot you can't untie
 
 *Category: derived structure.*
@@ -28,6 +31,9 @@ a twist configuration that cannot be smoothly undone. That one idea explains, wi
 rules, why charge comes in whole units and why it is conserved no matter what: you cannot
 half-untie a knot, and no smooth motion removes a winding. The surprise was how much bookkeeping
 physics gets for free once conservation is geometry instead of decree.
+
+![Electricity in the rope model: current as transported linking](../figures/rope_electricity.png)
+*Electricity as transport of linking by axial screw-rotation, I = dL/dt. Backed by EM-008 (Derived) and EM-009 (Modeled). [Figure notes.](../figures/README.md)*
 
 ## 3. Gravity said no — and kept saying no
 
@@ -39,6 +45,9 @@ gravity from the medium failed, and the failures are registered in red next to t
 A framework that produces one classical field theory while refusing another is telling you
 something about its own limits — and we wrote it down. *(Gravity & Galaxies sector — Failed claims kept.)*
 
+![Gravity in the rope framework: mass conditions the network into an effective metric](../figures/rope_gravity.png)
+*The sequel to this story: after the failures shown above were kept in red, a fifteen-claim recovery DERIVED the weak-field result unconditionally (GRV-025/026/029) — gamma = 1, the 1.751″ deflection, and the full classical-test table. "Gravity said no," then the sector did the work to earn a yes in the weak field. Strong-field and quantum gravity remain out of scope, as the figure states. [Figure notes.](../figures/README.md)*
+
 ## 4. The model told us where its own world ends
 
 *Category: kept failure — a located boundary.*
@@ -49,6 +58,9 @@ surprise was not the failure; it was that the framework was clean enough to *loc
 boundary* rather than fudge past it. The quantum boundary sector now maps precisely which
 quantum phenomena the ropes can and cannot reach. *(Quantum Boundary sector — 27 claims,
 including the Bell failure, kept.)*
+
+![Light and optics in the rope model, with an explicit single-photon boundary](../figures/rope_optics.png)
+*Optics with its limit drawn in: classical wave optics fully reproduced (OPT-001..010, Derived), and single-photon self-interference marked in orange as NOT reproduced — the same boundary, drawn where light meets it. [Figure notes.](../figures/README.md)*
 
 ## 5. Galaxy rotation curves worked without dark matter
 
@@ -69,6 +81,9 @@ The model's one electromagnetic coupling was calibrated on a single number: the 
 *molecule* — a different physical system — to within 16%. Sixteen percent is not precision
 physics; it is, however, the right order, the right structure, and zero free parameters, which
 is exactly what a sketch of real physics looks like before it grows up. *(EM-RECON-010.)*
+
+![Chemistry in the rope model: bonds as rope-mediated interactions](../figures/rope_chemistry.png)
+*Covalent, ionic, hydrogen, and metallic bonds as tension/standing-wave patterns. **Status: modeled, not derived** (the sector is 13 Modeled / 2 Derived). [Figure notes.](../figures/README.md)*
 
 ## 7. The dead zero
 
@@ -133,6 +148,9 @@ benchmarks, rerun on every change.)*
 
 ---
 
+![Nuclear physics in the rope framework, every panel tagged by corpus status](../figures/rope_nuclear.png)
+*Nuclear physics as atomic mechanics scaled by 10^5 — and the clearest example of the project's status discipline applied to a figure: Established (binding-energy/Fe-56, NUC-001/005), Conjecture (strong force = bundle contact, NUC-002), and Open/unbuilt (quarks, the QCD string, decay mechanisms) are each drawn with honest tags rather than uniform confidence. An earlier draft over-claimed; it was corrected against the registry before inclusion. [Figure notes.](../figures/README.md)*
+
 **Honorable mentions, for connoisseurs:** our knot-identification instrument reproduced a
 theorem it was never taught (the Alexander polynomial's multiplicativity, appearing unprompted
 as the integer 27 = 3³); a miss kept honestly in the record acquired its full explanation
@@ -140,6 +158,13 @@ twenty claims later (2.3% instrument systematic + 4.1% genuine effect) — the k
 policy paying compound interest; and we measured that tight knots touch themselves essentially
 *everywhere* — a fact about our own objects we only discovered when an instrument twice
 reported impossible numbers and was twice repaired.
+
+
+
+---
+
+![The atom in the rope framework, with an explicit status declaration](../figures/rope_atom.png)
+*The atom figure is this document in one image: every element tagged Established (green), Hypothesis (orange), or Registered Input (blue). Charge-as-linking and 2n² shell capacities are Derived (FND-008, CHEM-STRUCT-001); the proton-tangle, the electron-mode, and the Pauli mechanism are labeled hypotheses; the electron's mass, spin, and g-factor are measured inputs (PM-005). [Figure notes.](../figures/README.md)*
 
 *None of this proves the rope hypothesis. All of it is rerunnable. That combination is the
 point.*

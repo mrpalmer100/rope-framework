@@ -7,7 +7,7 @@ maturity; mismatches are flagged below.*
 
 | Sector | Computed maturity | Stated readiness | Claims | Basis |
 |---|---|---|---:|---|
-| Microscopic Mechanics & Foundations | **Mature (conditional)** | Ready for expert review | 38 | 20/38 solid, 35/38 benchmarked |
+| Microscopic Mechanics & Foundations | **Developing** | Ready for expert review | 71 | 28/71 solid, 68/71 benchmarked |
 | Renormalization / EFT | **Mature** | Ready for expert review | 1 | 1/1 derived/EFT, 1/1 benchmark-backed |
 | Electromagnetism | **Developing** | Ready for expert review | 33 | 15/33 solid, 33/33 benchmarked |
 | Classical Optics | **Mature** | Ready for expert review | 10 | 10/10 derived/EFT, 10/10 benchmark-backed |
@@ -26,6 +26,7 @@ maturity; mismatches are flagged below.*
 
 These sectors state an external readiness that the computed maturity does not yet fully support. This is a prompt to either add benchmark backing or soften the readiness label — not a claim the physics is wrong.
 
+- **Microscopic Mechanics & Foundations**: stated *Ready for expert review*, but computed *Developing* (28/71 solid, 68/71 benchmarked). Add benchmark-backed claims or relabel.
 - **Electromagnetism**: stated *Ready for expert review*, but computed *Developing* (15/33 solid, 33/33 benchmarked). Add benchmark-backed claims or relabel.
 - **Chemistry (bonding, geometry, dynamics)**: stated *Ready for expert review (Schrodinger adopted; hbar-fence declared)*, but computed *Developing* (2/15 solid, 15/15 benchmarked). Add benchmark-backed claims or relabel.
 
