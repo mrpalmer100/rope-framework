@@ -12,12 +12,15 @@ screw-sense fixes circulation type and sign (not the dynamical drive). Voltage-a
 gradient and Ohm's-law framing are the sector's modeled interpretation.
 
 ## rope_magnetism.png — Magnetism as circulating phase
-Magnetic field as phase winding (loops per unit length) in the surrounding network; current as
-a traveling strand-imbalance. **Status: corpus-faithful.** Backed by **EM-012 (Derived)** and
-**EM-013 (Derived)** (magnetic force between currents and the Lorentz force, both reproduced),
-and **EM-RECON-001/002 (Modeled)** which reconcile the strand-imbalance and transported-linking
-pictures as *the same field at two levels* — the electricity and magnetism figures are those two
-levels, not a contradiction. Permanent-magnet domains are illustrative.
+Magnetic field as phase circulation (vorticity) in the surrounding network; current as the
+screw-transport of conserved linking along the two-strand helix; voltage as the tension gradient
+that drives the screw. **Status: corpus-faithful, and now grounded in the Derived layer.** This
+revision (v2) upgrades the current description from the earlier "traveling strand-imbalance"
+(reconciliation-layer, EM-RECON-001 Modeled) to "transported linking via screw rotation," landing
+directly on **EM-008 (Derived)** and **EM-014 (Derived)** — and it thereby MATCHES the electricity
+figure, so the two EM diagrams now tell one coherent story (the two levels reconciled in
+EM-RECON-001). Magnetic force and Lorentz force are EM-012/013 (Derived); the permanent-magnet
+inset is EM-RECON-002 (Modeled), illustrative.
 
 ## rope_chemistry.png — Bonds as rope-mediated interactions
 Covalent, ionic, hydrogen, and metallic bonds as tension/standing-wave patterns in the rope
@@ -72,6 +75,21 @@ proton magnetic moments are shown as EXPERIMENTAL reference values, explicitly "
 here." Scope cites PM-005 (Derived): ordinary matter, mass structure not absolute masses. Minor
 known cosmetic: the quark composition label reads "udd*" under both nucleons (proton is uud); the
 asterisk defers to the OPEN Panel 2, so it sits inside already-flagged-open territory.
+
+## rope_ladder.png — The Ladder and the Frontier (architecture map)
+The corpus's three-layer architecture in one figure: **Topological -> Geometric -> Dynamical**,
+with every sector's results placed by layer and colored by status. **Status: corpus-faithful
+architecture map, and the repository's hero image.** The load-bearing thesis it makes visible:
+the programme's derived results cluster in Layers I-II (topology and geometry), while the major
+failures and open problems -- Bell/CHSH, the Born rule, hbar, the measurement problem,
+configuration-space guidance, the absolute mass scale / electron mass, complete quantum dynamics,
+and strong-field/quantum-gravity closure -- ALL pile against one coherent line: the Layer II->III
+frontier. Audited against the registry: every placement checks out, including the split that a
+first draft got wrong -- **weak-field gravity (gamma=1, GRV-026/029, Derived) sits green in Layer
+II**, while **strong-field / quantum gravity closure sits on the frontier** (genuinely open).
+This figure is the visual statement of the candidate Layer Separation Theorem: the successes are
+not scattered, and the failures share a boundary. Generated-concept companion to
+tools/build_roadmap.py; a natural anchor for the whole corpus.
 
 ## Legacy
 - rope_em_diagram.png / _v2.png — earlier EM schematic.
