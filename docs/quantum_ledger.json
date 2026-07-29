@@ -1,0 +1,1003 @@
+{
+ "FND-013": {
+  "status": "Derived",
+  "markers": [
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "EM-RECON-002": {
+  "status": "Modeled",
+  "markers": [
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "EM-RECON-006": {
+  "status": "Derived",
+  "markers": [
+   "ryd"
+  ],
+  "cat": "CALIB",
+  "why": "13.6 eV enters the EM-reconstruction calibration",
+  "branch": "smooth-sector"
+ },
+ "EM-RECON-009": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "FENCE",
+  "why": "extensibility coefficient identified; quantum-scale residue",
+  "branch": ""
+ },
+ "EM-RECON-010": {
+  "status": "Modeled",
+  "markers": [
+   "ryd",
+   "q"
+  ],
+  "cat": "CALIB",
+  "why": "coupling calibrated on hydrogen 13.6 eV; H2 vibration then predicted to 16%",
+  "branch": "smooth-sector"
+ },
+ "EM-RECON-015": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "FENCE",
+  "why": "vacuum tension open, flagged",
+  "branch": ""
+ },
+ "EM-RECON-016": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "FENCE",
+  "why": "birefringence discriminator confronts quantum prediction",
+  "branch": ""
+ },
+ "QGATE-003": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "ryd"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "QGATE-004": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "QGATE-005": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "QGATE-006": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "QGATE-007": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "QGATE-008": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "QGATE-010": {
+  "status": "Modeled",
+  "markers": [
+   "e_mass",
+   "ryd",
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "QGATE-011": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "QGATE-012": {
+  "status": "Modeled",
+  "markers": [
+   "qphase"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "GRV-004": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "NUMER",
+  "why": "zero-point theorem's absolute scale",
+  "branch": "reconnection-attachable"
+ },
+ "GRV-005": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "zp"
+  ],
+  "cat": "NUMER",
+  "why": "mass-knot zero-point premise; absolute value action-normalized",
+  "branch": "reconnection-attachable"
+ },
+ "GRV-006": {
+  "status": "Derived",
+  "markers": [
+   "hbar",
+   "e_mass"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "GRV-007": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "zp",
+   "q"
+  ],
+  "cat": "NUMER",
+  "why": "Sakharov-type induced G: absolute strength needs the action normalization",
+  "branch": "reconnection-attachable"
+ },
+ "GRV-012": {
+  "status": "Open",
+  "markers": [
+   "hbar",
+   "q"
+  ],
+  "cat": "FENCE",
+  "why": "standing adverse verdict; quantum-completion among named outs",
+  "branch": ""
+ },
+ "GRV-014": {
+  "status": "Derived",
+  "markers": [
+   "hbar",
+   "q"
+  ],
+  "cat": "FENCE",
+  "why": "quantum-completion hypothesis, audited and admitted as conjecture",
+  "branch": ""
+ },
+ "GRV-017": {
+  "status": "Derived",
+  "markers": [
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "GRV-021": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "zp",
+   "q"
+  ],
+  "cat": "NUMER",
+  "why": "finite zero-point from measured band (self-regulated UV) but absolute coefficient tracks the action scale",
+  "branch": "reconnection-attachable"
+ },
+ "GRV-022": {
+  "status": "Derived",
+  "markers": [
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "GRV-025": {
+  "status": "Derived",
+  "markers": [
+   "zp",
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "GRV-028": {
+  "status": "Derived",
+  "markers": [
+   "zp"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "GRV-029": {
+  "status": "Derived",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "GRV-032": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "FORM",
+  "why": "Hawking/horizon chain: shape derived classically; hbar only converts units",
+  "branch": ""
+ },
+ "GRV-033": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "FORM",
+  "why": "Hawking/horizon chain: shape derived classically; hbar only converts units",
+  "branch": ""
+ },
+ "GRV-036": {
+  "status": "Derived",
+  "markers": [
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "Hawking/horizon chain: shape derived classically; hbar only converts units",
+  "branch": ""
+ },
+ "GRV-037": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "FORM",
+  "why": "Hawking/horizon chain: shape derived classically; hbar only converts units",
+  "branch": ""
+ },
+ "GRV-038": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "FORM",
+  "why": "Hawking/horizon chain: shape derived classically; hbar only converts units",
+  "branch": ""
+ },
+ "GRV-039": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "Hawking/horizon chain: shape derived classically; hbar only converts units",
+  "branch": ""
+ },
+ "GRV-040": {
+  "status": "Modeled",
+  "markers": [
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "Hawking/horizon chain: shape derived classically; hbar only converts units",
+  "branch": ""
+ },
+ "GRV-041": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "FORM",
+  "why": "Hawking/horizon chain: shape derived classically; hbar only converts units",
+  "branch": ""
+ },
+ "GRV-042": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "FORM",
+  "why": "Hawking/horizon chain: shape derived classically; hbar only converts units",
+  "branch": ""
+ },
+ "GRV-043": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "FORM",
+  "why": "Hawking/horizon chain: shape derived classically; hbar only converts units",
+  "branch": ""
+ },
+ "GRV-044": {
+  "status": "Derived",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "FORM",
+  "why": "Hawking/horizon chain: shape derived classically; hbar only converts units",
+  "branch": ""
+ },
+ "GRV-045": {
+  "status": "Derived",
+  "markers": [
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "Hawking/horizon chain: shape derived classically; hbar only converts units",
+  "branch": ""
+ },
+ "GRV-047": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "Hawking/horizon chain: shape derived classically; hbar only converts units",
+  "branch": ""
+ },
+ "PM-001": {
+  "status": "Conjecture",
+  "markers": [
+   "e_mass"
+  ],
+  "cat": "FENCE",
+  "why": "lepton conjecture awaiting quantum layer",
+  "branch": ""
+ },
+ "FND-REL-003": {
+  "status": "EFT-constrained",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "PM-003": {
+  "status": "Derived",
+  "markers": [
+   "e_mass",
+   "q"
+  ],
+  "cat": "FENCE",
+  "why": "mass-structure scope; absolute spectrum fenced",
+  "branch": ""
+ },
+ "PM-004": {
+  "status": "Failed",
+  "markers": [
+   "e_mass",
+   "tunnel"
+  ],
+  "cat": "FENCE",
+  "why": "lepton spectrum does NOT fall out without the quantum layer; Failed and kept",
+  "branch": ""
+ },
+ "PM-005": {
+  "status": "Derived",
+  "markers": [
+   "e_mass"
+  ],
+  "cat": "IMPORT",
+  "why": "electron mass registered as INPUT; scope statement says so explicitly",
+  "branch": "smooth-sector"
+ },
+ "FND-MATTER-001": {
+  "status": "Open",
+  "markers": [
+   "hbar",
+   "e_mass"
+  ],
+  "cat": "FENCE",
+  "why": "atomic size blocked pending wavelength/scale inputs",
+  "branch": ""
+ },
+ "FND-MATTER-002": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-MATTER-005": {
+  "status": "Derived",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "FENCE",
+  "why": "mesh scale a IRREDUCIBLE: the named fundamental input",
+  "branch": ""
+ },
+ "FND-MATTER-007": {
+  "status": "Modeled",
+  "markers": [
+   "e_mass",
+   "zp"
+  ],
+  "cat": "CLASS",
+  "why": "first spectrum; zero-point vocabulary later classicalized",
+  "branch": ""
+ },
+ "FND-MATTER-008": {
+  "status": "Modeled",
+  "markers": [
+   "e_mass",
+   "zp"
+  ],
+  "cat": "CLASS",
+  "why": "'zero-point mass term' = classical ground-state geometric cost (via 034)",
+  "branch": ""
+ },
+ "FND-MATTER-009": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "CLASS",
+  "why": "two-term model's zero-point = classical ledger constant",
+  "branch": ""
+ },
+ "FND-MATTER-010": {
+  "status": "Derived",
+  "markers": [
+   "zp",
+   "q"
+  ],
+  "cat": "CLASS",
+  "why": "crossing spectroscopy of the classical ledger",
+  "branch": ""
+ },
+ "FND-MATTER-011": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "CLASS",
+  "why": "bend spectroscopy, classical",
+  "branch": ""
+ },
+ "FND-MATTER-013": {
+  "status": "Derived",
+  "markers": [
+   "e_mass",
+   "zp"
+  ],
+  "cat": "CLASS",
+  "why": "bend law closed classically",
+  "branch": ""
+ },
+ "FND-MATTER-014": {
+  "status": "Derived",
+  "markers": [
+   "zp"
+  ],
+  "cat": "CLASS",
+  "why": "zero-point cost derived classically",
+  "branch": ""
+ },
+ "FND-MATTER-015": {
+  "status": "Derived",
+  "markers": [
+   "tunnel"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-MATTER-016": {
+  "status": "Derived",
+  "markers": [
+   "zp"
+  ],
+  "cat": "CLASS",
+  "why": "kc dissolved; constraint not spring",
+  "branch": ""
+ },
+ "FND-MATTER-018": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "CLASS",
+  "why": "calibrated mapping, classical",
+  "branch": ""
+ },
+ "FND-MATTER-019": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "CLASS",
+  "why": "certified spectrum under classical ledger",
+  "branch": ""
+ },
+ "FND-MATTER-025": {
+  "status": "Modeled",
+  "markers": [
+   "tunnel"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-MATTER-029": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "q"
+  ],
+  "cat": "CLASS",
+  "why": "lambda gate anatomy; superseded by 033/034 classicalization",
+  "branch": ""
+ },
+ "FND-MATTER-033": {
+  "status": "Derived",
+  "markers": [
+   "hbar",
+   "q"
+  ],
+  "cat": "CLASS",
+  "why": "the kill itself: quantum reading of lambda forces a~200fm vs 0.1fm bound; eliminated",
+  "branch": ""
+ },
+ "FND-MATTER-034": {
+  "status": "Derived",
+  "markers": [
+   "hbar",
+   "q"
+  ],
+  "cat": "CLASS",
+  "why": "the surviving classical-amplitude reading; hbar exits the ledger",
+  "branch": ""
+ },
+ "FND-MATTER-038": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "CLASS",
+  "why": "Lambda computed by percolation; no quantum input remains",
+  "branch": ""
+ },
+ "QB-003": {
+  "status": "Failed",
+  "markers": [
+   "q"
+  ],
+  "cat": "FENCE",
+  "why": "counting form cannot reproduce entanglement; Failed and kept",
+  "branch": ""
+ },
+ "QB-005": {
+  "status": "Modeled",
+  "markers": [
+   "born",
+   "q"
+  ],
+  "cat": "FENCE",
+  "why": "Born |c|^2 partial (symmetric case); timing-universality open",
+  "branch": ""
+ },
+ "QB-007": {
+  "status": "Modeled",
+  "markers": [
+   "born",
+   "q"
+  ],
+  "cat": "FENCE",
+  "why": "measurement decomposition; conditional",
+  "branch": ""
+ },
+ "QB-008": {
+  "status": "EFT-constrained",
+  "markers": [
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "QB-009": {
+  "status": "Modeled",
+  "markers": [
+   "qphase",
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "QB-010": {
+  "status": "Modeled",
+  "markers": [
+   "qphase",
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "boundary characterization: quantum-shaped bound derived classically",
+  "branch": ""
+ },
+ "QB-012": {
+  "status": "Derived",
+  "markers": [
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "boundary characterization: quantum-shaped bound derived classically",
+  "branch": ""
+ },
+ "QB-013": {
+  "status": "Derived",
+  "markers": [
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "boundary characterization: quantum-shaped bound derived classically",
+  "branch": ""
+ },
+ "QB-014": {
+  "status": "Derived",
+  "markers": [
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "boundary characterization: quantum-shaped bound derived classically",
+  "branch": ""
+ },
+ "QB-023": {
+  "status": "Modeled",
+  "markers": [
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "boundary characterization: quantum-shaped bound derived classically",
+  "branch": ""
+ },
+ "QB-024": {
+  "status": "Derived",
+  "markers": [
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "boundary characterization: quantum-shaped bound derived classically",
+  "branch": ""
+ },
+ "QB-026": {
+  "status": "Modeled",
+  "markers": [
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "boundary characterization: quantum-shaped bound derived classically",
+  "branch": ""
+ },
+ "QB-027": {
+  "status": "Modeled",
+  "markers": [
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "boundary characterization: quantum-shaped bound derived classically",
+  "branch": ""
+ },
+ "QB-015": {
+  "status": "Derived",
+  "markers": [
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "boundary characterization: quantum-shaped bound derived classically",
+  "branch": ""
+ },
+ "QB-016": {
+  "status": "Derived",
+  "markers": [
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "boundary characterization: quantum-shaped bound derived classically",
+  "branch": ""
+ },
+ "QB-017": {
+  "status": "Derived",
+  "markers": [
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "boundary characterization: quantum-shaped bound derived classically",
+  "branch": ""
+ },
+ "QB-018": {
+  "status": "Derived",
+  "markers": [
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "boundary characterization: quantum-shaped bound derived classically",
+  "branch": ""
+ },
+ "QB-019": {
+  "status": "Derived",
+  "markers": [
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "boundary characterization: quantum-shaped bound derived classically",
+  "branch": ""
+ },
+ "QB-020": {
+  "status": "Derived",
+  "markers": [
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "boundary characterization: quantum-shaped bound derived classically",
+  "branch": ""
+ },
+ "QB-022": {
+  "status": "Modeled",
+  "markers": [
+   "q"
+  ],
+  "cat": "FORM",
+  "why": "boundary characterization: quantum-shaped bound derived classically",
+  "branch": ""
+ },
+ "FND-STRAND-007": {
+  "status": "Modeled",
+  "markers": [
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-STRAND-008": {
+  "status": "Modeled",
+  "markers": [
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "NUC-007": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "NUC-008": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "zp",
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "NUC-009": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-BOUND-001": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "zp",
+   "q"
+  ],
+  "cat": "FENCE",
+  "why": "the one fence: registry-consistency boundary statement",
+  "branch": ""
+ },
+ "QB-006": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "qphase",
+   "born",
+   "q"
+  ],
+  "cat": "FENCE",
+  "why": "QB reframing; the boundary named",
+  "branch": ""
+ },
+ "CHEM-STRUCT-001": {
+  "status": "Derived",
+  "markers": [
+   "hbar",
+   "qphase",
+   "ryd",
+   "q"
+  ],
+  "cat": "IMPORT",
+  "why": "2n^2 = n^2 modes x TWO SPIN STATES: spin degeneracy imported alongside the 13.6 calibration",
+  "branch": "smooth-sector"
+ },
+ "CHEM-GEO-002": {
+  "status": "Derived",
+  "markers": [
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "CHEM-MET-001": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "zp",
+   "q"
+  ],
+  "cat": "FENCE",
+  "why": "metallic bonding absent pending delocalized/quantum layer",
+  "branch": ""
+ },
+ "CHEM-DYN-002": {
+  "status": "Modeled",
+  "markers": [
+   "zp",
+   "tunnel",
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "CHEM-DYN-003": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "tunnel"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "CHEM-DYN-004": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "tunnel"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "CHEM-DYN-005": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "CHEM-HB-004": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "CHEM-HB-005": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "ryd"
+  ],
+  "cat": "CALIB",
+  "why": "chemistry inherits the 13.6-calibrated coupling",
+  "branch": "smooth-sector"
+ },
+ "CHEM-HB-006": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "ryd"
+  ],
+  "cat": "CALIB",
+  "why": "same inherited calibration",
+  "branch": "smooth-sector"
+ },
+ "NUC-001": {
+  "status": "Derived",
+  "markers": [
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "NUC-005": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "e_mass",
+   "zp",
+   "ryd",
+   "q"
+  ],
+  "cat": "CALIB",
+  "why": "one calibrated nuclear constant; quantum kinetic residue acknowledged",
+  "branch": "reconnection-attachable"
+ },
+ "NUC-006": {
+  "status": "Modeled",
+  "markers": [
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ }
+}

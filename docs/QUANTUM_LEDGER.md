@@ -1,0 +1,50 @@
+# The Quantum-Input Ledger (QGATE-002)
+
+*The Part-1 audit of the QGATE campaign: every claim touching a quantum marker (hbar, electron
+mass, zero-point, tunneling, quantum phase, Born, 13.6 eV) classified into six dependence
+categories plus incidental mention. Full machine-readable ledger: docs/quantum_ledger.json;
+regenerate with tools/quantum_audit.py. Classification is rule-based with a curated, justified
+override table -- auditable line by line, with the classifier's freedom acknowledged.*
+
+## The headline
+
+**92 claims touch quantum vocabulary; only 11 genuinely depend on a quantum input; and those 11
+bottleneck through FOUR underlying inputs:**
+
+1. **The electron mass** (PM-005 -- registered input, said so from the start)
+2. **Spin degeneracy** (CHEM-STRUCT-001's factor of two in the 2n² shells)
+3. **The 13.6 eV coupling calibration** (EM-RECON-006/010 → inherited by chemistry)
+4. **The induced-gravity action normalization** (the GRV Sakharov chain: GRV-004/005/007/021)
+
+Everything else that says "quantum" is: a **fence** (16 claims that stop at the boundary and say
+so), **classicalized** (14 claims -- the lambda saga's category: an hbar reading eliminated, a
+geometric version surviving), **form-only** (24 -- including the QB rungs, which derive
+quantum-SHAPED bounds classically, and the Hawking chain, where hbar only converts units), or
+**incidental** (27).
+
+## The split frontier, confirmed at ledger level
+
+The campaign commission predicted a split frontier. The ledger delivers it as a measured fact:
+
+- **The action-normalization branch**: all four genuine inputs are energy-scale-flavored -- each
+  hides an hbar-bearing combination (m_e; spin's hbar/2; the Rydberg's m e⁴/2ħ²; Sakharov's ħ).
+  Per QGATE-001, a native amplitude-independent action exists only at reconnection events, so
+  this entire branch is *reconnection-attachable in principle* -- one normalization could serve
+  all four if the collective-reconnection barrier calculation closes the magnitude gap.
+- **The nonlocal branch**: Born timing-universality (QB-005), entanglement (QB-003, Failed),
+  and measurement (QB-007) appear ONLY as fences and carry **zero scale inputs** -- what is
+  missing there is not a number but a structure (configuration-space dynamics). Deriving hbar
+  would not touch this branch.
+
+**The two frontiers are related but not identical, and they are made of different things: the
+first is missing one number; the second is missing a kind of dynamics.** That distinction is the
+audit's principal output.
+
+## Honest limits
+
+The default rules bucket some ambiguous cases as incidental (e.g. the CHEM-DYN tunneling
+analogies, FND-REL-003's hbar in EFT bounds) that a deeper per-claim reading might promote to
+form-only; the category boundaries have genuine freedom, stated here. What is robust: the order
+of magnitude (a handful of true inputs, not dozens), the classicalized population's existence
+(the lambda saga is now a measured category, 14 members), and the zero-scale-input character of
+the nonlocal fences.

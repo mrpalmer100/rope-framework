@@ -8,6 +8,12 @@ claims you can rerun yourself (see the [Roadmap](ROADMAP.md)).*
 
 ---
 
+![The Ladder and the Frontier: the corpus's three-layer architecture](../figures/rope_ladder.png)
+
+*Before the stories, the map. The whole programme in one figure: derived results (green) cluster in the Topological and Geometric layers; the failures and open problems — Bell, the Born rule, ħ, the measurement problem, absolute mass, quantum-gravity closure — pile against a single coherent line, the jump from geometry to full dynamics. The successes are not scattered, and the failures share a boundary. That structure, not any single result, is the corpus's most distinctive claim. [Figure notes.](../figures/README.md)*
+
+---
+
 ## 1. Maxwell came out for free
 
 *Category: derived emergence.*
@@ -20,7 +26,7 @@ first surprise is finding something in the box you didn't pack. *(Electromagneti
 claims, 15 Derived.)*
 
 ![Magnetism in the rope model: field as circulating phase in the surrounding network](../figures/rope_magnetism.png)
-*Magnetism as phase circulation; current as a traveling strand-imbalance. Backed by EM-012/013 (Derived) and EM-RECON-001 (Modeled). [Figure notes.](../figures/README.md)*
+*Magnetism as phase circulation; current as screw-transported linking (matching the electricity figure). Backed by EM-008/014 (Derived, current) and EM-012/013 (Derived, forces); the two EM figures are the two levels reconciled in EM-RECON-001. [Figure notes.](../figures/README.md)*
 
 ## 2. Electric charge behaves like a knot you can't untie
 

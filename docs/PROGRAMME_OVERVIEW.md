@@ -15,9 +15,9 @@ The programme's discipline is its defining feature: **derived results, empirical
 ## Corpus at a glance (generated)
 
 - **Bundled papers:** 60
-- **Reproducible benchmarks:** 192
-- **Registered claims:** 233 (219 code-backed and machine-verified)
-- **Claim status distribution:** Derived 102, EFT-constrained 4, Modeled 112, Conjecture 3, Failed 7, Open 5
+- **Reproducible benchmarks:** 210
+- **Registered claims:** 251 (237 code-backed and machine-verified)
+- **Claim status distribution:** Derived 102, EFT-constrained 4, Modeled 130, Conjecture 3, Failed 7, Open 5
 
 Verify it yourself in one command: `make verify` (runs every benchmark the registry references) or `python tools/verify_corpus.py`.
 
@@ -43,20 +43,20 @@ Maturity is **computed** from each sector's claim statuses and benchmark coverag
 
 | Sector | Computed maturity | Claims | Derived | Benchmarked |
 |---|---|---:|---:|---:|
-| Microscopic Mechanics & Foundations | Developing | 71 | 28 | 68 |
-| Renormalization / EFT | Mature | 1 | 1 | 1 |
-| Electromagnetism | Developing | 33 | 15 | 33 |
-| Classical Optics | Mature | 10 | 10 | 10 |
-| Thermodynamics | Mature | 5 | 4 | 4 |
-| Condensed-Matter Analogues | Developing | 1 | 0 | 0 |
-| Gravity (weak field) | Developing | 48 | 22 | 48 |
-| Solitons & Knot Spectrum | Mature | 1 | 1 | 1 |
-| Electroweak (Weinberg angle) | Exploratory | 1 | 0 | 0 |
-| Particle Masses | Developing | 5 | 2 | 3 |
-| Gauge Geometry (unification) | Mature | 6 | 5 | 4 |
-| Quantum Boundary (Bell) | Mature (conditional) | 27 | 15 | 25 |
-| Chemistry (bonding, geometry, dynamics) | Developing | 15 | 2 | 15 |
-| Nuclear Structure | Developing | 9 | 1 | 7 |
+| Microscopic Mechanics & Foundations | ? | 71 | 28 | 68 |
+| Renormalization / EFT | ? | 1 | 1 | 1 |
+| Electromagnetism | ? | 33 | 15 | 33 |
+| Classical Optics | ? | 10 | 10 | 10 |
+| Thermodynamics | ? | 6 | 4 | 5 |
+| Condensed-Matter Analogues | ? | 1 | 0 | 0 |
+| Gravity (weak field) | ? | 48 | 22 | 48 |
+| Solitons & Knot Spectrum | ? | 1 | 1 | 1 |
+| Electroweak (Weinberg angle) | ? | 1 | 0 | 0 |
+| Particle Masses | ? | 5 | 2 | 3 |
+| Gauge Geometry (unification) | ? | 6 | 5 | 4 |
+| Quantum Boundary (Bell) | ? | 27 | 15 | 25 |
+| Chemistry (bonding, geometry, dynamics) | ? | 15 | 2 | 15 |
+| Nuclear Structure | ? | 9 | 1 | 7 |
 
 ## Suggested reading order
 
