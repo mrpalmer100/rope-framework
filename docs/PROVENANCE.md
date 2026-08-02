@@ -1,0 +1,32 @@
+# Document provenance
+Which documents are GENERATED (rebuild them; never hand-edit) and which are
+hand-written snapshots that go stale silently.
+
+## Generated from the registry — rebuild after any claim change
+- `PROGRAMME_OVERVIEW.md` — `tools/build_overview.py`
+- `ROADMAP.md`, `roadmap.html`, `roadmap.png` — `tools/build_roadmap.py`
+- `api/` — `docs/generate_api_docs.py`
+- `dependency_graph.dot` / `.txt` — `tools/build_depgraph.py`
+
+## Hand-written, current
+- `STATE_OF_THE_PROGRAMME.md` — the front door for outside readers (1 Aug 2026)
+- `HBAR_SECTOR_CLOSURE.md` — the retirement record (1 Aug 2026)
+- `STANDING_RULE_SOURCE_BEFORE_INSTRUMENT.md` — the lesson from two closed branches
+
+## Frozen by design — historical, do not update
+- `RELEASE_NOTES_v*.md` — snapshots at their cut; their claim counts are correct FOR THAT RELEASE
+- `_archive_STATE_2026-07-17.md` — the superseded state document
+- `_superseded/` — renders that no longer match their source
+
+## Standalone renders (docx/pdf) — check the date before circulating
+- `rope_programme_overview.docx` — generated from PROGRAMME_OVERVIEW.md; rendered 2026-08-01
+- `rope_programme_overview.pdf` — generated from PROGRAMME_OVERVIEW.md; rendered 2026-08-01
+- `rope_claim_status_registry.docx` — generated from claims.yaml; rendered 2026-08-01
+- `rope_claim_status_registry.pdf` — generated from claims.yaml; rendered 2026-08-01
+- `comparative_audit_of_theory_programmes.docx` — standalone essay; rendered 2026-08-01
+- `comparative_audit_of_theory_programmes.pdf` — standalone essay; rendered 2026-08-01
+- `lessons_from_the_gravity_campaign.docx` — standalone essay; rendered 2026-08-01
+- `lessons_from_the_gravity_campaign.pdf` — standalone essay; rendered 2026-08-01
+
+RULE: if a render no longer matches its source, regenerate it or move it to
+`_superseded/`. Never leave it beside the source.
