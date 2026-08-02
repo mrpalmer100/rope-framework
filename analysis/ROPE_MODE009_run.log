@@ -1,0 +1,15 @@
+ROPE-MODE-009 full-potential matched controls
+pairs=5 grid=31^3 h=0.25
+median full-field relative L2=0.008486
+worst full-field relative L2=0.010848
+median low-energy operator mismatch=0.004082
+worst low-energy operator mismatch=0.004217
+minimum field correlation=0.999941
+median descriptor RMS=0.079593
+B1_topology_controls: PASS
+B2_full_field_match_median: PASS
+B3_full_field_match_worst: PASS
+B4_low_energy_operator_match: PASS
+B5_field_correlation: PASS
+B6_descriptor_pair_match: PASS
+FINDING: FULL_POTENTIAL_MATCHED_CONTROLS_READY

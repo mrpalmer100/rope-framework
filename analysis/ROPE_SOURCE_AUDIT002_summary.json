@@ -1,0 +1,24 @@
+{
+  "benchmark": "benchmarks/foundations/rope_source_audit_circulation.py",
+  "question": "Can an undriven closed rope generate a stable non-integer observable holonomy?",
+  "finding": "NO_UNDRIVEN_NONTRIVIAL_PERSISTENT_HOLONOMY",
+  "structural_obstruction": "INTEGER_WINDING_HOLONOMY_SPECTRALLY_TRIVIAL",
+  "bars": {
+    "no_external_drive": false,
+    "dynamical_selection": false,
+    "stable_or_metastable_circulation": false,
+    "derived_source_map": false,
+    "noninteger_holonomy": false,
+    "magnitude_gate": false,
+    "parameter_determination": false
+  },
+  "decision": "Close the physical AB branch as unsupported under the current framework.",
+  "instrument_status": "Validated gauge instrument with no nontrivial internally sourced target.",
+  "bars_locked_count": 7,
+  "obstruction_provenance": {
+    "integer_winding_spectrally_trivial": "DERIVED (FND-013 gives 2 pi N; the validated instrument is 2 pi periodic)",
+    "gapless_twist_no_pinning": "DERIVED (twist energy depends on (du/ds)^2, stiffening without gapping; no mass term pins a circulating phase)",
+    "no_rate_protecting_invariant": "ABSENCE (no such invariant is currently registered; this is the soft joint for any reopening)",
+    "no_metastable_circulating_minimum": "ABSENCE (none identified in the current action/energy corpus)"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "n_families": 5,
+  "grid_boxes": [
+    4.0,
+    5.0
+  ],
+  "h": 0.25,
+  "median_pair_field_mismatch": 0.011427796777780426,
+  "max_pair_field_mismatch": 0.02822173942693486,
+  "median_pair_geometry_rms": 0.0039049444370980037,
+  "max_outer_probability": 7.98746437212971e-07,
+  "max_domain_contrast_drift": 2.991804226581962e-08,
+  "median_abs_topology_residual": 0.0002700926934977588,
+  "median_topology_to_sham_ratio": 0.06991269761153737,
+  "consistent_modes": [
+    true,
+    false,
+    true
+  ],
+  "bars": {
+    "B1_reference_and_triplets_certified": true,
+    "B2_sham_unlink_field_matched": false,
+    "B3_boundary_leakage": true,
+    "B4_domain_stable_contrasts": true,
+    "B5_topology_residual_significant": true,
+    "B6_topology_residual_consistent": true,
+    "B7_topology_exceeds_sham_disturbance": false
+  },
+  "finding": "MATCHED_SHAM_DOES_NOT_ISOLATE_TOPOLOGY"
+}

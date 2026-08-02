@@ -1,0 +1,25 @@
+{
+  "n_pairs": 6,
+  "grid_n": 31,
+  "h": 0.25,
+  "median_field_rel_l2": 0.017544238423060705,
+  "max_field_rel_l2": 0.03602431339905252,
+  "median_abs_residual_alignment": 0.2452428954935368,
+  "max_abs_residual_alignment": 0.5404388566804585,
+  "residual_pca1": 0.3039608056648547,
+  "median_surgery_scar": 0.9952354607793008,
+  "max_surgery_scar": 0.9999999148882468,
+  "median_sham_disturbance_ratio": 0.9872404020235921,
+  "max_sham_ratio_error": 0.5389933035309942,
+  "median_descriptor_rms": 0.07458503258611385,
+  "bars": {
+    "B1_no_readout_leakage": true,
+    "B2_topology_triplets": true,
+    "B3_full_field_controls": true,
+    "B4_residual_alignment": false,
+    "B5_residual_pca": true,
+    "B6_no_common_surgery_scar": false,
+    "B7_sham_disturbance_balance": false
+  },
+  "finding": "DISTRIBUTED_CONTROLS_NOT_YET_QUALIFIED"
+}

@@ -1,0 +1,19 @@
+ROPE-VALIDATION-004 curved closed excluded-core 3-D Aharonov--Bohm instrument test
+3-D curved closed excluded-core AB solver validation only; holonomy is imposed externally and not derived from rope dynamics
+levels=(23, 27, 31) core radii=(0.48, 0.64) alphas=(0.0, 0.25, 0.5, 1.0) eigs=5
+loop radius=1.15 shell radius=0.72
+max Hermiticity error=0
+max arbitrary-gauge spectrum error=2.73559e-13
+max distributed-vs-cut spectrum error=3.97904e-13
+max flux-reversal error=2.23821e-13
+r_core=0.480 half-flux response=0.102816 period closure=3.03757e-13 max gap drift=0.391248
+r_core=0.640 half-flux response=0.0224084 period closure=3.12639e-13 max gap drift=1.69204
+B1_hermitian: PASS
+B2_arbitrary_gauge_invariance: PASS
+B3_distributed_cut_equivalence: PASS
+B4_unit_flux_periodicity: PASS
+B5_flux_reversal_symmetry: PASS
+B6_nontrivial_half_flux_response: FAIL
+B7_grid_convergence: FAIL
+FINDING: AB_3D_CURVED_EXCLUDED_CORE_VALIDATION_INCOMPLETE
+NOTE: The circular core is excluded from the wavefunction domain. The multivalued meridional phase defines a flat lattice connection on the accessible complement, with externally imposed holonomy around the closed curved core.

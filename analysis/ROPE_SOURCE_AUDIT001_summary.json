@@ -1,0 +1,14 @@
+{
+  "benchmark": "ROPE-SOURCE-AUDIT-001",
+  "question": "Can the current corpus source a nontrivial AB holonomy without imposing flux or coupling?",
+  "finding": "NO_NONTRIVIAL_HOLONOMY_SOURCE_IN_CURRENT_CORPUS",
+  "key_points": [
+    "Gauge connection exists mathematically but physical rope identification remains Modeled.",
+    "FND-013 gives integer 2pi circulation, not calibrated physical magnetic flux.",
+    "The direct unit-winding identification is AB-periodic and spectrally trivial.",
+    "Current/screw mechanisms require prescribed transport and do not select persistent circulation.",
+    "EM-010 takes source current J as input.",
+    "q Phi / hbar cannot be calculated from a closed derived chain in the current corpus."
+  ],
+  "decision": "Pause curved-core mesh work and register holonomy sourcing as an Open dependency."
+}

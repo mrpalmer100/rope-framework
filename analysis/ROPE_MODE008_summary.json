@@ -1,0 +1,28 @@
+{
+  "n_pairs": 15,
+  "n_families": 5,
+  "grid_n": 31,
+  "h": 0.25,
+  "balanced_accuracy": 0.5,
+  "roc_auc": 0.6266666666666667,
+  "fold_scores": [
+    0.3333333333333333,
+    0.3333333333333333,
+    0.6666666666666666,
+    0.6666666666666666,
+    0.5
+  ],
+  "permutation_p": 0.5695364238410596,
+  "max_descriptor_smd": 1.6534515695545084,
+  "median_match_score": 0.07170790590979635,
+  "max_reduced_exact_gap_error": 0.0003917041461676263,
+  "bars": {
+    "B1_topology_controls": true,
+    "B2_geometric_matching": false,
+    "B3_reduced_solver_validation": true,
+    "B4_blind_accuracy": false,
+    "B5_permutation_significance": false,
+    "B6_heldout_family_robustness": false
+  },
+  "finding": "NO_BLIND_TOPOLOGY_SIGNAL"
+}

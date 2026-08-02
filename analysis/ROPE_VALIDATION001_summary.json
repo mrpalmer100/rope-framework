@@ -1,0 +1,32 @@
+{
+  "scope": "solver validation only; imposed flux is not derived from rope dynamics",
+  "levels": [
+    48,
+    96,
+    192,
+    384
+  ],
+  "n_flux_samples": 17,
+  "n_eigenvalues": 12,
+  "max_hermiticity_error": 0.0,
+  "max_exact_lattice_error": 1.1719535064624864e-11,
+  "max_gauge_spectrum_error": 1.690492190675741e-11,
+  "max_twisted_boundary_error": 1.8297082599039172e-11,
+  "max_flux_periodicity_error": 1.7102375071686993e-11,
+  "max_flux_reversal_error": 0.0,
+  "finest_max_continuum_error_first8": 0.005710761127961206,
+  "ground_state_half_flux_response": 0.24999860557432768,
+  "ground_state_period_closure_error": 3.148925564744391e-12,
+  "bars": {
+    "B1_hermitian": true,
+    "B2_exact_lattice_solution": true,
+    "B3_gauge_invariance": true,
+    "B4_twisted_boundary_equivalence": true,
+    "B5_flux_periodicity": true,
+    "B6_flux_reversal_symmetry": true,
+    "B7_continuum_convergence": true,
+    "B8_nontrivial_holonomy_response": true
+  },
+  "finding": "AB_HOLONOMY_INSTRUMENT_VALIDATED",
+  "technical_note": "This exact ring benchmark has no regularized Biot-Savart core a. A future 3-D flux-tube benchmark must sweep a and h jointly."
+}

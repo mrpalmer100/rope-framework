@@ -1,0 +1,20 @@
+# ROPE-MODE-010 — Full-field-only controls and matched shams
+
+ROPE-MODE-010 full-field-only controls and sham qualification  
+pairs=5 grid=31^3 h=0.25  
+median/worst full-field mismatch=0.008483/0.013564  
+median/max |residual alignment|=0.585538/0.757421  
+residual PC1 variance=0.640606  
+median/max surgery-scar fraction=0.999980/1.000000  
+median sham/unlink disturbance ratio=0.941493  
+max sham balance error=0.108295  
+B1_no_readout_leakage: PASS  
+B2_topology_triplets: PASS  
+B3_full_field_controls: PASS  
+B4_residual_alignment: FAIL  
+B5_residual_pca: FAIL  
+B6_no_common_surgery_scar: FAIL  
+B7_sham_disturbance_balance: PASS  
+FINDING: CONTROL_QUALIFICATION_NOT_YET_PASSED
+
+No spectral or eigenbasis quantity was used in control construction. The blinded classifier was not run.

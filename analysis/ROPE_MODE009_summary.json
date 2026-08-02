@@ -1,0 +1,21 @@
+{
+  "n_pairs": 5,
+  "grid_n": 31,
+  "h": 0.25,
+  "sigma": 0.16,
+  "median_field_rel_l2": 0.008485730752564289,
+  "max_field_rel_l2": 0.01084767520149709,
+  "median_operator_rel": 0.004082241794550818,
+  "max_operator_rel": 0.004217466418909289,
+  "min_field_corr": 0.9999411671591825,
+  "median_descriptor_rms": 0.07959271576330967,
+  "bars": {
+    "B1_topology_controls": true,
+    "B2_full_field_match_median": true,
+    "B3_full_field_match_worst": true,
+    "B4_low_energy_operator_match": true,
+    "B5_field_correlation": true,
+    "B6_descriptor_pair_match": true
+  },
+  "finding": "FULL_POTENTIAL_MATCHED_CONTROLS_READY"
+}

@@ -1,0 +1,85 @@
+{
+  "scope": "3-D imposed-flux solver validation only; flux is external and not derived from rope dynamics",
+  "box": 3.0,
+  "levels": [
+    17,
+    23,
+    29
+  ],
+  "a_over_h": [
+    1.5,
+    2.5,
+    3.5
+  ],
+  "alphas": [
+    0.0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "n_eig": 5,
+  "max_hermiticity_error": 0.0,
+  "max_gauge_spectrum_error": 8.171241461241152e-13,
+  "diagnostics": [
+    {
+      "a_over_h": 1.5,
+      "half_flux_response_finest": 0.11849991655286907,
+      "period_closure_finest": 2.28332514612471,
+      "max_gap_drift": 0.10992854052339851,
+      "responses": [
+        0.09599645471769058,
+        0.11060509287146125,
+        0.11849991655286907
+      ],
+      "closures": [
+        1.996966378976273,
+        2.187684098030031,
+        2.28332514612471
+      ]
+    },
+    {
+      "a_over_h": 2.5,
+      "half_flux_response_finest": 0.09909287769114705,
+      "period_closure_finest": 2.1373049266710833,
+      "max_gap_drift": 0.2016568362128197,
+      "responses": [
+        0.0641642019344495,
+        0.08536243748291739,
+        0.09909287769114705
+      ],
+      "closures": [
+        1.7304675194942654,
+        1.990121906944342,
+        2.1373049266710833
+      ]
+    },
+    {
+      "a_over_h": 3.5,
+      "half_flux_response_finest": 0.07872037578130531,
+      "period_closure_finest": 1.965580735981657,
+      "max_gap_drift": 0.25012920737904665,
+      "responses": [
+        0.040503206965432526,
+        0.06210609912017517,
+        0.07872037578130531
+      ],
+      "closures": [
+        1.4818238112685354,
+        1.7774819901001635,
+        1.965580735981657
+      ]
+    }
+  ],
+  "fixed_physical_core_target": 0.45,
+  "fixed_core_gap_drift": 0.11590537155677083,
+  "bars": {
+    "B1_hermitian": true,
+    "B2_lattice_gauge_invariance": true,
+    "B3_nontrivial_flux_response": true,
+    "B4_joint_h_a_convergence": false,
+    "B5_fixed_core_crosscheck": false,
+    "B6_thin_core_periodicity_trend": false
+  },
+  "finding": "AB_3D_FLUX_TUBE_VALIDATION_INCOMPLETE",
+  "technical_note": "Finite regularized cores contain real magnetic field and need not have exact unit-flux periodicity. The validation target is gauge invariance, joint h/a stability, nonzero holonomy response, and convergence toward periodic behavior as the resolved core narrows."
+}

@@ -1,0 +1,22 @@
+{
+  "grid_n": 31,
+  "h": 0.25,
+  "n_families": 5,
+  "max_near_transition_field_rel": 0.009588465343695063,
+  "max_jump": 6.113045521694005e-05,
+  "median_jump": 3.223178283384698e-05,
+  "max_excess_ratio": 2.3726097680759852,
+  "robust_modes": [
+    false,
+    false,
+    false
+  ],
+  "bars": {
+    "B1_reference_and_paths_certified": true,
+    "B2_both_topology_sectors_sampled": true,
+    "B3_field_path_continuous_near_transition": true,
+    "B4_spectral_discontinuity_detected": false,
+    "B5_discontinuity_robust_across_families": false
+  },
+  "finding": "SPECTRUM_CONTINUOUS_THROUGH_TOPOLOGY_TRANSITION"
+}

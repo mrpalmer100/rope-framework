@@ -1,0 +1,20 @@
+# ROPE-MODE-011 — Distributed residual-decorrelated controls
+
+ROPE-MODE-011 distributed residual-decorrelated control qualification  
+pairs=6 grid=31^3 h=0.25  
+median/worst full-field mismatch=0.017544/0.036024  
+median/max |residual alignment|=0.245243/0.540439  
+residual PC1 variance=0.303961  
+median/max surgery-scar fraction=0.995235/1.000000  
+median sham/unlink disturbance ratio=0.987240  
+max sham balance error=0.538993  
+B1_no_readout_leakage: PASS  
+B2_topology_triplets: PASS  
+B3_full_field_controls: PASS  
+B4_residual_alignment: FAIL  
+B5_residual_pca: PASS  
+B6_no_common_surgery_scar: FAIL  
+B7_sham_disturbance_balance: FAIL  
+FINDING: DISTRIBUTED_CONTROLS_NOT_YET_QUALIFIED
+
+No spectral or eigenbasis quantity was used. The classifier was not run.
