@@ -1,0 +1,2 @@
+old_nctrl,new_nctrl,energy_before,energy_after,relative_energy_jump,smoothing_lambda,rms_geometry_error,hausdorff_error,dmin,Lk512,certified
+16,20,16.158829090744902,16.24533568712854,0.0053535188656204475,0.025,0.05210104434604264,0.05308551422732444,0.06195564444022308,-1.0022357152935368,1
