@@ -1,0 +1,15 @@
+ROPE-MODE-006 local topology-surgery fingerprint
+linked certified=True dmin=0.06195531 Lk=-1.00225398
+surgery amplitude=0.123000 Lk=-5.3417218e-06 dmin=0.06084545
+geometry rms=0.030040493 length_rel=0.001152127 radial_moment_rel=0.00065223085 quadrupole_rel=0.0038789075
+alpha=12.0 eps=0.3 beta=0.5 sigma=0.16 boxes=(4.0, 5.0) h=0.25
+max outer probability=4.5203347e-05
+worst relative gap drift=9.6286978e-05
+3sigma contrast modes=[1, 2, 3]
+B1 topology controls certified: PASS
+B2 geometry matched: PASS
+B3 boundary leakage: PASS
+B4 domain-converged gaps: PASS
+B5 topology contrast significant: PASS
+B6 contrast stable: PASS
+FINDING: MINIMALLY_MATCHED_TOPOLOGY_FINGERPRINT_DETECTED

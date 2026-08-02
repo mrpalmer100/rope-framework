@@ -1,0 +1,14 @@
+ROPE-MODE-001 standing-wave spectrum
+certified=True dmin=0.06195531 Lk512=-1.00225398
+max 256->512 frequency change=0.000775147
+strand 0 normalized pairs: 1.000000, 2.000049, 3.000194, 4.000486, 5.000972
+strand 1 normalized pairs: 1.000000, 2.000059, 3.000236, 4.000589, 5.001179
+harmonic fit R2=0.99999997, RMSE=0.000228875
+best atomic-shell template=1-1/n^2, R2=0.45724718, RMSE=0.823954, shell advantage=-3599.02
+observed scalar degeneracy per harmonic=4; atomic shell capacities=[2, 8, 18, 32, 50]
+B1 certified linked reference: PASS
+B2 mesh-converged frequencies: PASS
+B3 ordinary harmonic law: PASS
+B4 atomic shell template beats harmonic law: FAIL
+B5 atomic shell degeneracy reproduced: FAIL
+FINDING: DISCRETE_MODES_BUT_ORDINARY_STRING_HARMONICS

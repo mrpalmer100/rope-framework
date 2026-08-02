@@ -1,0 +1,15 @@
+ROPE-MODE-004 topology fingerprint
+linked certified=True dmin=0.06195531 Lk=-1.00225398
+unlinked Lk=-0.00000010 translation=0.4000 approximate dmin=0.33650449
+alpha=12.0 eps=0.3 beta=0.5 sigma=0.16 boxes=(3.0, 4.0) h_target=0.25
+max outer-shell probability=0.135819
+worst relative domain gap drift=0.0619842
+max linked-vs-off gap shift=0.48869
+3sigma topology-specific modes=[1, 2, 3]
+B1 topology controls certified: PASS
+B2 bound-state boundary leakage: FAIL
+B3 domain-converged excitation gaps: FAIL
+B4 rope perturbation measurable: PASS
+B5 linked-unlinked contrast exceeds numerical uncertainty: PASS
+B6 topology contrast stable across domains: PASS
+FINDING: NO_CONVERGED_TOPOLOGY_SPECIFIC_FINGERPRINT
