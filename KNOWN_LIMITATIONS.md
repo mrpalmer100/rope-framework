@@ -51,6 +51,11 @@ therefore **adopted, not derived**, or **open**:
   sign/ratio discriminator against QED. One rescue postulate was refused on principle.
 - **London dispersion is NOT derived** (zero-point, hbar-scaling; quantum-boundary class).
 
+
+## Gauge-holonomy branch closure
+
+- **The physical Aharonov--Bohm branch is CLOSED under the current framework.** The numerical instrument is validated, but no undriven rope mechanism supplies a nontrivial target phase. Static handedness supplies orientation only; screw current requires prescribed rotation; the continuity and Maxwell-like models require an inserted pump/current. More sharply, the only derived topological phase is `2 pi N`, which is spectrally identical to zero in the validated AB spectrum. This is registered as `INTEGER_WINDING_HOLONOMY_SPECTRALLY_TRIVIAL` / `NO_UNDRIVEN_NONTRIVIAL_PERSISTENT_HOLONOMY` (ROPE-SOURCE-AUDIT-002). Any fractional coupling, offset flux, persistent compact phase, or explicit linking action would be a new postulate and must be labeled accordingly.
+
 ## Particle sector
 
 - **Lepton mass ratios (Koide) and the Weinberg angle are CONJECTURES** -- numerical

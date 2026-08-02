@@ -6025,3 +6025,2934 @@ transport crowned as the mechanism (017). Plus two registry repairs done in publ
 duplicate QGATE-013 excised and the QB-015..019 two-campaign collision resolved by renumbering
 (engine track -> QB-023..027). Two unbuilt things remain between the framework and its exams:
 a rope electron, and a rope-derived Psi.
+
+
+### Integration (2026-07-29) — the electron campaign and the ROPE-MODE trilogy ported onto the repaired tree
+- 14 claims (ELEC-001..009 with 003A/004A/004A-R; ROPE-MODE-001..003), their benchmarks,
+  and the analysis/ state chain ported from the campaign fork (which branched pre-repair;
+  the fork's duplicate/collision content was NOT adopted -- claims only). Original campaign
+  changelog follows verbatim:
+
+## ELEC-001 — Electron-candidate localization gate
+
+- Added a pre-registered perturbation test for a unit-linked localized excitation.
+- Four bars pass: topology conservation, energy descent, common-attractor convergence, and unlink control.
+- The localization bar fails: the flexible curve dynamics expands to `R_rms ≈ 2.58`, inconsistent with the sourced-field Hopf minimum near `0.84`.
+- Registered the result as **Failed, kept**, with the coupled curve-field action as the required next-order repair.
+
+## ELEC-003 — 2026-07-29
+
+- Added the practical resolution and stability campaign for the ELEC-002 localized linked attractor.
+- Preserved the pre-registered Fourier-basis convergence failure: K=4 to K=5 shifts the relaxed radius by 14.77%, above the 10% bar.
+- Grid, tube-width, topology/localization, and repeated perturbation bars pass.
+
+## ELEC-003A — 2026-07-29
+
+- Added the focused matched-start Fourier-basis study at K=4,5,6,8 with 220 optimization iterations per stage.
+- Exact zero-padding projection removes basin mismatch and fresh high-mode perturbations.
+- All four locked bars pass: topology/localization/descent, non-increasing energy, 0.34% K=6→8 radius difference, and negligible highest-mode amplitudes.
+- Adjudication: ELEC-003's K=4→5 miss was incomplete/unequal convergence, not a persistent high-frequency instability in the tested basis range.
+
+
+## ELEC-004A — 2026-07-29
+
+- Added a gauge-fixed internal linear-stability gate around the saved ELEC-003A K=8 state.
+- The linked/localized reference and a finite projected positive gap survive, but the full-coordinate relative gradient is 0.375, failing the locked 0.10 stationarity bar.
+- A nominal projected negative eigenvalue is contradicted by positive direct directional-curvature checks and is not interpreted physically.
+- Registered as **Failed, kept**. Required next order is deterministic stationarity repair before any Hessian-spectrum claim.
+
+## ELEC-004A-R — 2026-07-29
+
+- Added deterministic finite-difference L-BFGS-B stationarity repair from the saved ELEC-003A K=8 state.
+- Preserved the negative result: the first accepted step lowers physical energy from 16.284581491 to 16.245606456 but collapses `|Lk|` from 0.831834 to 0.141802.
+- The relative gradient remains large and step-stable at approximately 0.428, so stationarity is not repaired.
+- Registered as **Failed, kept**. The next gate requires a certified topology-preserving constrained optimizer and higher curve resolution before Hessian classification can resume.
+
+## ELEC-006 — 2026-07-29
+
+- Added an extended certified constrained solver with active separation-constraint tangent projection, limited-memory BFGS directions, deterministic projected-gradient fallback, adaptive 128/256-point topology certification, and path-certified Armijo line searches.
+- Completed 12 accepted constrained steps in three deterministic restart stages, doubling ELEC-005's accepted-step depth.
+- Energy decreased from 16.246060040 to 16.172284192 while final `d_min=0.06591359`, `Lk128=-1.00676822`, and `Lk256=-1.00344345` remained certified.
+- Preserved the locked stationarity failure: the feasible projected-gradient ratio ends at 0.4362766, far above 0.05 and without a downward trend.
+- Registered as **Failed, kept**. The result argues against mere optimizer under-running and motivates changing the representation or stabilizing functional before Hessian classification.
+
+## ELEC-007 — 2026-07-29
+
+- Added `benchmarks/foundations/electron_augmented_lagrangian.py`, replacing the prior projected L-BFGS step rule with a buffered Powell-Hestenes-Rockafellar augmented Lagrangian, SQP-style tangent correction, trust-region control, and merit-function Armijo search.
+- Added adaptive accepted-endpoint certification at 128/256/512 polygonal samples while retaining pathwise 128-point hard topology checks.
+- Five accepted constrained steps lowered physical energy from `16.152913943` to `16.137416994`; the final state remained certified with `d_min=0.06578210`, `Lk128=-1.00763139`, `Lk256=-1.00386185`, and `Lk512=-1.00194220`.
+- Preserved the stationarity failure: projected augmented-Lagrangian gradient / energy is `0.2597405`, above the locked `0.05` ceiling.
+- Registered as **Failed, kept**. Next order is a representation change to direct spline/polygonal degrees of freedom with adaptive remeshing, not another restart in the same K=8 global Fourier chart.
+
+## ELEC-008 — 2026-07-29
+
+- Added `benchmarks/foundations/electron_adaptive_direct_curve.py`, replacing the global K=8 Fourier chart with direct periodic cubic-spline control points.
+- Added curvature/proximity-driven adaptive refinement from 16 to 20 controls per component, while retaining the unchanged Poisson curve-field energy and hard pathwise separation/linking certificates.
+- Eight accepted constrained steps remained topology-certified. The 16→20 remesh was also certified and changed physical energy by 0.588%, within the locked 1.5% remesh-fidelity bar.
+- The overall physical-energy bar failed because final energy `16.228949267` exceeded the campaign start `16.162510362`; projected physical-gradient / energy also failed at `0.1452795` versus the `0.05` ceiling.
+- Registered as **Failed, kept**. The new numerical debt is energy-neutral remeshing / mesh-converged quadrature before changing the physical functional.
+
+## ELEC-009 — 2026-07-29
+
+- Added `benchmarks/foundations/electron_variational_remesh.py`, retaining the unchanged physical functional and topology constraints while introducing separate nonuniform periodic knots and a topology-certified variational remesh search.
+- Five accepted constrained descent steps remained certified; final `d_min=0.06195531` and `Lk512=-1.00225398`.
+- The source-quadrature convergence bar passed: 48→64 samples changed energy by only 0.0248%.
+- Preserved the strict remesh failure: the 16→20 transfer changed energy by 0.535%, RMS geometry by 0.0521, and Hausdorff distance by 0.0531. Final energy remained above the campaign start and projected-gradient / energy was 0.1508681.
+- Registered as **Failed, kept**. Next order is a fixed high-resolution direct mesh or a true constrained closest-point/energy projection with reliable derivatives, before any change to the physical functional.
+
+## ROPE-MODE-001 — 2026-07-29
+
+- Added `benchmarks/foundations/rope_atomic_shell_modes.py`, a direct test of whether standing waves on the certified linked rope geometry resemble atomic shell spacing.
+- Built periodic finite-element mass and stiffness matrices on each closed component at 128/256/512 samples, with constant tension and linear density and no change to the ELEC-009 geometry.
+- Frequencies are mesh converged and follow the ordinary closed-string harmonic sequence to `R^2=0.99999997`.
+- Hydrogenic shell templates fit substantially worse, and the mode multiplicities do not reproduce `2n^2` shell capacities.
+- Registered the kept negative finding `DISCRETE_MODES_BUT_ORDINARY_STRING_HARMONICS`: the core standing-wave intuition produces discreteness, but the simplest rope dynamics does not produce atomic shell structure.
+
+## ROPE-MODE-002 — 2026-07-29
+
+- Added `benchmarks/foundations/rope_central_field_modes.py`, retaining the certified ELEC-009 linked geometry while adding a softened central attraction to the scalar periodic rope-wave operator.
+- Swept `alpha = 0, 0.1, 0.3, 1, 3, 10` at 128/256/512 samples and projected eigenmodes onto sampled real spherical-harmonic subspaces `l=0,1,2`.
+- The spectrum passed mesh convergence, with a worst 256→512 relative eigenvalue change of 0.5135%.
+- No nonzero coupling produced the locked `1,3,5` spatial multiplets or robust `s/p/d` classification; central coupling primarily split the one-dimensional harmonic pairs into singlets and residual doublets.
+- Registered the kept negative finding `CENTRAL_FIELD_DOES_NOT_GENERATE_ATOMIC_MULTIPLETS`. The result is limited to a scalar field on a fixed one-dimensional rope and is not a full nonlinear atom calculation.
+
+
+## ROPE-MODE-003 — 2026-07-29
+
+- Added `benchmarks/foundations/rope_surrounding_field_modes.py`, moving the scalar excitation from the one-dimensional rope to a surrounding three-dimensional field while retaining the certified ELEC-009 linked geometry as an embedded tubular potential.
+- Solved the lowest 18 modes on `23^3` and `29^3` interior grids for `beta = 0, 0.25, 0.5, 1.0`, with a fixed softened central attraction.
+- The first nine excitation gaps converged to within 1.12%, and the low modes robustly classified as `l = 0`, a three-member `l = 1` family, another `l = 0` mode, and five `l = 2` modes. Mean angular projection purity was about 0.91.
+- The locked localization bar failed: only about 51% of the first twelve modes lay inside radius 2.2, versus the 85% requirement.
+- Registered the kept finding `SURROUNDING_3D_FIELD_GATE_NOT_YET_PASSED`. The result supports the need for surrounding 3-D field degrees of freedom but does not establish that the rope generates atomic multiplets, because the same angular families occur in the `beta=0` central-field baseline.
+- (Integration correction, same pass) The first insertion appended the ported blocks after the
+  top-level sector table, structurally mis-parenting them; the port script's own count
+  assertion caught it before packaging. Re-inserted inside the claims list with blocks
+  terminated at the fork's top-level key. 265 claims, all unique, parse-verified.
+- (Same pass) THM-006's commissioned tripwire re-ran on the grown corpus: enrichment 4.2x ->
+  2.1x (23 Failed+Open; the 11 new electron-campaign failures are Layer II constrained-
+  optimization defeats, correctly classified). Sign intact, magnitude halved, annotation filed
+  on the claim; the benchmark's summary line made dynamic. The frontier signal is the stable
+  5-claim Layer III core, not the ratio.
+
+### Addendum (2026-07-29) — ELEC-010: the virial audit (exoneration with a map)
+- The kill-or-cure diagnostic for the four-optimizer impasse returned the best option:
+  the functional is INNOCENT. Exponents measured (E_T ~ lam^1.00 exact, E_F ~ lam^-0.63,
+  softened Coulomb); ELEC-006's state sits IN the scale bowl (sampled minimum at lam=1.00,
+  virial satisfied to 3.5%, wall not binding); ELEC-005's state still wants to shrink
+  (progression INTO the bowl confirmed). The auditor's own noise-floor hypothesis was
+  measured and KILLED (60x margin): the residual gradient is REAL and lives in the 96
+  shape coordinates. The impasse = genuine ill-conditioned shape optimization; cure lane
+  = optimizer engineering (preconditioning, adjoint gradients), not physics changes.
+  Hygiene: ELEC007_state.npz overwrite discovered; write-once state files adopted.
+  Corpus 252/252, 266 claims.
+
+### Addendum (2026-07-29) — ROPE-MODE-004: the rope alone binds
+- The crutch removed (alpha = 0): the certified tube captures a mode from beta ~ 4, deepens it
+  monotonically (E0 0.821 -> 0.345 at beta = 16), and stamps it with the rope signature (tube
+  distance falling 1.235 -> 0.869; localization rising 0.745 -> 0.881; control clean). The
+  framework's first rope-bound field mode. KEPT: the convergence failure (106% gap drift --
+  strength and threshold unmeasured; the onset is a resolution floor per the quasi-2D binding
+  argument) and the vacuous localization bar -- the measure-the-floor-first rule violated a
+  third time, by the session that wrote it. ROPE-MODE-005 (the resolved-tube spectrum) is now
+  well-posed: the shell question, dead three times on the crutch, is alive on the rope.
+  Corpus 253/253, 267 claims.
+
+### Addendum (2026-07-29) — ROPE-MODE-005: the resolved spectrum is a single level (Failed, kept)
+- The rule honored at last: floors before bars. The resolved tube (h/sigma ~ 0.5-0.65) binds
+  exactly ONE mode at both declared settings (beta 8 and 16) -- no spectrum to classify -- and
+  the failure explains itself: the loops' arc lengths put the first longitudinal ring
+  excitation ABOVE the entire binding depth. A single-level binder by geometry: the shell
+  hypothesis gains its first quantitative design constraint (depth >> (2pi/L)^2). SURVIVES:
+  the cooperation signature -- the linked pair binds a hybrid mode 22x-floor deeper than
+  either loop alone, the corpus's first spectral evidence of shared field structure between
+  tubes; and the fixed instrument (E0 stable to 0.01 vs 004's 106% chaos). Next: the regime
+  map; the linked-vs-unlinked topology fingerprint test. Corpus 254/254, 268 claims.
+
+
+## v2.3.9 (2026-07-29)
+Release cut -- THE FUNCTIONAL IS INNOCENT, AND THE ROPE BINDS. See docs/RELEASE_NOTES_v2.3.9.md.
+Corpus: 268 claims (102 Derived, 135 Modeled, 4 EFT-constrained, 3 Conjecture, 5 Open, 19
+Failed-and-kept), 254 benchmark-backed and passing, 60 papers. The electron campaign's first
+arc integrated (fourteen claims, eleven kept failures, the first electron-shaped object, the
+topology-certification machinery); two registry repairs in public; THM-006's tripwire honored
+(4.2x -> 2.1x, annotated); ELEC-010's virial exoneration (the impasse is optimization, not
+physics; the noise hypothesis killed at 60x); ROPE-MODE-004 (the rope alone binds, with the
+third floor-rule violation filed against the rule's own author); ROPE-MODE-005 (a single-level
+binder by geometry, the shell hypothesis's first design constraint, and the linked-pair hybrid
+mode -- topology's possible first spectral fingerprint, now concretely posable). No stable
+electron yet; the road to one now has a map.
+
+### Addendum (2026-07-29) — ELEC-011: the exact adjoint and the wall-supported state
+- Session five with ELEC-010's map. THE INSTRUMENT: a calibrated adjoint rejected at its gate
+  (on the record); the TRUE discrete adjoint validated to 0.001-0.02% against converged FD --
+  and the 2e-4-step FD disagreements converged ONTO the analytic values: the objective is
+  piecewise-smooth at exactly the scale prior campaigns' FD used. ~100x cheaper gradients.
+  THE KKT DISCOVERY: the state is wall-supported -- cos 0.52 of the gradient borne by the
+  separation constraint, mu ~ 0.166 stable: half of four campaigns' non-stationarity was
+  constrained equilibrium. THE PUSH: 40 certified steps (record), E 16.1529 -> 16.1040,
+  riding the wall, fully certified. B2/B3 missed and kept: tangential residual ~0.29,
+  oscillatory, attributed -- grad(d_min) is itself kinky (nearest-pair switching). Cure lane:
+  smoothed softmin constraint or bundle methods. The question sharpened: from 'is it stable?'
+  to 'is the wall-supported KKT point attained?' -- one reformulation from decidable.
+  Corpus 255/255, 269 claims.
+
+### Addendum (2026-07-29) — ELEC-012: the object slides toward the tight link
+- The softmin-smoothed constraint (certification unchanged, hard) uncreased the tangent and
+  the optimizer found the real valley: 108 certified steps, E 16.104 -> 14.921 (~10x all prior
+  campaigns combined), d_min PINNED at the hard core (0.0600), |Lk| = 1.0003, energy still
+  descending at exhaustion. The residual ROSE (kept): pressing into the wall grows the
+  multiplier while energy falls along it -- ELEC-011's state was a shoulder. Cinching
+  quantified: near-contact pairs grow severalfold; the curves wrap into extended contact.
+  The question transforms: is the electron candidate THE TIGHT HOPF LINK at hard-core
+  thickness, dressed by its field? Named: the run to termination; the generalized contact-
+  measure stationarity metric (finite-dim PG is now known wrong for this state class); the
+  ropelength comparison; the field-dressing question. Corpus 256/256, 270 claims.
+
+### Addendum (2026-07-30) — ELEC-013: the run to termination
+- The softmin tangent exhausted in one step; the generalized-KKT test (implemented) found
+  residual 0.73 with feasible descent the aggregated normal could not see. The ACTIVE-SET
+  NNLS engine ran 103 certified iterations to the pre-locked termination criterion. TERMINAL
+  STATE: E = 14.9072, d = 0.0610, |Lk| = 1.0004 (full cert green), contacts saturated at 525,
+  L flat at 4.5114 -- ropelength ratio 150 vs ideal 25: the tight-link extrapolation
+  CORRECTED (extended contact patch, interior balance, not global tightening). Scale bowl
+  holds AT the terminal shape. Generalized residual 0.73 -> ~0.38 plateau (kept open;
+  suspected first-order linearization floor). The framework's first complete
+  electron-candidate geometry: certified, linked, scale-stationary, contact-saturated,
+  dynamically terminated. Next: second-order contact-manifold steps; the resolution ladder;
+  physical characterization. Corpus 257/257, 271 claims.
+
+
+## v2.4.0 (2026-07-30)
+Release cut -- THE CINCHED LINK. See docs/RELEASE_NOTES_v2.4.0.md. Corpus: 271 claims (102
+Derived, 138 Modeled, 4 EFT-constrained, 3 Conjecture, 5 Open, 19 Failed-and-kept), 257
+benchmark-backed and passing, 60 papers. The stationarity arc completed in three claims:
+ELEC-011 (the exact adjoint validated at 100x lower cost; the piecewise-smoothness diagnosis;
+the wall-supported state with mu ~ 0.166), ELEC-012 (the smoothed push: ten times all prior
+descent combined, d pinned at the core, the link cinching, 22 -> 408 contacts), ELEC-013 (the
+active-set NNLS engine; termination under a pre-locked criterion; the terminal state certified,
+linked, scale-stationary, contact-saturated at 525 pairs; ropelength ratio 150 vs ideal 25
+correcting the tight-link extrapolation; generalized residual ~0.38 kept open). The framework's
+first complete electron-candidate geometry, held to Modeled-not-Derived until second-order
+contact-manifold machinery closes the one open number.
+
+### Addendum (2026-07-30) — the board, run: ELEC-014, ELEC-015, ELEC-016
+- ELEC-014 (the second-order decider): composite residual-plus-restoration steps WORK where
+  first-order terminated (curvature obstruction confirmed) but purchase only dE = 2.2e-5 --
+  the terminal state is a generalized minimum to within instrument resolution; the residual
+  plateau attributed (as hypothesis) to contact-manifold faceting.
+- ELEC-015 (the resolution ladder) RULES AGAINST COMFORT TWICE: gres stable at ~0.377 under
+  contact refinement to M=512 -- facet hypothesis REFUTED, origin reopened (chart span or
+  subdifferential width); and the N=14 field grid is LOW BY ~15% (E_F 10.84 -> 12.60 across
+  N=14/18/22) -- the N-refinement re-optimization promoted from hygiene to OBLIGATION.
+- ELEC-016 (the characterization) returns a DISCOVERY: spontaneous symmetry breaking into
+  THE CLASP AND THE LOOP -- one curve contracted to the exact isoperimetric floor
+  (L = 2 pi x wall clearance, 100% contact, one patch), the other large, planar (245:1),
+  and field-held; the dressing a diffuse Coulomb cloud (14% within two tube-widths). Model
+  boundaries named: no self-distance constraint, curvature stats not claimed, grid debt
+  applies. Corpus 260/260, 274 claims.
+
+### Addendum (2026-07-30) — ELEC-017: the debt paid, the clasp confirmed
+- The N=22 instrument FAILED its gate at 1163% (a one-character source-sign mismatch that
+  would have silently inverted the field physics), was diagnosed from the error algebra, and
+  re-gated at 0.35%. The re-optimization: 316 certified steps to termination; the loop grew
+  48% as the missing field energy claimed its size; THE CLASP TRACKED ITS ISOPERIMETRIC FLOOR
+  THROUGHOUT (100% contact unbroken, L = 2pi x clearance to 0.5%) -- a dynamically maintained
+  identity; asymmetry 14.7:1; fully certified; gres fell to 0.235 at the new terminus, the
+  same band as N=14: the residual is GRID-INDEPENDENT (three-way elimination complete; chart
+  span and subdifferential width remain). Next: the K=12 chart enrichment (the decider);
+  N>=26 spot-check; the self-interaction design question. Corpus 261/261, 275 claims.
+
+### Addendum (2026-07-30) — ELEC-018: the decider decides -- chart span
+- Three measurements, one verdict. The K=12 gate DISCOVERED kink density (contradictory FD
+  references at different steps: no single answer exists; the analytic per-assignment gradient
+  is the only viable oracle). Subdifferential metrology (jittered-gradient spread, a new
+  instrument) ELIMINATED that candidate at 17x outside the locked bar. The K=12 engine
+  CONFIRMED chart span: dE = 0.054 in 195 certified iterations, sustained at exhaustion,
+  ~2400x the K=8 second-order yield. REFRAMING: ELEC-013/014/017's termini are
+  chart-constrained (true as scoped; none retracted). The clasp survives enrichment,
+  riding its floor with contact unbroken. Named: the K=12 run to ITS termination; the
+  K-ladder convergence question (the equilibrium as the K -> infinity limit); N>=26.
+  Corpus 262/262, 276 claims.
+
+### Addendum (2026-07-30) — ELEC-019: the K=12 terminus; the ladder contracts
+- 2,736 certified iterations (the corpus's longest run) to the pre-locked criterion:
+  E(K=12) = 15.5638, chart-drop 0.1626, d_min glued to 0.0657 throughout -- descent entirely
+  within the contact-saturated stratum. THE LADDER PROBE: gres16 at this terminus = 0.237,
+  below the K=8 analogue (0.295) -- the ladder CONTRACTS: first evidence of a convergent
+  K -> infinity equilibrium, extrapolable once K=16 supplies the third rung. The clasp's
+  floor identity survives its fourth generation of instruments at half a percent. Named:
+  the K=16 run (closes the ladder); the asymptotic-rate law; N>=26. Corpus 263/263,
+  277 claims.
+
+### Addendum (2026-07-30) — ELEC-020: the ladder closes -- E-infinity = 15.5627(12)
+- The K=16 rung terminated in 226 iterations (vs 2,736 at K=12) with a chart-drop of 0.00116
+  vs the previous 0.1626: contraction ratio 0.007 -- THE LADDER SLAMS SHUT. Geometric
+  extrapolation: E-infinity = 15.5627 with the whole last drop as the error bar. The
+  equilibrium is genuinely LOW-MODE (a near-circular clasp and a smooth loop need a dozen
+  harmonics): the object's simplicity is now a measured fact. The clasp's fifth-generation
+  confirmation. Scope: the N=22 functional; no dimensions attached; N>=26 standing. The arc
+  is complete. Named: cut v2.4.1 (THE LADDER AND THE NUMBER); the characterization refresh;
+  the dimensional-calibration question, now well-posed. Corpus 264/264, 278 claims.
+
+### Addendum (2026-07-30) — ELEC-021: the calibration, and the price
+- Two anchors (kappa -> alpha hbar c; E_inf -> m_e c^2), everything else a prediction:
+  rope thickness 1.316 fm = 0.467 r_e; tension 0.240 N; charge cloud 5.26 fm; clasp 9.1 fm,
+  loop 149 fm, diameter ~36 fm; MASS PARTITION measured: 46.3% rope length + 53.7% field.
+  Invariant Lambda = 0.4669. TWO CONFRONTATIONS KEPT: the form factor problem (~36 fm vs
+  sub-1e-3 fm bounds -- the matter sector's gate) and the cross-sector clash (the scale
+  branch's hbar normalization lands 381x short at this calibration -- different objects, or
+  a sector is wrong: the required declaration is named). Flagged coincidence, fenced:
+  reconciling collective D (25.7 fm) within 8% of the loop radius (23.7 fm). Not delivered:
+  spin, g, charge quantization, 1836. Corpus 265/265, 279 claims.
+
+### Addendum (2026-07-30) — ELEC-022: the continuum correction
+- Five-rung field ladder at the K=16 terminus: monotone, decelerating, R^2 = 0.9998, p = 1.85
+  (the second-order stencil, understood). E-infinity(continuum) = 16.033 (+3.02%, inside the
+  stated systematic -- retired as caveat, cashed as measurement). Corrected calibration:
+  d_c = 1.355 fm (0.481 r_e), T0 = 0.226 N, Lambda = 0.481; geometry ratios untouched.
+  Envelope allowance quantified (~0.3%, below everything else). The clash recomputes to
+  ~360x: grid-stable. The sector's numerical debts are PAID; what remains is structural
+  (form factor; two-objects). Corpus 266/266, 280 claims.
+
+
+## v2.4.1 (2026-07-30)
+Release cut -- THE LADDER, THE NUMBER, AND THE PRICE. See docs/RELEASE_NOTES_v2.4.1.md.
+Corpus: 280 claims (102 Derived, 147 Modeled, 4 EFT-constrained, 3 Conjecture, 5 Open, 19
+Failed-and-kept), 266 benchmark-backed and passing, 60 papers. Nine claims completing the
+stationarity arc: the second-order decider (014); the resolution ladder ruling against comfort
+twice (015); the clasp and the loop, spontaneous symmetry breaking (016); the debt paid with a
+1163-percent gate failure caught (017); chart span decided, kink density discovered,
+subdifferential eliminated (018); the K = 12 terminus at 2,736 certified iterations (019); the
+ladder's closure at contraction ratio 0.007 and E-infinity = 15.5627 (020); the calibration and
+its two kept confrontations -- form factor and cross-sector clash (021); and the continuum
+correction retiring the last discretization caveat (022). Final calibrated numbers: rope
+thickness 1.355 fm = 0.481 r_e, tension 0.226 N, mass a measured 46/54 blend. NO STABLE
+ELECTRON: numerical stability established, mathematical stability open, physical stability
+not yet meaningful -- stated on every claim.
+
+### Addendum (2026-07-30) — ELEC-023: the minimality census (three beliefs killed)
+- Floors first (noise 3.6e-11). THE COMPLEMENTARY-SLACKNESS CATCH: at the ELEC-020 state
+  d_min = 0.06566 vs wall 0.0600 -- NO constraint binding, so every 'gres' from ELEC-013
+  onward decomposed a nonzero gradient over zero-multiplier rows: a VOID metric, not a
+  slightly-wrong one. THE CENSUS: 37/44 directions dip at small scales while both signs rise
+  past t ~ 3e-4 -- not a local minimum, inside a basin of curvature ~3000. THE RECOVERY:
+  1.586e-2 in nine fine-scale iterations, ending against the wall. CONSEQUENCES: E-infinity
+  is an upper bound with a bar ~13x larger than quoted (correction filed on ELEC-020); the
+  calibration survives at the 0.1% level (note filed on ELEC-022); every geometric and
+  dimensional result stands. NEW STANDING RULE: no optimizer terminus is called a minimum
+  until it passes a directional minimality census, floors first. Corpus 267/267, 281 claims.
+- (Same pass, integrator correction) The first attempt to file the ELEC-020/021/022
+  annotations aborted on its own anchor assertion before writing, so an interim package went
+  out carrying ELEC-023 without the cross-claim corrections. Anchors located, three
+  corrections filed (the ladder's withdrawn precision, the calibration's 0.1-0.2 percent
+  shift, the invariant's upper-bound status), tree re-verified and repackaged.
+
+### Addendum (2026-07-30) — ELEC-024: the terminus recedes; the valley-floor diagnosis
+- Curvature-matched descent from the wall-bound state, constraint genuinely binding: gres
+  0.941 -> 0.078 over 1,798 certified iterations -- the campaign's FIRST valid small
+  stationarity residual. E -> 15.52432: 3.83e-2 below the ELEC-020 'terminus', 33x that
+  ladder's final rung. THE FAT TAIL: rate ~ it^-0.59, shallower than -1, so cumulative
+  descent is not summable under the fit and no extrapolation is reliable; E <= 15.52432 is
+  the honest statement. THE CENSUS: 22/24 directions still dip, deepest -1.03e-4, UNCHANGED
+  in magnitude despite 0.038 of descent -- a narrow valley floor, not a bowl. Calibration
+  shifts 0.25% (inside the 3% continuum correction): d_c ~1.351 fm, T0 ~0.227 N. Named:
+  valley-following methods; the degeneracy test (add bending stiffness, watch the tail);
+  the ladder re-run once a converging method exists. Corpus 268/268, 282 claims.
+
+### Addendum (2026-07-30) — ELEC-025: the degeneracy test (bending does not close the trough)
+- Bending stiffness added at B1-calibrated strength (2.79% of E) and the trough SURVIVED: tail
+  it^-0.53 vs the no-bending baseline it^-0.59, far above the q < -1 summability bar. B3 failed
+  and is kept. THE OBJECT SHED THE STRUCTURE, NOT THE TROUGH: clasp mean |kappa| 86 -> 18.6
+  (max 445 -> 36.6), bending share collapsing 2.79% -> 0.068%. Census: 19/20 still dip.
+  TWO GIFTS: the wiggle discovery (the state carried curvature structure at a scale 5x finer
+  than the clasp radius, invisible because tension sees only length and the field smooths over
+  the source width) and THE CLASP'S SIXTH CONFIRMATION -- length 0.3844 -> 0.3843, unchanged to
+  four figures, while its curvature fell fivefold: the first confirmation to survive a change
+  in the PHYSICS rather than the numerics. Named: valley-following (now the leading
+  explanation); self-avoidance; the strong-bending experiment. Corpus 269/269, 283 claims.
+
+### Addendum (2026-07-30) — ELEC-026: valley-following fails; the trough is characterized
+- Two locked bars failed and are kept, and the replacement is a measurement. B1 INVERTED:
+  mean cos(successive steps) = -0.281 (zig-zag, not coherent crawl) while the axis drifts
+  (straightness 0.53). B2 worked but SATURATED at 0.5x the net displacement (the axis curves).
+  B3 FAILED: 1.58x speedup head-to-head at equal wall-clock, against a 10x bar. THE
+  CONDITIONING: curvature 3.29e1 along the axis vs 4.10e3 across -- ANISOTROPY 125x, which
+  explains both failures at once. THE THREE-PROPERTY TRAP: anisotropy defeats first-order
+  descent, curvature defeats linear extrapolation, kink-density defeats the second-order
+  machinery that would cure the first two -- so any future attempt must BREAK a property
+  rather than out-muscle all three. Named: reparameterization (the untried lever); soft-mode
+  identification (chart artifact or physical soft mode?). Corpus 270/270, 284 claims.
+
+### Addendum (2026-07-30) — ELEC-027: the reparameterization lever moves but does not pay
+- B1 (new measurement): per-coordinate curvature spectrum, H_ii spanning 1535x, with mode
+  order (~k^1.33) explaining only 40x -- most of the spread is WITHIN mode order: the clasp
+  and loop are mechanically different objects sharing one parameter vector, the numerical
+  shadow of ELEC-016's physical asymmetry. B2 PASSED: anisotropy 108.6 -> 14.5 (7.5x) under
+  the diagonal coordinate change -- partly a chart artifact after all. B3 FAILED AND KEPT:
+  1.90x wall-clock against a 10x bar. THE SPLIT: per-step descent rises 47x and the zig-zag
+  is CURED (cos -0.284 -> +0.887), but the restoration projection eats the gain -- the
+  preconditioner conditions the ENERGY and ignores the CONSTRAINT, aiming better steps into
+  the wall. The bottleneck has MOVED, not held. Named: constraint-aware metric (project onto
+  the active tangent); two-component treatment; soft-mode identification. Corpus 271/271,
+  285 claims.
+
+### Addendum (2026-07-30) — ELEC-028: the constraint-aware metric; two refutations
+- THE FIX WORKS: doing the decomposition in the transformed coordinates gives EXACTLY ZERO
+  constraint violation per step (vs 2.25e-4) with |Ap| down tenfold; ELEC-027's mismatched
+  scheme now accepts ZERO steps at this state (158 active rows) -- the mismatch was real and
+  worsens as the active set grows. B3 STILL FAILED AND KEPT: 2.25x vs a 10x bar (best of
+  three schemes). TWO REFUTATIONS: (i) ELEC-027's "restoration eats the gain" is refuted by
+  instrumentation -- rejections/step 1.57 vs 1.52, identical (correction filed on that claim);
+  (ii) an in-session guess that the tangent space was ~10-dimensional (from 158 rows in 193
+  params) is refuted by the rank computation -- rank 87, tangent 106. THE JAMMING OBSERVABLE:
+  tangent dimension 193 (pre-wall) -> 120 -> 127 -> 106, the object progressively pinning
+  itself against its own contact set. Open and sharper: why per-step gain collapsed 47x ->
+  2.4x. Named: the three-state per-step measurement (the decider). Corpus 272/272, 286 claims.
+
+### Addendum (2026-07-30) — ELEC-029: the decider answers, and the trough yields
+- THE DECIDER: across four campaign states the mismatched scheme ranges 0.0x-151.6x (erratic;
+  ELEC-027's 47x was state-luck) while the constraint-aware scheme holds 15.7x-47.4x, spread
+  3.0x -- a property, not a draw. THE STALE-SPECTRUM DISCOVERY: ELEC-028's 2.25x used a
+  preconditioner computed at a DIFFERENT state; the curvature spectrum is strongly
+  state-dependent (chart conditioning 376x/1535x/1520x/977x), and a state-fresh metric gives
+  15.7x where the stale one gave 2.4x (correction filed on ELEC-028). B3 PASSES: raw descent
+  stalled (9.2e-6 over 393 steps) while constraint-aware with a fresh spectrum recovered
+  4.18e-2 in 75s -- more than the entire ELEC-024 -> ELEC-028 sequence combined. E = 15.450533,
+  certified. SCOPE: a better descent, NOT a minimum; the census has not been run at the new
+  state. The clasp's seventh-generation confirmation (0.8%) through the largest single-session
+  energy change yet. New standing practice: multi-state replication for any performance claim.
+  Corpus 273/273, 287 claims.
+
+### Addendum (2026-07-30) — ELEC-030: the census that almost passed
+- First terminus from a converging method: 492 iterations to the pre-locked criterion at
+  E = 15.4475841, certified. THE CENSUS: 1 of 26 directions dips, deepest -2.52e-6, MEDIAN
+  EXACTLY ZERO -- a 41x collapse of the minimality gap against the campaign's history
+  (-7.5e-5, -1.0e-4, -5.2e-5) and a qualitative change from 37-of-44. STILL NOT A MINIMUM,
+  and ELEC-023's obligation honored: the dipping direction was run (one step, -2.5e-6), the
+  engine resumed for 259 more, total -2.33e-5 beyond the terminus = 1.5 ppm of E. The census
+  now measures the STOPPING RULE'S slack, not a failure of the method -- so the recommended
+  next step is a parameter change, not a new instrument, for the first time in eight sessions.
+  CALIBRATION DRIFT FLAGGED: E is 0.74% below the ELEC-020 basis of the published dimensional
+  numbers -- inside the 3% envelope but monotone; recalibration scheduled. Corpus 274/274,
+  288 claims.
+
+### Addendum (2026-07-30) — ELEC-031: the criterion tightened; the census audits itself
+- FLOOR CORRECTED: repeated evaluations are bit-identical (CG deterministic); the old ~1e-10
+  "floor" was solver truncation. Differential truncation is 3.6e-15 at rtol=1e-12 (188x lower),
+  licensing a 25-window criterion of 8.88e-12 -- 1126x tighter than the 1e-8 in force since
+  ELEC-013. Terminated there in 228 iterations, certified. THE CENSUS CORRECTED ITSELF:
+  15/26 dip at the tighter threshold vs ELEC-030's 1/26, and replication isolates the cause
+  as SCALE-BLINDNESS not seed luck -- ELEC-030's protocol gives 0/14 here, adding t=1e-6 gives
+  6-9/14 across seeds. ELEC-030's 41x-collapse and median-zero claims WITHDRAWN (correction
+  filed). PROTOCOL RULE ADOPTED: censuses must probe to the engine's own step scale; dip
+  counts are protocol-sensitive (0-9 of 14 at one state) and demoted to colour; the DEEPEST
+  DIP is the statistic. Honest gap ~1e-6 (~100x better than ELEC-024, genuinely). Corpus
+  275/275, 289 claims.
+
+### Addendum (2026-07-30) — ELEC-033/034: the saddle worry retired, the calibration holds
+- ELEC-033: on all 105 free directions the reduced curvature is POSITIVE at both probe scales
+  (min +1.6e4, zero negatives), with the tangent basis verified to |Ap| = 7e-9. The residual
+  dips are the LINEAR term, not a negative eigenvalue: ||Pg|| = 0.888 with median curvature
+  4.0e4 predicts ~9.8e-6 remaining, matching the ~5.5e-6 the ELEC-032 sweeps recover per round
+  -- three independently built instruments agreeing on one number. The saddle fear live since
+  ELEC-023 is retired; stationarity remains the SOLE obstruction.
+- ELEC-034: the scheduled recalibration at E = 15.447486 (0.74% below the published basis).
+  Ladder re-fit from scratch (p = 2.23, R2 = 0.9995, correction +2.49%). d_c = 1.338 fm
+  (0.475 r_e), T0 = 0.232 N, Lambda = 0.4750, partition 48.4/51.6, clash 381x. EVERY NUMBER
+  MOVED <=1-3%: the physical content is set by the geometry, not the exact energy. New
+  diagnostic flagged: the ladder exponent drifted 1.85 -> 2.23, tracking the small-scale
+  source structure (ELEC-025's wiggles the suspect). Corpus 277/277, 291 claims.
+
+### Addendum (2026-07-30) — ELEC-035: not stationary in any sense; the search is the obstruction
+- THE FORK RESOLVED: ||Pg|| across rounds 5-9 reads 0.90/0.91/0.61/1.31/0.82 (mean 0.910,
+  slope +0.023/round) while E fell 2.9e-5 -- it does NOT fall. THE CLARKE TEST, with a caught
+  error: the first run sampled 8 gradients in a 107-dim tangent space, a vacuous test (needs
+  dim+1 = 108); re-run at 202 samples the hull minimum falls 0.61 -> 0.147 and STOPS, ratio
+  0.180 -> NOT Clarke-stationary, so the kinks do not bound the gradient from zero and descent
+  remains. THE BUNDLE DIRECTION works but recovers 0.62x a random sweep round at ~5x the cost.
+  SYNTHESIS with ELEC-033: curvature positive-definite, not stationary smoothly, not stationary
+  in Clarke's sense -- the landscape is benign and FINDING descent is the whole problem; five
+  unrelated strategies all recover ~1e-6 per round, which makes the rate a property of the
+  search problem, not of any strategy. New standing rule: sample-count adequacy is a floor to
+  be measured before a geometric test is read. Corpus 278/278, 292 claims.
+
+### Addendum (2026-07-30) — ELEC-036: the form-factor problem quantified
+- The sector's gate becomes a computation. Charge form factor from the model's own Poisson
+  source, verified (F(0)=1.000000; low-q tracks 1-q^2<r^2>/6 to five decimals). Calibrated:
+  rms charge radius 21.16 fm, 1% departure at 2.32 MeV/c, against no observed electron
+  structure to ~100 GeV/c -- 4.3e4 in momentum, 2.1e4 in size. THE TRILEMMA: (A) float the
+  coupling -> alpha_eff 2.1e4x weaker than EM, so the Poisson field would NOT be the EM field;
+  (B) float the mass -> 10.5 GeV, not an electron; (C) the medium-probe defense -> requires
+  coupling and source densities to differ in extent by 2.1e4, which Gauss's law forbids by
+  construction. A and B carry the SAME factor because the two anchors fix exactly one length:
+  the size is a pure prediction with no freedom left. Flagged: ELEC-021's calibration silently
+  ASSUMED the binding field is electromagnetic, and that assumption is now load-bearing.
+  Corpus 279/279, 293 claims.
+
+### Addendum (2026-07-30) — ELEC-037: a scale-invariant no-go
+- The form-factor failure scales as s^-1 and the cross-sector hbar shortfall as s^+1: their
+  PRODUCT is 7.8662e6 invariant to 4.4e-16 under any rescaling of the length unit. No length
+  unit satisfies both constraints; the best balance (s = 7.544) still misses each by 2.8e3.
+  The invariant reduces to rms/(n_t d^2 E0u), so only two levers exist: geometry is bounded
+  at 263x by d <= rms, leaving the collective number -- closing it demands n_t ~ 8.7e8 against
+  the scale branch's 111. THE TWO-OBJECTS DECLARATION IS FORCED: DISTINCT dissolves the clash
+  (the hbar relation never applied to this rope) and leaves the form-factor problem alone at
+  2.1e4; SAME leaves a conserved obstruction of 7.9e6 with no free parameter. No third option
+  is reachable by rescaling. The first genuine no-go the electron campaign has produced.
+  Corpus 280/280, 294 claims.
+
+### Addendum (2026-07-30) — ELEC-038: the one-medium declaration, adopted
+- FRAMEWORK-LEVEL COMMITMENT: vacuum strands and matter ropes are the SAME kind of object.
+  ELEC-037's invariant therefore stands and the scale branch inherits n_t ~ 8.7e8 as a
+  standing, falsifiable obligation. THE PRICE, computed: strand spacing w = 4.53e-20 m
+  (d_c/w = 3e4 vs the registered 19) -- 2.8e15 Planck lengths, PERMITTED; vacuum density
+  5.67e18 -> 4.46e25 kg/m^3, i.e. 25x nuclear -> 1.9e8 x nuclear (reconstruction cross-checks
+  the registered value to a factor 4.8); Sigma -> 4.01e42 J/m^3 putting E_crit 5.1e8 ABOVE
+  the Schwinger field, so the old near-coincidence dies (QGATE-009 had already called it
+  flattery); the EM-RECON-015 fence worsens to 2.6e17-fold. VERDICT: expensive but NOT
+  killed -- every consequence worsens an already-itemized invoice, none violates a registered
+  inequality. Discomfort recorded honestly: 1.9e8 x nuclear is the kind of number that usually
+  signals a missing idea. Owed: QGATE-009's six confrontations re-run at the new Sigma; a test
+  of whether n_t ~ (d_c/w)^2 is the right counting. Corpus 281/281, 295 claims.
+
+### Addendum (2026-07-30) — ELEC-039: the counting is worth four orders; no counting escapes
+- ELEC-038's price assumed n_t counts across the rope TUBE cross-section. Five counting
+  hypotheses give: H1 tube cross-section 4.0e7 x nuclear; H2 tube length-recruited 3.3e5;
+  H3 object cross-section 1.6e5; H4 object length-recruited 2.1e4; H5 object sheet 2.7e3.
+  Spread 1.5e4 -- so ELEC-038's 1.9e8 headline was the WORST CASE (refinement filed there).
+  All keep w >= 2.8e15 Planck lengths: none excluded on that ground. BUT NO COUNTING REACHES
+  ORDINARY DENSITY -- the most generous (recruitment over an area larger than the object,
+  hard to justify) still needs 2.7e3 x nuclear; the most defensible needs 2.1e4. Inverted: a
+  nuclear vacuum supplies 4.2e4 strands under H4 against 8.7e8 required. FLAGGED, not claimed:
+  ~2e4 now appears three times in this sector (form-factor failure, ELEC-037 branch factor,
+  this shortfall) -- shared origin or coincidence, to be settled not leaned on. Upstream
+  question named: what region participates in a reconnection event. Corpus 282/282, 296 claims.
+
+### Addendum (2026-07-30) — ELEC-040: the coincidence dissolved; tension-matching appears
+- THE RECURRING 2e4 IS A TAUTOLOGY: F1, ELEC-036's branch A and branch B are all L0/L0_req,
+  one quantity written three ways; F3 = F1 x 0.986 by construction through ELEC-037's
+  invariant. Not evidence of anything -- the standing rule against underived coincidences is
+  discharged by deriving it away. THE DISCOVERY: the one-medium declaration forces a
+  constraint nobody imposed -- a rope must contain a WHOLE NUMBER of the medium's strands,
+  and the published electron contains 1.4e-4 of one (T_rope 0.2376 J/m vs T_strand 1.70e3).
+  That is a contradiction, not a tension. Imposing the minimal repair (exactly one strand)
+  selects s = 7.155e3, at which the scattering bound is missed by 3.0x instead of 2.1e4 -- a
+  7200x improvement from a constraint never tuned to it -- with the rope comfortably thinner
+  than the nuclear-density strand spacing, while the hbar shortfall degrades to 2.7e6 and
+  ELEC-037's invariant is conserved. REFRAMED: the scattering bound and tension-matching now
+  agree to within 3x; the hbar relation W = 1.80 T D^2/c is the lone outlier. Corpus 283/283,
+  297 claims.
+
+### Addendum (2026-07-30) — ELEC-041: clasp-and-loop survives the strand identification
+- NO CONFLICT: geometry and tension-matching are compatible, so neither must yield.
+  Shape ratios survive trivially (all dimensionless). STRAND COUNT CORRECTED to TWO, one per
+  link component -- a Hopf link cannot be one closed curve; the scale s = 7.155e3 is unchanged
+  (correction filed on ELEC-040). Contact coherent: the hard core IS the strand diameter, two
+  strands touching at one diameter, thickness/spacing 3.2e-3. NEW PHYSICAL CONSEQUENCE: R/w =
+  0.051 -- THE ELECTRON IS A 20-FOLD LOCAL COMPRESSION OF THE MEDIUM, i.e. a particle here is
+  not an object IN the vacuum but a local densification OF it. CHECK DEMOTED: the tension
+  bookkeeping (0.472 vs 0.484) is a TAUTOLOGY (T_strand cancels), not independent evidence --
+  filed prominently because it is exactly the kind of agreement that flatters. The hbar
+  relation remains the load-bearing outlier. Corpus 284/284, 298 claims.
+
+### Addendum (2026-07-30) — ELEC-042: what binds the pair
+- THE FORCE BUDGET, in ordinary units for the first time: field 1.43e4 N outward against
+  tension 1.34e4 N inward (balancing to 6% -- ELEC-010's virial as opposing forces), with the
+  clasp squeezing its partner at 1.07e4 N and the hard core supplying the reaction. An
+  electron as ~10 kN of tension against ~10 kN of field, contact one strand-diameter wide.
+  IS THE LINK ACTION-PROTECTED? No: the framework's own reconnection action at the electron's
+  scale is W_1 = 3.57e-43 J s = 3.4e-9 hbar. Nothing in the medium stops the strands
+  reconnecting and unlinking; the functional's topology is IMPOSED by certificate, not derived.
+  THE CONVERGENCE: a quantum-sized barrier needs n_t ~ 2.95e8, against ELEC-037's calibration
+  demand of 8.7e8 -- the same number within 3x, reached from STABILITY on one side and the
+  hbar normalization on the other, with no shared derivation. Two independent routes to one
+  demand: the sector's difficulty is not size, geometry or optimizer but a single missing
+  quantity -- HOW MANY STRANDS ACT AS ONE. Corpus 285/285, 299 claims.
+
+### Addendum (2026-07-30) — ELEC-043: the collective number derived; causality gives ~1
+- DERIVED, not assumed: transverse waves on a relativistic strand travel at exactly c
+  (v = sqrt(T/mu), mu = T/c^2 -- no free parameter), so participation in a reconnection is
+  limited to strands within c tau. Every local timescale gives n_t <= 1: core crossing
+  1.05e-5, object crossing 2.62e-3, whole length 0.155. NOT 111, NOT 1e8: ONE.
+- INVERTED: n_t = 2.95e8 requires coherence over R_c = 993 fm for 3.31e-21 s -- 3.36e5 times
+  the object's size AND light-crossing time. Not a local topological change.
+- VERDICT: the sector's two independent failures (scattering bound, hbar normalization) trace
+  to one missing quantity, now derived to be eight orders too small. The strongest negative
+  result the campaign has produced, and it comes from a wave speed the model cannot adjust.
+  ONE escape survives and is named: a PRE-CORRELATED medium (long-range order across ~1.7e4
+  spacings), a larger claim than what it replaces. FLAGGED not leaned on: R_c is within 2.6x
+  of the reduced Compton wavelength, but the ratio scales as s and is not an identity.
+- QGATE-008's n_t = 111 and this derivation cannot both stand: audit owed. Corpus 286/286,
+  300 claims.
+
+### Addendum (2026-07-30) — HBAR-001: hbar from a coherent standing wave
+- A NEW ROUTE, opened after ELEC-043 closed the reconnection one. For a relativistic strand
+  the fundamental mode's action is S = pi T A^2/(2c): THE LENGTH CANCELS, so the action
+  depends only on tension and amplitude -- the universality hbar requires, which reconnection
+  (whose action depended on a per-object geometry) never had. S = hbar at A = 3.441 fm.
+  Realised coherently at the largest crossing-free amplitude A' = w gives n = 3549 strands
+  over a region of radius 3.441 fm, which EQUALS A_hbar identically. THE CAUSALITY TEST that
+  killed reconnection: crossing/period = EXACTLY 0.500 -- a normal mode is causally
+  self-consistent by construction, so the objection cannot even be formulated. SCORECARD:
+  reconnection n_t = 3.0e8, causally impossible; standing wave n = 3549, causally consistent
+  -- an 8.3e4 improvement and a change of verdict. FLAGGED not leaned on: the coherent region
+  is within 22% of the classical electron radius (exact at T = 2535 N vs registered 1700 N),
+  T-dependent hence not parameter-free. NOT yet established: the coherence mechanism for the
+  3549, the amplitude cap, the boundary conditions, the surrounding medium's restoring role.
+  QGATE-008's hbar chain rested on reconnection and now has a superior alternative: audit
+  owed. Corpus 287/287, 301 claims.
+
+### Addendum (2026-07-30) — HBAR-002: the mechanism exists; the scale is not selected
+- THE POSITIVE: modelling the medium as a coupled strand lattice, holding n strands coherent
+  requires inter-strand wave speed c_perp >= c/2, i.e. coupling kappa_c = T/(4w^2) = Sigma/4 --
+  ONE QUARTER of the medium's own tension density. An order-unity fraction: no fine-tuning,
+  and exactly what a woven mesh supplies by construction. (Flagged: T/w^2 = Sigma is an
+  identity, not an independent check.)
+- THE NEGATIVE, and it matters more: with coherence available at every scale, the modes
+  carrying exactly hbar form a CONTINUUM -- 0.86 fm at 4w, 3.44 fm at 1w, 13.8 fm at 0.25w,
+  all S = hbar identically. HBAR-001's 3.441 fm followed from its amplitude cap A' = w, now
+  exposed as the load-bearing assumption; its celebrated self-consistency is a consequence of
+  that choice, not evidence for it (qualification filed).
+- THE GAP RESTATED HONESTLY: every account of hbar in this corpus produces an action of about
+  the right SIZE while leaving untouched why action is QUANTIZED. A classical medium with a
+  continuum of modes has a continuum of actions; hbar is a floor, and no mechanism here
+  supplies a floor. Named: what could quantize the family -- and the ELEC sector's linking
+  number is precisely the kind of integer that might. Corpus 288/288, 302 claims.
+
+### Addendum (2026-07-30) — HBAR-003: four quantizers tested; spin and hbar are one gap
+- Q1 CLOSURE fails: periodic BCs quantize the wavelength, not the amplitude; S is identical
+  at n = 1, 2, 5, 17. Q2 STRAND COUNT is partial: S = n x S_1 with S_1 = pi T w^2/(2c) is a
+  genuine action quantum -- the corpus's only one -- but 3549x too small. Q3 LINKING NUMBER
+  fails: the corpus's most certified integer does not appear in the mode action at all
+  (identical at |Lk| = 1, 2, 3). The instinct that topology should quantize the action is
+  reasonable and, in this framework, wrong -- knowing that saves the sessions it would cost.
+- Q4 ANGULAR MOMENTUM supplies the one exact coupling: L_ang = 2S, independent of frequency,
+  amplitude, length and medium. One unit of spin fixes S = hbar/2 at A = 2.433 fm.
+- THE RESULT: the framework's two most conspicuous omissions -- no spin, no hbar -- are the
+  SAME omission counted twice. ELEC-021's undelivered list shortens by one item. And what is
+  missing is not an integer but a PHASE: quantization comes from a complex amplitude being
+  single-valued around closed paths, and a real displacement is single-valued at any
+  amplitude. Named: search the ontology for a phase-like degree of freedom -- twist about the
+  strand axis is the obvious, geometrically natural candidate. Corpus 289/289, 303 claims.
+
+### Addendum (2026-07-30) — HBAR-004: the twist route fails; the topological family closes
+- THE PROMISING HALF: writhe IS quadratic in amplitude (doubling A multiplies Wr by 3.98,
+  3.92 at n=3), the same scaling as the action -- the mechanism was well-posed.
+- FAILURE 1: Calugareanu constrains the SUM. Lk integer does not force Wr integer; the TWIST
+  absorbs the remainder (Tw = Lk - Wr) while Wr varies continuously with amplitude.
+- FAILURE 2, decisive: writhe is DIMENSIONLESS -- identical (-0.019051) at (A,R) = (0.04,1),
+  (0.08,2), (0.40,10). Wr = 1 fixes only the ratio A/R = 0.2891, so the quantized action would
+  scale as R^2: 7.1e-9 hbar at R = 1e-18 m, 7.1e3 hbar at 1e-12 m. Not universal.
+- THE STANDING RESULT: every topological invariant is a pure number and hbar carries
+  dimensions, so 'invariant = integer' can fix a RATIO but never a SCALE. Imposing topology
+  reintroduces exactly the length that HBAR-001's derivation had cancelled. NO topological
+  route can supply a universal quantum of action -- the whole family is closed, not one member.
+  What remains: a new dimensionful constant in the strand physics, or a dynamical selection
+  (nonlinear saturation) that picks an absolute amplitude. HBAR-003's spin/action unification
+  is unaffected. Corpus 290/290, 304 claims.
+
+### Addendum (2026-07-30) — HBAR-005: the dimensional audit; hbar is mesoscopic
+- NEGATIVE: the medium has two independent lengths (w, d_c) plus T and c (rho = T/c^2w^2 is
+  not independent). Action must be S ~ T L^2/c, so the question is which length. hbar demands
+  L = sqrt(hbar c/T) = 4.312 fm. The medium's own actions: w -> 1.8e-4 hbar, d_c -> 1.9e-9,
+  sqrt(w d_c) -> 5.8e-7, w^2/d_c -> 17 hbar. None is hbar; the closest is short by 5575x, and
+  L_hbar = w^1.752 d_c^-0.752 has no natural exponent.
+- POSITIVE, and it reframes the sector: L_hbar = 74.7 w, so hbar is the action of a patch of
+  ~5575 strands. HBAR IS NOT FUNDAMENTAL HERE -- it is emergent and collective, and everything
+  below 4.3 fm is genuinely SUB-QUANTUM. The corpus's pilot-wave work (QGATE-011/012/013)
+  assumed a sub-quantum layer without a scale; it now has one, from an independent direction.
+- THE UNCOMFORTABLE COROLLARY, recorded as a live problem: an emergent hbar must explain why
+  it is constant to twelve digits when collective scales normally inherit their medium's
+  variability. This may be the sharpest empirical constraint the ontology faces -- sharper
+  than the electron's size, because hbar's constancy is far better measured than any particle
+  radius. Corpus 291/291, 305 claims.
+
+### Addendum (2026-07-30) — HBAR-006: constancy reduces to T w^2; the nuclear-scale prediction
+- PART 1 (negative, honest): hbar = N^2 T^2/(c^3 rho), reconstructing to 0.1%, so the medium
+  enters only via T^2/rho -- equivalently hbar c = N^2 T w^2. Constancy of hbar IS constancy
+  of tension x area-per-strand, requiring vacuum homogeneity to ~5e-13 in T and ~1e-12 in rho.
+  NO mechanism enforces this; homogeneity is assumed, not derived. The corpus now knows
+  precisely which assumption it is making, which is progress but is not a mechanism.
+- THE ROBUSTNESS CHECK PASSED: the electron's 20x local compression would naively depress
+  hbar 400x inside matter, but such regions are 1.7e-22 of an atom's volume, giving a bulk
+  perturbation of 7e-20 -- seven orders below the 1e-12 measurement. The framework survives
+  its own most obvious self-inflicted wound.
+- PART 2, THE PREDICTION: with the sub-quantum scale at 4.312 fm, an atom spans 1.85e12
+  sub-quantum cells (Born exact -- consistent with QGATE-013 and with all atomic experiments)
+  while a nucleus spans 1.56. NON-BORN STATISTICS ARE A NUCLEAR-SCALE EFFECT, invisible
+  atomically: the first quantitative link between the HBAR and QGATE families, and the first
+  in-principle-testable output of this quantum work. FLAGGED: 4.31 fm is a nuclear radius,
+  but T-dependent with no shared derivation -- coincidence until shown otherwise.
+  Corpus 292/292, 306 claims.
+
+### Addendum (2026-07-30) — HBAR-007: the equation of state is unique, natural, and unstable
+- DERIVED: for E(w) = [T + U(w)]/w^2, equilibrium gives w ~ T^(1/q) for U = C w^q, so
+  constancy of T w^2 forces q = -2 UNIQUELY -- an ATTRACTIVE inverse-square potential, with
+  |C| = hbar c/(2N^2) = 2.833e-30 J m matching the medium's own T w^2 to 0.1%.
+- CONVERGENCE: U ~ 1/w^2 per length means V ~ 1/r^3 in 3D -- dipole-dipole, i.e. ORIENTED
+  strands. Orientation is exactly what HBAR-003 identified as the missing phase. Three
+  independent lines now point at the same structure.
+- THE OBSTRUCTION: E'' = -4T/w^4 < 0 at the equilibrium. IT IS A MAXIMUM. The unique
+  constancy-preserving medium is unstable against collapse.
+- THE TRADE, which is the real finding: stabilising with D/w^6 spoils constancy at order
+  3DT/(4|C|^2), so holding hbar to 1e-12 demands the stabiliser be 1.5e12 times weaker than
+  the attraction. STABILITY AND CONSTANCY ARE PURCHASED AGAINST EACH OTHER at a 1e12
+  fine-tuning -- the sharpest thing the corpus has said about its own vacuum.
+- THE ESCAPE, named not tested: if w is set by cosmological history rather than force balance,
+  no equation of state is needed and uniformity is inherited from initial conditions. That
+  makes hbar's constancy a fact about the early universe. Corpus 293/293, 307 claims.
+
+### Addendum (2026-07-30) — HBAR-008: the dipole gives the form, not the magnitude
+- STEP 1 SUCCEEDS EXACTLY: integrating an inverse-cube pair potential along two parallel
+  strands gives U(w) = (2kp^2/w^2)[1 - 2cos^2 phi] -- the 1/w^2 form HBAR-007 requires falls
+  straight out, with no adjustable step (line integrals verified at w = 0.5, 1, 2).
+- STEP 2 FAILS BY SYMMETRY: the lattice sum over aligned dipoles is EXACTLY zero (square
+  -3.2e-15, triangular -1.7e-15) -- attraction along the dipole is cancelled by repulsion
+  across it. METHODOLOGICAL NOTE FILED: the first attempt gave -9.6e-2 for the triangular
+  lattice, a BOUNDARY ARTIFACT (x = m + n/2 leaves an index box equal to the cutoff radius);
+  doubling the box sends it to 1e-15. Caught because the symmetry argument predicted zero and
+  the number disagreed -- theory checking computation.
+- STEP 3: anisotropy breaks the cancellation. Compression along the dipole axis gives net
+  attraction (-2.21 at a=0.7, -0.49 at a=0.9), stretching gives repulsion. NET ATTRACTION
+  REQUIRES AN ORDERED, ANISOTROPIC VACUUM WITH A PREFERRED DIRECTION -- a substantive new
+  requirement, and one the Lorentz-invariance question must now be put to.
+- STEP 4: the dipole direction is a genuine periodic angle -- exactly the structure HBAR-003
+  found missing -- whose conjugate momentum is L = 2S, so Bohr-Sommerfeld gives S = n hbar/2.
+  The framework now has somewhere to PUT quantization; the postulate is still imported.
+  Corpus 294/294, 308 claims.
+
+### Addendum (2026-07-30) — HBAR-009: the two compressions are not the same
+- FOUR INDEPENDENT FAILURES. (1) LOCALITY: the requirement is global (hbar is measured in
+  vacuum) while the compression covers 7.3e-22 of an atom, 2.3e-22 of iron, and zero of empty
+  space. (2) DIRECTION: a global axis is needed; ELEC-041's compression is radial about each
+  particle and averages to zero. (3) CIRCULARITY: the 20x figure came from a calibration that
+  already used hbar. (4) CONSEQUENCE, the decisive one: if compression supplied the equation
+  of state, hbar would differ between vacuum and solid -- it does not. The hypothesis is
+  CONTRADICTED, not merely unsupported.
+- THE CONVERGENCE, which is the session's real product: HBAR-007's cosmological escape (w set
+  by history) and HBAR-008's demand for a global preferred direction are ONE requirement in
+  two costumes. A medium laid down at formation with an ordered orientation supplies both the
+  uniformity no equation of state could enforce and the axis no symmetric lattice can provide.
+- IT MOVES THE PROBLEM RATHER THAN SOLVING IT: the framework now needs a cosmology, and one
+  whose preferred direction survives Lorentz tests bounded at 1e-17 to 1e-20. hbar's constancy
+  now rests on an initial condition rather than a mechanism. Corpus 295/295, 309 claims.
+
+### Addendum (2026-07-30) — HBAR-010: the medium meets cosmology
+- THE CHAIN: hbar ~ w^2; if the medium comoved, w ~ a(t) and hbar ~ a^2, giving hbar four
+  times smaller at z = 1. Quasar-spectrum bounds on dimensionless constants (1e-5 to 1e-6)
+  EXCLUDE THIS BY 7.5e4. The medium cannot breathe with the universe.
+- THE BOUND, the useful output: |dw/w| < 5e-6 over the observed redshift range -- the strand
+  lattice must be decoupled from cosmic expansion to ONE PART IN 2e5 over ten billion years.
+  This is the first quantitative demand the quantum sector has placed on the cosmological one.
+- WHAT IT FORCES: either (A) no metric expansion, with redshift from another cause -- and the
+  gravity sector already carries redshift claims (GRV-010/011/014/034/039), so this is not an
+  emergency invention -- or (B) an expanding universe with a rigid non-expanding substrate,
+  i.e. a preferred frame.
+- THE PREDICTION, stated as an asset: a rigid medium defines a rest frame, the CMB defines a
+  rest frame, and the framework predicts THEY COINCIDE. A mismatch appears at (v/c)^2 = 1.5e-6.
+  This is the sector's second falsifiable statement in two sessions, after HBAR-006's
+  nuclear-scale Born violation. FLAGGED not leaned on: a preferred direction would show as a
+  CMB quadrupole, but the coupling is uncomputed. Corpus 296/296, 310 claims.
+
+### Addendum (2026-07-30) — XSEC-001: the first cross-sector audit, and a shared prediction
+- THE COLLISION: GRV-030's headline result (g_dagger = cH0/2pi = 1.083e-10, confirmed on 155
+  SPARC galaxies at zero free parameters) contains an EXPANSION RATE, while HBAR-010 requires
+  the medium to be RIGID against expansion to 1 part in 2e5. Two programmes run side by side
+  for a year, forced into one room, collided immediately -- which is what a corpus is FOR.
+- THE DISCRIMINATOR: under LCDM, H(z)/H0 = 1.31, 1.76, 2.97, 4.46 at z = 0.5, 1, 2, 3, so a
+  tracking g_dagger grows 3.3x by z=3. A rigid medium cannot. RIGIDITY PREDICTS g_dagger DOES
+  NOT EVOLVE.
+- THE ONLY SURVIVING READING: g_dagger = c^2/(2 pi L) with L the medium's FIXED extent (the
+  horizon at formation), algebraically identical to the gravity sector's formula, no new
+  parameter. It reinterprets rather than rescues -- but does not explain why that extent
+  equals c/H0 today: the cosmic coincidence problem, inherited honestly.
+- THE PAYOFF: galaxies at z = 1-2 must show the SAME acceleration scale as local ones, against
+  1.8x and 3.0x for any H(z)-tracking cosmology. High-z disc kinematics exist. Third
+  falsifiable statement in three sessions, and the first TWO SECTORS are jointly committed to.
+  Corpus 297/297, 311 claims.
+
+### Addendum (2026-07-30) — XSEC-002: g_dagger is universal; the first joint commitment tested
+- INDEPENDENT REPRODUCTION: a from-scratch pipeline on the shipped SPARC data (175 files, 139
+  fitted) returns median g_dagger = 1.092e-10 against GRV-030's zero-parameter prediction of
+  1.083e-10 -- 0.9%, by a route that could have disagreed.
+- THE SCARE: the full sample showed corr(log Vmax, log g_dagger) = +0.191 at p = 0.025 -- the
+  exact result that would have falsified XSEC-001's surviving reading. IT IS A SAMPLING
+  ARTIFACT: >=10 points gives r = +0.074 (p = 0.48); >=1 dex g_bar span gives r = -0.076
+  (p = 0.59); all three cuts (n = 49) gives r = -0.088 (p = 0.55). Galaxies whose curves never
+  reach the low-acceleration regime cannot constrain where that regime begins.
+- METHODOLOGICAL RULE, twice-earned: a correlation in a FITTED parameter must be checked
+  against the conditions under which that parameter is IDENTIFIABLE, before it is checked for
+  significance. Permutation tests say nothing about whether a quantity was measurable.
+- VERDICT: g_dagger universal on the clean subsample (median 1.103e-10, scatter 0.294 dex).
+  The medium-extent reading survives its first data test; the sharper high-z test still needs
+  data the repository lacks. Corpus 298/298, 312 claims.
+
+### Addendum (2026-07-30) — XSEC-003: the high-redshift test runs; the prediction HOLDS
+- DATA: RC100 (Nestor Shachar et al. 2023, ApJ 944:78) Table B1 -- 100 discs at z = 0.6-2.5
+  with fDM(Re), V_circ(Re), Re. Closed-form estimator: g_dagger = g_bar/[ln fDM]^2.
+- CONTROL FIRST: the same single-point estimator on 2597 SPARC points gives 1.225e-10 vs the
+  full-curve 1.09e-10 -- BIASED HIGH BY 1.13x. Comparison made against the local value
+  measured the same way, not the published number.
+- RESULT: z~0.83 (n=32) 1.878e-10; z~1.50 (n=27) 1.384e-10; z~2.22 (n=41) 1.284e-10.
+  Against A (constant): +2.5, +0.7, +0.3 sigma. Against B (~H(z)): -0.2, -4.2, -7.4 sigma.
+  Trend: d log g_dagger/d log(1+z) = -0.381 +/- 0.392 vs A 0.000 (-1.0 sigma) and B +1.111
+  (-3.8 sigma). THE ACCELERATION SCALE DOES NOT TRACK H(z).
+- The medium-extent reading forced by XSEC-001 is what the data show. KEPT: the lowest bin is
+  +2.5 sigma high and is the only bin favouring B -- recorded, not smoothed.
+- NOT a confirmation: one sample, one collaboration, whose beam-smearing corrections bias
+  TOWARD hypothesis A. A survival pending independent reduction. GRV-030's g_dagger should
+  now be read as c^2/(2 pi L_medium), not c H0/2pi. Corpus 299/299, 313 claims.
+
+
+## v2.5.0 (2026-07-31)
+Release cut -- THE CHAIN FROM THE ELECTRON TO THE SKY, AND THE FIRST PREDICTION THAT HELD.
+See docs/RELEASE_NOTES_v2.5.0.md. Corpus: 313 claims (102 Derived, 180 Modeled, 4
+EFT-constrained, 3 Conjecture, 5 Open, 19 Failed-and-kept), 299 benchmark-backed and passing,
+60 papers. Thirty-three claims and two new families. The electron campaign completes: the void
+residual metric caught (ELEC-023), the stationarity saga resolved into 'the landscape is benign
+and the search is the bottleneck' (ELEC-033/035), the form-factor trilemma quantified
+(ELEC-036), a scale-invariant no-go proved (ELEC-037), the one-medium declaration taken and
+priced (ELEC-038/039), the electron identified as a two-strand bound pair and a twentyfold
+local compression (ELEC-041/042), and the collective number DERIVED to ~1 against a
+requirement of 1e8 (ELEC-043). The quantum sector opens: the standing-wave route with its
+length cancellation (HBAR-001), the continuum problem (HBAR-002), spin and action shown to be
+one gap (HBAR-003), topology closed as a family (HBAR-004), hbar shown MESOSCOPIC at 4.3 fm
+with a nuclear-scale Born-violation prediction (HBAR-005/006), the unique-but-unstable
+equation of state (HBAR-007), the dipole giving form without magnitude (HBAR-008), and the
+rigidity bound (HBAR-010). And the cross-sector family: the collision (XSEC-001), the local
+reproduction to 0.9 percent (XSEC-002), and THE HIGH-REDSHIFT TEST -- g_dagger does not track
+H(z), hypothesis B excluded at 7.4 sigma on RC100 (XSEC-003). Still no physical electron;
+hbar diagnosed not derived; the best result a survival, not a discovery.
+
+### Addendum (2026-07-31) — XSEC-004: the replication fails, and XSEC-003 is reopened
+- KROSS (Harrison+2017, 586 galaxies, DIFFERENT collaboration and beam-smearing treatment)
+  was run as the independent check XSEC-003 lacked. 303 galaxies survive quality cuts at
+  <z> = 0.85 -- the same redshift as RC100's discrepant bin.
+- IT CANNOT DISCRIMINATE: KROSS gives stellar masses only and undrift-corrected velocities,
+  so gas fraction and pressure support must be assumed. Across defensible choices g_dagger
+  ranges 9.3e-11 to 7.4e-10 -- a factor 8 against a signal of 1.61. THE ASSUMPTIONS OUTWEIGH
+  THE EFFECT FIVEFOLD.
+- AND THE SAMPLES DISAGREE: median fDM = 0.395 (RC100) vs 0.668 (KROSS) at the same z.
+- THE FINDING THAT MATTERS: RC100's M_baryon is a FITTED parameter of its rotation-curve
+  model (Table B1 lists M* and M_baryon separately, differing in both directions), so g_bar
+  is not independent of g_obs and XSEC-003 IS PARTLY CIRCULAR -- the same failure as
+  ELEC-023's void gres, in astronomical costume. Correction filed on XSEC-003.
+- STATUS: the acceleration-scale prediction is UNTESTED at high redshift -- not confirmed,
+  not refuted. XSEC-001's reasoning and XSEC-002's local reproduction (SPARC masses are
+  photometric) both stand. Needed: a high-z sample with PHOTOMETRIC baryonic masses INCLUDING
+  gas. Corpus 300/300, 314 claims.
+- (Same pass, integrator note) The first attempt to annotate XSEC-003 aborted on its own
+  anchor assertion before writing, so an interim package carried XSEC-004 without the
+  correction on the claim it corrects. Anchor relocated, correction filed, tree re-verified
+  and repackaged.
+
+### Addendum (2026-07-31) — XSEC-005: the photometric re-run; XSEC-003 is void
+- RC100's Table B1 gives photometric log M* separately from the fitted log M_baryon. THE
+  SMOKING GUN: their ratio has median 1.549 but a 16-84 range of 0.83-2.34, and in 22% OF
+  GALAXIES THE FIT DEMANDS LESS BARYONIC MASS THAN THE OBSERVED STARS. A gas correction can
+  only ADD mass. The parameter was absorbing kinematic residuals.
+- PHYSICALITY: under a Tacconi gas scaling, 51/100 galaxies have g_bar > g_obs (unphysical);
+  35 fail at half that gas; only stars-only keeps the sample (86 usable) and that understates
+  the baryons by construction.
+- THE RESULT: stars-only gives bins of 5.56e-10, 2.82e-10, 3.71e-10 -- non-monotonic,
+  mutually inconsistent, all >3 sigma from hypothesis A. XSEC-003's clean trend was an
+  ARTIFACT OF THE FITTED MASSES, and no trend replaces it.
+- SECOND OCCURRENCE of ELEC-023's failure mode (a self-consistent metric measuring nothing),
+  now in a different sector -- a recurring hazard of using derived quantities without auditing
+  provenance, not an accident of one method.
+- STATUS: XSEC-001's reasoning stands; XSEC-002's LOCAL reproduction stands (SPARC masses are
+  photometric); the REDSHIFT BEHAVIOUR IS UNMEASURED. v2.5.0's release notes amended with a
+  post-release correction. Corpus 301/301, 315 claims.
+
+### Addendum (2026-07-31) — XSEC-006: PHIBSS removes the circularity; the question stays open
+- PHIBSS (Tacconi+2013): MEASURED CO gas masses + photometric stellar masses -- the first
+  sample where NEITHER mass is fitted to the kinematics. 34 rotating disks, f_gas = 0.47.
+- IT STILL CANNOT SETTLE IT: only 7 galaxies at z > 1.7 (no high-z lever), and at z ~ 1.19
+  the four defensible conventions give 1.68e-10, 3.07e-10, 9.77e-11, 2.10e-10 -- splitting
+  2-2 between the hypotheses. Removing the circularity reveals that the systematics alone
+  span the effect.
+- CORRECTION TO XSEC-005 (one session old): the baryon-super-critical epidemic was blamed on
+  the gas prescription. WRONG. PHIBSS with MEASURED gas gives 41-68% super-critical depending
+  only on radius convention and pressure correction. THE GAS WAS INNOCENT; the cause is the
+  single-point estimator applied to baryon-dominated high-z discs.
+- THE METHODOLOGICAL LESSON: this investigation used a closed-form estimator BECAUSE the
+  tables did not permit a fit, and the estimator's convenience was the whole problem.
+  XSEC-002's local result is trustworthy because SPARC ships resolved curves. "The data only
+  allow a shortcut" is a warning, not a constraint.
+- WHAT WOULD WORK: resolved V(R) at z > 1, not summary tables. Ten galaxies with real curves
+  would settle what three hundred table entries cannot. Corpus 302/302, 316 claims.
+
+### Addendum (2026-07-31) — NUCQ-001: the nuclear sector refutes the mesoscopic-hbar picture
+- The corpus went looking for a prediction MOND cannot make. HBAR-006 supplied one: hbar as
+  the action of a ~4.3 fm patch means Born statistics can fail only where a system approaches
+  that size -- the nucleus.
+- TEST 1, THE PARAMETER CLASH: NUC-004's Yukawa range (1.4 fm, the nuclear sector's one free
+  parameter) versus HBAR-005's derived 4.312 fm. Ratio 3.08, matching no simple constant
+  (pi within 2%, FLAGGED not used). Inverted, the two sectors demand strand tensions differing
+  by 9.5x -- structurally the same failure as XSEC-001, and forbidden by ELEC-038's one-medium
+  declaration.
+- TEST 2, DECISIVE: patches (R/L_hbar)^3 give He-4 0.086, C-12 0.259, O-16 0.345, Fe-56 1.207,
+  Pb-208 4.482, U-238 5.128. EVERY nucleus is under two patches. On this picture all of nuclear
+  physics is sub-quantum -- yet the shell model, ab initio no-core calculations and lattice QCD
+  all use standard QM in exactly these nuclei, to percent-level accuracy, with no non-Born
+  statistics ever reported. THE PREDICTION FAILS.
+- BOTH TESTS INDICT THE SAME NUMBER: T = 1.70e3 N, inherited from the scale branch, never
+  independently verified, carrying HBAR-001 through HBAR-010 entirely -- and too small by
+  roughly an order of magnitude on both counts.
+- THE HONEST POSITION: the corpus does not currently possess a distinctive testable
+  prediction. The local acceleration scale is shared with MOND, the redshift test is beyond
+  available data, and the nuclear prediction is refuted. Next: audit T from first principles;
+  if it survives unchanged, register the mesoscopic-hbar picture as FAILED. Corpus 303/303,
+  317 claims.
+
+### Addendum (2026-07-31) — NUCQ-002: the tension audit; NUCQ-001 demoted to conditional
+- T's PROVENANCE: T0 = T_tube/n_t with T_tube = 1.878e5 N, a MEASURED hadronic flux-tube
+  tension (the QCD string tension, 1.60e5 N, is the same scale). The independent route
+  Sigma a^2/3 with a = 1e-16 m gives the same 1.70e3 N. T IS DERIVED, NOT FITTED -- better
+  provenance than feared. And a <= 1e-16 m is a LORENTZ BOUND already sat at, so T cannot be
+  raised by enlarging a.
+- THE REAL FINDING, a conflation hiding in plain sight: n_t = 111 serves TWO distinct
+  quantities -- how many strands COMPOSE a flux tube, and how many ACT COHERENTLY in a
+  reconnection. ELEC-043's causal derivation (~1) constrains only the second. The first has
+  never been derived.
+- CONSEQUENCE: He-4 patch counts go 0.1 (n_t=111), 2.4 (12), 12.4 (4), 99.3 (1). NUCQ-001
+  refutes n_t = 111, NOT the mesoscopic-hbar picture. Amendment filed there.
+- COINCIDENCE TESTED AND REJECTED: n_t ~ 11.6 would put the quantum scale exactly at the
+  Yukawa range, and 12 is the close-packing coordination number -- but it moves to 9.9 under
+  the canonical string tension. Not a prediction. Flagged, not used.
+- THE SINGLE MOST CONSEQUENTIAL OPEN NUMBER is now the STRUCTURAL n_t: how many strands does
+  a flux tube contain, and what fixes it? Both the nuclear and matter sectors can attack it.
+  Corpus 304/304, 318 claims.
+
+### Addendum (2026-07-31) — NUCQ-003: the strand count derived; the mesoscopic-hbar picture REFUTED
+- WHAT FIXES n: R_tube = a sqrt(n/(3 pi)), i.e. n = 3 pi (R_tube/a)^2 -- uses only the Lorentz
+  bound and the tube radius, NOT rho_vac, so it escapes the circularity that made NUCQ-002's
+  route unusable. Against lattice QCD's 0.35-0.5 fm this gives n = 115-236, bracketing the
+  corpus's 111: CONFIRMED by measurement, not chosen. And a is an upper bound, so n >= 115.
+- THE ONE POSITIVE: run forward at n = 111 and the framework PREDICTS R_tube = 0.343 fm with
+  no free parameters, against lattice 0.35-0.5 fm. A genuine parameter-free agreement with
+  strong-interaction phenomenology, and it survives everything else here.
+- THE REFUTATION: n has a FLOOR, so every allowed value drives L_hbar UP (4.40, 5.03, 6.30 fm
+  at n = 115, 150, 236) and the He-4 patch count DOWN (0.081, 0.054, 0.027). The Born failure
+  gets WORSE, never better. NUCQ-002's escape is closed; NUCQ-001 restored to unconditional.
+- THE MESOSCOPIC-HBAR PICTURE IS REFUTED. HBAR-005 required hbar to be the action of a ~4 fm
+  patch; nuclei are 2-7 fm across and QM works in them to percent accuracy; and the strand
+  count that would rescue it is excluded by the strong-interaction data the framework
+  otherwise fits. Registered Failed and kept.
+- Both routes to hbar are now closed: reconnection by ELEC-043, standing waves by this claim.
+  Next: audit which of HBAR-001..010 survive independently (the action formula S = pi T A^2/2c
+  and L = 2S do not depend on the patch scale). Corpus 305/305, 319 claims.
+
+### Addendum (2026-07-31) — NUC-010: the kinetic/zero-point diagnosis is REFUTED
+- Four claims (NUC-005/006/009 and their notes) carried "the kinetic/zero-point omission" as
+  the sole explanation for their residual baseline. It had never been computed. Computing it
+  takes one session and kills it.
+- THE DERIVED TERM HAS NO FREEDOM: saturation density -> k_F = 1.360 fm^-1 -> E_F = 38.3 MeV
+  -> <E_kin>/A = 23.0 MeV, and E_kin ~ rho^(2/3) ~ z^(2/3) gives kappa = 4.389 MeV.
+  RESULT: RMS 0.888 (no kinetic) -> 2.000 MeV (derived kinetic). 2.25x WORSE. A = 8-16 swing
+  from +0.5 overbinding to -1.7/-2.9 underbinding.
+- SECOND CORRECTION, to an in-session intuition: a CONSTANT kinetic term is NOT absorbed by
+  recalibration -- it inflates eps and amplifies the spread in bonds/A. RMS 0.888 -> 2.026 ->
+  4.789 at E_kin/A = 0, 10, 23 MeV.
+- WHAT HELPS ISN'T KINETIC: free scanning finds p = 1/3, kappa = 3.700, RMS = 0.415 (half the
+  baseline). But z^(1/3) means E ~ rho^(1/3) ~ 1/r -- a surface-tension or length scaling, not
+  confinement (which is rho^(2/3), the exponent that fails). Two fitted parameters, no
+  derivation: a HINT, not a result.
+- The sector was looking in the wrong place and now knows which place, and roughly the shape
+  of the right answer. Named: find what scales as rho^(1/3) in a contact-bonded droplet
+  (surface tension of the bond network); re-examine NUC-006's surface/volume miss (2.05 vs
+  1.16) in that light -- they may be one defect seen twice. Corpus 306/306, 320 claims.
+
+### Addendum (2026-07-31) — NUC-011: two defects, not one; surface relaxation identified
+- TEST 1, the unification REFUTED: NUC-010's z^(1/3) term does NOT fix NUC-006's surface/volume
+  miss. Applying kappa z^p moves the ratio the WRONG WAY (2.052 -> 2.088 at p=1/3, -> 2.113 at
+  p=2/3). The reason is a sign argument, not an accident: any correction costing more where
+  coordination is higher lowers a_V faster than a_S, driving the RATIO UP. This rules out the
+  whole family of interior-penalising corrections as an explanation for the surface miss.
+- TEST 2, SURFACE RELAXATION -- the sector's first forward motion in three sessions. NUC-006's
+  droplet holds nucleons on a RIGID lattice. Adding the contact core the model already assumes
+  and letting the cluster relax: a_V 7.422 -> 8.521, a_S 18.641 -> 17.104, ratio 2.512 ->
+  2.007, R^2 0.9430 -> 0.9626. Every quantity moves the right way at once, and 37% of the gap
+  to the empirical 1.16 closes WITH NO NEW FREE PARAMETER.
+- NOT CLAIMED: 2.007 is still 73% above 1.16. A mechanism, not a solution. The honest question
+  is what supplies the other 63% -- diffuse surface density and quantum delocalisation of the
+  outermost nucleons are the candidates, the second being the omission NUC-010 just showed is
+  not a simple kinetic term.
+- Named: diffuse (Fermi-function) surface profile; re-test NUC-010's optimum on the RELAXED
+  geometry, since the two have never been run on the same configuration; strike the
+  shared-diagnosis language from NUC-006. Corpus 307/307, 321 claims.
+
+### Addendum (2026-07-31) — NUC-012: the diffuse surface is worth only 10%
+- The diffuseness is MEASURED: 0.54 fm against an fcc spacing of 2.03 fm (from saturation
+  density) gives a_diff = 0.1884 lattice units. Nothing tuned.
+- RESULT: sharp a_V = 9.169, a_S = 26.018, ratio 2.837, R^2 0.9139; diffuse a_V = 8.092,
+  a_S = 21.655, ratio 2.676, R^2 0.9373. Right sign, better fit -- and only 10% of the gap
+  closed, against relaxation's 37%.
+- COMBINED ESTIMATE (flagged: NOT computed jointly): 2.007 x 0.943 = 1.893 vs target 1.16.
+  63% remains. Two real, parameter-free mechanisms and the majority of the discrepancy still
+  unexplained.
+- METHOD CAVEAT, and it reaches back through the sector: an fcc droplet has geometric shell
+  closures, so the N-ladder is intrinsically bumpy (N = 43 and 55 invert) and R^2 never
+  exceeds 0.94. EVERY surface/volume number here, including NUC-006's original 2.05, inherits
+  that noise. The corpus should stop quoting these to three figures until the ladder is denser.
+- Named: run relaxation and diffuseness JOINTLY; densify the N-ladder and re-derive NUC-006's
+  baseline WITH ERROR BARS; and ask whether a classical droplet can reach 1.16 in principle --
+  a question about the model class, not its parameters. Corpus 308/308, 322 claims.
+
+### Addendum (2026-07-31) — NUC-013: YES the class can reach 1.16; the range was 2.05x too long
+- THE ANALYTIC ANSWER: an ideal NN fcc droplet with (111) faceting gives sum(12-z) =
+  13.30 N^(2/3), hence a_V = 6 eps, a_S = 6.649 eps, RATIO = 1.108 -- essentially the
+  empirical 1.16, from geometry alone. Numerically a round droplet gives 1.327-1.356 at
+  R^2 = 0.998-0.9995. THE EMPIRICAL VALUE LIES BETWEEN THEM. The model class was never barred.
+- THE DEFECT IS A UNITS ERROR: NUC-006 set the Yukawa range to the lattice constant, i.e.
+  L/spacing = 1.414, while the sector's OWN strong-force range (1.4 fm, NUC-004) against the
+  saturation spacing (2.03 fm) demands 0.691. The model has been running a nuclear force
+  2.05x too long-ranged, and a long force counts far more missing partners at a surface.
+- FIXING IT: ratio 2.518 (lambda=1.0) -> 1.684 (lambda_phys=0.489), closing 61% of NUC-006's
+  gap with NO new parameter and improving R^2 at every step (0.9961 -> 0.9997).
+- NUC-011 and NUC-012 FLAGGED (not retracted): their mechanisms stand, but their 37% and 10%
+  were measured against a baseline built on the wrong range and must be re-measured.
+- THE WIDER LESSON, now met in three sectors this week (ELEC-023's void metric, XSEC-003's
+  fitted baryons, and a force range in lattice units): every imported constant should be
+  re-expressed in the receiving calculation's units FROM ITS PHYSICAL DEFINITION, not copied.
+  Corpus 309/309, 323 claims.
+
+### Addendum (2026-07-31) — NUC-014: the joint re-run reverses both mechanisms
+- ONE lattice, ONE N-ladder (55-683), lambda_phys = 0.4886, and a core rc = 0.5651 matched so
+  the PAIR EQUILIBRIUM SITS AT THE LATTICE SPACING -- without which "relaxation" only measures
+  a mismatched core. All fits R^2 >= 0.9986.
+- THE LADDER: pure contact 1.372 | + Yukawa tail 1.884 | + matched core 1.942 | + relaxation
+  2.030 | + diffuse surface 2.206 | + both 2.278. EMPIRICAL 1.160.
+- BOTH OF THIS SESSION'S MECHANISMS ARE REVERSED. NUC-011's 37% and NUC-012's 10% were
+  measured against a baseline with a force range 2.05x too long and (for NUC-011) a mismatched
+  core, so its "relaxation" was largely escape from artificial compression. Repaired, both
+  RAISE the ratio. Reversals filed on both claims -- mechanisms stand, signs do not.
+- WHY THE CORE HURTS (structural, not numerical): ratio = (A_S - R_S)/(A_V - R_V), and the
+  r^-12 core is effectively nearest-neighbour with its own ratio ~1.1, below the attraction's
+  1.88. Subtracting a lower-ratio component from both terms RAISES the combined ratio.
+- THE FINDING: the model is CLOSEST to nuclear reality when SIMPLEST. Every physically-motivated
+  elaboration walks it monotonically away from 1.16. That is a clue about what nuclear surface
+  energy is -- a quantum Fermi-surface quantity that a bond count may be mimicking
+  combinatorially rather than deriving.
+- Named: amend NUC-006's range-inflated 2.05; and test whether 1.372 survives a DIFFERENT
+  lattice (bcc, hcp) -- lattice-independent means geometry, lattice-dependent means accident.
+  Corpus 310/310, 324 claims.
+
+### Addendum (2026-07-31) — NUC-015: the ratio is geometry; the coordination number cancels
+- DERIVED: for a contact-bonded droplet, orientation-averaged bond-cutting gives
+  sum(z - z_i) = (z d/4)(36 pi)^(1/3) rho^(1/3) N^(2/3), so with a_V = z/2 the
+  RATIO = (d/4)(36 pi rho)^(1/3). THE COORDINATION NUMBER CANCELS EXACTLY -- the lattice
+  enters only through the packing density, and only as its cube root.
+- CONFIRMED on four lattices: fcc 1.342 (analytic 1.357), hcp 1.343, bcc 1.334 (analytic
+  1.319), sc 1.395 (analytic 1.209). fcc and hcp agree to 0.1%; BCC has TWO-THIRDS of fcc's
+  coordination and differs by ONE PERCENT. sc is the understood outlier (+15%): a cubic
+  droplet is strongly faceted and breaks the orientation average.
+- WHAT IT SETTLES: NUC-014's question answered -- 1.37 was NOT fcc luck. Every close-packed
+  arrangement gives 1.33-1.34 from geometry alone, parameter-free.
+- WHAT IT SHARPENS: the model predicts 1.34, nature gives 1.16, and the 15% gap is now
+  parameter-free on the model side -- much better than NUC-006's 2.05 (mostly a units error)
+  and much worse than a solution, because there is nowhere in the geometry left to hide.
+  Whatever explains the residual is not packing, not coordination, not the lattice.
+- The honest candidate: nuclear surface energy is a Fermi-surface quantity; a bond count gets
+  the SCALING (saturation is combinatorial) but the COEFFICIENT is quantum. A 15% residual
+  between a classical count and a quantum surface tension is about what one should expect --
+  and NUC-011..014 spent four claims showing every classical mechanism pushes the wrong way.
+  Corpus 311/311, 325 claims.
+
+### Addendum (2026-07-31) — NUC-016: the parameter-free surface result was a facet formula
+- NUC-005's headline ("surface nucleons miss ~3 of 12; a_S/a_V = 1.108 vs 1.130, 2%") assumes
+  a (111) FACET. A direct census of spherical droplets: N=201 mean deficit 4.44; N=459, 4.01;
+  N=923, 3.88 -- with z running from 3 to 11. Surface atoms on a SPHERE miss 3.9-4.4 bonds,
+  not 3, because only a minority of a sphere's surface is (111)-like.
+- CONSEQUENCE: NUC-015's derived sphere value is 1.34, so the parameter-free prediction misses
+  by ~18%, not 2%. Correction filed on NUC-005.
+- AND THE TARGET IS A RANGE: SEMF fits give 1.084 (Krane), 1.127 (Bethe-Weizsacker), 1.130
+  (Wapstra), 1.158 (common) -- a 7% spread. The corpus has quoted 1.130 AND 1.16 in different
+  claims as though each were "the" empirical value. Any discrepancy under ~7% in this ratio is
+  not currently measurable against the literature.
+- WHAT SURVIVES IS THE BETTER RESULT: NUC-005's VOLUME coefficient -- one constant on Ca-40
+  predicting a_V = 16.21 vs 15.75 -- is an ABSOLUTE energy scale to 3%, untouched. The sector
+  has been leading with the weaker of its two results.
+- Named: quote 1.34 as the model's surface prediction; adopt ONE empirical SEMF reference set
+  corpus-wide; and put effort into the volume coefficient, testing it against nuclear-matter
+  saturation rather than a nucleus. Corpus 312/312, 326 claims.
+
+### Addendum (2026-07-31) — NUC-017: the contact picture meets nuclear saturation
+- THE ONE PARAMETER-FREE PREDICTION of NUC-002's contact ontology, never previously checked:
+  nuclear density from the nucleon size alone.
+- FAILS AT THE CHARGE RADIUS: R = 0.8414 fm gives rho = 0.2968 vs observed 0.170 -- 1.75x too
+  dense. At the true density nucleons fill 42.4% of the volume, BELOW random close packing
+  (64%) and far below fcc (74%). Nuclear matter is not a lattice of touching charge
+  distributions, and claim text should stop calling it close-packed.
+- CONSISTENT AT THE CONFINEMENT RADIUS: bag fits give R = 0.8-1.1 fm -> rho = 0.133-0.345,
+  a band 2.6x wide containing 0.170. Real agreement at R = 1.0 (1.04x) but at the band's
+  centre: a CONSISTENCY CHECK, not 4% agreement.
+- THE TESTABLE DEMAND: a contact lattice at the observed density requires R_contact = 1.013 fm,
+  21% above the charge radius -- natural for a bundle (contact at the boundary, not where the
+  charge sits) and now a specific commitment the framework carries.
+- CORRECTS AN INPUT: NUC-005 uses d0 ~ 1.9 fm; the observed saturation spacing is 2.026 fm,
+  so the input is 6% low -- not negligible for an absolute energy scale quoted to 3%.
+- THE STRUCTURAL LIMIT: no purely attractive model with a repulsive core has an interior
+  density minimum; it collapses to contact. Saturation at 42% packing cannot come from this
+  model's energetics. NUC-010 hit the same wall from the kinetic side -- two independent routes
+  to the same conclusion, that the missing physics is quantum. Corpus 313/313, 327 claims.
+
+### Addendum (2026-07-31) — NUC-018: NUC-005 re-derived on corrected inputs
+- BOTH corrections applied. Spacing 1.9 -> 2.026 fm (NUC-017) and surface ratio 1.108 -> 1.34
+  (NUC-016), feeding NUC-005's Ca-40 calibration:
+    as registered      ratio 1.108, d0 1.900 -> a_C 0.823, a_V 16.21 (+2.9%)
+    + spacing          ratio 1.108, d0 2.026 -> a_C 0.772, a_V 15.99 (+1.5%)
+    + surface ratio    ratio 1.340, d0 1.900 -> a_C 0.823, a_V 18.02 (+14.4%)
+    BOTH               ratio 1.340, d0 2.026 -> a_C 0.772, a_V 17.77 (+12.8%)
+- THE SPACING HELPS: a_C improves from +16% to +9% against empirical 0.711, because that term
+  depends directly on the density and the density was wrong.
+- THE SURFACE RATIO HURTS AND DOMINATES: a larger surface deficit forces a larger volume term
+  to reproduce Ca-40's measured binding. The old 3% agreement was partly the facet error
+  paying for itself.
+- MASS ACCURACY: worst error 0.289% -> 0.514%; NUC-005's "0.01-0.11%" becomes "0.00-0.51%".
+  Amendment filed there.
+- WHAT STANDS: one calibrated constant, a parameter-free surface ratio, a derived Coulomb term,
+  and an ABSOLUTE nuclear energy scale to 13% across C-12 to U-238. Real -- most binding models
+  carry five or six fitted parameters -- but no longer the sector's showpiece.
+- Named: pick ONE empirical a_S/a_V reference corpus-wide; and reconsider Ca-40 as the anchor
+  now that the surface term is larger, since a heavier nucleus weights volume over surface.
+  Corpus 314/314, 328 claims.
+
+### Addendum (2026-07-31) — NUC-019: the asymmetry term emerges, at the right SCALE
+- NUC-005 declared the asymmetry term OUT OF SCOPE (needs Fermi statistics). The existing
+  label machinery (NUC-007's q=3, NUC-008's four labels) generates it anyway.
+- LATTICE (A=40, optimised labels, eps fixed by a_V): model vs empirical MeV/nucleon --
+  0.343/0.230 at N-Z=4; 0.685/0.517 at 6; 0.799/0.920 at 8; 1.142/1.438 at 10; 1.256/2.070
+  at 12. THE MODEL CROSSES THE EMPIRICAL CURVE near N-Z = 7-8 and stays within a factor 1.5
+  across the populated range, WITH NO NEW PARAMETER.
+- BUT THE SHAPE IS WRONG: linear in |N-Z| (R^2 = 0.978) where nature is quadratic (R^2 = 0.708).
+  Crossing curves agree locally and diverge outside; this will not extrapolate to very
+  neutron-rich systems.
+- THE TRANSFERABLE LESSON: mean field gives a_A = 2.2 MeV, optimised placement gives ~20. An
+  ORDER OF MAGNITUDE separates "nucleons distributed randomly" from "nucleons arranging
+  themselves", and the sector has been judging an arrangement model with mean-field intuitions.
+  Future estimates here must be done on the lattice.
+- THIRD INDEPENDENT ROUTE TO ONE GAP: NUC-010 (kinetic term), NUC-017 (saturation), and now
+  the asymmetry shape all identify the same missing ingredient -- Pauli statistics.
+  Corpus 315/315, 329 claims.
+
+### Addendum (2026-07-31) — NUC-020: the asymmetry scaling is wrong in both exponents
+- Slopes at A = 16/40/80: 5.22 / 3.94 / 2.84 MeV per unit |N-Z| (residual scatter 0.39/0.53/
+  0.79 eps). The coefficient FALLS as A^-0.374 -- NOT A-independent, answering NUC-019's
+  question in the negative.
+- FULL FORM: model = 14.99 A^-0.37 |N-Z| vs SEMF = 23 (N-Z)^2/A. WRONG IN BOTH VARIABLES:
+  linear where nature is quadratic, A^-0.37 where nature is A^-1.
+- ACROSS THE CHART (no free parameter): Fe-56 ratio 2.03, Sn-120 0.65, Pb-208 0.42, U-238 0.37.
+  Within a factor 2.7 everywhere, but falling MONOTONICALLY -- a wrong exponent, not a wrong
+  constant. NUC-019's "factor 1.5" was measured at A = 40, exactly where a linear and a
+  quadratic curve cross. Qualification filed there.
+- WHAT SURVIVES: a DECLARED OMISSION now produces, from existing machinery with no new
+  parameter, an energy within 2.7x of empirical from Fe-56 to U-238. Real if modest, and it
+  was not there a week ago. Quote the 2.7 and the exponents together, never the first alone.
+- THE DIAGNOSTIC: nature's (N-Z)^2/A comes from filling two Fermi seas -- quadratic because
+  level spacing is uniform, 1/A because level density grows with the system. The label model
+  has no levels, only neighbours: it charges once per misplaced nucleon (linear) and dilutes
+  like a surface term (A^-0.37, close to A^-1/3). THE MODEL COUNTS SURFACES WHERE NATURE
+  COUNTS STATES -- the Pauli gap, now hit from four directions. Corpus 316/316, 330 claims.
+
+### Addendum (2026-07-31) — NUC-021: a NO-GO THEOREM for the asymmetry term
+- THE STRUCTURAL FACT: fcc partitions into FOUR independent sublattices (verified: exactly
+  ZERO internal bonds in each on a 400-site cluster), and the model has exactly FOUR
+  spin-isospin labels. The match is exact.
+- THE THEOREM: at balance, one label per independent set gives every edge unlike-labelled --
+  the global maximum. Each excess nucleon sits on a foreign sublattice, acquiring a FIXED
+  number of same-label neighbours (cross-sublattice degree 4), and excess nucleons sharing a
+  foreign sublattice are NEVER adjacent because that sublattice is itself independent. So the
+  marginal cost is independent of how many are already misplaced: THE DEFICIT IS EXACTLY
+  LINEAR. QED.
+- CONFIRMED TO THE LAST DIGIT: 4, 8, 16, 32, 64, 128 monochromatic bonds at m = 1, 2, 4, 8,
+  16, 32 -- exactly 4.00 per excess at every m.
+- WHAT IT EXPLAINS: NUC-019's linearity, NUC-020's wrong exponents, and the sector's failure
+  to reach the asymmetry term are ONE FACT. No refinement of lattice, capacity rule or bond
+  weights can change it -- none touches the independent-set structure. The search is over.
+- THE BOUNDARY, now a theorem rather than an observation: NEIGHBOUR-COUNTING GIVES LINEAR,
+  STATE-COUNTING GIVES QUADRATIC. Nature's asymmetry is quadratic because each extra neutron
+  enters a HIGHER Fermi level -- a fact about counting states, not expressible as a sum over
+  pairs. Fifth appearance of the same boundary this week.
+- Named: state the neighbour-vs-state limit prominently as a scope bound on the whole
+  bond-counting programme; check whether it also forbids the pairing term; and redirect effort
+  to quantities that ARE pair-sums -- volume, surface, Coulomb. Corpus 317/317, 331 claims.
+
+### Addendum (2026-07-31) — NUC-022: the no-go bounds pairwise locality, NOT ropes
+- SCOPE CORRECTION. NUC-021 proved a theorem about sums over neighbour PAIRS and then let it
+  stand in for the rope ontology, which it does not bound. The framework's own NUC-004 binds
+  by MODE OVERLAP -- modes are states, states fill, and filling states is exactly what
+  neighbour-counting lacks. Scope bound filed on NUC-021.
+- THE REAL DISCRIMINATOR: is the exhaustible resource PER-NUCLEON or SHARED?
+    LOCAL exclusion (q=3 per nucleon)     -> fixed marginal cost -> LINEAR
+    COLLECTIVE exclusion (a mode ladder)  -> rising marginal cost -> QUADRATIC
+  Every failed asymmetry attempt in this sector used a per-nucleon resource.
+- THE TEST: filling a shared mode ladder (spherical bundle at saturation density, separate n
+  and p ladders, two per level) gives implied a_A of 17.4, 17.4, 13.6, 13.1 at A=40 across
+  N-Z = 4-16, median 17.4 MeV, with scatter from genuine shell structure. Continuum limit
+  a_A(kinetic) = E_F/3 = 12.8 MeV -- 56% of the empirical 23, the remainder being the
+  interaction's isospin dependence. THE STANDARD NUCLEAR-PHYSICS SPLIT.
+- NOT NEW: that a Fermi gas gives (N-Z)^2/A is textbook. NEW: the scope correction, the
+  local-vs-collective discriminator, and that the framework's own mode-overlap mechanism
+  points at the structure it needs.
+- THE PROCEDURAL POINT: five results this week called the missing ingredient "quantum" and
+  treated it as a boundary. It is a MODELLING CHOICE. The corpus mistook the limits of its
+  implementation for the limits of its ontology. Corpus 318/318, 332 claims.
+
+### Addendum (2026-07-31) — NUC-023: the collective re-test fails; the insight is bounded
+- IMPLEMENTATION ERROR CAUGHT: the first attempt used a hard-walled box (E_kin/A = 52-119 MeV
+  vs the Fermi-gas 23). Nucleons sit in a finite well; kinetic energy must be measured from
+  the well bottom. Corrected: E_kin/A = 0 at A=4 (closed shell), 23.55 at 8, 23.96 at 12,
+  22.25 at 16 -- bracketing 23.0 with genuine shell structure.
+- THE RESULT IS NEGATIVE: baseline RMS 0.888; per-nucleon (NUC-010) 2.000 (2.25x worse);
+  COLLECTIVE ladder 19.450 (21.9x worse), beating the baseline on ZERO of fifteen nuclei.
+  NUC-010'S REFUTATION STANDS.
+- WHY: E_kin/A jumps 0 -> 23.5 between A=4 and A=5. Calibrating eps on He-4, where the
+  collective cost is exactly zero, means eps absorbs no kinetic energy and every heavier
+  nucleus pays 23 MeV/nucleon uncompensated.
+- THE SHARPER DISTINCTION, replacing "neighbour vs state": DIFFERENCE vs ABSOLUTE. The
+  asymmetry is a difference at fixed A, so the 23 MeV absolute cancels exactly -- which is why
+  a collective ladder rescues it. Binding is an absolute, and 23 MeV of kinetic against 8 MeV
+  of net binding means the kinetic term must be right to a third of a percent to help at all.
+  Bound filed on NUC-022.
+- CONSEQUENCE: the week's five "missing quantum physics" diagnoses do NOT all dissolve into a
+  modelling choice. The asymmetry one does. The kinetic one does not, and structurally cannot.
+- Named: expect the same bound for saturation (also an absolute); test the pairing term, which
+  IS a difference and may be reachable; record the difference/absolute criterion in the
+  methodology, since it predicts which omissions are worth attacking. Corpus 319/319, 333 claims.
+
+### Addendum (2026-07-31) — NUC-024: the pairing term emerges at 3.9 sigma
+- SELECTED BY CRITERION, NOT BY GUESS. NUC-023's difference-vs-absolute test picked pairing in
+  advance as the only remaining reachable SEMF omission. It worked.
+- THE ISOLATION: along N = Z, A = 4k is even-even and A = 4k+2 is odd-odd, with asymmetry
+  identically zero. Parity alternates and nothing else changes.
+- THE RESULT (A = 8-40): even-even residual +2.875 MeV (n=9), odd-odd -3.234 (n=8),
+  STAGGERING = +6.109 +/- 1.554 MeV, 3.9 SIGMA. Empirical 2x12/sqrt(24) = 4.90 -> ratio 1.25.
+  RIGHT SIGN, RIGHT MAGNITUDE TO 25%, NO NEW PARAMETER.
+- THE MECHANISM is simple: four labels cannot accommodate an odd proton or neutron count
+  without leaving one nucleon unbalanced, and it pays exactly NUC-021's cross-sublattice cost.
+  Pairing here is a counting parity, not a subtle correlation.
+- THE SAME DEFECT RECURS: the model's parity cost is A-INDEPENDENT (5.93 below A=20, 6.28
+  above) where nature falls as 1/sqrt(A), so the ratio RISES (0.92 -> 1.46). Third appearance
+  of NUC-021's linear-law signature; from now on it should be predicted, not discovered.
+- THE SEMF SCORECARD: volume and surface are the model's own, Coulomb is derived, pairing now
+  emerges at 25%, asymmetry emerges at the right order with wrong exponents. Four and a half
+  terms of five from a bond count and one constant. Corpus 320/320, 334 claims.
+
+### Addendum (2026-07-31) — NUC-025: second neighbours amplify everything, bend nothing
+- THE HYPOTHESIS WAS SOUND AT EVERY STEP: at lambda_phys the second shell carries 38.8% of the
+  nearest weight; the six second neighbours lie in the site's OWN sublattice; the sublattices
+  stop being independent (0 internal nearest bonds, 212-223 internal second bonds); and the
+  marginal cost of a FIXED excess rises as m^1.17 (0.556 -> 1.113 per excess, m = 1 to 64).
+- AND ALL THREE TARGETS FAIL. Magnitude: deficits grow 10.9x. Form: R^2 linear 0.967 -> 0.996,
+  quadratic 0.882 -> 0.694 -- MORE linear, not less. Pairing A-scaling: hi/lo 1.67 -> 1.96
+  where empirical requires 0.78 -- moves AWAY.
+- WHY: breaking independence is NECESSARY but not SUFFICIENT. The model OPTIMISES labels, and
+  the optimiser routes excess nucleons around each other faster than second-neighbour coupling
+  forces them together. NUC-021's theorem is proved from a premise stronger than it needs, and
+  the linear behaviour survives that premise's collapse. It should now be quoted as a property
+  of OPTIMISED label models generally.
+- TWO BUGS RECORDED, both of the confident-wrong-answer class: a 0.75 cutoff on a lattice with
+  NN = sqrt(2) returned ZERO edges; a pairing A-list of 12,16,20,24,28,32 is all A = 4k hence
+  all even-even and gave NaN. Both caught only because the output was impossible rather than
+  merely surprising -- a thin margin.
+- SAVES: third-neighbour shells, alternative lattices and coupling ratios all act through the
+  same channel and will fail the same way. Corpus 321/321, 335 claims.
+
+### Addendum (2026-07-31) — ELEC-044: the hbar relation re-derived; the outlier relocated
+- BARS LOCKED FIRST (analysis/ELEC043_hbar_rederivation_bars_LOCKED.md). The from-scratch
+  WKB separatrix reproduces kappa = 1.8006; smooth barrier families span only 1.33x (the
+  prefactor is innocent); the square barrier's exact threshold zero KEPT as B2's failure --
+  form is a live lever downward, never upward to 2.7e6.
+- THE UNIT TRAP: W = kappa T D^2/c requires the barrier-width MASS mu = T*D/c^2; the linear
+  density passes every natural-units test and is wrong by 2.3e9 in SI. The audit's first run
+  contained the bug; its own B3 bar caught it.
+- THE GRID (2 lengths x 4 registered n_t, exhaustive, tautology struck): one strong cell
+  survives -- D = strand spacing w, n_t = 111 (QGATE-006) = 0.885 hbar, two numbers from
+  separate campaigns predating the question, agreeing to 13%.
+- THE ELEC-043 CONFRONTATION: causality permits n_t = 111 with coherence over ~10 strand
+  spacings (vs the 1.7e4 that killed 2.95e8). The ledger moves: outlier 2.7e6 -> an
+  underived length identification plus ~10 spacings of pre-correlation. Progress on paper,
+  zero derivations; both recorded.
+- Named: the 3D two-strand reconnection action (decides the length identification -- the
+  sector's most valuable computation); ten-spacing coherence from registered physics;
+  QGATE-008's funnel re-run at D = w. Corpus 322 code-backed, 336 claims.
+
+### Addendum (2026-07-31) — ELEC-045: the 3D reconnection action -- a derivation and a kill
+- BARS LOCKED FIRST. Two strands pinned at weave crossings, constrained approach: the
+  triangle mode is exact (SLSQP-verified <2%), everything analytic downstream.
+- THE DERIVATION: the pinning length cancels EXACTLY (barrier ~ 1/l, inertia ~ l; measured
+  exponent +0.014 over l = 2w-8w) and W = (pi/(4 sqrt3)) T w^2/c = 0.4534 T w^2/c in closed
+  form, parameter-free. D = w is PHYSICS: the gap is the only length the action knows.
+- THE KILL: kappa_3D = 0.448, not 1.80, so the D=w x n_t=111 cell re-evaluates to 0.220 hbar,
+  outside the pre-locked factor-3 band. The reconciliation candidate is dead as stated;
+  closing now demands n_t ~ 446 (~21 spacings of coherence), matching nothing registered.
+- B2 FAILED AND KEPT: the locked anchor formula was mis-derived by 2x; numerics match the
+  corrected triangle expansion to 0.06%. Correction filed against the bar, not the physics.
+- Scope: the medium's rest geometry, not the clasp's contact geometry -- whether the
+  electron's own reconnections are w-scale or core-scale events is the new live question.
+- Named: QGATE-008's funnel re-run at kappa = pi/(4 sqrt3), D = w (does its demanded n_t
+  move 111 -> 446?); the contact-geometry action; ~450-strand coherence from the weave
+  reservoir. Corpus 323 code-backed, 337 claims.
+
+### Addendum (2026-07-31) — ELEC-046: the funnel re-run -- the chain heals at n_t ~ 498
+- BARS LOCKED FIRST, with the matter/chemistry legs' near-circularity declared in the bars
+  before running. B1: QGATE-003's funnel reproduces verbatim (111, spread 4.6%).
+- THE HEALING: at the derived W1 = (pi/(4 sqrt3)) T_s w^2/c = 2.008e-3 hbar, all demands
+  move coherently to ~498 (nuclear independently at 475, ratio 0.955 to the electron
+  sector's own demand). The two-normalization inconsistency (111 at tube D vs 2.95e8 at
+  d_c) standing since the QGATE campaign is RETIRED: one action, one number.
+- THE FUNERAL LIST, complete: kappa = 1.80 dead, the 0.885 cell dead, n_t = 111 dead,
+  D/w = 19 dead (derived from 111, dissolves with it; supersession filed on QGATE-003,
+  annotation on QGATE-008). Replacement observables: R_c = 22.3 w, tau = 2.14e-23 s;
+  causality bill ~22 spacings of pre-correlation.
+- THE LOAD-BEARING SENTENCE: 498 is a CONSISTENCY, not a derivation -- one fact (hbar/W1)
+  plus one independent landing (S3 = 0.955 hbar). It becomes physics only if the medium
+  itself produces ~500-strand coherence.
+- Named: THE BUNDLE CENSUS at R_c = 22 w (the sector's decisive computation -- lands near
+  500 and the strand-tension-to-hbar chain closes parameter-free; lands at 1 or 1e4 and
+  the hypothesis dies cleanly); the clasp contact-geometry action; the corpus-wide sweep
+  for stale 1.80/111/19 quotations. Corpus 324 code-backed, 338 claims.
+
+### Addendum (2026-07-31) — ELEC-047: the bundle census -- the chain dies at its final joint
+- BARS LOCKED FIRST. QGATE-004's census, unrunnable while w was free, runs now: the
+  Poisson-line instrument verified to 0.03%; the bookkeeping closes at 0.998x nuclear
+  (tautology-adjacent, flagged).
+- GEOMETRY SAYS YES: 498 strands within R_req = 12.6 w (3D counting; ELEC-046's 22.3w
+  sheet scaling was conservative). n(22.3w) = 1562.
+- DYNAMICS SAYS NO, AND THE NO IS THE RESULT: B4's locked premise (separatrix slowing)
+  is WRONG -- the derived barrier is monotone with an endpoint top, traversal time
+  saturates at tau0 ~ 2 w/c, and the bare event recruits ~12 strands against 498: a 40x
+  shortfall. Third locked-formula error this arc caught by its own bars. FAILED AND KEPT.
+- THE VERDICT: the trichotomy's order-10 branch. THE HBAR-FROM-RECONNECTION CHAIN IS
+  DEAD AS A DERIVATION from registered physics. Sole survivor: ELEC-043's pre-correlated
+  medium, now with line items -- order spanning >= 12.6 w, ~498 participants, a 40x
+  recruitment gap the event cannot bridge.
+- Named: the systematic sweep for registered thirteen-spacing order (weave reservoir,
+  substrate modes, GRV-035 percolation) -- if nothing supplies it, the postulate joins
+  the Failed ledger and the quantum frontier reverts to the nonlocal branch; the clasp
+  contact-geometry action; CUT THE RELEASE -- ELEC-044..047 is one complete story.
+  Corpus 325 code-backed, 339 claims.
+
+### Addendum (2026-07-31) — ELEC-048: the order sweep -- four noes, a collision, and a consolidation
+- BARS LOCKED FIRST. THE COLLISION, FILED BEFORE THE PHYSICS: the HBAR campaign
+  (HBAR-001..010, v2.5.0) had ALREADY superseded the reconnection route before
+  ELEC-044..047 ran, uncited -- the auditor's process fault, caught by its own sweep;
+  corrections filed on all four claims. Content: no contradiction -- argument,
+  derivation, and census killed one route from three independent directions.
+- THE TWO-LEDGER TEST: verdicts recomputed at both registered w (nuclear 0.287 fm /
+  vacuum 0.0578 fm): shortfall 40x / 977x. Death ledger-robust; the 4.97x w
+  discrepancy REGISTERED OPEN -- now the sector's most consequential bookkeeping.
+- THE SWEEP: weave bath gapped, measured xi = 0.85 spacings (15x short); GRV-035
+  criticality horizon-only; HBAR-002 coupling = capability without occupation
+  (builds 1 w during an event); HBAR-007 equation of state unstable at 1e12.
+  FOUR CANDIDATES, FOUR NOES.
+- THE VERDICT: pre-correlation FAILED for the reconnection route; the route dead at
+  both joints. THE FRONTIER CONSOLIDATES onto the standing-wave branch (open problem:
+  scale selection, HBAR-002/003), one quantum-action frontier instead of two.
+- Named: ADJUDICATE w (ELEC-040 tension-matching vs QGATE-009 density -- one is using
+  the wrong medium); scale selection via HBAR-003's spin-action thread; THE RELEASE
+  CUT, overdue -- ELEC-044..048 plus the repair is one complete story.
+  Corpus 326 code-backed, 340 claims.
+
+### Addendum (2026-07-31) — ELEC-049: the w adjudication -- there was never a race
+- BARS LOCKED FIRST. B1: Ledger B is ONE number wearing four hats ({Sigma, rho, w, T0}
+  closed identities to 0.1-0.2%) -- the adjudication reduces to one input's pedigree.
+- B2: that pedigree is CLEAN against the kill list: measured hadronic T_tube = 1.17
+  GeV/fm, structural n >= 115 (NUCQ-003, lattice, non-circular), Lorentz bound.
+  NUCQ-002's structural/coherence distinction was the firewall: the reconnection
+  route's death never touched the scale chain. Lattice-floor correction filed on
+  QGATE-009 (T0 ceiling 1633 J/m, 4.0%; w shift 2.1%).
+- B3: Ledger A was NEVER REGISTERED -- a hypothesis label (ELEC-039 H4) and a
+  comparison value (ELEC-040) promoted into a medium parameter by ELEC-044. The
+  arc's FIFTH self-catch, this auditor's. Re-basing corrections filed on
+  ELEC-044..048; every verdict survives (ELEC-048 tested both ledgers before
+  knowing one was illegitimate -- deaths strengthen ~25x, nothing flips).
+- B4: ADJUDICATED: w := 5.78e-17 m, canonical by elimination, CONDITIONAL on
+  Sigma = 5.1e35 -- whose decider remains the named VMB@CERN-class polarimetry
+  (inverted payoff, QGATE-007). The framework's absolute scale now has a single
+  point of failure and a single named test.
+- Named: the stale-0.287 fm sweep; the 4% T0 lattice-floor tension; THE RELEASE CUT,
+  now blocking everything -- ELEC-044..049 is one arc and must reach print.
+  Corpus 327 code-backed, 341 claims.
+
+### Addendum (2026-07-31) — registry hygiene: the stale-0.287 fm sweep (ELEC-049's first named order)
+- Repo-wide sweep for the Ledger-A value: nine occurrences, three categories, three
+  treatments. LOCKED bars files (ELEC043/046/047): pre-registration records, untouched
+  by rule. Benchmark constants (hbar_rederivation, funnel_rerun, bundle_census):
+  preserved AS RUN because registered claims pin their arithmetic -- supersession
+  banners added, outputs unchanged, all green. Tension-matching docstring: clarified
+  as the comparison value it always was. No arithmetic changed anywhere; the
+  annotations filed by ELEC-049 remain the authoritative record. Sweep complete:
+  no un-annotated quotation of 0.287 fm remains.
+
+### Addendum (2026-07-31) — ELEC-050: the 4% re-posed -- one route, one identity, one band, one test
+- BARS LOCKED FIRST. B1: NUCQ-002's two T0 routes are ONE route plus the one-medium
+  identity Sigma = T_tube/(pi R^2) (tube = vacuum at vacuum density); the same-number-
+  twice agreement demoted from evidence to consequence (caveat filed on NUCQ-002).
+- B2: the honest uncertainty is the lattice width band 0.35-0.5 fm: T0 in [796, 1633]
+  J/m (2.04x), w 1.43x, L_hbar [4.41, 6.30] fm. The '4%' was a corner view; retired.
+- B3: THE PREDICTION: R_pred = sqrt(T_tube/(pi Sigma)) = 0.342 fm, consistent with the
+  lattice band at the low edge only (+2.2%). An external, feasible test: a width
+  determination excluding ~0.35 fm shifts the entire scale chain.
+- B4: T0 keeps its point value with a mandatory band caveat (filed on NUCQ-002/003).
+- Named: the lattice-width literature reading (adjudicates for free); THE RELEASE CUT
+  (ELEC-044..050, seven claims, complete). Corpus 328 code-backed, 342 claims.
+
+### Addendum (2026-07-31) — ELEC-051: the lattice reading -- the band was three lengths in one label
+- BARS LOCKED FIRST, sources logged before computing. Full QCD at physical masses
+  (Baker et al., EPJ C 85, 29 (2025)): E-weighted RMS w ~ 0.5 fm, sech^2 profile at
+  sqrt(gH0) ~ 1 GeV. (2+1)d intrinsic tail 0.109 fm; Clem lambda 0.17-0.19 fm.
+  THREE DEFINITIONS SPANNING 5x -- the corpus's 0.35-0.5 band conflated them.
+- THE CONVERSION, instrument validated to 0.4% against the paper's own headline:
+  the mass-density (E^2-weighted uniform-cylinder) radius the framework's n formula
+  requires is R_eq = 0.404 fm.
+- THE VERDICT: R_pred = 0.342 vs 0.404 (+18%) -- CONSISTENT WITH TENSION. Propagated:
+  n = 154, T0 = 1220 J/m, Sigma_eq = 3.66e35 -- each 28% below the Sigma-route.
+  The factor-2 band CONTRACTS to a single 28% question with one consistent sign.
+- Named: the zero-cost decider (the paper's public ancillary data, redo the integral
+  on actual lattice points); THE RELEASE CUT, ELEC-044..051, complete.
+  Corpus 329 code-backed, 343 claims.
+
+## 2.5.1 (2026-07-31)
+THE HBAR RECKONING RELEASE — arc ELEC-044..051 cut as one unit. Two routes
+dead (reconnection-hbar chain at both joints; pre-correlation escape), one
+frontier consolidated (standing-wave branch, scale selection open), one scale
+adjudicated (w = 5.78e-17 m, Ledger B), one external prediction confronted
+(flux-tube mass-density radius: predicted 0.342 fm vs lattice-derived 0.404 fm,
+a 28% one-sign tension replacing the old factor-2 conflated band), six
+self-catches, all by the arc's own locked instruments. The zero-cost decider
+is filed blocked-with-path (arXiv 2409.20168 ancillary data; key file
+ENP_1064_0532.agr; manual download required -- see
+docs/RELEASE_NOTES_v2.5.1.md). 343 claims, 329 code-backed.
+
+## 3.1.0 (2026-08-01)
+THE ELECTRON LINE, THE CONSTRAINT CENSUS, AND TWO TOOLING REPAIRS. Fourteen
+claims took the electron from a conjecture about dynamical structure to a CLEAN
+NEGATIVE that survived four challenges (parametrization, functional selection,
+conservation law, premise): the medium admits a stable localized finite-energy
+solution -- hollow, with a hard core, solved exactly to all orders -- and it is
+NOT the electron, being 2.0e37 too light if sized right and 1.7 microns across if
+massed right, with the obstruction structural (E ~ T0 Delta^3). FOUNDATIONS
+REDUCED: T0 = Sigma a^2/3 by ELEC-053's invariance theorem, so the framework has
+ONE free scale, and the tensioned ground state stores no energy because the
+tension is a Lagrange multiplier -- from which no LOCAL derivation of T0 can
+exist. SIGMA: the named polarimetry arbiter CANNOT decide its value (4.8e8 beyond
+VMB@CERN), but an independent estimator confirms the lattice radius to 1.3%, so
+the corpus LEANS lattice-ward without claiming it. TOOLING: the forward check
+built and validated against both of the day's inheritance failures, including the
+63-order luminosity error; the predictions paper corrected twice. NEW: the
+constraint census, written to be useful whether or not the rope model is correct.
+402 claims, 384 code-backed.
+
+## 3.0.0 (2026-08-01)
+THE AUDIT RELEASE — a major version because what the corpus CLAIMS changed, not
+merely what it contains. THE MESOSCOPIC-HBAR SECTOR IS RETIRED after six
+independent closures, five requiring no new experiment (nuclear data; the Lorentz
+bound unaided at 6.75x; every strand scale, the window empty by 5.2 decades;
+bundling; coherent-unit width, where the diameter cancels exactly; and the
+two-medium option). The standing-wave FORM survives untouched. THE
+DISTINCTIVE-PREDICTION LIST FALLS FROM EIGHT TO ONE: PRED-003 (alpha-G drift)
+confronted against published data and surviving at 1.74 sigma, with a named weak
+point already at 2.06 sigma and a decision window of 2027-2030. PRED-002 is
+CONFIRMED but non-discriminating; GRV-040 is fully characterised and 36x below
+LIGO. THE RECONSTRUCTION IS UNTOUCHED: optics, electricity, magnetism, local
+gravity and the nuclear mass table (C-12 to U-238 at 0.00-0.51% on one calibrated
+constant). REPAIRS: a registry corruption hiding six claims; a verifier that
+parsed zero claims and reported ALL CHECKS PASS; add_claim rewritten
+structurally; two dangling dependencies recorded rather than invented; the
+paper/registry divergence closed both ways; stale renders quarantined. THM-006
+falsified by the corpus's own growth, with a self-reference trap caught and
+excluded. 381 claims, 366 code-backed.
+
+## 2.5.2 (2026-07-31)
+THE DECIDER RELEASE — ELEC-052. The blocked zero-cost decider was cleared by
+manual upload of arXiv 2409.20168v1's public ancillary data (now shipped in
+anc_data/, CC BY 4.0, benchmark reproducible from the repo alone). On the
+paper's own lattice points: R_eq = 0.407(14) fm. The ELEC-051 reconstruction
+(0.404) confirmed to 0.8%; the prediction (0.342) in genuine +19% tension,
+one-signed at every distance; propagated scales (n = 156, T0 = 1201 J/m,
+Sigma_eq = 3.60e35) ~28% below the Sigma-route, now data-backed. The
+validation bar rejected two-thirds of the data (twice) and the resolution
+refused a third integration rule by name; the verdict rests where the
+instrument provably reproduces the source's own integral. REGISTERED OPEN:
+the scale-chain fork (absorb the 28% into Sigma, or defend the n-counting
+identification -- to be chosen before consequences are computed). 344 claims,
+330 code-backed.
+
+### Addendum (2026-07-31) — ELEC-053: the fork was never a choice
+- DECISION LOCKED BEFORE CONSEQUENCES (corpus rule). D1: the strand-count
+  referent is DERIVED -- additivity gives u = nu T0, the lattice gives u ~ E^2,
+  so nu ~ E^2 and the referent is ELEC-052's mass-density radius, verified to
+  machine precision. Branch B unavailable without abandoning additivity;
+  BRANCH A taken blind: absorb the 28%.
+- C1 INVARIANCE THEOREM: T0/Sigma = a^2/3 for any radius, so w = a/sqrt(3) =
+  5.774e-17 m exactly -- the spacing never depended on the disputed width;
+  ELEC-049's conditionality narrowed to the Lorentz bound alone.
+- C2: lattice-anchored set registered alongside the Sigma-route set:
+  {Sigma = 3.61e35, rho = 4.02e18, T0 = 1203(83), n = 156} vs {5.1e35, 1700}.
+  ONE open question separates them (Sigma), decided by the named VMB@CERN
+  polarimetry -- the fork adds no assumption and hands the arbiter a second
+  target. C3: L_hbar 4.31 -> 5.13 fm, N 75 -> 89 (+19%) if the lattice wins.
+- C4: NUCQ-001's refutation STANDS, strictly stronger (the patch grows).
+  Recorded without flinching: a registry that only absorbs favorable
+  rescalings is an advocacy document.
+- Named: v2.6.0 release cut (canonical-set change); the standing-wave
+  scale-selection problem inherits a cleaner target (T0 = 1700 or 1203).
+  Corpus 331 code-backed, 345 claims.
+
+### Addendum (2026-07-31) — ELEC-054: scale selection holds out, and the mode was superluminal
+- CANDIDATE LIST AND VERDICT RULES LOCKED FIRST; numerology declared
+  inadmissible in advance. Target stated exactly: A_hbar = 59.60 w
+  (Sigma-route) / 70.85 w (lattice) -- NOT invariant, so a mechanism giving a
+  pure number would SELECT Sigma from theory. That is the payoff structure.
+- FIVE CANDIDATES, NO SELECTION. A = w and the anharmonic turning point land
+  60x low in amplitude (3552x in action); d_c is 3e-9 hbar; thermal needs an
+  energy scale the corpus doesn't register; hbar = n S_1 is a restatement, and
+  its integrality test is PRECISION-BLOCKED (needs T0 to 1e-4, have 7%).
+- BYPRODUCT, and the session's real find: subluminality was never checked.
+  A fundamental mode of amplitude A_hbar on HBAR-005's quoted 4.31 fm patch
+  has transverse speed 2.51c. L cancelled in the action, so it was always
+  free -- but the coherent segment must be L >= pi A = 10.81 fm (Sigma) /
+  12.85 fm (lattice). Annotations filed on HBAR-005, HBAR-001, NUCQ-001.
+- Direction again unfavorable, again unsoftened: a larger patch makes
+  NUCQ-001's refutation span more of the best-tested regime.
+- Named: propagate the bound quantitatively through NUCQ-001; release cut now
+  carries ELEC-052..054. Corpus 332 code-backed, 346 claims.
+
+### Addendum (2026-07-31) — ELEC-055: the margin moves, and the escape closes
+- BARS LOCKED FIRST, with NUCQ-001's two standing amendments named as targets.
+- B1: admissible coherent length L >= pi A_hbar = 10.81 fm (Sigma) / 12.85 fm
+  (lattice), 2.5-3.0x the 4.31 fm NUCQ-001 used.
+- B2: patch counts collapse -- U-238 5.13 -> 0.326, He-4 0.086 -> 0.0055. The
+  whole nuclear chart under a third of one patch: the margin deepens 15.7x,
+  so the direction is not the only thing that moved.
+- B3: the Yukawa-range tension clash worsens from 9.5x to 59.6x.
+- B4, DECISIVE: NUCQ-002's small-n escape CLOSES. One patch in He-4 now needs
+  n <= 3.43 against NUCQ-003's non-circular lattice floor n >= 115 (34x short;
+  723x short for 100 patches). NUCQ-001 RETURNS TO UNCONDITIONAL; status
+  changes filed on NUCQ-001, NUCQ-002, HBAR-006.
+- Recorded plainly: fourth time tonight the arithmetic moved this number
+  against the framework. The mesoscopic-hbar picture is excluded, with no
+  surviving parameter freedom in the chain that produced it. The standing-wave
+  FORM and the scale-selection problem are untouched.
+- Named: audit the QGATE-011/012/013 sub-quantum layer, which inherited its
+  only quantitative anchor from HBAR-005's 4.31 fm. 333 code-backed, 347 claims.
+
+### Addendum (2026-07-31) — ELEC-056: the sub-quantum audit, machine-checked
+- B1 DEPENDENCY: transitive closure of QGATE-011..017 (165-171 ancestors each)
+  contains NEITHER HBAR-005 NOR HBAR-006 at any depth. The anchor was prose
+  adjacency, never lineage.
+- B2 DIMENSIONALITY: all seven benchmarks are SCALE-FREE (box units,
+  hbar_eff = 1, mode indices). No length enters the mechanism anywhere.
+- B3 WHAT THE ANCHOR CARRIED: atomic Born exactness SURVIVES (1.85e12 -> 1.17e11
+  cells, and it only needed 'very many'); the NUCLEAR non-Born prediction does
+  NOT (5 fm: 1.56 -> 0.099 cells, the regime ELEC-055 excluded). The anchor was
+  carrying exactly one of the two, and it was the falsifiable one.
+- B4 VERDICT: SURVIVES UNANCHORED. No foundation lost; the only bridge to
+  observation lost. The pilot-wave branch is mathematically alive and
+  empirically silent until something re-anchors it. Annotations filed on all
+  seven QGATE claims.
+- B5: supersession banner added to hbar_constancy_and_scale.py; its 4.31 fm
+  assert is arithmetically correct and was left untouched (no-silent-edit).
+- Named: say so on the README's quantum-sector summary -- a front page implying
+  empirical content the claims no longer carry misleads by omission.
+  334 code-backed, 348 claims.
+
+### Addendum (2026-07-31) — ROPE-MODE-004: candidate low-mode topology fingerprint, full gate not passed
+- Added a fixed-resolution finite-volume test of the 3-D bound-state spectrum with four controls: rope-off, certified Hopf-linked, translated unlinked, and spherically averaged tubular potentials.
+- The linked rope measurably split the first excited triplet. Linked-minus-unlinked contrasts for modes 1-3 exceeded three times the estimated domain uncertainty and remained stable from box half-width 3 to 4.
+- The full twelve-mode benchmark failed because higher modes retained up to 13.6% outer-shell probability and the worst excitation-gap drift was 6.2%.
+- Finding kept as `NO_CONVERGED_TOPOLOGY_SPECIFIC_FINGERPRINT`: a candidate low-mode signal exists, but topology has not yet been isolated from anisotropic geometry.
+
+### Addendum (2026-07-31) — ROPE-MODE-006: minimally matched topology fingerprint
+
+A local topology-surgery control replaced ROPE-MODE-004's translated unlinked control. A broad local displacement changed the Gauss linking number from -1.00225 to approximately zero while preserving minimum separation and matching total length to 0.115%, radial second moment to 0.065%, and normalized quadrupole to 0.388%. The first four central-field bound states were recomputed at fixed h=0.25 on box half-widths 4 and 5. Boundary leakage and domain drift passed by wide margins. All three excited-state linked-minus-surgery contrasts exceeded three times combined domain uncertainty and remained stable across domains. Finding: MINIMALLY_MATCHED_TOPOLOGY_FINGERPRINT_DETECTED. Scope remains modeled and local: multiple surgery locations and higher-order geometry controls are required before attributing the signal solely to the integer linking number.
+
+### Addendum (2026-07-31) — ROPE-MODE-007: repeated surgeries do not isolate linking number
+
+- Repeated the local unlinking through six independent smooth surgeries varying location, moved strand, split displacement, width, directional tilt, and local curvature change.
+- All controls were numerically unlinked, retained minimum separation `>= 0.060`, and passed the low-order geometry, boundary-leakage, and finite-volume gates.
+- Nonzero spectral effects were common and converged: mode 1 was significant in 6/6 surgeries; modes 2 and 3 in 5/6; every contrast was domain-stable.
+- The topology-only gate nevertheless failed. One surgery reversed the sign of all three excited-state contrasts, and nuisance-geometry correlations reached `|r| = 0.848`.
+- Finding: `REPEATED_SURGERIES_DO_NOT_ISOLATE_LINKING_NUMBER`. ROPE-MODE-006 remains a topology-sensitive candidate result, not evidence that the integer linking invariant alone determines the spectrum.
+- Named next-order: generate linked and unlinked ensembles by constrained full-geometry or tubular-potential matching, then test blinded held-out topology classification.
+
+
+### Addendum (2026-07-31) — ROPE-MODE-008: blinded matched-ensemble screen
+
+- Generated 15 linked/unlinked pairs across five independent held-out surgery-location families.
+- Matched total length, radial second moment, quadrupole, radial-density histograms, and curvature histograms by candidate search.
+- Added a 12-state reduced central-field spectral solver and validated it against exact sparse solves; maximum excitation-gap error was `3.92e-4`.
+- Residualized spectral features against nuisance descriptors using training folds only and ran leave-one-family-out logistic classification.
+- Balanced accuracy was `0.500`, ROC AUC `0.627`, and paired permutation `p=0.570`; held-out family scores were not robust.
+- The strict geometry-balance gate also failed (`max descriptor SMD = 1.65`).
+- Finding: `NO_BLIND_TOPOLOGY_SIGNAL`. Earlier shifts remain geometry-sensitive candidate effects, not an isolated link-invariant signature.
+
+### Addendum (2026-07-31) — ROPE-MODE-009: full-potential matched controls
+
+- Added a control-generation benchmark that optimizes local unlinking surgeries against the complete sampled tubular potential on a `31^3` grid, rather than only summary geometry descriptors.
+- Screened 140 surgery candidates per linked geometry and refined the best candidates using full-grid field mismatch plus low-energy projected-Hamiltonian mismatch.
+- Across five independent linked/unlinked pairs, the median full-field relative L2 mismatch was `0.00849`, the worst was `0.01085`, the worst low-energy operator mismatch was `0.00422`, and the minimum field correlation was `0.999941`.
+- All controls were numerically unlinked while the linked references remained in the `|Lk|≈1` sector. Median descriptor RMS mismatch was `0.0796`.
+- All preregistered control-quality bars passed. Finding: `FULL_POTENTIAL_MATCHED_CONTROLS_READY`.
+- This benchmark improves the controls only; it deliberately does not rerun or expand the blinded classifier. The next obligation is a larger, independently seeded, leave-family-out classification experiment using these potential-matched pairs.
+
+### Addendum (2026-07-31) — ROPE-MODE-010: full-field-only controls and matched sham qualification
+
+- Rebuilt five linked/unlinked controls using only relative L2 mismatch of the complete sampled tubular-potential field. No eigenvalue, eigenvector, projected Hamiltonian, spectral gap, or low-mode density entered generation, ranking, rejection, or refinement.
+- Added matched topology-preserving sham surgeries from the same local deformation family and selected them only by field-disturbance magnitude.
+- Full-field matching and sham balance passed: median/worst linked-unlinked field mismatch was `0.008483/0.013564`; median sham/unlink disturbance ratio was `0.9415`, with maximum balance error `0.1083`.
+- The residual-independence gates failed decisively. Median/max absolute pairwise residual alignment was `0.5855/0.7574`; the first residual principal component explained `64.1%` of variance; and essentially all residual power remained concentrated within radius `0.55` of the surgery site (`median 0.99998`).
+- Finding: `CONTROL_QUALIFICATION_NOT_YET_PASSED`. The classifier remains frozen. The present local-surgery generator leaves a highly repeatable crossing-centered nuisance channel despite tight whole-field matching.
+
+## ROPE-MODE-011 — 2026-07-31
+- Added distributed multi-mode deformation controls with an explicit residual-decorrelation objective.
+- Kept spectral and eigenbasis quantities out of control construction.
+- Added matched topology-preserving sham controls and residual alignment/PCA/scar diagnostics.
+- Result: `DISTRIBUTED_CONTROLS_NOT_YET_QUALIFIED`; classifier remained frozen.
+
+## ROPE-MODE-012 — 2026-07-31
+- Added a continuous near-crossing path benchmark with five independent smooth local deformation families.
+- Fixed each deformation path and numerically bracketed its linked-to-unlinked transition before any spectral readout was computed.
+- Sampled four symmetric distances on each side of the transition and solved the first four bound states on a `31^3` grid at `h=0.25`.
+- The tubular field remained continuous near the transition (maximum nearest-pair relative field difference `0.00959`).
+- Sidewise linear extrapolation gave median/max apparent spectral jumps of `3.22e-5/6.11e-5`, but no excited mode showed a same-sign, statistically robust discontinuity across at least three deformation families.
+- Finding: `SPECTRUM_CONTINUOUS_THROUGH_TOPOLOGY_TRANSITION`. The local scalar tubular-potential Hamiltonian shows smooth spectral response through the geometry crossing; no topology-boundary singularity was detected.
+
+## ROPE-MODE-013 — 2026-08-01
+- Added a matched topology-preserving sham spectral benchmark using five independently fixed deformation families.
+- For each family, the linked sham and unlinked state were selected symmetrically around the pre-bracketed topology transition using only geometry and full sampled tubular-field information; spectral quantities were computed only after controls were frozen.
+- The first four bound states were solved at fixed `h=0.25` on box half-widths 4 and 5. Boundary leakage and domain stability passed by wide margins.
+- Median sham-unlinked field mismatch was `0.01143` and maximum was `0.02822`; the strict field-matching gate failed because two families exceeded the locked `0.025` maximum.
+- The median absolute unlink-minus-sham spectral residual was `2.70e-4`, but it was only `0.070` times the ordinary sham-versus-original disturbance effect.
+- Finding: `MATCHED_SHAM_DOES_NOT_ISOLATE_TOPOLOGY`. The scalar tubular-potential branch remains consistent with smooth geometry-driven spectral response rather than an independent linking-number contribution.
+
+## ROPE-VALIDATION-001 — 2026-08-01
+- Added an exactly soluble imposed Aharonov--Bohm holonomy benchmark on a periodic quantum ring.
+- Validated the complex Hermitian covariant finite-difference operator against the exact lattice spectrum.
+- Independently verified arbitrary lattice-gauge transformations, twisted-boundary equivalence, unit-flux periodicity, flux-reversal symmetry, and continuum convergence.
+- All locked instrument-validation bars passed. Finding: `AB_HOLONOMY_INSTRUMENT_VALIDATED`.
+- Scope is deliberately limited: the flux and coupling are imposed externally and are not derived from rope dynamics. A future three-dimensional regularized flux-tube test must sweep core width and grid spacing jointly.
+
+## ROPE-VALIDATION-002 — 2026-08-01
+- Added a three-dimensional complex Cartesian lattice-gauge benchmark with an externally imposed regularized axial flux tube and toroidal confinement.
+- Jointly swept grid level `N=(17,23,29)` and core resolution `a/h=(1.5,2.5,3.5)` at four imposed flux values.
+- Hermiticity passed exactly and arbitrary lattice-gauge transformations preserved the spectrum to `8.17e-13`.
+- A nonzero half-flux response was resolved, but excitation-gap convergence, fixed-core convergence, and thin-core flux-periodicity gates failed.
+- Finding: `AB_3D_FLUX_TUBE_VALIDATION_INCOMPLETE`.
+- Scope remains numerical validation only; the flux is externally imposed and is not derived from rope dynamics.
+
+## ROPE-VALIDATION-003 — 2026-08-01
+- Added a three-dimensional excluded-core Aharonov--Bohm validation on a Cartesian annular domain with toroidal confinement.
+- Removed the penetrable regularized magnetic core used in ROPE-VALIDATION-002; the wavefunction now has no support in the flux core and the accessible connection is flat.
+- Verified exact Hermiticity, arbitrary lattice-gauge invariance, equivalence between distributed-link and twisted-cut gauges, unit-flux periodicity, and flux-reversal symmetry to approximately `2e-13`.
+- Resolved a nonzero half-flux ground-state response of `0.122-0.131`.
+- Excitation-gap grid drift remained below `5.36%` across `N=(15,19,23)` for excluded-core radii `0.45` and `0.75`; all locked bars passed.
+- Finding: `AB_3D_EXCLUDED_CORE_INSTRUMENT_VALIDATED`.
+- Scope remains numerical validation only; the holonomy is externally imposed and is not derived from rope dynamics.
+
+## ROPE-VALIDATION-004 — 2026-08-01
+- Added a curved closed excluded-core three-dimensional Aharonov--Bohm instrument benchmark using a circular inaccessible core and a meridional lattice holonomy.
+- Verified exact Hermiticity, arbitrary lattice-gauge invariance, distributed-link/twisted-cut equivalence, unit-flux periodicity, and flux-reversal symmetry to approximately `4e-13`.
+- Resolved a nonzero imposed half-flux ground-state response for the tested curved-core geometries.
+- Excitation-gap grid convergence failed across `N=(23,27,31)`, and the larger excluded core suppressed the half-flux response below the preregistered threshold.
+- Finding: `AB_3D_CURVED_EXCLUDED_CORE_VALIDATION_INCOMPLETE`.
+- Scope remains instrument validation only; holonomy is externally imposed and is not derived from rope dynamics. The next numerical task is geometry-conforming discretization or substantially finer Cartesian refinement around the curved core.
+
+## ROPE-SOURCE-AUDIT-002 — 2026-08-01
+- Locked and completed the undriven-circulation audit before any further gauge-mesh development.
+- Confirmed that static helical handedness fixes only circulation sense; EM-014 requires prescribed rotation, EM-008 requires a pump/return, and EM-010 takes source current `J` as input.
+- Found no existing action, invariant, energy barrier, or metastable state that selects and protects a nonzero circulation rate in an undriven closed rope.
+- Registered the structural obstruction `INTEGER_WINDING_HOLONOMY_SPECTRALLY_TRIVIAL`: FND-013 derives only `2 pi N`, while the validated AB spectrum is periodic modulo `2 pi`.
+- Finding: `NO_UNDRIVEN_NONTRIVIAL_PERSISTENT_HOLONOMY`.
+- Closed the physical AB branch as unsupported under the current framework. ROPE-VALIDATION-001 through 004 remain retained as a validated gauge instrument with no nontrivial internally sourced target.
+
+## Registry repair and review fixes — 2026-08-01
+- **REGISTRY CORRUPTION FOUND AND FIXED.** Six claims (ROPE-MODE-006,
+  ROPE-MODE-012, ROPE-VALIDATION-001 through 004) had been written into the
+  `sectors:` block rather than the `claims:` list. They parsed as YAML but were
+  INVISIBLE to every registry tool, count and audit: the corpus had been
+  reporting 348 claims and 334 code-backed while actually holding 360 and 346.
+  All six restored to the claims list; sectors back to 14 genuine entries.
+  The AB instrument validations in particular had never been counted.
+- ROPE-SOURCE-AUDIT-002 made REPRODUCIBLE: new benchmark
+  `rope_source_audit_circulation.py` re-executes each candidate mechanism at
+  zero drive (screw I=0 at omega=0, loop I=0 with no pump, field B=0 at J=0),
+  with positive controls proving the zeros are an absent source rather than a
+  broken benchmark, and confirms numerically that every integer winding
+  2 pi N returns exactly the zero-flux spectrum. The claim now points at it.
+- Locked bar 7 (parameter determination) restored to the machine-readable
+  summary, which had carried only six of the seven locked bars.
+- OBSTRUCTION PROVENANCE recorded on the audit: integer-winding triviality and
+  the gapless-twist result are DERIVED obstructions; the absence of a
+  rate-protecting invariant and of a metastable circulating minimum are
+  ABSENCES. The rate-protection absence is named as the soft joint any
+  reopening will push on.
+- New standing rule: `docs/STANDING_RULE_SOURCE_BEFORE_INSTRUMENT.md` — ask
+  what sources the quantity before building the apparatus that measures it,
+  recorded with both precedents (ELEC-056 pilot-wave, ROPE-SOURCE-AUDIT-002
+  gauge) and the ~8-9 session cost they shared.
+- README carries an explicit no-target section for both branches, so the front
+  page no longer implies empirical content the claims do not carry.
+
+### Addendum (2026-08-01) — ELEC-057: the one free length, swept
+- The Lorentz constraint a <= 1e-16 m is a BOUND, never a measurement, and the
+  corpus had been sitting at the ceiling. Since ELEC-040 showed the electron
+  sector's 2e4 is a pure LENGTH RATIO, the ropes being the wrong size was a
+  live hypothesis. Gates locked, then swept over 25 decades.
+- GATES (solved exactly): G1 Lorentz a <= 1.00e-16; G2 electron structure
+  a <= 4.73e-21; G3 one-medium tension matching a <= 1.41e-18; G4 standard QM
+  in nuclei a >= 6.75e-16.
+- VERDICT: the intersection is EMPTY BY 5.2 DECADES. Shrinking the scale does
+  rescue the electron, and inflates the hbar patch by the same factor. Under
+  ELEC-038 the two sectors are mutually exclusive at every value of a; the 2e4
+  is NOT a calibration error.
+- THE SEPARABILITY RESULT: G2 and G3 are each satisfiable alone inside the
+  bound, but G4 requires a strand scale 6.7x LARGER than the Lorentz bound
+  permits, at the weakest defensible threshold. THE HBAR SECTOR IS EXCLUDED BY
+  THE LORENTZ BOUND ALONE -- no nuclear data, no electron sector, no NUCQ-001.
+  An internal contradiction between two registered constraints.
+- The fork is now explicit: abandon the one-medium declaration, or retire the
+  hbar sector. Annotations filed on ELEC-038, ELEC-036, NUCQ-001.
+- Named next-order: price the two-medium option explicitly.
+
+### Addendum (2026-08-01) — ELEC-058: the bundle escape, tested where it mattered
+- THE PROPOSAL: take the small electron-viable strand scale and recover the
+  hbar sector's required effective tension by BUNDLING (T_eff = N T0, T0 ~ a^2).
+  Geometry permits it -- the needed N = 2.0e10 bundle is 0.22 fm across. Both
+  prior kills (ELEC-043, ELEC-047) had only ever been run at the Lorentz ceiling.
+- B1 THE BUDGET IS INVARIANT: tau0 ~ 1.95 w/c is written in units of w, so
+  n_free = 11.9 at EVERY a. The tempting "(1e-16/a)^2 raises the bound by 4.5e8"
+  holds tau fixed while the object defining it rescales. Trap named in advance.
+- B2 THE DEMAND IS ALSO INVARIANT: with N ~ a^-2, R_c = w sqrt(N) is CONSTANT at
+  0.390 fm, fixed by measured T_tube and nuclear size, while c tau0 = 1.95 w
+  shrinks with a.
+- B3 VERDICT: the shortfall GROWS AS 1/a -- 3.46 at the ceiling, 7.3e4 at the
+  electron scale. The escape dies everywhere and dies worst where it was needed.
+- B4 whole-tube variant: L = 1.028 fm satisfies the nuclear gate at any a, but
+  recruiting 7.0e10 strands needs R_c = 0.721 fm against 5.3e-6 fm of reach.
+  Geometry free, recruitment not -- ELEC-047 restated, flagged as not new.
+- NEAR MISS RECORDED: 3.46 at the ceiling is the closest this recruitment
+  argument has come to closing anywhere in the sector.
+- Self-caught: c tau0 first coded as c times a length; the locked assertion
+  failed loudly rather than passing a wrong number.
+- ELEC-057's no-go HARDENED, not narrowed. The fork stands. Annotations on
+  ELEC-057, ELEC-047, ELEC-043.
+
+### Addendum (2026-08-01) — ELEC-059: the width escape closes by cancellation
+- THE PROPOSAL: a wound rope is ~2x a strand in width, and ELEC-058 left a 3.46
+  shortfall at the Lorentz ceiling -- the sector's only order-unity gap.
+- B1: ELEC-047's tau0 = 1.95 is tied to the SEPARATION of the medium's coherent
+  units by construction. Rope width enters only if the MEDIUM is made of ropes,
+  which is a different hypothesis rather than a reinterpretation.
+- B2 THE CANCELLATION: for units of k strands and diameter D = f w,
+  shortfall = D sqrt(N_u)/(1.95 D) = sqrt(N_u)/1.95. THE DIAMETER DROPS OUT
+  EXACTLY (verified at f = 1.0, 2.0, 2.2, 5.0). Widening the unit lengthens the
+  reach and enlarges the required radius in the same proportion.
+- B3 WHAT SURVIVES: only strands per unit. Closing needs k >= 12; the corpus's
+  electron has 2, giving 2.446 -- short by 6x in COUNT, not in length.
+- B4 SCOPE: touches neither ELEC-057's 5.2 decades nor ELEC-058's 1/a
+  degradation. Concerns only the ceiling, where the hbar sector is already
+  excluded 6.7x by the Lorentz bound unaided. Closing it would not reopen the
+  fork.
+- USEFUL RESIDUE: the recruitment problem has exactly ONE lever, constituent
+  count. Proposals framed as thicker ropes, wider cores, or larger interaction
+  volumes can now be dismissed without computation. Annotations on ELEC-058,
+  ELEC-047, ELEC-041.
+
+### Addendum (2026-08-01) — ELEC-060: the two-medium option priced, the fork resolved
+- THE DECISIVE FINDING, sitting unread in ELEC-057's own gate list: the hbar
+  sector's failure is against the LORENTZ BOUND (a >= 6.75e-16 needed, bound
+  1e-16), NOT against the electron sector. The bound constrains vacuum
+  structure and the hbar-carrying medium IS the vacuum, so splitting off a
+  matter species does not relieve it. TWO MEDIA RESCUE THE ELECTRON ONLY.
+- P2 the flux-tube sub-branch, named as a trap: handing the measured hadronic
+  tube to the matter species frees the vacuum tension, which can then be set to
+  the 5.47e4 J/m the hbar sector needs -- 45.5x the derived value. That is not a
+  solution but the removal of the corpus's only external anchor, converting a
+  refuted sector into an unfalsifiable one. Declined by name.
+- P3: the species ratio (2.1e4, 4.3 decades) is underived -- a new free
+  parameter, distinct from ELEC-057's 5.2-decade requirement gap.
+- P4: ELEC-040's tension matching lapses, but cross-species coupling across 4.3
+  decades is underived. Nothing gained that is not immediately owed back.
+- VERDICT: retiring the hbar sector is required in BOTH branches. The fork only
+  decides whether the electron sector is kept at the price of the unification.
+- The mesoscopic-hbar picture now has SIX independent closures (nuclear data,
+  Lorentz bound, all strand scales, bundling, unit width, two media), the last
+  four with no new experimental input. Annotations on ELEC-057, ELEC-038,
+  HBAR-005.
+- Named next-order: formally retire the hbar sector -- a status pass over
+  HBAR-001..010 and the NUCQ chain, keeping the length-independent standing-wave
+  FORM and marking the mesoscopic identification closed.
+
+### Addendum (2026-08-01) — ELEC-061: the hbar sector formally retired
+- CLASSIFICATION RULE LOCKED BEFORE ANY STATUS WAS INSPECTED: a claim SURVIVES
+  if removing the mesoscopic patch leaves its stated result intact. Retirement
+  is not demolition.
+- RESULT: 2 CLOSED (HBAR-005, HBAR-006), 10 SURVIVES, 1 already Failed
+  (NUCQ-003). No status downgrades applied to any surviving claim; six of them
+  are KEPT NEGATIVES whose lessons hold regardless of whether the scale was
+  viable. HBAR-010 never involved the patch. NUCQ-001 is UPHELD, not overturned.
+- B3 VERIFIED DIRECTLY: S = pi T A^2/(2c) returns 1.054572e-34 J s identically
+  at L = 1 fm, 1 pm, 1 nm, 1 m. The FORM is length-independent; the retirement
+  is of the IDENTIFICATION only. What selects the amplitude remains open
+  (ELEC-054).
+- CLOSED claims keep status Modeled rather than Failed: their arithmetic is
+  correct, only the physical identification is withdrawn.
+- Sector closure record filed at docs/HBAR_SECTOR_CLOSURE.md, listing the six
+  closures, what survives, what is lost, and the reopening condition.
+- README now states on its front page that the corpus possesses no distinctive
+  testable prediction at present.
+- Named next-order: the distinctive-prediction census across the whole registry.
+
+### Addendum (2026-08-01) — ELEC-062: the census, and a standing assessment corrected
+- CRITERIA LOCKED BEFORE THE REGISTRY WAS WALKED: quantitative; distinctive in
+  OBSERVABLE OUTCOME (deriving what others fit does not qualify); checkable;
+  live. The distinctiveness criterion was flagged in advance as the one most
+  likely to be softened.
+- T1, QUALIFYING ON ALL FOUR -- THREE: GRV-039 (no terminal PBH evaporation
+  burst, one gamma-ray observation settles it), HBAR-010 (medium rest frame =
+  CMB frame, anisotropy at 1.5e-6), QGATE-007/010 (Sigma >= 5.1e35 and a
+  (4,7)-positive photon quartic on one polarimetry axis).
+- T2 (distinctive, not measurable): 2. T3 (derivation-distinctive only,
+  including g_dagger = cH0/2pi at zero parameters): 3. T4 constraints: 2.
+  T5 refuted/retired, kept: 4.
+- SECTORAL FINDING: the ELECTRON SECTOR, the corpus's largest by claim count,
+  contributes NOTHING at any tier -- its content is internal-consistency work.
+- NUCQ-001's standing assessment ("no distinctive testable prediction") is
+  PARTIALLY OVERTURNED: accurate about the quantum and matter sectors,
+  over-generalized to a corpus it had not surveyed. All three survivors are
+  gravity or vacuum claims.
+- CORRECTIONS FILED: the README front page and docs/HBAR_SECTOR_CLOSURE.md
+  both asserted the zero-prediction claim -- written hours earlier in this same
+  session -- and are corrected.
+- Named next-order: a short predictions document with the three, their
+  discriminating measurements, and current experimental status.
+
+### Addendum (2026-08-01) — ELEC-063: the census corrected, a traceability defect found
+- ELEC-062 WAS WRONG. It walked claims.yaml only and never opened
+  papers/falsifiable_predictions.docx, which states seventeen predictions. The
+  census was incomplete by construction: it defined its universe as one file.
+- CORRECTED T1 COUNT: EIGHT, not three. The paper contributes the neutrino sum
+  58.5 meV, cosmic birefringence EB/EE = 0.0119 flat in multipole, the
+  d ln alpha = -2 d ln G drift ratio, analog universality, and the whisper's
+  0.23 kappa tail; the registry contributes HBAR-010 and QGATE-007/010; GRV-039
+  was found by both.
+- DEFECT FOUND, cutting the other way: P2, P3 and P6 have NO registry claim,
+  while the paper asserts every statement is traceable to claims.yaml as the
+  single source of truth. That guarantee is FALSE for three of its sharpest
+  numbers -- the same defect class as this morning's misfiled-claims corruption.
+- Resolution named: register the three with benchmarks (keeping the guarantee
+  true is better than striking it), then re-sync the paper with the two
+  registry-only predictions.
+- ELEC-062's sectoral finding SURVIVES: the electron sector contributes nothing
+  at any tier. README corrected to eight and the defect disclosed on the front
+  page.
+
+### Addendum (2026-08-01) — PRED-001/002/003: the traceability gap closed
+- ELEC-063 found three headline predictions stated in
+  papers/falsifiable_predictions with NO registry claim, while the paper
+  asserts every statement is traceable to claims.yaml. Registered rather than
+  striking the sentence: the guarantee is worth keeping true.
+- PRED-001 NEUTRINO MASS SUM = 58.47 meV. The charged-lepton phase is
+  RECOMPUTED from m_mu/m_e (delta_c = 12.732 deg) and reproduces tau/e at
+  0.01%; the scale comes from the measured solar splitting. BONUS the paper
+  does not claim: the hierarchy ratio Dm31^2/Dm21^2 = 32.4 emerges from the
+  same phase against a measured 32.6 (-0.5%), with nothing adjusted. Caveat
+  carried: the pi/12 offset is INPUT, not derived.
+- PRED-002 COSMIC BIREFRINGENCE EB/EE = 0.01194 at the measured beta. The
+  registration emphasizes what discriminates: FLATNESS in multipole (l = 2 to
+  3000), where axion-like and early-dark-energy models generically give
+  l-dependence. beta is input, so this is a relation between observables.
+- PRED-003 d ln alpha = -2 d ln G, verified symbolically. SCOPE TEST ADDED
+  beyond the paper: drift through the strand SPACING gives +1, not -2, so the
+  prediction identifies the TENSION channel specifically. Under the relation,
+  the quasar alpha bound implies |G-dot/G| < 5e-18/yr, five orders below direct
+  limits -- safe today, vulnerable to the next generation of G-dot work.
+- Remaining sync: the paper does not yet list HBAR-010 or QGATE-007/010.
+
+### Addendum (2026-08-01) — the predictions paper re-synced (both divergences closed)
+- falsifiable_predictions gains Part VI: Prediction 18 (the medium's rest frame
+  IS the CMB frame; mismatch appears as anisotropy at (v/c)^2 = 1.5e-6;
+  HBAR-010, and noted as surviving the ELEC-061 retirement because it never
+  used the mesoscopic length) and Prediction 19 (Sigma >= 5.1e35 J/m^3 with the
+  (4,7)-positive photon quartic on ONE VMB@CERN-class polarimetry axis, with the
+  inverted payoff stated; QGATE-007/010).
+- Scale-chain note added: the 28% tension between the framework's 0.342 fm
+  flux-tube radius and the 0.407(14) fm computed on Baker et al. (EPJ C 85, 29,
+  2025) lattice data, with both scale sets registered in parallel and the
+  polarimetry axis identified as their separator (ELEC-052, ELEC-053).
+- Subtitle updated to Nineteen Predictions; registered-claims list extended with
+  GRV-039, HBAR-010, QGATE-007, QGATE-010, PRED-001, PRED-002, PRED-003, and
+  those claims now carry paper: falsifiable_predictions in the registry.
+- Validated against the original (XSD passed, 187 -> 204 paragraphs) and
+  visually checked in the rendered PDF. Both PDF and docx source updated.
+
+### Addendum (2026-08-01) — tooling repair: a verifier that passed vacuously
+- FOUND WHILE FIXING add_claim.py, and worse than the reported bug:
+  tools/verify_corpus.py was parsing ZERO claims and still printing
+  "RESULT: ALL CHECKS PASS". Root cause: the structured rewrite during the
+  misfiled-claims repair serialized the claims sequence at indent 0
+  ("- id:") instead of the canonical two-space indent ("  - id:"), and
+  load_claims() is a line parser keyed to that indentation. A verifier that
+  passes on an empty parse is worse than no verifier.
+- claims.yaml re-serialized to the canonical style; 370 claims intact.
+- tools/add_claim.py REWRITTEN STRUCTURALLY. v1 found its insertion point with
+  a regex over raw text and only ever worked for one exact serialization. v2
+  parses YAML, inserts into the list, and re-serializes with a canonical dumper,
+  so it is immune to whitespace and quoting changes. Same API
+  (insert_after(prior_id, block)), now accepting a dict or YAML text, plus a CLI.
+  It refuses to write on duplicate ids, zero claims, or claims misfiled into the
+  sectors block.
+- tools/verify_corpus.py hardened with three guards, each tested to FIRE:
+  (1) claims misfiled into the sectors block; (2) zero claims parsed;
+  (3) PyYAML and the line parser disagreeing on the claim count -- the exact
+  drift that produced the vacuous pass. load_claims() now accepts a path, since
+  hardcoding it made guard 3 compare two different files and pass silently.
+
+### Addendum (2026-08-01) — THM-006 falsified by the corpus's own growth, and a self-reference trap
+- SURFACED BY THE FULL verify_corpus RUN during the tooling repair -- the fast
+  test subset would never have caught it, which is the argument for running the
+  full verifier.
+- THM-006 (the layer separation theorem) asserted failure enrichment > 2.0x at
+  the dynamical frontier, measured at ~4x when written. At 370 claims it is
+  1.85x. The decline is mechanical: this session added a large block of Layer II
+  claims, many of them registered failures from the hbar retirement arc.
+- THE BAR WAS NOT RELAXED. THM-006 reclassified Failed-and-kept; the benchmark
+  now documents the falsification instead of asserting the dead threshold.
+  WHAT SURVIVES is the SIGN -- failures still concentrate at the frontier.
+  What does not survive is the 4x magnitude the ladder figure was built on.
+- SELF-REFERENCE TRAP CAUGHT: THM-006 is itself classified Layer III, so
+  marking it Failed added a Layer III failure and pushed enrichment back to
+  2.14x -- the theorem about where failures cluster becoming evidence for
+  itself BY FAILING. The benchmark now excludes THM-006 from its own statistic;
+  on the remaining corpus the enrichment is 1.90x and THE FAILURE STANDS.
+  The trap is generic: any future registry-level claim should exclude itself
+  by construction.
+
+### Addendum (2026-08-01) — PRED-003 confronted with published data
+- THE CORPUS'S FIRST CONFRONTATION OF A LIVE PREDICTION WITH REAL DATA, using
+  measurements already in the literature and requiring no new instrument.
+- DATA: alpha-dot/alpha = 1.0(1.1)e-18/yr (Yb+ E3/E2 optical clocks, PTB,
+  Filzinger et al. 2023); Gdot/G = 7.1(7.6)e-14/yr (LLR, Hofmann & Muller,
+  CQG 35, 035015, 2018). Both null at 0.9 sigma.
+- FORWARD TEST: the relation predicts alpha-dot/alpha = -1.42(1.52)e-13/yr
+  against a measured +1.00(1.10)e-18 -> 0.93 sigma, CONSISTENT. Independent
+  cross-check (Williams et al. 2004) gives 0.44 sigma.
+- INVERSE TEST, where the real commitment is: the framework predicts
+  Gdot/G = -5.0(5.5)e-19/yr, 1.4e5x below present LLR reach. G is predicted
+  STATIC far beyond current measurability. |Gdot/G| > 1.6e-18/yr at 3 sigma
+  refutes the relation outright.
+- CHANNEL TEST REPORTED AS UNDETERMINED, per the locked bar: the ratio of
+  central values is 1.4e-5, neither -2 (tension channel) nor +1 (spacing
+  channel) -- but both inputs are null, so the ratio is noise over noise and
+  carries no information. Reading a preferred channel from it was forbidden in
+  advance.
+- LABELLED HONESTLY: null-vs-null consistency is SURVIVAL, NOT CONFIRMATION.
+  The relation has failed to be killed by the one test currently available.
+
+### Addendum (2026-08-01) — PRED-003 widened: a named weak point, already at 2.06 sigma
+- Four independent alpha-drift determinations (Yb+ E3/E2 PTB 2023, Al+/Hg+, Dy,
+  Yb+/Cs) and three independent G-drift determinations (LLR Hofmann & Muller
+  2018, PSR J1713+J0437 2025, PSR J1738+0333). Overlapping results (PTB
+  supplemental, Godun combination, Williams 2004 lineage, earlier J1713
+  analyses) excluded from the combination by a rule fixed in advance and
+  reported separately.
+- Both families internally consistent: chi2/dof = 1.18 (alpha), 1.22 (G).
+- COMBINED: alpha-dot/alpha = 9.89(1.10)e-19/yr; Gdot/G = 1.19(0.68)e-13/yr.
+  The relation gives 1.74 sigma -> CONSISTENT.
+- BUT: the 2025 PSR J1713+J0437 analysis alone gives 2.06 sigma, TENSION. It is
+  the only nonzero-leaning G determination in the set (+3.2(1.6)e-13, 2.1 sigma
+  from zero). If real, it implies an alpha drift ~6e5 sigma from the clock
+  bound: PRED-003 and a real 3e-13 G drift CANNOT BOTH HOLD.
+- LINEAGE CHECK, which is why this is not decisive: three analyses of the SAME
+  pulsar give -0.60, -0.10, +0.32 (e-12). The sign has flipped twice and the
+  spread exceeds the latest quoted error.
+- OPERATIONAL CHANGE: the first confrontation put the decisive test four to five
+  orders away in future G sensitivity. Too pessimistic. The relation is
+  vulnerable NOW to ordinary progress on one well-studied pulsar.
+
+### Addendum (2026-08-01) — the J1713+0747 lineage: a self-correction and a date
+- SCOPE STATED FIRST: an analysis of published results, NOT a re-timing of the
+  pulsar (which needs raw TOAs and noise modelling the cited works performed).
+- B1 SELF-CORRECTION: PRED-003-META called the lineage anomalous ("spread
+  exceeds the latest quoted error", "sign flipped twice"). It applied an
+  INDEPENDENT-sample test to NESTED analyses. The correct expected shift is
+  sqrt(s_old^2 - s_new^2); pairwise shifts are then 1.58, 1.74, 0.99 sigma.
+  WORST 1.74 -> STATISTICALLY NORMAL. The sign changes are what a null looks
+  like as it sharpens. Characterization corrected on the record.
+- B2 THE REAL CAUTION IS PHYSICAL: PSR J1713+0747 had an abrupt pulse-profile
+  change in April 2021 (earlier event 2016) that disrupted timing stability;
+  mitigation methods were still being published July 2026. The EPTA DR2
+  baseline behind the 2025 result runs into that era, so its 0.155e-12 assumes
+  the profile event is fully absorbed by the noise model.
+- B3 THE DECISION IS DATED: 3 sigma at the 2025 central value needs sigma =
+  1.07e-13, a factor 1.45 below present. Baseline growth alone (T^-5/2)
+  delivers ~2030; the historically observed rate (2.90x from 2019->2025 vs
+  1.71x from baseline alone) delivers ~2027.
+- B4: confirmation refutes PRED-003 (implied alpha drift 6e5 sigma from the
+  clock bound); regression to null leaves it standing. Either way the claim is
+  decidable by ONE system on a KNOWN timescale -- the best-positioned
+  prediction in the corpus. No further corpus work is owed; the next move
+  belongs to the observers.
+
+### Addendum (2026-08-01) — PRED-002 confronted: confirmed, and demoted
+- THE FLATNESS TEST ALREADY EXISTED and PRED-002 did not know it. Ballardini,
+  Gruppuso, Paradiso, Sirletti & Natoli, JCAP 09 (2025) 075 [2507.16714],
+  tested beta_ell scale dependence on Planck legacy data by two independent
+  methods: a power-law fit (departures only up to 1.8 sigma) and a
+  non-parametric Bayesian reconstruction in which the CONSTANT model is
+  FAVOURED by evidence, robust across all four Planck solutions.
+- SO THE PREDICTION IS CONFIRMED -- the corpus's first prediction positively
+  borne out by an existing measurement.
+- BUT THE DISCRIMINATION AUDIT GOES AGAINST IT: PRED-002 registered flatness as
+  "the rope-specific signature", claiming axion-like models generically give
+  l-dependence. The source paper's own framing implies the opposite -- scale
+  dependence arises IF the ultra-light pseudoscalar hypothesis FAILS, so the
+  standard axion also predicts constant beta. Flatness separates rope and axion
+  JOINTLY from heavier fields and Faraday/Lorentz-violating rotation.
+- VERDICT: CONFIRMED BUT NON-DISCRIMINATING. Demoted T1 -> T3 under the
+  ELEC-062 criteria; the corrected corpus T1 count is SEVEN.
+- Numbers: EB/EE = 0.01047 at Ballardini's beta = 0.30(5) deg, 0.01194 at the
+  Eskilt-Komatsu 0.342(94) PRED-002 used; the two betas agree at 0.39 sigma.
+- NAMED NEXT-ORDER, and it is a derivation the corpus can actually do: axions
+  give a nearly frequency-INDEPENDENT beta while Faraday and Lorentz-violating
+  mechanisms give beta ~ nu^n. The rope has never committed to an n. Deriving
+  beta(nu) would restore discriminating status or kill the prediction, and
+  Planck DR4 frequency-band constraints (Eskilt 2022) already exist to test it.
+
+### Addendum (2026-08-01) — PRED-002's frequency scaling derived: the door closes
+- THE NAMED HIGH-VALUE DERIVATION, done. Two routes: R1 topological
+  (Chern-Simons, angle set by a field excursion, n = 0) and R2 material optical
+  activity (structural chirality length -> leading spatial dispersion first
+  order in k -> rotation ~ omega^2 w/2c^2, n = +2, the standard Drude
+  psi ~ 1/lambda^2 result).
+- B1 MAGNITUDE, decisive before any frequency data: at the framework's own
+  w = 5.774e-17 m (ELEC-053), R2 gives 2.85e-10 rad/m at 150 GHz = 3.7e16 rad
+  over a Hubble path, against an observed 5.2e-3 rad. OVERSHOOT 7.1e18.
+- B2 FREQUENCY, against Eskilt 2022 (Planck DR4, n = -0.35 +0.48/-0.47):
+  n = +2 EXCLUDED at 4.90 sigma; n = -2 (Faraday) EXCLUDED at 3.44; only
+  n = 0 survives at 0.73. The two exclusions agree.
+- B3 THE DEBT: only the topological route survives, and it is the axion's
+  value. A medium with a 5.8e-17 m structural length must rotate polarization
+  WITHOUT referencing that length -- a nineteen-order suppression the axion
+  gets for free by being a field rather than a structure. Not derived here.
+- B4 NO RESCUE BY FIAT: adopting n = 0 because it fits is the move refused when
+  the gauge branch closed. If the birefringence is topological, that is a
+  POSTULATE and must be registered as one with the suppression as its price.
+- CENSUS: PRED-002 stays T3 and its route to T1 is now BLOCKED rather than
+  unexplored. The suppression should be treated as a constraint of Lorentz-bound
+  weight on any future electromagnetic-sector work.
+
+### Addendum (2026-08-01) — ELEC-064: the T1 audit, seven become two
+- Same treatment PRED-002 got, applied to the rest. Criteria unrelaxed, plus
+  three tests locked before any entry was examined: dependency hygiene,
+  conditional population, unbuilt model.
+- GRV-039 -> T2: genuinely distinctive, but Hawking radiation has never been
+  observed from any astrophysical hole and the only observable channel needs a
+  ~1e15 g primordial hole not known to exist; non-detection is already
+  explained by abundance limits.
+- HBAR-010 -> T4, AND AN ERROR IN ELEC-061 EXPOSED: its argument opens from
+  HBAR-006's relation hbar ~ w^2, and HBAR-006 was CLOSED by ELEC-061 -- whose
+  classification recorded HBAR-010 as SURVIVES because it "never involved the
+  patch". Too narrow: the right test is whether the result uses ANYTHING the
+  retirement removed. Corrected against ELEC-061.
+- QGATE-007/010 -> T2: the supporting branch (QED-like polarimetry)
+  discriminates nothing since QED already predicts QED; the discriminating
+  branch needs the non-spinor rope electron the claim itself records as
+  unbuilt. An acceptance test, kept for its standing commitment.
+- PRED-001 -> T3: strongly falsifiable, weakly confirmable -- 58.47 meV sits
+  where any minimal-normal-ordering model lands.
+- SURVIVING T1: PRED-003 and GRV-040. THE CORRECTED COUNT IS TWO.
+- NAMED HIGHEST-VALUE MOVE: commit a flux for GRV-040 -- the only promotion
+  available through the corpus's own work rather than an experiment or an
+  unbuilt model. README rewritten to two.
+
+### Addendum (2026-08-01) — GRV-049: the whisper's flux committed, and the tier lost
+- ELEC-064 named this as the corpus's highest-value move. It went the other way.
+- FREQUENCY: 186 Hz (10 Msun), 31 Hz (GW150914-scale remnant), 4.3e-4 Hz
+  (Sgr A*), 2.9e-7 Hz (M87*). Stellar cases sit in the LIGO/Virgo band; ALL are
+  electromagnetically unusable (186 Hz is a 1600 km wavelength).
+- LUMINOSITY, from GRV-040's own law at its own greybody and Eddington
+  accretion: L_whisper = f x (0.40-1.10) L_Edd. THE WHISPER IS NOT A WHISPER.
+- BOUND, from data that already exists: allowing 1% of the accretion budget for
+  an unmodelled channel gives f <= 2.5e-2 to 9.1e-3 -- three orders below the
+  energetic ceiling f <= 1 the claim carried. The first quantitative constraint
+  the corpus has extracted on its own black-hole engine from astrophysical data.
+- THE CHANNEL FORK, no third branch permitted: EM coupling reprocesses the
+  energy and destroys the 0.23 kappa signature; medium-only coupling is
+  undetectable, since strand excitations have never been shown to couple as
+  metric perturbations, making the LIGO-band coincidence numerology.
+- VERDICT: GRV-040 DEMOTED T1 -> T2. THE CORPUS HAS ONE T1 PREDICTION: PRED-003.
+- NAMED NEXT-ORDER, now the gravity sector's hinge: does a strand-medium
+  excitation couple as a metric perturbation? If yes, the frequencies above
+  become a LIGO search specification and GRV-040 returns to T1.
+- Housekeeping: the new claim collided with an existing GRV-045 (handedness
+  under reconnection) and was renumbered GRV-049; the duplicate was caught by
+  the uniqueness check, not by inspection.
+
+### Addendum (2026-08-01) — GRV-050: the ratchet event sources the metric channel
+- THE HINGE GRV-049 NAMED, and the first result tonight to go the framework's
+  way. The bars permitted the outcome that would have closed GRV-040 for good.
+- B1 THE TRACE TEST: modelling a strand as sigma_ij = T n_i n_j and an
+  X-crossing reconnection as through-pairing -> cross-pairing at fixed total
+  length, Tr(Delta_sigma) VANISHES IDENTICALLY (max 3e-16) at every crossing
+  angle. A reconnection exchanges DIRECTION, not material -- no volumetric
+  part, so it does not feed the matter-decoupled longitudinal channel.
+- B3 SPIN CONTENT: mean transverse-traceless fraction 0.396 over propagation
+  directions. Roughly a third of the source power lands where a matter-based
+  detector couples.
+- THE SELECTION RULE, found and headlined rather than buried: at a
+  PERPENDICULAR crossing both pairings sum to the same in-plane projector,
+  Delta_sigma vanishes exactly, and the reconnection radiates NOTHING.
+  GRV-049's flux law omits this angular weighting; folding it in can only
+  reduce the luminosity, which is the helpful direction given that GRV-049
+  found the emission implausibly large -- but it must be computed, not assumed.
+- B5 THE GAP: a SOURCE argument, not a propagation calculation. GRV-025's
+  IR-universal induced action has the Einstein-Hilbert tensor pattern -- the
+  structure this source would need -- but the two halves have never been joined.
+  GRV-040 STAYS AT T2.
+- NAMED NEXT-ORDER: compute the overlap of the deviatoric ratchet source with
+  GRV-025's measured h_xy channel. Nonzero with a computable normalisation and
+  GRV-040 returns to T1 with a LIGO search specification attached.
+
+### Addendum (2026-08-01) — GRV-051: the halves join
+- GRV-050's source (pure shear, diag(-cos2theta, +cos2theta, 0) in the crossing
+  frame) coupled to GRV-025's measured EH response (xx, zz, xy, xz) =
+  (+18.4, -14.5, +286.8, -1.4) via S_int ~ (1/2) h_ij Delta_sigma_ij.
+- B1 PROJECTION, averaged over SO(3) since a reconnection shell has no preferred
+  alignment with the weave frame: mean fractional power 0.114 (xx), 0.114 (zz),
+  0.152 in EACH shear channel. The source does NOT miss the shear channel --
+  the failure mode that would have closed GRV-040.
+- B2 WEIGHTED OVERLAP: 0.9254 of the EXCITED power lands in the EH-carrying xy
+  channel. THE LARGE NUMBER COMES FROM THE MEDIUM, not the source: the source
+  spreads evenly (0.11-0.15 per channel) while GRV-025's xy response sits at
+  286.8 against 18.4 and 14.5 on the diagonals. A shear-preferring medium meets
+  a pure shear source -- they reinforce rather than fight.
+- B3 the cubic ambiguity reported, not resolved by preference: literal xy 0.9254,
+  all-three-shear 0.9752; the conservative reading is used.
+- VERDICT: the whisper is sourced in the GRAVITATIONAL channel. GRV-040 is T1 ON
+  STRUCTURE. Three debts undischarged: strain normalisation uncomputed;
+  GRV-049's f <~ 1e-2 accretion bound multiplies any amplitude; GRV-050's
+  perpendicular selection rule removes an unmeasured fraction of events.
+- NAMED NEXT-ORDER, and it decides the sector: carry GRV-043's spectral flux
+  through the 0.93 overlap and GRV-049's bound to a dimensionless strain h at
+  10 kpc, and compare to the LIGO design curve at 31-186 Hz. That single number
+  decides whether this is an observation or an elegant story.
+
+### Addendum (2026-08-01) — GRV-052: the strain, and the sector decides against itself
+- THE NUMBER GRV-051 SAID WOULD DECIDE THE SECTOR. Chain: L = f (dM/dt) c^2
+  T_grey eta_overlap with f <= 1e-2 (GRV-049), T_grey = 0.07 (GRV-040),
+  eta = 0.925 (GRV-051), nu = 185.8 Hz.
+- h = 7.9e-27 at 10 kpc; signal ASD 5.8e-28/rtHz against LIGO design 4e-24 --
+  6.9e3 below the noise floor. Broadband SNR (one year, cross-correlation) 1.6e-3.
+- THE COHERENT READING WOULD HAVE PASSED: monochromatic integration over a year
+  gives SNR 11.1. IT IS FORBIDDEN BY THE CORPUS'S OWN SPECTRAL CLAIMS --
+  GRV-041..044 spent four claims (and a bar that failed for three instrument
+  generations) establishing a broadband quasi-thermal spectrum with a running
+  temperature. That careful work removes four orders of sensitivity.
+- REAL SOURCES: Cygnus X-1 3.3e-2, V404 Cygni (outburst) 2.8e-2, GRS 1915+105
+  2.2e-3. Unity needs an EDDINGTON accretor at 0.40 kpc -- inside the known
+  census, but the nearby holes are QUIESCENT and silent by GRV-040's own law
+  (dM/dt = 0 -> L = 0 exactly). Proximity and silence are structurally coupled.
+- SELF-CORRECTION: this benchmark's first draft asserted no source close enough
+  could exist. Wrong by inspection; the obstruction is accretion STATE, not
+  distance. Corrected in place and recorded.
+- VERDICT: GRV-040 is T1 ON STRUCTURE AND UNOBSERVABLE IN PRACTICE. Reopening
+  needs 36x in SNR: a nearby Eddington-rate transient, a third-generation
+  detector, or a narrowband spectral component GRV-041..044 argue against.
+
+### Addendum (2026-08-01) — ELEC-065: the dependency sweep
+- Commissioned because two errors of the same type surfaced today (HBAR-010
+  inheriting a retired premise; the census scoping itself to one file), both
+  being "something upstream changed and nothing downstream noticed".
+- 30 claims changed standing today; 116 transitive descendants carried no
+  annotation referencing the change.
+- TRIAGE BUG, recorded because it is the reusable part: the first pass used
+  SUBSTRING matching and flagged NINE inheritances -- all nine spurious.
+  "born" matches inside "stubborn" and "reborn"; QB-024's Born half-angle law
+  and QGATE-001/002/008's Born equivariance are not the retired Born-SCALE
+  prediction. Accepting the count would have annotated nine claims with a
+  dependence they do not have -- corrupting the registry while auditing it.
+  Caught by reading all nine hits in context rather than trusting the number.
+- Word-boundary triage gives TWO genuine inheritances: ELEC-039 and ELEC-040,
+  both resting on the electron sector's 2e4, whose interpretation was settled
+  today by ELEC-057 (not a calibration error; the window is empty by 5.2
+  decades) and ELEC-058 (bundling closed). Both annotated in this session.
+- READING: today's corrections were essentially complete, and the two misses
+  were in the same sector for the same reason -- the electron work is large,
+  internally referential, and contributes nothing at any prediction tier, so it
+  attracts less attention than its claim count deserves.
+
+### Addendum (2026-08-01) — the state-of-the-programme document rewritten
+- docs/STATE_OF_THE_PROGRAMME.md was stale by a wide margin: dated 17 July and
+  quoting 122 claims against the current 381, written before the audit campaign
+  that retired the hbar sector and cut the prediction list from eight to one.
+  Archived at docs/_archive_STATE_2026-07-17.md and rewritten current.
+- The new edition is written for a reader OUTSIDE the project: the ontology in a
+  paragraph, the three anchoring quantities, the single live prediction with its
+  refutation threshold and decision window (2027-2030), the retirements with
+  their reasons, the weakest sectors named, and how to verify any of it.
+- It states plainly what the derivations do and do not buy -- g_dagger = cH0/2pi
+  at zero parameters is a real achievement that does NOT discriminate, since
+  MOND fits the same observable.
+- README now points new readers to it.
+
+### Addendum (2026-08-01) — state-of-the-programme: the classical sectors foregrounded
+- CORRECTION TO THE FIRST EDITION, on the author's note: it was organised around
+  the prediction accounting and badly understated the corpus's actual substance.
+  A reader meeting only the prediction list would misjudge what has been done.
+- New structure separates the two questions explicitly: what the framework
+  RECONSTRUCTS (substantial) and what it PREDICTS beyond standard physics (thin).
+- The classical sectors now lead, with claim-level detail: 10/10 optical
+  phenomena Derived (OPT-001..010) with intrinsic impedance Z = T/c; charge as
+  topological linking (EM-001), current as transported linking with continuity
+  and closed-loop shown to be ONE condition (EM-008, EM-014), the electrostatic
+  sign theorem derived rather than assumed (EM-015); MAGNETISM with no free
+  parameters -- the current-current force at correct magnitude, 1/d and signs
+  (EM-012) and the Lorentz force from gauge-forced coupling (EM-013); Maxwell
+  from Bianchi + Chern-Weil in d=3 (EM-003) with Z0 = 376.74 ohm and
+  c^2 = 1/(mu0 eps0) (EM-002); and the four classical weak-field gravity tests
+  at GR values (GRV-002, Derived).
+- Stated honestly alongside: GRV-001's metric is MATCHED, not derived from a
+  field equation, so GRV-002 is conditional on it.
+- Sector counts given: 25/43 EM+optics Derived, 22/52 gravity Derived.
+- The caveat kept and sharpened: agreement on every observable means no
+  measurement separates the frameworks, so reconstruction is a structural
+  achievement and not evidence against the standard accounts.
+
+### Addendum (2026-08-01) — state-of-the-programme: the caveat rewritten as a position
+- The earlier caveat ("these are derivations of results standard physics already
+  produces") implied the reconstruction was worth less for being predictively
+  equivalent. That is the wrong inference and it has been replaced.
+- NEW FRAMING: predictive equivalence is a fact about the situation, not a
+  verdict. The case for the ontology rests on EXPLANATORY ECONOMY -- one medium,
+  one tension, the same constants across four sectors, no fields laid on top, no
+  separate postulate per phenomenon. Snell's law from wavefront continuity in a
+  medium is a different kind of statement from Snell's law as a field boundary
+  condition. Precedent noted: Lorentzian vs Einsteinian relativity were
+  predictively identical and the argument was ontological.
+- TWO CLAIMS EXPLICITLY REFUSED, so the document cannot be caught overreaching:
+  (1) that the standard accounts are mere curve-fitting -- QED's g-2 to twelve
+  digits, antimatter, W/Z masses and gravitational waves were all committed to in
+  advance and found; (2) that this framework explains the constants -- it does
+  not. G ~ 1/(Ta) is assumed (PRED-003 provisional on it), lepton masses are
+  irreducible inputs (PM-004, kept negative), and Sigma is a free parameter with
+  two candidate values.
+- The honest comparison stated: more MECHANISM, no more DERIVATION OF CONSTANTS.
+
+### Addendum (2026-08-01) — state-of-the-programme: the nuclear mass table added
+- OMISSION CORRECTED, on the author's note: NUC-005 (amended by NUC-018)
+  PREDICTS atomic masses from C-12 to U-238 with ONE calibrated nuclear
+  constant, at 0.00-0.51% on mass. The standard semi-empirical mass formula
+  uses roughly five fitted parameters for the same job. This was missing from
+  the document entirely and belongs among the headline reconstructions.
+- Added with its warts, per house practice: the parameter-free surface ratio is
+  1.34 against 1.130 empirical (NUC-016 corrected an earlier 1.108 that looked
+  better for the wrong reason), the volume coefficient sits 12.8% high after
+  that correction, and the derived Coulomb term is 9% off. The corrections
+  DEGRADED the headline and were registered anyway.
+- THE MASS CAVEAT REWRITTEN to distinguish composite from fundamental. Composite
+  masses the framework does well, on fewer parameters than the standard formula.
+  Fundamental masses and constants it does not derive at all: lepton spectrum an
+  irreducible input (PM-004), G ~ 1/(Ta) assumed, Sigma free.
+- The comparison stated squarely: the Higgs mechanism is widely credited with
+  explaining mass and does not -- it explains how mass is COMPATIBLE WITH GAUGE
+  SYMMETRY (and correctly predicted the W/Z ratio), while every fermion mass
+  remains a fitted Yukawa coupling spanning six orders. NEITHER framework
+  derives the fundamental masses; this one derives more of the composite ones,
+  from a mechanism, with fewer knobs.
+- Headline and one-line summary updated to include the nuclear mass table.
+
+### Addendum (2026-08-01) — docs directory review
+- FOUR FINDINGS, three of them defects.
+- (1) STALE GENERATED DOCS: PROGRAMME_OVERVIEW.md and ROADMAP.md are built from
+  claims.yaml and had drifted (ROADMAP quoted 291 claims against 381).
+  Regenerated. Release notes were checked and are correctly FROZEN -- their
+  counts are right for their release and must not be updated.
+- (2) TWO DANGLING DEPENDENCIES, found because they CRASHED tools/build_roadmap.py:
+  ELEC-032 and ROPE-MODE-011 are referenced by ELEC-035, ROPE-MODE-012 and
+  ROPE-MODE-013 but were never registered. The missing claims are NOT
+  reconstructed -- inventing them would be worse than recording the gap. The
+  three referencing claims are annotated; build_roadmap now skips dangling
+  edges instead of crashing; and verify_corpus gains GUARD 4, tolerating these
+  two known gaps and failing on any new one.
+- (3) STALE RENDERS BESIDE THEIR SOURCE: STATE_OF_THE_PROGRAMME.docx and .pdf
+  were rendered at 10:50 from the 17 July edition -- a reader opening the PDF
+  would have got 122 claims and the pre-audit prediction list. Moved to
+  docs/_superseded/ with a README explaining why, and the PDF regenerated from
+  the current markdown.
+- (4) NEW: docs/PROVENANCE.md, classifying every document as GENERATED (rebuild,
+  never hand-edit), HAND-WRITTEN CURRENT, FROZEN BY DESIGN (release notes,
+  archives), or a dated standalone render. The July staleness went unnoticed
+  for two weeks because nothing recorded which documents decay.
+
+### Addendum (2026-08-01) — pre-release verification caught three failures
+- The full verify_corpus run before cutting v3.0.0 found THREE failing
+  benchmarks. All three are now green and the release was NOT cut over them.
+- (1) MALFORMED FIELD: a stray trailing comma in a registration script made
+  PRED-003-CONF's `title` a LIST rather than a string. It parsed as valid YAML,
+  survived every existing guard, and crashed layer_separation.py and
+  quantum_ledger.py through the shared classifier helpers. Repaired, and
+  verify_corpus gains GUARD 5 (field-type checking) so it cannot recur.
+- (2)/(3) STALE EXPECTATION: benchmarks/qgate/synthesis.py mechanically asserts
+  the status of every claim in the QGATE chain and still expected THM-006 as
+  Modeled. THM-006 was correctly reclassified Failed-and-kept earlier today when
+  its enrichment fell below its locked bar. The benchmark's expectation was the
+  stale thing, not the status; updated.
+- WORTH RECORDING: the fast three-test suite passed throughout. Only the full
+  benchmark run surfaced these, which is the argument for running it before a
+  release rather than trusting the subset.
+
+### Addendum (2026-08-01) — ELEC-066: the dynamical-electron conjecture, filed as a conjecture
+- Registered status CONJECTURE with NO benchmark and no computation behind it,
+  and it says so in its own first line. It originated in conversation rather
+  than at an instrument, and the corpus should be able to tell the difference
+  forever after.
+- THE CONTENT WORTH KEEPING is not the intuition that the electron is dynamical
+  -- that is old and cheap. It is that ELEC-057's 5.2-decade no-go, currently
+  the sector's strongest closure, rests on r_e ~ a, and that proportionality is
+  a CONSEQUENCE of modelling the electron as a rigid static geometry rather than
+  an independent fact. The sweep forecloses a STATIC electron at every strand
+  scale; its reach beyond that is not established.
+- ELEC-057 is NOT weakened and nothing is withdrawn -- a boundary is added, and
+  filed on ELEC-057 itself so a future reader meets it there.
+- THE COUNTERWEIGHT RECORDED IN THE SAME BREATH: the framework's causal budget
+  (ELEC-043) is inherited undiminished by any dynamical proposal, and has
+  already killed three escapes needing coordination faster than the medium
+  allows. The surviving shape is narrow -- dynamical WITHOUT long-range
+  coordination -- and this conjecture may well die there.
+- NOTED: that shape is the same as ELEC-054's open scale-selection problem. Two
+  sectors appear stuck on one absence -- an object that picks its own extent.
+- Promotion criteria stated: a stated internal motion, a computed charge radius
+  confronted with ELEC-036's bound, extent NOT rigidly proportional to the
+  strand spacing, and ELEC-043's causal budget computed rather than assumed.
+
+### Addendum (2026-08-01) — ELEC-066 Amendment 1: the causal wall is transverse-only
+- CORRECTION, same day, on the author's prompt: ELEC-066's "wall any dynamical
+  proposal must clear" was TOO STRONG and was written having forgotten a channel
+  the corpus already registers.
+- ELEC-043's c-tau budget binds TRANSVERSE coordination. The LONGITUDINAL sector
+  is registered as a real, dark, GAPLESS fast channel that decouples from matter
+  and light at linear order and creates no causal paradox given the preferred
+  frame (EM-RECON-011; EM-RECON-012, Derived, removes the twist-stretch gap).
+  QB-008 corners its speed by experiment: anticorrelation demands v > ~10c, Bell
+  timing v > 1.38e4 c, and Bancal's signalling theorem excludes ALL finite
+  speeds -- forcing the INSTANTANEOUS-CONSTRAINT limb, the ideal limit of the
+  corpus's own P-VOL inextensibility postulate.
+- CONSEQUENCE: an inextensible medium coordinates along its tension channel
+  instantly, so a dynamical electron cohering through the constraint channel is
+  not bounded by c tau. The "narrow surviving shape" ELEC-066 asserted was
+  narrowed by an oversight, not by the physics.
+- WHAT SURVIVES AS THE SHARP QUESTION: the longitudinal sector decouples from
+  matter at LINEAR ORDER EXACTLY, so any such coupling must be nonlinear, or the
+  decoupling theorem must be shown not to apply to a self-coupled configuration.
+  Neither has been done.
+- THE PARALLEL STRENGTHENS: QB-007 named the preferred-frame fast channel as the
+  ONLY native candidate for the spacelike depletion measurement requires, and
+  QB-010's pilot-wave adjacency needs exactly an instantaneous constraint. ONE
+  CHANNEL now stands as candidate for the electron's internal coherence, for
+  measurement, and plausibly for ELEC-054's scale selection.
+
+### Addendum (2026-08-01) — ELEC-067: matter CAN use the fast channel
+- The sharp question ELEC-066 Amendment 1 left open, answered at the vertex.
+- B1: the coupling was re-derived independently by sympy from
+  eps = sqrt((1+u')^2 + psi'^2) - 1 rather than cited. Quadratic u'-psi' mixing
+  is EXACTLY ZERO; the first coupling is CUBIC with coefficient (k - T0)/2,
+  confirming EM-RECON-011 leg (2).
+- B2 THE NO-GO, run FIRST because it could have ended the session: the vertex
+  vanishes iff k = T0. That is not forced -- k is stretch stiffness, T0 is rest
+  tension, independent -- and P-VOL inextensibility pushes the OTHER way. The
+  inextensible limit is k -> infinity at fixed T0, so (k - T0)/2 -> k/2 GROWS
+  WITHOUT BOUND. THE VERTEX IS STRONGEST IN EXACTLY THE LIMIT QB-008's
+  EXPERIMENTS INDEPENDENTLY FORCE (Bancal excluding all finite speeds).
+- B3: in that limit the longitudinal field obeys an ELLIPTIC equation with no
+  time derivative, u' = -((k-T0)/(2k)) psi'^2 -- not a wave but an INSTANTANEOUS
+  CONSTRAINT sourced by |grad psi|^2. That is the shape of a guidance structure,
+  which is what QB-007 said measurement requires and QB-010 said pilot-wave
+  theory occupies.
+- B4: the coupling is NOT parametrically small -- u' ~ -(1/2)(A/R)^2, set by the
+  configuration's own steepness. Compact steep objects couple strongly. The
+  back-reaction read from the same vertex is ATTRACTIVE for u' < 0, which is the
+  sign the source itself produces: self-binding is natural, not tuned.
+- THE STRUCTURAL COINCIDENCE, and nothing was arranged to produce it: the
+  experimental corner (instantaneous limb) and the theoretical coupling (grows
+  as k) point the same way, and EM-RECON-011's vertex was derived two campaigns
+  ago for an unrelated purpose.
+- B5 NOT SHOWN, and not to be read in: nothing about the electron's size, mass
+  or form factor, and no claim that a bound solution exists. The next question
+  is a SOLITON EXISTENCE problem -- does the coupled system admit a stable
+  finite-energy localized solution, and what fixes its scale -- which is
+  ELEC-054's scale-selection question arriving from the other side.
+
+### Addendum (2026-08-01) — ELEC-068: static collapse, dynamical stabilization, L* = c/omega
+- B1: eliminating ELEC-067's constraint gives the effective density
+  (T0/2) psi'^2 - ((k-T0)^2/(8k)) psi'^4. The quartic is a PERFECT SQUARE over k
+  and therefore negative for every material parameter choice -- the attraction
+  cannot be tuned away, and the coupling that made the channel usable is the
+  same one that drives collapse.
+- B2 THE STATIC VERDICT, a clean negative reported first as the bars required:
+  E(L) = A/L - B/L^3 has E''(L*) < 0 for all positive A, B. The stationary point
+  is a MAXIMUM. NO STATIC LOCALIZED SOLUTION EXISTS -- established independently
+  of ELEC-036's form factor and ELEC-057's sweep, and saying the static electron
+  fails for a more basic reason than either: it is not a solution at all.
+- B3: internal circulation adds +C L, and E(L) = A/L - B/L^3 + C L has a genuine
+  MINIMUM on the outer branch whenever A^2 > 12 B C. An EXISTENCE WINDOW, not an
+  automatic rescue -- outside it there is no stationary point at all.
+- B4 THE SCALE: L* = c/omega EXACTLY in the weak-attraction limit, set by the
+  internal frequency and containing NO reference to the strand spacing. A
+  dynamically stabilized object is therefore OUTSIDE ELEC-057's r_e ~ a sweep,
+  and ELEC-066's conjecture -- filed hours earlier as an intuition with nothing
+  behind it -- survives its first quantitative test.
+- RECORDED AND NOT CELEBRATED: L = c/omega is the FORM of the Compton relation,
+  but nothing here derives omega and that shape follows from dimensional
+  analysis in any medium with a wave speed and an internal frequency. Reading it
+  as the Compton wavelength emerging would be a serious error.
+- NOT DONE: the solution is not constructed, uniqueness unestablished, amplitude
+  unfixed, omega undetermined, model 1+1 with a scalar stand-in, and no contact
+  with charge, mass or the measured form factor.
+- NAMED NEXT-ORDER: construct the profile numerically in the stable window and
+  check whether A^2 > 12 B C is satisfiable with the corpus's own T0 and mu --
+  the first point at which this line could meet a registered number and fail.
+
+### Addendum (2026-08-01) — ELEC-069: the window is reachable, and the tension runs the wrong way
+- THE TEST ELEC-068 NAMED, decidable because QB-008 already bounds the
+  stretch-to-transverse stiffness ratio from BELL TIMING at K_L/K_T >= 1.9e8.
+- MAPPING: for a sech profile the window A^2 > 12 B C reduces at large k, with
+  omega = c/L, to a pure STEEPNESS constraint (Amp/L)^2 < (T0/k) I1^2/(3 I2 I3),
+  geometric factor 0.6481, giving Amp/L < 5.84e-5 at the registered minimum.
+  The bound is ONE-SIDED, so a stiffer medium makes it worse.
+- THE FINDING: ELEC-067's vertex STRENGTHENS with k; this window CLOSES as
+  1/sqrt(k); the two cancel EXACTLY. Maximum induced longitudinal strain falls
+  as 1/k -- at the registered bound, |u'| <= 1.7e-9. THE MECHANISM IS STRONGEST
+  WHERE THE OBJECT CANNOT EXIST.
+- VERDICT: reachable but shallow. Not a refutation -- a stable branch exists and
+  its cap comes from data rather than taste, the first time this line has touched
+  a registered number without breaking. But the surviving solutions are
+  barely-bound, barely-nonlinear objects, and a line of work that ends by
+  predicting nearly-linear waves has not explained a particle.
+- CROSS-SECTOR CROSS-CHECK NOTED: a Bell-timing bound derived for the
+  measurement problem constrains a structural question in the electron sector.
+- NAMED NEXT-ORDER, and it is not small: DERRICK'S THEOREM IS
+  DIMENSION-DEPENDENT and this entire arc is 1+1. The whole analysis must be
+  redone in 3+1, where the scaling exponents and hence the collapse argument
+  change character, before any of it means anything about a real particle.
+
+### Addendum (2026-08-01) — ELEC-070: 3+1 Derrick kills the dynamical mechanism, a sextic replaces it
+- THE CHECK ELEC-069 NAMED. In D dimensions the gradient scales as L^(D-2), the
+  attractive quartic as L^(D-4), the internal-frequency term as L^D. D = 3 gives
+  E = A L - B/L + C L^3 whose derivative A + B/L^2 + 3C L^2 is POSITIVE TERM BY
+  TERM: no stationary point, infimum at L -> 0, collapse.
+- ELEC-068's DYNAMICAL STABILIZATION IS A ONE-DIMENSIONAL ARTIFACT. Nothing
+  computed there was wrong; its relevance is withdrawn, and with it L* = c/omega
+  and the Compton-form observation that rode on it. A result that pretty should
+  have been suspected; the bars requiring the artifact verdict in advance are why
+  it was caught in one session rather than carried.
+- WHAT REPLACED IT WAS NOT PUT THERE BY HAND: the strain expansion's own sixth-
+  order coefficient is T0(k - 2T0)(k - T0)/(16 k^2), POSITIVE whenever k > 2T0 --
+  and the registered stiffness ratio k/T0 >= 1.9e8 (QB-008, Bell timing, derived
+  for the measurement problem) exceeds that by eight orders. The medium supplies
+  a short-range repulsion of exactly the Skyrme class 3D solitons require, and
+  E = A L - B/L + D/L^3 has a genuine minimum.
+- THE IRONY RECORDED: this arc began from the conjecture that the electron must
+  be DYNAMICAL rather than static, and the 3D analysis says the stabilization is
+  STRUCTURAL -- no internal motion needed. ELEC-066 is neither vindicated nor
+  refuted: it correctly identified that the static analysis was incomplete, and
+  the completion restored a static object rather than requiring a dynamical one.
+- THE CAVEAT THAT MAY UNDO ALL OF IT: the EXACT elimination of the longitudinal
+  field is DEGENERATE (dE/du' = 0 gives eps = -T0/k, a constant energy, since an
+  inextensible medium can absorb any transverse displacement by shortening).
+  Everything from ELEC-067 to here rests on a perturbative truncation whose
+  validity is not established. That is now the line's load-bearing uncertainty.
+- NAMED NEXT-ORDER: establish whether the truncation is physical -- what fixes
+  the order at which the constraint is applied, and whether a finite-response
+  (large but finite k) treatment reproduces the perturbative coefficients.
+
+### Addendum (2026-08-01) — ELEC-071: the quartic's sign is parametrization-dependent
+- THE LOAD-BEARING UNCERTAINTY ELEC-070 NAMED, resolved -- and the finding is
+  uncomfortable before it is reassuring.
+- B1: the same physical string gives E/T0 = sqrt(1 + psi_x^2) - 1 against the LAB
+  coordinate and E/T0 = 1 - sqrt(1 - psi_s^2) against ARCLENGTH. The QUARTIC
+  COEFFICIENTS DIFFER IN SIGN: -1/8 (attractive) vs +1/8 (repulsive). The entire
+  attractive mechanism of ELEC-067..070 exists in one description and not the
+  other. THE SEXTIC AGREES (+1/16 in both), so ELEC-070's Skyrme-class stabilizer
+  is parametrization-ROBUST.
+- B2 THE SELECTION, made by a DERIVED claim: FND-REL-002 forbids the Galilean
+  convective term because NO MATERIAL VELOCITY EXISTS, and EM-RECON-011 leg (1)
+  draws the consequence that longitudinal displacement is GAUGE because strands
+  have NO MATERIAL POINTS. A medium without material points cannot be
+  parametrized by arclength -- arclength is a label on material. THE LAB
+  DESCRIPTION IS FORCED, carrying the attractive quartic.
+- B3: the cubic vertex, the collapse, the 3D failure of dynamical stabilization
+  and the positive sextic all SURVIVE with their ground now stated. Everything
+  depending on the quartic's sign is explicitly CONDITIONAL ON FND-REL-002.
+  Nothing retracted returns.
+- B4 THE EXPOSURE, named rather than left implicit: FIVE claims now rest on ONE.
+  If FND-REL-002 were overturned or its reading narrowed, the quartic flips, the
+  attraction vanishes, and the line collapses to "a stiff medium disperses
+  wavepackets" -- no soliton, no electron. Annotated on FND-REL-002 itself so a
+  future reader meets the dependency there.
+- NAMED NEXT-ORDER: nothing further on this line until the exposure is accepted
+  deliberately or reduced -- the obvious reduction being to derive the attraction
+  from something else, e.g. the topological winding EM-001 makes integral.
+
+### Addendum (2026-08-01) — ELEC-072: the exposure reduced without the topological fallback
+- ELEC-071 left the soliton line on one Derived claim and recommended nothing
+  further until the exposure was accepted or reduced. Reduced, and by the
+  cheaper route.
+- THE KEY: ELEC-070's two coefficients have DIFFERENT STANDINGS. The quartic is
+  contingent on parametrization (-1/8 lab, +1/8 arclength); the SEXTIC IS ROBUST
+  (+1/16 both). In 3D the sextic diverges as L -> 0 and the gradient as
+  L -> infinity, both parametrization-independent, so a minimum is TRAPPED
+  BETWEEN TWO ROBUST WALLS and the contingent term only decides where between.
+- B1: every parameter choice, BOTH signs, gives a stable minimum. EXISTENCE DOES
+  NOT DEPEND ON THE PARAMETRIZATION.
+- B2, not overstated: L* differs by factors 1.2-2.9 between signs and the binding
+  energy changes sign, so FND-REL-002 still fixes SIZE and ENERGY. The exposure
+  goes from "five claims may describe nothing" to "five claims describe something
+  whose dimensions depend on one Derived result" -- an ordinary dependency, not a
+  single point of catastrophic failure. Annotated on FND-REL-002 itself.
+- B3: a positive E(L*) does NOT mean dispersal -- both scaling limits cost
+  infinite energy at fixed amplitude. The sign controls whether the localized
+  state is favourable relative to the uniform medium, i.e. whether such objects
+  FORM, not whether they can exist. The corpus should not conflate these.
+- B4 THE CEILING: Derrick varies ONE parameter at fixed profile and amplitude.
+  Everything from ELEC-067 to here is a necessary condition met, not a solution.
+- NAMED NEXT-ORDER: the scaling analysis is exhausted. Solve the Euler-Lagrange
+  equation numerically for the 3D radial profile with the derived quartic and
+  sextic, and check whether the assumed sech-like shape is anywhere near true.
+
+### Addendum (2026-08-01) — ELEC-073: the radial profile solved, the sech refuted
+- The step ELEC-072 named once scaling was exhausted, and the first result on
+  this line that is a SOLUTION rather than a scaling argument.
+- THE EQUATION IS EXACTLY SOLUBLE, which was not expected: with no
+  non-derivative term, d/dr[r^2 F(p)] = 0 gives the first integral r^2 F(p) = C,
+  and F(p) = p - p^3/2 + 3p^5/8 is strictly increasing (min F' = 0.70), so p(r)
+  is single-valued and the whole family collapses to ONE universal profile.
+- B2 THE SECH ASSUMPTION IS WRONG: the true profile has p ~ x^(-2/5) at the
+  origin -- a CUSP, where a sech has p -> 0 at its centre. ELEC-069's steepness
+  bound 5.84e-5 was computed from sech integrals and its COEFFICIENT is
+  therefore wrong; its existence and 1/sqrt(k) scaling survive. Correction filed
+  on ELEC-069 rather than left for a reader to find.
+- B3: both the excursion (3.1103) and energy (1.0362) integrals CONVERGE. The
+  cusp is integrable; the solution has finite energy.
+- B4 THE SCALE REDUCED TO ONE NUMBER: no length appears in the equation, so
+  size ~ Delta and E = 0.4328 T0 Delta^3. "What sets the electron's size" has
+  become "what sets Delta". EM-001's integer linking is the corpus's candidate,
+  under which size ~ N and mass ~ N^3 -- registered as STRUCTURE, explicitly not
+  as a prediction, since no doubly-charged elementary object is known.
+- B5 AND THE CUSP DESERVES SUSPICION: a diverging slope is exactly what a series
+  truncated at finite order produces when pushed where higher terms matter.
+- NAMED NEXT-ORDER: carry the expansion to eighth order and re-solve. If the
+  exponent -2/5 moves, the profile is an artifact and the scale relations move
+  with it.
+
+### Addendum (2026-08-01) — ELEC-074: solved to all orders, the cusp was an artifact
+- The named next-order was an eighth-order re-solve. The STRONGER test was
+  available and taken instead: the lab-parametrization density is known in
+  closed form, so the ALL-ORDERS problem is directly soluble. Flagged as a
+  deliberate substitution, not slipped past.
+- B1 THE DIFFERENCE THE TRUNCATION HID: exact F(p) = p/sqrt(1+p^2) is BOUNDED
+  (sup 1); the sixth-order F = p - p^3/2 + 3p^5/8 diverges as p^5. So
+  r^2 F(p) = C is soluble for all r > 0 in the truncation but ONLY for
+  r^2 >= C exactly. THE FIELD EXISTS ONLY OUTSIDE r0 = sqrt(C).
+- B2: the exact profile is p(x) = x^-2/sqrt(1 - x^-4), diverging as
+  (x-1)^(-1/2) at the CORE BOUNDARY. ELEC-073's cusp at the origin IS AN
+  ARTIFACT, as that claim suspected. The exact object is HOLLOW -- a shell with
+  an interior boundary, not a peaked lump.
+- B3: excursion 1.30853 and energy 0.76909 both FINITE. The hard core does not
+  cost infinite energy.
+- B4 THE SCALING SURVIVES: r0 = 0.7642 Delta, E = 4.3136 T0 Delta^3 -- still
+  linear and cubic, only the coefficients move (energy by 9.97x). THE TRUNCATION
+  WAS WRONG ABOUT SHAPE AND RIGHT ABOUT SCALING: exponents came from dimensional
+  structure it preserved, the profile from dynamics it did not. Worth remembering
+  when reading any truncated result in this corpus.
+- NAMED NEXT-ORDER: compare r0 with the strand spacing w. If r0 lands at or
+  below w, the hard core is the CONTINUUM FAILING and the treatment is invalid
+  there; if r0 sits well above w, the core is a feature of the medium's
+  mechanics and deserves to be taken seriously as structure.
+
+### Addendum (2026-08-01) — ELEC-075: the deciding test, and a clean negative
+- The test ELEC-074 named as deciding was run in BOTH required directions and
+  decided against the picture.
+- B1 SIZED TO THE SCATTERING BOUND (r0 <= 1e-3 fm): Delta = 1.31e-18 m = 0.0227 w
+  gives E = 1.6e-50 J against m_e c^2 = 8.19e-14 J -- THE OBJECT IS 2.0e37 TIMES
+  TOO LIGHT.
+- B2 MASSED TO THE ELECTRON: Delta = 2.2e-6 m, r0 = 1.7e-6 m -- a MICRON-SCALE
+  object, 3.0e10 strand spacings across and 1.7e12 times the size bound.
+- B3 THE CONTINUUM VERDICT: at the required sizes r0 = 0.0173 w, about 1.7% of
+  ONE strand spacing. THE HARD CORE IS THE CONTINUUM FAILING, not a physical
+  interior boundary. ELEC-074's hollow object is a description applied where it
+  does not apply -- exactly the possibility that claim raised about itself.
+- B4 THE OBSTRUCTION IS STRUCTURAL: E ~ T0 Delta^3 makes energy fall as the cube
+  of the size, and with T0 fixed by hadronic measurement no choice of the one
+  free parameter bridges 37 orders. The cubic law came from 3D scaling of a
+  pure-gradient energy -- from the model's structure, not from an adjustable
+  input.
+- B5: both registered T0 values agree within 1.4x on mass and 1.1x on size, so
+  ELEC-053's unresolved fork is irrelevant to a failure this deep.
+- WHAT SURVIVES: the exact profile, the scaling relations, and the structural
+  fact that this medium admits a stable localized finite-energy solution at all
+  -- not obvious nine claims ago, established now. The soliton is real in the
+  model and it is not an electron.
+- NAMED NEXT-ORDER: NONE on this construction. An energy law E ~ T0 Delta^3
+  cannot describe a particle whose mass and size are both measured, and no
+  profile refinement changes an exponent. A future attempt needs an energy law
+  with a term carrying NO derivatives -- which is precisely what a medium with no
+  material points forbids (FND-REL-002). That tension is where a next attempt
+  should start, not here.
+
+### Addendum (2026-08-01) — ELEC-076: no fast channel needed, and two models were treated as one
+- Prompted by a direct question from the operator, and it turned up something the
+  line's own author had not checked.
+- B1: ELEC-068 B1's quartic (eliminate the longitudinal field) is -(k-T0)^2/(8k);
+  ELEC-071/074's quartic (pure tension, T0(sqrt(1+p^2)-1)) is -T0/8 with NO k.
+  They agree only at k/T0 = 0.382 or 2.618. At the registered k/T0 >= 1.9e8 THEY
+  DIFFER BY EIGHT ORDERS.
+- B2/B3 THE ANSWER: NO. ELEC-073/074/075 solved the PURE-TENSION functional, in
+  which k never appears. The exact profile, hard core, scaling relations and 1e37
+  mass failure are all pure transverse tension geometry. The surviving structural
+  result -- that this medium admits a stable localized finite-energy solution --
+  would stand in a framework with NO superluminal sector at all.
+- B4 THE COST, not minimised: ELEC-067's vertex STANDS (derived independently).
+  But ELEC-068's window, ELEC-069's steepness bound and ELEC-070's sextic sign
+  were computed from the eliminate-u model, which the exact line did not use.
+  THOSE THREE CLAIMS DESCRIBE A DIFFERENT MODEL -- arithmetic unquestioned,
+  connection to the exact results broken. Annotated on all three.
+- ELEC-075's negative is UNAFFECTED and if anything strengthened: it used the
+  WEAKER attraction, and a stronger one gives a smaller object at fixed
+  excursion, worsening the mass shortfall.
+- NAMED NEXT-ORDER: settle which functional is physical -- does the medium
+  shorten at constant tension, or resist with stiffness k? That is constitutive
+  content, not algebra. ELEC-068 through ELEC-070 are conditional until it is
+  answered.
+
+### Addendum (2026-08-01) — ELEC-077: the framework selects the pure-tension functional
+- The decider ELEC-076 named, answered from a DERIVED claim rather than taste.
+- B1: pure tension = tension x ARC-LENGTH EXCESS, referring only to the curve's
+  geometry, reparametrization-invariant. Eliminate-u treats longitudinal
+  displacement as a PHYSICAL FIELD carrying elastic energy, presupposing
+  material points that can be displaced.
+- B2 THE VERDICT: FND-REL-002 (Derived) forbids the Galilean convective term
+  because NO MATERIAL VELOCITY EXISTS; EM-RECON-011 leg (1) draws the
+  consequence that u is GAUGE. A medium with no material points has no
+  longitudinal displacement field to carry elastic energy, and minimising over u
+  minimises over a LABELLING. THE PURE-TENSION FUNCTIONAL IS THE PHYSICAL ONE.
+- B3 THE COST: ELEC-068, ELEC-069, ELEC-070 DOWNGRADED from conditional to
+  SUPERSEDED-IN-PREMISE -- arithmetic sound, subject not this framework's.
+  Annotated on all three.
+- THE UNCOMFORTABLE FINDING IS UPSTREAM: EM-RECON-011 asserts in leg (1) that u
+  is gauge and computes in leg (2) a cubic vertex from an ELASTIC ENERGY IN u.
+  Those legs are not reconciled. The strain was invisible while the legs served
+  different purposes and became visible when ELEC-067 built on (2) and ELEC-071
+  invoked (1). Registered on EM-RECON-011 and on ELEC-067, which inherits it.
+- B4 THE LUCKY PART: ELEC-071 introduced the pure-tension form to settle an
+  unrelated parametrization question, so every exact result from ELEC-073 onward
+  inherited the CORRECT functional by accident. ELEC-075's clean negative stands
+  on the framework's own medium.
+- B5: the argument's force is that of FND-REL-002 plus a reading. An author could
+  reject it by holding u gauge for KINEMATICS while the strain stays physical.
+- NAMED NEXT-ORDER: reconcile EM-RECON-011's two legs, or narrow it. Until then
+  every claim coupling matter to the longitudinal sector rests on a computation
+  whose compatibility with the framework's gauge structure is unestablished.
+
+### Addendum (2026-08-01) — ELEC-078: the legs reconcile, and it costs more than it settles
+- B1/B2 THE RECONCILIATION: every energy in this line depends on u ONLY through
+  u'. Displacement u is gauge -- without material points, "how far this bit of
+  strand moved" is meaningless -- but u' = -delta_n/n is the strand DENSITY
+  perturbation, observable without material labels. BOTH LEGS STAND;
+  EM-RECON-011 is internally consistent and ELEC-077's strain is DISCHARGED in
+  its favour.
+- B3 WHAT IT FORCES, and this is the finding: if u' is strand density then
+  strand number conservation gives the GLOBAL constraint integral u' dx = 0 --
+  which ELEC-068 ignored, minimising over u' point by point as though the medium
+  could create and destroy strands locally. With a Lagrange multiplier the strain
+  becomes a CONSTANT, eps = <psi'^2>/2, and the effective energy is
+  (T0/2) INT psi'^2 dx + (k/8) L <psi'^2>^2. THE LOCAL QUARTIC IS ABSENT.
+- B4: for a localised object in an infinite medium the nonlocal term vanishes as
+  1/L, leaving a PURELY QUADRATIC energy. No quartic, no attraction, NO SOLITON.
+  A number-conserving strand medium disperses transverse wavepackets.
+- THREE MODELS ARE NOW ON THE RECORD (quartic -(k-T0)^2/8k, -T0/8, and zero) and
+  the line has used two of them, neither being the one this reconciliation
+  selects. The whole ELEC-066..077 arc may have been solving the wrong
+  variational problem, because of a conservation law nobody wrote down.
+- Annotations filed on ELEC-068, ELEC-074 and ELEC-075: variational setup in
+  question.
+- B5 CAVEAT: the identification u' = -delta_n/n assumes strands locally parallel
+  and countable across a surface -- natural for a weave, less obvious inside a
+  strongly deformed region, which is exactly where a soliton would live.
+- NAMED NEXT-ORDER: determine whether strand-number conservation holds locally in
+  a deformed region, and if so re-derive the effective energy with the constraint
+  imposed from the start rather than as a correction.
+
+### Addendum (2026-08-01) — ELEC-079: the constraint is global, and the fast channel licenses the setup
+- B1 CROSSING NUMBER is topological but INSENSITIVE to transverse displacement --
+  the strand still crosses, merely displaced. It places NO constraint on u' and
+  cannot be the source of ELEC-078's integral u' dx = 0.
+- B2 TOTAL STRAND LENGTH is conserved GLOBALLY, not locally: a strand with no
+  material points can SLIDE, so length drawn into one region comes from another.
+  ELEC-078 APPLIED A WHOLE-MEDIUM CONSERVATION LAW TO A REGION -- that is why its
+  local quartic disappeared, and the third model is an artifact of it.
+- B3 THE VERDICT: an infinite pre-tensioned medium acts as a RESERVOIR. Length
+  flows in from infinity, the far field does the work against T0, u' = 0 is
+  locally admissible, and the local energy is T0 x (local excess length) =
+  T0(sqrt(1+psi'^2) - 1). THE PURE-TENSION FUNCTIONAL, selected a SECOND time by
+  a route independent of ELEC-077's FND-REL-002 argument.
+- B4: ELEC-078's variational conclusion SUPERSEDED, its reconciliation of
+  EM-RECON-011's legs STANDS. ELEC-074 and ELEC-075 RESTORED, the electron
+  negative unqualified. ELEC-068 stays wrong for the separate ELEC-077 reason.
+- B5 THE UNEXPECTED DEPENDENCY, the session's best finding: the reservoir needs
+  the far field to supply length WITHOUT DELAY, and QB-008's Bell-timing corner
+  puts the longitudinal channel on the INSTANTANEOUS limb. So the superluminal
+  sector -- which ELEC-076 showed the soliton does NOT require -- is precisely
+  what licenses the functional the soliton is built from. The fast channel is not
+  in the solution; it is in the justification of the setup. Annotated on QB-008.
+- ELEC-075's negative has now survived a parametrization challenge, a
+  functional-selection challenge and a conservation-law challenge.
+
+### Addendum (2026-08-01) — ELEC-080: the reservoir premise is required by the corpus's own optics
+- The electron line's last open item, closed by finding the premise was never
+  the electron line's to defend.
+- B1 PICTURE B (closed system, no reservoir): the global length constraint makes
+  the T0 eps term integrate to zero, and eps = 0 is achievable POINTWISE at
+  u' = sqrt(1 - psi'^2) - 1. The constrained minimum is EXACTLY ZERO -- a closed
+  medium absorbs transverse displacement at NO COST by shortening longitudinally.
+- B2: zero cost means NO RESTORING FORCE, so there is no wave equation and
+  c = sqrt(T0/mu) is undefined. PICTURE B FORBIDS LIGHT.
+- B3 THE VERDICT: the framework's entire optics sector -- 10/10 phenomena, the
+  intrinsic impedance, Snell, Fresnel, Brewster -- requires a maintained tension
+  and therefore the reservoir, and has since the first transverse wave was
+  written down. The electron line imports NO NEW LIABILITY.
+- B4 THE REFRAMED EXPOSURE: if the reservoir premise fails, the casualty is NOT
+  ELEC-074/075 but OPTICS, where the corpus's strongest results live. That is a
+  more consequential dependency than the session set out to price and every
+  reader of the optics sector should know it.
+- THE HONEST RESIDUE: a ground state under tension is a ground state STORING
+  ENERGY, and nothing in the corpus explains what sets T0 or why the medium does
+  not relax. T0 is an empirical input, and the reservoir premise makes it
+  load-bearing for optics as well as everything downstream.
+- THE ELECTRON LINE IS COMPLETE: fourteen claims from conjecture to a clean
+  negative that has now survived parametrization, functional-selection,
+  conservation-law and premise challenges. NAMED NEXT-ORDER: none on this line.
+
+### Addendum (2026-08-01) — FND-017: the tension question reduces to one already on the books
+- ELEC-080's foundations residue looked like two new questions. It is zero new
+  ones plus a no-go.
+- B1 THE REDUCTION: ELEC-053's invariance theorem gives T0 = Sigma a^2/3, so T0
+  is NOT independent. Inverting, a = sqrt(3 T0/Sigma) returns 1.0000e-16 m
+  (Sigma-route) and 9.9986e-17 m (lattice-anchored) -- BOTH the Lorentz bound to
+  better than 0.1%. "What sets T0" IS the corpus's one registered open number,
+  Sigma, already carrying two candidates and a named deciding experiment.
+- B2 THE SECOND QUESTION DISSOLVES: in an INEXTENSIBLE medium the force
+  conjugate to a rigid constraint is a LAGRANGE MULTIPLIER, not stored elastic
+  energy. A multiplier does no work while the constraint holds and does work only
+  when the configuration changes -- exactly what the reservoir picture of
+  ELEC-079/080 already relies on. The ground state stores no energy in T0 and
+  there is nothing to relax.
+- B3 THE NO-GO WORTH KEEPING: a multiplier is fixed by the state and boundary
+  conditions, never by a local property, so NO LOCAL DERIVATION OF T0 CAN EXIST.
+  That forecloses a class of future attempts before a campaign is spent on one.
+- B4: what remains genuinely open is SIGMA alone, unchanged since ELEC-053. The
+  framework has ONE free scale, not two. Scope note filed on ELEC-053.
+- B5 CAVEAT: the multiplier reading needs inextensibility EXACT. The corpus's own
+  registered stiffness ratio k/T0 >= 1.9e8 is large but FINITE, which is a hint
+  in the other direction and deserves someone's attention.
+
+### Addendum (2026-08-01) — QGATE-018: the Sigma arbiter does not arbitrate Sigma
+- Commissioned to turn the corpus's one external arbiter into a specification an
+  experimentalist could read. Writing it honestly produced the opposite.
+- B1/B2: under Sigma-large the mesh birefringence is 5e-34, and the 28% between
+  the registered candidates moves it by 2.06e-34. Against PVLAS's achieved
+  1.7e-22 and VMB@CERN's design goal 1e-25, DISCRIMINATING THE CANDIDATES NEEDS
+  8.2e11x BEYOND PVLAS AND 4.8e8x BEYOND VMB@CERN'S GOAL. That is not a hard
+  experiment; it is not an experiment.
+- B3 THE CONFLATION, and it was the corpus's own: three things have travelled
+  under one heading. The polarimetry axis is (i) a THRESHOLD test on Sigma's
+  branch, ALREADY PASSED since PVLAS excludes the small-Sigma regime; (ii) a
+  genuine near-term test of the ELECTRON's internal class -- a non-spinor rope
+  electron gives a (1,3)-negative quartic where QED gives (4,7)-positive at the
+  observable 1e-23 scale; and (iii) NOT a measurement of Sigma's value.
+  Corrections owed to QGATE-007, the predictions paper, and the
+  state-of-the-programme document, all of which describe it as deciding the
+  scale-chain fork. Filed on QGATE-007 and FND-017.
+- B4 THE CHEAPER PATH: the two candidates differ because one is an internal
+  consistency argument and the other a COMPUTATION on published lattice data, so
+  the disagreement is between two CALCULATIONS. It is settled by extending or
+  independently repeating ELEC-052's ancillary-data flux-tube analysis -- not by
+  building an instrument. Available now. ELEC-052 annotated as the actual route.
+- B5: the 1/Sigma scaling is an assumption; 1/Sigma^2 strengthens the verdict and
+  only an unphysical Sigma^+1 would reverse it.
+
+### Addendum (2026-08-01) — ELEC-081: 0.407 fm survives an independent estimator
+- The route QGATE-018 identified, taken. ELEC-052 integrated DISCRETE POINTS by
+  trapezoid with an SNR truncation; this session FITS the paper's own
+  two-component sech^2 and integrates the FIT ANALYTICALLY -- different failure
+  modes (trapezoid exposed to point noise and truncation choice, the fit to
+  profile-model error).
+- B1/B2: median R_eq = 0.4019 fm across five lattice setups at d = 0.7 fm,
+  against ELEC-052's 0.407 -- a deviation of -1.3%, CONFIRMED under the locked 5%
+  bar. A cross-check, not a repetition.
+- B3 PROFILE-MODEL DEPENDENCE, tested because it is this estimator's own
+  weakness: the two sech forms agree to 2.2% (0.4019 / 0.3930); a pure
+  exponential gives 0.4810, +19.7%, comprehensibly -- no flat core, overweights
+  the tail. Reported, not used; the paper fits sech^2.
+- B4 BOOTSTRAP (300 draws, an error ELEC-052 lacked): 0.4019 +/- 0.0016 fm. The
+  statistical error is 0.3%, so point noise was never the limiting uncertainty.
+- B5 PROPAGATED: n = 152, T0 = 1234 J/m, Sigma = 3.70e35 J/m^3, -27.4% against
+  the framework's 5.10e35. THE TENSION SURVIVES.
+- WHAT IS NOT SETTLED: same data, same distance, same paper. This tests the
+  ESTIMATOR, not the MEASUREMENT. An INDEPENDENT lattice determination is the
+  only remaining route and is not the corpus's to produce.
+- FND-017 annotated: the corpus LEANS to the lattice value without claiming it.
+
+### Addendum (2026-08-01) — the predictions paper synced with the audit
+- GAP FOUND ON QUESTION: the paper listed nineteen predictions with NO
+  indication that only one discriminates. A reader would have taken the count as
+  a count of ways the framework can be distinguished from standard physics.
+- A READER'S NOTE now leads the paper, before Prediction 1, stating the audit up
+  front: nineteen predictions, ONE discriminator (Prediction 6, the alpha-G
+  drift ratio), with its confrontation result, its inverse commitment, its named
+  weak point (PSR J1713+0747) and its decision window.
+- PER-PREDICTION REASONS given for the rest: birefringence confirmed but shared
+  with the axion (frequency scaling closes the door); the neutrino sum sharply
+  falsifiable but sitting at the normal-ordering floor; the black-hole pair
+  distinctive but unreachable, with the whisper's 36x LIGO shortfall and the note
+  that the framework's OWN spectral work is what closes it; polarimetry an
+  acceptance test; the medium frame committing no observable; and g+ = cH0/2pi a
+  real achievement that does not discriminate.
+- QGATE-018's CORRECTION CARRIED INTO THE PAPER: the polarimetry axis is NOT the
+  arbiter for Sigma; it is a threshold test on Sigma's branch and a test of the
+  electron's internal class.
+- AND THE DISTINCTION KEPT: failing to discriminate is not failing to be
+  falsifiable. Several demoted predictions remain genuinely killable, and the
+  corpus's 23 Failed-and-kept claims are the more informative number.
+- Subtitle updated to "Nineteen Predictions, One Discriminator, and a
+  Reproducibility Standard". Validated (XSD passed, 204 -> 216 paragraphs) and
+  visually checked; docx source and PDF both updated.
+
+### Addendum (2026-08-01) — GRV-053: a superseded law used, and a process gap named
+- FOUND while auditing docs/INSTRUMENTS.md against the day's work, prompted by an
+  operator question about the inventions document. Not by any check the corpus
+  performs.
+- GRV-049 took GRV-040's ORIGINAL supply-limited luminosity law without checking
+  GRV-047 -- three claims later, same sector, titled "THE LUMINOSITY LAW REVISED
+  TO A SWITCH". GRV-047 had already established that the supply-side f exceeds
+  unity by SEVENTY ORDERS, that its own energetics bar caught it, and that the
+  emission SATURATES at L = 5.8e-4 x P_Hawking, mass-independent.
+- SO GRV-049 REDISCOVERED GRV-047's DIAGNOSIS as though it were new, and derived
+  a bound on an f that GRV-047 had already dissolved into a ratio (~1e-67).
+- B1: the channel ceiling is 5.22e-34 W against the 8.16e29 W used -- an
+  overstatement of 1.6e63, SIXTY-THREE ORDERS.
+- B2: corrected strain h = 2.0e-58 at 10 kpc, not GRV-052's 7.9e-27.
+- B3: THE VERDICTS DO NOT CHANGE, they strengthen by ~1e31. But a conclusion
+  reached from a superseded premise is RIGHT FOR THE WRONG REASON, and this
+  corpus's whole practice is built on that difference.
+- B4 WITHDRAWN: GRV-049's "the whisper is not a whisper" and its f <= 1e-2 bound;
+  every luminosity and strain number in GRV-052 including "36x below LIGO".
+  STANDING: frequency tables, channel fork, spectrum argument, methods,
+  unobservability verdicts. GRV-050 and GRV-051 UNAFFECTED -- structural, no
+  luminosity used.
+- B5 THE PROCESS GAP, the reusable part: ELEC-065's dependency sweep looks
+  DOWNSTREAM of claims whose standing changed. Nothing looks FORWARD from a
+  claim being relied upon. Both of today's inheritance failures (HBAR-010 and
+  this) are that shape, and both were caught by human reading. NAMED
+  NEXT-ORDER: build the forward-check and re-run the day's work through it.
+
+### Addendum (2026-08-01) — predictions paper corrected for the withdrawn whisper numbers
+- GRV-053 withdrew GRV-052's luminosity and strain figures. The reader's note
+  added to falsifiable_predictions earlier today quoted two of them -- the
+  7.9e-27 strain and "36x short of LIGO".
+- CORRECTED to the channel-saturated description: the horizon at 0.23 kappa is a
+  deep-sub-wavelength emitter, luminosity saturates at 5.8e-4 x P_Hawking
+  mass-independently (~5e-34 W for a stellar hole), strain of order 1e-58 at
+  10 kpc, Hawking-faint by construction, NO DETECTION CLAIM MADE. Cites GRV-047
+  and GRV-053.
+- THE PREDICTION ACCOUNTING IS UNAFFECTED. GRV-040's T2 standing rested on
+  unobservability, which the correction strengthens by ~1e31 rather than
+  disturbing; the T1 count remains ONE (PRED-003). No other prediction in the
+  census depends on a luminosity.
+- Validated (XSD passed, 216 paragraphs unchanged); docx source and PDF updated.
+
+### Addendum (2026-08-01) — FND-018: the constraint census, written to survive the model
+- docs/CONSTRAINTS_FOR_ANY_OBJECT_ONTOLOGY.md, written at the operator's request
+  and framed to be useful WHETHER OR NOT the rope model is correct.
+- FIVE NON-NEGOTIABLE CONSTRAINTS: the transverse budget of exactly c as a
+  quantitative test that closed three escapes; the Lorentz bound forcing a
+  sub-nuclear substrate and DECOUPLING it from the atomic scale; the bound being
+  a CEILING that must be swept (which here found two sectors 5.2 decades apart);
+  no LOCAL derivation of a constraint tension being possible; and the medium
+  having to MAINTAIN tension or carry no waves at all.
+- FOUR RESULTS WORTH STEALING: topological charge quantisation; composite masses
+  at 0.00-0.51% on one constant while fundamental masses are irreducible; an
+  existence proof that a mechanical medium can carry Einstein-Hilbert structure;
+  and invariance theorems as the cheapest parameter-count collapse.
+- SIX FAILURE MODES, priced by what they cost here: source-before-instrument
+  (~8 sessions), distinctive-versus-derived (eight predictions to one),
+  truncations right about scaling and wrong about shape, Derrick's
+  dimension-dependence, the forward-check gap that produced a 63-order error,
+  and keeping failures so retirement stays possible.
+- WHAT A SUCCESSOR INHERITS IS NOT THE ROPE: nothing in the census requires
+  strands, only objects with a scale, a tension and a signal speed.
+- README now points here first for readers who suspect the model is wrong.
+
+### Addendum (2026-08-01) — the constraint census restructured after external review
+- AN EXTERNAL REVIEWER READ THE FIRST EDITION AND WAS RIGHT. It generalised a
+  mechanical-substrate census into a universal one, titled itself "What an
+  Object-Based Ontology of Spacetime Must Satisfy", and stated several
+  class-specific results categorically. Archived at
+  docs/_superseded/CONSTRAINTS_v1_overbroad_2026-08-01.md.
+- ADOPTED FRAMING, in the reviewer's own words: a transferable methodological
+  framework and constraint census for FINITE-SCALE MECHANICAL SUBSTRATE
+  THEORIES, with rope-specific examples of how such theories succeed, fail and
+  mislead their builders.
+- NOW THREE EXPLICIT TIERS. Part A universal programme disciplines; Part B
+  constraints on mechanical substrates only, with causal sets, disordered
+  networks, amorphous substrates and fundamental-Lorentz ontologies named as
+  outside its scope; Part C rope-specific findings transferring as example.
+- CORRECTIONS ACCEPTED IN FULL: "transverse speed is exactly c" generalised to a
+  causal-coordination demand; "if the medium has structure it has a lattice"
+  WITHDRAWN with counterexamples named and the 1e-16 m bound scoped to this
+  corpus's dispersion law; the tension no-go scoped to the multiplier case with
+  the constitutive case T = dW/deps named, and "stores no energy" qualified
+  since a pre-stressed system may store energy in whatever established the
+  pre-stress; the reservoir requirement scoped to media whose restoring force
+  comes SOLELY from pre-tension; linking-number charge no longer claimed as
+  unmatched by formalism (compact gauge groups, the Dirac condition, Chern
+  classes, anomaly cancellation named); composite-versus-fundamental masses no
+  longer a general theorem; "trust truncated exponents" softened; "1+1 results
+  are not results" replaced with the accurate form; and the Einstein-Hilbert
+  claim reduced to an Einstein-Hilbert-LIKE pattern in a specified channel, with
+  the nine further requirements for emergent gravity listed.
+- THE NUCLEAR MASS CAVEATS the reviewer raised -- in-sample versus predictive,
+  matched baseline, shell and pairing effects, residual structure -- are listed
+  as OPEN rather than answered, because the corpus has not answered them.
+
+### Addendum (2026-08-01) — second review round on the constraint census, accepted in full
+- The reviewer approved the three-tier restructuring and asked for six edits plus
+  one addition. All applied.
+- (1) Traceability line softened: Part A's statements are syntheses across many
+  claims and do not each carry a standalone benchmark.
+- (2) Counts disambiguated: 402 total, of which 384 code-backed and 23
+  Failed-and-kept (21 of the 23 themselves code-backed).
+- (3) The a <= 1e-16 m bound given explicit provenance -- the corpus's specific
+  lattice dispersion relation and the external limit used in FND-REL-003.
+- (4) The circulation example tightened: the causal budget closed the
+  collective-number and bundle escapes and CONSTRAINED circulation, which was
+  closed by the later source-and-holonomy audit, not by c tau alone.
+- (5) C3 REWRITTEN, and this is the substantive correction. The reviewer asked
+  whether "atomic masses" was the right quantity. The benchmark's own docstring
+  answers it: BINDING IS ONLY ~1% OF MASS, so the 0.00-0.51% figure is flattered
+  by nucleon rest mass taken as input. The predicted quantity is the BINDING
+  ENERGY, accurate to ~1.5-2.5% originally and ~13% AFTER NUC-018's corrections.
+  The document had quoted the mass figure without the binding figure and thereby
+  overstated the result by an order of magnitude. Now states ~10% binding
+  accuracy on one calibration, with He-4 failing at 38% and H-1 inputs only.
+  Annotations filed on NUC-005 and NUC-018 so the distinction lives at the
+  claims, not only in the document.
+- (6) Status line explicitly dated.
+- ADDITION A10, separate existence from mechanism from magnitude: that a
+  mechanism CAN produce an effect is not that the ontology GENERATES it, and
+  generating it is not enough unless the magnitude is nonzero, nontrivial and
+  observable. The gauge branch answers the three differently, and five sessions
+  went into the first before the second was asked.

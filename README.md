@@ -1,11 +1,11 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21430784.svg)](https://doi.org/10.5281/zenodo.21430784)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Verify](https://img.shields.io/badge/verify-237%2F237%20passing-brightgreen.svg)](#verify-it-yourself)
+[![Verify](https://img.shields.io/badge/verify-384%2F384%20passing-brightgreen.svg)](#verify-it-yourself)
 [![verify-corpus](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml/badge.svg)](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml)
 
 # rope-framework
 
-**Published:** [https://doi.org/10.5281/zenodo.21430784](https://doi.org/10.5281/zenodo.21430784) · **Author ORCID:** [https://orcid.org/0009-0007-2454-5573](https://orcid.org/0009-0007-2454-5573) · **Version:** 2.3.8
+**Published:** [https://doi.org/10.5281/zenodo.21430784](https://doi.org/10.5281/zenodo.21430784) · **Author ORCID:** [https://orcid.org/0009-0007-2454-5573](https://orcid.org/0009-0007-2454-5573) · **Version:** 2.5.0
 
 A machine-verified development of the Rope Hypothesis — a classical, mechanical model in which matter and light are configurations of physical filaments — into falsifiable, independently checkable form.
 
@@ -13,7 +13,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 
 > **Scope (read first):** The Rope Hypothesis is a *classical, configuration-counting* model. It is strongest in electromagnetism, optics, and the mechanical sectors; its classical weak-field gravity is **falsified under stated assumptions** (kept as a finding, not hidden); and it **provably does not reproduce quantum entanglement** in its present form (a counting model cannot produce Bell/CHSH violation; QB-003 Failed, QB-005 negative). The measurement arc (QB-007–011) maps this boundary in detail — single-particle statistics reproduced or cornered, the detector angle fixed at γ = 1, the residual gap localized to configuration-space guidance — without crossing it; a future non-classical rope structure is not claimed impossible. Nothing is hidden — see [`KNOWN_LIMITATIONS.md`](KNOWN_LIMITATIONS.md).
 
-> **Corpus state:** 251 registered claims (102 Derived, 130 Modeled, 4 EFT-constrained, 3 Conjecture, 5 Open, 7 Failed-and-kept); 223 code-backed, all passing; 58 papers. Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
+> **Corpus state:** 402 registered claims (104 Derived, 262 Modeled, 4 EFT-constrained, 4 Conjecture, 5 Open, 23 Failed-and-kept); 384 code-backed, all passing; 58 papers. Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
 
 **🪜 [The Ladder and the Frontier](figures/rope_ladder.png)** — the whole corpus in one image: three layers, every result placed by status, and the coherent frontier where the open problems cluster. The best single-glance answer to "what is this?"
 
@@ -22,6 +22,95 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 **✨ START HERE: [Eleven Results We Did Not Expect](docs/SURPRISES.md)** — how the investigation actually unfolded: derived emergences, kept failures, labeled coincidences, and the day the framework eliminated its own favorite hypothesis. The best answer to "why spend an afternoon here?"
 
 **🗺️ [Roadmap of Knowledge](docs/ROADMAP.md)** — the whole corpus at a glance: [wall chart](docs/roadmap.png) and [interactive dependency explorer](docs/roadmap.html) (click any claim; see its dependencies, dependents, and full downstream), all generated from claims.yaml by `tools/build_roadmap.py`.
+
+
+**Current release: v3.1.0** (1 Aug 2026) — see `docs/RELEASE_NOTES_v3.1.0.md`.
+
+**If the rope model is wrong**, the transferable result is
+`docs/CONSTRAINTS_FOR_MECHANICAL_SUBSTRATE_THEORIES.md` — universal programme
+disciplines, constraints on finite-scale mechanical substrates, and
+rope-specific findings, kept in three explicitly separate tiers.
+
+**New reader?** Start with `docs/STATE_OF_THE_PROGRAMME.md` — a short, current
+account of what the framework claims, what it predicts, what was retired and why.
+
+## What this corpus actually bets: one prediction
+
+A census against four locked criteria (quantitative; distinctive in OBSERVABLE
+OUTCOME; checkable; live), then a full audit of every entry against what the
+standard alternatives actually predict, then a flux computation for the last
+survivor (ELEC-062 -> -063 -> -064 -> GRV-049), leaves ONE:
+
+- **PRED-003** — the coupling-drift ratio d ln alpha = -2 d ln G. Testable now,
+  CONFRONTED against published optical-clock and lunar-laser-ranging data,
+  surviving at 1.74 sigma. Its named weak point is the PSR J1713+0747 G-drift
+  measurement, already at 2.06 sigma alone; a 3 sigma confirmation of its 2025
+  central value would REFUTE the claim, and needs only a factor 1.45 in sigma —
+  reachable ~2027-2030.
+
+**The nearest miss**, and the corpus's clearest route back to a second: GRV-040's
+whisper at omega = 0.23 kappa. Committing its flux (GRV-049) showed the emission
+would carry 40-110% of a black hole's accretion budget at f ~ 1, so existing
+observations already bound the ratchet efficiency at f <~ 1e-2 — a real
+data-backed constraint, and the first the corpus has extracted on its own
+black-hole engine. But the channel forks: electromagnetic coupling reprocesses
+the energy and destroys the 0.23 kappa signature, while a medium-only excitation
+is undetectable unless strand excitations couple as metric perturbations. HALF
+of that is now settled (GRV-050): a reconnection at fixed strand length is purely
+DEVIATORIC — trace zero to machine precision — so it does not feed the
+matter-decoupled longitudinal channel, and ~40% of its power lands in the
+transverse-traceless subspace a detector couples to. A selection rule also
+emerged: perpendicular crossings are stress-invisible and radiate nothing.
+Those halves are now JOINED (GRV-051): orientation-averaged, 93% of the source's
+excited power lands in the xy channel GRV-025 measured as the IR-universal
+Einstein-Hilbert remainder, because the medium is a strongly shear-preferring
+responder and the ratchet is a pure shear source. The whisper is therefore
+sourced in the GRAVITATIONAL channel. The strain has since been computed
+(GRV-052) and it settles the question NEGATIVELY: h = 7.9e-27 at 10 kpc, signal
+ASD 5.8e-28/rtHz against LIGO's design 4e-24, broadband SNR 1.6e-3, and the best
+real candidate (V404 Cygni in outburst) falls 36x short. The nearby holes are
+quiescent and therefore silent by GRV-040's own law, while the loud ones are far.
+GRV-040 is T1 ON STRUCTURE AND UNOBSERVABLE IN PRACTICE.
+
+Notably, the corpus's OWN spectral work is what closes it: read as a
+monochromatic line the whisper would be detectable at SNR 11 after a year, but
+GRV-041 to GRV-044 established the spectrum is broadband quasi-thermal, removing
+four orders of sensitivity. A programme that measures its own spectrum carefully
+is one that can be killed by the measurement.
+
+Everything else audited is a constraint the framework must satisfy, a
+specification awaiting a model it has not built, a prediction conditional on
+objects not known to exist, or a correct result sharing its observable with
+standard physics. Cosmic birefringence is CONFIRMED but shared with the axion;
+the neutrino sum is sharply falsifiable but sits where any minimal-normal-
+ordering model lands; g_dagger = cH0/2pi is derived at zero parameters but MOND
+fits the same observable. The ELECTRON SECTOR, the largest by claim count,
+contributes nothing at any tier.
+
+The mesoscopic-hbar identification is RETIRED (2026-08-01) after six
+independent closures. See `docs/HBAR_SECTOR_CLOSURE.md`.
+
+## Two branches carry validated machinery and no target
+
+Read before interpreting the quantum or gauge sectors as active physics.
+
+- **The pilot-wave sub-quantum branch (QGATE-011..017)** is mathematically
+  sound and empirically silent. Its results (flow uniqueness, CHSH 2.724 with
+  verified no-signaling, the M=2-64 relaxation family, transport-over-chaos
+  discrimination) are dimensionless and stand as registered, but ELEC-056
+  showed by machine-checked audit that the branch never depended on the
+  sub-quantum length it was said to inherit, and that length has since been
+  corrected and its nuclear consequence excluded (ELEC-054/055). The branch
+  has no current empirical content of its own.
+- **The physical Aharonov-Bohm branch is CLOSED as unsupported**
+  (ROPE-SOURCE-AUDIT-002). Nothing in the corpus sources a flux, and the one
+  derived topological circulation (2 pi N) is exactly spectrally trivial in a
+  2 pi periodic instrument. ROPE-VALIDATION-001..004 are retained as a
+  validated gauge instrument with no internally sourced target. Reopening
+  requires a new, explicitly labeled postulate.
+
+The lesson from both is recorded as a standing rule:
+docs/STANDING_RULE_SOURCE_BEFORE_INSTRUMENT.md
 
 ## Start here
 
