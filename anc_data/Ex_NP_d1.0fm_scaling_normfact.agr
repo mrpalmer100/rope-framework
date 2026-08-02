@@ -1,0 +1,651 @@
+# Grace project file
+#
+@version 50125
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 8 to "Courier", "Courier"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 12 to "Symbol", "Symbol"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Sun Jul 14 07:57:11 2024"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world -2, -0.0009, 2, 0.3
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.150000, 1.150000, 0.850000
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label "x\st\N  [fm]"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.500000
+@    xaxis  label font 2
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 0.5
+@    xaxis  tick minor ticks 4
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 2
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "E\m{0}\sx\N\M{0}\SNP\N(x\st\N)  [GeV\S2\N]"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.500000
+@    yaxis  label font 2
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 0.05
+@    yaxis  tick minor ticks 4
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 2
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.75, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 2
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xydy
+@    s0 symbol 1
+@    s0 symbol size 0.500000
+@    s0 symbol color 1
+@    s0 symbol pattern 1
+@    s0 symbol fill color 1
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.5
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 0
+@    s0 symbol skip 0
+@    s0 line type 0
+@    s0 line linestyle 1
+@    s0 line linewidth 1.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 0
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 1
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.5
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.5
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "/Users/cosmai/Library/Mobile Documents/com~apple~CloudDocs/LAVORO/FLUX_TUBES/ANALISI_SCALING_QCD/d=1.0fm/LAT_32-32-32-32_beta6.3942_al0.15203_dist7a_1.1fm_sm0-50-5/EX_NP-midplane.dat-normalized"
+@    s0 legend  "32\S4\N, \xb\f{}=6.3942,  d=7a=1.06 fm"
+@    s1 hidden false
+@    s1 type xydy
+@    s1 symbol 1
+@    s1 symbol size 0.500000
+@    s1 symbol color 2
+@    s1 symbol pattern 1
+@    s1 symbol fill color 2
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.5
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 0
+@    s1 line linestyle 1
+@    s1 line linewidth 1.0
+@    s1 line color 2
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 2
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.5
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.5
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "/Users/cosmai/Library/Mobile Documents/com~apple~CloudDocs/LAVORO/FLUX_TUBES/ANALISI_SCALING_QCD/d=1.0fm/LAT_24-24-24-24_beta6.445_al0.144692_dist7a_1.0fm_sm0-100-5/EX_NP-midplane.dat-normalized"
+@    s1 legend  "24\S4\N, \xb\f{}=6.445,    d=7a=1.013 fm"
+@    s2 hidden false
+@    s2 type xydy
+@    s2 symbol 1
+@    s2 symbol size 0.500000
+@    s2 symbol color 4
+@    s2 symbol pattern 1
+@    s2 symbol fill color 4
+@    s2 symbol fill pattern 0
+@    s2 symbol linewidth 1.5
+@    s2 symbol linestyle 1
+@    s2 symbol char 65
+@    s2 symbol char font 0
+@    s2 symbol skip 0
+@    s2 line type 0
+@    s2 line linestyle 1
+@    s2 line linewidth 1.0
+@    s2 line color 4
+@    s2 line pattern 1
+@    s2 baseline type 0
+@    s2 baseline off
+@    s2 dropline off
+@    s2 fill type 0
+@    s2 fill rule 0
+@    s2 fill color 1
+@    s2 fill pattern 1
+@    s2 avalue off
+@    s2 avalue type 2
+@    s2 avalue char size 1.000000
+@    s2 avalue font 0
+@    s2 avalue color 1
+@    s2 avalue rot 0
+@    s2 avalue format general
+@    s2 avalue prec 3
+@    s2 avalue prepend ""
+@    s2 avalue append ""
+@    s2 avalue offset 0.000000 , 0.000000
+@    s2 errorbar on
+@    s2 errorbar place both
+@    s2 errorbar color 4
+@    s2 errorbar pattern 1
+@    s2 errorbar size 1.000000
+@    s2 errorbar linewidth 1.5
+@    s2 errorbar linestyle 1
+@    s2 errorbar riser linewidth 1.5
+@    s2 errorbar riser linestyle 1
+@    s2 errorbar riser clip off
+@    s2 errorbar riser clip length 0.100000
+@    s2 comment "/Users/cosmai/Library/Mobile Documents/com~apple~CloudDocs/LAVORO/FLUX_TUBES/ANALISI_SCALING_QCD/d=1.0fm/LAT_32-32-32-32_beta6.5824_al0.126658_dist8a_1.0fm_sm0-50-5/EX_NP-midplane.dat-normalized"
+@    s2 legend  "32\S4\N, \xb\f{}=6.5824,  d=8a=1.013 fm"
+@    s3 hidden false
+@    s3 type xydy
+@    s3 symbol 1
+@    s3 symbol size 0.500000
+@    s3 symbol color 15
+@    s3 symbol pattern 1
+@    s3 symbol fill color 15
+@    s3 symbol fill pattern 0
+@    s3 symbol linewidth 1.5
+@    s3 symbol linestyle 1
+@    s3 symbol char 65
+@    s3 symbol char font 0
+@    s3 symbol skip 0
+@    s3 line type 0
+@    s3 line linestyle 1
+@    s3 line linewidth 1.0
+@    s3 line color 15
+@    s3 line pattern 1
+@    s3 baseline type 0
+@    s3 baseline off
+@    s3 dropline off
+@    s3 fill type 0
+@    s3 fill rule 0
+@    s3 fill color 1
+@    s3 fill pattern 1
+@    s3 avalue off
+@    s3 avalue type 2
+@    s3 avalue char size 1.000000
+@    s3 avalue font 0
+@    s3 avalue color 1
+@    s3 avalue rot 0
+@    s3 avalue format general
+@    s3 avalue prec 3
+@    s3 avalue prepend ""
+@    s3 avalue append ""
+@    s3 avalue offset 0.000000 , 0.000000
+@    s3 errorbar on
+@    s3 errorbar place both
+@    s3 errorbar color 15
+@    s3 errorbar pattern 1
+@    s3 errorbar size 1.000000
+@    s3 errorbar linewidth 1.5
+@    s3 errorbar linestyle 1
+@    s3 errorbar riser linewidth 1.5
+@    s3 errorbar riser linestyle 1
+@    s3 errorbar riser clip off
+@    s3 errorbar riser clip length 0.100000
+@    s3 comment "/Users/cosmai/Library/Mobile Documents/com~apple~CloudDocs/LAVORO/FLUX_TUBES/ANALISI_SCALING_QCD/d=1.0fm/LAT_32-32-32-32_beta6.885_al0.0949777_dist11a_1.0fm_sm0-50-5/EX_NP-midplane.dat-normalized"
+@    s3 legend  "32\S4\N, \xb\f{}=6.885,    d=11a=1.045 fm"
+@    s4 hidden true
+@    s4 type xydy
+@    s4 symbol 1
+@    s4 symbol size 0.500000
+@    s4 symbol color 11
+@    s4 symbol pattern 1
+@    s4 symbol fill color 11
+@    s4 symbol fill pattern 0
+@    s4 symbol linewidth 1.5
+@    s4 symbol linestyle 1
+@    s4 symbol char 65
+@    s4 symbol char font 0
+@    s4 symbol skip 0
+@    s4 line type 0
+@    s4 line linestyle 1
+@    s4 line linewidth 1.0
+@    s4 line color 11
+@    s4 line pattern 1
+@    s4 baseline type 0
+@    s4 baseline off
+@    s4 dropline off
+@    s4 fill type 0
+@    s4 fill rule 0
+@    s4 fill color 1
+@    s4 fill pattern 1
+@    s4 avalue off
+@    s4 avalue type 2
+@    s4 avalue char size 1.000000
+@    s4 avalue font 0
+@    s4 avalue color 1
+@    s4 avalue rot 0
+@    s4 avalue format general
+@    s4 avalue prec 3
+@    s4 avalue prepend ""
+@    s4 avalue append ""
+@    s4 avalue offset 0.000000 , 0.000000
+@    s4 errorbar on
+@    s4 errorbar place both
+@    s4 errorbar color 11
+@    s4 errorbar pattern 1
+@    s4 errorbar size 1.000000
+@    s4 errorbar linewidth 1.5
+@    s4 errorbar linestyle 1
+@    s4 errorbar riser linewidth 1.5
+@    s4 errorbar riser linestyle 1
+@    s4 errorbar riser clip off
+@    s4 errorbar riser clip length 0.100000
+@    s4 comment "/Users/cosmai/Library/Mobile Documents/com~apple~CloudDocs/LAVORO/FLUX_TUBES/ANALISI_SCALING_QCD/d=1.0fm/LAT_32-32-32-32_beta7.158_al0.0738309_dist14a_1.0fm_sm0-250-10/EX_NP-midplane.dat-normalized"
+@    s4 legend  "32\S4\N \xb\f{}=7.158  d=14a=1.033 fm"
+@target G0.S0
+@type xydy
+-2.128424 0.0066228015 0.0041990885
+-1.976394 0.0088001928 0.0054136561
+-1.824363 0.0040557882 0.0067188515
+-1.672333 0.0051673344 0.0052904953
+-1.520303 0.0057118758 0.0059341851
+-1.368273 0.0055616041 0.0064911201
+-1.216242 0.0067180769 0.0070426329
+-1.064212 0.008890046 0.0075159115
+-0.912182 0.0087870246 0.0079481364
+-0.760151 0.013320739 0.0082967049
+-0.608121 0.024118616 0.0086762573
+-0.456091 0.049579609 0.0090372193
+-0.304061 0.095529458 0.0089434931
+-0.15203 0.14562572 0.009299033
+0 0.1706359 0.0096592205
+0.15203 0.14562572 0.009299033
+0.304061 0.095529458 0.0089434931
+0.456091 0.049579609 0.0090372193
+0.608121 0.024118616 0.0086762573
+0.760151 0.013320739 0.0082967049
+0.912182 0.0087870246 0.0079481364
+1.064212 0.008890046 0.0075159115
+1.216242 0.0067180769 0.0070426329
+1.368273 0.0055616041 0.0064911201
+1.520303 0.0057118758 0.0059341851
+1.672333 0.0051673344 0.0052904953
+1.824363 0.0040557882 0.0067188515
+1.976394 0.0088001928 0.0054136561
+2.128424 0.0066228015 0.0041990885
+&
+@target G0.S1
+@type xydy
+-1.446924 -0.0056909617 0.0055980101
+-1.302231 -0.0099179358 0.0067692003
+-1.157539 -0.012204545 0.0084221896
+-1.012847 -0.011021736 0.0097033725
+-0.868154 -0.0081526299 0.011329251
+-0.723462 0.0094276161 0.0064399967
+-0.578769 0.022741384 0.0083958533
+-0.434077 0.050753898 0.0089055379
+-0.289385 0.096263001 0.007808709
+-0.144692 0.14781241 0.0082502291
+0 0.17086286 0.0087320283
+0.144692 0.14781241 0.0082502291
+0.289385 0.096263001 0.007808709
+0.434077 0.050753898 0.0089055379
+0.578769 0.022741384 0.0083958533
+0.723462 0.0094276161 0.0064399967
+0.868154 -0.0081526299 0.011329251
+1.012847 -0.011021736 0.0097033725
+1.157539 -0.012204545 0.0084221896
+1.302231 -0.0099179358 0.0067692003
+1.446924 -0.0056909617 0.0055980101
+&
+@target G0.S2
+@type xydy
+-1.773209 -0.0046847607 0.0031665512
+-1.646551 -0.0025902513 0.0055120299
+-1.519894 0.0020596525 0.0052587368
+-1.393236 0.0025887021 0.0060891044
+-1.266578 0.0047684171 0.0066878676
+-1.13992 0.0042471135 0.0072757865
+-1.013262 0.0071944539 0.0078195534
+-0.886605 0.013440027 0.0082750162
+-0.759947 0.02034788 0.0086902
+-0.633289 0.034246468 0.0090682032
+-0.506631 0.050523068 0.0094020544
+-0.379973 0.080614599 0.0097018233
+-0.253316 0.12550015 0.010057363
+-0.126658 0.16969322 0.010546134
+0 0.19197139 0.011137926
+0.126658 0.16969322 0.010546134
+0.253316 0.12550015 0.010057363
+0.379973 0.080614599 0.0097018233
+0.506631 0.050523068 0.0094020544
+0.633289 0.034246468 0.0090682032
+0.759947 0.02034788 0.0086902
+0.886605 0.013440027 0.0082750162
+1.013262 0.0071944539 0.0078195534
+1.13992 0.0042471135 0.0072757865
+1.266578 0.0047684171 0.0066878676
+1.393236 0.0025887021 0.0060891044
+1.519894 0.0020596525 0.0052587368
+1.646551 -0.0025902513 0.0055120299
+1.773209 -0.0046847607 0.0031665512
+&
+@target G0.S3
+@type xydy
+-1.329687 0.0089868706 0.014309899
+-1.23471 0.015177447 0.016143369
+-1.139732 0.020763064 0.018814178
+-1.044754 0.024890889 0.021494283
+-0.949777 0.029909501 0.023917221
+-0.854799 0.029581072 0.026395931
+-0.759821 0.027644581 0.029553187
+-0.664844 0.025013276 0.031622134
+-0.569866 0.034814247 0.031567138
+-0.474888 0.045215531 0.03294592
+-0.379911 0.058504512 0.034450961
+-0.284933 0.081439545 0.035762354
+-0.189955 0.10848381 0.037739124
+-0.094978 0.12597498 0.038925032
+0 0.12399898 0.04080033
+0.094978 0.12597498 0.038925032
+0.189955 0.10848381 0.037739124
+0.284933 0.081439545 0.035762354
+0.379911 0.058504512 0.034450961
+0.474888 0.045215531 0.03294592
+0.569866 0.034814247 0.031567138
+0.664844 0.025013276 0.031622134
+0.759821 0.027644581 0.029553187
+0.854799 0.029581072 0.026395931
+0.949777 0.029909501 0.023917221
+1.044754 0.024890889 0.021494283
+1.139732 0.020763064 0.018814178
+1.23471 0.015177447 0.016143369
+1.329687 0.0089868706 0.014309899
+&
+@target G0.S4
+@type xydy
+-1.328956 0.22870354 0.10684167
+-1.255125 0.24597085 0.11990679
+-1.181294 0.17240973 0.088221138
+-1.107463 0.18435556 0.09646672
+-1.033632 0.19368945 0.10454189
+-0.959801 0.19289471 0.11229096
+-0.88597 0.1938707 0.11983088
+-0.81214 0.18826804 0.12651952
+-0.738309 0.17879937 0.13288128
+-0.664478 0.19452833 0.14040494
+-0.590647 0.2012286 0.14671248
+-0.516816 0.21901101 0.15484265
+-0.442985 0.22971749 0.16079542
+-0.369154 0.24914669 0.16581559
+-0.295323 0.28815616 0.17042444
+-0.221493 0.34075127 0.18006352
+-0.147662 0.36573744 0.18557322
+-0.073831 0.40160126 0.19186914
+0 0.43990352 0.20703885
+0.073831 0.40160126 0.19186914
+0.147662 0.36573744 0.18557322
+0.221493 0.34075127 0.18006352
+0.295323 0.28815616 0.17042444
+0.369154 0.24914669 0.16581559
+0.442985 0.22971749 0.16079542
+0.516816 0.21901101 0.15484265
+0.590647 0.2012286 0.14671248
+0.664478 0.19452833 0.14040494
+0.738309 0.17879937 0.13288128
+0.81214 0.18826804 0.12651952
+0.88597 0.1938707 0.11983088
+0.959801 0.19289471 0.11229096
+1.033632 0.19368945 0.10454189
+1.107463 0.18435556 0.09646672
+1.181294 0.17240973 0.088221138
+1.255125 0.24597085 0.11990679
+1.328956 0.22870354 0.10684167
+&
