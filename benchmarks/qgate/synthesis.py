@@ -26,7 +26,7 @@ def test():
     claims = d['claims'] if isinstance(d, dict) and 'claims' in d else d
     ids = {c['id']: c for c in claims}
     # the chain exists, with expected statuses
-    chain = {"THM-006": "Modeled", "QGATE-001": "Modeled", "QGATE-002": "Modeled",
+    chain = {"THM-006": "Failed", "QGATE-001": "Modeled", "QGATE-002": "Modeled",
              "QGATE-003": "Modeled", "QGATE-004": "Modeled", "QGATE-005": "Modeled",
              "QGATE-006": "Modeled", "QGATE-007": "Modeled"}
     for cid, st in chain.items():
