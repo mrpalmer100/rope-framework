@@ -31,20 +31,93 @@ import os, sys, subprocess, argparse
 # Strict YAML guard: catch structural corruption (e.g. jammed '..."  - id:' entries)
 # that a regex scan would silently miss.
 def _strict_yaml_guard(path="claims.yaml"):
-    import yaml, sys
+    """Strict parse plus the three structural guards this corpus has actually needed.
+
+    2026-08-01: a structured rewrite of claims.yaml changed the sequence
+    indentation, load_claims() below silently parsed ZERO claims, and this
+    script still printed ALL CHECKS PASS. A verifier that passes vacuously is
+    worse than no verifier, so the non-empty and cross-check guards below are
+    not optional decoration.
+    """
+    import yaml, sys, os
+    full = path if os.path.isabs(path) else os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))), path)
     try:
-        yaml.safe_load(open(path))
+        doc = yaml.safe_load(open(full, encoding="utf-8"))
     except Exception as e:
         print(f"STRICT YAML PARSE FAILED for {path}: {e}")
         sys.exit(1)
+
+    # GUARD 1: claims misfiled into the sectors block (hid six claims from every
+    # registry tool until ELEC-061's repair found them).
+    misfiled = [e["id"] for e in doc.get("sectors", [])
+                if isinstance(e, dict) and "id" in e]
+    if misfiled:
+        print(f"STRUCTURAL CORRUPTION: claims found inside the sectors block: "
+              f"{misfiled}. These are invisible to registry tooling.")
+        sys.exit(1)
+
+    # GUARD 2: never pass on an empty parse.
+    n_yaml = len(doc.get("claims") or [])
+    if n_yaml == 0:
+        print("STRUCTURAL FAILURE: zero claims parsed from claims.yaml.")
+        sys.exit(1)
+
+    # GUARD 3: the line-parser used by load_claims() must agree with PyYAML.
+    # Disagreement means the file's formatting has drifted from what the
+    # tooling assumes -- exactly the failure that produced a vacuous pass.
+    try:
+        n_line = len(load_claims(full))
+    except Exception as e:
+        print(f"LINE PARSER FAILED: {e}")
+        sys.exit(1)
+    if n_line != n_yaml:
+        print(f"PARSER DISAGREEMENT: PyYAML sees {n_yaml} claims, the line parser "
+              f"sees {n_line}. claims.yaml formatting has drifted from the canonical "
+              f"style (sequences indented two spaces under 'claims:'). Re-serialize "
+              f"with tools/add_claim.py's Canonical dumper.")
+        sys.exit(1)
+    # GUARD 5: field types. A stray trailing comma in a registration script made
+    # PRED-003-CONF's title a LIST, which parsed as valid YAML and crashed three
+    # downstream benchmarks (found 2026-08-01 during pre-release verification).
+    malformed = [(c["id"], k) for c in doc["claims"] for k in
+                 ("title", "status", "note", "benchmark", "paper")
+                 if c.get(k) is not None and not isinstance(c.get(k), str)]
+    if malformed:
+        print(f"MALFORMED FIELDS (must be strings): {malformed}")
+        sys.exit(1)
+
+    # GUARD 4: dangling dependencies. Two are KNOWN GAPS -- ELEC-032 and
+    # ROPE-MODE-011 are referenced by registered claims but were never
+    # registered themselves (found 2026-08-01 when they crashed the roadmap
+    # builder). They are recorded rather than invented. Any NEW dangling
+    # reference is an error.
+    KNOWN_GAPS = {"ELEC-032", "ROPE-MODE-011"}
+    ids_present = {c["id"] for c in doc["claims"]}
+    dangling = {}
+    for c in doc["claims"]:
+        miss = [dp for dp in (c.get("depends_on") or []) if dp not in ids_present]
+        if miss:
+            dangling[c["id"]] = miss
+    unknown = sorted({m for v in dangling.values() for m in v} - KNOWN_GAPS)
+    if unknown:
+        print(f"DANGLING DEPENDENCIES (not in the known-gap list): {unknown}")
+        sys.exit(1)
+    gaps = sorted({m for v in dangling.values() for m in v})
+    print(f"structural guards OK: {n_yaml} claims, parsers agree"
+          + (f"; {len(gaps)} known dependency gaps tolerated: {gaps}" if gaps else ""))
 
 
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-def load_claims():
-    """Minimal YAML read (no PyYAML dependency): parse the claims list we need."""
-    path = os.path.join(ROOT, "claims.yaml")
+def load_claims(path=None):
+    """Minimal YAML read (no PyYAML dependency): parse the claims list we need.
+
+    Accepts an explicit path so the structural guard can cross-check the SAME
+    file PyYAML read; hardcoding the path made the guard compare two different
+    files and silently pass."""
+    path = path or os.path.join(ROOT, "claims.yaml")
     claims, cur = [], None
     for raw in open(path, encoding="utf-8"):
         line = raw.rstrip("\n")

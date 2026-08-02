@@ -58,6 +58,8 @@ def build():
     sector_edges = Counter()
     for c in claims:
         for dep in (c.get('depends_on') or []):
+            if dep not in ids:      # dangling reference: skip the edge, do not crash
+                continue
             s1, s2 = ids[dep]['sector'], c['sector']
             if s1 != s2:
                 sector_edges[(s1, s2)] += 1
