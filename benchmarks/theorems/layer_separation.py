@@ -29,24 +29,53 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..', 'tools'))
 import layer_classifier as L
 
 
+def _exclude_self(claims):
+    """SELF-REFERENCE EXCLUSION (added 2026-08-01, and it decided the verdict).
+
+    THM-006 is itself classified Layer III. When the claim was reclassified
+    Failed-and-kept, it entered its own statistic as a Layer III failure and
+    pushed the enrichment from 1.85x back up to 2.14x -- i.e. the theorem about
+    where failures cluster became evidence for itself BY FAILING. A claim may
+    not count itself as evidence for itself, so it is excluded here and the
+    enrichment recomputed on the remaining corpus.
+    """
+    return [c for c in claims if c["id"] != "THM-006"]
+
+
 def test():
-    claims, enrich, f_layer, n_fail = L.run(verbose=False)
+    claims, _, _, _ = L.run(verbose=False)
+    claims = _exclude_self(claims)
     total = len(claims)
+    from collections import Counter as _C
+    layer_all = _C(c["layer"] for c in claims)
+    fails = [c for c in claims if c.get("status") in ("Failed", "Open")]
+    f_layer = _C(c["layer"] for c in fails)
+    n_fail = len(fails)
+    enrich = (f_layer["III"] / n_fail) / (layer_all["III"] / total)
     from collections import Counter
     layer_tot = Counter(c['layer'] for c in claims)
     # structural sanity: three non-empty layers, III is the minority
     assert all(layer_tot[k] > 0 for k in ("I", "II", "III")), "three populated layers"
     assert layer_tot["III"] < layer_tot["II"], "dynamical layer is the minority (as the ladder shows)"
-    # THE THEOREM: failures enriched at Layer III, sign and magnitude robust
-    assert enrich > 2.0, "failures ENRICHED at the dynamical frontier (>2x chance)"
+    # THE THEOREM AS ORIGINALLY STATED IS FALSIFIED BY THE CORPUS'S OWN GROWTH.
+    # Registered 2026-08-01: the pre-committed bar was enrichment > 2.0, measured
+    # at ~4x when THM-006 was written. It is now 1.85x. The bar was NOT relaxed to
+    # accommodate the decline -- that would be bar-shopping, which this corpus
+    # refuses by rule. The claim is reclassified Failed-and-kept and this benchmark
+    # now documents the falsification instead of asserting the dead threshold.
+    assert enrich < 2.0, "the original >2x bar is violated (this is the kept failure)"
+    assert enrich > 1.0, "the SIGN survives: failures still concentrate at Layer III"
     assert f_layer["III"] >= 4, "a real cluster of failures at Layer III, not one lucky hit"
     # the honest counterweight: NOT all failures are frontier (Layer II keeps some)
     assert f_layer["II"] >= 2, "some failures are ordinary classical falsifications (kept, not frontier)"
+    print(f"KEPT FAILURE: enrichment {enrich:.2f}x against the locked bar of 2.0x. "
+          f"Layer III is {100*layer_tot['III']/total:.0f}% of claims and holds "
+          f"{f_layer['III']}/{n_fail} failures. The sign survives; the magnitude does not.")
     print(f"layers: I={layer_tot['I']}, II={layer_tot['II']}, III={layer_tot['III']} (III is the minority)")
     print(f"failures at Layer III: {f_layer['III']}/{n_fail}; enrichment {enrich:.1f}x over chance")
     print(f"failures at Layer II (ordinary falsifications, kept): {f_layer['II']}")
-    print("PASS: the failures are enriched ~4x at the dynamical frontier -- the ladder figure's")
-    print("      central thesis is a measured property of the registry, with its nuance intact.")
+    print("VERDICT: the sign is a measured property of the registry; the 4x magnitude")
+    print("      the ladder figure was built on is retired. See THM-006's note.")
 
 
 if __name__ == "__main__":
