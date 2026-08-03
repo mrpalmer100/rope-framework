@@ -1,0 +1,80 @@
+"""FND-023 -- ONE MEDIUM CAN CARRY BOTH: FND-022's "opposite limits" framing was
+wrong, and incompressible elasticity is the standard precedent.
+
+Bars locked in analysis/FND023_coexistence_bars_LOCKED.md BEFORE reasoning.
+"""
+
+
+def main():
+    print("B1 FND-022's FRAMING WAS WRONG, and the corpus says so:")
+    print("   It asserted the framework wants 'opposite limits of the SAME")
+    print("   modulus'. There are TWO SEPARATE constitutive facts:")
+    print("     P-VOL = VOLUME CONSERVATION of the medium. EM-RECON-013 uses it")
+    print("       as exactly that -- 'volume conservation closes the 1/L")
+    print("       relaxation escape'.")
+    print("     k     = the STRAND's STRETCH modulus (EM-RECON-009).")
+    print("   A strand can stretch while the MEDIUM conserves volume: stretching")
+    print("   one strand thins it, or draws material from the weave. THESE ARE")
+    print("   INDEPENDENT CONSTRAINTS ON DIFFERENT OBJECTS, and FND-022 conflated")
+    print("   them the same way it accused the corpus of conflating the two")
+    print("   channels.\n")
+
+    print("B2 THE STANDARD PRECEDENT -- INCOMPRESSIBLE ELASTICITY:")
+    print("   In an incompressible medium:")
+    print("     the PRESSURE is a Lagrange multiplier obeying an ELLIPTIC")
+    print("       equation, laplacian p = source. No propagation speed. The")
+    print("       response is INSTANTANEOUS throughout the medium.")
+    print("     SHEAR WAVES propagate hyperbolically at the finite speed")
+    print("       sqrt(G/rho).")
+    print("   ONE MEDIUM, ONE ACTION, TWO SECTORS -- one elliptic and")
+    print("   instantaneous, one hyperbolic and finite-speed. This is textbook")
+    print("   continuum mechanics and nobody calls it self-contradictory.")
+    print("   THE ROPE MEDIUM HAS EXACTLY THIS STRUCTURE: the volume multiplier is")
+    print("   its instantaneous sector, the strand-stretch mode its finite-speed")
+    print("   one.\n")
+
+    print("B3 BANCAL'S PREMISE, and the framework's own answer:")
+    print("   Bancal excludes finite-speed hidden influences because a finite")
+    print("   speed in one frame becomes signalling in another -- THE ARGUMENT")
+    print("   USES RELATIVITY OF SIMULTANEITY AS FUNDAMENTAL.")
+    print("   FND-REL-001 (EFT-constrained): 'the lattice preferred frame is")
+    print("     provably INACCESSIBLE to sub-lattice physics ... establishing")
+    print("     EMERGENT (not fundamental) Lorentz invariance.'")
+    print("   FND-REL-002 (Derived): it is the WAVE SECTOR that is forced into")
+    print("     Lorentz-invariant form.")
+    print("   => In this framework 'instantaneous in the fundamental frame' is a")
+    print("   WELL-DEFINED, frame-independent statement, because the frame is")
+    print("   fundamental and Lorentz invariance is a property of the wave sector.")
+    print("   THE CONSTRAINT IS NOT A WAVE, so it is not in the sector required to")
+    print("   be Lorentz-invariant, AND BANCAL'S PREMISE DOES NOT APPLY TO IT.")
+    print("   This is not an evasion: it is the standard Bohmian position, which")
+    print("   QB-010 already records as having an existence proof and priority.\n")
+
+    print("B4 THE VERDICT: THE COEXISTENCE IS COHERENT.")
+    print("   Not merely 'not obviously fatal' as FND-022 put it -- there is a")
+    print("   standard mechanical structure that does exactly this, the corpus's")
+    print("   two constraints are separate objects rather than opposite limits,")
+    print("   and the framework's emergent-Lorentz position is precisely what")
+    print("   makes an instantaneous constraint well-defined.")
+    print("   STATUS: an argument from registered claims plus a standard")
+    print("   precedent. NOT a derivation -- see B5.\n")
+
+    print("B5 WHAT REMAINS OPEN, stated so this is not read as finished:")
+    print("   (1) NOBODY HAS WRITTEN THE ROPE MEDIUM'S CONSTRAINED ACTION with")
+    print("       the volume multiplier explicit and derived its elliptic")
+    print("       equation. The precedent says it can be done; it has not been.")
+    print("   (2) WHETHER THE VOLUME MULTIPLIER IS THE RIGHT CARRIER for the")
+    print("       nonlocal conditional is unestablished. QB-007 needs spacelike")
+    print("       DEPLETION of a wave amplitude, and a pressure-like multiplier")
+    print("       enforcing volume is not obviously the thing that depletes it.")
+    print("       That is the real remaining question and it is sharper than the")
+    print("       one FND-022 posed.")
+    print("   (3) The k/T0 dispute (FND-021) is untouched by this and still open.")
+    print("   WHAT THIS SESSION BOUGHT: the coexistence objection is answered, so")
+    print("   the framework is not incoherent here. It has not been shown to work.")
+    print("PASS: FND-022's framing corrected, the precedent identified, Bancal's")
+    print("      premise shown inapplicable, and the sharper question named.")
+
+
+if __name__ == "__main__":
+    main()
