@@ -41,18 +41,35 @@ physics gets for free once conservation is geometry instead of decree.
 ![Electricity in the rope model: current as transported linking](../figures/rope_electricity.png)
 *Electricity as transport of linking by axial screw-rotation, I = dL/dt. Backed by EM-008 (Derived) and EM-009 (Modeled). [Figure notes.](../figures/README.md)*
 
-## 3. Gravity said no — and kept saying no
+## 3. Gravity said no — until the medium earned its yes, all the way to Hawking's law
 
-*Category: kept failure.*
+*Category: kept failure, then a derived recovery — the corpus's longest arc.*
 
-If the rope idea were a fantasy, gravity would have "worked" — fantasies always work. Instead,
-our largest sector (54 claims) records a long campaign in which every attempt to derive
-gravity from the medium failed, and the failures are registered in red next to the successes.
-A framework that produces one classical field theory while refusing another is telling you
-something about its own limits — and we wrote it down. *(Gravity & Galaxies sector — Failed claims kept.)*
+If the rope idea were a fantasy, gravity would have "worked" on the first try — fantasies
+always work. Instead our largest sector (88 claims) opens with a long campaign in which every
+CLASSICAL route to Einstein gravity failed, and those failures are still registered in red
+next to the successes: a no-go theorem (gamma in [−1, 0] against the measured 1) that we kept
+at full strength because it did its job — it pointed at the one door left open. The sector
+then walked through it. The quantum-induced channel DERIVED the weak field unconditionally
+(GRV-025/026/029): gamma = 1, light deflection 1.751″ against the photographed 1.75″, and the
+full classical-test table. And in the strong-field campaign of August 2026 (GRV-074..088) the
+same machinery, pushed to the horizon with bars locked before every computation, produced the
+result we would frame: the temperature a distant observer sees is proportional to the black
+hole's surface gravity — **Hawking's law-form, with Hawking nowhere in the inputs** — falling
+out of three exact cancellations in which the horizon geometry divides out of its own ratios.
+Accretion emerged from the energy bookkeeping without being put in; collapse became permanently
+recorded structure; and the campaign ended the way this project prefers: two of our OWN routes
+to the law's coefficient disagree by four orders of magnitude, the tension is registered at
+full strength with the suspects pre-listed, and the adjudication is a computation we owe
+ourselves. Gravity said no, the corpus kept the no, earned the yes, and then derived the most
+famous result in black-hole physics in form — while publicly litigating the number in front
+of it. *(Gravity & Galaxies sector — Failed claims kept; see papers/rope_blackholes.pdf.)*
 
-![Gravity in the rope framework: mass conditions the network into an effective metric](../figures/rope_gravity.png)
-*The sequel to this story: after the failures shown above were kept in red, a fifteen-claim recovery DERIVED the weak-field result unconditionally (GRV-025/026/029) — gamma = 1, the 1.751″ deflection, and the full classical-test table. "Gravity said no," then the sector did the work to earn a yes in the weak field. Strong-field and quantum gravity remain out of scope, as the figure states. [Figure notes.](../figures/README.md)*
+![Gravity in the rope framework: mass conditions the network into an effective metric](../figures/rope_gravity_v2.png)
+*The figure's original caption told act one — the failures kept in red. The record now runs
+two acts further: the weak field derived unconditionally (gamma = 1, 1.751″), and the strong
+field carried to the Hawking law-form T_inf ∝ kappa (GRV-087), with the coefficient contested
+in-house (GRV-088). [Figure notes.](../figures/README.md)*
 
 ## 4. The model told us where its own world ends
 
