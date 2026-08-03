@@ -12,6 +12,9 @@ hand-written snapshots that go stale silently.
 - `STATE_OF_THE_PROGRAMME.md` — the front door for outside readers (1 Aug 2026)
 - `HBAR_SECTOR_CLOSURE.md` — the retirement record (1 Aug 2026)
 - `STANDING_RULE_SOURCE_BEFORE_INSTRUMENT.md` — the lesson from two closed branches
+- `ROPE_PARAMETERS.md` — the canonical strand parameter card (1 Aug 2026).
+  VERIFIED, not merely written: `benchmarks/foundations/rope_parameter_card.py`
+  recomputes every value on both branches and fails if the card drifts.
 
 ## Frozen by design — historical, do not update
 - `RELEASE_NOTES_v*.md` — snapshots at their cut; their claim counts are correct FOR THAT RELEASE

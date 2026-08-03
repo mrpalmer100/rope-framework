@@ -84,3 +84,21 @@ method.
 sweep both look DOWNSTREAM, asking what a changed claim affects. Neither looks
 FORWARD, asking whether the claim you are about to use has itself been changed.
 That is the direction errors actually travel when a corpus is being extended.
+
+
+---
+
+## Sharpened (1 Aug 2026): forward-check the CLAIM, not the topic
+
+The companion rule above says to forward-check before relying on a claim. Twice
+in one day that was read as "search the topic", which is not the same thing and
+does not work.
+
+FND-024 and FND-025 both quoted QB-009's verdict that CHSH fails at S = 1.42.
+The corpus had searched fine — it surfaced QB-010 and QB-023 — but nobody ran
+`forward_check.py QB-009`, which returns QB-010 as its first hit and leads
+directly to QB-027's CHSH = 2.66.
+
+**The mechanical form of the rule:** before quoting any claim's *verdict*, run
+the forward check on *that claim's ID*. Searching the topic finds related work;
+only the forward check tells you whether the specific verdict still stands.

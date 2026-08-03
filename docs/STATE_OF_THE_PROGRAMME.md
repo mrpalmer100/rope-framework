@@ -1,8 +1,9 @@
 # The Rope Hypothesis: state of the programme
 
-*An account for a reader outside the project. Current as of 1 August 2026.
-381 registered claims, 366 code-backed and passing, 23 registered Failed and kept.
-Core hypothesis due to Bill Gaede; developed and formalised in this corpus.*
+*An account for a reader outside the project. Current as of 3 August 2026
+(release v3.5.0). 459 registered claims, 441 code-backed and passing, 24
+registered Failed and kept. Core hypothesis due to Bill Gaede; developed and
+formalised in this corpus.*
 
 **In one line:** one medium of strands under tension reproduces optics,
 electricity, magnetism, local gravity and the nuclear mass table with the same
@@ -11,8 +12,11 @@ and, on present accounting, makes one prediction that differs from standard
 physics.
 
 *(The previous edition, 17 July 2026, is archived at `_archive_STATE_2026-07-17.md`.
-It is superseded: a large audit campaign on 1 August retired one sector and
-demoted most of the prediction list.)*
+It is superseded twice over: a large audit campaign on 1 August retired one
+sector and demoted most of the prediction list, and the strong-field campaign
+of 2 August -- twenty-one claims across three releases -- carried the gravity
+sector from its oldest assumption to the Hawking law-form. See the new section
+below.)*
 
 ---
 
@@ -82,14 +86,19 @@ from Bianchi identities plus Chern–Weil in d = 3 (EM-003), and the structural
 constants come with them: Z₀ = √(μ₀/ε₀) = 376.74 Ω and c² = 1/(μ₀ε₀) (EM-002).
 
 **Local gravity.** The four classical weak-field tests take their GR values —
-light deflection 1.751″, Mercury's 43.0″/century, Shapiro γ = 1, Nordtvedt
-η = 0 (GRV-002, *Derived*). Honestly stated: this follows *given* the weak-field
-metric, which is **matched** to isotropic Schwarzschild rather than derived from
-a field equation (GRV-001, *Modeled*) — though the Poisson equation and the 1/r
-conditioning field are then recovered from network statics (GRV-005). The MOND
-acceleration scale emerges as g† = cH₀/2π at zero free parameters and matches
-SPARC rotation curves. The IR-universal part of the medium's induced action
-carries the parameter-free Einstein–Hilbert tensor pattern (GRV-025, *Derived*).
+light deflection 1.751″ against the photographed 1.75″, Mercury's 43.0″/century,
+Shapiro γ = 1, Nordtvedt η = 0 (GRV-002, *Derived*). The old caveat that this
+followed only *given* a matched metric is retired: the classical response
+channels were ruled out by a no-go theorem (γ ∈ [−1, 0], kept at full strength),
+and the metric is now carried by the quantum-induced channel — the IR-universal
+remainder of the medium's induced action is Einstein–Hilbert (GRV-025,
+*Derived*), the physical one-metric derivation makes the identification and the
+full classical table unconditional (GRV-026/028/029, *Derived*), the
+strong-field extrapolation is certified a controlled expansion (GRV-048), and
+the induced Newton constant carries a derived exponent pair with ζ = 1.208
+(GRV-075). The Poisson equation and the 1/r conditioning field are recovered
+from network statics (GRV-005), and the MOND acceleration scale emerges as
+g† = cH₀/2π at zero free parameters, matching SPARC rotation curves.
 
 **Nuclear masses across the table.** Atomic masses are *predicted* from carbon-12
 to uranium-238 with **one calibrated nuclear constant** (NUC-005, amended by
@@ -105,13 +114,18 @@ registered anyway.
 
 Beyond these: Born's half-angle law from classical rope wave energetics, bond
 mechanisms and molecular geometry (bent H₂O derived, H₂S at 92° supporting), the
-Yukawa form exact from a screened-mode Green's function, and a pilot-wave
-programme reproducing CHSH 2.724 with verified no-signalling.
+Yukawa form exact from a screened-mode Green's function, and a quantum
+foundations programme that, in the ribbon-production arc of August 2026
+(QB-028..033), derived an end-to-end Bell violation from nucleation alone —
+CHSH 2.04 as a worst-case floor rising to 2.23 under the forced transport law,
+every number traced to three medium parameters, with verified no-signalling.
 
 **That one ontology yields light, electricity, magnetism, local gravity and the
 nuclear mass table together — from strands under tension, with the same constants
-throughout — is the substantive claim of this programme.** By sector count: 25 of 43 EM and
-optics claims are *Derived*, and 22 of 52 gravity claims.
+throughout — is the substantive claim of this programme.** By sector count: 15 of 33 EM
+claims are *Derived*, and 22 of 88 gravity claims — the gravity sector having
+more than doubled through the 2026 audit and strong-field campaigns, most of the
+additions Modeled with locked bars and code.
 
 **On predictive equivalence, and why it is not a concession.** Most of the above
 reproduces results standard physics also produces, and no measurement separates
@@ -205,20 +219,62 @@ and it must be imported as a postulate.
 **The neutrino sum** Σmν = 58.47 meV is sharply falsifiable but sits where any
 minimal-normal-ordering model lands, so a confirmation would not select it.
 
-**The black-hole whisper** is the nearest miss. Isolated holes go quiet instead of
-evaporating; fed holes emit at ω = 0.23κ, within a factor of two of the Hawking
-peak by a different mechanism, with the strand scale cancelling out of the
-frequency. It is genuinely sourced in the gravitational channel — a reconnection
-is purely deviatoric, trace zero to machine precision, with 93% of its excited
-power in the Einstein–Hilbert channel. But the strain is 7.9e−27 at 10 kpc and
-the best real candidate falls **36× short** of LIGO. The corpus's own spectral
-work is what closes it: read as a monochromatic line the whisper would be
-detectable at SNR 11, but four claims established a broadband quasi-thermal
-spectrum, removing four orders of sensitivity.
+**The black-hole whisper** is the nearest miss, and since the strong-field
+campaign it is also the site of the corpus's most interesting open dispute.
+Isolated holes go quiet instead of evaporating; fed holes emit reconnection
+noise whose frequency law — proportional to the surface gravity κ — is now
+derived by TWO independent routes: the original mode analysis (ω = 0.23κ,
+GRV-040) and the new mechanism chain (statics → lift-over barrier → measured
+bit-cost → counted modes → Tolman redshift, with the depth cancelling exactly:
+T∞ ∝ κ, GRV-087). The two routes agree on the law and DISAGREE on the
+coefficient by four orders of magnitude (GRV-088) — a
+prediction-meets-prediction tension registered at full strength, suspects
+pre-listed on both chains, adjudicable entirely in-house. The emission is
+genuinely sourced in the gravitational channel (a reconnection is purely
+deviatoric, 93% of excited power in the Einstein–Hilbert channel), but the
+strain is 7.9e−27 at 10 kpc, the best real candidate falls **36× short** of
+LIGO, and the corpus's own spectral work established a broadband quasi-thermal
+spectrum, removing four orders of line-search sensitivity. No detection claim is
+made in either direction of the coefficient dispute.
 
 **The physical Aharonov–Bohm branch is closed.** Nothing in the corpus sources a
 flux, and the one topological circulation it derives (2πN) is exactly spectrally
 trivial in a 2π-periodic instrument.
+
+## The strong-field campaign (2 August 2026, GRV-074..088)
+
+Twenty-one claims across three releases in a single day took the gravity sector
+from its oldest unexamined assumption to the Hawking law-form, with bars locked
+before every computation. The assumed constitutive form of G was found
+dimensionally open, and the repair produced the corpus's first derived G
+exponent pair — the Sakharov route, with a 96-site lattice zero-point
+coefficient selecting a spacing of eight Planck lengths unprompted (GRV-075);
+a survey then found ZERO live pins of the lattice scale, reducing a two-scale
+tension to a single named fork with internal discriminators (GRV-076). The
+horizon's statics were derived rather than assumed: the support load is
+transverse-only, exactly what pressing supplies (GRV-077); the frozen star
+froze itself, every exterior disturbance dying away (GRV-078/079); and the
+exterior cannot be talked into danger — infalling focusing buys a factor of two
+before horizon-side removal wins (GRV-080). An energy-honest interior was then
+built after its predecessor was disqualified by its own audit: the
+ratchet-wave coupling, in which accretion emerged unasked (every infalling wave
+blueshifts past the local threshold and is partially eaten) and collapse became
+recorded structure — a permanent footprint of broken crossings with balanced
+books (GRV-081). The temperature chain followed link by labelled link: the
+bit-cost is 15.67× the barrier, exact to three digits across a factor-four
+sweep (GRV-082); the barrier is pressing × thickness for any lift path, by the
+fundamental theorem of calculus, no friction law needed (GRV-083); the
+conversion to temperature survived the refutation of its own first closure —
+fifteen barriers per bit cannot live in a two-level system — and settled on a
+mode count of 4–6, sourced one line each from three different sectors
+(GRV-084/085/086). Three exact cancellations then delivered the summit: the
+barrier-to-temperature ratio, the emission Boltzmann factor, and finally the
+observed temperature itself are all independent of depth, and
+T∞ = (βKh/m*)κ — the Hawking law-form, with Hawking nowhere in the inputs
+(GRV-087). The coefficient evaluation returned the honest ending: four orders
+below the mode-analysis commitment, registered at full strength with four
+pre-listed suspects (GRV-088). The law is derived; the number is in court; the
+adjudication is a bounded computation the corpus owes itself.
 
 ## What is weakest
 
@@ -252,8 +308,10 @@ from stated inputs.
 - `docs/STANDING_RULE_SOURCE_BEFORE_INSTRUMENT.md` — the lesson from two closed
   branches.
 
-Twenty-three claims are registered **Failed** and kept, including one theorem
-falsified by the corpus's own growth.
+Twenty-four claims are registered **Failed** and kept, including one theorem
+falsified by the corpus's own growth and, from the strong-field campaign, an
+instrument disqualified by its own energy audit and pre-committed bars that
+failed and were kept as the findings they were.
 
 The failures are the point. A framework that recorded only its successes would
 have a longer list of predictions and no way to tell which of them meant

@@ -421,6 +421,15 @@
   "why": "Hawking/horizon chain: shape derived classically; hbar only converts units",
   "branch": ""
  },
+ "GRV-053": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
  "GRV-045": {
   "status": "Derived",
   "markers": [
@@ -1502,6 +1511,33 @@
   "why": "incidental vocabulary; no dependence (default rule)",
   "branch": ""
  },
+ "ELEC-066": {
+  "status": "Conjecture",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "ELEC-071": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "ELEC-075": {
+  "status": "Modeled",
+  "markers": [
+   "e_mass"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
  "PRED-003-CONF": {
   "status": "Modeled",
   "markers": [
@@ -1619,6 +1655,15 @@
   "why": "incidental vocabulary; no dependence (default rule)",
   "branch": ""
  },
+ "HBAR-011": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
  "NUCQ-001": {
   "status": "Modeled",
   "markers": [
@@ -1700,6 +1745,60 @@
   "status": "Modeled",
   "markers": [
    "qphase"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-019": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "GRV-073": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-020": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-022": {
+  "status": "Modeled",
+  "markers": [
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-024": {
+  "status": "Modeled",
+  "markers": [
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-025": {
+  "status": "Modeled",
+  "markers": [
+   "q"
   ],
   "cat": "MENTION",
   "why": "incidental vocabulary; no dependence (default rule)",
