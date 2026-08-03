@@ -93,3 +93,45 @@ tools/build_roadmap.py; a natural anchor for the whole corpus.
 
 ## Legacy
 - rope_em_diagram.png / _v2.png — earlier EM schematic.
+
+
+## rope_ladder_v2.png (3 Aug 2026) -- the current ladder
+
+Supersedes rope_ladder.png (kept for the record; THM-006's history is about
+that figure staying honest). v2 is colored mechanically from the live registry
+per figures/ladder_v2_spec.md: L2-L3 green (derived structure), L4 split
+(Electrodynamics and Statistical Mechanics green; Quantum Mechanics and
+Non-Linear Dynamics yellow -- Tsirelson is a theorem and the ribbon Bell
+violation is derived, but the Born rule and full dynamics are the L1
+frontier), L5 all yellow with per-box annotations ("law-form derived;
+coefficient contested in-house" -- the black-hole campaign's honest status),
+and L6 all red: the frontier the footer promises. Ten green, six yellow, ten
+red -- the distribution is the argument.
+
+## rope_gravity_v2.png (3 Aug 2026) -- the current gravity figure
+
+Supersedes rope_gravity.png (kept for the record). Registry-faithful across
+regimes: the isotropic weak-field metric psi = 1 + rs/4r with the derived
+classical table (1.751'' deflection, 43.0''/cy Mercury, Shapiro gamma = 1,
+Nordtvedt eta = 0; GRV-002/026/029); the strong-field campaign stated in the
+ladder's own color grammar -- law-form DERIVED (Hawking via exact
+cancellations, GRV-087, with the coefficient contested in-house, GRV-088),
+statics derived, dynamics and thermodynamics MODELED with locked bars (yellow
+checks); and the Scope & Honesty box declining quantum gravity and the origin
+of mass. Consistent with rope_ladder_v2.png by construction.
+
+## rope_layers.png (3 Aug 2026) -- the three-layer architecture, publication grade
+
+Supersedes rope_ladder.png as THM-006's visual anchor (v1 kept for the
+record; that claim's registry entry documents the figure's own honesty
+history, including the retirement of the original 4x enrichment magnitude --
+this render correctly states only the surviving sign-level claim). The 2026
+addition is the AMBER box: "Strong-Field Gravity & Black Holes -- Hawking
+law-form derived; campaign modeled with locked bars" -- the legend's
+Modeled/conditional tier finally instantiated, telling the year's story at
+its honest grade. Caption note per THM-006's two-sided finding: Layer II's
+green rows also contain a real minority of ordinary classical falsifications,
+kept and counted (e.g. EM-011, GRV-009/010); the layer is where most DERIVED
+results live, not a zone without failures. Consistent with rope_ladder_v2.png
+(the per-sector status ladder) and rope_gravity_v2.png in vocabulary and
+color grammar.
