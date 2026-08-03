@@ -108,9 +108,9 @@ coefficient contested in-house" -- the black-hole campaign's honest status),
 and L6 all red: the frontier the footer promises. Ten green, six yellow, ten
 red -- the distribution is the argument.
 
-## rope_gravity_v2.png (3 Aug 2026) -- the current gravity figure
+## rope_gravity.png (3 Aug 2026) -- the current gravity figure
 
-Supersedes rope_gravity.png (kept for the record). Registry-faithful across
+Supersedes the original render (archived as rope_gravity_v1_archive.png). Registry-faithful across
 regimes: the isotropic weak-field metric psi = 1 + rs/4r with the derived
 classical table (1.751'' deflection, 43.0''/cy Mercury, Shapiro gamma = 1,
 Nordtvedt eta = 0; GRV-002/026/029); the strong-field campaign stated in the
@@ -120,10 +120,10 @@ statics derived, dynamics and thermodynamics MODELED with locked bars (yellow
 checks); and the Scope & Honesty box declining quantum gravity and the origin
 of mass. Consistent with rope_ladder_v2.png by construction.
 
-## rope_layers.png (3 Aug 2026) -- the three-layer architecture, publication grade
+## rope_ladder.png (3 Aug 2026) -- the three-layer architecture, publication grade
 
-Supersedes rope_ladder.png as THM-006's visual anchor (v1 kept for the
-record; that claim's registry entry documents the figure's own honesty
+THM-006's visual anchor, re-rendered at publication grade (the original is
+archived as rope_ladder_v1_archive.png; that claim's registry entry documents the figure's own honesty
 history, including the retirement of the original 4x enrichment magnitude --
 this render correctly states only the surviving sign-level claim). The 2026
 addition is the AMBER box: "Strong-Field Gravity & Black Holes -- Hawking
@@ -135,3 +135,27 @@ kept and counted (e.g. EM-011, GRV-009/010); the layer is where most DERIVED
 results live, not a zone without failures. Consistent with rope_ladder_v2.png
 (the per-sector status ladder) and rope_gravity_v2.png in vocabulary and
 color grammar.
+
+
+## Verdict note for the in-court annotations (3 Aug 2026, GRV-089..091)
+
+Both posters carry "the number is in court" / "coefficient contested
+in-house." THE CASE IS NOW CLOSED -- category error; both routes stand
+(pitch geometric at 0.23 kappa, rate thermodynamic; crackling-noise
+emitter). Until re-rendered, this note is the load-bearing correction.
+Re-render spec, one line each: rope_ladder_v2 strong-field annotation ->
+"Hawking's law-form derived; coefficient case closed -- both routes
+stand"; rope_gravity_v2 green check -> "Hawking's law-form derived
+(pitch geometric, rate thermodynamic; GRV-091)".
+
+
+## Canonicalization note (3 Aug 2026)
+
+The base names now carry the CURRENT art: rope_ladder.png is the
+publication-grade three-layer architecture (with the amber strong-field
+box) and rope_gravity.png is the corrected all-regimes gravity figure.
+Originals archived as *_v1_archive.png. rope_ladder_v2.png remains a
+SEPARATE figure (the per-sector status ladder, 10 green / 6 yellow / 10
+red). All document references use the base names, so every embed --
+including SURPRISES's opening map and THM-006's anchor -- now shows the
+current renders.
