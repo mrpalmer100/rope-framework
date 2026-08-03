@@ -62,14 +62,19 @@ recorded structure; and the campaign ended the way this project prefers: two of 
 to the law's coefficient disagree by four orders of magnitude, the tension is registered at
 full strength with the suspects pre-listed, and the adjudication is a computation we owe
 ourselves. Gravity said no, the corpus kept the no, earned the yes, and then derived the most
-famous result in black-hole physics in form — while publicly litigating the number in front
-of it. *(Gravity & Galaxies sector — Failed claims kept; see papers/rope_blackholes.pdf.)*
+famous result in black-hole physics in form — and then closed its own case: four further
+sessions (GRV-089..091) found the four-order dispute was a CATEGORY ERROR, a temperature
+coefficient set against a ringing-frequency coefficient. Both predictions stand at their own
+questions: the pitch is geometric (0.23 kappa), the rate is thermodynamic, and the black hole
+is a crackling-noise emitter — cold reservoir, bright snaps. The theory subpoenaed itself, the
+indictment was ruled defective, and the surviving question is the quantum of the ring: the
+hbar frontier, arrived at the horizon's doorstep. *(Gravity & Galaxies sector — Failed claims kept; see papers/rope_blackholes.pdf.)*
 
-![Gravity in the rope framework: mass conditions the network into an effective metric](../figures/rope_gravity_v2.png)
+![Gravity in the rope framework: mass conditions the network into an effective metric](../figures/rope_gravity.png)
 *The figure's original caption told act one — the failures kept in red. The record now runs
 two acts further: the weak field derived unconditionally (gamma = 1, 1.751″), and the strong
-field carried to the Hawking law-form T_inf ∝ kappa (GRV-087), with the coefficient contested
-in-house (GRV-088). [Figure notes.](../figures/README.md)*
+field carried to the Hawking law-form T_inf ∝ kappa (GRV-087), with the coefficient dispute
+since RESOLVED as a category error, both routes standing (GRV-091). [Figure notes.](../figures/README.md)*
 
 ## 4. The model told us where its own world ends
 

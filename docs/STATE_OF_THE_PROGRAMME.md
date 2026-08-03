@@ -226,10 +226,15 @@ noise whose frequency law — proportional to the surface gravity κ — is now
 derived by TWO independent routes: the original mode analysis (ω = 0.23κ,
 GRV-040) and the new mechanism chain (statics → lift-over barrier → measured
 bit-cost → counted modes → Tolman redshift, with the depth cancelling exactly:
-T∞ ∝ κ, GRV-087). The two routes agree on the law and DISAGREE on the
-coefficient by four orders of magnitude (GRV-088) — a
-prediction-meets-prediction tension registered at full strength, suspects
-pre-listed on both chains, adjudicable entirely in-house. The emission is
+T∞ ∝ κ, GRV-087). The two routes agree on the law, and the four-order coefficient
+disagreement registered between them (GRV-088) has since been ADJUDICATED
+IN-HOUSE (GRV-089..091): a category error — a temperature coefficient set
+against a ringing-frequency coefficient. The emission is impulsive
+(discrete reconnection snaps ring the throat at its resonance regardless
+of rate — Campbell's theorem), so the pitch is geometric and stands at
+0.23κ while the mechanism's temperature sets the event rate. Both routes
+vindicated at their own questions; the black hole is a
+crackling-noise-class emitter — cold thermodynamics, bright snaps. The emission is
 genuinely sourced in the gravitational channel (a reconnection is purely
 deviatoric, 93% of excited power in the Einstein–Hilbert channel), but the
 strain is 7.9e−27 at 10 kpc, the best real candidate falls **36× short** of
@@ -273,8 +278,12 @@ observed temperature itself are all independent of depth, and
 T∞ = (βKh/m*)κ — the Hawking law-form, with Hawking nowhere in the inputs
 (GRV-087). The coefficient evaluation returned the honest ending: four orders
 below the mode-analysis commitment, registered at full strength with four
-pre-listed suspects (GRV-088). The law is derived; the number is in court; the
-adjudication is a bounded computation the corpus owes itself.
+pre-listed suspects (GRV-088). The law is derived, and the number's court case is CLOSED: the
+coefficient campaign (GRV-089..091) promoted one suspect, eliminated one by
+exact cancellation, vindicated the mode identification by Campbell's
+theorem, and convicted the confrontation itself of a category error. Both
+of the corpus's routes stand at their own questions, and the surviving open
+item is the quantum of the ring — the ħ frontier at the horizon's door.
 
 ## What is weakest
 
