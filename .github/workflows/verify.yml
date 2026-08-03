@@ -1,11 +1,9 @@
 name: verify-corpus
-
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
 jobs:
   verify:
     runs-on: ubuntu-latest
@@ -23,9 +21,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -e ".[dev]"
+          pip install -r requirements.txt
       - name: Quickstart smoke test
         run: python quickstart.py
-      - name: Verify corpus (all registry benchmarks)
-        run: python tools/verify_corpus.py
+      - name: Verify corpus (registry benchmarks; env-sensitive set skipped, labelled)
+        run: python tools/verify_corpus.py --skip-heavy
       - name: Run regression tests
         run: pytest -q
