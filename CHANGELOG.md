@@ -10556,3 +10556,49 @@ A local topology-surgery control replaced ROPE-MODE-004's translated unlinked co
   output rather than passing silently.
 - CI recommendation: run `python tools/verify_corpus.py --skip-heavy` (or set
   the env var), or move to a larger runner to keep full coverage in CI.
+
+## 2026-08-03 — SURPRISES.md entry 3 rewritten (operator catch)
+
+- 'Gravity said no — and kept saying no' implied the sector doesn't work; the
+  headline and body predated both the weak-field recovery and the strong-field
+  campaign. Rewritten as the two-act arc it actually is: the no-go kept in red,
+  the induced channel's unconditional yes (1.751'' vs 1.75''), and the Hawking
+  law-form from three cancellations -- with the coefficient dispute presented
+  as the project's signature honesty. Claim count corrected (54 -> 88); the
+  stale 'strong-field out of scope' caption replaced.
+
+## 2026-08-03 — Ladder v2 color spec drafted from the live registry
+
+- figures/ladder_v2_spec.md: per-box GREEN/YELLOW/RED mapping for the re-render
+  of the Ladder and the Frontier, with claim citations per box and the
+  poster-ready strong-field annotation ("Hawking's law-form derived; the number
+  is in court"). Operator's v1 render corrected: L6 to red, L5 to yellow, two
+  L4 boxes to yellow; 12 green / 6 yellow / 10 red.
+
+## 2026-08-03 — The Ladder and the Frontier v2 filed
+
+- figures/rope_ladder_v2.png: the operator's re-render, verified box-by-box
+  against figures/ladder_v2_spec.md -- L6 red, L5 yellow with the strong-field
+  annotation ("Hawking's law-form derived; the number is in court"), L4 split,
+  green trunk and red L1 intact. Ten green, six yellow, ten red. v1 kept for
+  the record per THM-006's history.
+
+## 2026-08-03 — Gravity figure v2 filed
+
+- figures/rope_gravity_v2.png: the operator's re-render with both requested
+  line edits landed -- 'Strong-field campaign: statics derived; dynamics and
+  thermodynamics modeled with locked bars' (yellow) in Key Results, and the
+  Status box's last line as a yellow check. Vocabulary now matches
+  rope_ladder_v2 by construction. SURPRISES.md figure reference rewired to v2;
+  v1 kept for the record.
+
+## 2026-08-03 — The three-layer architecture figure, publication grade
+
+- figures/rope_layers.png: the THM-006 anchor re-rendered at publication
+  quality with the amber strong-field box ("Hawking law-form derived; campaign
+  modeled with locked bars") -- the Modeled tier instantiated on the figure for
+  the first time. Layer III header now reads "failures, open problems, and
+  remaining derivations cluster here" (an improvement on the spec). Key Insight
+  panel states only THM-006's surviving sign-level claim, per that claim's own
+  falsification history. README caption carries the Layer-II
+  minority-falsifications note; PROGRAMME_OVERVIEW's figure pointer rewired.
