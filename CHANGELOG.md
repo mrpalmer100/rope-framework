@@ -7426,6 +7426,21 @@ is filed blocked-with-path (arXiv 2409.20168 ancillary data; key file
 ENP_1064_0532.agr; manual download required -- see
 docs/RELEASE_NOTES_v2.5.1.md). 343 claims, 329 code-backed.
 
+## 3.6.0 (2026-08-03)
+
+The case closes: both chains innocent, the courtroom guilty. Three claims
+(GRV-089..091): beta promoted to a universal U-shaped function with the
+shell's operating point measured at marginal capture; the pile-up eliminated
+by exact cancellation (thickness-over-depth, below 1e-15 everywhere); and the
+verdict -- Campbell's theorem: impulsive emission rings the throat regardless
+of rate, so GRV-088's four-order tension was a category error, the pitch
+geometric (0.23 kappa, GRV-040 vindicated) and the rate thermodynamic
+(GRV-087 vindicated). The black hole is a crackling-noise emitter: cold
+thermodynamics, bright snaps. Residue: the quantum of the ring (the hbar
+frontier at the horizon's door). Document sweep propagated the verdict across
+papers, guide, state doc, SURPRISES, and figures. Full notes:
+docs/RELEASE_NOTES_v3.6.0.md.
+
 ## 3.5.0 (2026-08-02)
 
 The whisper's mechanism, and the number it contests. Four claims (GRV-085..088):
@@ -10635,3 +10650,80 @@ A local topology-surgery control replaced ROPE-MODE-004's translated unlinked co
   investigation); it is already in the HEAVY skip set. Recommended CI verify
   command until the workflow installs deps: `--skip-heavy` (covers all six
   remaining).
+
+## 2026-08-03 — CI workflow brought current (operator's live file, edited)
+
+- .github/workflows/verify.yml now mirrors the operator's live workflow (3.10/
+  3.11/3.12 matrix, editable install, quickstart smoke test, pytest) with two
+  additions: `pip install -r requirements.txt` in the install block (the dev
+  extras did not include scikit-learn) and `--skip-heavy` on the verify step
+  (six environment-sensitive benchmarks skip with honest labels; they remain
+  the per-release local standard).
+
+## 2026-08-03 — GRV-089: the coefficient campaign opens -- beta promoted, tension 3.8 -> 3.5
+
+- UNIVERSALITY EXACT: beta = e_bit/e_th collapses across thresholds to machine
+  identity at every one of eight drives -- a one-variable physical function.
+- THE SHAPE: U-curve -- marginal plateau ~35.2, minimum 15.7 near r_d = 4,
+  rising at depth. GRV-082's 15.67 was the function read at its minimum by
+  accident of engine convenience.
+- THE OPERATING POINT: the accretion shell fires at r_d* = 1.08 (marginal
+  capture, as the blueshift grammar implies) -> beta_phys = 35.4.
+- THE ARITHMETIC: coefficient rises 2.3x; the gap to 0.23 narrows to 3.5
+  orders and survives at full strength. Suspect (i) adjudicated; the PILE-UP
+  (the one suspect pushing up) is the named next session, on the same
+  instrumented loop.
+
+## 2026-08-03 — GRV-090: the pile-up eliminated by exact cancellation -- the upward direction closes
+
+- THE CLOSED FORM: P = f* beta_phys (h/sigma); a and chi cancel exactly. The
+  pile-up is occupancy x bit price x thickness-over-depth, and a strand is
+  1.9e-19 m thick against a macroscopic shell: worst channel 7.9e-16.
+- THE MATTER CHANNEL: the vacuum is denser than a neutron star by 14+ orders
+  (F-Lor) -- accretion cannot pile the cell energy above Sigma regardless of
+  what is eaten. P-e vindicated to one part in 1e14.
+- THE CONSEQUENCE (pre-committed): the mechanism-side coefficient is robustly
+  small. Resolution space reduces to (ii) the h fm-audit or (iv) GRV-040's
+  0.23 coming down -- and the case now leans toward the one link never tested
+  against a mechanism. Score: one suspect promoted, one eliminated, two
+  standing. NEXT: GRV-040's mode identification re-derived against the ratchet
+  mechanism (the likely decisive session).
+
+## 2026-08-03 — GRV-091: both chains innocent, the courtroom guilty -- the coefficient campaign closes
+
+- THE PHYSICS: thermally occupied emitters radiate where their temperature
+  says; IMPULSIVE emitters radiate where their resonator says, at a loudness
+  their rate says. Campbell's theorem by machine; numeric at rates 33x apart,
+  pitch immobile to < 5%.
+- THE MECHANISM TESTIFIES: GRV-085's emission was always discrete ledger
+  reversals -- 35-barrier snaps pay no Boltzmann toll at the ring frequency.
+  A thermally occupied throat would be exp(-3e3..1e5) dead at 0.23 kappa;
+  the snaps are not.
+- THE VERDICT (V3 of the locked grammar): GRV-088 compared a temperature
+  coefficient to a ringing-frequency coefficient. The 3.5 orders ARE the
+  crackling-noise signature -- cold thermodynamics, bright snaps. GRV-040
+  vindicated (the pitch); GRV-087 vindicated (the rate); tension RESOLVED.
+- THE SCORE, four sessions: beta promoted (operating point measured), pile-up
+  eliminated (exact cancellation), identification vindicated (theorem),
+  confrontation convicted (its own pre-committed grammar). The h audit
+  released from load-bearing duty.
+- RESIDUE: the quantum of the ring (e_bit vs hbar_med omega_r per snap) --
+  the L1 frontier at the horizon's doorstep. NEXT: the document sweep (the
+  in-court annotations must now say CLOSED), then the release.
+
+## 2026-08-03 — README release line repaired
+
+- The "Current release" line had silently pattern-missed every bump since
+  v3.3.0 (the sed anchors assumed a short line; the actual line carried a
+  post-release blurb). Now reads v3.6.0 with the verdict summary, and owns
+  the miss on its face.
+
+## 2026-08-03 — Figures canonicalized (operator catch)
+
+- SURPRISES's opening map and other base-name embeds were still showing the
+  OLD renders: the new art lived only under v2/layers filenames. The base
+  names now carry the current figures (rope_ladder.png = the
+  publication-grade architecture with the amber strong-field box;
+  rope_gravity.png = the corrected all-regimes figure); originals archived as
+  *_v1_archive.png; duplicate names removed; every reference re-pointed.
+  rope_ladder_v2.png remains the separate per-sector status ladder.
