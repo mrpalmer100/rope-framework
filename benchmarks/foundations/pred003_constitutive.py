@@ -28,7 +28,10 @@ def b1_provenance():
     lineage = {"claims.yaml",
                os.path.join("benchmarks", "foundations", "pred_alpha_g_drift.py"),
                os.path.join("benchmarks", "foundations", "pred003_xchain_audit.py"),
-               os.path.join("benchmarks", "foundations", "pred003_constitutive.py")}
+               os.path.join("benchmarks", "foundations", "pred003_constitutive.py"),
+               # PRED-003-LOCK (registered after this audit): the locking
+               # determination DERIVES the enslaved alpha -- lineage, not leak.
+               os.path.join("benchmarks", "foundations", "pred003_locking.py")}
     outside = [h for h in hits if h not in lineage]
     assert not outside, f"unexpected derivation site(s): {outside}"
     print("B1 PASS  provenance gap CONFIRMED: alpha ~ 2T^2/(kappa a) appears only in")
