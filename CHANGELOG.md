@@ -7426,6 +7426,53 @@ is filed blocked-with-path (arXiv 2409.20168 ancillary data; key file
 ENP_1064_0532.agr; manual download required -- see
 docs/RELEASE_NOTES_v2.5.1.md). 343 claims, 329 code-backed.
 
+## 3.5.0 (2026-08-02)
+
+The whisper's mechanism, and the number it contests. Four claims (GRV-085..088):
+the driven shell's kinetics derived and the two-state closure refuted by its own
+bar; m* counted at 4-6 with three sectors contributing one line each; the third
+cancellation delivering the Hawking law-form (T_inf proportional to kappa, with
+Hawking nowhere in the inputs) and the switch-class luminosity met from below;
+and the summit returning a located disagreement -- K derived (the pressing is
+the cell's weight), the coefficient four orders under the committed 0.23, four
+suspects pre-listed on both chains, the form standing coefficient-independent.
+Full notes: docs/RELEASE_NOTES_v3.5.0.md.
+
+## 3.4.0 (2026-08-02)
+
+Strong field, from statics to the Unruh shape. Eleven claims (GRV-074..084):
+the assumed G form found dimensionally open with J1713 refutability certified
+G-form-robust; the first derived G exponent pair (Sakharov, (0, 2), zeta =
+1.208) selecting a at eight Planck lengths; the a-fork named (zero live pins);
+load-share and staticity derived; nonlinear settling split by exhaustion; the
+softening stand-in disqualified by its own energy audit; the ratchet-wave
+coupling built (accretion for free, collapse as recorded structure); and the
+whisper's temperature chain assembled -- T_res = N h/L*, Unruh-shaped, with the
+bit-cost measured to three digits, the lift-over theorem replacing the friction
+premise, the log-odds coefficient measured at 2.0-3.3, and one residual premise
+(P-EQ). Full notes: docs/RELEASE_NOTES_v3.4.0.md.
+
+## 3.3.0 (2026-08-02)
+
+The ribbon produced. Six claims (QB-028..033) answer the campaign question: the
+medium produces the shared ribbon's pair and segment for free, nothing can
+thermalize the fiber (GRV-020 + FDT), the transport law is forced by the one
+generator, orientation is a parameter, and the visibility is derived from
+(T, kt, h). Headline: a Bell violation (2.03-2.41 across source orientations,
+52 sigma at isotropic) whose every number is derived from three medium
+parameters. Full notes: docs/RELEASE_NOTES_v3.3.0.md.
+
+## 3.2.0 (2026-08-02)
+
+The provenance arc. Nine claims audit the sole T1 prediction to the floor:
+two alpha chains locked, the units defect found and closed, the naive Coulomb
+route killed by theorem, the dictionary reduced to one length, kappa enslaved
+(the EM vacuum runs on two primitives), eta = 1 by one-metric uniqueness, the
+source length bounded at 13-16 a by measured alpha, and 1/alpha = 2 pi^2 rho^2
+under the shared-origin hypothesis (rho = 2.6348 required, guarded). Three owned
+corrections, two killed candidates, one vacuous test caught in commission.
+Full notes: docs/RELEASE_NOTES_v3.2.0.md.
+
 ## 3.1.0 (2026-08-01)
 THE ELECTRON LINE, THE CONSTRAINT CENSUS, AND TWO TOOLING REPAIRS. Fourteen
 claims took the electron from a conjecture about dynamical structure to a CLEAN
@@ -8956,3 +9003,1556 @@ A local topology-surgery control replaced ROPE-MODE-004's translated unlinked co
   generating it is not enough unless the magnitude is nonzero, nontrivial and
   observable. The gauge branch answers the three differently, and five sessions
   went into the first before the second was asked.
+
+### Addendum (2026-08-01) — GRV-054: the gravity sector audited, an assessment corrected
+- AN ASSESSMENT OFFERED TO THE OPERATOR WAS WRONG. It said the sector could only
+  do weak field, that the metric was "matched not derived", and that four items
+  had to clear before strong field was reasonable. Running forward_check.py on
+  GRV-001 and GRV-005 surfaced contradicting later work in its FIRST FIVE HITS.
+- B1: GRV-026 (Derived) gets gamma = 1 and 1.751 arcsec as a two-condition
+  theorem; GRV-029 (Derived) discharges C1 and makes GRV-002's table
+  UNCONDITIONAL, by a counting argument -- four wave-operator coefficient
+  functions, four metric functions, an exact bijection, and no room for a fifth.
+- B2: the horizon HAS a mechanism -- GRV-035's percolation collapse, where
+  conditioning deletes transverse crossings until connectivity fails at
+  p ~ 0.24-0.25, reproducing the known 3D bond threshold. The tension paradox
+  resolves: radial tension is HIGH near a mass while the TRANSVERSE tension that
+  light rides on goes to zero.
+- B3: GRV-048 (Derived) certifies the expansion -- parameter a^2 sqrt(K), never
+  Phi/c^2, 1e-78 at a stellar horizon, breakdown 26-32 orders below r_s.
+- B4 WHAT IS ACTUALLY MISSING: a nonlinear field equation (Poisson is linear,
+  the EH pattern quadratic, nobody has iterated one into the other, so "gravity
+  gravitates" is underived); a derived interior; and DYNAMICS -- everything is
+  static or quasi-static, and collapse, merger and ringdown are untouched. THE
+  THIRD IS THE ONE WITH DATA WAITING FOR IT.
+- B5: third superseded-claim failure of the day, and THE FIRST CAUGHT BEFORE
+  ANYTHING WAS BUILT. The two earlier cost a claim each to repair; this cost a
+  query. GRV-001 annotated as superseded; FND-019 annotated as having paid for
+  itself within hours.
+
+### Addendum (2026-08-01) — GRV-055: the bijection under time dependence
+- The route GRV-054 named into the dynamics gap. Forward-checked GRV-029 first
+  (clean, 4 hits, none superseding).
+- B1 THE FORM: the metric wave operator's time part is d_t(mu d_t u), while
+  GRV-029 writes mu u_tt. They differ by exactly (d_t mu)(d_t u).
+- B2 THE REASSURANCE: the Euler-Lagrange equation of the corpus's OWN Lagrangian
+  L = (mu/2)u_t^2 - (T/2)(grad u)^2 gives d_t(mu u_t) - d_a(T_a d_a u) = 0 --
+  exactly the metric-compatible form. GRV-029's mu u_tt was the static special
+  case, correctly stated. NO correction owed; a generalisation is.
+- B3 THE COUNT: medium carries mu (1) + symmetric T_ab (6) = SEVEN functions;
+  the metric wave operator depends on g only through the densitised inverse
+  sqrt(-g)g^{mu nu}, symmetric 4x4 with one determinant constraint = NINE; the
+  medium's absence of any d_t d_a cross term zeroes the three mixed components,
+  leaving SEVEN. 7 <-> 7: THE BIJECTION EXTENDS, onto the ZERO-SHIFT SECTOR ONLY.
+  The functions the medium cannot supply ARE the shift vector.
+- B4 WHAT IS FORBIDDEN, and why it is not a gauge artefact: zero shift can
+  always be arranged locally in a theory with no preferred frame. THIS MEDIUM HAS
+  ONE (QB-008, CMB-adjacent), so in its rest frame a rotating spacetime carries
+  g_{t phi} != 0 irreducibly. THE MEDIUM CAN RING BUT CANNOT SPIN -- gravitational
+  waves live in the spatial block T_ab supplies (the channel GRV-025 measured),
+  while KERR IS NOT REPRESENTABLE without a d_t d_a cross term.
+- EITHER A DEFECT OR A PREDICTION, and the corpus should not decide by
+  preference. As a defect: the operator needs a cross term, possibly derivable
+  from constituents with local angular momentum. As a prediction: frame dragging
+  in the medium's rest frame departs from GR -- which would be the sector's
+  SECOND discriminating claim.
+- NAMED NEXT-ORDER: ask whether strand mechanics can produce the cross term.
+
+### Addendum (2026-08-01) — GRV-056: the shift is forbidden by a Derived theorem
+- B1: a quadratic Lagrangian in first derivatives has three structures; only
+  (d_t u)(d_a u) yields a mixed time-space derivative. The requirement is UNIQUE.
+- B2: substituting d_t -> d_t + v d_x into the kinetic term returns exactly that
+  structure. THE CROSS TERM IS THE GALILEAN CONVECTIVE TERM.
+- B3: FND-REL-002 (Derived) forbids it -- no material velocity exists. So the
+  medium cannot supply a shift BY A DERIVED THEOREM established for an unrelated
+  purpose. THE SAME CLAIM does both jobs: it is why the medium's light obeys
+  special relativity and why its gravity cannot frame-drag.
+- B4 THE ALTERNATIVE CHECKED, not skipped: framed strands transport twist
+  (FND-STRAND-002/003), so gyroscopic coupling is the obvious candidate. It fails
+  STRUCTURALLY -- a gyroscopic term carries NO SPATIAL DERIVATIVE. It rotates the
+  polarization plane; a shift tilts the light cone. Different objects.
+- B5 VERDICT: PREDICTION, NOT DEFECT. Kerr is not representable in the medium's
+  registered CMB-adjacent rest frame.
+- AND THE DANGER NAMED RATHER THAN DEFERRED: frame dragging is not hypothetical.
+  Gravity Probe B measured it; LAGEOS/LARES constrain Lense-Thirring. A framework
+  that cannot represent a shift in its own rest frame is making a computable
+  statement about those experiments. Two honest outcomes: a second discriminating
+  prediction, or refutation by measurements made in 2011.
+- NAMED NEXT-ORDER, and it should be taken immediately: compute this framework's
+  Lense-Thirring prediction against Gravity Probe B's 37.2 +/- 7.2 mas/yr. One
+  session, public data, the most consequential single number the gravity sector
+  can currently produce.
+
+### Addendum (2026-08-01) — GRV-057: the Lense-Thirring confrontation, and an overreach withdrawn
+- B1 THE DATA IS DECISIVE: a prediction of ZERO frame dragging is excluded at
+  5.2 sigma (Gravity Probe B, 37.2 +/- 7.2 mas/yr), 20 sigma (LARES/LAGEOS,
+  mu = 1.00 +/- 0.05 systematic) and ~500 sigma (LARES-2, ~0.2%). Any future
+  version of this framework arriving at mu = 0 is finished on the spot.
+- B2 BUT THE FRAMEWORK DOES NOT PREDICT ZERO -- it has NOT COMPUTED mu. GRV-026
+  (Derived) asserts covariant matter sourcing, which carries momentum density
+  T_0i, the gravitomagnetic source; GRV-055/056 say the operator cannot carry
+  the resulting shift. NEITHER EVER BUILT THE VECTOR SECTOR: GRV-026's
+  covariance fingerprint tested the SCALAR channel, and GRV-005's force balance
+  is STATIC elastostatics with no momentum source. THE CORPUS HAS A SCALAR
+  SECTOR, A TENSOR SECTOR, AND NO VECTOR SECTOR -- a gap invisible until now.
+- B3 ESCAPES: frame dependence FAILS (rotation is not removable by boost);
+  separate metrics FAIL (they would cost GRV-029's one-metric derivation); but
+  HIGHER ORDER IS OPEN AND DECISIVE -- the counting is of the LINEARISED
+  operator, frame dragging is 1/c^3, and in GR itself gravitomagnetism comes
+  from the NONLINEARITY. The argument does not reach the order where the effect
+  lives.
+- B4 GRV-056's "PREDICTION, NOT DEFECT" IS WITHDRAWN as overreach. What stands:
+  the linearised operator genuinely cannot carry a shift, the required term is
+  uniquely the convective one, and FND-REL-002 forbids it AT THAT ORDER.
+- NAMED NEXT-ORDER, now the corpus's highest-stakes computation and well posed
+  for the first time: build the nonlinear completion, iterate once, read off the
+  vector sector. It passes a test never taken, or fails against 2011 data.
+
+### Addendum (2026-08-01) — GRV-058: the vector sector built, and it fails where it is measured
+- THE GOOD HALF: the vector sector EXISTS. Expanding the EXACT strand energy
+  L = -T sqrt(1 + u_x^2 - u_t^2/c^2) about a background gives a mixed d_t d_x
+  coefficient -T c U_t U_x / (...)^(3/2) -- nonzero, and arriving from the
+  nonlinearity exactly as gravitomagnetism does in GR. FND-REL-002 is NOT
+  violated: it forbids a MATERIAL velocity, and a moving strain PATTERN
+  transports no material. GRV-056's obstruction was linear-order only.
+- THE BAD HALF: the mechanism is proportional to U_t, and a STEADILY ROTATING
+  AXISYMMETRIC body has d_t psi = 0 EXACTLY by symmetry -- the mass goes round,
+  the field does not change. THE CROSS TERM VANISHES FOR PRECISELY THE
+  CONFIGURATION EVERY LENSE-THIRRING MEASUREMENT USES. Only Earth's
+  non-axisymmetric harmonics survive, at ~2e-6.
+- THE ARITHMETIC: mu ~ 1e-6 against a measured 1.00 +/- 0.05. Zero excluded at
+  20 sigma (LARES/LAGEOS), 5.2 sigma (Gravity Probe B), ~500 sigma (LARES-2).
+- THE MOST SERIOUS RESULT AGAINST THE FRAMEWORK IN THE CORPUS. Not yet a
+  refutation: two rescues named, NEITHER DEMONSTRATED, and the more natural of
+  them was already shown by GRV-056 to have the wrong derivative content.
+- The framework predicts gravitomagnetism where nobody has looked (collapse,
+  mergers, radiation) and fails to predict it where three experiments have.
+- README now carries the tension on its front page.
+- NAMED NEXT-ORDER: attempt rescue R1 explicitly -- is there a coupling to
+  angular-momentum density this medium supports? -- with the expectation that it
+  fails, and register the negative if it does.
+
+### Addendum (2026-08-01) — GRV-059: the source audit returns nothing; the gravity sector is FALSIFIED
+- Registered FAILED. Commissioned and its framing corrected by an external
+  reviewer, who sharpened GRV-058's diagnosis in a way that makes it worse.
+- CORRECTION 1, THE PHYSICS: the failure is NOT that the source is unchanging.
+  Frame dragging is sourced by a STEADY MASS CURRENT and produces a STATIONARY
+  field -- a steady electric current makes a static magnetic field. The
+  framework needs a coupling to rho v, structurally different from anything
+  GRV-058 examined. No residual time dependence in Earth's rotation could
+  rescue it.
+- CORRECTION 2, THE ARITHMETIC, and it is mine: "20 sigma" and "twenty times
+  over" are WITHDRAWN. LARES/LAGEOS's mu = 1.00 +/- 0.05 is a few-percent
+  agreement whose uncertainty is a gravity-model systematic, not a Gaussian
+  sigma. The defensible number is Gravity Probe B: 37.2 +/- 7.2 mas/yr against
+  a GR value of -39.2, so zero is 5.2 SIGMA away.
+- THE AUDIT, five steps, ends at the first: GRV-005's source is a STATIC force
+  balance whose term is a FORCE DENSITY. No velocity, no momentum density, no
+  vorticity, no angular-momentum coupling. GRV-026's covariance was fingerprinted
+  in the SCALAR channel only; GRV-058's nonlinear term couples to d_t of the
+  FIELD; GRV-036's angular momentum is a property of MATTER knots. Steps 2-5 are
+  never reached.
+- THE DIAGNOSIS: the framework HAS the gravitoelectric sector (g_00) and does
+  NOT HAVE the gravitomagnetic sector (g_0i). Every test it passed -- deflection,
+  perihelion, Shapiro, Nordtvedt, SPARC -- is gravitoelectric. That is why the
+  gap survived fifty-eight gravity claims unnoticed.
+- VERDICT: THE PRESENT ROPE GRAVITY SECTOR IS EXPERIMENTALLY FALSIFIED BY FRAME
+  DRAGGING. GRV-058's "not yet a refutation" is withdrawn -- a conceivable
+  mechanism appearing nowhere in the action is not a defence but a proposal for
+  a different theory.
+- RECOVERY REQUIREMENTS, all six, so no future patch passes on partial
+  agreement: total-J dependence, 1/r^3 far field, (J x r)/r^3 dipole structure,
+  sign, coefficient, consistency with the static sector.
+- README front page rewritten from "open tension" to FALSIFIED.
+
+### Addendum (2026-08-01) — GRV-060: the twist route, and a gap in my own audit
+- THE OPERATOR OBJECTED to the falsification registered minutes earlier: in
+  Gaede's picture ropes TWIRL at large scale as at small. The objection is
+  substantially correct and exposes a real gap in GRV-059's search, which looked
+  for velocity, momentum density, vorticity and angular momentum and DID NOT
+  CONSIDER TWIST DENSITY -- the corpus's own registered vector quantity
+  (FND-STRAND-002/003's Calugareanu ledger, GRV-045's 2-pi writhe exchange).
+- B1: a twist coupling L = lambda tau_a (d_t u)(d_a u) gives the mixed term
+  2 lambda tau_a d_t d_a u -- a genuine shift, and STATIONARY if tau is. That is
+  exactly the property GRV-058's mechanism lacked against a steadily spinning
+  Earth.
+- B2 THE STRUCTURE, from textbook elastostatics rather than from wanting it: the
+  rotating-sphere (Reissner-Sagoci) solution gives u_phi = M sin(theta)/(8 pi G
+  r^2), whose rotation falls as 1/r^3 with sin(theta) dipole dependence --
+  EXACTLY the (J x r)/r^3 Lense-Thirring form.
+- B3 THE OBSTACLE, specific rather than vague: a body rotating in an attached
+  medium winds up without bound; one that slips accumulates nothing. The
+  stationary state needs tau ~ omega/Gamma, and the corpus HAS the relaxation
+  mechanism (measured punch-through) but NOT the rate.
+- B4 SCORE: R1 J-dependence MET, R2 1/r^3 MET, R3 dipole MET, R4 sign OPEN,
+  R5 coefficient NOT MET, R6 static consistency OPEN. THREE OF SIX, all
+  structural.
+- B5 GRV-059's FAILED STATUS STANDS -- nothing has been added to the action --
+  but its implication that recovery needs something FOREIGN to the framework is
+  WITHDRAWN. Recovery needs DERIVING something the medium already has.
+- NAMED NEXT-ORDER, now the sector's decisive computation: derive Gamma, the
+  twist reconnection relaxation rate under steady driving, from the corpus's own
+  measured punch-through barrier. That single number takes three of six to five,
+  or kills the route.
+
+### Addendum (2026-08-01) — GRV-061: there is no Gamma, and the position improved
+- THE CORPUS WAS SEARCHED FIRST -- the step GRV-059 omitted and the reason it
+  over-concluded. The search dissolved the session's own target.
+- B1: GRV-060's tau ~ omega/Gamma is the WRONG BALANCE and Gamma does not exist.
+  FND-STRAND-002 measures a transported twist kink conserving TOTAL WINDING
+  EXACTLY (error 0.0) -- a conserved quantity cannot decay locally. GRV-037
+  finds reconnection ONE-WAY with an ABSORBING through-branch -- it relaxes a
+  crossing once and cannot cycle. There is no repeatable relaxation channel, and
+  none is needed.
+- B2: the correct steady state is a CONSERVED-CURRENT flux balance. Stationarity
+  is AUTOMATIC. This REMOVES the free parameter rather than fixing it.
+- B3: a monopole would give the wrong 1/r^2, but THE MONOPOLE VANISHES --
+  angular momentum is a PSEUDOVECTOR, so a rotating body emits no net scalar
+  twist. The leading term is the DIPOLE: 1/r^3 falloff, (J x r)/r^3 structure,
+  both now following from CONSERVATION plus SYMMETRY rather than from an
+  elastostatic analogy. Firmer footing than GRV-060 had.
+- B4: still three of six MET, but R5 CHANGES CHARACTER -- from NOT MET and
+  blocked on an underived dissipation rate, to OPEN and UNBLOCKED, needing a
+  COUPLING the medium's conservation law does not forbid.
+- B5 THE REMAINING UNKNOWN: how much twist a rotating mass injects per unit
+  angular momentum. A static question about a knot's coupling to the weave --
+  the same class GRV-005 answered for mass density, and far more tractable than
+  a rate that could never have been derived because it does not exist.
+- NAMED NEXT-ORDER: derive that coupling by GRV-005's own method, a static
+  force-and-torque balance on a knot embedded in the weave.
+
+### Addendum (2026-08-01) — GRV-062: the target reduced to a G-free ratio
+- THE CORPUS WAS SEARCHED FIRST and returned GRV-020 (Derived), whose Corollary 2
+  is an ANGULAR NO-MONOPOLE LEMMA: zero net torque (statics) + zero net winding
+  (neutrality) FORCE DIPOLE-LED SOURCING. GRV-061 reconstructed this from the
+  pseudovector symmetry of J -- correct, and unnecessary. R2 and R3 MOVE TO
+  DERIVED FOOTING.
+- PROCESS NOTE: GRV-020 was cited by NONE of GRV-055 through GRV-061. Second time
+  in this arc that the corpus already held what an audit went looking for.
+- B2: GRV-006 (Derived) says G is NOT derivable but inverse-measured. So an
+  ABSOLUTE gravitomagnetic amplitude was never available to this sector -- for
+  ANY quantity, including the Newtonian limit it reproduces. R5 as previously
+  posed was the WRONG TARGET and an unfair bar.
+- B3 THE REDUCTION: h_00 = 2GM/(c^2 r), g_tphi = 2GJ sin^2(theta)/(c^3 r), ratio
+  = J sin^2(theta)/(Mc). G CANCELS EXACTLY. That ratio is what Lense-Thirring
+  tests once the Newtonian field is calibrated.
+- B4 NEW TARGET: does the framework give gravitomagnetic/gravitoelectric =
+  J sin^2(theta)/(Mc)? Dimensionless, G-free, and answerable.
+- B5 REDUCING A TARGET IS NOT MEETING IT. Nothing here computes the ratio. The
+  route is OPEN, not closed -- stated because the arc has drifted toward optimism
+  as fast as it drifted toward pessimism two sessions ago.
+- NAMED NEXT-ORDER: compute the twist-dipole moment of a rotating knot by
+  GRV-005's static force-and-torque method, and take the quotient. J/(Mc) means
+  frame dragging with no free parameter; anything else kills the route with a
+  number.
+
+### Addendum (2026-08-01) — GRV-063: the falloff audit, and my own scoring error
+- Attempting GRV-062's quotient required fixing the multipole orders, and doing
+  so found an arithmetic error in my own scoring two claims earlier.
+- B1: |(J x r)/r^3| = J sin(theta)/r^2 -- the numerator carries a factor of r, so
+  THE SHIFT FALLS AS 1/r^2, one power slower than the formula's denominator
+  suggests. GRV-060 matched a 1/r^3 ROTATION field to the FORMULA and scored R2
+  as met. It compared a falloff to a formula. R2 WITHDRAWN.
+- B3: GRV-017 and GRV-020 (both Derived) kill the rotlet -- a static isolated
+  defect exerts zero net torque, and a steadily rotating body has zero angular
+  ACCELERATION. The ladder starts at the torque dipole, rotation ~ 1/r^4.
+- B4 THE DEEPER ERROR, and the session's real finding: TORQUE IS NOT THE SOURCE.
+  Frame dragging is sourced by ANGULAR MOMENTUM, and a body spinning steadily has
+  constant J with zero torque. The rotating-sphere analogy was aimed at the wrong
+  object throughout, and the lemma that kills the rotlet never threatened J.
+- WHAT IT EXPOSES: classical elasticity has NO source carrying angular momentum
+  without torque -- its angular content is orbital. COSSERAT (MICROPOLAR) MEDIA
+  DO: independent microrotation, intrinsic spin density, couple stresses. AND
+  THIS MEDIUM'S STRANDS ARE FRAMED (FND-STRAND-002/003, explicit twist field with
+  a conserved Calugareanu ledger) -- which IS a microrotation degree of freedom.
+- THE ROUTE IS NEITHER CLOSED NOR ADVANCED, stated exactly because this arc has
+  swung twice. One requirement withdrawn, one standing, the generating analogy
+  discarded, and a constitutive question posed for the first time.
+- NAMED NEXT-ORDER: is the framed-strand medium a Cosserat continuum -- does it
+  support couple stress and carry intrinsic spin density -- and if so, what is
+  the far field of a steady spin density? That is what the whole arc has been
+  circling.
+
+### Addendum (2026-08-01) — GRV-064: the medium IS Cosserat, and that is why the route closes
+- B1 GRV-063's CONJECTURE CONFIRMED: micropolar means an independent
+  microrotation, and FND-STRAND-002's explicit twist field with the backbone
+  held rigid is exactly that. THE FRAMED-STRAND MEDIUM IS A COSSERAT CONTINUUM
+  and does possess the source class classical elasticity lacks.
+- B2 AND THAT IS WHY IT FAILS: micropolar statics carries a characteristic
+  length ell = sqrt(gamma/4kappa), and the relative rotation obeys a SCREENED
+  Helmholtz equation. Beyond ell the microrotation locks to the macrorotation,
+  couple stresses vanish, and the medium is CLASSICAL ELASTICITY -- which
+  GRV-063 showed has no angular-momentum source. The extra physics is
+  short-ranged BY CONSTRUCTION.
+- B3: ell ~ w = 5.774e-17 m, giving screening exponents of 1.10e23 (Earth
+  radius), 1.22e23 (GP-B orbit), 2.11e23 (LAGEOS). Not a small effect -- NO
+  effect.
+- B4 BOTH ESCAPES SHUT BY REGISTERED CLAIMS, not assumption: (E1) ell diverges
+  as kappa -> 0, but FND-STRAND-003's Calugareanu ledger Lk = Tw + Wr with Lk an
+  exactly conserved integer is the tightest possible frame-backbone tie, so
+  kappa is large and ell short; (E2) a conserved topological charge would evade
+  Helmholtz screening, but GRV-020 (Derived) forbids net winding by neutrality,
+  and linking is a SCALAR where frame dragging needs a VECTOR.
+- B5 THE ROUTE CLOSES, and NOT for want of a number: the obstruction is an
+  exponential in r/w, which no coupling constant can move. This closure is
+  different in kind from the arc's earlier obstacles, which were missing
+  quantities. GRV-059's Failed status is CONFIRMED rather than provisional.
+- NOT CLAIMED: that no mechanism could source gravitomagnetism in a strand
+  medium -- only that the twist route does not.
+- README rewritten; the gravitomagnetic section now records a closed negative
+  with a structural reason.
+
+### Addendum (2026-08-01) — GRV-065: GRV-064 downgraded from closure to candidate obstruction
+- SECOND OVER-CONCLUSION IN THIS ARC, and the second caught by a reader. The
+  reviewer's three objections are all correct; the downgrade is unreserved.
+- U1: ell^2 is a RATIO OF MODULI, not the microstructure size. If the
+  rotation-locking modulus is zero, small, symmetry-protected or scale-dependent,
+  ell can be MACROSCOPIC. GRV-064 asserted ell ~ w on a plausibility argument.
+  THE 1e23 EXPONENT IS WITHDRAWN AS A DERIVED NUMBER.
+- U2: Calugareanu conservation is GLOBAL TOPOLOGICAL BOOKKEEPING and does NOT
+  set the local energy penalty for phi - (1/2) curl u. An exactly conserved
+  integer coexists with soft twist-writhe redistribution, weak coupling, gapless
+  twist waves and large screening lengths. "Tightest tie available" conflated
+  TOPOLOGY with STIFFNESS. Escape E1 not closed.
+- U3: screening the RELATIVE rotation does not screen the DISPLACEMENT sector,
+  whose curl keeps an algebraic tail. Which field the metric shift couples to was
+  NEVER ESTABLISHED -- not in GRV-064, not anywhere in the arc.
+- BOTH ESCAPES FAIL: neutrality does not forbid a DIPOLE (and frame dragging is
+  dipolar); "linking is scalar" is no no-go, since the source supplies the axial
+  vector J and Lk J is available.
+- SURVIVES: one sentence -- the medium IS a Cosserat continuum (GRV-063's
+  conjecture). Everything built on it in GRV-064 is withdrawn.
+- THE RULE THAT WOULD HAVE CAUGHT BOTH FAILURES: A VERDICT MAY NOT BE STRONGER
+  THAN ITS WEAKEST DERIVED STEP. GRV-064's weakest step was an assertion about a
+  modulus ratio; its verdict was "genuinely closed".
+- FOUR STEPS REGISTERED to close it rigorously: field identification,
+  constitutive derivation, length-scale derivation from registered parameters,
+  and a Fourier diagonalisation showing no massless source-coupled vector mode
+  survives near k = 0. The fourth decides; none is done.
+- README corrected from "closed negative" to "candidate obstruction".
+
+### Addendum (2026-08-01) — GRV-066: the locking modulus is the one term this medium forbids
+- Run with the stance recorded in the bars: find whether the framework supports a
+  working gravitomagnetic sector.
+- B1: the micropolar locking modulus kappa multiplies |phi - (1/2)curl u|^2 with
+  NO derivative -- it is a MASS TERM, and ell^-2 ~ kappa/gamma. GRV-064 assumed
+  it large without noticing that is what it was assuming.
+- B2 THE CORPUS CONTRADICTS THAT ASSUMPTION: EM-RECON-012 (DERIVED) states a mass
+  term is FORBIDDEN in this medium because there are no material points, the
+  penalty is gradient-order, and the sector is GAPLESS in principle -- with a
+  prior gap mechanism explicitly retracted. FND-STRAND-002 MEASURED a twist kink
+  propagating 170 nodes with winding conserved EXACTLY. Both were available two
+  sessions ago and neither was consulted.
+- B3 WITH kappa = 0: the equation is POISSON, GRV-020's Derived lemma forces
+  dipole-led sourcing, and the far field is (J x r)/r^3 -- 1/r^2 falloff, dipole
+  angular structure, EXACTLY what GRV-063 established Lense-Thirring requires.
+  No free parameter, no borrowed analogy. The strongest position this arc has
+  reached.
+- B4 THE GAP, named and narrow: EM-RECON-012's argument forbids a mass term for u
+  BECAUSE u is gauge; the relative rotation is gauge-INVARIANT, so it does not
+  transfer automatically. What remains is to show no gauge-invariant mass term
+  for eta appears in the strand action.
+- B5 THREE NEW PREDICTIONS: (P1) a gapless twist mode is a RADIATION CHANNEL GR
+  lacks -- anomalous spin-down in millisecond pulsars; (P2) INTRINSIC SPIN should
+  source frame dragging, making a spin-polarised non-rotating mass a target;
+  (P3) if kappa is small but nonzero, gravitomagnetism has a RANGE where GR has
+  none, and existing Lense-Thirring measurements already bound ell > 1e7 m.
+- README: gravitomagnetic sector moved from FALSIFIED to OPEN.
+
+### Addendum (2026-08-01) — GRV-067: the locking mass term is symmetry-forbidden
+- GRV-066's gap closed by a theorem the corpus already proved, and closed tidily:
+  GRV-020's Corollary 1 supplies the vanishing screening, its Corollary 2 the
+  angular structure. ONE DERIVED CLAIM, BOTH HALVES.
+- B1: GRV-020 gives a broken global SO(2) on the internal azimuth with EXACTLY
+  ONE GOLDSTONE, and identifies the coordinate itself -- "torsion dynamics =
+  light", torsion of a framed curve being the rate of change of frame azimuth.
+  Read off the claim, not asserted.
+- B2/B3: Goldstone's theorem forbids a mass term for that mode. And the
+  micropolar locking modulus IS one: under the broken symmetry phi -> phi + eps
+  while curl u is invariant, so eta -> eta + eps and eta^2 is NOT invariant. A
+  kappa|eta|^2 term explicitly breaks the derived symmetry. KAPPA = 0 EXACTLY.
+- B4: GRV-066's conditional becomes unconditional on the corpus's own premises --
+  no screening, Poisson equation, dipole-led sourcing, far field (J x r)/r^3 with
+  1/r^2 falloff and dipole structure, matching Lense-Thirring with no free
+  parameter. Three sessions ago this sector was registered Failed.
+- B5 THREE CAVEATS NAMED: (C1) Goldstone needs the symmetry global and EXACT --
+  any explicit breaking gives a small mass and a finite range, which IS
+  prediction P3 and is already bounded at ell > 1e7 m; (C2) if the symmetry were
+  GAUGED the Goldstone is eaten -- GRV-020 states a global group and the gauge
+  branch was closed, but this is the argument's hardest lean; (C3) GRV-065's
+  step-4 Fourier diagonalisation remains undone.
+- NAMED NEXT-ORDER: that diagonalisation. It would COMPLETE the derivation rather
+  than support it.
+
+### Addendum (2026-08-01) — GRV-068: step 4 passes for ANY locking modulus
+- B1 at kappa = 0: eigenvalues T k^2 and gamma k^2, both proportional to k^2, no
+  constant term anywhere. Every mode massless.
+- B2 AT GENERAL kappa: det M(k=0) VANISHES IDENTICALLY, trace 5 kappa/4,
+  eigenvalues {0, 5 kappa/4}. ONE MODE IS MASSLESS REGARDLESS OF THE LOCKING
+  MODULUS. The conclusion therefore does NOT depend on GRV-067's Goldstone
+  argument -- even if that failed and kappa were large, a massless vector mode
+  survives.
+- B3 THE MODE IDENTIFICATION IS THE RESULT: the massless eigenvector is
+  (u, phi) ~ (2, 1), the combination in which the microrotation TRACKS the
+  backbone. The MASSIVE one is the RELATIVE rotation. Angular momentum is the
+  TOTAL rotation of the medium, not a mismatch between its parts, so a source
+  carrying J excites the MASSLESS combination.
+- B4 GRV-064 FULLY RETIRED: its screening applies to the relative-rotation mode,
+  which J does not excite. Real physics, wrong mode. GRV-065's objection U3 said
+  exactly this and could not prove it; the diagonalisation proves it.
+- ALL FOUR OF GRV-065's STEPS ARE NOW ADDRESSED.
+- B5 LIMITS: parity-EVEN sector only, while these strands are CHIRAL (GRV-045) --
+  a parity-odd term cannot add a mass but could change the source structure, and
+  is unexamined. Quadratic order only. AND THE MAGNITUDE IS UNTOUCHED: structure
+  without magnitude is a necessary condition met, not a prediction confirmed.
+- NAMED NEXT-ORDER: GRV-062's G-free ratio, then the parity-odd sector.
+
+### Addendum (2026-08-01) — GRV-069: COLLECTIVE_ROTATION_MODE_UNSCREENED
+- An external reviewer accepted GRV-068's structural finding and rejected its
+  verdict. The rejection is correct.
+- C1 "STEP 4 PASSES" WITHDRAWN: a vanishing determinant at k = 0 says a zero mode
+  exists, not that Earth excites it or a gyroscope sees it. The decisive object
+  is the POLE RESIDUE (O_g^dagger v0)(v0^dagger S_J). A zero mode can stay
+  invisible if the source is orthogonal, the metric projects onto the massive
+  mode, derivative couplings cancel the pole, or the mode is a rigid global
+  symmetry. GRV-068 checked none.
+- C2 the (2,1) eigenvector is COORDINATE-DEPENDENT. The invariant statement is
+  that the gapless mode has VANISHING RELATIVE ROTATION, eta = 0.
+- C3 "angular momentum is total rotation therefore it excites the massless mode"
+  is an INFERENCE. The source term must be written and its coefficients derived.
+- WHAT THE RESIDUE ATTEMPT BOUGHT: with L = J.(a Omega + b phi) the residue goes
+  as (a + b) and vanishes only on the line a = -b -- which is the coupling under
+  which a RIGIDLY rotating body sources NOTHING AT ALL, since rigid rotation has
+  eta = 0 identically. The metric residue vanishes only if the metric map ignores
+  the microrotation, contradicting GRV-060. Both failure modes narrow and strange.
+- B4 STATUS WITHOUT INFLATION: massless eigenvalue ESTABLISHED; both residues
+  GENERIC, NEITHER DERIVED. "Generically nonzero" is not "nonzero".
+- THE HONEST POSITION, the reviewer's: locking gaps only the relative sector, a
+  collective mode stays massless for any kappa, so the blanket screening
+  obstruction is INVALID -- and whether J sources the pole and whether it enters
+  the metric remain to be derived. THE ROUTE IS REOPENED, NOT ESTABLISHED.
+- NAMED NEXT-ORDER: derive a and b from the strand action. That decides whether
+  Earth excites the mode at all.
+
+### Addendum (2026-08-01) — GRV-070: the residue structure, and the remaining work as one equation
+- Two corrections, both to my own wording, both narrowing and clarifying.
+- R1 "sources nothing whatever" WITHDRAWN: on a = -b a rigidly co-rotating
+  configuration does not source THIS ROTATIONAL CHANNEL; scalar gravity,
+  compression, displacement and parity-odd channels remain available.
+- R2 THE METRIC RESIDUE WAS DESCRIBED WRONGLY. For a general linear map
+  g_0i = c Omega_i + d phi_i, the residue is proportional to (c + d) and vanishes
+  on c = -d -- THE METRIC SEEING ONLY RELATIVE ROTATION. Weaker and different
+  from "ignores microrotation entirely", and it restores an exact parallel with
+  the source side.
+- THE PARALLEL FORM: source residue ~ (a+b), metric residue ~ (c+d), and
+  R_0 ~ (a+b)(c+d). Both are SUMS because phi = Omega on the massless mode.
+- THE REMAINING DERIVATION AS ONE EQUATION: g_0i(r) ~ [(a+b)(c+d)/(4 pi K_0)]
+  (J x r)_i/r^3, already the Lense-Thirring structure; against GR's
+  -2G(J x r)/(c^3 r^3) the framework must deliver
+  (a+b)(c+d)/(4 pi K_0) = -2G/c^3. FOUR COEFFICIENTS AND ONE STIFFNESS.
+- THE CAUTION CARRIED, aimed at my own prior reasoning: "measure-zero in
+  coefficient space" does NOT mean "unlikely in a derived theory" -- actions land
+  on special lines by symmetry, gauge invariance, conservation, objectivity,
+  parity or action-reaction. The strand action could force a = -b EXACTLY. This
+  claim does not lean on genericity.
+- NAMED NEXT-ORDER: derive a, b, c, d, K_0 -- OR show the action lacks the
+  structure to determine them, an equally admissible and equally informative
+  outcome that should be reported with the same weight.
+
+### Addendum (2026-08-01) — GRV-071: four of five coefficients ABSENT; the action is silent
+- The reviewer's second admissible outcome, and the one the work returned.
+- a (J . Omega): ABSENT. GRV-026's covariance fingerprint tested the SCALAR
+  channel only (GRV-057), and GRV-005's force balance is STATIC elastostatics
+  with no momentum or angular-momentum source. The corpus has never written a
+  matter coupling to medium rotation.
+- b (J . phi): ABSENT and worse -- the microrotation is a strand-sector field and
+  NO claim couples matter to it at all.
+- c, d (rotation -> g_0i): ABSENT STRUCTURALLY. GRV-029's dictionary is an EXACT
+  four-to-four bijection for a static DIAGONAL metric. A shift is three further
+  functions. There is no slot for g_0i, and GRV-055 showed the current operator
+  cannot carry the term that would create one. Not an uncomputed coefficient -- a
+  map that has not been built.
+- K_0: COMPUTABLE IN PRINCIPLE, being the couple-stress modulus. FND-STRAND-002's
+  quadratic rod coupling is the machinery; it has never been read off as a
+  modulus.
+- TARGET NOT EVALUABLE. THE ACTION AS REGISTERED DOES NOT CONTAIN THE STRUCTURE
+  TO DETERMINE THE GRAVITOMAGNETIC COEFFICIENT.
+- WHAT THIS DOES NOT DO: it does NOT reinstate GRV-064's screening (the massless
+  mode is still there for any kappa), and it does NOT say frame dragging is
+  forbidden. IT SAYS THE FRAMEWORK IS SILENT -- different from the falsification
+  registered at GRV-059 and from the recovery implied at GRV-068.
+- TWO EXPLICIT WORK ITEMS, each a substantial addition rather than a calculation:
+  a matter-to-rotation coupling in the source, and a dictionary carrying a shift.
+- NAMED NEXT-ORDER: K_0 from FND-STRAND-002's rod coupling -- the one quantity
+  computable now, and worth having as the first of the five.
+
+### Addendum (2026-08-01) — GRV-072: K_0 estimated, not derived, and why
+- The one coefficient GRV-071 called computable is computable in FORM, not in
+  VALUE, and the reason is worth more than the number would have been.
+- B1/B2: FND-STRAND-002's model is a discrete sine-Gordon chain in the twist
+  angle, E = 0.5 kt sum((delta phi)^2) + sum(1 - cos phi), kt = w^2. Continuum
+  limit clean: gamma = kt * a per strand.
+- B3 THE DIMENSIONAL CHECK PASSES AND CONSTRAINS: phi is dimensionless, so gamma
+  has units of ENERGY/LENGTH -- the same as TENSION. K_0 is a tension-like
+  modulus, not area- or volume-scaled. That rules out a family of wrong guesses.
+- B4 THE CONVERSION DOES NOT CLOSE: kt is quoted RELATIVE to an on-site potential
+  of unit amplitude, which in the continuum is a DISCRETENESS artefact. The model
+  fixes the RATIO of stiffness to Peierls barrier -- exactly what it was built to
+  measure -- and carries no absolute modulus.
+- THE MISSING PIECE IS A PHYSICAL QUESTION, not an arithmetic step: A TENSIONED
+  STRING WITH NO SHEAR MODULUS HAS NO TORSIONAL STIFFNESS AT ALL. A rod does, via
+  a shear modulus times a polar moment, unrelated to tension. THE CORPUS HAS USED
+  FRAMED STRANDS THROUGHOUT WITHOUT REGISTERING WHICH IT MEANS.
+- An estimate gamma ~ T (1.70e3 or 1.203e3 J/m) is available ONLY on the
+  assumption that torsional rigidity is tension-set -- which is exactly the
+  unregistered fact. Labelled as an estimate throughout.
+- GRV-071's count amended: FOUR ABSENT AND ONE ESTIMATED.
+- NAMED NEXT-ORDER: register what a strand IS constitutively -- string or rod,
+  and if a rod, what supplies its shear modulus. Upstream of this sector and
+  probably of several others.
+
+### Addendum (2026-08-01) — GRV-073: K_0 DERIVED; the corpus had the constants
+- THE OPERATOR INSISTED ON A FULL-CORPUS SEARCH BEFORE GRV-072's CONCLUSION
+  STOOD, AND THE SEARCH FALSIFIED IT.
+- GRV-072 said the corpus "has never registered strand torsional rigidity" and
+  had "never said which its strands are". BOTH FALSE. GRV-009 specifies its
+  primitives as (k, P-VOL, TORSION~r^4) "with ZERO FREEDOM" -- an r^4 law is a
+  ROD's polar moment -- and GRV-005 states outright that the corpus possesses the
+  full elastic constants (T0, mu, lambda, k, P-VOL).
+- THE PROCESS LESSON: the information sat in a claim registered FAILED. GRV-009
+  failed for giving the wrong SIGN of spatial curvature; its PRIMITIVES were
+  never in dispute. A FAILED CLAIM'S INPUTS ARE NOT THEREBY FAILED, and searching
+  only live claims is not searching the corpus.
+- THE DERIVATION: r = d_c/2 = 9.35e-20 m (HBAR-005), k = 2T0 (EM-RECON-009
+  stability, GRV-009's evaluation), E = k/(pi r^2), C = G pi r^4/2, G ~ E/2.5.
+  Gives C = 4.21e-36 J.m per strand and gamma = C/a^2 = 4.2e-4 J/m.
+- gamma/T0 = 3.5e-7. GRV-072's estimate gamma ~ T0 IS SEVEN ORDERS TOO LARGE,
+  and structurally so: axial stiffness carries r^2 (area), torsional rigidity
+  carries r^4 (polar moment), leaving (r/a)^2 = 8.7e-7 for a THIN strand. A
+  DIMENSIONAL ESTIMATE COULD NOT HAVE FOUND IT -- the suppression lives in a
+  second length the estimate discarded.
+- SCOPE: standard rod mechanics is imported for E, C and G ~ E/2.5; the Poisson
+  ratio is the one unregistered input and can move the answer by a factor of a
+  few, NOT seven orders. Thickness is the sensitive input and enters squared.
+- GRV-071's count: FOUR ABSENT AND ONE DERIVED.
+
+### Addendum (2026-08-01) — FND-020: the rope parameter card, with a verifier
+- Written at the operator's request after a session concluded WRONGLY that a
+  strand constant was unregistered. The constants were scattered across at least
+  seven claims, and one sat inside a claim marked Failed -- which is how it was
+  missed.
+- docs/ROPE_PARAMETERS.md: every strand parameter, both scale branches, with
+  status and provenance for each.
+- THE STRUCTURE MADE VISIBLE: the framework has exactly TWO independent lengths
+  (spacing, thickness) and ONE independent stiffness (Sigma). Everything else --
+  tension, line density, stretch modulus, torsional rigidity, the moduli --
+  follows, and the branches differ only through Sigma.
+- SURFACED BY SEEING THEM TOGETHER: gamma/T0 = 3.5e-7 is BRANCH-INDEPENDENT to
+  0.03%, which no single claim states because no single claim held both.
+- TWO FACTS PUT AT THE FRONT: the strand is a ROD, not a string (GRV-009's r^4
+  torsion law -- a string would have NO torsional stiffness and the twist sector
+  would not exist); and the thinness ratio r/a = 9.4e-4 does real work, since
+  axial stiffness goes as r^2 and torsional rigidity as r^4, so dimensional
+  analysis on T0 and a alone gets the couple-stress modulus wrong BY SEVEN
+  ORDERS.
+- THE VERIFIER (benchmarks/foundations/rope_parameter_card.py) recomputes every
+  value on both branches and asserts three invariants -- w/a = 1/sqrt3 exactly,
+  sqrt(T0/mu) = c, a on the Lorentz bound -- reproducing the card to 0.16%. It
+  exists because STATE_OF_THE_PROGRAMME went stale by 259 claims unnoticed, and a
+  parameter card rots invisibly and then poisons a calculation.
+- README and PROVENANCE both updated to point at it.
+
+### Addendum (2026-08-01) — FND-021: the rope IS extensible, and k/T0 is disputed by eight orders
+- The operator asked how a superluminal longitudinal channel can exist in a
+  medium the card called inextensible. The question found two things.
+- FIRST, A CLARIFICATION, AND THE CARD WAS WRONG: a perfectly inextensible strand
+  has NO longitudinal wave. The fast channel exists BECAUSE k is finite, with
+  c_L/c = sqrt(k/T0). "Inextensible" is the k -> infinity IDEALISATION; T0 is a
+  Lagrange multiplier only in that limit; at finite k there IS stored elastic
+  energy, of order T0^2/(2k) per unit length. Card corrected.
+- QB-008 IS INTERNALLY CONSISTENT: sqrt(1.9e8) = 1.378e4 matches its own
+  v_dep > 1.38e4 c to better than 1%, confirming c_L/c = sqrt(k/T0) from the
+  corpus's own numbers.
+- SECOND, AND WORSE: EM-RECON-009/GRV-009 use k/T0 = 2 (nuclear and chemical
+  spacings); QB-008 requires k/T0 >= 1.9e8 (Bell timing). EIGHT ORDERS APART.
+  Both registered, neither citing the other. A live cross-sector inconsistency in
+  a primitive constant, sitting unremarked.
+- IT INVALIDATES MY OWN RESULT FROM AN HOUR AGO: GRV-073 derived gamma = 4.21e-4
+  J/m on k/T0 = 2 and headlined that the couple-stress modulus sits seven orders
+  BELOW the tension. On QB-008's value gamma = 3.996e4 J/m -- 33x ABOVE it. THE
+  CONCLUSION INVERTS. GRV-073 is made conditional.
+- REPORTED, NOT ADJUDICATED. The two determinations rest on different physics and
+  one is wrong -- OR the quantity called k in the two places is not the same
+  quantity, which deserves checking FIRST, since an eight-order gap between two
+  careful determinations more often means a definitional mismatch than an error.
+- Card updated with a dedicated warning section on the dispute.
+
+### Addendum (2026-08-01) — the parameter card's summary line corrected
+- The first FND-021 correction fixed the tension section and LEFT THE SUMMARY
+  LINE reading "thin, INEXTENSIBLE, framed rod" -- contradicting the section that
+  had just been corrected two screens below it. The operator caught it.
+- Summary now: "a thin, framed, very stiff but EXTENSIBLE rod under tension, with
+  no material points".
+- The postulate is restated as NEAR-inextensibility, with an explicit note that
+  the word is a trap: the strand DOES stretch, and must, because a perfectly
+  rigid strand carries no longitudinal wave while the framework's superluminal
+  channel IS one (c_L/c = sqrt(k/T0)).
+- FND-STRAND-001's "literal inextensible elastic curves" is now described as an
+  IDEALISATION ADOPTED FOR TRACTABILITY rather than a claim that k is infinite.
+- LESSON RECORDED: correcting the body of a document and leaving its summary is
+  worse than not correcting it at all, because a reader trusts the summary.
+
+### Addendum (2026-08-01) — FND-022: the channel is required, and it is TWO objects
+- The operator asked whether the superluminal channel is required for anything.
+  It is among the most load-bearing things in the framework: QB-007 (detector
+  click), QB-012 (DERIVED no-go against every sub-luminal carrier), QB-023
+  (entanglement), ELEC-079/080 (the reservoir, hence optics). REMOVING IT DOES
+  NOT COST A PREDICTION -- IT COSTS QUANTUM MECHANICS.
+- BUT ANSWERING IT EXPOSED A CONFLATION I HAD JOINED AN HOUR EARLIER. FND-021
+  established the longitudinal wave exists BECAUSE k is finite, c_L =
+  c sqrt(k/T0) = 1.38e4 c. And QB-008 records BANCAL'S THEOREM AS EXCLUDING ALL
+  FINITE SPEEDS -- which is why it forced the instantaneous-constraint limb.
+  THE FINITE-SPEED WAVE CANNOT CARRY BELL CORRELATIONS, however fast.
+- TWO OBJECTS, ONE NAME, OPPOSITE LIMITS OF k:
+    (a) longitudinal ELASTIC WAVE -- needs k FINITE or there is no wave.
+        EM-RECON-011/012, ELEC-067.
+    (b) INSTANTANEOUS CONSTRAINT -- needs k -> INFINITY or Bancal excludes it.
+        QB-007, QB-008, QB-012, QB-023, ELEC-079.
+  The framework draws both from the same modulus and nothing explains how.
+- FND-021 IS MARKED INCOMPLETE: it resolved the question in favour of finite k
+  without noticing that half the dependent claims need the opposite.
+- THE CONSTRUCTIVE READING, on the record: rigid constraints and finite-speed
+  waves coexist routinely -- a rigid rod's constraint is instantaneous in
+  idealisation while its sound speed is finite, because constraint force and
+  propagating mode are different sectors of one system. Whether that survives in
+  a RELATIVISTIC medium with a PREFERRED FRAME is the open question, and IT HAS
+  NOT BEEN ASKED.
+- Parameter card gains a two-channel section (5a) ahead of the k dispute (5b).
+
+### Addendum (2026-08-01) — FND-023: one medium CAN carry both
+- FND-022 called this the sharpest open item in foundations. It is answerable,
+  and largely because FND-022's own framing was wrong in the way it accused the
+  corpus of being wrong.
+- B1: P-VOL is VOLUME CONSERVATION OF THE MEDIUM (EM-RECON-013 uses it as
+  exactly that); k is the STRAND's STRETCH MODULUS (EM-RECON-009). INDEPENDENT
+  CONSTRAINTS ON DIFFERENT OBJECTS -- a strand can stretch while the medium
+  conserves volume. "Opposite limits of the same modulus" is withdrawn.
+- B2 THE PRECEDENT: incompressible elasticity carries an ELLIPTIC, instantaneous
+  pressure multiplier and HYPERBOLIC, finite-speed shear waves in ONE action.
+  Nineteenth-century textbook mechanics, not a paradox. The rope medium has the
+  same two-sector structure.
+- B3 BANCAL DOESN'T BITE, for a reason the framework already owns: that theorem's
+  argument runs through relativity of simultaneity as FUNDAMENTAL. FND-REL-001
+  makes Lorentz invariance EMERGENT with the lattice frame fundamental, and
+  FND-REL-002 forces only the WAVE SECTOR into Lorentz form. A CONSTRAINT IS NOT
+  A WAVE. This is the standard Bohmian position, which QB-010 already records as
+  having priority and an existence proof.
+- B4 THE COEXISTENCE IS COHERENT -- not merely "not obviously fatal". Status: an
+  argument from registered claims plus a standard precedent, NOT a derivation.
+- B5 STILL OPEN, and sharper than the question this session answered: nobody has
+  written the constrained action with the volume multiplier explicit; and
+  WHETHER THAT MULTIPLIER IS THE RIGHT CARRIER is unestablished, since QB-007
+  needs spacelike DEPLETION OF A WAVE AMPLITUDE and a pressure-like multiplier
+  enforcing volume is not obviously what depletes one.
+- Parameter card section 5a updated from open conflict to resolved-with-caveats.
+
+### Addendum (2026-08-01) — FND-024: the carrier is TOPOLOGICAL, not continuous
+- FND-023's question was posed slightly wrong, and correcting it identified the
+  carrier. QB-009 uses NO depletion in the propagating sense: it races competing
+  Poisson clocks against a globally coherent INDIVISIBLE budget. Nothing travels;
+  a constraint is satisfied.
+- B2: the volume multiplier IS the wrong carrier, and my reason was wrong. Not
+  because it cannot reach -- because it is CONTINUOUS, and QB-007's
+  machine-checked no-go pins any classical field driving independent threshold
+  sites at g2 >= 1 against a measured ~0.18.
+- B3 THE RIGHT CARRIER IS WINDING CONSERVATION, and the corpus MEASURED it rather
+  than postulating it: FND-STRAND-002 conserved total winding to error 0.0 on a
+  literal strand; GRV-045 (Derived) showed reconnection exchanges exactly one
+  2-pi quantum; QB-007 derived indivisibility from integer topology. It passes
+  all four requirements -- global reach, exactness, non-wave character (so
+  FND-023's Bancal exemption applies), and measured-not-postulated. And the
+  indivisibility the measurement problem needs is not bolted onto the constraint:
+  IT IS THE CONSTRAINT.
+- B4 THE SEPARATING NUMBER WAS ALREADY REGISTERED and I had not noticed it doing
+  this work: QB-009's identical draws give g2 = 0.000 with an integer budget and
+  0.998 with a continuous one, against a measured ~0.18. That claim said it had
+  isolated the mechanism "to one bit". THE BIT IS INTEGRALITY.
+- B5 NOT THE MEASUREMENT PROBLEM SOLVED. QB-009's kept boundary stands: CHSH
+  still fails at S = 1.42 < 2. Single-particle anticorrelation works;
+  TWO-PARTICLE correlations do not, and today did nothing for them.
+- AND AN UNCOMFORTABLE POSSIBILITY, stated: winding conservation is ONE global
+  integer, while QGATE-011's condition D1 needs joint configuration-space
+  dependence that does not factorize through local 3-space fields. One conserved
+  number is a THIN RESOURCE for that, and the CHSH shortfall may be that
+  thinness showing rather than a technical gap.
+- NAMED NEXT-ORDER: test whether the winding constraint can supply D1 at all.
+
+### Addendum (2026-08-01) — FND-025: D1 tested; the scalar fails, the shared object works
+- BOTH NUMBERS WERE ALREADY IN THE CORPUS. QB-010 ran the identical first-arrival
+  race two ways: budget in PHYSICAL SPACE gives S = 1.418; budget on
+  CONFIGURATION SPACE gives S = 2.833 (Tsirelson 2.828).
+- FND-024's WORRY CONFIRMED: a single conserved global number does NOT supply D1.
+  It lands at 1.418 -- not even reaching the classical bound of 2.
+- AND MISDIRECTED: the corpus's proposal was never a conserved integer. QB-023's
+  SHARED RIBBON supplies joint dependence through a SHARED CONFIGURATION -- the
+  relative frame orientation between two ends of ONE object, which belongs to
+  neither end and does not factorize through local 3-space fields. That IS D1,
+  stated as a mechanical object rather than a condition on a flow.
+- A scalar couples sites through ONE bookkeeping channel; a shared object gives
+  them a shared configuration space. DIFFERENT RESOURCES, and FND-024 conflated
+  them by treating "topological carrier" as one thing.
+- THE STRIKING PART IS QB-023's MODE 1: treating the ends as independent
+  responders -- what every model in QB-013's class does -- gives CHSH = 2sqrt2/3
+  = 0.9428, LANDING EXACTLY ON THE REGISTERED WALL. So the wall is not a
+  mysterious bound; it is THE SIGNATURE OF SEVERED-STRAND ACCOUNTING, of treating
+  one object as two. A previously brute fact now has an explanation, and it came
+  from the operator's own conjecture.
+- WHAT REMAINS, and QB-010 names it as the summit question: whether
+  configuration-space guidance can EMERGE from physical-space dynamics. QB-023
+  POSITS the shared ribbon and honestly calls the reel its "one named new
+  premise"; it does not derive that a physical-space medium produces one.
+- SO: the resource is identified and SUFFICIENT; its EMERGENCE is not shown. A
+  smaller gap than FND-024 feared, and a real one.
+- NAMED NEXT-ORDER: can the medium produce a shared ribbon -- are two knots
+  created together mechanically ends of ONE object, or two that correlate?
+
+### Addendum (2026-08-01) — FND-026: the two-particle boundary FELL; I reported it standing twice
+- FND-024 and FND-025 both closed on "CHSH still fails at S = 1.42 < 2, the
+  two-particle boundary kept", citing QB-009. QB-027 -- the corpus's 200th claim
+  -- reports CHSH = 2.66 +/- 0.01. I QUOTED A DEAD RESULT IN TWO CONSECUTIVE
+  CLAIMS.
+- CAUSE: I searched the corpus (which surfaced QB-010 and QB-023) but did NOT run
+  forward_check.py ON QB-009 before quoting its verdict. That tool was built today
+  and returns QB-010 as its first hit.
+- WHAT QB-027 ACHIEVED, stated properly: NO ANALYTIC RESPONSE LAW ANYWHERE IN THE
+  LOOP. The analyzers are engine devices CALIBRATED BY MEASUREMENT -- a theta-grid
+  of full 2D lattice runs producing a weight table -- and that measured table, not
+  cos^2(theta/2), drives every trial. Simulated hardware generating trials, not a
+  formula being evaluated.
+- THE SHORTFALL FROM TSIRELSON IS A VERIFICATION: measured pole leakage gives
+  per-wing visibility V ~ 0.97, predicting V^2 x 2sqrt2 = 2.6608 against a
+  measured 2.66 -- 0.03%. The imperfect analyser produces exactly the imperfect
+  violation a real laboratory sees. Landing exactly on 2sqrt2 with a leaky device
+  would have been the suspicious result.
+- THE CONTROL: identical hardware with severed bookkeeping gives CHSH ~ 0.85. ONE
+  SWITCH separates the wall from the violation with hardware held fixed.
+- WITHDRAWN from FND-024/025: the kept boundary, and the speculation that the
+  shortfall showed "thinness". STANDING: the scalar-versus-shared-object
+  distinction, now confirmed end-to-end by QB-027's own control.
+- STANDING RULE SHARPENED: forward-check the CLAIM, not the topic. Searching the
+  topic finds related work; only forward-checking the specific ID tells you
+  whether that verdict still stands.
+
+## 2026-08-02 — HBAR-011: the one repairable demotion, repaired at its honest size
+
+- COMMISSION: of ELEC-064's four demotions, HBAR-010's (T4, dependency defect) was the
+  only one reversible by corpus work alone — its argument opened from the retired
+  relation hbar ~ w^2 while the standing-wave form S = pi T A^2/(2c) survived the
+  hbar-sector retirement untouched. Bars locked before computing
+  (analysis/HBAR011_amplitude_rigidity_bars_LOCKED.md), including the tier-verdict rule
+  and the no-third-branch rule, so the outcome could not be inflated afterwards.
+- B1: d ln hbar = 2 d ln A exactly; L cancels (ELEC-054), w absent by construction,
+  machine-checked including a retired-relation scan of the benchmark's own source.
+- B2: the comoving-AMPLITUDE branch gives alpha ~ (1+z)^2 — excluded by 1.25e5, 3.0e5
+  and 1.5e6 at z = 0.5, 1, 3 against the 1e-5 quasar bound. HBAR-010's conclusion is
+  RESTORED under the surviving form, with a larger margin than the retired chain gave.
+- B3: the rigidity inversion, now with committed instruments: |d ln A| < 5e-6 integrated
+  over z <~ 2, and |d ln A/dt| < 1.6e-18 per year from the Yb+ E3/E2 clock at two sigma
+  — both computed from the PRED-003 arc's already-registered data, nothing new retrieved.
+- B5 VERDICT, mechanical per the locked rule: CONSTRAINT, T3 ceiling. Standard
+  constant-constants physics satisfies the rigidity trivially, so confirmation selects
+  nothing; the T1 count stays at ONE (PRED-003). The preferred-frame consequence
+  re-attaches to the amplitude. Because ELEC-054 established that no mechanism selects
+  A, the result is registered as a trichotomy, not a theorem about branch choice.
+- CROSS-SECTOR NOTE FILED, not adjudicated: the corpus now carries TWO alpha chains —
+  PRED-003's medium-primitive alpha ~ 2T^2/(kappa a) and this claim's route through
+  hbar = pi T A^2/(2c) — which must agree. The consistency audit is the named
+  next-order; if they disagree, one of the two best surviving structures is wrong.
+- ANNOTATIONS: HBAR-010 and ELEC-064 carry the repair; benchmark
+  benchmarks/foundations/hbar_amplitude_rigidity.py, all bars passing.
+
+## 2026-08-02 — PRED-003-XCHAIN: the two alpha chains meet, and merge
+
+- COMMISSION (HBAR-011's named next-order): PRED-003's alpha = 2T^2/(kappa a) against
+  the standing-wave route alpha = e^2/(2 pi^2 eps0 T A^2). Bars locked first
+  (analysis/PRED003_XCHAIN_bars_LOCKED.md), including the no-promotion rule and the
+  charge-coupling branch rule.
+- B1, THE TAUTOLOGY OWNED: the static comparison reduces symbolically to
+  e^2 = 4 pi eps0 hbar c alpha — the definition of alpha. Calibration-closed, zero
+  static content, proven rather than dressed as a cross-check (the ELEC-041 /
+  NUCQ-003 lesson applied prospectively for once).
+- B2, WHERE THE CONTENT LIVES: the chains are one chain for arbitrary drifts iff
+  d ln kappa + d ln a = 3 d ln T + 2 d ln A — a locking relation among the four
+  primitives, live only in drift.
+- B3, BOTH PRED-003 CHANNELS SURVIVE with derived co-drift conditions attached:
+  tension channel forces A ~ T^(-3/2) (equivalently hbar ~ T^(-2)), the -2 ratio
+  intact; spacing channel forces A ~ a^(1/2), the +1 ratio intact. A drift of a at
+  fixed A is now forbidden by the joint corpus — a scope refinement to PRED-003.
+- B4: the medium-borne-coupling branch (e^2 ~ T^p) carried open with the exact flag:
+  GG-006's linking quantizes charge, it does not derive the coupling magnitude.
+- CONSEQUENCE FOR ELEC-054: the amplitude-selection problem now has THREE derived
+  boundary conditions (expansion decoupling at 1.6e-18/yr; T^(-3/2); a^(1/2)) — a
+  filter where before there was a wish. Named next-orders: derive the coupling's
+  T-dependence (fixes p); re-grade ELEC-054's five dead candidates against the new
+  scalings; fold the co-drift condition into the predictions paper at next re-sync.
+- VERDICT: CONSISTENT-BY-LOCKING. PRED-003's tier unchanged; neither of the corpus's
+  two best surviving structures is wrong, and the reason is now a registered identity.
+
+## 2026-08-02 — ELEC-082: the filter applied, and it closed a door we liked
+
+- COMMISSION (PRED-003-XCHAIN's cheapest next-order): re-grade ELEC-054's five dead
+  amplitude candidates against BC1 (expansion decoupling), BC2 (A ~ T^(-3/2)) and
+  BC3 (A ~ a^(1/2)). Bars locked first; candidate list CLOSED; exact-match exponents;
+  every kill conditional and said so.
+- M2 and M4: exponents (0, 1) against the required (-3/2, 1/2) — dead on magnitude
+  (60x, ELEC-054) AND now on two independent scaling exponents. Overdetermined; no
+  magnitude refinement can resurrect them.
+- M5, THE SHARPEST KILL: filed by ELEC-054 as precision-blocked (needs T0 to 1e-4).
+  A fixed integer cannot drift, so the collective count forces d ln hbar = +1 d ln T
+  against the required -2 — structurally incompatible with PRED-003's tension
+  channel, killed WITHOUT the precision it was waiting for. A question that looked
+  like it needed a better measurement needed a consistency condition.
+- M1: NOT-A-MECHANISM (a bound); observation filed that saturability under tension
+  drift requires L ~ T^(-3/2).
+- M3: SURVIVES AS A SPECIFICATION — hbar ~ Theta*L identically, so the import must
+  run as T^(-2) under tension drift and as a under spacing drift. Vagueness
+  converted into two exact requirements.
+- B4, THE CLASS RESULT, reported at full volume because it cuts against us: every
+  A = (pure number) x w mechanism fails BC3, so ELEC-054's payoff structure — a
+  pure-number A/w would select Sigma from theory — is CLOSED on the E1 branch.
+  Sigma waits on polarimetry, which is the honest place to wait.
+- CONDITIONALITY: BC2 kills reopen under derived p != 0; BC3 is p-independent within
+  the registered E2 branch, so the spacing failures and the class closure are robust.
+- LOAD-BEARING NEXT-ORDER: the coupling magnitude's T-dependence (p), now carrying
+  three claims — the sector's highest-value open derivation.
+
+### Addendum (2026-08-02) — ELEC-082 external review accepted in full, four corrections
+
+- (1) KILL SCOPE: the no-resurrection statement holds for M2/M4/M5 AS REGISTERED;
+  a T-dependent population, changing coherence domain, coupling-dependent w, or
+  additional dynamical scale is a NEW mechanism with its own bars, not a refinement.
+- (2) CLASS CLOSURE RESCOPED: the pure-number A/w selection route is closed WITHIN
+  THE CURRENT TWO-CHAIN DRIFT FRAMEWORK — no statement that a future theory could
+  not select Sigma geometrically.
+- (3) BC3 QUALIFIED EXACTLY: p-independent within the registered E2 ansatz
+  e^2 = e^2(T); under e^2 ~ T^p a^q the spacing exponent becomes (1+q)/2 — now
+  verified symbolically in the benchmark. An a-dependent coupling SHIFTS BC3 rather
+  than removing it; the spacing kills hold at q = 0 pending any derived q != 0.
+- (4) NEXT TARGET REFRAMED: not the scalar p but the constitutive relation
+  e_eff^2(T, a, kappa, ...) with all logarithmic derivatives p_T, p_a, p_kappa —
+  deriving p_T alone risks an omitted spacing dependence changing BC3 later.
+  Annotation propagated to PRED-003-XCHAIN's E2 branch definition.
+- REVIEWER'S SUMMARY ADOPTED as the claim's high-level conclusion: no registered
+  amplitude-selection mechanism satisfies the currently derived expansion, tension,
+  and spacing constraints; three structurally excluded, one never a mechanism, and
+  the thermal reading relocates the unknown into an imported scale product.
+
+## 2026-08-02 — PRED-003-CONST: the constitutive derivation, and what it found on the way in
+
+- COMMISSION (reviewer-refined): derive e_eff^2(T, a, kappa) with ALL logarithmic
+  derivatives. Bars locked first; the XCHAIN identity refused by name as circular;
+  closure-by-numerics forbidden; unfavorable findings pre-committed to full volume.
+- B1 THE PROVENANCE GAP, machine-checked: alpha ~ 2T^2/(kappa a) — the form carrying
+  the corpus's SOLE T1 — is derived by no claim and no benchmark. EM-002b explicitly
+  disclaims deriving alpha; FND-001 supplies only J = T^2/kappa. Paper-stated,
+  registry-underived: the ELEC-063 defect class, in the one place it matters most.
+- B2 THE UNITS FINDING: under FND-001's own conventions the literal expression is a
+  TENSION (J/m), not a number. The NUC-013 imported-units class, caught in the sole
+  T1 by trying to USE the expression.
+- B3 THE CLOSURE THEOREM: under the paper's own primitive statement the dimensionless
+  closure is unique up to a pure number — alpha = 2 lambda T^2 a/(kappa hbar c) —
+  which IS the constitutive relation: e_eff^2/(4 pi eps0) = 2 lambda J a. Coulomb
+  strength = locking energy x spacing; GG-006's integer gains a magnitude.
+  TRIPLE (p_T, p_a, p_kappa) = (2, 1, -1), forced.
+- B4 CONSEQUENCES, both directions: the chains FUSE (XCHAIN's locking relation is
+  now an identity); E1 EXCLUDED (p_T = 2); PRED-003's -2 SURVIVES on the updated
+  co-drift A ~ T^(-1/2); UNFAVORABLE — the closure flips the spacing channel
+  (alpha ~ +a, ratio -1), so PRED-003's +1 spacing discriminator is WITHDRAWN
+  pending the chain's registration, and no spacing BC on A is asserted.
+- B5 ELEC-082 RE-GRADED: M2/M4/M5 still killed on the tension channel; M5's sharp
+  kill at reduced margin (+1 vs required 0); pure-number class closed on tension
+  alone; the spacing half of the kills SUSPENDED.
+- FIVE ANNOTATIONS filed (PRED-003, XCHAIN, ELEC-082, HBAR-011, ELEC-054). The last
+  three sessions' boundary conditions were E1-computed; the closure retires the
+  branch that produced them at the cost of some of our own recent numbers — the
+  direction the discipline is supposed to cut.
+- HIGHEST-VALUE OPEN ITEM, corpus-wide: REGISTER THE CHAIN — derive
+  alpha = 2 lambda T^2 a/(kappa hbar c) from the EM energy coefficient with a
+  benchmark, or fail and register that. It carries the sole T1's provenance, the
+  constitutive relation's premise, and the spacing channel's sign at once.
+
+## 2026-08-02 — PRED-003-CHAIN: the summit attempted, the naive route killed by theorem
+
+- COMMISSION: derive alpha = 2 lambda T^2 a/(kappa hbar c) from the EM energy
+  coefficient. Bars locked with a surprise clause (if the lattice yielded 1/r, the
+  success would be registered instead) and confabulation forbidden by name.
+- B1 DIMENSIONAL THEOREM: the winding (GG-006's charge) is a loop CIRCULATION,
+  dimensionless; a Gauss-law point flux of grad Phi carries units of LENGTH. The
+  point-Coulomb route is dimensionally unavailable to a winding charge.
+- B2/B3 THE INTERACTION LAW MEASURED: analytic cross energy logarithmic
+  (dE/d ln d = -2 pi K exactly); 240^2 lattice vortex-antivortex confrontation gives
+  R^2(log) = 0.9998 vs R^2(1/d) = 0.9252 — LOG WINS at 15x the locked margin,
+  slope 6.129 vs analytic 2 pi = 6.283 (2.4%). Confining, not Coulomb.
+- WHY THE CHAIN WAS NEVER REGISTERED, now known rather than suspected: the step from
+  J = T^2/kappa to a Coulomb coefficient looks like one line and is not — the
+  derived charge is topologically the wrong shape for scalar electrostatics.
+- B4 THE SPECIFICATION, no substitute invented: Coulomb must come from where Maxwell
+  came from — the Chern-Weil two-form and the one-metric photon dictionary. The
+  completing computation: map the unit linking number to a source strength q_s and
+  verify q_s^2 = 8 pi eps0 lambda J a, lambda falling out of the same step.
+- OBSERVATION FILED, NOT CLAIMED: log interaction between windings is the confinement
+  structure NUC-003 gestures at for sub-knots — possibly a feature mislabeled a loss;
+  earns a benchmark before another sentence.
+- B5 PROPAGATION: PRED-003 provenance grade BLOCKED-WITH-SPECIFICATION; the paper's
+  'whose chain is derived' language owed a correction at next re-sync; no tier motion.
+
+## 2026-08-02 — PRED-003-DICT: the dictionary evaluated, and the summit collapses to one length
+
+- COMMISSION (CHAIN's specification), executed by REDUCTION on registered structure
+  only: OPT-006's Z_med = T/c (Derived), EM-002's constitutive relations (Derived),
+  and the exact Maxwell identity alpha = q^2 Z/(4 pi hbar).
+- B1 THE PERMITTIVITY IDENTITY: eps_med = 1/(Z_med c) = 1/T. The medium's
+  permittivity IS the inverse tension — two Derived claims multiplied together for
+  the first time.
+- B2 THE REDUCTION THEOREM: alpha = l_q^2 T/(4 pi hbar c). The Chern-Weil evaluation
+  collapses to ONE geometric question — what length does a unit winding present as a
+  source? The CHAIN target becomes l_q^2 = 8 pi lambda l_lock a, l_lock = T/kappa
+  the locking length.
+- B3 THE CLOSED CANDIDATE TABLE: l_q ~ a -> ratio -1; l_q ~ sqrt(l_lock a) -> -2
+  (CONST's closure identified as the geometric-mean candidate); l_q ~ l_lock -> -3.
+- B4 THE COST TO THE SOLE T1, paid in full view: -2 is the MIDDLE CANDIDATE, not the
+  framework's unique value. What survives: a FIXED scale-free ratio (the paper's own
+  stated framework-forced content), sharpened into a SELECTION OBSERVABLE — a
+  measured nonzero ratio in {-1, -2, -3} MEASURES l_q, a microscopic length no other
+  observable touches.
+- B5 THE DECIDER NAMED, not answered: which registered modulus curves the on-site
+  locking potential (J-based -> a; kappa-based -> l_lock; mixed -> geometric mean).
+  Bounded venue: the microscopic-mechanics paper's machinery.
+- THE FIVE-SESSION PATTERN: XCHAIN, CONST, CHAIN, DICT — each step replaced one
+  asserted certainty with one named unknown plus a decision procedure, and the sole
+  T1 survived every step while shedding exactly the certainty it never earned.
+
+## 2026-08-02 — PRED-003-LOCK: the decider dissolves the question and enslaves a modulus
+
+- B1 PROVENANCE RESOLVED: the P6 expression IS the derived director-field stiffness
+  K = 2T^2/(kappa a) (micromechanics paper; FND-001/FND-002, benchmarked, complete
+  with its own factor-of-three correction history). Five sessions of audit correctly
+  detected only that the stiffness-to-alpha CLOSURE was unregistered — and built it.
+- B2 THE QUESTION DISSOLVES: the registered EM microscopic model is pure lattice XY,
+  bond-sum only, no on-site term. DICT's candidates 2 and 3 require structure the
+  model does not contain; FND-KIN-003 had already registered the one-plaquette core.
+- B3 THE ENSLAVEMENT, two Derived claims combined for the first time: OPT-006's
+  Z = T/c matched to K = 2T^2/(kappa a) forces kappa = 2T/(eta a). KAPPA IS NOT AN
+  INDEPENDENT MODULUS — the vacuum's EM sector runs on TWO primitives. l_lock ~ a;
+  DICT's table collapses to alpha ~ T a^2, triple (1, 2); CONST's closure reduces to
+  the same form (candidates merge, nothing contradicts).
+- B4 THE RATIO REASSIGNED at full volume: tension channel -1, spacing channel -2.
+  The sole T1's registered -2 survives ON THE OTHER CHANNEL from the one it was
+  filed under — inverting the original scope test, whose +1 spacing value CONST had
+  already withdrawn on units.
+- B5 TESTABILITY INTACT: 0.93 sigma forward either way (null-vs-null is
+  ratio-insensitive); inverse commitments -1.0(1.1)e-18 (tension) / -5.0(5.5)e-19
+  (spacing) per yr; thresholds 3.3e-18 / 1.6e-18; J1713 structure unchanged. A
+  measured nonzero ratio now IDENTIFIES THE DRIFT CHANNEL — cleaner than DICT's
+  source-length readout, which is superseded.
+- THE ARC CLOSES (XCHAIN -> CONST -> CHAIN -> DICT -> LOCK): the sole T1 emerges
+  with fewer primitives, named premises (P1-P5), two testable channels, and no
+  unearned certainty; the corpus's vacuum has one fewer knob than it thought.
+- REMAINING: eta (the per-strand-to-bulk pure number — the last obstacle to lambda);
+  the batched P6 re-sync (four corrections); a corpus sweep for any use of kappa as
+  an independent variable, now suspect.
+
+## 2026-08-02 — PRED-003-ETA: eta falls to a theorem, and alpha bounds a length
+
+- OPENED WITH AN OWNED CORRECTION: lambda = g^2/(4 pi eta) — TWO pure numbers
+  remained, and LOCK's "last obstacle" line was wrong. Corrected on the books.
+- B2 ETA = 1 BY ONE-METRIC UNIQUENESS (conditional on P1-P2): the photon sector's
+  single wave operator cannot carry two stiffnesses, so OPT-006's impedance and the
+  director coarse-graining are one coefficient. The enslavement sharpens to EXACT:
+  kappa = 2T/a, l_lock = a/2, J = Ta/2 — three parameter-free statements about the
+  vacuum's mechanics, awaiting any independent kappa determination as their test.
+- B3 OBSERVATION FILED WITH FLAGS, not leaned on: J's upper bound lands at
+  0.375-0.531 MeV per link, adjacent to the electron mass scale (a is an upper
+  bound; T scale-chain-conditional; no mechanism).
+- B4 THE KEEPER: alpha = g^2 T a^2/(4 pi hbar c) contains four known quantities and
+  one unknown. Solving: g >= 15.5 (lattice) / 13.1 (Sigma) — THE WINDING'S SOURCE
+  LENGTH IS AT LEAST 13-16 LATTICE SPACINGS. The number sat in the corpus for
+  months, waiting for a division.
+- B5 CANDIDATE KILLED: the bare 2 pi circulation normalization fails the bound by
+  factor 4.3 in g^2, both scale sets. lambda = g^2/(4 pi) >= 13-19.
+- THE SECOND MESOSCOPIC DEMAND: after ELEC-054's amplitude (60-71 w), this is the
+  second independent place the coupling structure demands a length an order above
+  every scale the medium owns. Shared origin is TESTABLE, not assumable (HBAR-009's
+  lesson): the ratio A/l_q would be a pure number, and the two scale sets can vote.
+- HYGIENE: the kappa name collision (ELEC-021's Coulomb coefficient vs the locking
+  modulus) registered, rename queued; LOCK's kappa sweep executed clean.
+- THE ARC AT SEVEN CLAIMS (XCHAIN..ETA): two owned corrections, one killed
+  candidate, one enslaved modulus, a sole T1 with every premise named — ready to
+  reach print as one story. Release cut recommended.
+
+## 2026-08-02 — ELEC-083: the ratio test catches its own trap, and alpha becomes a shape
+
+- THE COMMISSION'S FLAW FOUND IN THE BARS: the proposed scale-set vote would have
+  passed to the tenth digit and meant nothing — both mesoscopic lengths scale as
+  sqrt(hbar c/T), so the ratio's invariance is arithmetic. The calibration-closure
+  trap's third arc appearance, caught for the first time BEFORE running, not after.
+- THE RESIDUE, exact: under the shared-origin hypothesis, 1/alpha = 2 pi^2 rho^2 —
+  T, a, hbar all cancel. If one mechanism sets both mesoscopic lengths, the
+  fine-structure constant is a pure SHAPE: how many source-lengths fit across a
+  standing wave. Measured alpha demands rho = 2.634829181.
+- CONSISTENCY, not confirmation: the hypothesis reproduces ETA's g bounds (13.06,
+  15.52) at both scale sets to <1% — B1's cancellation seen from the other side.
+- THE GUARD POSTED: no candidate constants tested against 2.6348, ever. Mechanisms
+  produce rho blind; only then does 2 pi^2 rho^2 meet 137.036. (The 111-vs-137 rule,
+  written for exactly this moment.)
+- OPERATIONAL CHANGE: the g-mechanism and A-selection problems are ONE problem under
+  the shared branch (one mechanism, one owed number) or two under the other; both
+  branches carried. Degeneracy breakers unchanged: independent a, or independent
+  kappa.
+- IN-SESSION BUG CAUGHT BY ITS OWN CROSS-CHECK: a units slip in the alpha constant
+  produced rho = 83.3, contradicting ETA's bounds; the added ETA cross-check now
+  pins B3 to <1% permanently.
+- RELEASE CUT NOW OVERDUE: the arc stands at eight claims, three owned corrections,
+  two killed candidates, one enslaved modulus, one vacuous test caught in
+  commission, one exact reframing theorem. Print it as one story.
+
+## 2026-08-02 — QB-028: does the medium produce the shared ribbon?
+
+- THE COMMISSION (post-v3.2.0, opening the ribbon-production campaign): QB-027's
+  ribbon is a premise; the candidate producer is FND-STRAND-006's kink-antikink
+  nucleation -- two excitations that are features of one object by construction,
+  the inter-kink segment as the umbilical ribbon.
+- EVERYTHING CLASSICAL COMES FREE: 8/8 clean nucleations, separation to ~80 sites
+  under the registered nucleation-silent bias h = 0.30, unit winding between the
+  cores every time. Pair, segment, and exact base anticorrelation: produced.
+- THE DECISIVE UNKNOWN, identified in the bars from QB-013/QB-020's own theorems:
+  base vs fiber. Socks pin at -1/3; the fiber is the whole game.
+- THE MEASUREMENT: core-to-core fiber coherence at separation vs fiber-bath
+  coupling g_fb: thermal (1.0) -> consistent with full decoherence (xi_f = 5
+  sites, d/xi = 16): DEAD as the ribbon per the locked kill-bar; g_fb = 0 ->
+  coherence 1.000 across the full separation: ALIVE.
+- THE EXCHANGE: premise sharpened to one inequality, g_fb < 2 K_f/(T d). The
+  shared ribbon works iff the fiber is bath-decoupled during transport -- and
+  FND-STRAND-005's fibre-blindness makes the decoupled branch structurally
+  plausible: a bath coupling through the energy channel would inherit the
+  blindness. Whether it does is now the measurement sector's load-bearing
+  derivation.
+- METHOD HONESTY, both on the record: ring annihilation under fixed-duration
+  coasting (caught, stop condition added) and factor-2 single-snapshot estimator
+  fluctuations under long-mode dominance (caught, decorrelated averaging).
+- NEXT: the fiber-bath coupling's strand-level derivation; then S3, the
+  end-to-end QB-027 rerun with the measured pair (violation at g_fb = 0, the
+  -1/3 wall at g_fb = 1 -- either outcome closes the loop).
+
+## 2026-08-02 — QB-029: the fiber-bath fork resolved by a theorem three sectors away
+
+- THE EXCLUSION: GRV-020's one-generator theorem (Derived, classical sector) forbids
+  a second internal field -- QB-028's thermal branch was never available to the
+  medium. FDT closes it from thermodynamics: no energy coupling (FND-STRAND-005
+  B2), no damping, no noise. g_fb = 0 in the FDT sense. The fiber is HOLONOMY.
+- THE PREDICTION BEFORE THE MEASUREMENT (locked order): holonomy noise is inherited
+  from the base, and the pair's interior is PINNED -- the exact lattice sum
+  saturates at var = 0.433 by d ~ 5, implying visibility V = 0.806.
+- THE MEASUREMENT: flat from 5 to 60 sites (0.2% change over 30-60) at var = 0.50,
+  within 15% of harmonic (systematic priced against the flagged anharmonicity);
+  massless control grows 5x. Measured-variance visibility 0.78.
+- THE PHYSICS: the ribbon is neither perfect nor fragile -- it has a FINITE,
+  SEPARATION-INDEPENDENT visibility set by T against the pinning gap. Dephasing
+  that does not accumulate with distance: qualitatively the phenomenology real
+  Bell experiments show.
+- Pair check MARGINAL (32%, single-snapshot; registered per QB-028's estimator
+  lesson, not rounded up). The V_r-to-CHSH multiplication is refused; S3 owns it.
+- NEXT: S3, fully specified at last -- the end-to-end QB-027 rerun with the
+  nucleated pair and V_r; the anharmonic correction; and P1's rigorization (the
+  frame transport law from two-strand geometry), the one unproven load-bearing step.
+
+## 2026-08-02 — QB-030 (S3): the Bell experiment from the produced ribbon
+
+- THE CLOSING COMPUTATION: QB-027's end-to-end experiment with the ribbon-by-fiat
+  replaced by the PRODUCED ribbon -- exact base anticorrelation from nucleation,
+  per-trial holonomy error from an empirical bank of 25536 pinned-field samples
+  (<cos delta> = 0.780), one stated transport model (P1, coherent frame rotation).
+- THE RESULT: CHSH = 2.0385 +/- 0.0045 -- VIOLATION at 8.6 sigma above the
+  classical bound. Severed control 0.79; perfect-ribbon reference 2.726 matching
+  the same-run closed form. No-signaling at 0.004. The margin IS the physics:
+  the violation lands where the measured visibility says it must.
+- THE TEMPERATURE CURVE: first-order crossing S = 2 at engine T ~ 0.53; the run's
+  T = 0.4 sits inside the violating regime near its edge; S ~ 2.59 at T = 0.05.
+  The deliverable is the curve, not the point.
+- THE CAMPAIGN CLOSES (QB-028 -> QB-029 -> QB-030): a premise exchanged for a
+  mechanism (production for free at base level), a fork resolved by a theorem from
+  another sector (GRV-020 + FDT: the fiber has no thermal channel), and an
+  experiment that closes the loop (the produced pair violates by exactly its
+  measured imperfection). P1, the frame transport law from two-strand geometry,
+  is the campaign's one posited link and the sector's outstanding obligation.
+- HYGIENE: QB-027's device table is environment-sensitive at the 0.07 level
+  (2.66 registered vs 2.727 here); pinned-tolerance repair queued.
+
+## 2026-08-02 — QB-031: P1 derived, and the violation rises
+
+- THE TRANSPORT THEOREM: GRV-020's single internal generator exhausts what
+  transport can do to a frame -- slide acts trivially, so hol = R_axis(Delta),
+  rotation about the local axis by the accumulated azimuth. Not a model choice:
+  the only law available. The noise variable QB-029 measured is IDENTIFIED as
+  Delta's fluctuation.
+- THE ALGEBRA (symbolic): uniform-axis average <R_n(delta)> = ((1+2 cos delta)/3) I;
+  the perpendicular restriction gives cos(delta) exactly -- QB-030's posited model
+  was the derived law's WORST CASE.
+- THE RERUN: CHSH = 2.2342 +/- 0.0045 at 52 SIGMA, within 3.9% of the locked
+  first-order expectation (V' = 0.853 x perfect 2.726 = 2.326). QB-030's 2.039
+  reclassified as the floor, not erased. Brackets and no-signaling clean.
+- THE RARE DIRECTION: deriving the law RAISED the number -- the posited model had
+  silently assumed maximal-dephasing geometry.
+- P1 -> DERIVED-GIVEN-P1' (isotropic source orientation, geometric, named). The
+  campaign's chain: nucleation -> holonomy -> visibility -> transport law ->
+  violation, with one geometric premise remaining.
+- NEXT: fixed-orientation interpolation (converts P1' from premise to parameter);
+  campaign release cut when budget allows, headline 2.234 at 52 sigma, floor 2.039.
+
+## 2026-08-02 — QB-032: an assumption becomes an axis on a plot
+
+- P1' converted from premise to PARAMETER: S(n) = k x CHSH[cbar I + (1-cbar)nn^T],
+  every analytic value printed before its Monte Carlo, all six orientations within
+  5% of first order, no-signaling clean.
+- THE CURVE: 2.03 (perpendicular) to 2.41 (in-plane, DEGENERATE -- an exact
+  symmetry of the rank-one boost under the CHSH combination); isotropic 2.23.
+- TWO STRUCTURAL BONUSES: QB-030's worst case is literally the perpendicular
+  source geometry (its floor is a buildable configuration's prediction); the
+  ceiling's degeneracy is a symmetry a posited model would never have exposed.
+- THE HEADLINE IS NOW UNCONDITIONAL within the model class: the produced ribbon
+  violates at EVERY source orientation. The production campaign's premise ledger
+  closes completely: nucleation -> holonomy -> visibility -> transport law ->
+  orientation (a dial).
+- Remaining: honest refinement only (anharmonic V_r; QB-027 pinned tolerance;
+  the campaign release when budget allows).
+
+## 2026-08-02 — QB-033: V_r derived, and the campaign graduates
+
+- THE FIXED POINT: SCGA converges in 8 iterations; m_eff^2 = 0.849 (11% softening);
+  prediction var = 0.465, V = 0.792 -- stated before the comparison.
+- THE COMPARISON: harmonic gap 12.9% closes to 6.4% (the two-loop tag, registered
+  not absorbed); V_SCGA lands 1.6% from the empirical 0.780. V_r is now
+  DERIVED(T, kt, h).
+- THE PROPAGATION (no MC, no bank): the whole QB-032 orientation curve reproduced
+  from three engine parameters plus two theorems -- floor 2.161/2.028, isotropic
+  2.350/2.226, ceiling 2.444/2.407. The empirical bank is demoted from input to
+  CHECK.
+- QB-027 ADJUDICATED: the benchmark is already self-consistent by construction;
+  no historical magnitude pinned; documentation fix only. Hygiene queue closed.
+- THE CAMPAIGN AT SIX CLAIMS (QB-028..033): premise -> produced object ->
+  theorem-protected fiber -> forced transport law -> orientation dial -> derived
+  visibility. Nothing left in the ledger but the release cut and the two-loop
+  decimal. Remaining generic ingredient corpus-wide: the weave-as-reservoir
+  derivation (the bath's own provenance).
+
+## 2026-08-02 — GRV-074: the strong-field campaign opens on the weak field's oldest assumption
+
+- THE UNITS FINDING: c^4/(16 pi G) is a TENSION; G ~ 1/(Ta) is dimensionally open
+  (the CONST defect class, in the sole T1's OTHER leg); the closure power is
+  underived, making the registered (-1, -1) one choice among three.
+- THE DERIVED CANDIDATE: the Sakharov route (GRV-021 funded conjecture + GRV-025's
+  Derived EH remainder) gives a TENSION-INERT G ~ a^2 on both hbar branches (the
+  LOCK co-drift cancels the medium-hbar T-dependence).
+- THE MAGNITUDE AUDIT: gravity's stiffness = 2.4e42 J/m sits 1.4-2.0e39 above the
+  strand tension and 7.6e35 above the Sakharov band scale -- the absolute-scale
+  open item QUANTIFIED; GRV-073's thin-strand (r/a)^2 filed as the one native
+  suppression source (5-6 powers needed), not leaned on.
+- THE KEEPER: across EVERY candidate G form, a confirmed J1713 G drift implies an
+  alpha drift at 2.9e6 clock sigmas -- PRED-003's refutation condition is
+  G-FORM-ROBUST. Values conditional; decidability certified.
+- CORRECTION ON THE RECORD: the operator-facing summary conflated GRV-073's
+  couple-stress K_0 with the Newton coefficient; the bars record it and the
+  session ran on the correct object.
+- NEXT: the band coefficient in physical units (the decider -- would be the first
+  DERIVED G exponent pair); the closure length for the assumed family; the
+  thin-strand power count; then GRV-038's load-share premise (strong field proper).
+
+## 2026-08-02 — GRV-075: the first derived G exponent pair, and the Planck scale selected
+
+- THE COEFFICIENT: GRV-021's machinery rerun (0.662/0.739/0.839 reproduced;
+  chi_2 = 0.967); with the light-speed band anchor and LOCK's enslavement making
+  the band shape parameter-free, zeta = chi_2/sqrt(kt) = 1.208 x O(1) dictionary.
+- THE EXPONENTS, derived-conditional (P1 Sakharov, P2 anchor, P3 O(1)):
+  G = c^3 a^2/(16 pi zeta hbar) -> (0, 2). Tension-inert, spacing-quadratic,
+  both hbar branches.
+- THE SCALE SELECTION AND THE OWNED CORRECTION: solving for a gives
+  a_Sak = 1.26e-34 m = 8 Planck lengths -- SATISFYING the Lorentz upper bound.
+  GRV-074's B3 evaluated the coefficient AT a = 1e-16 as if a were pinned; the
+  Sakharov 'gap' is retracted in favour of the selection. The corpus did not
+  import the Planck scale; its own 96-site band coefficient selected it.
+- THE SWEEP: lattice-unit bookkeeping moves (ETA's g bound -> 1.1e19; the J
+  observation dissolves at 5.9e-13 eV, its flags vindicated); physical invariants
+  stand (l_q = 1.39e-15 m a-independent; J1713 decidability certified all rows).
+- THE SHARPEST OPEN QUESTION corpus-wide: the two-scale tension -- EM/matter
+  chains near the Lorentz bound vs Sakharov's Planck class, 18 orders apart; any
+  independent a determination is now a two-row discriminator.
+- NEXT: the tensor coefficient in physical units (closes P3); the a-determination
+  survey (what actually PINS a); then GRV-038's load-share premise atop a G whose
+  constitutive form is finally a claim rather than a wish.
+
+## 2026-08-02 — GRV-076: the a-determination survey -- zero pins, one fork
+
+- THE CENTRAL FINDING: nothing in 446 claims pins the lattice scale. Lorentz
+  bounds it above; PVLAS-class bounds Sigma below; the scale sets are "Sigma and
+  the bound wearing a different hat" (FND-017's own words); the 5.78e-17 spacing
+  is retired-lineage. The corpus wrote a = 1e-16 so long it read like a
+  measurement. It was a convention -- now machine-tagged as such.
+- THE DEGENERACY: at fixed T0, (a, Sigma) slides along Sigma = 3T0/a^2; BOTH
+  forks (Lorentz-convention: Sigma ~ 4-5e35; Sakharov: Sigma ~ 2-3e71) pass every
+  empirical bound. The tension was never a contradiction; it is a FORK.
+- THE RESTATEMENT: choosing the fork is choosing whether the Sakharov
+  identification is true -- F-Sak reproduces G at ratio 1.0 with the Planck scale
+  emerging; F-Lor keeps the convention at the price of declaring the corpus's one
+  computed gravity channel not-gravity.
+- DISCRIMINATORS: the tensor coefficient in physical units (internal; closes P3
+  and tests F-Sak's arithmetic); any medium-nonlinearity detection (reads Sigma,
+  36 orders apart between forks).
+- INVARIANTS UNTOUCHED: l_q, A, the drift ratios, J1713 decidability -- all
+  (alpha, hbar c, T0)-built, riding the degeneracy by construction.
+- NEXT: the tensor coefficient (double duty); the matter-sector fork-consequences
+  sweep; GRV-038's load-share premise (fork-independent, strong field proper).
+
+## 2026-08-02 — GRV-077: the load-share premise derived, transverse-only
+
+- THE THEOREM: exact static conservation (machine Christoffels) of the
+  directional-tension medium -- p_par = -e from the registered mu = T/c^2
+  identity, p_perp = 0 -- gives F_j = (e + p_j) d_j ln alpha: the longitudinal
+  demand VANISHES IDENTICALLY, the transverse demand is e a_proper/c^2.
+  GRV-038's P1, derived, in one covariant divergence.
+- THE SHARPENING: the load is transverse-only -- exactly the component a
+  crossing's pressing supplies. The premise's delivery mechanism was hiding
+  inside its derivation. K reduces to pure O(1) crossing geometry.
+- THE RINDLER CHECK: pressing per crossing = e/(n_x s); the K c^2/s profile
+  recovered with the load factor derived.
+- THE NOTED CONSISTENCY (restrained): radial strands feel no along-strand
+  support demand -- nothing rescues a surface whose transverse budget is
+  exhausted. The tension-exhaustion horizon's mechanical grammar, left for the
+  interior session.
+- THE CHAIN'S LEDGER: pressing -> area law -> whisper now rests on staticity
+  (P1', the frozen-star reading -- next derivation target) and the O(1)
+  crossing geometry (P2'). Fork-independent, as GRV-076 predicted.
+- RE-QUEUED with reason: the tensor coefficient in physical units (needs the
+  GRV-024/025 instrument conventions read in full; fresh-budget session; remains
+  the fork's internal test).
+
+## 2026-08-02 — GRV-078: staticity derived at linear order -- the frozen star froze itself
+
+- THE THEOREM (machine): wave energy on the derived background changes only by
+  boundary flux and is positive-definite wherever (mu, T) > 0 -- everywhere
+  outside exhaustion. NO growing modes; instability needs negative stiffness,
+  which the medium keeps locked inside the horizon. The theorem's boundary IS the
+  claim's scope boundary.
+- THE MECHANISM: two-sided radiation. The inward side is the elegant half -- the
+  horizon REMOVES exterior perturbation energy; the frozen-star exterior is
+  cleaned by the surface it supports. Numeric: compact shell empties by 5.4e14;
+  reflecting control conserves total energy to 0.00%.
+- HONESTY: monotone above a 1e-5 echo floor (first-order boundary reflects at
+  few-1e-6, stated); linear order buys ringdown, not collapse -- nonlinear
+  settling is residue P1'', named not touched.
+- THE CHAIN'S LEDGER: pressing (load derived) on a static exterior (attractor)
+  -> area law -> whisper, with two residues: P1'' (nonlinear) and P2' (an O(1)).
+- NEXT: P1'' via driven relaxation (affordable); the interior/exhaustion surface
+  (the campaign's true frontier); the tensor coefficient (still the fork's
+  internal test); the matter-sector fork sweep.
+
+## 2026-08-02 — GRV-079: nonlinear settling, split by the exhaustion scale
+
+- THE POSITIVE HALF: with the corpus-native nonlinearity on, every sub-exhaustion
+  disturbance settles to the static exterior (peak loads 0.01/0.07/0.18 of e_x;
+  decays 1e20/1e10/2e7; weak limit reproduces GRV-078 at 5e26). Below exhaustion
+  the basin is deep.
+- THE NEGATIVE HALF, registered per pre-committed rule R5: a crossing pulse
+  (peak 28x e_x) does NOT settle under either closure -- the bare floor traps
+  energy at crawl speed (runaway flooring), the sink amendment (exhausted cells
+  as a dynamically formed inner boundary; disclosed) arrests the energy but
+  leaves a frozen extended deformation. Neither tuned away.
+- THE ATTRIBUTION: part physics (what an exhausted region does with incident
+  energy is the unmodeled interior question), part instrument (1D pulses never
+  dilute -- a geometric pathology 3D removes). The claim says which is which is
+  undecided, rather than guessing.
+- P1'' -> DISCHARGED-SUB-EXHAUSTION ONLY; the strong-field frontier is now
+  LOCATED: exhaustion-crossing dynamics, two observed failure modes to explain.
+- NEXT: the flux-diluted (3D-class) crossing rerun (decides instrument vs
+  physics); the interior model proper (GRV-037's reconnection/ratchet coupled to
+  the wave sector -- the named construction); tensor coefficient; matter fork
+  sweep.
+
+## 2026-08-02 — GRV-080: three findings, none the expected one
+
+- FINDING 1 (the strengthening): sub-exhaustion infall CANNOT self-generate a
+  crossing -- focusing buys ~2x before the horizon-side removal wins (0.09 ->
+  0.21 -> 1e-12). Whatever exhausts was born exhausted, in the interior. The
+  frozen star is safer than the campaign assumed.
+- FINDING 2 (the attribution): born-exhausted data traps in spherical geometry
+  exactly as in 1D -- GRV-079's negative is PHYSICS (the missing interior
+  model), not dimension.
+- FINDING 3 (the disqualification): the algebraic softening law pumps energy (a
+  measured 5x amplitude growth from sub-exhaustion data) -- a stiffness that
+  varies with state but owes no energy ledger does unaccounted work. The
+  stand-in is retired for crossing dynamics; GRV-079's sub-exhaustion
+  conclusions survive on their stated margins; the caveat is annotated.
+- THE CONVERGENCE: the successor instrument (energy-budgeted exhaustion --
+  softening that borrows from and repays an internal reservoir) IS the
+  interior model's construction: GRV-037's ratchet coupled to the wave sector.
+  Two requirements, one build, specified from both ends.
+- NEXT: the ratchet-wave coupling (the campaign's true build); tensor
+  coefficient; matter fork sweep; predictions-paper sync at next release.
+
+## 2026-08-02 — GRV-081: the ratchet-wave coupling -- accretion for free, collapse as recorded structure
+
+- THE ENTRANCE EXAM: 0.37% total-energy drift through a full crossing, walls
+  closed -- the two-ledger construction (elastic release on breaking in the
+  discrete conserved form; drag with exact kinetic deposit) creates nothing.
+  The audit that killed the old instrument, passed first.
+- THE FAILED BAR KEPT: the sub-threshold pulse was required to leave the medium
+  intact and did not -- infalling waves BLUESHIFT past the local threshold and
+  are captured in a near-horizon shell (r = 1.5-5.5; exterior s = 1.0000):
+  ACCRETION, emerging unasked. Sampling caveat filed on GRV-080's Finding 1.
+- COLLAPSE AS RECORDED STRUCTURE: the super-threshold pulse breaks a permanent
+  localized band (r = 1.5-8.9; s monotone -- the ratchet never un-breaks),
+  deposits its energy in the reservoir, exterior at machine quiet (2.6e-6);
+  global residual 1.4e-3 grazes the locked 1e-3 -- the exhausted core's
+  sub-threshold slosh, disclosed (no dissipation channel below threshold; the
+  thermal ratchet is the named residue).
+- THE BOOKKEEPING: 0.31 energy per broken crossing, order the threshold scale --
+  the entropy hook filed as observation, thermodynamics-free.
+- P1'' -> DISCHARGED-WITH-INTERIOR-MODEL: ringdown or collapse, both static.
+- NEXT: the reservoir's temperature (the whisper's provenance, with a mechanism
+  to interrogate at last); the bit-cost sweep; tensor coefficient; matter fork
+  sweep.
+
+## 2026-08-02 — GRV-082: the whisper's temperature provenance -- Unruh-class, three links, one measured to three digits
+
+- THE MEASUREMENT: energy per broken crossing = 15.67 x e_th at EVERY point of a
+  factor-4 threshold sweep (matched dimensionless drive; conservation
+  spot-checked). The ratchet charges a fixed multiple of the local barrier.
+  Drive-depth dependence at fixed amplitude disclosed (55% hot) for the future
+  spectrum calculation.
+- THE CHAIN: e_bit ~ e_th (measured) -> e_th ~ pressing (P-TH, grammar, next
+  derivation) -> pressing ~ a_proper (derived, GRV-077/038); two-state bit
+  (P-ENT) converts energy to temperature. CONSEQUENCE: T_res(s) ~ a_proper --
+  the UNRUH SHAPE, every O(1) free, nothing matched to Hawking.
+- WHAT IS NOT CLAIMED: no flux, no spectrum, no graybody, no coefficient. The
+  shape and its provenance only, on two named premises with derivations queued.
+- NEXT (chain order): P-TH from crossing statics; P-ENT quantitative; then the
+  flux, where the whisper lineage's committed numbers wait to be met from below.
+
+## 2026-08-02 — GRV-083: the lift-over theorem -- P-TH derived, the chain down to one premise
+
+- THE THEOREM (machine, general profile): passing a pressed hard-core strand
+  costs W = N h for ANY lift path -- the fundamental theorem of calculus makes
+  the barrier's linearity in the pressing profile-independent. No friction
+  coefficient: the strand's own core is the corrugation (rods per GRV-073,
+  thickness per HBAR-005).
+- THE SPLIT: the threshold FORCE is profile-dependent (1.32 vs 1.57 on the two
+  test shapes) and unused; the BARRIER is universal and is what e_bit tracks
+  (GRV-082, three digits).
+- THE CHAIN NOW: barrier = pressing x thickness (theorem) <- pressing = load
+  share (derived) <- load ~ a_proper (derived); e_bit ~ barrier (measured);
+  T ~ e_bit (P-ENT -- the ONE premise left). Frozen-star statics to the Unruh
+  shape, one named premise, two unevaluated O(1)s the shape does not need.
+- NEXT: P-ENT quantitative (the two-state entropy at GRV-037's metastability);
+  then the flux against GRV-049..053's committed numbers; release candidate --
+  the campaign since v3.3.0 stands at ten claims.
+
+## 2026-08-02 — GRV-084: P-ENT quantitative -- the two-state O(1) measured at 2.0-3.3
+
+- THE THEOREM HALF: exact two-state thermodynamics by machine -- f = 1/(1+e^{W/T}),
+  binary entropy, dE = T dS verified, inversion T = W/ln((1-f)/f).
+- THE MEASUREMENT HALF: the operating broken fraction read off the engine's own
+  fired shells (mechanical rule, no tuning): accretion shell f* = 0.036 ->
+  L* = 3.28; collapse footprint f* = 0.119 -> L* = 2.01. Spread 1.63x, inside
+  the range rule: L* = 2.0-3.3. 'Up to the two-state O(1)' exits as 'divide by
+  two-to-three'.
+- THE CHAIN, fully labelled: T_res(sigma) = N(sigma) h/L* -- load share
+  (derived) x thickness (registered) / log-odds (measured), with e_bit ~
+  barrier measured to three digits. ONE residual premise: P-EQ (the driven
+  shell read with the equilibrium formula -- its steady state is the successor).
+- Compatibility note: GRV-037's T_c ~ 1 metastability sits at the two-state
+  usability edge at order of magnitude.
+- NEXT: the shell's steady state (P-EQ); then the flux vs GRV-049..053's
+  committed numbers; release candidate -- eleven claims since v3.3.0.
+
+## 2026-08-02 — GRV-085: P-EQ split -- kinetics derived, the two-state closure refuted, thermality by cancellation
+
+- THE KINETIC THEOREM: unique globally stable fixed point; the equilibrium
+  formula is the weak-drive limit; the drive correction exact:
+  ln((1-f*)/f*) = -E/T - ln(1 + D e^{W/T}/nu).
+- THE PRE-COMMITTED BAR FAILED AND IS THE FINDING: at the measured 15.67
+  barriers per bit, the two-state temperature closure runs to saturation at
+  every drive -- a two-level system has nowhere to put that energy. The
+  reservoir's heat lives in AUXILIARY LOCAL MODES; the bits are the gate.
+  GRV-084's L* survives as the occupancy record; the conversion becomes
+  T = e_bit/m* (m* named, unmeasured). THE SHAPE T ~ a_proper is untouched:
+  every candidate conversion is linear.
+- THE CANCELLATION THEOREM: W/T is sigma-independent (the pressing profile
+  divides out of its own ratio) -- the emission Boltzmann factor is CONSTANT
+  ACROSS THE SHELL. Thermality derived, not assumed.
+- THE EMISSION IDENTITY: re-formation = GRV-081's ledgers in reverse; the
+  whisper is the reservoir's return channel; flux structure assembled,
+  constants unevaluated.
+- Premise ledger: P-ARR and m*. NEXT: m* from the crossing's liberated modes
+  (computable on GRV-037's engine -- the last coefficient before an absolute
+  temperature); then the flux vs GRV-049..053.
+
+## 2026-08-02 — GRV-086: m* counted -- 4 to 6, and the shell is a strong uniform thermal emitter
+
+- THE COUNT, three sectors, one line each: the wave sector puts the transverse
+  polarizations IN (n_q = 8, GRV-029); the symmetry sector flags the twist OUT
+  (the Goldstone is EM, GRV-020; bracket upper edge n_q = 12); the quantum
+  sector's fiber theorem (QB-029, FDT) excludes the fiber from heat entirely.
+  m* = 4-6.
+- THE ENGINE LEG: exact-flatness bar FAILED to FPU near-integrability on the
+  9-site cell -- registered with diagnosis -- while the operative participation
+  ratio reads 17.0/18 modes (94%), chains split to 3%. Conservation 0.01%.
+- THE CONSEQUENCE: W/T = m*/beta = 0.26-0.38; Boltzmann factor 0.68-0.77,
+  sigma-independent by the cancellation theorem. T_abs = 2.6-3.9 x the
+  lift-over barrier. The chain from statics to absolute temperature closes up
+  to three geometric constants (K, h, n_x).
+- NEXT: the flux confrontation with GRV-049..053's committed numbers -- every
+  symbol now has a provenance or a named gap; the twist-bracket resolution;
+  the release.
+
+## 2026-08-02 — GRV-087: the flux confrontation -- the Hawking law-form from below
+
+- THE THIRD CANCELLATION (exact, machine): T_loc ~ 1/sigma (pressing) times
+  alpha ~ sigma (Tolman) = T_inf = (beta K h/m*) kappa. The observed
+  temperature is proportional to the surface gravity, with Hawking nowhere in
+  the inputs -- the Rindler profile divides out of itself a third time and
+  hands over the law.
+- T1 FORM-MATCH: proportional to kappa, sigma-independent -- the lineage's
+  committed omega_inf = 0.23 kappa matched in form. The coefficient comparison
+  (beta K h/m* vs 0.23) is a prediction-meets-prediction test pending (K, h):
+  two internal routes to one dimensionless number, falsifiable in-house.
+- T2 CLASS-MATCH: kinetics-limited, order-unity Boltzmann, no supply factor --
+  switch-class by construction, landing on GRV-047/053's corrected side.
+  Bottom-up build meets top-down correction; neither knew the other.
+- THE CAMPAIGN COMPLETE: statics to Hawking form, fourteen claims, three
+  cancellations, one instrument retired by audit and one built honest, and a
+  coefficient ledger (K, h, n_x, nu) with nothing hidden. NEXT: the (K, h)
+  evaluation -- the sector's last summit; then the release.
+
+## 2026-08-02 — GRV-088: the summit returns a located disagreement
+
+- K DERIVED: the pressing per crossing is the CELL'S WEIGHT -- N = Sigma a^3/
+  (chi sigma). GRV-038's profile has no free strength at the statics level
+  (premise P-e).
+- THE EVALUATION: C = beta (3 T0 a) h/(m* chi hbar c) = 1.9e-6..3.3e-5 (F-Lor;
+  F-Sak 18 orders lower) vs the committed 0.23 -- the best edge 3.8 ORDERS LOW.
+  TENSION AT FULL STRENGTH: two internal predictions disagree; at least one
+  chain carries an unearned link.
+- THE PRE-LISTED SUSPECTS: beta (engine-parameter provenance, linear entry --
+  prime), h (convention-dressing, the queued fm-audit now load-bearing), P-e
+  (pile-up vs ambient -- the one suspect pushing UP), and GRV-040's mode
+  identification (on the table for the first time).
+- WHAT STANDS: all three cancellations are coefficient-independent -- the
+  Hawking FORM survives whichever chain carries the bad link. The law derived,
+  the number contested: the right ending.
+- NEXT CAMPAIGN (the coefficient): beta's parameter map; the pile-up
+  correction; the h audit; GRV-040 re-derived against the mechanism.
+
+## 2026-08-02 — Paper sync: the strong-field story written up
+
+- papers/rope_blackholes (v3.5.0): five new sections (9-13) -- the frozen star
+  proved, the horizon that eats and remembers, the temperature chain, three
+  cancellations and the Hawking law-form, and the number it contests, with the
+  closing sentence amended: the whisper's pitch is now proportional to surface
+  gravity by a derived law, while the registry litigates its loudness.
+- papers/rope_gravity: addendum on GRV-074..076 -- the G form audited open,
+  the first derived exponent pair, the Planck-class selection, and the lattice
+  fork now levered by the Hawking coefficient (18 orders between branches).
+- plain language guide: a postscript to the black-hole chapter -- the exterior
+  that cannot be talked into danger, accretion falling out of the bookkeeping,
+  the lift-over price list, Hawking's law-shape appearing by cancellation, and
+  the honest ending: two of the theory's own predictions disagree ten-thousand-
+  fold on the whisper's coefficient, suspects published, 'a theory subpoenaing
+  itself.'
+
+## 2026-08-02 — rope_gravity brought current: the no-go and its resolution
+
+- Operator catch: the paper still framed the quantum-induced completion as an
+  underived conjecture and the sector as a mature negative result. Updated in
+  four places (abstract, status table, classification line, Section 5 verdict):
+  the classical falsification stands at full strength as a theorem, and the
+  quantum-induced completion is now DERIVED (GRV-025 induced EH, GRV-029
+  dictionary, GRV-048 controlled extrapolation, GRV-075 G exponents) -- the
+  sector reads NO-GO PLUS RESOLUTION: Einstein weak field impossible for the
+  classical channels and derived for the induced one.
+
+## 2026-08-02 — rope_gravity, second operator catch: the resolution's NUMBERS stated
+
+- The first update said the induced completion was derived but omitted that it
+  MATCHES OBSERVATION: gamma = 1 and the 1.751-arcsecond deflection are derived
+  (GRV-026, two conditions -> GRV-028, one -> GRV-029, unconditional), with the
+  full classical table (deflection 1.751'' vs photographed 1.75'', Mercury
+  43.0''/cy, Shapiro, Nordtvedt) promoted by the one-metric derivation. All
+  passages now carry the numbers; the status row reads DERIVED, matches
+  observation; Section 6's 'leading conjecture' framing marked historical.
+
+## 2026-08-02 — rope_gravity, third pass: the status table disambiguated
+
+- The 'Einstein weak field (classical) FALSIFIED' row read as the sector's
+  verdict rather than the ruled-out route. Row relabelled ('via CLASSICAL
+  response channels -- RULED OUT by no-go theorem; this row is the ruled-out
+  route, not the sector verdict'), and a reading note added under the table:
+  two acts, not a contradiction -- the framework's weak-field gravity is not
+  falsified; its classical imitation is.
+
+## 2026-08-02 — rope_gravity, fourth pass: 'falsified' scrubbed as a present-tense description
+
+- Operator direction: no human glancing at the paper should read the programme
+  as currently falsified. All present-tense 'is falsified' phrasings recast as
+  past-tense, route-scoped ('the classical response channels were ruled out'),
+  in the abstract, classification line, and Section 5. Title updated: '...a
+  Classical Obstruction, and the Induced Einstein Metric That Resolved It';
+  Version 3 header states the current state up front. The word now appears
+  only in the reading note ('is not falsified') and the generic claim-status
+  legend.
+
+## 2026-08-02 — falsifiable_predictions brought current with the strong-field campaign
+
+- Prediction 17 (the whisper) carries the v3.5.0 update: the kappa-law is now
+  derived by a second independent route, the coefficient is CONTESTED IN-HOUSE
+  (0.23 vs 2e-6..3e-5, four orders, GRV-088), the ~180 Hz figure flagged
+  accordingly; proportionality, switch-class, and the running tail unaffected
+  (coefficient-independent). Glance-table row amended to match.
+- NEW Part VII: Prediction 20 (the Hawking law-form from statics, with the
+  prediction-meets-prediction adjudication owed -- 'a theory subpoenaing
+  itself'); Prediction 21 (the lattice fork's eighteen-order lever, plus the
+  PVLAS-class external discriminator); Prediction 16 reaffirmed with a
+  mechanism (silence now rests on machinery, falsifier unchanged and armed);
+  Prediction 22 (J1713 refutability certified G-form-robust, GRV-074).
+
+## 2026-08-02 — STATE_OF_THE_PROGRAMME brought current (accuracy pass + strong-field section)
+
+- Accuracy corrections found in the pass: header counts (381 -> 459 claims,
+  366 -> 441 code-backed, 23 -> 24 Failed; dated to v3.5.0); the local-gravity
+  paragraph's 'given a matched metric' caveat retired (superseded by
+  GRV-026/028/029 -- the table is unconditional, 1.751'' vs photographed
+  1.75''); sector counts recomputed (15/33 EM, 22/88 gravity); the pilot-wave
+  CHSH 2.724 line replaced with the ribbon-production arc (QB-028..033, derived
+  end-to-end); Failed-and-kept line updated.
+- The whisper paragraph rewritten as the corpus's most interesting open
+  dispute: the kappa-law derived twice, the coefficient in four-order in-house
+  tension, no detection claim either way.
+- NEW SECTION: 'The strong-field campaign (2 August 2026, GRV-074..088)' --
+  the full arc from the G audit to the Hawking law-form and the contested
+  number, in one page.
+
+## 2026-08-03 — CI failure diagnosed and verify_corpus made runner-proof
+
+- DIAGNOSIS of the GitHub CI failures (6 benchmarks "FAILED: (no output)"):
+  all six run clean locally; the signature -- nonzero exit with EMPTY stdout --
+  is a child killed before its block-buffered pipe flushed, i.e. OOM SIGKILL
+  on the standard 7 GB runner (the ensemble/controls scripts build ~30k-dim
+  objects; a true timeout would have printed TIMEOUT). The corpus is sound;
+  the runner is small.
+- FIXES to tools/verify_corpus.py: (1) benchmarks now run with python -u so
+  partial output survives kills and CI logs show real progress; (2) failure
+  tails now report rc and stderr, with rc=-9 annotated as likely OOM;
+  (3) a HEAVY set (the six scripts) and a --skip-heavy flag (also via
+  ROPE_VERIFY_SKIP_HEAVY=1) let memory-limited CI pass while full verification
+  remains the local per-release standard, and skipped entries say so in the
+  output rather than passing silently.
+- CI recommendation: run `python tools/verify_corpus.py --skip-heavy` (or set
+  the env var), or move to a larger runner to keep full coverage in CI.

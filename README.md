@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21430784.svg)](https://doi.org/10.5281/zenodo.21430784)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Verify](https://img.shields.io/badge/verify-384%2F384%20passing-brightgreen.svg)](#verify-it-yourself)
+[![Verify](https://img.shields.io/badge/verify-411%2F411%20passing-brightgreen.svg)](#verify-it-yourself)
 [![verify-corpus](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml/badge.svg)](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml)
 
 # rope-framework
@@ -13,7 +13,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 
 > **Scope (read first):** The Rope Hypothesis is a *classical, configuration-counting* model. It is strongest in electromagnetism, optics, and the mechanical sectors; its classical weak-field gravity is **falsified under stated assumptions** (kept as a finding, not hidden); and it **provably does not reproduce quantum entanglement** in its present form (a counting model cannot produce Bell/CHSH violation; QB-003 Failed, QB-005 negative). The measurement arc (QB-007–011) maps this boundary in detail — single-particle statistics reproduced or cornered, the detector angle fixed at γ = 1, the residual gap localized to configuration-space guidance — without crossing it; a future non-classical rope structure is not claimed impossible. Nothing is hidden — see [`KNOWN_LIMITATIONS.md`](KNOWN_LIMITATIONS.md).
 
-> **Corpus state:** 402 registered claims (104 Derived, 262 Modeled, 4 EFT-constrained, 4 Conjecture, 5 Open, 23 Failed-and-kept); 384 code-backed, all passing; 58 papers. Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
+> **Corpus state:** 429 registered claims (104 Derived, 288 Modeled, 4 EFT-constrained, 4 Conjecture, 5 Open, 24 Failed-and-kept); 411 code-backed, all passing; 58 papers. Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
 
 **🪜 [The Ladder and the Frontier](figures/rope_ladder.png)** — the whole corpus in one image: three layers, every result placed by status, and the coherent frontier where the open problems cluster. The best single-glance answer to "what is this?"
 
@@ -24,12 +24,16 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 **🗺️ [Roadmap of Knowledge](docs/ROADMAP.md)** — the whole corpus at a glance: [wall chart](docs/roadmap.png) and [interactive dependency explorer](docs/roadmap.html) (click any claim; see its dependencies, dependents, and full downstream), all generated from claims.yaml by `tools/build_roadmap.py`.
 
 
-**Current release: v3.1.0** (1 Aug 2026) — see `docs/RELEASE_NOTES_v3.1.0.md`.
+**Current release: v3.2.0** (2 Aug 2026) Post-release: the ribbon-production campaign (QB-028/029/030) is complete -- the medium produces the shared ribbon's pair and segment for free, the fiber has no thermal channel (GRV-020 + FDT), and the produced pair violates CHSH against a severed control of 0.79 -- 2.234 +/- 0.005 at 52 sigma under the DERIVED transport law (QB-031: forced by the one-generator theorem, with the earlier posited model reclassified as the worst-case floor at 2.039). One geometric premise remains (isotropic source orientation), named. — see `docs/RELEASE_NOTES_v3.2.0.md`.
 
 **If the rope model is wrong**, the transferable result is
 `docs/CONSTRAINTS_FOR_MECHANICAL_SUBSTRATE_THEORIES.md` — universal programme
 disciplines, constraints on finite-scale mechanical substrates, and
 rope-specific findings, kept in three explicitly separate tiers.
+
+**Using a rope constant?** `docs/ROPE_PARAMETERS.md` is the canonical card —
+every strand parameter, both scale branches, with a verifier
+(`benchmarks/foundations/rope_parameter_card.py`) that fails if it drifts.
 
 **New reader?** Start with `docs/STATE_OF_THE_PROGRAMME.md` — a short, current
 account of what the framework claims, what it predicts, what was retired and why.
@@ -89,6 +93,92 @@ contributes nothing at any tier.
 
 The mesoscopic-hbar identification is RETIRED (2026-08-01) after six
 independent closures. See `docs/HBAR_SECTOR_CLOSURE.md`.
+
+One demotion from the T1 audit has since been repaired at its honest size
+(HBAR-011, 2026-08-02): the cosmological rigidity constraint is re-derived from
+the surviving standing-wave form (d ln hbar = 2 d ln A), the comoving-amplitude
+branch is excluded by 3e5 at z = 1, and the observable is committed to named
+instruments (many-multiplet quasar alpha; the Yb+ E3/E2 clock, giving
+|d ln A/dt| < 1.6e-18 per year). It returns as a CONSTRAINT at T3 ceiling, not
+a prediction; the T1 count remains one. The two-alpha-chain audit (PRED-003-XCHAIN) found consistency-by-locking; the constitutive session (PRED-003-CONST, 2026-08-02) then closed the chain dimensionally: e_eff^2/(4 pi eps0) = 2 lambda J a, triple (2, 1, -1). The -2 tension ratio SURVIVES (co-drift A ~ T^(-1/2)); the +1 spacing discriminator is WITHDRAWN pending registration of the alpha chain itself, which the audit found to be paper-stated and registry-underived. The chain attempt (PRED-003-CHAIN) then killed the naive route by theorem — winding charge is a circulation, and phase electrostatics is logarithmic, not Coulomb — leaving the alpha form BLOCKED-WITH-SPECIFICATION: the completing computation is a Maxwell-sector dictionary evaluation with target q_s^2 = 8 pi eps0 lambda J a, the corpus-wide highest-value open item. The dictionary evaluation (PRED-003-DICT) then collapsed that computation by impedance reduction: eps_med = 1/T, alpha = l_q^2 T/(4 pi hbar c), and the -2 ratio is now the middle of a three-candidate table {-1, -2, -3} indexed by the winding's source length — with any measured nonzero drift ratio selecting it. The decider (PRED-003-LOCK) then dissolved the question: the registered model is pure XY with no on-site locking, and matching OPT-006's impedance to the derived director stiffness ENSLAVES kappa = 2T/(eta a) — the EM vacuum runs on two primitives. The ratio is reassigned: tension channel -1, spacing channel -2; the registered -2 survives on the spacing channel, testability intact, and a measured nonzero ratio now identifies the drift channel. The eta session (PRED-003-ETA) then set eta = 1 by one-metric uniqueness (kappa = 2T/a exact, J = Ta/2), bounded the winding's source length at >= 13-16 lattice spacings from measured alpha alone, and killed the bare 2 pi normalization — leaving g, the mesoscopic source length's mechanism, as the dictionary's true residual. The ratio test (ELEC-083) then proved its own commissioned scale-set vote vacuous and extracted the residue: under the shared-origin hypothesis for the two mesoscopic lengths, 1/alpha = 2 pi^2 rho^2 exactly, with rho = 2.6348 required and guarded against numerology — one mechanism now owes one pure number, blind.
+
+## OPEN: the gravitomagnetic sector (1 Aug 2026)
+
+The gravity sector's classical weak-field tests are UNCONDITIONAL (GRV-029) — and
+every one is GRAVITOELECTRIC, testing g_00. The GRAVITOMAGNETIC sector, g_0i,
+has no registered coupling in the action (GRV-059, Failed), and Gravity Probe B
+measures Earth's frame-dragging at 37.2 ± 7.2 mas/yr with zero 5.2 sigma away.
+
+**But the route to one is live and matches on structure** (GRV-066). The medium
+is a genuine Cosserat continuum (framed strands carry an independent
+microrotation). The micropolar screening that would kill the route depends on a
+rotation-locking modulus κ — which is a MASS TERM for the relative rotation. And
+EM-RECON-012 (**Derived**) states that a mass term is *forbidden* in this medium
+because there are no material points, with the sector gapless in principle;
+FND-STRAND-002 separately *measured* a twist kink propagating 170 nodes with
+winding conserved exactly.
+
+With κ = 0 the equation is **Poisson**, GRV-020's Derived angular no-monopole
+lemma forces dipole-led sourcing, and the far field is (J × r)/r³ — a 1/r²
+falloff with dipole structure, **exactly what Lense-Thirring requires**, from a
+Derived theorem with no free parameter.
+
+**That antecedent is now supplied** (GRV-067). GRV-020's Corollary 1 gives a
+spontaneously broken global SO(2) on the internal azimuth with exactly one
+Goldstone — identified as the frame orientation by the claim's own reading
+(torsion dynamics = light). Goldstone's theorem forbids a mass term for that
+mode, and the micropolar locking modulus **is** a mass term: under the broken
+symmetry η → η + ε, so η² is not invariant. **κ = 0 exactly.**
+
+So one Derived claim supplies both halves — Corollary 1 the vanishing screening,
+Corollary 2 the dipole structure. **And step 4 is now done** (GRV-068). Diagonalising the coupled vector operator
+shows its determinant vanishes at k = 0 for **any** κ: one mode is massless
+regardless of the locking modulus, and it is the combination where the
+microrotation *tracks* the backbone — the one angular momentum excites. So the
+conclusion no longer depends on the Goldstone argument at all, and GRV-064's
+screening is fully retired: it was real physics aimed at the orthogonal mode.
+
+**Precisely stated** (GRV-069): micropolar locking gaps only the
+*relative-rotation* sector and leaves a collective co-rotation mode massless for
+arbitrary locking strength, so the blanket screening obstruction is **invalid**.
+Whether angular momentum *sources* that pole, and whether it enters the
+*observable* metric, remain to be derived — those are two further projections,
+and both are currently generic rather than computed.
+
+The route is legitimately **reopened**, not established — and the remaining work
+is now a single equation (GRV-070). With a source map L = J·(aΩ + bφ) and an
+observable map g_0i = cΩ_i + dφ_i, the pole residue is **R₀ ~ (a+b)(c+d)**, and
+the long-range field is
+
+    g_0i(r) ~ [(a+b)(c+d)/(4πK₀)] (J × r)_i / r³
+
+— already the Lense-Thirring structure. Against GR's −2G(J × r)/(c³r³), the
+framework must deliver **(a+b)(c+d)/(4πK₀) = −2G/c³**. Four coefficients and one
+stiffness.
+
+**The audit came back** (GRV-071): four of the five are ABSENT from the
+registered action, for two distinct structural reasons. **a and b** are missing
+because the corpus has no matter coupling to medium rotation at all — GRV-005's
+source is a static force density with no torque or spin term. **c and d** are
+missing because GRV-029's dictionary is an exact *four-to-four* bijection for a
+static diagonal metric: a shift is three further functions, so there is nowhere
+for g_0i to live. Only K₀ is computable in principle.
+
+**So the framework is SILENT here** — it predicts neither 37.2 mas/yr nor its
+absence, and claims neither. The massless mode still exists for any locking
+strength; nothing sources it, and nothing maps it to an observable. The two work
+items are explicit and each is a substantial addition rather than a calculation:
+a matter-to-rotation coupling, and a dictionary with a shift slot.
+
+And K₀ is **derived** (GRV-073): γ = 4.2e−4 J/m, from the corpus's own elastic
+constants. GRV-009 registers `torsion~r^4` — the polar-moment law of a **rod** —
+and GRV-005 states the full elastic set is possessed. The value is **seven orders
+below the tension**, because the axial stiffness carries r² while the torsional
+rigidity carries r⁴, leaving (r/a)² for a thin strand. A dimensional estimate
+could not have found this.
+
+Three new predictions follow: a spin radiation channel GR lacks, intrinsic-spin
+sourcing of frame dragging, and the finite-range signature above.
 
 ## Two branches carry validated machinery and no target
 
