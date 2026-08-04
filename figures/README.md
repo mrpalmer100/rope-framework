@@ -5,6 +5,8 @@ inherits the registry's discipline: a beautiful picture of a *modeled* idea must
 *derived* one. See the [Roadmap](../docs/ROADMAP.md) for the claims behind each.
 
 ## rope_electricity.png — Electricity as transported linking
+
+![rope_electricity.png](rope_electricity.png)
 Current as axial screw-rotation of the two-strand helix transporting linking, I = dL/dt.
 **Status: corpus-faithful.** Backed by **EM-008 (Derived)** — "Current = transported linking:
 no-wind-up, continuity, closed-loop are one condition" — and **EM-009 (Modeled)** — the helix
@@ -12,6 +14,8 @@ screw-sense fixes circulation type and sign (not the dynamical drive). Voltage-a
 gradient and Ohm's-law framing are the sector's modeled interpretation.
 
 ## rope_magnetism.png — Magnetism as circulating phase
+
+![rope_magnetism.png](rope_magnetism.png)
 Magnetic field as phase circulation (vorticity) in the surrounding network; current as the
 screw-transport of conserved linking along the two-strand helix; voltage as the tension gradient
 that drives the screw. **Status: corpus-faithful, and now grounded in the Derived layer.** This
@@ -23,12 +27,16 @@ EM-RECON-001). Magnetic force and Lorentz force are EM-012/013 (Derived); the pe
 inset is EM-RECON-002 (Modeled), illustrative.
 
 ## rope_chemistry.png — Bonds as rope-mediated interactions
+
+![rope_chemistry.png](rope_chemistry.png)
 Covalent, ionic, hydrogen, and metallic bonds as tension/standing-wave patterns in the rope
 network. **Status: modeled, not derived.** The Chemistry sector is 13 Modeled / 2 Derived; this
 figure illustrates the sector's *models*. The one quantitative, near-parameter-free result is
 the H2 vibration prediction (~16%, EM-RECON-010), not the bond taxonomy shown here.
 
 ## rope_atom.png — The atom as a bound rope structure
+
+![rope_atom.png](rope_atom.png)
 Proton as topological knot, charge as winding, electron as a rope-network standing-wave mode.
 **Status: corpus-faithful, and the reference example of how this project labels claims.** The
 figure carries its own STATUS DECLARATION and a three-way footer — *Established* (charge =
@@ -39,6 +47,8 @@ BLOCKED), *Hypothesis* (proton = 27.75 D-tangle; electron = rope mode; the Pauli
 PM-005). No over-claiming: relationships and mechanisms only.
 
 ## rope_gravity.png — Gravity as effective geometry (weak field)
+
+![rope_gravity.png](rope_gravity.png)
 Mass conditions the rope network into an effective metric; bodies and light follow geodesics.
 Weak-field metric = isotropic Schwarzschild; the four classical tests at their GR values
 (deflection 1.751″, Mercury 43.0″/cy, Shapiro delay, PPN gamma = beta = 1, Nordtvedt eta = 0).
@@ -54,6 +64,8 @@ or quantum-gravity claim. The story behind this figure is the corpus in miniatur
 kept, then overturned by derivation.
 
 ## rope_optics.png — Classical optics as transverse rope waves
+
+![rope_optics.png](rope_optics.png)
 Light as a real transverse wave in the medium; interference, single/double-slit diffraction,
 the intensity law -- and an explicit single-photon boundary. **Status: corpus-faithful,
 boundary included.** Backed by the Optics sector (OPT-001..010, all Derived: Huygens,
@@ -63,6 +75,8 @@ classical rope-wave model -- the same quantum boundary the Bell analysis locates
 #4). Strong on classical wave optics; stops where the quantum begins, and says so.
 
 ## rope_nuclear.png — Nuclear physics: the strong force and beyond
+
+![rope_nuclear.png](rope_nuclear.png)
 Nuclear physics as atomic rope-mechanics scaled by ~10^5. **Status: corpus-faithful, and a
 model of honest status-tagging** (revised from an earlier over-claiming draft against a
 claim-ID correction brief). Every panel carries its registry status: **Established** — binding
@@ -77,6 +91,8 @@ known cosmetic: the quark composition label reads "udd*" under both nucleons (pr
 asterisk defers to the OPEN Panel 2, so it sits inside already-flagged-open territory.
 
 ## rope_ladder.png — The Ladder and the Frontier (architecture map)
+
+![rope_ladder.png](rope_ladder.png)
 The corpus's three-layer architecture in one figure: **Topological -> Geometric -> Dynamical**,
 with every sector's results placed by layer and colored by status. **Status: corpus-faithful
 architecture map, and the repository's hero image.** The load-bearing thesis it makes visible:
@@ -97,6 +113,8 @@ tools/build_roadmap.py; a natural anchor for the whole corpus.
 
 ## rope_ladder_v2.png (3 Aug 2026) -- the current ladder
 
+![rope_ladder_v2.png](rope_ladder_v2.png)
+
 Supersedes rope_ladder.png (kept for the record; THM-006's history is about
 that figure staying honest). v2 is colored mechanically from the live registry
 per figures/ladder_v2_spec.md: L2-L3 green (derived structure), L4 split
@@ -110,6 +128,8 @@ red -- the distribution is the argument.
 
 ## rope_gravity.png (3 Aug 2026) -- the current gravity figure
 
+![rope_gravity.png](rope_gravity.png)
+
 Supersedes the original render (archived as rope_gravity_v1_archive.png). Registry-faithful across
 regimes: the isotropic weak-field metric psi = 1 + rs/4r with the derived
 classical table (1.751'' deflection, 43.0''/cy Mercury, Shapiro gamma = 1,
@@ -121,6 +141,8 @@ checks); and the Scope & Honesty box declining quantum gravity and the origin
 of mass. Consistent with rope_ladder_v2.png by construction.
 
 ## rope_ladder.png (3 Aug 2026) -- the three-layer architecture, publication grade
+
+![rope_ladder.png](rope_ladder.png)
 
 THM-006's visual anchor, re-rendered at publication grade (the original is
 archived as rope_ladder_v1_archive.png; that claim's registry entry documents the figure's own honesty
