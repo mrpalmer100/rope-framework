@@ -11330,3 +11330,102 @@ A local topology-surgery control replaced ROPE-MODE-004's translated unlinked co
   now carries the story forward, and the "clearest route back to a
   second" framing is corrected to the audited ELEC-084 ranking (scale map
   first).
+
+## 2026-08-04 — FND-STRAND-025: the third grant adopted, and the beamsplitter derived
+
+- THE DECISION: the funneling step becomes GRANT 3 -- INDIVISIBLE
+  DELIVERY. The imported sentences now number three: the pair is one
+  thing; the weave is warm; THE QUANTUM ARRIVES WHOLE. Scope discipline
+  on its face: bookkeeping at absorption, not dynamics; no entanglement
+  granted; QB-003 untouched.
+- D1 DERIVED (conditional on Grant 3, benchmark executing every closed
+  form): single-arm P = tau (the fact STRAND-024 measured as missing);
+  exact anticoincidence g2 = 0 (Grangier-Roger); Fock Binomial counting;
+  the COHERENT LIMIT RECOVERED (independent Poisson thinning, g2 = 1 --
+  the grant cannot fake quantumness for classical light); thermal HBT
+  bunching g2 = 2 for free.
+- NOT bought, stated first: HOM (classical 50% cap stands; Phase C) and
+  CHSH/the entangled eraser (QB-003 stands).
+- Falsifiers F1-F3 armed; F4 retirement bounty standing. Austerity cost
+  logged: two assumptions became three, priced honestly.
+- README front door synced (three stated assumptions; the funneling
+  clause now notes the bridge and the open mechanism).
+- Corpus 484 claims (106 Derived at conditional form, 465 code-backed);
+  benchmark strand_third_grant.py passing.
+
+## 2026-08-04 — FND-STRAND-026: antibunching formalized -- the faithfulness theorem
+
+- T1: under Grant 3 + the Born law, beamsplitter g2 = <n(n-1)>/<n>^2
+  EXACTLY, invariant under splitter ratio and arm efficiencies (loss
+  cannot manufacture or destroy antibunching -- Grangier-Roger's
+  efficiency-independence derived, not assumed).
+- T2: the QB g2 >= 1 pin RESOLVED, not contradicted -- a divisible-
+  intensity theorem whose premise the grant removes; the cornering
+  survives, and QB-009's constraint toy is the named mechanism
+  candidate for F4's bounty.
+- T3: the measured 0.18 located as source contamination,
+  g2 = 2p2/(p1+2p2)^2 (p2 ~ 0.11) -- confrontable against published
+  source tomography.
+- T4: the discrimination table -- Fock 1-1/n, coherent 1, thermal 2;
+  agreement on every classically attainable row, divergence exactly
+  where experiment diverges.
+- Corpus 485 claims (107 Derived, 466 code-backed); benchmark
+  strand_antibunching.py passing.
+
+## 2026-08-04 — FND-STRAND-027: Mandel's formula from threshold nucleation -- Phase A closes
+
+- THE FORMULA: P(m) = <(eta W)^m e^{-eta W}/m!> derived -- 021's Poisson
+  steady state + Born-rate linear response (domain stated: weak
+  continuous illumination, the opposite regime from 024's cliff) + the
+  Cox composition. Coherent -> Poisson; thermal -> Bose-Einstein.
+- THE BOUNDARY: Q >= 0 for every classical drive (benchmarked across
+  gamma, lognormal, uniform) -- Q = 0 is the counting twin of g2 = 1;
+  sub-Poissonian needs Grant 3 (Fock: Q = -eta exactly).
+- THE CORRESPONDENCE THEOREM: the Cox and Grant-3 routes agree EXACTLY
+  on classical light (thinning invariance of the geometric family closes
+  thermal) -- one theory at two grains, which is why photon counting
+  alone never proved photons: the framework states that historical fact
+  as a theorem about itself.
+- PHASE A COMPLETE at derivation cost: 025 beamsplitter, 026
+  antibunching, 027 counting. Next: Phase B source sector (simulation
+  budget); Phase C the HOM pin; Phase D delayed choice; the eraser
+  fenced at QB-003.
+- Corpus 486 claims (108 Derived, 467 code-backed); benchmark
+  strand_mandel_counting.py passing.
+
+## 2026-08-04 — FND-STRAND-028: delayed choice as a derived non-paradox -- Phase D closes for the plain case
+
+- THE DISSOLUTION: the paradox requires a trajectory variable; the
+  ontology has none. Waves thread both arms in every configuration; the
+  only event is absorption; Grant 3 acts there.
+- THE THEOREM: statistics depend only on the configuration at absorption,
+  so choice timing is irrelevant -- the late choice disposes of a wave
+  still in flight. The experimental record's null becomes the
+  framework's null prediction.
+- THE BONUS: V^2 + D^2 = 1 (Englert-Greenberger-Yasin) derived as a
+  two-line energy-partition identity; V(R) = 2 sqrt(R(1-R)) measured
+  from sampled fringes across R.
+- FENCED: the entangled delayed-choice eraser stays at QB-003's no-go,
+  stated on the claim's face.
+- Corpus 487 claims (109 Derived, 468 code-backed); benchmark
+  strand_delayed_choice.py passing.
+
+## 2026-08-04 — FND-STRAND-029: the HOM pin -- Phase C closes; the frontier mapped, not gestured at
+
+- ROUTE 1 (classical waves into the corpus's own Mandel detectors):
+  V = X^2/(2S^2) <= 1/2, equality only at matched amplitudes -- the 50%
+  cap as a registered closed form. ROUTE 2 (per-quantum Grant 3): V = 0,
+  no dip -- the independence that was the feature everywhere else is the
+  bug exactly here.
+- THE PIN: granular 0 / wave 1/2 / QM 1 / experiment > 0.9. Missing
+  physics localized: delivery correlations of indistinguishable quanta
+  (two-quantum exchange structure).
+- THE ESCAPE specified and NOT purchased: a joint-delivery rule (fourth-
+  grant candidate) with falsifiers pre-drafted -- flagged for the
+  author's ledger, not adopted.
+- The surveyed-edge collection now reads as a program: funneling (one
+  quantum, one site), HOM (two quanta, one exchange), CHSH (two sites,
+  one correlation) -- three fences in ascending depth, each located by
+  derivation.
+- Corpus 488 claims (109 Derived, 341 Modeled; 469 code-backed);
+  benchmark strand_hom_pin.py passing.
