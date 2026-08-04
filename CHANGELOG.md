@@ -11443,3 +11443,20 @@ A local topology-surgery control replaced ROPE-MODE-004's translated unlinked co
 - PROMOTED TO A PAPER: papers/the_detector_understood.pdf (source docx in
   papers/_sources/; the markdown remains the living source). README
   reading-order pointer updated; docs/PAPERS.md indexed.
+
+## 2026-08-04 — Detector paper: author header added
+
+- papers/the_detector_understood: title block now carries the standard
+  attribution (Mark Palmer, with computational collaboration by Claude
+  (Anthropic); Charlotte, NC; contact; date and corpus version), matching
+  the other papers. Rebuilt from the living markdown source.
+
+## 2026-08-04 — All papers: attribution header standardized, workplace removed
+
+- Every paper source (56 docx in papers/_sources) now carries the exact
+  standard header: "Mark Palmer · with computational collaboration by
+  Claude (Anthropic)" / "Charlotte, NC · palmer100@gmail.com". All NTT
+  DATA mentions removed (46 files edited; 9 papers that had no
+  attribution at all gained the header). 55 affected PDFs rebuilt;
+  automated conformity check across all sources and rendered PDFs: zero
+  NTT, attribution present everywhere.
