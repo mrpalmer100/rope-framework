@@ -11429,3 +11429,17 @@ A local topology-surgery control replaced ROPE-MODE-004's translated unlinked co
   derivation.
 - Corpus 488 claims (109 Derived, 341 Modeled; 469 code-backed);
   benchmark strand_hom_pin.py passing.
+
+## 2026-08-04 — The detector paper: the six-item scoreboard, and promotion to papers/
+
+- docs/DETECTOR_KINETICS_PLAIN_LANGUAGE.md gains "The standard evidence
+  for quantized light: a six-item scoreboard" -- per-item verdicts in
+  plain terms (beamsplitter DERIVED; antibunching DERIVED with the
+  loss-immunity theorem; counting DERIVED both regimes with the
+  correspondence theorem; delayed choice DERIVED as a non-paradox with
+  the duality bonus; HOM PINNED with the missing piece located; heralding
+  and the eraser HONESTLY DEFERRED with reasons named). Corpus pointers
+  extended to 025-029; title updated.
+- PROMOTED TO A PAPER: papers/the_detector_understood.pdf (source docx in
+  papers/_sources/; the markdown remains the living source). README
+  reading-order pointer updated; docs/PAPERS.md indexed.
