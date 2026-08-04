@@ -115,7 +115,8 @@ missing *a* as Instrument 1), so this shares Instrument 3's honest status:
 the shape is committed now; the frequency is not. A gapless irreducible
 spectrum at every accessible scale is the standing falsifier.
 
-**Anchors:** FND-STRAND-007, FND-STRAND-008; Prediction 10.
+**Anchors:** FND-STRAND-007, FND-STRAND-008; Predictions 10 and 25 (the
+gap is also the dark-count clock: FND-STRAND-010/013).
 
 ## 6. The click statistician (nucleation kinetics in detectors)
 
@@ -133,7 +134,18 @@ commitment is to the whole package, and much of it is testable with hardware
 that already sits on optics benches. This is the cheapest instrument on this
 list: the machines exist; the framework asks only for their statistics.
 
-**Anchors:** FND-STRAND-006, FND-STRAND-007; Prediction 11.
+**Sharpened by the kinetics campaign (v3.7.0 and after).** The campaign
+(FND-STRAND-009..021) resolved this instrument's target into a two-regime
+statement with two new signatures: the SWITCH-ON FINGERPRINT (Prediction 23:
+dark-count rate drifting down at constant device temperature after a reset,
+for one bath-correlation epoch) and the SIZE LAW (Prediction 24, Derived:
+quench-prepared survival curves related by an exact zero-parameter power in
+the size ratio). Both are statistics campaigns on existing hardware; the
+constant-temperature drift is the discriminator no thermal-drift model
+supplies.
+
+**Anchors:** FND-STRAND-006, FND-STRAND-007, FND-STRAND-010,
+FND-STRAND-020, FND-STRAND-021; Predictions 11, 23, 24.
 
 ## 7. The analog bench (universality made tabletop)
 

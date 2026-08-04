@@ -316,6 +316,10 @@ from stated inputs.
 - `docs/HBAR_SECTOR_CLOSURE.md` — the retirement record.
 - `docs/STANDING_RULE_SOURCE_BEFORE_INSTRUMENT.md` — the lesson from two closed
   branches.
+- `docs/DETECTOR_KINETICS_PLAIN_LANGUAGE.md` — the strand-kinetics campaign
+  (FND-STRAND-009..021) in plain language: what small isolated detectors do,
+  the two-regime dark-count picture, the Derived power law, and the switch-on
+  resolution.
 
 Twenty-four claims are registered **Failed** and kept, including one theorem
 falsified by the corpus's own growth and, from the strong-field campaign, an
