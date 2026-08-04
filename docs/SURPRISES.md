@@ -67,14 +67,22 @@ sessions (GRV-089..091) found the four-order dispute was a CATEGORY ERROR, a tem
 coefficient set against a ringing-frequency coefficient. Both predictions stand at their own
 questions: the pitch is geometric (0.23 kappa), the rate is thermodynamic, and the black hole
 is a crackling-noise emitter — cold reservoir, bright snaps. The theory subpoenaed itself, the
-indictment was ruled defective, and the surviving question is the quantum of the ring: the
-hbar frontier, arrived at the horizon's doorstep. *(Gravity & Galaxies sector — Failed claims kept; see papers/rope_blackholes.pdf.)*
+indictment was ruled defective — and then the surviving question was answered too: the
+ring-quantum arc (GRV-092..094) found each snap's action is a UNIVERSAL medium constant,
+depth-blind, mass-blind, invariant under every registered deformation, and SUB-quantum: the
+whisper is classical gravitational radiation at leading order — waves, not gravitons. That
+result forced the substrate fork, and the fork resolved by derivation (GRV-095): the induced
+route survives on the Sakharov branch at Planck-scale spacing, with a PVLAS-class
+vacuum-nonlinearity falsifier armed. The sector that opened with a kept no now runs
+unbroken from Newton through Einstein's tests to Hawking's law-form to its own substrate. *(Gravity & Galaxies sector — Failed claims kept; see papers/rope_blackholes.pdf.)*
 
 ![Gravity in the rope framework: mass conditions the network into an effective metric](../figures/rope_gravity.png)
 *The figure's original caption told act one — the failures kept in red. The record now runs
 two acts further: the weak field derived unconditionally (gamma = 1, 1.751″), and the strong
-field carried to the Hawking law-form T_inf ∝ kappa (GRV-087), with the coefficient dispute
-since RESOLVED as a category error, both routes standing (GRV-091). [Figure notes.](../figures/README.md)*
+field carried to the Hawking law-form T_inf ∝ kappa (GRV-087), the coefficient dispute
+RESOLVED as a category error (GRV-091), the snap action found universal and sub-quantum —
+waves, not gravitons (GRV-092..094) — and the substrate fork resolved to the Sakharov
+branch by derivation (GRV-095). [Figure notes.](../figures/README.md)*
 
 ## 4. The model told us where its own world ends
 
@@ -87,8 +95,21 @@ boundary* rather than fudge past it. The quantum boundary sector now maps precis
 quantum phenomena the ropes can and cannot reach. *(Quantum Boundary sector — 27 claims,
 including the Bell failure, kept.)*
 
+And the boundary MOVED — the honest way, by purchase rather than fudge. The 2026
+measurement campaigns (twenty-plus sessions) plus one loudly-priced third assumption
+("the quantum arrives whole") converted a swath of former mysteries into derived
+bookkeeping: single-photon self-interference, beamsplitter 50/50 statistics and
+anticoincidence, antibunching (with a proof that loss cannot fake or destroy it), photon
+counting in both regimes, and Wheeler's delayed choice dissolved as a non-paradox with
+the duality relation V² + D² = 1 as four lines of energy accounting. What remains outside
+is now a surveyed program rather than a fog: the funneling mechanism (one quantum, one
+site), Hong-Ou-Mandel (two quanta, one exchange — pinned at both internal routes), and
+Bell/CHSH (two sites, one correlation — the original wall, standing). Three fences in
+ascending depth, each located by derivation, each with the shape of its gate specified.
+*(FND-STRAND-020..029; papers/the_detector_understood.pdf.)*
+
 ![Light and optics in the rope model, with an explicit single-photon boundary](../figures/rope_optics.png)
-*Optics with its limit drawn in: classical wave optics fully reproduced (OPT-001..010, Derived), and single-photon self-interference marked in orange as NOT reproduced — the same boundary, drawn where light meets it. [Figure notes.](../figures/README.md)*
+*Optics with its limit drawn in: classical wave optics fully reproduced (OPT-001..010, Derived). The figure's orange single-photon marker records the boundary AS IT STOOD when drawn; that item has since been ACCOUNTED (wave through both slits, the dot as detector nucleation, the quantum delivered whole — FND-STRAND-021/025 and the third grant), and the live boundary now sits at funneling dynamics, Hong-Ou-Mandel, and Bell, per entry 4's update. [Figure notes.](../figures/README.md)*
 
 ## 5. Galaxy rotation curves worked without dark matter
 
@@ -109,6 +130,17 @@ The model's one electromagnetic coupling was calibrated on a single number: the 
 *molecule* — a different physical system — to within 16%. Sixteen percent is not precision
 physics; it is, however, the right order, the right structure, and zero free parameters, which
 is exactly what a sketch of real physics looks like before it grows up. *(EM-RECON-010.)*
+
+Lest the 16% be mistaken for the programme's ceiling: that figure belongs to this one
+early electromagnetic sketch, not to the mass sector. The corpus's composition rule
+reproduces ATOMIC MASSES to better than 0.1% FROM CARBON THROUGH URANIUM — and the light
+elements too (spot checks at hydrogen, helium, lithium, carbon, oxygen, iron, uranium) —
+while the naive mass-tracks-charge alternative fails by a factor of ~2.6 (it is blind to
+neutrons). One number to hold: everything from a carbon atom to a uranium atom, to a part
+in a thousand, from a counting rule. Honest scope, as always: in the base result the binding energies are measured
+inputs (the rule identifies binding as rope-mode overlap and explains the iron-56 peak);
+the successor claim then PREDICTS the bindings themselves. Precision and sketch coexist
+in this corpus, and each is labeled. *(NUC-001, NUC-005.)*
 
 ![Chemistry in the rope model: bonds as rope-mediated interactions](../figures/rope_chemistry.png)
 *Covalent, ionic, hydrogen, and metallic bonds as tension/standing-wave patterns. **Status: modeled, not derived** (the sector is 13 Modeled / 2 Derived). [Figure notes.](../figures/README.md)*
@@ -171,8 +203,8 @@ stricter reviewer than we were: it has caught duplicate registrations, missing f
 mismatches, and configuration-fragile tests before they ever reached publication — including,
 in one weekend, three of our own over-eager assertions. The most surprising discovery of the
 whole programme may be this: the discipline was not a tax on the science. It *was* the science.
-The physics might be wrong; the method of finding out is not. *(tools/verify_corpus.py — 223
-benchmarks, rerun on every change.)*
+The physics might be wrong; the method of finding out is not. *(tools/verify_corpus.py — 469
+code-backed benchmarks at last count, rerun on every change; the number grows most weeks.)*
 
 ---
 

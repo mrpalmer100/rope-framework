@@ -1,5 +1,11 @@
 # The Detector, Understood: Single-Photon Phenomena in the Rope Framework, in Plain Language
 
+**Mark Palmer** · with computational collaboration by Claude (Anthropic)
+
+Charlotte, NC · palmer100@gmail.com
+
+August 2026 · Rope Framework corpus, v3.8.0+
+
 *Companion to the measurement-sector campaigns, FND-STRAND-009 through 029
 (releases v3.7.0 onward), including the third grant. Written for a reader
 outside the project. Canonical paper: `papers/the_detector_understood.pdf`;
@@ -133,6 +139,43 @@ described near the end of this document), and that boundary is measured
 and registered, not glossed.
 
 ---
+
+## What "the bath" is (a reader's question, answered precisely)
+
+This document leans on the phrase "the warm bath," so it deserves an
+exact unpacking. The bath is not a second substance added alongside the
+ropes. It IS the rope fabric, vibrating thermally.
+
+The medium is one network of strands. The detector strand (the one that
+forms a knot when it clicks) is physically continuous with the rest of
+that network, and the surrounding network, with all its vibrational
+modes, is what the framework calls the weave. Same fabric, two roles:
+the strand under study is the "system," and everything it is woven into
+is its "environment." "Warm" means those surrounding modes carry
+ordinary thermal energy, jostling the detector strand through the
+couplings at every contact. This is where the framework's second
+founding assumption lives ("the weave is warm"): the corpus does not
+derive why the fabric has a temperature; it grants that it does, prices
+the grant openly, and everything downstream (the click-rate law, its
+temperature dependence, the switch-on transient) flows from that one
+granted fact plus mechanics.
+
+Two structural features matter. First, the bath is GAPPED: the weave's
+vibration spectrum has a minimum frequency, and that minimum is the
+strand mass scale. This is why the bath is not generic noise -- it is
+why the detector's attempt rate lands at the band gap (the medium is
+its own metronome), and why two separate predictions could be pinned to
+one spectral location. Second, the bath is an internally MIXING network,
+not a passive collection of independent oscillators: its modes exchange
+energy among themselves on a measured, size-independent timescale, a
+fact learned from a failed theory kept on the books. That mixing is
+what relaxes the switch-on transient, and its finite speed is why a
+freshly reset detector briefly appears to have memory.
+
+So wherever this document says "the bath delivers the dot," read: the
+rest of the rope fabric, vibrating thermally above its own minimum
+frequency, continuously shaking the strand it is woven around -- until,
+rarely and locally, the shaking concentrates enough to tie the knot.
 
 ## The question in one sentence
 
