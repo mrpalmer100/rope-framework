@@ -65,7 +65,7 @@ path is registered on the claim: the absolute-scale map (FND-MATTER-003)
 unlocks P23 and P25; P24's small-N violation domain is the nearest
 instrument-facing discriminator.
 
-**The nearest miss**, and the corpus's clearest route back to a second: GRV-040's
+**The nearest miss**, kept here because its closure is the census at its best: GRV-040's
 whisper at omega = 0.23 kappa. Committing its flux (GRV-049) showed the emission
 would carry 40-110% of a black hole's accretion budget at f ~ 1, so existing
 observations already bound the ratchet efficiency at f <~ 1e-2 — a real
@@ -103,6 +103,25 @@ the neutrino sum is sharply falsifiable but sits where any minimal-normal-
 ordering model lands; g_dagger = cH0/2pi is derived at zero parameters but MOND
 fits the same observable. The ELECTRON SECTOR, the largest by claim count,
 contributes nothing at any tier.
+
+**The whisper story since (2026, v3.6-v3.7):** the account above ends at GRV-052
+and everything in it still stands, including the unobservability verdict -- but the
+physics moved. The coefficient campaign (GRV-086..091) reconciled the corpus's two
+independent internal routes to the whisper's frequency coefficient, which had
+disagreed by four orders, by convicting the confrontation itself of a category
+error: the emitter is crackling-noise class -- the PITCH is geometric, the RATE is
+thermodynamic, and both prior predictions were right at their own questions. The
+0.23 kappa pitch now stands joined to a mechanism rather than alone: the ring-quantum
+arc (GRV-092..094) found the snap action is a UNIVERSAL medium constant -- depth-blind,
+mass-blind, invariant across every registered deformation -- and sub-quantum, so the
+whisper is CLASSICAL gravitational radiation at leading order (waves, not gravitons).
+That arc then forced the substrate fork and resolved it by derivation (GRV-095):
+the induced-gravity route survives on the Sakharov branch at Planck-scale spacing,
+with a PVLAS-class vacuum-nonlinearity falsifier armed. As for the ROUTE back to a
+second confronted bet, the audited ranking now lives on ELEC-084: the absolute-scale
+map first, the detector size law's violation domain second, the one-scale-two-
+instruments conjunction third. The whisper taught the corpus how to close a
+prediction honestly; those three are where the next one opens.
 
 The mesoscopic-hbar identification is RETIRED (2026-08-01) after six
 independent closures. See `docs/HBAR_SECTOR_CLOSURE.md`.

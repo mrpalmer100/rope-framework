@@ -11318,3 +11318,15 @@ A local topology-surgery control replaced ROPE-MODE-004's translated unlinked co
   not ELEC-065 (that id was already occupied by the dependency sweep; the
   duplicate-id guard caught the collision). Analysis file:
   analysis/ELEC084_candidate_audit_LOCKED.md.
+
+## 2026-08-04 — README: the nearest-miss (whisper) block brought current
+
+- The GRV-040..052 account was accurate but frozen: it predated the
+  coefficient campaign (GRV-086..091: the category-error resolution --
+  pitch geometric, rate thermodynamic), the ring-quantum arc (GRV-092..
+  094: the snap action a universal sub-quantum constant; the whisper is
+  classical waves, not gravitons), and the fork resolution (GRV-095,
+  Sakharov branch, PVLAS-class falsifier armed). A "since 2026" paragraph
+  now carries the story forward, and the "clearest route back to a
+  second" framing is corrected to the audited ELEC-084 ranking (scale map
+  first).
