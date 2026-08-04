@@ -109,7 +109,7 @@ ascending depth, each located by derivation, each with the shape of its gate spe
 *(FND-STRAND-020..029; papers/the_detector_understood.pdf.)*
 
 ![Light and optics in the rope model, with an explicit single-photon boundary](../figures/rope_optics.png)
-*Optics with its limit drawn in: classical wave optics fully reproduced (OPT-001..010, Derived). The figure's orange single-photon marker records the boundary AS IT STOOD when drawn; that item has since been ACCOUNTED (wave through both slits, the dot as detector nucleation, the quantum delivered whole — FND-STRAND-021/025 and the third grant), and the live boundary now sits at funneling dynamics, Hong-Ou-Mandel, and Bell, per entry 4's update. [Figure notes.](../figures/README.md)*
+*Optics with its boundary drawn where it now stands (figure updated 4 Aug 2026): classical wave optics fully reproduced (OPT-001..010, Derived); single-photon observations EXPLAINED via threshold nucleation plus the priced third grant (FND-STRAND-021/025) — the dots build the fringes; and the remaining frontier named in amber (Born-rule exactness, full quantum dynamics, multi-detector correlations, decoherence status). The earlier orange NOT-reproduced version is archived, because the corpus keeps the boundary's history too. [Figure notes.](../figures/README.md)*
 
 ## 5. Galaxy rotation curves worked without dark matter
 
