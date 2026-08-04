@@ -11499,3 +11499,32 @@ A local topology-surgery control replaced ROPE-MODE-004's translated unlinked co
 - figures/README.md: the gallery now EMBEDS all eleven figures inline
   (previously descriptions only, so the GitHub gallery page showed no
   images). Descriptions and status tags unchanged.
+
+## 2026-08-04 — Figures: rope_optics updated to the post-campaign boundary
+
+- New rope_optics.png installed (canonical name; prior honest-orange
+  version archived as rope_optics_v1_archive.png per the canonicalization
+  convention). The figure's "2026 Quantum Optics Status" box was checked
+  against the registry before insertion: classical suite backed by
+  OPT-001..010; the single-photon-explained tier backed by
+  FND-STRAND-006/007/021 plus the third grant (priced in the caption);
+  the amber frontier matches the surveyed edges (Born exactness, full
+  dynamics, multi-detector correlations, decoherence). Known blemish
+  (bottom-banner spacing typo) noted in figure notes. figures/README
+  entry rewritten; SURPRISES optics caption synced to the new figure.
+
+## 2026-08-04 — RELEASE v3.9.0: the quantum arrives whole
+
+- Cut spanning FND-STRAND-025..029 (the third grant and its consequence
+  harvest; the HOM pin), ELEC-084 (the candidate audit; bet count holds
+  at one), the detector paper, the all-papers header standardization,
+  and the front-door/docs/figures wave.
+- Corpus at cut: 488 claims (109 Derived, 341 Modeled, 4 EFT-constrained,
+  4 Conjecture, 5 Open, 25 Failed-and-kept); 469 code-backed, all
+  passing.
+- Release checklist (three items): README release line bumped;
+  CITATION.cff at 3.9.0, date already current; release notes at
+  docs/RELEASE_NOTES_v3.9.0.md.
+- Carried forward: the fourth-grant decision (the HOM pin is its brief);
+  Phase B source sector; the absolute-scale map as the audited route to
+  a second confronted bet.
