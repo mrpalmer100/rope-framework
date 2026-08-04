@@ -13,7 +13,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 
 > **What this is:** The Rope Hypothesis is a classical mechanical model of physics built on one substrate and two stated assumptions, developed under an unusual discipline: 482 registered claims with pre-committed pass/fail criteria, 464 backed by executable benchmarks, 105 at Derived (proved from stated assumptions), and 25 failures kept on permanent display. It is strongest in electromagnetism, optics, the mechanical sectors, and the measurement/detector sector, where a twenty-session campaign produced a parameter-free Derived law for detector statistics and three new falsifiable predictions (P23-25). The gravity sector is a live derivation program: an early direct classical mechanism was falsified and kept as a finding, and the surviving induced-gravity route has since resolved its substrate fork by derivation (GRV-074..095), with the binary-pulsar and PVLAS-class falsifiers armed. **Where the story ends is stated as precisely as where it succeeds:** a classical counting model provably cannot produce Bell/CHSH violation (QB-003, kept), and the split-quantum "funneling step" behind beamsplitter statistics is a *measured* boundary of the classical detector (FND-STRAND-024) -- each edge carries its own falsifier, because a framework is falsifiable *at* its edges. The full caveat ledger, front-loaded so a dealbreaker is found in five minutes: [`KNOWN_LIMITATIONS.md`](KNOWN_LIMITATIONS.md).
 
-> **Corpus state:** 482 registered claims (105 Derived, 339 Modeled, 4 EFT-constrained, 4 Conjecture, 5 Open, 25 Failed-and-kept); 464 code-backed, all passing; 58 papers. Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
+> **Corpus state:** 483 registered claims (105 Derived, 340 Modeled, 4 EFT-constrained, 4 Conjecture, 5 Open, 25 Failed-and-kept); 464 code-backed, all passing; 58 papers. Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
 
 **🪜 [The Ladder and the Frontier](figures/rope_ladder.png)** — the whole corpus in one image: three layers, every result placed by status, and the coherent frontier where the open problems cluster. The best single-glance answer to "what is this?"
 
@@ -38,7 +38,7 @@ every strand parameter, both scale branches, with a verifier
 **New reader?** Start with `docs/STATE_OF_THE_PROGRAMME.md` — a short, current
 account of what the framework claims, what it predicts, what was retired and why.
 
-## What this corpus actually bets: one prediction
+## What this corpus actually bets: one confronted prediction, and two new candidates
 
 A census against four locked criteria (quantitative; distinctive in OBSERVABLE
 OUTCOME; checkable; live), then a full audit of every entry against what the
@@ -51,6 +51,19 @@ survivor (ELEC-062 -> -063 -> -064 -> GRV-049), leaves ONE:
   measurement, already at 2.06 sigma alone; a 3 sigma confirmation of its 2025
   central value would REFUTE the claim, and needs only a factor 1.45 in sigma —
   reachable ~2027-2030.
+
+**The detector campaign's candidates, audited (ELEC-084):** P23 and P24 were run
+through the same four locked criteria, unrelaxed, with the PRED-002 precedent
+applied to ourselves. NEITHER qualifies: P23's signature (dark-count drift at
+constant temperature) is shared with textbook afterpulsing and carries no
+committed timescale while the absolute scale stays open (T2); P24's
+zero-parameter power law follows from independence plus intensivity, which
+standard independent-site device models also assume, so both frameworks predict
+the same outcome (T3 -- a genuine Derived achievement that does not
+discriminate). The bet count therefore STANDS AT ONE, and the ranked promotion
+path is registered on the claim: the absolute-scale map (FND-MATTER-003)
+unlocks P23 and P25; P24's small-N violation domain is the nearest
+instrument-facing discriminator.
 
 **The nearest miss**, and the corpus's clearest route back to a second: GRV-040's
 whisper at omega = 0.23 kappa. Committing its flux (GRV-049) showed the emission

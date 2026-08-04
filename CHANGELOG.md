@@ -11286,3 +11286,35 @@ A local topology-surgery control replaced ROPE-MODE-004's translated unlinked co
   each in a short plain paragraph before any detail, closing with the
   honest funneling-step boundary. README reading-order pointer updated
   to match.
+
+## 2026-08-04 — README bets section: header made honest, candidates listed without promotion
+
+- "What this corpus actually bets: one prediction" predated the detector
+  campaign. Retitled to "one confronted prediction, and two new
+  candidates," with P23 (constant-temperature dark-count drift) and P24
+  (the zero-parameter size law) listed explicitly as census-grade
+  CANDIDATES awaiting the four-locked-criteria audit -- not promoted past
+  the census discipline that produced the original count. PRED-003
+  remains the one confronted bet; the candidate audit is a named light
+  session.
+
+## 2026-08-04 — ELEC-065: the candidate audit -- the census is no respecter of favorites
+
+- P23 and P24 run through the four locked criteria exactly as ELEC-062/064
+  did, unrelaxed. NEITHER qualifies T1: P23 -> T2 (signature shared with
+  textbook afterpulsing; no committed timescale under scale-openness; the
+  discriminating branch needs the unbuilt scale map); P24 -> T3 (the
+  power law follows from independence + intensivity, which standard
+  independent-site models also assume -- a Derived achievement that does
+  not discriminate; the PRED-002 precedent applied to ourselves).
+- The bet count stands at ONE (PRED-003). README bets section corrected
+  from "candidates awaiting audit" to the audited verdicts.
+- Constructive residue, ranked: the FND-MATTER-003 scale map unlocks P23
+  and P25; P24's small-N violation domain is the nearest instrument-facing
+  discriminator; the P25 conjunction is the sector's strongest
+  in-principle fork (T2 today).
+- Corpus 483 claims; heartbeat passing.
+- CORRECTION to the entry above: the audit claim registered as ELEC-084,
+  not ELEC-065 (that id was already occupied by the dependency sweep; the
+  duplicate-id guard caught the collision). Analysis file:
+  analysis/ELEC084_candidate_audit_LOCKED.md.
