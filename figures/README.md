@@ -63,16 +63,28 @@ UNCONDITIONAL). The figure's own SCOPE box is correct: classical weak-field only
 or quantum-gravity claim. The story behind this figure is the corpus in miniature -- a failure
 kept, then overturned by derivation.
 
-## rope_optics.png — Classical optics as transverse rope waves
+## rope_optics.png — Light and optics, with the 2026 quantum-optics status box
 
 ![rope_optics.png](rope_optics.png)
-Light as a real transverse wave in the medium; interference, single/double-slit diffraction,
-the intensity law -- and an explicit single-photon boundary. **Status: corpus-faithful,
-boundary included.** Backed by the Optics sector (OPT-001..010, all Derived: Huygens,
-sinc^2 diffraction, standing waves, waveguide cutoff, TIR, Snell, Fresnel, Brewster). Panel 5
-draws the honest limit in orange: single-photon self-interference is NOT reproduced by the
-classical rope-wave model -- the same quantum boundary the Bell analysis locates (see Surprise
-#4). Strong on classical wave optics; stops where the quantum begins, and says so.
+Light as a real transverse displacement wave of the rope network (c = sqrt(T/mu)); the full
+classical suite -- reflection, refraction, Fresnel coefficients and the Brewster zero,
+polarization (linear and circular), interference, diffraction and the Airy pattern -- each
+backed by the Optics sector (OPT-001..010, all Derived). **Status: corpus-faithful, updated
+4 Aug 2026 to the post-campaign boundary.** The new "2026 Quantum Optics Status" box replaces
+the old orange NOT-reproduced marker with the current three-tier truth: (green) classical
+optics reproduced; (green) single-photon observations EXPLAINED -- continuous field in, one
+threshold-nucleation click out, dots building the fringe pattern, detector statistics derived
+from threshold mechanics (FND-STRAND-006/007/021 plus the third grant, "the quantum arrives
+whole," FND-STRAND-025 -- the grant is priced, not hidden); (amber) the remaining frontier
+named honestly: the exact Born-rule law, complete quantum dynamics, multi-detector
+correlations (the HOM and CHSH fences), and decoherence status. Banner sentence is the
+campaign's own: particle-like localization arises from detector threshold mechanics, not from
+propagation of a localized photon. Known blemish: a spacing typo in the bottom banner
+("Rope N etwork"), noted here per house rule rather than silently tolerated.
+
+Prior version archived as rope_optics_v1_archive.png (the honest orange boundary as it stood
+before the 2026 campaigns -- kept, because the corpus keeps the boundary's history as
+carefully as the boundary).
 
 ## rope_nuclear.png — Nuclear physics: the strong force and beyond
 
