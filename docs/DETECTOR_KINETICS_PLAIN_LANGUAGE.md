@@ -1,12 +1,79 @@
-# What Small Isolated Detectors Do, and Why: A Plain-Language Account
+# The Detector, Understood: Single-Photon Phenomena in the Rope Framework, in Plain Language
 
-*Companion to the strand-kinetics campaign, FND-STRAND-009 through 021
-(releases v3.7.0 and the following cut). Written for a reader outside the
-project. Every claim referenced here has a registered entry in
+*Companion to the measurement-sector campaigns, FND-STRAND-009 through 029
+(releases v3.7.0 onward), including the third grant. Written for a reader
+outside the project. Canonical paper: `papers/the_detector_understood.pdf`;
+this markdown is its living source. Every claim referenced here has a registered entry in
 `claims.yaml`, an executable benchmark, and pre-committed pass criteria in
 `analysis/`.*
 
 ---
+
+## The standard evidence for quantized light: a six-item scoreboard
+
+Physics textbooks support quantized light with a standard list of
+experiments. Since the framework adopted its third assumption (the
+quantum arrives whole, explained below), each item on that list now has
+a definite, registered status. Here is the scoreboard, in plain terms.
+
+**1. Beam-splitter correlations (Grangier-Roger): DERIVED.** Send one
+photon at a half-silvered mirror and exactly one side clicks, 50/50,
+never both. The classical machinery measurably could not do this (the
+split packet clicked neither side). With the third assumption plus the
+framework's existing probability rule, it becomes one line of
+arithmetic: the whole quantum lands on one side, with odds given by the
+energy each side receives.
+
+**2. Antibunching: DERIVED, with a bonus theorem.** A true single-photon
+source never produces two clicks at once. The framework proves something
+stronger and practical: the antibunching measurement is immune to loss.
+No amount of detector inefficiency or imbalance can fake or destroy it,
+which is exactly why the historic experiments could trust their result.
+The famous measured value of 0.18 gets a sharper reading too: it is not
+"imperfect antibunching" but a direct measurement of how often the
+source accidentally emits two photons.
+
+**3. Photon-count statistics: DERIVED, both regimes.** Laser light
+clicks randomly (Poisson); lamp light clicks in bunches
+(Bose-Einstein). Both fall out of the framework's own detector, and a
+small theorem explains a piece of history: for ordinary light, the
+smooth-wave description and the counting-quanta description give
+IDENTICAL statistics. That is why classical optics thrived for a century
+without photons, and why only special quantum light sources could ever
+force the issue.
+
+**4. Delayed choice: DERIVED AS A NON-PARADOX.** Wheeler's famous
+puzzle -- decide how to measure AFTER the photon is in flight, and it
+seems to retroactively "choose" wave or particle behavior -- dissolves
+because the framework never had a particle that chose anything. The
+wave takes both paths in every configuration; the only event is the
+click at the end; a late change to the apparatus just changes what the
+still-flying wave will meet. As a bonus, the celebrated wave-particle
+trade-off formula (V squared plus D squared equals one) comes out as
+four lines of energy bookkeeping.
+
+**5. Hong-Ou-Mandel interference: PINNED, not yet explained.** Two
+identical photons meeting at a splitter always exit together -- the
+deepest two-photon effect below Bell tests. The framework derives its
+own exact shortfall: its wave picture can reach at most half the
+measured effect, its granular picture predicts none of it, and the
+missing ingredient is located precisely (a correlation in how two
+identical quanta are DELIVERED, not in how they travel or are
+detected). The shape of a fix is specified, with its own kill
+conditions pre-drafted, and deliberately not yet adopted.
+
+**6. Heralded single photons, and the quantum eraser: HONESTLY
+DEFERRED.** Heralding (using one photon of a pair to announce its twin)
+mostly needs something the framework has not built yet: a mechanical
+model of the SOURCE, not the detector. And the entangled quantum eraser
+sits behind the framework's oldest proven boundary: a counting model
+cannot produce Bell-type correlations, full stop, and the registry says
+so rather than promising otherwise.
+
+The pattern across the scoreboard: four items converted from quantum
+mystique into detector bookkeeping, one bounded with its missing piece
+located to the millimeter, one deferred with the reason named. Every
+verdict traces to a registered claim with an executable check.
 
 ## Three questions this framework can now answer
 
@@ -248,6 +315,11 @@ borders are where the next expedition starts.
 - The exclusivity arc and the surveyed edge: FND-STRAND-022, 023, and
   024, with the limit statement now in `papers/falsifiable_predictions.pdf`
   ("A Registered Limit — The Funneling Step").
+- The third grant and the scoreboard's derivations: FND-STRAND-025
+  (the grant and the beamsplitter), 026 (antibunching and the
+  faithfulness theorem), 027 (Mandel counting and the correspondence
+  theorem), 028 (delayed choice and the duality relation), 029 (the
+  Hong-Ou-Mandel pin).
 
 Every number quoted above can be recomputed from the archived datasets by
 running the corresponding benchmark.

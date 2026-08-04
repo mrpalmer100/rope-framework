@@ -280,3 +280,5 @@ The corpus is organised in three tiers: **(1) In-domain** classical results (the
 ---
 
 **Machine-readable companions (new):** `claims.yaml` is the machine-readable claim registry (id / status / paper / benchmark / depends_on) consumed by `tools/verify_corpus.py` (one-command verification: runs every referenced benchmark) and `tools/build_depgraph.py` (emits `docs/dependency_graph.dot` / `.txt`). Run `make verify` or `python tools/verify_corpus.py` to reproduce every code-backed claim; see `docs/dependency_graph.txt` for what depends on what.
+
+- **the_detector_understood** — "The Detector, Understood: Single-Photon Phenomena in the Rope Framework, in Plain Language." Reader-facing account of the measurement-sector campaigns (FND-STRAND-009..029): the six-item scoreboard for the standard quantized-light evidence, the three questions answered, the switch-on story, and the surveyed edges. Source: docs/DETECTOR_KINETICS_PLAIN_LANGUAGE.md.
