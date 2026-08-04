@@ -10727,3 +10727,562 @@ A local topology-surgery control replaced ROPE-MODE-004's translated unlinked co
   rope_gravity.png = the corrected all-regimes figure); originals archived as
   *_v1_archive.png; duplicate names removed; every reference re-pointed.
   rope_ladder_v2.png remains the separate per-sector status ladder.
+
+## 2026-08-03 — GRV-092: the fourth cancellation -- the medium secretes an action constant
+
+- THE FOURTH CANCELLATION (machine-exact): snap energy ~ 1/sigma, local ring
+  frequency ~ 1/sigma, so the snap ACTION A* = (beta/0.23) Sigma a^3 h/(chi c)
+  is depth-blind AND mass-blind -- a universal medium constant the horizon
+  chain produced unasked.
+- THE NUMBER: n_q = A*/hbar = 1.1e-4..4.6e-4 (F-Lor); 1e-22-class (F-Sak).
+  Each snap is sub-quantum: the whisper is CLASSICAL gravitational radiation
+  at leading order -- waves, not gravitons; one graviton's action per
+  ~2200-9200 snaps. Sharp structural divergence from Hawking (quantized by
+  construction); no shot structure at hbar omega_ring.
+- THE FORK'S THIRD LEVER: 17 orders in n_q between branches.
+- THE REFUSAL: A* != hbar convicts nothing -- hbar-quantization of gravity was
+  never derived here. The L1 row gains what it never had: a number with a
+  provenance and a closed form for the gap.
+- NEXT: the cross-registry action audit (Sigma a^3 h/c vs GRV-075's G,
+  HBAR-005, PRED-003's alpha -- if the registered hbar relations contain
+  tonight's combination, the gap becomes an equation); then the release.
+
+## 2026-08-03 — GRV-093: one form, two areas -- the hbar gap becomes an equation
+
+- THE FORM IDENTITY (machine-exact, pre-named before evaluation): hbar =
+  T0 [l_q^2/(4 pi alpha)]/c (PRED-003, registered) and A* = T0 [(3 beta/
+  (0.23 chi)) a h]/c (GRV-092, emergent) -- ONE action-form across two
+  sectors; ratio n_q = 4 pi alpha (3 beta/(0.23 chi))(a h/l_q^2), no residual
+  factor.
+- NUMERIC CLOSURE, no tuning: 1.4e-4..4.1e-4 vs GRV-092's independent
+  1.1e-4..4.6e-4.
+- THE HONESTY CLAUSE: l_q entered the registry through the alpha relation --
+  identity in registered invariants, circularity flag on the claim's face.
+- THE ARCHITECTURE: the quantum area is a-INDEPENDENT (fork-invariant, as a
+  constant of nature must be); the snap area is the lattice's own and carries
+  the whole 17-order fork lever. Constants and conventions separated
+  themselves along the invariance line unprompted.
+- THE L1 ROW'S FIRST WELL-POSED TARGET: derive the selection of
+  l_q^2/(4 pi alpha) -- geometry with a target number. Named, not scheduled.
+- NEXT: the release cut (GRV-092/093).
+
+## 2026-08-03 — GRV-094: the invariance sweep -- four-for-four, and the one-power theorem
+
+- h ADJUDICATED: d_c is electron-anchored (ELEC-021's calibration-independent
+  invariant), fork-invariant -- GRV-088's last suspect closes; the coefficient
+  campaign's ledger is complete at four-for-four, zero survivors.
+- THE ONE-POWER THEOREM (machine): holding invariants fixed, every
+  fork-sensitive arc quantity carries exactly a^1 (C, A*, n_q) and every
+  physical constant a^0 (quantum area). Conventions pass through eleven
+  sessions of construction linearly, never compounding. Consequence: any one
+  pin of {C, A*, n_q} resolves the fork corpus-wide.
+- Retired-spacing flag: HBAR-005's spacing role superseded; its thickness
+  stands on the electron anchor.
+- Guarded observation, discounted: 4 pi alpha l_q vs a_Lor at 27% --
+  adjacency to a bound-valued convention, the weakest kind; eta-MeV precedent
+  cited.
+- Queue: tensor coefficient (P3, fresh-budget); area-selection (L1,
+  unscheduled); weave-as-reservoir; release when preferred (GRV-092..094 the
+  ring-quantum arc).
+
+## 2026-08-03 — GRV-095: the tensor coefficient -- and the fork forced to F-Sak
+
+- P3 BOUNDED before it could matter: the dictionary factor enumerated (families,
+  polarizations, the exact one-metric's fixed normalization) and bracketed
+  [1e-2, 1e2], locked in the bars.
+- THE DECISIVE COMPARISON: F-Lor's induced EH tension misses c^4/16 pi G by
+  33.8 ORDERS at the bracket's most generous edge -- unrescuable. F-Sak solves
+  at 0.8..78 Planck lengths.
+- THE VERDICT: the corpus's gravity IS the derived induced channel, so F-Lor
+  would require a second, unregistered mechanism -- THE FORK RESOLVES TO
+  F-SAK by derivation and economy. a adopted at eight Planck lengths within
+  sqrt(D); F-Lor demoted, not deleted; conditions C1/C2 on the claim's face;
+  the PVLAS-level nonlinearity is the resolution's own falsifier.
+- THE CASCADE (one substitution, per GRV-094): Sigma = 2.3-3.2e71; n_q =
+  1e-22-class (one quantum per ~1e22 snaps -- the whisper classical beyond
+  interrogation); the Hawking-form coefficient takes its final bracket.
+- Residual: exact-D on the 3D instrument (precision, not decision). Banked
+  unreleased: GRV-092..095, the ring-quantum-and-fork arc.
+
+## 2026-08-03 — FND-STRAND-009: the weave-as-reservoir session -- the bath gets a clock
+
+- THE QUESTION (queued since QB-033/FND-STRAND-006, carried by GRV-094): who
+  sets the Kramers prefactor on the derived gapped bath? Bars locked before
+  computation (nu-identification window [1/3,3] x omega_min; O(1)-Boltzmann
+  check; supply-limited vs attempt-limited grammars both fixed).
+- B1 (Boltzmann limb): MARGINAL-BREACH, logged literally -- r^2 = 0.9639 vs
+  bar 0.97 at the pre-registered seed budget; audit clears at 0.9854 but
+  trips the censoring clause (1/24); shape unambiguous, DeltaE_eff stable
+  1.9-2.1. Bar diagnosed mis-budgeted for exponential waiting-time
+  statistics; nothing rewritten.
+- B2 (nu-identification): SUPPORTED AT EVERY HANDLING, NOT PROMOTED --
+  nu = 0.47-0.64 x omega_min on all three readings, inside the locked O(1)
+  window: the attempt rate IS the weave band gap to O(1), promotion withheld
+  per the no-promotion rule (conditional on a clean B1). Promotion path
+  named: rare-event rerun, seed budget priced to the estimator.
+- B3 (regime adjudication): ATTEMPT-LIMITED, clean pass -- x16 coupling sweep
+  moves tau by 1.9x, slope +0.238 (|s| <= 0.3), and the POSITIVE sign is the
+  spatial-diffusion Kramers flavor: the bath thermalizes, never throttles.
+  Consequence (conditional, as pre-committed): Prediction 11's dark-count
+  prefactors inherit the STRAND MASS SCALE, not the environment coupling.
+- PROTOCOL DEVIATION on the record: locked h = 0.65, run at h = 0.55 (the
+  STRAND-008 registered operating point) -- caught at registration, bound
+  into the promotion path.
+- THE CHAIN NOW READS: amplitude from strand frames, event from strand
+  topology, noise from strand thermodynamics, spectrum from strand
+  structure, RATE from strand spectrum. The last generic ingredient has a
+  provenance. Corpus 467 claims (449 code-backed); benchmark
+  strand_attempt_rate.py passing.
+
+## 2026-08-03 — FND-STRAND-010: the promotion rerun -- the clock is measured
+
+- THE TWO OPEN ITEMS ADJUDICATED BEFORE ANY RUN: h re-locked at 0.55 with
+  the rationale on the bars' face (0.65 was near-ballistic -- no Arrhenius
+  regime existed there to measure); seed budget PRICED to the exponential
+  estimator (S = 64/point for expected r^2 0.979 against the unchanged 0.97
+  bar); tmax raised to 12000 units against the one censoring exposure.
+- B1' PASSES WITH ROOM: DeltaE_eff = 2.112 at r^2 = 0.9965, zero censoring
+  across 256 runs -- STRAND-009's breach is now MEASURED to have been
+  statistics, not shape.
+- B2' PROMOTED: nu = 0.451 x omega_min, inside [1/3, 3]. THE ATTEMPT RATE
+  IS THE WEAVE BAND GAP TO O(1): tau = O(1) x omega_min^-1 x exp(DeltaE/T),
+  every symbol corpus-internal (bath derived, spectrum measured, regime
+  attempt-limited).
+- CONSEQUENCE, conditional lifted: Prediction 11's dark-count/latency
+  prefactors sit at the strand mass scale -- the same spectral location as
+  Prediction 10's decoherence floor: two instrument-facing predictions
+  pinned to ONE structural scale.
+- Dataset archived verbatim (analysis/STRAND010_promotion_data.json); the
+  benchmark refits the archive and pins the registered numbers.
+- Corpus 468 claims (450 code-backed); benchmark
+  strand_attempt_rate_promotion.py passing.
+
+## 2026-08-03 — GRV-086 benchmark CI repair: the chain-split bar retired
+
+- mode_count.py's chain-split assertion diverged across BLAS builds even in
+  seed-ensemble means (20% local, 37% on GitHub CI, identical code): it reads
+  equilibration through the single coupling site -- the slowest mode -- and a
+  chaotic cell's late-time slowest-mode value is hostage to rounding.
+- RETIRED AS REDUNDANT, not merely inconvenient: one chain spans at most 9 of
+  the 18 modes, so ensemble-mean PR > 13.5 proves cross-chain sharing outright.
+  PR is the asserted sufficient statistic (this environment: 15.2/18, 84%);
+  the split is reported as a diagnostic. The registration-platform record and
+  the FPU diagnosis stand untouched; the retirement is annotated on GRV-086's
+  face and in the benchmark's own comments.
+
+## 2026-08-03 — FND-STRAND-011: the N-sweep -- nu is not box-free
+
+- THE LOCKED PROTOCOL FIRED AND STANDS: one censored run at N = 24 (1/64) ->
+  NO-VERDICT at the locked window; the design miss owned (the pricing lesson
+  was applied to seeds, not the window -- the smallest box is the slowest).
+- THE AUDIT, honest about being informed: the censored run COMPLETED by
+  deterministic replay under a uniform window extension (no imputation;
+  straggler escaped at 17015), and the addendum's added grammar class was
+  written after the diagnostic was seen -- so the session's ceiling is
+  REGISTERED-AS-MEASURED, promotion reserved for blind bars.
+- THE MEASUREMENT: mean escape 1569 / 458 / 157 at N = 24/48/96, slope
+  s = -1.661 at r^2 = 0.9984 -- SUPER-EXTENSIVE, steeper than per-site
+  rate-additivity; the local-first-passage diagnostic (-1.40) shows growth
+  convolution is not the whole excess.
+- THE CONSEQUENCE NEEDING NO AUDIT: the censor-free 48->96 leg alone
+  (-1.545) kills the intensive grammar -- STRAND-010's promotion wears its
+  scope note: the band gap is the per-event Arrhenius CLOCK; the
+  N-dependence carries the event ENTROPY, measured, not yet decomposed.
+- NEXT: the blind four-point sweep (N = 24..192, per-N windows, first-event
+  observable) to separate finite-size barrier relief from multi-seed
+  conversion.
+- Corpus 469 claims (451 code-backed); benchmark strand_N_sweep.py passing.
+
+## 2026-08-03 — FND-STRAND-012: the blind four-point sweep -- a crossover, not an exponent
+
+- RUN BLIND as specified: grammar, seeds, per-N windows, promotion criteria
+  all locked before any trajectory; ZERO censoring on any channel at any box
+  (the window lesson executed and vindicated).
+- B1 (nucleation, t_first): s_f = -1.218, INTERMEDIATE -- and the pairwise
+  structure is the finding: -1.45 / -1.45 / -0.67, steep at small boxes,
+  flattening to rate-additivity at large ones. Finite-size barrier relief
+  that EXHAUSTS itself.
+- B2 (conversion, t_conv): s_c = -1.082, PARALLEL CONVERSION clean --
+  a bigger ring seeds more pairs and they finish together.
+- B3: recomposition exact per run; continuity with 011's exponent fails
+  (+0.529), diagnosed as N = 24 HEAVY-TAIL ESTIMATOR FRAGILITY (batch means
+  swing ~2x within both sessions) -- the arc's THIRD pricing miss (seeds,
+  window, now tail shape), named into the standing rule.
+- STRAND-011 adjudicated with precision: super-extensive CLASS survives on
+  the clean mid legs (twice measured); exponent VALUE (-1.661) retired as
+  estimator-limited.
+- NO PROMOTION by the blind bars' own criteria -- for the physical reason:
+  a crossover exists, a single exponent does not. At large (lab-relevant) N
+  the picture simplifies toward per-site Poisson at the band-gap clock with
+  parallel conversion -- what Prediction 11 wants.
+- NEXT: tail-robust refit on archived data (free); the {192, 384} asymptote
+  pair; the per-N saddle computation.
+- Corpus 470 claims (452 code-backed); benchmark strand_four_point_sweep.py
+  passing.
+
+## 2026-08-03 — FND-STRAND-013: the tail-robust refit -- two survivals, two refusals
+
+- ZERO NEW COMPUTE: estimators (inter-quantile survival-rate fit; median
+  diagnostic) frozen before the archives were touched; no estimator shopping.
+- THE SENTENCE THAT MATTERS: the identification survives BOTH estimators --
+  nu = 0.451 (mean) and 1.467 (rate), opposite failure modes, one O(1)
+  window around the band gap. CONFIRMED-ROBUST on STRAND-010's face.
+- REFUSAL 1: the barrier value is estimator-sensitive (2.112 vs 2.634, 25%)
+  -- flagged, not averaged.
+- REFUSAL 2: the N = 24 fragility is PHYSICAL -- per-batch robust rates
+  swing 2.0-2.5x (bar 1.35), no better than the mean: thermal initial
+  conditions partition into genuinely slow and fast classes at the smallest
+  box. The per-seed hazard census is named.
+- THE STRUCTURAL FINDING: 7/14 archived points fail constant-hazard
+  mid-distribution -- the waiting-time distribution carries structure beyond
+  one Kramers rate; the crossover survives robustly (-2.04/-1.80/-0.81);
+  011's exponent further confirmed malformed (-2.447 robust vs -1.661 mean).
+- Prediction 11 gains texture: the engine now specifies what deviation from
+  ideal Poisson click statistics should look like.
+- Corpus 471 claims (453 code-backed); benchmark strand_tail_refit.py passing.
+
+## 2026-08-03 — FND-STRAND-014: the hazard census -- non-memoryless escape, and a question closed
+
+- CENSUS: n = 256 at N = 24, zero censoring; mean/median = 3.8 (the tail in
+  one number). Covariates, stratifier, windows, bootstrap all locked blind.
+- B1 INTERMEDIATE: weave-energy covariates significant, physically signed
+  (more energy -> faster escape) but weak (rho ~ -0.17) -- the measured
+  functionals carry a few percent of the dispersion.
+- B2/B3: pooled hazard falls 3x (R = 0.326) and ALL terciles fall too --
+  stratification flattens nothing. AGING-CLASS registered AS MEASURED, with
+  a locked-clause conflict resolved against ourselves (no promotion) and
+  the frailty degeneracy named as a flaw in our own bars.
+- B4 CLOSED: the STRAND-011/012 batch swings (2.07, 2.54) sit inside the
+  census bootstrap band [1.02, 3.39] -- no generator anomaly ever existed;
+  heavy-tailed sampling at n = 32, nothing more.
+- THE WAY FORWARD: survivor thermometry -- state, not covariates -- to test
+  the finite-bath-cools mechanism. If it lands, Prediction 11 gains a
+  drifting-dark-rate signature no ideal-Poisson model produces.
+- Bar-drafting lessons logged: check clauses pairwise; never write an aging
+  grammar without naming frailty.
+- Corpus 472 claims (454 code-backed); benchmark strand_hazard_census.py
+  passing.
+
+## 2026-08-03 — FND-STRAND-015: survivor thermometry -- the cooling story killed, the aging pinned to a corner
+
+- THE INSTRUMENT WORKED AND SAID NO: bath kinetic temperature FLAT to five
+  parts in 10^4 (rho_T = 0.9995 vs a 0.90 cooling bar) across the
+  hazard-relevant range, while the hazard fall REPRODUCED on fresh seeds
+  (R = 0.429). Kill-verdict audit run before interpretation: the
+  thermometer reads the 0.400 initialization exactly and resolves the 3.5%
+  equilibration dip -- an order of magnitude finer than the effect the
+  hypothesis needed. The kill is real.
+- B2 moot by its own clause; descriptively the measured DeltaT predicts
+  R ~ 1.00 vs measured 0.43 -- the thermal channel explains ~none of it.
+- B3: early thermal state carries no fate (rho = -0.05, n.s.).
+- EXCLUSION TRIANGULATION across the arc: cooling killed (here),
+  early-thermal frailty excluded (here), measured-covariate frailty
+  excluded (014). The aging lives in the weave-chain COUPLED state: the
+  dressed drive -- correlations that start at zero by construction and
+  must be built by the dynamics -- is the unique remaining term in the
+  force the chain feels.
+- PREDICTION 11 SHARPENED: dark-count drift at CONSTANT stage temperature
+  -- weirder and more distinctive than thermal drift.
+- NEXT: force-noise spectroscopy (same census design, better instrument).
+- Corpus 473 claims (455 code-backed); benchmark strand_thermometry.py
+  passing.
+
+## 2026-08-03 — FND-STRAND-016: force-noise spectroscopy -- the second kill, and the pivot to theory
+
+- THE LAST NATURAL CANDIDATE EXECUTED: dressed-drive intensity FLAT to six
+  parts in 10^4 (rho_V = 0.9994 vs a 0.90 bar) while the hazard fall
+  replicated a THIRD time (R = 0.428). Kill audit: the instrument reads the
+  closed-form FDT initialization within 5%; the flat is real.
+- B2 moot (R_pred ~ 1.00 vs 0.43); B3 not-traceable at the boundary,
+  reported as such.
+- THE EXCLUSION TRIANGLE CLOSES: temperature flat, drive flat, early state
+  uninformative -- the non-exponential escape at N = 24 is invisible to
+  every natural state variable of the noise channel.
+- THE PRE-COMMITTED CONSEQUENCE FIRES: MECHANISM-OPEN registered; the
+  THEORY SESSION commissioned -- deterministic finite-N escape, three
+  framings named (phase-pattern frailty / recurrence-structured
+  first-passage / spectral reshaping), discriminating observable to be
+  DERIVED before any fourth instrument is built.
+- PREDICTION 11 RESTATED HONESTLY: the mechanism-conditional drift claim
+  retired with its mechanism; the thrice-replicated instrument-independent
+  claim stands (non-exponential dark counts at small scale), with
+  drift-vs-static-diversity the stated open fork.
+- Corpus 474 claims (456 code-backed); benchmark strand_force_noise.py
+  passing.
+
+## 2026-08-03 — FND-STRAND-017: the theory session -- killed at its own checkpoint, and the paradox dissolves
+
+- THE THEORY: frozen weave amplitudes -> deterministic phase-winding escape,
+  with a pre-registered 64-triple scramble falsifier. THE CHECK: mode
+  energies reorganize ~90% by t = 2000 -- the freezing bar (0.10) failed
+  9x. THE STOP-CLAUSE FIRED: the scramble experiment stayed in the drawer;
+  an experiment chosen after its premise collapses is shopping, not
+  evidence. Registered FAILED-AND-KEPT.
+- WHAT THE FAILURE BOUGHT: the weave is an internally MIXING thermal
+  network -- so flat temperature and flat drive are what equilibrium-static
+  aggregates over a mixing microstate look like. No more paradox: a
+  finite-mixing-time bath is non-Markovian on exactly the timescale where
+  the hazard falls.
+- THE REFINED CANDIDATE: slow-mixing memory, with three cheap predictions
+  (tau_mix ~ hazard-fall window; hazard plateau beyond it; tau_mix falling
+  with N -- reconnecting to the STRAND-012 crossover).
+- Corpus 475 claims (457 code-backed; Failed-and-kept now 25); benchmark
+  strand_theory_t1.py passing (it asserts the kill).
+
+## 2026-08-03 — FND-STRAND-018: the slow-mixing session -- pass, pass, fail, and the fail is the finding
+
+- THE CLOCK MEASURED: tau_mix ~ 175 from per-mode energy overlap -- and
+  IDENTICAL at N = 24 and N = 96 (r = 0.97 vs a 0.5 shrink bar). Mixing is
+  local; its clock cannot know the ring size. P3 refuted decisively.
+- P1 IN-WINDOW (with the edge-geometry strain noted at full volume);
+  P2 PLATEAU-CONSISTENT on the pooled n = 512 (lambda ratios 0.371 then
+  0.778 -- deceleration toward a floor). NO promotion (P3).
+- THE REFRAMING: labeled exploratory check on archived data -- R(96) =
+  0.479, right in the N = 24 range. The falling hazard is plausibly
+  N-GENERAL; the 'small-box anomaly' was partly where the MEAN ESTIMATOR
+  misbehaved, not where the physics lives.
+- NEXT: the N-generality blind session -- R(N) across four sizes, per-N
+  priced; the fork decides whether Prediction 11's non-Poisson signature
+  is size-free (intensive bath-mixing transient) or carries an onset scale.
+- Corpus 476 claims (458 code-backed); benchmark strand_slow_mixing.py
+  passing.
+
+## 2026-08-03 — FND-STRAND-019: the fork resolves -- SIZE-EFFECT, and the arc gets its ending
+
+- THE TABLE (zero censoring, bootstrap CIs committed): R = 0.371 / 0.281 /
+  0.479 / 0.972 at N = 24/48/96/192; slope s_R = +0.495. The transient is
+  strong at small N and GONE by 192 (consistent with ideal Poisson).
+- The exploratory R(96) hint superseded on schedule -- one point whispered
+  N-general; the committed table shouted otherwise. Quarantine worked.
+- EVERYTHING SNAPS INTO PLACE: 012's rate-additivity crossover (channels
+  independent by 96->192), 018's intensive tau_mix (per-channel memory
+  always present), 015/016's flat aggregates, 014's distributional
+  dispersion -- one sentence: a finite detector's click statistics deviate
+  from Poisson by an amount set by how FEW independent nucleation channels
+  it contains, over an epoch set by the bath's intensive mixing time.
+- PREDICTION 11 final form (pending derivation): the non-Poisson signature
+  carries a SIZE CONDITION -- a counting statement (channel number), not a
+  new constant.
+- NEXT: the POISSONIZATION SESSION -- Khinchin superposition derived for
+  this engine, parameter-free R(N) vs tonight's table; a Derived-status
+  candidate that would promote the eleven-session arc into a cornerstone.
+- Corpus 477 claims (459 code-backed); benchmark strand_N_generality.py
+  passing.
+
+## 2026-08-03 — RELEASE v3.7.0: the ring's quantum, and the detector that remembers
+
+- Cut spanning GRV-092..095 (the ring-quantum-and-fork arc: snap action a
+  universal sub-quantum medium constant; the fork forced to F-Sak) and
+  FND-STRAND-009..019 (the bath-kinetics campaign: clock promoted, two
+  mechanisms killed, one theory Failed-and-kept, and the Poissonization
+  resolution), plus the GRV-086 CI bar retirement.
+- Corpus at cut: 477 claims (104 Derived, 335 Modeled, 4 EFT-constrained,
+  4 Conjecture, 5 Open, 25 Failed-and-kept); 459 code-backed, all passing.
+- README release line bumped (checked against the v3.3.0
+  silent-pattern-miss lesson); release notes at
+  docs/RELEASE_NOTES_v3.7.0.md.
+- Headline debt carried forward: the Khinchin/Poissonization derivation --
+  one theorem from promoting the strand arc into a Derived cornerstone.
+- CITATION.cff version field found stale at 2.5.0 (a second silent
+  pattern-miss, sibling of the v3.3.0 README lesson): bumped to 3.7.0 with
+  the release date; the release checklist gains a third line item.
+
+## 2026-08-03 — FND-STRAND-020: the Poissonization law -- Derived, and the arc gets its cornerstone
+
+- THE LAW: S_N = S_24^{N/24} under independence + intensivity +
+  proportional count -- the reference channel count CANCELS; zero fitted
+  constants. Mechanism: window compression -- nothing Poissonizes, nothing
+  forgets; a large detector simply never looks at the intensive
+  per-channel memory, because first-passage among many channels reads only
+  the hazard's flat opening stretch.
+- THE CONFRONTATION (archives only, predictions before comparison):
+  R_pred = 0.292/0.647/0.930 at N = 48/96/192 vs measured
+  0.281/0.479/0.972 -- 3/3 inside registered CIs; medians to factors
+  1.14/1.10/1.30 (bar 1.5), the lone strain at 48 in the exact direction
+  012's barrier relief pre-named. PROMOTED AT DERIVED.
+- RETIRED BY THE PROMOTION: the fork's mechanism gap (019); the
+  hazard-shape session (013's flags are the law's corollary). Prediction
+  11 in closed form: dark-count survival = per-channel curve ^ channel
+  count.
+- THE ISOLATED REMAINDER: why the per-channel curve has its shape -- the
+  right-sized next question.
+- Corpus 478 claims (105 Derived, 335 Modeled; 460 code-backed); benchmark
+  strand_poissonization.py passing.
+
+## 2026-08-03 — FND-STRAND-021: the switch-on session -- the mystery was in the first line of every script
+
+- THE EXPERIMENT: change nothing but the preparation -- metastable-well
+  equilibrium (draw verified against variance targets) instead of the
+  product state every prior session used.
+- ALL THREE LIMBS: R_eq = 0.932 (CONSTANT; product-state: 0.33-0.43 thrice
+  replicated) -- the transient is GONE; lambda_eq = 5.46e-4 vs the
+  registered plateau 4.06e-4 (factor 1.34) -- the plateau IS equilibrium;
+  exponential escape (r^2 = 0.956). PROMOTED.
+- THE ANSWER: the falling hazard was PRODUCT-STATE SLIP -- the switch-on
+  transient of phi = zeros -- and seven sessions of flat instruments were
+  measuring stationary aggregates while the slip lived in the
+  non-stationary correlations they integrate out. Each kill was a
+  load-bearing exclusion on the path to noticing the zeros.
+- PREDICTION 11 FINAL FORM (two regimes, every clause with provenance):
+  after a quench, small detectors show the non-Poisson switch-on transient
+  for one bath-correlation epoch, compressed away at scale by the
+  STRAND-020 power law; in steady state, all sizes are textbook Poisson at
+  the plateau rate with the band-gap prefactor.
+- THE KINETICS PROGRAM (009-021, thirteen claims) CLOSES. Residuals are
+  precision, not mystery: the per-N saddle; exact-D; the analytic slip
+  curve as optional polish.
+- Corpus 479 claims (461 code-backed); benchmark strand_switch_on.py
+  passing.
+
+## 2026-08-03 — Docs: plain-language account of the detector-kinetics campaign
+
+- NEW: docs/DETECTOR_KINETICS_PLAIN_LANGUAGE.md -- "What Small Isolated
+  Detectors Do, and Why," a reader-facing account of FND-STRAND-009..021:
+  the two-regime dark-count picture (steady-state Poisson with the
+  band-gap prefactor; the switch-on transient after a quench), the
+  parameter-free size law and its Derived promotion, the honest history
+  of the wrong turns (the flat instruments, the buried theory, the zeros
+  in the first line), the experimentalist-facing statement of Prediction
+  11, and the absolute-scale caveat stated plainly.
+- Pointers added in README (reading-order list) and
+  docs/STATE_OF_THE_PROGRAMME.md (records list).
+
+## 2026-08-03 — Falsifiable predictions updated: the two-regime family lands (P11 final form; P23-25 new)
+
+- papers/falsifiable_predictions (docx source + regenerated PDF, validated
+  against the original): Prediction 11 rewritten in FINAL TWO-REGIME FORM
+  (steady-state Poisson at every size with the band-gap prefactor; the
+  switch-on transient after a quench; the retired interim drift claim
+  recorded); Prediction 10 gains its kinetic corollary.
+- THREE NEW PREDICTIONS: P23 the switch-on fingerprint (dark-count drift
+  at CONSTANT temperature, one bath-correlation epoch, no thermal-drift
+  model supplies it); P24 the detector size law (S_N = S_ref^(N/N_ref),
+  zero parameters, Derived); P25 one scale, two instruments (Predictions
+  10 and 11 pinned to the same spectral location -- either falsifies
+  both).
+- At-a-glance section updated; docs/INSTRUMENTS.md instruments 5 and 6
+  synced (anchors and the sharpened click-statistician program).
+
+## 2026-08-04 — FND-STRAND-022: one quantum, one click -- the audit catches the instrument, the null teaches the physics
+
+- B0 clean (0/48 thermal fires). The committed calibration grid fired 0 of
+  168 to E = 3.1: NO-BRACKET. The pre-authorized extension found onset at
+  E ~ 19, where the B3 alibi clause fired as designed: 21/24 barred
+  "fires" at E = 24 but ONE persistent nucleation -- the FIRE observable
+  was counting transient overshoots. NO-VERDICT-BY-INSTRUMENT on the
+  exclusivity bars.
+- THE FINDING THAT SURVIVES: ~twelve kink-pair costs of delocalized
+  coherent energy, cold, produced 1 click in 240 runs -- while thermal
+  operation nucleates readily at a fraction of that. CONCENTRATION, NOT
+  ENERGY, IS THE CLICK'S BOTTLENECK: the bath is the concentrator. The
+  wave delivers the odds; the bath delivers the dot.
+- Exclusivity reframed for the redesign: scarcity of concentrations, not
+  energy drainage -- now a hypothesis with its own future bar.
+- Lessons: 4th pricing entry (bracket your calibration); persistence-
+  defined thresholds with paired instruments become the observable rule.
+- Corpus 480 claims (462 code-backed); benchmark strand_one_click.py
+  passing (it asserts the record).
+
+## 2026-08-04 — FND-STRAND-023: the thermal redesign -- the stop-clause held, and the null explained itself
+
+- B0 clean (0/48, persistence observables per the 022 rule). The PRICED
+  grid (E = 1..16): 0/120. Unbracketed despite pricing -> the bars' own
+  no-extension stop-clause held. No exclusivity verdict.
+- THE ARITHMETIC DIAGNOSIS: per-site injected KE = A^2/4 < T/2 at every
+  committed energy (5%-83% of thermal) -- the delocalized-mode "photon"
+  dilutes as 1/N and was sub-thermal everywhere, retro-diagnosing 022's
+  cold null too. The idealization, not the physics, guaranteed the nulls.
+- FIFTH PRICING LESSON: price in the INTENSIVE variable (per-site density
+  vs the thermal scale), not totals -- the fourth lesson failed on its
+  first outing because it bracketed the wrong variable.
+- CUMULATIVE FINDING (360 runs, cold + thermal, 1 nucleation): local
+  density feeds the click. The corrected redesign is specified: split
+  localized packet (~40x kT over a packet width, the real-bench scaling),
+  coincidence vs independence, intensive pricing, mandatory alibis.
+- Corpus 481 claims (463 code-backed); benchmark
+  strand_thermal_exclusivity.py passing.
+
+## 2026-08-04 — FND-STRAND-024: the split packet -- exclusivity closed, and the theory's edge surveyed
+
+- CALIBRATION (intensive pricing, first-outing bracket): the localized
+  packet response is a CLIFF -- 0/24, 3/24, 15/24, 24/24 at peak densities
+  2x-11x thermal; V50 = 1.50.
+- THE HEADLINE (well-powered): half a quantum clicks nowhere (0/48); the
+  one-quantum split clicks NEITHER lobe (0/64). Exclusivity is closed
+  trivially at the classical level -- a split quantum cannot double-click
+  because it cannot click.
+- THE REAL PRODUCT: the MEASURED CLASSICALITY LIMIT. Real photons behind a
+  beamsplitter click one arm at ~50%; this engine's split packet clicks
+  neither. The FUNNELING STEP (full-quantum reassembly at one site) is
+  extra-classical here -- the entry point of genuine quantumness, pinned
+  by data. Which-path / delayed choice / the eraser now have a precise
+  address: the far side of the funneling step.
+- Honest secondary statistics: interaction rho = 0.71 (wide CI, marginals
+  undershot the pricing) -- consistent-with-independence, no branch
+  verdict; two-full alibi letter-fail/purpose-pass logged.
+- Lessons: sixth entry (never interpolate at a sigmoid's foot) + the
+  two-stage marginal gate becomes standing.
+- FLAGGED FOR THE AUTHOR (a decision, not a computation): postulate,
+  new ingredient, or permanent honest edge for the funneling step.
+- Corpus 482 claims (464 code-backed); benchmark strand_split_packet.py
+  passing.
+
+## 2026-08-04 — RELEASE v3.8.0: the detector, understood — and its edge surveyed
+
+- Cut spanning FND-STRAND-020..024 plus the docs wave: the Derived
+  Poissonization cornerstone; the switch-on resolution closing the
+  kinetics program; the predictions update (P11 final form; P23-25 new;
+  P10 kinetic corollary) with the plain-language companion; and the
+  exclusivity arc ending at the measured classicality limit (the
+  funneling step), with the third-grant decision queued.
+- Corpus at cut: 482 claims (105 Derived, 339 Modeled, 4 EFT-constrained,
+  4 Conjecture, 5 Open, 25 Failed-and-kept); 464 code-backed, all
+  passing.
+- Release checklist (three items, per the v3.7.0 lesson): README release
+  line bumped; CITATION.cff version and date bumped; release notes at
+  docs/RELEASE_NOTES_v3.8.0.md.
+
+## 2026-08-04 — Docs and papers consolidation: the limit statement lands
+
+- papers/falsifiable_predictions (docx + regenerated PDF, validated): new
+  section "A Registered Limit — The Funneling Step (not a prediction)"
+  after Prediction 25 -- the surveyed boundary stated at full volume:
+  Predictions 11/23/24 commit about unsplit quanta; beamsplitter
+  single-arm statistics, which-path, delayed choice, and the eraser lie
+  beyond the line; the indivisible-delivery grant is queued as an
+  authorial decision, not assumed; and the limit carries its own
+  falsifier (any classical reproduction of single-arm statistics retires
+  it against FND-STRAND-024).
+- docs/DETECTOR_KINETICS_PLAIN_LANGUAGE.md: new chapter "The sequel: one
+  click, and the edge of the story" -- the cliff, the funneling step, and
+  the pending decision, in plain language; corpus pointers extended to
+  the exclusivity arc.
+
+## 2026-08-04 — README scope block rewritten (user feedback; staleness fixed, honesty kept)
+
+- The front-door "Scope (read first)" paragraph opened with three
+  negatives, cited a measurement arc eleven sessions out of date, and
+  framed the gravity sector by its earliest falsified mechanism rather
+  than the live induced route that superseded it. Replaced with "What
+  this is": strengths and discipline first (482/464/105/25), the current
+  measurement-sector results, gravity as a live derivation program with
+  the early falsification kept as the finding that forced the route, and
+  the boundaries stated in the corpus's own surveyed-edge language --
+  each edge with its falsifier. Nothing hidden: the KNOWN_LIMITATIONS
+  link stays front and center, and that file's stale gravity bullet
+  (still calling the induced route a "hope") was refreshed to the
+  post-GRV-095 state.
+
+## 2026-08-04 — Plain-language doc: the three questions, up front
+
+- docs/DETECTOR_KINETICS_PLAIN_LANGUAGE.md now opens with "Three
+  questions this framework can now answer": (1) how a single-photon
+  detector works (threshold nucleation with the medium's band gap as the
+  metronome), (2) why small detectors appear to have memory without
+  anything remembering (the switch-on echo; size hides it by arithmetic
+  via the Derived power law), (3) how single photons build interference
+  one dot at a time (the wave through both slits every time; the dot is
+  the detector firing; every dot drawn from the same standing map) --
+  each in a short plain paragraph before any detail, closing with the
+  honest funneling-step boundary. README reading-order pointer updated
+  to match.

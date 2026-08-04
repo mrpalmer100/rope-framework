@@ -41,7 +41,9 @@ therefore **adopted, not derived**, or **open**:
 - **The classical weak-field sector is FALSIFIED under stated assumptions**: the derived
   light deflection is 0.44 arcsec against the measured 1.75 (a factor ~4). This is a
   theorem-grade no-go within the defined class, not a fixable discrepancy; the leading
-  hope (a quantum-induced completion, GRV-014) is a Conjecture, honestly labeled.
+  successor is no longer a hope: the induced-gravity route became the live program and has since
+  resolved its substrate fork by derivation (GRV-074..095, v3.7.0), with its own falsifiers armed;
+  the original falsification stands untouched as the finding that forced the route.
 - Newtonian gravity IS recovered; the failure is specifically the relativistic completion.
 
 ## Electromagnetism / optics
