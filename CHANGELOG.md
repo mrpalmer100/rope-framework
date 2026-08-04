@@ -11460,3 +11460,42 @@ A local topology-surgery control replaced ROPE-MODE-004's translated unlinked co
   attribution at all gained the header). 55 affected PDFs rebuilt;
   automated conformity check across all sources and rendered PDFs: zero
   NTT, attribution present everywhere.
+
+## 2026-08-04 — SURPRISES: the 16% molecule entry no longer undersells the mass sector
+
+- Entry 6 (H2 vibration at 16%, EM-RECON-010) gained a clarifying
+  paragraph: the 16% belongs to that early electromagnetic sketch, not
+  the programme's ceiling -- atomic masses are reproduced to <0.1% from
+  hydrogen through uranium (spot elements H, He, Li, C, O, Fe, U) by the
+  composition rule, with the honest scope carried (bindings as measured
+  inputs in NUC-001; predicted by NUC-005) and the naive
+  mass-tracks-charge alternative failing by ~2.6x.
+
+## 2026-08-04 — SURPRISES: full freshness pass
+
+- Entry 6: the 0.1% mass result now leads with CARBON THROUGH URANIUM
+  (light elements noted), with the one-number-to-hold sentence added.
+- Entry 3: the gravity arc's ending brought current -- the ring quantum
+  answered (universal sub-quantum snap action; waves, not gravitons,
+  GRV-092..094) and the substrate fork resolved (GRV-095); figure caption
+  synced.
+- Entry 4: the boundary story updated -- the 2026 campaigns plus the
+  priced third grant moved the boundary by purchase (interference,
+  beamsplitter, antibunching, counting, delayed choice now derived), and
+  what remains is the three-fence surveyed program (funneling, HOM,
+  CHSH). The optics figure caption's stale "NOT reproduced" single-photon
+  marker corrected to record the boundary as-drawn vs as-standing.
+- Entry 11: benchmark count refreshed (223 -> 469 code-backed).
+
+## 2026-08-04 — Detector paper: "What the bath is"; figure gallery: images embedded
+
+- papers/the_detector_understood (+ living md source): new section
+  answering the natural reader question precisely -- the bath IS the rope
+  fabric vibrating thermally (the weave; same fabric, two roles), warm by
+  Grant 2 (priced, not derived), GAPPED (the band gap is the strand mass
+  scale and the metronome), and internally MIXING (the fact a failed
+  theory bought, and why reset detectors briefly look like they
+  remember).
+- figures/README.md: the gallery now EMBEDS all eleven figures inline
+  (previously descriptions only, so the GitHub gallery page showed no
+  images). Descriptions and status tags unchanged.
