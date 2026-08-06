@@ -200,3 +200,24 @@ this corpus spent 1 August correcting.
 *Branch note: use ONE branch throughout a calculation. The two differ by 28% in Σ
 and ~41% in T₀, and mixing them has produced errors before. The ratio γ/T₀ =
 3.50e-7 is branch-independent, as is w/a = 1/√3.*
+
+---
+
+## Card sync note — 2026-08-04 (FND-MATTER-044)
+
+**The M-point.** Solving the m_e-pinned combination T₀a = m_e c²/L (the scale
+campaign's single spent calibration, FND-MATTER-040/041) jointly with the
+invariance theorem T₀ = Σa²/3 at the lattice-anchored Σ gives the
+m_e-consistent mesh point:
+
+- **a = 6.0e-17 m** (Lorentz bound satisfied with 40% margin, no longer
+  saturated — the §2 values held a at the bound by adoption)
+- **T₀ = 434 J/m**
+
+All pairwise EM comparisons land inside the zero-point band (factor ≤ 3);
+see analysis/MATTER044_whisper_pricing_results.md. The §1–§3 tables above
+retain the historical adoption values pending full card regeneration
+(rope_parameter_card.py update flagged); treat the M-point as the working
+mesh point for scale-sensitive work. n_q is invariant under this move
+(proven), so the snap-band shortfall is a genuine residual interrogating the
+core thickness h.
