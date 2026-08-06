@@ -11528,3 +11528,717 @@ A local topology-surgery control replaced ROPE-MODE-004's translated unlinked co
 - Carried forward: the fourth-grant decision (the HOM pin is its brief);
   Phase B source sector; the absolute-scale map as the audited route to
   a second confronted bet.
+
+## 2026-08-04 — The One Fence challenge revised to v2 against corpus v3.9.0
+
+- docs/FUTURE_MODEL_PROMPT_one_fence.md rewritten: stats refreshed
+  (138 -> 488 claims); the grant count corrected to three with the
+  retirement bounty stated; a "what changed since v1" section added --
+  gravity's test (d) recognized as ~80% conquered (GRV-025/029/095 are
+  now GIVEN material, and the surviving clause -- derive a, confront G,
+  close GRV-006/007 -- promoted to the challenge's center); the derived
+  snap action (GRV-092..094) supplied as Task 1's starting material;
+  Task 2's stakes updated (ELEC-084's ranked path to a second bet; the
+  1836 road); nuclear tests flagged for re-baselining; a new optional
+  test (e) offering the F4 bounty and the HOM confrontation; the
+  discipline section extended with the month's paid lessons. v1
+  preserved in git history.
+
+## 2026-08-04 — FND-MATTER-039: the constants ledger -- the scale campaign's first brick
+
+- Registry archaeology only: eight relations tabulated with statuses
+  (the registered hbar relation; the solved induced-gravity a at eight
+  Planck lengths; the two-term matter route pinning T0 a from m_e; the
+  snap-action band; identities logged as identities to prevent misuse).
+- THE CONVERSION: FND-MATTER-005's irreducibility theorem stands, but
+  the fixings are now REDUNDANT, and redundancy is testability. Pipeline
+  pre-drafted: a (done) -> T0 (spend the one calibration on m_e,
+  author's decision) -> l_q (no freedom left) -> THE CONFRONTATION:
+  l_q/a answers GRV-093's open geometry question numerically, tension
+  or reconciliation both corpus-grade.
+- Dividends queued: T0 vs GRV-074's quantification; n_q vs the
+  snap-action band; P23 in seconds and P25 in hertz (the ELEC-084
+  unlock).
+- Corpus 489 claims (342 Modeled); closure session one decision away.
+
+## 2026-08-04 — FND-MATTER-040: the scale closure — the redundant equation says no
+
+- The MATTER039 pipeline executed with the author's calibration decision
+  (spent on the electron mass, ring GIVEN): a = 8 l_P -> T0 = 2.02e20 J/m
+  -> l_q = 3.79e-24 m -> l_q/a = 2.9e10, full bands [9e9, 1.6e11],
+  clearing the pre-drafted 1-100 window by eight orders. REGISTERED
+  TENSION between the gravity and matter routes -- the first time the
+  scale question could say no, and it did.
+- The fingerprint: four independent registered T0 anchors (quantum-area,
+  lattice, Sigma-route, rigidity) cluster within 49x; the closure T0
+  sits 17 orders above them all. The culprit is R2's identification of
+  the induced-gravity cutoff with the mesh -- the escape the
+  G-investigation conjecture pre-reserved. The gravitational micro-scale
+  and the matter mesh are not the same length; the 17 orders is
+  GRV-093's fork lever measured from a second direction.
+- The whisper (no calibration spent): the EM branch's own card values
+  put a ring mode at 4.62 m_e. Held per the whisper playbook.
+- The ELEC-084 unlock executed branch-conditionally: EM-branch P23 epoch
+  ~6e-23 s (ratifying the T2 demotion), P25 at ~3e24 Hz (hbar c/a =
+  1.97 GeV, noted not claimed).
+- FND-MATTER-003 stays OPEN, sharpened; the calibration marked SPENT.
+- Corpus 490 claims (343 Modeled); 470 code-backed.
+
+## 2026-08-04 — FND-MATTER-041: the fork reweighed — F-2SCALE is the arm left standing
+
+- The matter route votes on GRV-095's fork with evidence it didn't have:
+  F-Sak-as-mesh excluded by MATTER040 (8 orders beyond bands, 17-18
+  orders of coordinated error demanded across four coherent T0 anchors);
+  F-Lor-as-sole-gravity reconfirmed excluded (zeta D = 7.6e35 needed vs
+  the locked [1e-2, 1e2] bracket). Survivor: F-2SCALE — the weave mesh
+  at ~1e-16 m for EM and matter, a distinct gravitational stiffness
+  scale at ~l_P for the induced coefficient, the 18-order relation
+  between them the sector's new central named problem.
+- The inverted pipeline (mesh primary, the SAME single m_e spend
+  re-applied, campaign total one fitted number): T0 = 260.7 J/m,
+  l_q = 3.335e-15 m, l_q/a = 33.4 — INSIDE the pre-drafted 1-100
+  window. GRV-093's geometry question answered numerically: the quantum
+  length is a few tens of mesh cells. Coherence: T0 within 2.2x of the
+  R1 anchor and l_q within 2.4x of the registered value (both inside
+  the ZPE bar); the 4.6 whisper carried; Sigma-route 6.5x, rigidity
+  22x, and the n_q shortfall (1.5x at nearest edges) flagged.
+- GRV-095: induced-channel derivation stands; the 8 l_P adoption
+  demoted to a_grav, branch-conditional (bracketed update on the
+  claim). The PVLAS-class falsifier becomes the branch discriminator:
+  Sigma 3.6e35 (F-2SCALE) vs 2.3e71 (F-Sak), observably different.
+- Refused: the Sigma ~ suppression numerical proximity (dimensions
+  differ; Dirac/Eddington rule).
+- Corpus 491 claims (344 Modeled); 471 code-backed.
+
+## 2026-08-04 — FND-MATTER-042: the suppression session — a kill, a sweep, one caveated survivor, and the null
+
+- Lead #1 killed as an identity: GRV-093's 17-18-order fork lever equals
+  the a-ratio by construction (n_q linear in a, l_q fork-invariant).
+  Registered as a guardrail in the R3/R8 tradition.
+- The pre-committed sweep (failures displayed): alpha^-8, (m_p/m_e)^6,
+  the mechanically motivated (gamma/T0)^-6 (714x), and the
+  diameter-convention form all FAIL; the coverage count REFUSED on
+  category grounds. Survivor: a_grav = a_mesh (r/a)^6 x O(2) at
+  Conjecture grade — matches at 1.87x/2.76x under the radius convention
+  only, DOWN-WEIGHTED by the new high-power rule (2^12 convention
+  amplification), held by its tracking falsifier, not its numerics,
+  with the 714x mechanical strike displayed on its face.
+- The null stands: the stiffness enhancement (S = 7.6e35; EH/T0 =
+  9.2e39 strand-tensions) remains unfixed — GRV-006 restated at the
+  fork's new location.
+- Promote-or-kill named: the bending-channel run on GRV-021's
+  dynamical-matrix instrument, reading off the actual power of (r/a).
+- Corpus 492 claims (345 Modeled); 472 code-backed.
+
+## 2026-08-04 — FND-MATTER-043: the bending channel — the conjecture killed at p = 2.000, the residual tightened to 1e30
+
+- The MATTER042 promote-or-kill executed: a 1D spectral-weight
+  instrument (GRV-021 machinery, registered rigidity, dispersion
+  omega^2 = c^2 k^2(1 + (rk)^2/4), bending branch to the radius cutoff)
+  fitted p = 2.000 across five decades on both weight definitions,
+  against the pre-committed promotion criterion of 12 +- 1. The
+  sixth-power conjecture is KILLED-AND-KEPT (bracketed update on 042).
+- Method note kept in the record: the pre-written finding text guessed
+  p = 3; the instrument said 2.000; the text was corrected to the
+  instrument — the only available direction under bars.
+- The finding: the bending channel contributes a real (2/3)(a/r)^2
+  enhancement — 1.33e6 at the card's thinness, six orders with a
+  closed form — leaving the residual unfixed enhancement at 5.7e29.
+  MATTER042's null stands, tightened from ~1e36 to ~1e30.
+- Scale-campaign day closes at five bricks on one spent calibration:
+  closure (no), fork reweigh (F-2SCALE), sweep, kill; two identities
+  guarded, two conjectures killed-and-kept; FND-MATTER-003 OPEN.
+- Corpus 493 claims (346 Modeled); 473 code-backed.
+
+## 2026-08-04 — FND-MATTER-044: the whisper priced — the 4.6 was bound-saturation accounting
+
+- The m_e-pinned combination solved jointly with FND-017's Derived
+  invariance at the lattice-anchored Sigma: the M-POINT, a = 6.0e-17 m,
+  T0 = 434 J/m, zero adjustable choices, Lorentz bound satisfied with
+  40% margin instead of saturated. The pricing: 4.62 = 1.67 x 2.77,
+  one mismatch booked as two in-band factors by the card's adoption.
+- Every deduplicated pairwise EM comparison inside the ZPE bar
+  (a 1.67, T0 2.77, l_q 1.86; l_q/a = 43 in-window); GRV-074 rigidity
+  improves 22.4 -> 13.5, still flagged.
+- The invariance proof: n_q tracks (m_e c^2/L) h, pinned, so the
+  snap-band shortfall survives all (a, T0) re-accounting — the sector's
+  sharpest genuine residual, converted into a measurement demand on the
+  core thickness (h = 2.8-8.6e-19 m named for the h-session).
+- Card sync note appended to docs/ROPE_PARAMETERS.md (M-point working
+  values; full regeneration flagged). P23/P25 conversions shifted
+  (~3.5e-23 s; ~5.0e24 Hz, 3.28 GeV).
+- Corpus 494 claims (347 Modeled); 474 code-backed.
+
+## 2026-08-04 — FND-MATTER-045: the rigidity audit — the fourth anchor was a phantom, and its removal tightens everything
+
+- The identity test: GRV-074's 1.4-2.0e39 quantification matches EH/T0
+  at the card's own tension to under 2%. The "rigidity T0" carried as a
+  fourth independent anchor through MATTER040/041/044 was T0_card
+  wearing rigidity units — the double-count the R3 guardrail names,
+  committed by the campaign that wrote the guardrail, corrected at full
+  volume with bracketed updates on all three claims plus GRV-074.
+- The correction strengthens: three independent anchors within 14.2x
+  (was "four within 49x"), fingerprint conclusion unchanged with more
+  margin; MATTER041's 22.4x row void; MATTER044's 13.5x flag dissolved
+  — the M-point now carries ZERO flagged EM comparisons, and the
+  sector's residual list is exactly one item: n_q (the h demand).
+- GRV-074's B3 updated at the M-point (EH/(hbar c/a^2) = 2.75e35;
+  EH/T0 = 5.55e39); its named thin-strand decider CLOSED against
+  MATTER043's measured power (one (r/a)^2, not five-six; residual
+  1.01e30, consistent). J1713 structure untouched.
+- Corpus 495 claims (348 Modeled); 475 code-backed.
+
+## 2026-08-04 — FND-MATTER-046: the h demand is void — the snap band was a stale target, and R7 becomes the fourth identity guardrail
+
+- Commissioned to invert the n_q band into a core-thickness demand
+  (computed as ordered: 1.55-19.4x weak, 4.64-6.46x strong), the session's
+  target-provenance audit voided the demand first: GRV-092's A*/hbar
+  route and GRV-093's closed form agree to 3e-4 at both mesh points —
+  the band and the value are ONE expression with shared inputs, and the
+  registered 1.1-4.6e-4 was that expression frozen at the superseded
+  card point. Stale-target comparison; HBAR-005 not confronted; no
+  thickness revision registered.
+- R7 reclassified: landing zone -> TRACKING IDENTITY (fourth guardrail).
+  New ledger grammar rule: a relation is a landing zone only if at least
+  one input is external to the system being solved. Corrections applied:
+  MATTER039, MATTER041, MATTER044 (n_q rows void), GRV-093 (B2
+  annotated as shared-input consistency).
+- The cost registered at full volume: zero internal residuals means the
+  EM scale sector can no longer fail from inside — internal coherence,
+  not external confirmation. Falsification burden rests on PVLAS-class
+  nonlinearity (armed, 36-order branch separation) and J1713. Surviving
+  physics: the snap action at 4.1 orders under hbar at the M-point.
+- Campaign at eight bricks: four identities guarded, two conjectures
+  killed-and-kept, two phantoms/stale-targets voided, one calibration
+  spent, sector coherent and unconfronted — an achievement and a
+  warning, in that order.
+- Corpus 496 claims (349 Modeled); 476 code-backed.
+
+## 2026-08-04 — RELEASE v3.10.0: the scale campaign — coherent and unconfronted
+
+- Cut spanning FND-MATTER-039..046 (the ledger, the closure that said
+  no, the fork reweighed to F-2SCALE, the suppression sweep, the
+  bending-channel kill, the whisper priced to the M-point, and the two
+  audits that corrected the campaign itself).
+- Corpus at cut: 496 claims (109 Derived, 349 Modeled, 4
+  EFT-constrained, 4 Conjecture, 5 Open, 25 Failed-and-kept); 476
+  code-backed, all passing; 58 papers.
+- Release checklist (three items): README release line bumped and
+  corpus-state synced; CITATION.cff at 3.10.0, date current; release
+  notes at docs/RELEASE_NOTES_v3.10.0.md.
+- Carried forward: the a_grav-a_mesh relation (1e30, one channel
+  priced); the 3D dynamical-matrix refinement of the power-2 law; the
+  ledger v2 regenerated at the M-point with R7 reclassified; the ZPE
+  lever blocked at FND-MATTER-003; the standing external
+  confrontations (PVLAS-class, J1713).
+
+## 2026-08-04 — FND-MATTER-047: channel exhaustion — the induced enhancement is not spectral, and a_grav is demoted from length to strength
+
+- Every registered wave branch priced by the MATTER043 instrument at
+  the M-point: tension 1, bending 2.72e5, torsion 1.22e5; sum times the
+  dictionary bracket's generous edge = 3.94e7 against S_needed =
+  2.75e35 — residual 6.97e27 (27.8 orders). The longitudinal rescue,
+  handled under the k-dispute discipline, demands c_L = 1.01e30 c: dead
+  against the pre-committed 1e10 c absurdity bound by 20 orders.
+- Verdict: CHANNEL EXHAUSTION. The trichotomy registered: sub-strand
+  structure (no carrier), a non-spectral collective mechanism (OPEN),
+  or G as input (GRV-006's verdict, re-derived from the opposite
+  direction).
+- The ontology demotion: a_grav is a strength parameter wearing length
+  units — the campaign's third misassigned-ontology catch (rigidity
+  anchor = T0 in disguise; snap band = the value in disguise; the
+  gravitational length = the strength in disguise). MATTER041
+  annotated; F-2SCALE's observable content unchanged.
+- FND-MATTER-003 sharpens: not "what is a_grav" but "what supplies the
+  induced strength", spectral answers excluded in-class.
+- Corpus 497 claims (350 Modeled); 477 code-backed.
+
+## 2026-08-04 — FND-MATTER-048: the arm-(ii) survey — closed by enumeration, G as input becomes the working position
+
+- Five non-spectral candidates enumerated from the registry (coverage
+  counting, linking-number density, Chern-Weil quantization, constraint
+  counting, the load-sharing count) under four criteria applied BEFORE
+  arithmetic. None passes. No numbers computed for refused candidates,
+  by bar — a number invites a coincidence.
+- A3 (extensive-capable) did most of the work: three candidates die
+  because their magnitude is not free to be large. The sharpest refusal
+  is C4, where FND-005's Derived parameter count — ONE dimensionless
+  coupling — forbids the second large dimensionless number a
+  constraint-counting explanation would need.
+- The trichotomy collapses to two: sub-strand structure (Conjecture, no
+  carrier) and G AS IRREDUCIBLE INPUT, now the corpus's registered
+  working position, reached by three independent routes (GRV-006
+  constructive, MATTER047 spectral, MATTER048 structural).
+- Pattern, fourth occurrence: two candidates were repeat offenders (the
+  coverage count; the phantom anchor as a mechanism). Methodological
+  rule contributed: refuse before you evaluate.
+- Scope clause: closed-by-enumeration is bounded by the enumeration;
+  the gate for reopening is named (FND-005).
+- Corpus 498 claims (351 Modeled); 478 code-backed.
+
+## 2026-08-04 — FND-MATTER-049/050: the terminus brick — 003 closed by measurement, and an orphaned open problem caught on the way out
+
+- FND-MATTER-003 (the atomic-scale blockage, one of the corpus's oldest
+  Open items) CLOSES: Open -> Modeled, under a pre-committed two-part
+  test. Part A: both named inputs determined — N derived by the
+  coverage threshold (004), a measurement-fixed at the M-point (044),
+  exactly the resolution 005's irreducibility theorem specified. Status
+  set by the weakest link: Modeled, never Derived, because the constant
+  was MEASURED, not derived.
+- Part B (dependency safety) caught what a summary would have missed:
+  the ZPE lever had been citing 003's id as its blockage for months
+  while never being one of its two named inputs. A clean close would
+  have silently deleted an open problem the corpus still owns. It is
+  re-registered as FND-MATTER-050 (Open) in its own name.
+- Other dependents checked and unchanged: P23's T2 verdict holds (C1's
+  basis now exists, but C2 failed independently and decisively — flagged
+  for a future census session, not re-adjudicated here); GRV-006's
+  irreducible-input family is unchanged.
+- 003's restated text states, in order: what was proved impossible, what
+  was determined and how, what it cost, and what would reopen it.
+  Historical text preserved, superseded-not-erased.
+- Open count holds at 5 (one closed, one rescued). Corpus 500 claims
+  (109 Derived, 353 Modeled, 4 EFT-constrained, 4 Conjecture, 5 Open,
+  25 Failed-and-kept); 479 code-backed.
+
+## 2026-08-04 — FND-MATTER-051: the lever session, part 1 — the demand priced, the hierarchy quantified, the whisper found
+
+- Finding 1: the electron knot is cell-scale — ropelength pi cells, ONE
+  transverse mode below the mesh cutoff — and the raw zero-point term is
+  1607x the rest energy (single-mode picture: 3216x). The corpus's
+  miniature hierarchy problem, now a number.
+- Finding 2, the demand (registered 25% converted; spend count stays at
+  one): lambda = 1.555e-4 = 0.25 (4 pi)^2 alpha (a/l_q)^2 — the lever
+  IS the cell-to-quantum area ratio in registered clothing.
+- Finding 3, the whisper (decomposed per the numerology guard, capped
+  at whisper grade): lambda and n_q share the registered core
+  4 pi alpha a/l_q^2 and differ by cell-scale lengths; lambda/n_q =
+  2.19-6.56 across the chi bracket. One medium, one sub-quantum
+  fraction, two sectors reading it.
+- The closure criterion for FND-MATTER-050, one sentence: derive that
+  the medium expresses one quantum area's worth of zero-point weight
+  per cell, with the 0.25's O(1) geometry computed, not measured.
+  050 remains OPEN.
+- Corpus 501 claims (354 Modeled); 480 code-backed.
+
+## 2026-08-04 — FND-MATTER-052: the expression-fraction derivation — the disc selects, the scales cancel, f = 1/4 exactly
+
+- With the raw instrument inherited from MATTER051's bars (prior-session
+  provenance, the anti-retrofit anchor) and three candidate expressed
+  areas pre-named, the cell DISC lands on the measured lever (f =
+  0.2500) against two displayed misses (square 0.0796, coherence cell
+  0.0265).
+- Sympy confirms the cancellation is an identity: substituting the
+  registered hbar relation, f = 1/4 EXACTLY — a, T0, l_q, alpha, and
+  the ropelength all drop out. The lever is scale-free and
+  parameter-free, retroactively explaining why the 25% survived every
+  re-accounting of the campaign: it never depended on the scales.
+- Sensitivity displayed, not buried: the single-mode raw form would
+  give 1/2; the O(1) rests on the committed instrument, and the
+  coefficient session is named as the refinement.
+- The postulate ('a cell-scale mode expresses the cell disc's area
+  against the quantum area') is a CANDIDATE GRANT — the author's
+  decision by standing rule. If adopted: lambda closes at Modeled,
+  every campaign band tightens at once, and the MATTER051 whisper is
+  partially explained. Falsifier armed regardless: any sharpened
+  zero-point share away from exactly 1/4 kills it.
+- FND-MATTER-050 remains OPEN pending the grant decision.
+- Corpus 502 claims (355 Modeled); 481 code-backed.
+
+## 2026-08-04 — FND-MATTER-053: the coefficient session — the mode band is empty, and the 1/4 dies
+
+- Option C run as the pre-condition of the grant decision. The boundary
+  condition is fixed by the ontology, not chosen: a knot is a CLOSED
+  LOOP, so periodic BCs apply, and the electron ring (circumference
+  pi a) has lowest transverse wavenumber 2/a — a factor two ABOVE the
+  mesh cutoff. ZERO admissible internal modes.
+- FND-MATTER-052 KILLED-AND-KEPT: the exact 1/4 was real algebra
+  performed over an empty mode band. Lesson registered at full volume:
+  a perfect cancellation certifies the algebra, not the domain — and
+  only the held grant kept the corpus from adopting a fourth founding
+  assumption on its strength.
+- MATTER051's 1607x hierarchy dissolves with it; its Finding 1 (the
+  knot is cell-scale) survives and is what killed its own Finding 2.
+- The grant is WITHDRAWN FROM CONSIDERATION, voided by its
+  pre-condition rather than declined. Nothing adopted; grant and bet
+  counts unchanged; lambda remains OPEN; the factor 2-3 ZPE bar stands
+  exactly where it stood this morning.
+- Constructive residue: dE_zp was ALWAYS defined as an ambient
+  with/without difference (FND-MATTER-009), the ambient medium has no
+  counting pathology, and that is the honest route to lambda. Passing
+  discovery: the trefoil and 5_1 DO admit 2-3 internal modes while the
+  ring does not — a structural asymmetry across the knot table.
+- No rescue attempted, per the locked clause.
+- Corpus 503 claims (356 Modeled); 482 code-backed.
+
+## 2026-08-04 — QB-034: the severing discriminator — Reading A killed, Reading B empty, Mode 1 forced to be accounting
+
+- Commissioned by the question of whether the shared-ribbon ontology
+  could improve memory-based quantum repeater networks. Both readings
+  of "severing" named before any curve.
+- The mandatory degeneracy test ran BEFORE the confrontation and
+  dissolved half the extension: Reading B (V = p) is algebraically the
+  standard depolarizing family — registered EMPTY, unconfirmable and
+  unrefutable by decay data regardless of fit.
+- Reading A (V = (1+2p)/3) had one genuine discriminator, the
+  asymptotic floor, and failed it: it predicts an indestructible
+  V = 1/3 correlation in every stored pair (CHSH 0.9428, below the Bell
+  threshold). Stored entanglement is observed to decay to classical.
+  KILLED.
+- Durable product: QB-015's Mode 1 is an ACCOUNTING mode, not a
+  dynamical one — the 1/3 is what you get describing one object as
+  two, not a state a decohering pair passes through. Nothing forced
+  that distinction until decoherence was put to the ribbon. QB-015's
+  ontology untouched; it was never on trial.
+- Commissioning answer: NO engineering lever for repeater networks, now
+  benchmarked rather than asserted — the correct result for a model
+  that reproduces Tsirelson and no-signaling exactly.
+- Not claimed: quantitative memory-lifetime comparisons, preferred-frame
+  signatures, protocol advantages. Named for a future session: the
+  decay TIMESCALE (not shape), with bars forbidding lifetime fitting.
+- Corpus 504 claims (357 Modeled); 483 code-backed.
+
+## 2026-08-04 — QB-035: the timescale lever — dead by shape, not by number
+
+- QB-034's named remaining lever, run with the universality test placed
+  FIRST (magnitude-independent and stronger). A substrate-intrinsic
+  ribbon-cutting time is a property of the medium, so it must be
+  universal and untunable — against an experimental record whose entire
+  history is engineers tuning coherence across ~10 orders by improving
+  isolation and materials. Falsified before any number is computed.
+- Secondary note, not the finding: the corpus's only mesh-built time,
+  a/c = 2.00e-25 s, is 19-29 orders short and short by a
+  platform-dependent amount — the universality verdict restated in
+  arithmetic, not a second independent failure.
+- The suppression rescue was PRE-BANNED by bar and is independently
+  circular given FND-MATTER-042 (candidates unfixed) and -047
+  (channels exhausted).
+- The repeater-network question is now settled negatively and
+  COMPLETELY, with benchmarks on both halves (decay shape, timescale).
+  The ontology's consistency with platform-dependent coherence is
+  CONSISTENCY BY SILENCE — stated, and never citable as evidence for
+  the picture.
+- The session's positive, and the night's convergence: cutting must be
+  an ENVIRONMENTAL COUPLING event, sending ribbon dynamics to the
+  ambient weave — the same destination FND-MATTER-053 sent dE_zp hours
+  earlier. Two unrelated sessions independently locate the interesting
+  physics in the surrounding medium rather than the object's interior.
+- Corpus 505 claims (358 Modeled); 484 code-backed.
+
+## 2026-08-04 — FND-MATTER-054: the knot-mode asymmetry is a reductio — the internal band excluded twice over
+
+- The asymmetry MATTER053 turned up (ring 0 modes, trefoil 2, 5_1 3)
+  examined under a scope clause separating the registered
+  curvature-conditioning dE_zp from the standing-wave band. The only
+  legitimate question: is the band an OMITTED term?
+- Answer: no, excluded twice. MAGNITUDE — the trefoil's band is 7356
+  MeV against a 2.740 MeV tension term (2685x); the 5_1's is 9862 MeV
+  against 4.087 MeV (2413x). Degeneracy-independent: stripping all four
+  states per |n| still leaves ~3 orders of excess.
+  DISCONTINUITY — the ring's band is EMPTY, so the term would inject a
+  three-order cliff between the two lightest knots in the table. Nothing
+  observed does that.
+- The asymmetry commissioned for modelling turns out to be the proof
+  the thing cannot be modelled.
+- Three dividends: (1) MATTER053's kill is independently corroborated by
+  a different argument, foreclosing the "accident of the ring being
+  small" escape; (2) the two-term model's smooth curvature dE_zp,
+  adopted months ago for tractability, is shown to have been the ONLY
+  admissible choice; (3) the ambient route is the sole surviving home
+  for the zero-point term, reached from three directions.
+- Not claimed: any lepton mass prediction (PM-004 untouched), any
+  change to the registered two-term table, any new parameter.
+- Corpus 506 claims (359 Modeled); 485 code-backed.
+
+## 2026-08-04 — FND-MATTER-055: dE_zp built in the ambient weave — well-posed, universally consistent, and the sector's hierarchy problem stated
+
+- The surviving route after MATTER053/054, with well-posedness checked
+  FIRST as the primary deliverable: an extended medium's band is
+  non-empty by construction and cutoff-set, so the pathology that
+  emptied the internal band cannot arise. The ambient route is
+  well-posed regardless of magnitude.
+- Unasked-for consistency, and the night's first positive: the three
+  registered knots demand a universal lever agreeing within 1.51x —
+  something the conditioning table was under no obligation to deliver.
+  Target lambda = 1.156e-5, from the registered 25% and the registered
+  table, no new calibration (spend count still ONE).
+- THE STRUCTURAL FINDING: the internal band (7356 MeV) and the ambient
+  raw term (101134 MeV) are both ~1e4 MeV against a ~1 MeV target, so
+  the 4-order excess is GENERIC to any mesh-cutoff zero-point term.
+  FND-MATTER-050 was MISSTATED at registration and is restated: not
+  "what weights the term" but "what suppresses mesh-scale vacuum energy
+  by ~1e-5" — the matter sector's own hierarchy problem, arriving at
+  the same address as the gravity sector's 1e30.
+- Candidates all displayed; alpha x (r/a) lands at 1.68x, registered at
+  WHISPER grade with the look-elsewhere caveat at full volume (six
+  candidates, factor-2 bar, three-order range: one hit is close to
+  chance). lambda REMAINS OPEN pending a mechanism that PREDICTS the
+  product rather than a search that SELECTS it.
+- Corpus 507 claims (360 Modeled); 486 code-backed.
+
+## 2026-08-04 — FND-MATTER-056: the suppression mechanism — derived before the target was looked at, and the whisper dies on form
+
+- DERIVE-THEN-COMPARE enforced by bar: the derivation ran to completion
+  and its form was fixed before the numeric target was invoked.
+  Dilute-perturbation Casimir in the ambient weave gives
+  lambda = pi (r/a)^2 = 2.776e-6 — parameter-free, registered geometry
+  only, power 2 in the thinness, and no alpha anywhere (the coupling
+  enters this corpus through the quantum-AREA relation, not a geometric
+  displacement).
+- The MATTER055 whisper is KILLED ON FORM, without consulting any fit:
+  alpha x (r/a) is power 1 with a coupling; the derivation is power 2
+  with none. The forms disagree in both factors. A coincidence
+  registered as a coincidence, retired as one — what the whisper grade
+  exists to make cheap.
+- The comparison, run only after the form was fixed: target 1.156e-5 vs
+  derived 2.776e-6, GAP 4.16x (derived too strong). The O(1) rescue
+  (polarizations, degeneracy, packing) is named and REFUSED by
+  pre-committed bar — a construction needing its own unfixed factors
+  tuned to land is a derivation with a fitted coefficient.
+- Verdict: a quantified null and the sector's best-motivated candidate —
+  probably right in kind, wrong in detail. Named closer: a
+  first-principles displaced-mode count that either lands the factor 4
+  or kills the dilute picture.
+- FND-MATTER-050 updated; still OPEN, now with a quantified target, a
+  well-posed home, a stated hierarchy problem, a dead whisper, and one
+  falsifiable candidate.
+- Corpus 508 claims (361 Modeled); 487 code-backed.
+
+## 2026-08-04 — FND-MATTER-057: the gap-structure diagnostic — cancellation refuted, knot-dependence exposed as an identity, a proposed direction withdrawn
+
+- Prompted by the operator's question (does the factor ~4 cancel against
+  the 25% lever?). Tested with a pre-committed diagnostic: a structural
+  cancellation would force the gap to be IDENTICAL per knot. It varies
+  1.51x (ring 4.90, trefoil 3.25, 5_1 4.34). REFUTED. Directly: the
+  derived lambda predicts a 6-9% lever against a measured ~25%.
+- The spread was then put ON TRIAL for identity before being treated as
+  physics — and it is one: gap x (dE_zp/L) = 5.945369 for all three
+  knots to 8.6e-17, closed form free of knot quantities. The
+  knot-dependence IS the conditioning fraction restated, the same 1.51x
+  MATTER055 had already registered.
+- WITHDRAWN: the assistant's previous-turn proposal that the closer must
+  explain the factor AND its knot-dependence. That was double-counting.
+  The closer has ONE job: a single universal factor. Fifth identity
+  catch of the campaign, and the first found in a research direction the
+  assistant itself proposed rather than in the inherited registry.
+- Constructive residue: the discrepancy is one knot-free number, a
+  materially easier target and a sharper falsifier — any mechanism
+  producing knot-dependent suppression is excluded on sight.
+- MATTER056's results file and FND-MATTER-050 both carry the diagnostic.
+- Corpus 509 claims (362 Modeled); 488 code-backed.
+
+## 2026-08-04 — FND-MATTER-058: the displaced-mode count — 2.08x against a 2.00x bar, not promoted
+
+- The named closer, run with a FORCED/PERMITTED split declared before
+  any arithmetic. FORCED: polarizations x2 (the ambient band carries
+  two at every wavevector; a displacing inclusion removes both) and the
+  cylinder cross-section pi r^2. Forced product = 2, giving
+  lambda = 5.552e-6 against target 1.156e-5 — GAP 2.08x, outside the
+  inherited 2.00x bar by four percent.
+- PERMITTED AND REFUSED: the FND-017 directional share (cell face a^2
+  vs one direction's share a^2/3). Worth exactly 3x; would land the
+  mechanism at 1.44x, inside the bar. NOT adopted — it is a reading of
+  a registered relation, not a consequence of it, and a reading settled
+  by its usefulness is not a reading. Sixth refusal of this move today.
+- The corpus does not round bars: 2.08 vs 2.00 is a miss. lambda
+  REMAINS OPEN.
+- Trajectory on this quantity, all from forced structure, none from
+  fitting, calibration count still ONE: unfixed 25% -> 4.16x -> 2.08x.
+- Named settler, TARGET-BLIND by requirement: resolve the FND-017
+  directional reading on its own merits without reference to lambda.
+  a^2 leaves the mechanism missing by 2.08 and likely wrong in detail;
+  a^2/3 lands it at 1.44 and makes it the sector's first derived lever.
+  The reading is worth 3x against a 2x gap, so a session that knows the
+  target cannot be trusted to decide it.
+- Corpus 510 claims (363 Modeled); 489 code-backed.
+
+## 2026-08-05 — FND-MATTER-059 (procedural, not a claim): the settler sealed, and the session that named it declines to answer it
+
+- The named settler of FND-MATTER-058 is the FND-017 directional
+  reading: does a displacing object couple to the full cell face a^2
+  or to one direction's share a^2/3. It is required to be decided
+  TARGET-BLIND, because the reading is worth exactly 3x against a
+  2.08x gap.
+- THIS SESSION DOES NOT ANSWER IT, and the reason is the point: this
+  session knows the target, knows which verdict is convenient, and
+  knows by how much. A verdict produced here would be worth nothing
+  regardless of its correctness, and would retroactively empty the six
+  refusals of 2026-08-04.
+- WHAT WAS LAID INSTEAD: docs/SEALED_COMMISSION_fnd017_directional_
+  reading.md. The commission states the question, names ELEC-053's
+  invariance derivation as the place the factor of 3 enters, permits
+  "the geometry does not determine it" as a verdict, and requires the
+  answering session to declare whether its answer is a CONSEQUENCE of
+  the registered relation or a READING of it. The contaminating
+  context (58's gap, the 3x worth, the bar) sits below a seal line
+  that the answering session must not cross until its verdict and
+  reasoning are recorded verbatim.
+- A STRICTER BLINDNESS THAN 058 SPECIFIED: 058's own changelog entry
+  names both outcomes and what each is worth, so a session seeded with
+  the repository and pointed at the changelog is not blind — it merely
+  has not looked yet. The seal closes that gap. Void condition
+  registered: if the answering session becomes aware of the stake
+  mid-work, its verdict is void and the commission re-issues.
+- BOOKKEEPING: README's opening paragraph was one sync behind
+  (482/464/105) while the corpus-state line below it was current;
+  synced to 510/489/109. No claim counts changed.
+- lambda REMAINS OPEN. Corpus 510 claims, 489 code-backed, structural
+  guards passing, no new claim registered — no physics was produced
+  here and none is claimed.
+
+## 2026-08-05 — FND-MATTER-059: the provenance half registered, the exclusion half sealed, and the sequence given a stopping rule
+
+- THE FIRST SEALED COMMISSION RAN AND WAS VOIDED. The answering
+  session traced the relation through ELEC-053's benchmark and in
+  doing so read the MATTER-058 analysis, which it disclosed
+  unprompted. The seal's void condition fires on awareness of the
+  downstream stake; disclosure is honest but does not cure it.
+- THE HALVES DO NOT CARRY CONTAMINATION EQUALLY, and the entry splits
+  them. PROVENANCE (registered, Derived, FND-MATTER-059): in
+  T0/Sigma = (T_tube/n)/(T_tube/pi R^2) with n = 3 pi (R/a)^2, the R^2
+  CANCELS IDENTICALLY -- checked across nine decades of tube radius to
+  8.9e-16 spread -- so the tube-radius integration contributes nothing
+  to the 3. What survives is the areal density n/(pi R^2) = 3/a^2,
+  whose numerator is the count of orthogonal strand families. The cell
+  route (a^3 hosting three strands of length a) agrees exactly and
+  references no R. The 3 is a per-direction partition. This REFUTES
+  the radial-integration alternative the commission itself named as
+  the crux -- not the direction a contaminated session drifts -- and
+  it is mechanical, rerunnable, and independent of judgment.
+- EXCLUSION (not registered, sealed): the session argued wholesale
+  removal across families is forced by the same logic that forced the
+  polarization factor. Tight, possibly right, worth exactly the 3x the
+  gap needs, produced with the target in view. Not adoptable on those
+  terms. Re-issued as
+  docs/SEALED_COMMISSION_2_fnd017_exclusion_and_doublecount.md.
+- THE NEW AUDIT QUESTION, asked FIRST and ahead of the exclusion
+  argument: Sigma = 3 T0/a^2 ALREADY CONTAINS THE 3, and pricing
+  displaced strand-equivalents at a^2/3 reintroduces it. If the
+  construction reaches displaced content via Sigma, the 3 enters TWICE
+  and the forced factor is 1, not 3. Decidable from the construction
+  alone, target-free by nature -- a double-count is wrong wherever it
+  lands -- and capable of voiding the route without any appeal to the
+  gap.
+- TERMINAL CONDITION PRE-COMMITTED, and this is the entry's most
+  important line: SEAL TWO IS THE LAST REFRAMING. Double-counted, or
+  PERMITTED, or UNDETERMINED -> the displaced-mode route is registered
+  as a near-miss at 2.08x and lambda stays Open. No third commission.
+  Per-session refusal discipline protects against fitting WITHIN a
+  session and does nothing about a sequence of individually-blind
+  sessions continued until one returns the convenient answer. That is
+  a fit with extra steps and it is invisible from inside any single
+  session; only a stopping rule fixed in advance prevents it.
+- FOR FUTURE SESSIONS AND FUTURE MODELS reading this cold: the corpus
+  came within one factor of closing lambda, registered the brick it
+  could defend, declined the brick that would have closed it, and
+  wrote down which is which. If you want to attack this from another
+  angle, the live questions are seal two's Q1 and Q2, and the honest
+  outcome space includes the mechanism simply being wrong.
+- Corpus 511 claims (110 Derived); 490 code-backed. lambda REMAINS
+  OPEN. Calibration count still ONE.
+
+## 2026-08-05 — FND-MATTER-060: the settler is VOID, not pending — a ratio cannot carry a partition factor, and the campaign closes negative
+
+- SEAL TWO RETURNED, AND THE VERDICT IS SHARPER THAN THE QUESTION.
+  The audit asked whether the lambda construction reaches displaced
+  content via Sigma (3 twice, forced factor 1) or via strand counts
+  (3 once, forced factor 3). Answer: NEITHER. Sigma and T0 appear
+  nowhere in the lambda chain -- matter056 defines the base as a pure
+  area ratio pi r^2 / a^2 and matter058 inherits it and multiplies by
+  F1 = 2. lambda is a FRACTION of medium displaced, so any content
+  density nu cancels identically top and bottom. The 3 cannot enter
+  ONCE.
+- THE ERROR LOCATED TO THE LINE: pi r^2/(a^2/3) prices the numerator
+  in strand-equivalents while leaving the denominator a raw cell face.
+  That mixing of units of account across the bar of a fraction IS the
+  entire 3x. Either both sides are strand-equivalents and the 3
+  cancels, or both are areas and it never appears.
+- THE EXCLUSION ARGUMENT INVERTS. Wholesale removal across families is
+  SOUND and proves the opposite of what it was used to conclude: if an
+  inclusion evicts all three families, the denominator must count all
+  three. The a^2/3 reading is the one that would require an inclusion
+  to see a single family's share.
+- FND-MATTER-059 STANDS UNTOUCHED. The 3 is a genuine per-direction
+  partition. It was simply never applicable to a ratio. A correct
+  sub-result was very nearly promoted into a wrong lever by an
+  argument that was itself correct -- a subtler failure mode than
+  fitting, and the one the seals happened to catch.
+- WHY THIS VERDICT IS TRUSTWORTHY, and it is the methodological brick:
+  the bookkeeping question was asked FIRST, ahead of the exclusion
+  argument, because a double-count is wrong wherever it lands and is
+  therefore target-free by construction. The session answered AGAINST
+  its own prior position and identified its own error. REUSABLE RULE:
+  when a factor is worth what the gap needs, find the question whose
+  answer is wrong-wherever-it-lands and ask that one first.
+- TERMINAL CONDITION HONORED, as pre-committed in 059 before seal two
+  ran: no third commission. The displaced-mode route is registered as
+  a NEAR-MISS at 2.08x. The mechanism does not get its lever. lambda
+  REMAINS OPEN. Calibration count still ONE.
+- NAMED, UNVERIFIED, EXPLICITLY TARGET-SIDE: this audited the lambda
+  chain only. FND-MATTER-055's target is built from dE_zp/L and the
+  conditioning table; if that path converts through T0 or Sigma, a
+  directional factor could live there. Separate audit, on the target
+  rather than the mechanism, and a session running it should seal the
+  MECHANISM out -- the asymmetry matters because the failure mode
+  being guarded against is a target adjusted to meet a construction.
+- Corpus 512 claims (111 Derived); 491 code-backed.
+
+## 2026-08-05 — METHODOLOGY: the target-free question rule written up as a transferable document
+
+- docs/METHODOLOGY_target_free_questions.md. The rule the two-seal
+  campaign produced, lifted out of a claim note and written as a
+  standalone case study, because it generalizes past this sector and
+  past this corpus.
+- THE RULE: when a candidate factor is worth approximately what the
+  gap needs, do not ask whether the factor is right. Find the question
+  whose answer is WRONG WHEREVER IT LANDS -- usually a bookkeeping,
+  units, or double-count question -- and ask that one first. Neither
+  answer is convenient, so a contaminated session cannot bias it. This
+  removes the load from blindness, which is the part of the protocol
+  most likely to fail in practice.
+- THREE SUPPORTING RULES, all earned in the same case: split a
+  contaminated verdict by how much contamination each half can carry
+  (mechanical results survive, judgment calls do not); fix the
+  stopping rule BEFORE the sequence runs, or the sequence is a search;
+  and seal the side that would supply the motive, which for a
+  target-side audit means sealing out the mechanism, not the target.
+- THE CASE IT DOCUMENTS: a gap-closing factor of 3 with a sound
+  argument behind it, which on audit proved the OPPOSITE of its
+  conclusion, found by a session that answered against its own prior
+  position. Two keepers and a negative; the negative required all four
+  rules.
+- Linked from README. No claims added, no counts changed -- this is
+  method, not physics, and is registered as such.
+
+## 3.11.0 (2026-08-06)
+The alpha chain at summit, and the nuclear gap closed. Full notes:
+docs/RELEASE_NOTES_v3.11.0.md.
+
+- 518 registered claims (111 Derived, 369 Modeled, 4 EFT-constrained, 4
+  Conjecture, 5 Open, 25 Failed-and-kept); 497 code-backed.
+- ALPHA-DE-CHAIN registered: 1/alpha = 4 pi^3 D_E = 137.060504, +178.8 ppm,
+  EVERY FACTOR DERIVED, one residual open. D_E blind (Commission W); the 4 pi^3
+  prefactor derived across Gate 1 (kappa=pi/4 forced), Gate 2 (LINEAR, 4/pi from
+  the force-type tether load), Gate 2b (g=2 out of sample, residual on the
+  Schwinger term), Gate 3 (13.6 eV at residual squared). Three independent
+  observables consistent with one convention structure. NOT alpha derived.
+- Residual cornered: Z Brick 5 scale-invariance theorem (no continuous dials),
+  residual ladder exhausted, V-A boundary term MISS, D-E-COMPLETE functional
+  audit CLEAN. LEAD-RAD stamped as the unique surviving radiative-class path,
+  second prediction pre-installed (alpha residual + g=2 gap, one mechanism).
+- Nuclear 13% campaign (NUC-A..D2) complete by theorem: heavy-table binding
+  ~13% -> ~1% derived classical physics; symmetry energy derived both parts,
+  Coulomb derived, valley of stability derived end-to-end, surface superseded to
+  a_S/a_V~1.26, curvature PROVEN ZERO (covariogram theorem), grid-bias self-catch
+  correcting the shell floor to ~2.9 MeV rms. NUC-010 reconciliation registered.
+- Three flattering results retired with retractions standing: the premature pi^4
+  lock (-> 4 pi^3), the -15 ppm Delta (mixing artifact), the Omega x D_E
+  coincidence (rate channel nulled). Every load-bearing number script-backed.
+- Provenance documented: docs/HOW_ALPHA_WAS_DERIVED.md, docs/
+  alpha_derivation_map.png (factor-by-factor diagram), and the mass paper's
+  honest-boundary section. Mass paper's stale pi^4 summary row corrected.
+- Scripts added: gate1_close_full, gate1_close_reconstruction,
+  gate2_charge_functional, gate2b_magnetic_moment, gate3_atomic_coupling,
+  va_next_order_boundary, de_complete_phase1_audit; the full Y/Z arc; the nuclear
+  campaign (nuc_a..d2). Charters: V-A-next-order (MISS), D-E-COMPLETE (clean),
+  LEAD-RAD (stamped), all in docs/commissions/.
