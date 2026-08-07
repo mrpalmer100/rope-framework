@@ -68,7 +68,7 @@ derivation-or-demotion.
 3. `CHANGELOG.md` — the full revision history, including every registered correction
 3b. `KNOWN_LIMITATIONS.md` — every load-bearing caveat in one place
 3c. `HOW_TO_CRITICIZE.md` — a map of where the programme is most vulnerable (read this if you are a reviewer)
-4. `docs/rope_plain_language_guide.docx` — **"The Rope Picture of the Universe"**, a figures-first, no-mathematics tour of the whole framework; the best entry point for a non-specialist reader
+4. `papers/rope_plain_language_guide.pdf` — **"The Rope Picture of the Universe"**, a figures-first, no-mathematics tour of the whole framework; the best entry point for a non-specialist reader
 5. `docs/rope_theory_of_chemistry.docx` — the most complete single sector (start with its one-page roadmap)
 
 
