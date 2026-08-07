@@ -3,7 +3,7 @@ import sys
 from pathlib import Path
 from scipy.special import spherical_jn
 from scipy.optimize import brentq
-import periodictable as pt
+from nuclide_data import load_table as _load_embedded_table
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "benchmarks" / "em"))
@@ -83,23 +83,8 @@ def extract_aA(ladder_fn, label):
     return aA
 
 def load_table():
-    M_H1, M_N_u, U = 1.00782503207, 1.00866491588, 931.49410242
-    out = []
-    for el in pt.elements:
-        if el.number == 0:
-            continue
-        for iso in el:
-            try:
-                ab = iso.abundance
-            except Exception:
-                ab = 0
-            A, Z = iso.isotope, el.number
-            if A < 12:
-                continue
-            if (ab and ab > 0) or (el.symbol, A) in {("Th",232),("U",235),("U",238)}:
-                B = (Z * M_H1 + (A - Z) * M_N_u - iso.mass) * U
-                out.append((el.symbol, A, Z, B))
-    return sorted(set(out), key=lambda t: (t[1], t[2]))
+    # Embedded nuclide table (was periodictable; now dependency-free for CI).
+    return _load_embedded_table()
 
 def s1_table_closure(aA, label, nucs, aV, aSaV, aC):
     R = []
