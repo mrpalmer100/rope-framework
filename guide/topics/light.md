@@ -71,9 +71,11 @@ bends and spreads through a slit, how two beams interfere, how lenses
 focus, how mirrors and anti-reflection coatings work, how light stays
 trapped inside a fibre-optic cable. All of it is the same travelling ripple
 meeting different boundaries, with no new ingredient. What the rope does
-NOT resolve on its own is the deeper QUANTUM puzzle --- why a single
-photon seems to "know" about both slits at once. That one piece is
-handled in the papers by borrowing an existing (and still debated)
-interpretation of quantum mechanics. So the rope gives all of classical
-light a physical home and reproduces it in full; it is only the deepest
-mystery of quantum measurement that it does not, by itself, resolve.*
+NOT resolve here is the deeper QUANTUM behaviour --- the single photon
+that seems to "know" about both slits, the delayed choice, entanglement.
+Those are not left as a mystery to wave away: they get their own chapter
+(The Quantum Puzzles), where the rope picture dissolves most of them (a
+wave through both slits, a separate indivisible dot in one) and, for entanglement, derives the exact ceiling on quantum
+correlations while naming the one piece still open. So the rope gives
+all of CLASSICAL light a physical home and reproduces it in full; the
+quantum puzzles --- wins and honest limit alike --- are taken up next.*
