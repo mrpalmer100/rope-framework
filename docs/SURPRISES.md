@@ -133,10 +133,10 @@ is exactly what a sketch of real physics looks like before it grows up. *(EM-REC
 
 Lest the 16% be mistaken for the programme's ceiling: that figure belongs to this one
 early electromagnetic sketch, not to the mass sector. The corpus's composition rule
-reproduces ATOMIC MASSES to better than 0.1% FROM CARBON THROUGH URANIUM — and the light
-elements too (spot checks at hydrogen, helium, lithium, carbon, oxygen, iron, uranium) —
+reproduces ATOMIC MASSES to better than 0.1% ACROSS THE TABLE — from the light
+elements through uranium (spot checks at hydrogen, helium, lithium, carbon, oxygen, iron, uranium) —
 while the naive mass-tracks-charge alternative fails by a factor of ~2.6 (it is blind to
-neutrons). One number to hold: everything from a carbon atom to a uranium atom, to a part
+neutrons). One number to hold: everything from a light atom to a uranium atom, to a part
 in a thousand, from a counting rule. Honest scope, as always: in the base result the binding energies are measured
 inputs (the rule identifies binding as rope-mode overlap and explains the iron-56 peak);
 the successor claim then PREDICTS the bindings themselves. Precision and sketch coexist

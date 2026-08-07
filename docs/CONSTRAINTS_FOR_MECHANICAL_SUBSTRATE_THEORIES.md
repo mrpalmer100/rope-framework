@@ -269,9 +269,10 @@ are cheap to find and retire whole disputes** — not this particular ratio.
 ### C3. Nuclear mass performance, with the right quantity named
 
 **The distinction the headline number hides.** The benchmark predicts *atomic
-masses* from C-12 to U-238 at 0.00–0.51%, using **one** calibrated nuclear
+masses* from the light nuclei (A~8) through U-238, using **one** calibrated nuclear
 constant against roughly five fitted parameters in the standard semi-empirical
-formula. But the benchmark's own docstring states why that figure looks strong:
+formula — and the semi-empirical formula's five terms are now derived from the bond
+geometry rather than fitted (heavy-table binding to ~1%). But the benchmark's own docstring states why that figure looks strong:
 **binding is only ~1% of mass**, so most of an atomic mass is nucleon rest mass
 taken as input. The quantity the model actually predicts is the **binding
 energy**, and there the accuracy is ~1.5–2.5% in the original derivation and

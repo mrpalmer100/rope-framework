@@ -6,7 +6,7 @@ Master list of the Rope Hypothesis corpus. Credit for the core Rope Hypothesis i
 
 ## ⭐ Read First: Scope and Conclusion
 
-**The Rope Hypothesis is a CLASSICAL, MECHANICAL model of physics.** It gives strong, visualisable, object-level accounts of electromagnetism, gravity, optics, and related classical domains. **In its present configuration-counting form it does not reproduce quantum entanglement** — and this is a *proven boundary of that form*, not a hidden gap: a model that determines outcomes by counting configurations yields classical (CHSH ≤ 2) correlations and cannot produce the amplitude interference that Bell-violating measurements require. Entanglement is **retired as an ambition and preserved as a documented boundary finding** -- and, as of the QB-007--010 measurement arc, mapped in detail: the single-particle statistics (indivisibility, Born rates, single-photon anticorrelation) are reproduced or cornered, while the residual gap is localized precisely to configuration-space guidance -- the same object that pilot-wave theories postulate rather than derive. The wall's location is now known to high precision; it is not crossed. Nothing is deleted; the negative results are kept as evidence of honest method.
+**The Rope Hypothesis is a CLASSICAL, MECHANICAL model of physics.** It gives strong, visualisable, object-level accounts of electromagnetism, gravity, optics, and related classical domains. On quantum entanglement the honest picture is layered, and earlier editions of this note undersold it. The framework **derives the Tsirelson bound 2√2 as a theorem** (QB-019/020, Derived), with the corpus-native singlet saturating it, and a complete Bell experiment run from a nucleated pair **produces a genuine violation** (QB-030/031, CHSH = 2.039 ± 0.005, above the classical bound of 2). What is *proven not to work* is a narrower thing — a **local configuration-counting** reading of measurement, which yields classical (CHSH ≤ 2) correlations and cannot produce the amplitude interference Bell-violating measurements require (QB-003, Failed, kept). That limit is theorem-forced: Bell caps *any* local mechanism at 2, regardless of how it is built (QB-006), so it is not a defect of the rope framework specifically — and the framework is **not** a pure counting scheme, since the Tsirelson and Bell-violation results above come from its non-counting Hopf/spinor (quaternion) machinery. The residual gap is therefore precise and narrow: the guidance flow across the measurement wall is **added, not yet derived from the ropes** — the same status pilot-wave (Bohmian) theories give it. The single-particle statistics (indivisibility, Born rates, single-photon anticorrelation) are reproduced or cornered. The ceiling is derived and the violation is demonstrated; what remains open is a rope-native derivation of the guidance object — not claimed impossible, not claimed to exist. Nothing is deleted; the negative results are kept as evidence of honest method.
 
 - **Scope and Limits of the Rope Hypothesis** 📄 — the programme's own conclusion; start here.
   `rope_capstone.js` -> `docs/rope_scope_and_limits.docx`
@@ -28,7 +28,7 @@ The corpus is organised in three tiers: **(1) In-domain** classical results (the
 
 ## Foundations & Ontology
 
-> **Note:** the three quantum papers below (Measurement Problem, Non-Local Dynamics, Quantum Foundations) constitute **Tier 2 — The Classical Boundary**. They are retained as findings that *locate and prove the rope model's limit at entanglement*, not as successful explanations of it. See the capstone (Scope and Limits) for the full conclusion.
+> **Note:** the three quantum papers below (Measurement Problem, Non-Local Dynamics, Quantum Foundations) constitute **Tier 2 — The Classical Boundary**. They locate and prove the boundary of a *local configuration-counting* reading of measurement — where and why that particular construction ends, a limit Bell's theorem forces on any local mechanism (QB-006) — and are retained as rigorous negative and partial results. They are not the whole entanglement story: the later measurement arc derives the Tsirelson bound as a theorem (QB-019/020) and demonstrates a Bell violation from a nucleated pair (QB-030/031), leaving the narrow residual gap described in the Scope note above. See the capstone (Scope and Limits) for the full conclusion.
 
 
 - **The Measurement Problem for the Rope Medium** 📄
@@ -80,8 +80,8 @@ The corpus is organised in three tiers: **(1) In-domain** classical results (the
   `rope_thermodynamics.js` → `docs/rope_theory_of_thermodynamics.docx`
 - **The Rope Hypothesis — Ontology (Part I)** 📝 *planned* — title only; no shipped content or code in this release
   `rope_ontology_v2.js`
-- **The Weinberg Angle from Three Dimensions and Two Strands** 📄
-  `rope_two_axioms.js`
+- **The Weinberg Angle from Three Dimensions and Two Strands** 📄 `papers/rope_two_axioms_weinberg.pdf`
+  *Isolates the two structural inputs — three spatial dimensions and two rope strands — behind the estimate sin²θ_W = 1/(3√2). The '3' and '√2' each get a clear structural reading; what is stated openly as not established is that these two inputs uniquely force 1/(3√2) rather than merely being consistent with it.*
 - **The Mass of Matter Gets a Receipt** 📄 `papers/rope_matter_mass.pdf`
   *The matter-era campaign (FND-MATTER-006..038): the knot solver and its thirteen-knot certified table; the two-certificate identity pipeline (determinant + Alexander); the mover epic ending in the reptation conveyor's one-hundredth answer-key confirmation and the congestion gauge; the +2.3% solver systematic and the figure-eight DEAD ZERO (21.039 vs 21.040); source-grade ridgerunner anchors and the near-degenerate ideal doublet (0.05%); and the gate saga -- lambda collapsed to hbar c/(aTD), its quantum reading KILLED by the framework's own Lorentz bound, the surviving trace ledger exactly extensive, the last parameter confiscated by collision saturation, closed by the density-onset principle (x = sqrt(f_c)), and COMPUTED by percolation: Lambda = 0.013-0.017, zero free parameters, landing at the phenomenological window's edge. The conditioning sector is parameter-free (m = TD(L - Lambda ell)); T D is the single scale input. No knot is identified with any particle; every hypothesis is marked. Reproducible: benchmarks/foundations/ (33 benchmarks).*
 - **Mass in the Rope Framework** 📄 `papers/rope_mass_paper.pdf`
@@ -124,8 +124,8 @@ The corpus is organised in three tiers: **(1) In-domain** classical results (the
   `rope_topo_maxwell.js` → `docs/rope_topological_maxwell.docx`
 - **Light in the Rope Framework** ⊘ *superseded* — superseded by **Optics in the Rope Framework** (bundled)
   `rope_light_paper.js`
-- **The Electric Potential as Rope Tension** 📄
-  `rope_a0.js`
+- **The Electric Potential as Rope Tension** 📄 `papers/rope_electric_potential.pdf`
+  *Classical in-domain result: the scalar potential A₀ is identified with a tension field of the rope network, so the Coulomb 1/r potential of a point charge arises as the static tension sourced by a linked structure. Numbers are rope_solver/tests outputs, consistent with the corpus EM constants.*
 - **The Alpha Coefficient in Rope Bundle Theory** 📄 `papers/rope_alpha_paper.pdf` *(built 2026-08-07; the standalone ALPHA-DE-CHAIN report, with the factor-by-factor derivation diagram embedded)*
   *Two parallel routes to alpha, both honest boundaries, neither a derivation. (1) The PRED-003 medium-primitives lineage reduces 1/alpha to a single geometric ratio rho=2.6348 (a mechanism must produce rho blind; guard posted). (2) The Commission T-Z electron-dressing chain (ALPHA-DE-CHAIN, 2026-08-06): 1/alpha = 4 pi^3 D_E = 137.0605 at +178.8 ppm, with D_E=1.1051029 computed blind from the electron-terminus solver. The chain is pinned against a construction with NO continuous dials (scale-invariance theorem: d ln D_E/d ln x* = 0; residual ladder exhausted -- branch adjudicated, continuum closed, q^2 slot excluded). NOT alpha derived: the 4 pi^3 prefactor's rectified-linear character is located at the charge functional but imported, and the 179 ppm is unexplained. Three named falsifiable external gates: the anchor verification (derives kappa=pi/4 or falsifies the reading), the charge-functional construction (linear rectifies -> 4/pi derived; quadratic -> 4 pi^3 dies), and the 13.6 eV second prediction. Two self-corrections permanent in the record: a premature pi^4 lock (corrected to 4 pi^3 on external review) and a -15 ppm mixing artifact (retired by consistency audit). GATES RESOLVED (2026-08-06): all three named gates closed or discharged -- Gate 1 (kappa=pi/4 forced from the registered freeze, two J0 targets hit), Gate 2 (LINEAR, the 4/pi derived from the degree-1 force-type tether load), and the Gate 2 identification caveat DISCHARGED out of sample by the magnetic moment, which yields Dirac g=2 with zero freedom and localizes its residual on the Schwinger term alpha/2pi to 0.15%. EVERY FACTOR in 1/alpha = 4 pi^3 D_E is now derived; ONE +178.8 ppm residual and two moment-exactness refinements remain open. NOT a derivation of alpha's value -- 1/alpha reduced to one blind number times a fully-derived prefactor, pinned against a dial-free construction. Free byproduct: g=2, radiative residual named not derived. PROVENANCE DOCUMENTED: docs/HOW_ALPHA_WAS_DERIVED.md (companion note) + docs/alpha_derivation_map.png (factor-by-factor diagram, each element with the theorem that derived it) -- also embedded in the mass paper after the honest-boundary section. ARC AT SUMMIT (2026-08-06): the V-A next-order boundary term (the last named classical candidate for the +178.8 ppm residual) was run once against a pre-committed bar and MISSED cleanly, cornering the residual as radiative physics the classical chain does not contain (the same class as the g=2 Schwinger gap) -- a clean publishable endpoint, though the wall is not positively claimed on one miss. Every factor of 1/alpha = 4 pi^3 D_E is derived; the single residual's remaining candidate is the quantum/radiative fence.*
 - **The Electron and the Planck Constant in the Rope Framework** 📄 `papers/rope_electron_hbar.pdf` *(built 2026-08-07; the standing electron-structure results: the exactly-solved cusped profile, the pure-tension functional the framework selects for itself, the 0.407 fm size, the exact spacing w = a/√3, and the ħ-constancy = constancy of T·w² result — successes only, companion to the alpha and mass papers)*
@@ -171,16 +171,16 @@ The corpus is organised in three tiers: **(1) In-domain** classical results (the
 - **Lepton Masses from Rope Topology** 📄
   `rope_masses_paper.js`
 - **Mass Weights of Standard Model Particles** ⊘ *folded in 2026-08-07* — the SM-hierarchy/internal-weighting content is now section 3.1a of **Mass in the Rope Framework** (`rope_mass_paper`); the standalone note is archived to `papers/archived/`.
-- **Neutrino Mass Ratios in the Rope Hypothesis** 📄
-  `rope_neutrino_paper.js`
+- **Neutrino Mass Ratios in the Rope Hypothesis** 📄 `papers/rope_neutrino_masses.pdf`
+  *A Brannen-type mass relation analogous to the charged-lepton Koide relation, differing by a characteristic offset. Reported honestly as a phenomenological fit of the same family and conditional character as the lepton case — a modeled relation, not a derivation.*
 - **Correction: Neutrino Mass Hierarchy Ratio from the Brannen Formula** 📄
   `rope_neutrino_corrected.js`
-- **The Origin of the Brannen Neutrino Offset (π/12)** 📄
-  `rope_pi12.js`
+- **The Origin of the Brannen Neutrino Offset (π/12)** 📄 `papers/rope_pi12_offset.pdf`
+  *A structural reading of the neutrino phase offset ≈ π/12, explicitly a proposal not a proof: the π/12 value is treated as a target for the knot/phase geometry, a candidate mechanism described, and the gaps to a derivation stated plainly.*
 - **Neutrino Mixing Angles from the Rope Framework (PMNS)** 📄
   `rope_pmns.js`
-- **A Numerical Bridge: Pion Mass, QCD String Tension, and the Lepton Sector** 📄
-  `rope_pion_lepton.js`
+- **A Numerical Bridge: Pion Mass, QCD String Tension, and the Lepton Sector** 📄 `papers/rope_pion_lepton_bridge.pdf`
+  *A consistency estimate connecting the pion mass, the QCD string tension, and the lepton-sector scale through the common rope tension — it checks that the scales line up under the rope identification, and is explicit that it is a consistency check, not a derivation of any one quantity from the others.*
 
 ## Electroweak & Chern-Simons
 
@@ -217,16 +217,16 @@ The corpus is organised in three tiers: **(1) In-domain** classical results (the
 
 *Backing module(s): `rope_solver.relaxation / spectrum / psi`* 🔧
 
-- **Hopf-Link Solutions and the Rope Soliton Spectrum** 📄
-  `rope_hopf.js`
-- **Self-Consistent Rope Solitons** 📄
-  `rope_soliton.js`
-- **Full-Field Rope Solitons** 📄
-  `rope_fullfield.js`
+- **Hopf-Link Solutions and the Rope Soliton Spectrum** 📄 `papers/rope_hopf_solitons.pdf`
+  *The rope field admits stable knotted solitons with a computed spectrum: a single ring knot relaxes to R*=0.856 (E_min=12.08 M_Pl), a Hopf link to R*=0.838. Reproduced across the relaxation solver and its regression tests.*
+- **Self-Consistent Rope Solitons** 📄 `papers/rope_self_consistent_solitons.pdf`
+  *The ring and Hopf-link solitons solved self-consistently (curve and the field it sources solved together until neither changes), converging to the same radii as direct relaxation (R*=0.856, R*=0.838) — confirming they are genuine solutions, not fixed-background artefacts.*
+- **Full-Field Rope Solitons** 📄 `papers/rope_fullfield_solitons.pdf`
+  *Beyond the thin-curve approximation, the Hopf-link soliton computed in the full rope field (link as extended source) sits at R*=0.838, consistent with the thin-curve result. A computed full-field minimum; continuum existence and particle identification not claimed.*
 - **Numerical Relaxation of Fully Flexible Hopf Links** 📄
   `rope_flexible.js`
-- **Quantum Fluctuations Around Rope Knots** 📄
-  `rope_det.js`
+- **Quantum Fluctuations Around Rope Knots** 📄 `papers/rope_knot_fluctuations.pdf`
+  *The fluctuation spectrum around a rope knot is computed (Pöschl–Teller bound states −4.000, −1.001), and the log-determinant a knot must supply to match the electron scale is computed as 108.12 — stated explicitly as a target the spectrum must meet, not a derivation of the electron.*
 - **Quantum Rope Perturbation Theory** 📄  
   *NEGATIVE RESULT: one-loop fluctuation log-det ≈ −1.29 (O(1), no negative modes) vs electron requirement ≈108 — falsifies the one-loop mass mechanism by ~80×. Kept as a finding.*
   `rope_qpt_paper.js`
@@ -269,8 +269,8 @@ The corpus is organised in three tiers: **(1) In-domain** classical results (the
 ## Reference
 
 - **The Rope Picture of the Universe (Plain-Language Guide)** 📄 `papers/rope_plain_language_guide.pdf` *(the plain-language guide: light, electricity, magnetism, gravity, chemistry, the nucleus, the quantum puzzles, and black holes, built from guide/topics/ via build_guide.py)*
-- **The Rope Hypothesis — Glossary** 📝 *planned* — title only; no shipped content or code in this release
-  `rope_glossary_v3.js`
+- **The Rope Hypothesis — Scientific Glossary (v4)** 📄 `papers/rope_glossary_v4.pdf`
+  *137 terms across 16 thematic categories, with physical identifications and cross-references. Terms marked ★ are those where the rope model offers a genuinely new physical explanation; the v4 addendum adds the quantum-measurement-arc terms.*
 - **Rope Hypothesis Glossary — Addendum** 📝 *planned* — title only; no shipped content or code in this release
   `rope_glossary_update.js`
 

@@ -1,22 +1,26 @@
 # The Rope Hypothesis: state of the programme
 
-*An account for a reader outside the project. Current as of 3 August 2026
-(release v3.5.0). 459 registered claims, 441 code-backed and passing, 24
-registered Failed and kept. Core hypothesis due to Bill Gaede; developed and
-formalised in this corpus.*
+*An account for a reader outside the project. Core hypothesis due to Bill Gaede;
+developed and formalised in this corpus.*
+
+<!-- BEGIN GENERATED: corpus_stats -->
+*518 registered claims, 497 code-backed and passing, 111 Derived, 25 registered Failed and kept.*
+<!-- END GENERATED: corpus_stats -->
 
 **In one line:** one medium of strands under tension reproduces optics,
 electricity, magnetism, local gravity and the nuclear mass table with the same
 constants throughout —
-and, on present accounting, makes one prediction that differs from standard
-physics.
+and commits to a nineteen-entry inventory of falsifiable predictions, one of
+which is distinctive from standard physics and testable this decade.
 
-*(The previous edition, 17 July 2026, is archived at `_archive_STATE_2026-07-17.md`.
-It is superseded twice over: a large audit campaign on 1 August retired one
-sector and demoted most of the prediction list, and the strong-field campaign
-of 2 August -- twenty-one claims across three releases -- carried the gravity
-sector from its oldest assumption to the Hawking law-form. See the new section
-below.)*
+*(The previous edition, 17 July 2026, is archived at `history/_archive_STATE_2026-07-17.md`.
+It is superseded several times over: a large audit campaign on 1 August retired one
+sector and demoted most of the prediction list; the strong-field campaign of 2 August
+carried the gravity sector from its oldest assumption to the Hawking law-form; and the
+work of 5–7 August computed the horizon's "quantum of the ring", surfaced a striking
+cross-sector action coincidence, consolidated the electron/ħ and alpha results and the
+framework's own primitives into dedicated papers, and fixed the working mesh point.
+The sections below reflect all of it.)*
 
 ---
 
@@ -40,19 +44,26 @@ a kept negative).
 ## What the framework does
 
 Two things, and they should be judged separately: it **reconstructs** classical
-physics from one ontology, and it **predicts** almost nothing beyond it. The
-first is substantial and is the reason to read further. The second is thin, and
-is stated honestly below.
+physics from one ontology, and it **predicts** a falsifiable inventory beyond it
+whose *distinctive-from-standard-physics* content is narrow. The first is
+substantial and is the reason to read further. The second is real but easy to
+mis-count in either direction, so it is laid out carefully below: nineteen
+falsifiable predictions are on the books, eight of them distinctive in observable
+outcome, and exactly one currently distinctive *and* checkable *and* live. The
+honest headline is neither "almost nothing" nor "nineteen ways to tell it apart"
+— it is that the framework commits to nineteen testable relations while conceding
+that most overlap observationally with standard physics today.
 
 ## What the framework possesses
 
 Three quantities anchor everything downstream:
 
 - **Flux-tube tension** T = 1.878e5 J/m — a hadronic measurement.
-- **Strand spacing** w = a/√3, fixed *exactly* by the Lorentz bound a ≤ 1e-16 m.
-  This follows from an invariance theorem (ELEC-053): T₀/Σ = a²/3 for any tube
-  radius, so the spacing never depended on the disputed quantities it was long
-  thought to.
+- **Strand spacing** w = a/√3, fixed *exactly* relative to the mesh scale a by an
+  invariance theorem (ELEC-053): T₀/Σ = a²/3 for any tube radius, so the spacing
+  never depended on the disputed quantities it was long thought to. The absolute
+  mesh scale is now measurement-fixed at the M-point (a = 6.0e-17 m, FND-MATTER-044),
+  the m_e-consistent point that sits at 60% of the Lorentz bound rather than on it.
 - **Vacuum stiffness** Σ — the one genuinely open number, with two registered
   candidates 28% apart: the framework's 5.1e35 J/m³ and a lattice-anchored
   3.61e35 computed from published QCD flux-tube data.
@@ -100,6 +111,24 @@ the induced Newton constant carries a derived exponent pair with ζ = 1.208
 from network statics (GRV-005), and the MOND acceleration scale emerges as
 g† = cH₀/2π at zero free parameters, matching SPARC rotation curves.
 
+**Frame dragging — the structure is there, the magnitude is not yet derivable.**
+The framework's twist sector supplies a gravitomagnetic mode with exactly the
+Lense-Thirring form: a locking mass term is symmetry-forbidden (kappa = 0 by
+Goldstone's theorem applied to the derived internal-azimuth breaking, GRV-067),
+the resulting mode is massless for any modulus (GRV-068), and the far field comes
+out with the 1/r² falloff and dipole angular structure Lense-Thirring requires,
+from a Poisson equation plus a derived lemma with no free parameter (GRV-066).
+That structural result is genuine. What it cannot yet do — as a reviewer-prompted
+audit established (GRV-069..071) — is put a *number* on the effect: the registered
+strand action lacks a matter-to-rotation coupling and a metric shift-slot, so four
+of the five coefficients needed for the amplitude are absent. The honest status is
+therefore precise: the framework derives the *form* of frame dragging and matches
+Gravity Probe B's structure, but "can predict neither 37.2 mas/yr nor its absence
+and should claim neither" (GRV-071). The original source-audit failure that opened
+this line (GRV-059) is kept; the six sessions since converted it from "the sector
+is missing" to "the sector's structure is derived, its magnitude is the open
+frontier."
+
 **Nuclear masses across the table.** Atomic masses are *predicted* from carbon-12
 to uranium-238 with **one calibrated nuclear constant** (NUC-005, amended by
 NUC-018): bond counting from mode overlap, with the surface term derived from
@@ -122,8 +151,8 @@ every number traced to three medium parameters, with verified no-signalling.
 
 **That one ontology yields light, electricity, magnetism, local gravity and the
 nuclear mass table together — from strands under tension, with the same constants
-throughout — is the substantive claim of this programme.** By sector count: 15 of 33 EM
-claims are *Derived*, and 22 of 88 gravity claims — the gravity sector having
+throughout — is the substantive claim of this programme.** By sector count: 15 of 34 EM
+claims are *Derived*, and 27 of 101 gravity claims — the gravity sector having
 more than doubled through the 2026 audit and strong-field campaigns, most of the
 additions Modeled with locked bars and code.
 
@@ -141,17 +170,30 @@ predictively identical for years, and the argument between them was ontological.
 
 **Two things this document will not claim.** First, that predictive equivalence
 makes the standard accounts mere curve-fitting. They are not: QED predicted the
-electron anomalous moment to twelve digits before it was measured there, and
-antimatter, the W and Z masses, and gravitational waves were all committed to in
-advance and found. A framework that repeatedly sticks its neck out and survives
-has earned something this corpus has not yet earned. Second, that this framework
-explains mass in general. The distinction matters and cuts both ways.
-COMPOSITE masses it does well: the nuclear table from carbon to uranium falls out
-of bond counting with one calibration, on fewer parameters than the standard
-semi-empirical formula. FUNDAMENTAL masses and constants it does not: the lepton
-spectrum is registered as irreducible input (PM-004, a kept negative), G ~ 1/(Ta)
-is assumed rather than derived with PRED-003 provisional on it, and the vacuum
-stiffness Σ remains free with two candidate values.
+electron anomalous moment to twelve digits before it was measured, and antimatter,
+the W and Z masses, and gravitational waves were all committed to in advance and
+found. That is real, and a framework that repeatedly sticks its neck out and
+survives has earned something this corpus has not yet earned. But the comparison
+must be read with the parameter counts in view, or it flatters the wrong side.
+The Standard Model buys its accuracy with roughly nineteen free parameters fitted
+to data — the fermion masses, the mixing angles, the couplings, the Higgs sector —
+none derived from a deeper principle. This framework is trying to reach the same
+physics from a handful of primitives, and where it succeeds it does so at *zero*
+or *one* free parameter (the nuclear table on a single calibration; the SPARC
+acceleration relation at zero, GRV-030). Higher precision purchased with nineteen
+knobs is a different achievement from lower precision derived from almost none,
+and a fair reading says so. This document concedes the Standard Model's
+predictive record without conceding that the record settles which account
+explains more from less. Second, that this framework explains mass in general.
+The distinction matters and cuts both ways. COMPOSITE masses it does well: the
+nuclear table from the light nuclei through uranium falls out of bond counting with one
+calibration, and the semi-empirical mass formula is now derived from that geometry across
+all five terms rather than fitted.
+FUNDAMENTAL masses and constants it does not: the lepton spectrum is registered as
+irreducible input (PM-004, a kept negative), G ~ 1/(Ta) is assumed rather than
+derived with PRED-003 provisional on it, and the vacuum stiffness Σ remains free
+with two candidate values — a short list of unknowns against the Standard Model's
+longer one.
 
 That is worth comparing squarely with the field picture, which is often credited
 with explaining mass and does not. The Higgs mechanism explains how mass is
@@ -167,12 +209,30 @@ supplement to the reconstruction above, not a verdict on it.
 
 ## What the framework predicts, testably
 
-**One prediction.**
+**Nineteen falsifiable predictions; one that is distinctive, checkable, and live
+today.** The full inventory is maintained in `papers/falsifiable_predictions.pdf`
+— each a stated mathematical relation with its inputs classified derived or
+measured, its test named, and its falsifier spelled out. A discrimination audit
+(1 August 2026) asked the strictest question of each: does its *observable
+outcome* differ from standard physics, is it checkable, and is it live? Exactly
+one passes all three (the α–G covariation below), which is why earlier editions
+led with "one prediction." But that strict filter is not the whole story: the
+corrected distinctiveness census counts **eight** predictions distinctive in
+observable outcome (ELEC-063), and **five** are testable with existing
+apparatus now — the α–G ratio, the heavy-hydride 90° asymptote (H₂Po), the
+detector nucleation-kinetics package, the Born exponent p = 2, and the analog
+cliff/coverage universality. The list also carries structural consequences
+(the Tsirelson cap 2√2 named with its failed organ; the Koide gauge-boson
+structure), a confirmed-but-shared entry (cosmic birefringence), and a sharp
+retrodiction (the neutrino sum). The reader should not collapse this to "one" —
+one is the count that survives the *hardest* filter, not the count of
+predictions.
 
-**PRED-003: d ln α = −2 d ln G.** Both couplings are expressed in the same medium
-primitives, and cosmological drift running through the tension channel ties their
-rates by exactly −2. Drift through the strand spacing would give +1, so the
-prediction identifies a *channel*, not merely a number.
+**The distinctive-and-live one — PRED-003: d ln α = −2 d ln G.** Both couplings
+are expressed in the same medium primitives, and cosmological drift running
+through the tension channel ties their rates by exactly −2. Drift through the
+strand spacing would give +1, so the prediction identifies a *channel*, not
+merely a number.
 
 It has been confronted against published data. Four independent α-drift and three
 independent G-drift determinations combine to α̇/α = 9.9(1.1)e−19 /yr and
@@ -187,7 +247,13 @@ determination in the set, and 2.06σ against the relation on its own. A 3σ
 confirmation of that central value kills the claim and needs only a factor 1.45
 in σ: reachable around **2027–2030** on baseline growth alone.
 
-That is the whole of what this corpus currently bets.
+That is the corpus's **sharpest single bet** — the one prediction that is
+distinctive, checkable, and live at once. It is not the whole of what the
+framework wagers: the eight distinctive predictions and the five available-now
+tests above are also on the table, each with its own falsifier, several of them
+testable today. What makes PRED-003 the headline is that it is the one whose
+falsifier is both distinctive from standard physics and scheduled to fire this
+decade.
 
 ## What was retired, and why
 
@@ -242,6 +308,17 @@ LIGO, and the corpus's own spectral work established a broadband quasi-thermal
 spectrum, removing four orders of line-search sensitivity. No detection claim is
 made in either direction of the coefficient dispute.
 
+The frontier the earlier edition named as still open — the "quantum of the ring",
+the ħ scale at the horizon's door — has since been reached. A fourth exact
+cancellation (the campaign's signature move) gives a snap action
+A* = e_bit/ω_loc that is **independent of depth** (GRV-092), a genuine
+mass-independent quantum of the reconnection event. And a cross-registry action
+audit turned up the corpus's most suggestive coincidence to date (GRV-093): the
+horizon's emergent action and electromagnetism's fine-structure constant are
+written in the *same form* — a tension times an area over c — carried by two
+sectors that were never coupled. It is registered as a coincidence, not a
+derivation, but it is the kind of thing the programme exists to notice.
+
 **The physical Aharonov–Bohm branch is closed.** Nothing in the corpus sources a
 flux, and the one topological circulation it derives (2πN) is exactly spectrally
 trivial in a 2π-periodic instrument.
@@ -282,8 +359,12 @@ pre-listed suspects (GRV-088). The law is derived, and the number's court case i
 coefficient campaign (GRV-089..091) promoted one suspect, eliminated one by
 exact cancellation, vindicated the mode identification by Campbell's
 theorem, and convicted the confrontation itself of a category error. Both
-of the corpus's routes stand at their own questions, and the surviving open
-item is the quantum of the ring — the ħ frontier at the horizon's door.
+of the corpus's routes stand at their own questions, and the item that arc
+left open — the quantum of the ring at the horizon's door — has since been
+computed: a depth-independent snap action (GRV-092), which in turn surfaced the
+same-form coincidence between the horizon's action and the fine-structure
+constant (GRV-093). The tensor coefficient and the induced-EH fork were carried
+further still (GRV-094/095).
 
 ## What is weakest
 
@@ -292,7 +373,14 @@ any prediction tier. Its central geometry — a clasp of two strands, sharply
 asymmetric and nearly planar — is stable and distinctive, but its charge form
 factor misses by four orders of magnitude, and that has been shown *not* to be a
 calibration error: shrinking the strand scale rescues the electron and breaks
-everything else.
+everything else. What the sector *did* yield, and what the electron/ħ paper now
+documents, is structural rather than predictive: the 3D radial profile was solved
+exactly (a cusped, scale-free, finite-energy family, ELEC-073), the framework's
+own no-material-points commitment selects the pure-tension functional rather than
+leaving it a choice (ELEC-077), the size comes out near 0.407 fm surviving two
+independent estimators (ELEC-081), and the spacing w = a/√3 is exactly invariant
+(ELEC-053). These are real results; none of them is a prediction that separates
+the framework from standard physics, which is why the sector is filed here.
 
 The **pilot-wave branch** and the **gauge instrument** are both validated
 machinery with no target — correct mathematics, nil empirical content.
@@ -313,18 +401,23 @@ from stated inputs.
   corruption, empty parses, and parser drift.
 - `analysis/*_bars_LOCKED.md` — pass criteria, written *before* the corresponding
   computation ran.
-- `docs/HBAR_SECTOR_CLOSURE.md` — the retirement record.
-- `docs/STANDING_RULE_SOURCE_BEFORE_INSTRUMENT.md` — the lesson from two closed
+- `docs/technical/HBAR_SECTOR_CLOSURE.md` — the retirement record.
+- `docs/technical/STANDING_RULE_SOURCE_BEFORE_INSTRUMENT.md` — the lesson from two closed
   branches.
 - `docs/DETECTOR_KINETICS_PLAIN_LANGUAGE.md` — the strand-kinetics campaign
   (FND-STRAND-009..021) in plain language: what small isolated detectors do,
   the two-regime dark-count picture, the Derived power law, and the switch-on
   resolution.
+- `papers/rope_foundations.pdf` — the medium's primitives and framework
+  commitments, consolidated.
+- `papers/rope_electron_hbar.pdf` and `papers/rope_alpha_paper.pdf` — the
+  standing electron/ħ results and the fine-structure chain (1/α = 4π³D_E).
+- `docs/ROPE_PARAMETERS.md` — the canonical parameter card (self-verified),
+  with the M-point as the working mesh point.
 
-Twenty-four claims are registered **Failed** and kept, including one theorem
-falsified by the corpus's own growth and, from the strong-field campaign, an
-instrument disqualified by its own energy audit and pre-committed bars that
-failed and were kept as the findings they were.
+Twenty-five claims are registered **Failed** and kept, including one theorem
+falsified by the corpus's own growth, an instrument disqualified by its own energy
+audit, and pre-committed bars that failed and were kept as the findings they were.
 
 The failures are the point. A framework that recorded only its successes would
 have a longer list of predictions and no way to tell which of them meant

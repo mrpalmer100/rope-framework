@@ -1,8 +1,13 @@
 # Benchmark catalogue
 
-Every benchmark has a stable ID. **Papers cite the ID** (e.g. "see benchmark
-G-002") instead of restating numbers, so a reader can trace any cited value to a
-single regression-tested quantity. Generated from
+This is the curated set of **stable-ID canonical benchmarks** that papers cite by
+ID (e.g. "see benchmark G-002") so a reader can trace a cited value to a single
+regression-tested quantity. The stable-ID scheme was frozen at v2.0 and is a small,
+deliberately stable subset: the programme as a whole now has far more executable
+checks than appear here. As of the current registry, **497 of 518 claims are
+benchmark-backed** (each claim names its benchmark in `claims.yaml`), run from
+roughly 468 benchmark scripts under `benchmarks/`. The 23 IDs below are the
+citation anchors, not the whole test suite. Generated from
 `rope_solver.benchmark_catalogue`; regenerate with:
 
 ```bash
@@ -49,4 +54,6 @@ cite these IDs.
 | `P-006` | Knot action O(1) / mass external | S_E=1 | `test_physics` | `particles` |
 | `S-001` | Fluctuation determinant | Poschl-Teller validated | `test_physics` | `spectrum` |
 
-**23 benchmarks.**
+**23 stable-ID canonical benchmarks** (the citation anchors above). The full
+executable coverage is larger: 497 of 518 registered claims are benchmark-backed,
+each naming its benchmark in `claims.yaml`.

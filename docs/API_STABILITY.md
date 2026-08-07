@@ -41,7 +41,7 @@ foundation under prior results does not move.
 
 - **Physical correctness.** Stability of the API is not a claim that the physics
   is right. The package establishes numerical reproducibility, not physical
-  truth. See the [open-problems registry](roadmap.md) for what is unsolved,
+  truth. See the [open-problems registry](ROADMAP.md) for what is unsolved,
   conjectural, or falsified.
 - **Private functions** (leading underscore) and internal implementation details
   may change at any time.

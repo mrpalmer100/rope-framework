@@ -696,15 +696,6 @@
   "why": "Lambda computed by percolation; no quantum input remains",
   "branch": ""
  },
- "QB-003": {
-  "status": "Failed",
-  "markers": [
-   "q"
-  ],
-  "cat": "FENCE",
-  "why": "counting form cannot reproduce entanglement; Failed and kept",
-  "branch": ""
- },
  "QB-005": {
   "status": "Modeled",
   "markers": [

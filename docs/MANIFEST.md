@@ -44,7 +44,6 @@ Generated for the public repository. Papers carry the status mix of the claims t
 - `rope_pion_lepton_bridge.docx`
 - `rope_plain_language_guide.docx`
 - `rope_pmns.docx`
-- `rope_programme_overview.docx`
 - `rope_qpt.docx` — anchors: Failed
 - `rope_renormalization_eft.docx` — anchors: EFT-constrained
 - `rope_scope_and_limits.docx` — anchors: Failed, Open
