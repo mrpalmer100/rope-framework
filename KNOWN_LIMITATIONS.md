@@ -4,13 +4,21 @@ A single place for every load-bearing caveat, so a reader never has to hunt for 
 This document is deliberately front-loaded: if any of these is a dealbreaker for you,
 you have found it in under five minutes.
 
-*Revised 7 August 2026 against the 518-claim registry.*
+*Revised against the current registry.*
+<!-- BEGIN GENERATED: corpus_stats -->
+*518 registered claims, 497 code-backed and passing, 111 Derived, 25 registered Failed and kept.*
+<!-- END GENERATED: corpus_stats -->
 
 
 ## The quantum boundary (the deepest limitation)
 
-The framework is classical and configuration-counting. Several quantum facts are
-therefore **adopted, not derived**, or **open**:
+The framework is classical, but it is **not** a pure configuration-counting
+scheme: its native arithmetic is the Hopf/spinor (quaternion) machinery, with
+modes, winding, and geometric structure, and it is that non-counting structure
+that derives the Tsirelson bound and demonstrates a Bell violation (below). What
+*is* limited is a specific **local counting reading** of measurement, which Bell's
+theorem caps at CHSH = 2 no matter how it is built (QB-006). With that distinction
+kept straight, several quantum facts are **adopted, not derived**, or **open**:
 
 - **The Schrodinger equation is ADOPTED**, not derived. It is used as the effective
   continuum description of network modes; hbar, the electron mass, and hence the
@@ -38,21 +46,19 @@ therefore **adopted, not derived**, or **open**:
   not claimed impossible; none is claimed to exist.
 - **Pauli exclusion is INCOMPLETE** (Conjecture-level spin-mode-saturation proposal); the
   contact core supplies a mechanical steric repulsion that partially routes around it.
-- **He-4 absolute binding is a declared FAILURE** of the classical nuclear model; the
-  heavy-isotope residuals are declared hbar-omissions.
+- **The nuclear binding table has a real but unexplained residual.** The classical
+  model now predicts atomic masses across the table (light nuclei through U-238), with He-4 used as
+  the single calibration constant rather than standing as a failure, and the heavy-table
+  gap has been narrowed to about a percent with derived classical physics. What remains
+  open is the residual itself: it is a coordination-dependent term of roughly the right
+  magnitude whose origin is not yet derived. Notably, the sector's long-inherited
+  explanation -- that the residual is a kinetic/zero-point (hbar) omission -- was computed
+  and **refuted** (NUC-010, Failed and kept: the derived Fermi-gas term makes the model
+  2.25x worse; NUC-023 confirmed this collectively). The residual is real and does *not*
+  scale like kinetic energy; naming its mechanism is the open problem.
 
 ## Gravity
 
-- **The classical (direct) weak-field route was FALSIFIED and kept, then superseded.**
-  The direct-mechanism route gave a light deflection of 0.44 arcsec against the measured
-  1.75 (a factor ~4) -- a theorem-grade no-go within that defined class (GRV-012), kept
-  permanently as the finding that forced a change of route. It is **not** the sector's
-  current standing: the induced-gravity route that replaced it now **derives** the
-  weak-field metric, γ = 1, and the exact 1.751-arcsec deflection as a two-condition
-  theorem (GRV-026, GRV-029, both Derived), and reproduces the SPARC galaxy-scale
-  acceleration relation at zero free parameters (GRV-030). Newtonian gravity is recovered,
-  and the relativistic completion the classical route missed is now derived on the induced
-  route.
 - **Frame dragging: structure derived, magnitude not yet derivable.** The twist sector
   supplies a gravitomagnetic mode with the exact Lense-Thirring form — a locking mass term
   is symmetry-forbidden (kappa = 0 by Goldstone, GRV-067), the mode is massless for any
@@ -112,8 +118,13 @@ therefore **adopted, not derived**, or **open**:
 
 ## The complete failed-and-kept ledger
 
-All 25 claims registered at **Failed** status, kept on permanent display with their lesson.
-Grouped by sector.
+<!-- BEGIN GENERATED: corpus_stats -->
+*518 registered claims, 497 code-backed and passing, 111 Derived, 25 registered Failed and kept.*
+<!-- END GENERATED: corpus_stats -->
+
+Every one of those Failed claims is kept on permanent display below with its lesson,
+grouped by sector. (If the count above ever exceeds the entries listed, the ledger has
+fallen behind the registry — run `tools/sync_doc_facts.py --check`.)
 
 **Electromagnetism / cosmology**
 - **EM-011**: cosmological alpha-variation falsifies the strong (local density-tracking) form of the rope-density hypothesis for the EM coupling.
@@ -132,7 +143,7 @@ Grouped by sector.
 - **NUCQ-003**: the structural strand count is derived, the escape closes, and the mesoscopic-hbar picture is refuted.
 
 **Quantum boundary**
-- **QB-003**: the present counting form does not reproduce quantum entanglement (CHSH).
+- **QB-003**: the *local configuration-counting* reading of measurement cannot reproduce CHSH — theorem-forced, since Bell caps any local mechanism at 2 (QB-006). Kept as a finding; the framework's non-local Hopf/spinor structure later derives Tsirelson (QB-020) and demonstrates a violation (QB-030). Not a statement that the framework is a mere counting scheme.
 - **QB-004**: one-loop fluctuation mass mechanism (log-det ≈ -1.29 vs electron ≈ 108).
 - **THM-006**: the layer-separation theorem -- the programme's failures concentrate at the dynamical (Layer III) frontier.
 
@@ -158,12 +169,17 @@ Grouped by sector.
 
 ## The one fence (cross-sector synthesis)
 
-The four hardest residuals above -- gravity's tensor half, nuclear saturation, light-isotope
-masses, and dispersion forces -- were registered independently, in four sectors, over months.
-Their terminal diagnoses name the same missing layer: quantum kinetic / zero-point energy
-(FND-BOUND-001). The classical programme's boundary is one boundary. It is located from four
+The four hardest residuals above -- the gravitomagnetic (frame-dragging) magnitude, the
+nuclear shell/pairing tier, light-isotope masses, and dispersion forces -- were registered
+independently, in four sectors, over months. (Weak-field gravity is not among them: the metric, γ = 1, the exact
+1.751″ deflection, and the SPARC relation are all derived; the open gravity item is the
+frame-dragging *magnitude*, not the sector. And the nuclear residual is now narrow: the
+classical semi-empirical mass formula is derived across all five terms, leaving only the
+genuinely quantum shell/pairing structure at a few MeV RMS -- not the classical mass table,
+which is closed.) Their terminal diagnoses name the same missing
+layer: quantum zero-point / shell structure (FND-BOUND-001). The classical programme's boundary is one boundary. It is located from four
 directions and crossed from none; constructing the quantum layer requires hbar (underived)
 and the absolute mesh scale (measurement-fixed at the M-point, not derived -- FND-MATTER-003/044).
 A standing research directive for
 crossing this fence -- with pre-committed acceptance tests and the discipline required --
-is maintained at docs/FUTURE_MODEL_PROMPT_one_fence.md.
+is maintained at docs/technical/FUTURE_MODEL_PROMPT_one_fence.md.

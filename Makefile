@@ -16,7 +16,7 @@ export PYTHONPATH := $(CURDIR)
 
 .PHONY: all verify test reproduce graph roadmap overview heartbeat clean
 
-all: graph roadmap overview verify test reproduce
+all: graph roadmap overview issues ledger reviewer-registry freshness verify test reproduce
 
 verify:
 	@echo "== Corpus claim verification =="
@@ -33,6 +33,18 @@ roadmap:
 overview:
 	@echo "== Programme overview =="
 	@$(PY) tools/build_overview.py
+
+issues:
+	@echo "== Suggested issues (open frontier) =="
+	@$(PY) tools/build_suggested_issues.py
+
+ledger:
+	@echo "== Quantum-input ledger =="
+	@$(PY) tools/quantum_audit.py > /dev/null
+
+reviewer-registry:
+	@echo "== Reviewer claim-status registry =="
+	@$(PY) tools/build_claim_status_registry.py
 
 heartbeat:
 	@echo "== Heartbeat (core validation) =="
@@ -56,3 +68,7 @@ clean:
 	@find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true
 	@find . -name "*.pyc" -delete 2>/dev/null || true
 	@echo "cleaned."
+
+freshness:
+	@echo "== Doc/version/catalog freshness =="
+	@$(PY) tools/check_freshness.py

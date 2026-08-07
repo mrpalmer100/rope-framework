@@ -4336,7 +4336,7 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
   157 claims (77 Derived).
 
 ## v2.2.4 (2026-07-23)
-Release cut. See docs/RELEASE_NOTES_v2.2.4.md for the curated notes; the dated addenda above constitute
+Release cut. See docs/history/RELEASE_NOTES_v2.2.4.md for the curated notes; the dated addenda above constitute
 the session-level record. Corpus: 157 claims (77 Derived), 143/143 benchmarks passing, 57 papers.
 
 ### Addendum (2026-07-23, post-v2.2.4 -- opens the v2.2.5 cycle) — QB-019: the Tsirelson-selection question answered
@@ -4530,7 +4530,7 @@ the session-level record. Corpus: 157 claims (77 Derived), 143/143 benchmarks pa
   weave is warm). Corpus 155/155, 169 claims (67 Modeled).
 
 ## v2.2.5 (2026-07-23)
-Release cut. See docs/RELEASE_NOTES_v2.2.5.md for the curated notes; the dated addenda above are the
+Release cut. See docs/history/RELEASE_NOTES_v2.2.5.md for the curated notes; the dated addenda above are the
 session-level record. Corpus: 169 claims (80 Derived, 67 Modeled), 155/155 benchmarks passing, 58
 papers. Headline: the Tsirelson-selection answer, the strand campaign complete, the measurement chain
 closed on literal strands, and the gapped-bath prediction.
@@ -4690,7 +4690,7 @@ closed on literal strands, and the gapped-bath prediction.
   Corpus 162/162, 176 claims (69 Modeled).
 
 ## v2.2.6 (2026-07-23)
-Release cut. See docs/RELEASE_NOTES_v2.2.6.md. Corpus: 176 claims (85 Derived, 69 Modeled), 162/162
+Release cut. See docs/history/RELEASE_NOTES_v2.2.6.md. Corpus: 176 claims (85 Derived, 69 Modeled), 162/162
 benchmarks passing, 58 papers. Headline: the seven-claim gravity arc -- the quantum-completion
 conjecture funded, tested, nearly falsely executed, and completed: the IR-universal induced action is
 Einstein-Hilbert; 1.751 arcseconds as a theorem conditional on one measured locus in conditioning
@@ -4734,7 +4734,7 @@ chapters.
   claims (87 Derived).
 
 ## v2.2.7 (2026-07-24)
-Release cut. See docs/RELEASE_NOTES_v2.2.7.md. Corpus: 186 claims (87 Derived, 77 Modeled), 174/174
+Release cut. See docs/history/RELEASE_NOTES_v2.2.7.md. Corpus: 186 claims (87 Derived, 77 Modeled), 174/174
 benchmarks passing, 58 papers; SPARC data in-repo. Headline arcs: the gravity summit (GRV-029:
 unconditional 1.751"), the SPARC confrontation (zero-parameter g_dagger; P4 retired; the H0 meter
 brackets the tension), and the black-hole arc (a comb, not a point; the Hawking divergence
@@ -5007,7 +5007,7 @@ registered with its PBH falsifier). Guide GPS chapter; glossary TIME entry; regi
 
 
 ## v2.2.8 (2026-07-24)
-Release cut. See docs/RELEASE_NOTES_v2.2.8.md. Corpus: 191 claims (88 Derived, 81 Modeled), 179/179
+Release cut. See docs/history/RELEASE_NOTES_v2.2.8.md. Corpus: 191 claims (88 Derived, 81 Modeled), 179/179
 benchmarks passing, 59 papers. Headline: the whisper arc GRV-040..044 -- Hawking's radiation rebuilt
 from rope (scale 0.23 kappa with the strand scale cancelling; geometry thermalizes; T = 1.3 kappa/2pi
 from inputs that never met a 2pi; the running-temperature tail in closed form, Derived). Three
@@ -5096,7 +5096,7 @@ whisper note; papers synchronized.
 
 
 ## v2.2.9 (2026-07-24)
-Release cut. See docs/RELEASE_NOTES_v2.2.9.md. Corpus: 195 claims (92 Derived, 84 Modeled, 3
+Release cut. See docs/history/RELEASE_NOTES_v2.2.9.md. Corpus: 195 claims (92 Derived, 84 Modeled, 3
 Conjecture, 5 Open), 185/185 benchmarks passing, 59 papers. Headline: the strong-field audit
 (GRV-048, Derived) -- the gate on fourteen black-hole claims opens: corrections 1e-78 at the
 horizon, Ricci-class terms vanishing exactly, the dictionary verified at O(1) amplitude. Plus: the
@@ -5165,7 +5165,7 @@ with the timing residue as the sector's falsifier); the vacuum zero point (EM-RE
 
 
 ## v2.3.0 (2026-07-24)
-Release cut -- THE 200-CLAIM MILESTONE. See docs/RELEASE_NOTES_v2.3.0.md. Corpus: 200 claims
+Release cut -- THE 200-CLAIM MILESTONE. See docs/history/RELEASE_NOTES_v2.3.0.md. Corpus: 200 claims
 (94 Derived, 87 Modeled, 3 Conjecture, 5 Open), 190/190 benchmarks passing, 59 papers. The Bell
 arc QB-015..019 in one day: the shared ribbon explaining the wall to four digits (Mark's
 conjecture); the half-angle derived at 1e-16 from three channels and one computed symmetry; the
@@ -5300,7 +5300,7 @@ capitals; the matter-sector gateway (the literal knot) named for the next era.
 
 
 ## v2.3.1 (2026-07-25)
-Release cut -- THE MATTER ERA OPENS. See docs/RELEASE_NOTES_v2.3.1.md. Corpus: 209 claims
+Release cut -- THE MATTER ERA OPENS. See docs/history/RELEASE_NOTES_v2.3.1.md. Corpus: 209 claims
 (98 Derived, 92 Modeled, 3 Conjecture, 5 Open), 199/199 benchmarks passing, 60 papers. Nine
 claims FND-MATTER-006..014: the knot solver (trefoil 2.9%), the spectrum with its tracked
 figure-eight anomaly, the 1836 fork, the zero-point spectrometer and the 43% verdict, the
@@ -5391,7 +5391,7 @@ particle, and the release says so.
 
 
 ## v2.3.2 (2026-07-25)
-Release cut -- THE DOUBLET AND THE DISSOLUTION. See docs/RELEASE_NOTES_v2.3.2.md. Corpus: 216
+Release cut -- THE DOUBLET AND THE DISSOLUTION. See docs/history/RELEASE_NOTES_v2.3.2.md. Corpus: 216
 claims (100 Derived -- the hundredth landed this cycle -- 97 Modeled, 3 Conjecture, 5 Open),
 206/206 benchmarks passing, 60 papers. Seven bricks: the topology certifier and the figure-eight's
 conviction; kc DISSOLVED (contacts bind, -0.5025 per site, parameter-free); the granny/square
@@ -5463,7 +5463,7 @@ conceptual gate: lambda.
 
 
 ## v2.3.3 (2026-07-25)
-Release cut -- THE FLOW AND THE WALLS. See docs/RELEASE_NOTES_v2.3.3.md. Corpus: 221 claims
+Release cut -- THE FLOW AND THE WALLS. See docs/history/RELEASE_NOTES_v2.3.3.md. Corpus: 221 claims
 (100 Derived, 102 Modeled, 3 Conjecture, 5 Open), 211/211 benchmarks passing, 60 papers. Five
 bricks (FND-MATTER-022..026): the Alexander certifier (two-certificate identity pipeline; 6_1
 seated topologically on the standard word); the plat constructor (the twist ladder found by a
@@ -5535,7 +5535,7 @@ real, walls growing with twist count). Catches 26-27. lambda unmoved.
 
 
 ## v2.3.4 (2026-07-25)
-Release cut -- THE GATE AND THE JURY. See docs/RELEASE_NOTES_v2.3.4.md. Corpus: 226 claims
+Release cut -- THE GATE AND THE JURY. See docs/history/RELEASE_NOTES_v2.3.4.md. Corpus: 226 claims
 (100 Derived, 107 Modeled, 3 Conjecture, 5 Open), 216/216 benchmarks passing, 60 papers. Five
 bricks (FND-MATTER-027..031): the corrected spectrum table (the 4_1 DEAD ZERO at the fourth
 figure; 8_1 seated; the congestion gauge); the literature anchors sourced (ridgerunner
@@ -5597,7 +5597,7 @@ walls are the antagonist; adaptive flow is the critical path. lambda underived, 
 
 
 ## v2.3.5 (2026-07-25)
-Release cut -- THE GATE, THE AUDIT, AND THE TRACE. See docs/RELEASE_NOTES_v2.3.5.md. Corpus:
+Release cut -- THE GATE, THE AUDIT, AND THE TRACE. See docs/history/RELEASE_NOTES_v2.3.5.md. Corpus:
 230 claims (102 Derived, 109 Modeled, 3 Conjecture, 5 Open), 220/220 benchmarks passing, 60
 papers. Four bricks (FND-MATTER-032..035): the adaptive campaign (the incompressibility
 principle; the oscillatory conveyor; the 6_1 wall terminal-graded after eleven attacks); the
@@ -5664,7 +5664,7 @@ solver-grade frontier is the named remedy. Lambda: geometric, fork-robust, under
 
 
 ## v2.3.6 (2026-07-25)
-Release cut -- THE AXIS BECOMES A NUMBER. See docs/RELEASE_NOTES_v2.3.6.md. Corpus: 233 claims
+Release cut -- THE AXIS BECOMES A NUMBER. See docs/history/RELEASE_NOTES_v2.3.6.md. Corpus: 233 claims
 (102 Derived, 112 Modeled, 3 Conjecture, 5 Open), 223/223 benchmarks passing, 60 papers. Three
 bricks (FND-MATTER-036..038) completing the gate saga: collision saturation (the mechanism that
 justifies reading C confiscates its parameter; drive-independent plateau at g^2/12); the
@@ -5891,7 +5891,7 @@ principle, PAPERS.md refreshed. Every hypothesis marked; no knot identified with
 
 
 ## v2.3.7 (2026-07-29)
-Release cut -- TWO BRANCHES, ASYMMETRIC FATES. See docs/RELEASE_NOTES_v2.3.7.md. Corpus: 242
+Release cut -- TWO BRANCHES, ASYMMETRIC FATES. See docs/history/RELEASE_NOTES_v2.3.7.md. Corpus: 242
 claims (102 Derived, 121 Modeled, 3 Conjecture, 5 Open, 7 Failed-and-kept), 232/232 benchmarks
 passing, 60 papers. Nine claims: THM-006 (the Layer Separation Theorem, 4.2x enrichment,
 adverse first draft kept) and the QGATE campaign 001..008 (the smooth no-go; the reconnection
@@ -6015,7 +6015,7 @@ inverted payoff, and one missing dynamics no number can touch.
 
 ## v2.3.8 (2026-07-29)
 Release cut -- THE FIRST DYNAMICAL BELL VIOLATION, AND THE MECHANISM OF THE BORN RULE. See
-docs/RELEASE_NOTES_v2.3.8.md. Corpus: 251 claims (102 Derived, 130 Modeled, 4 EFT-constrained,
+docs/history/RELEASE_NOTES_v2.3.8.md. Corpus: 251 claims (102 Derived, 130 Modeled, 4 EFT-constrained,
 3 Conjecture, 5 Open, 7 Failed-and-kept), 237 benchmark-backed and passing, 60 papers. Nine
 claims: the vacuum audit with the Schwinger diagnosis (009), the spin-meter contract (010),
 the guidance flow named-defined-priced (011), the first dynamical Bell violation at CHSH 2.72+
@@ -6170,7 +6170,7 @@ a rope electron, and a rope-derived Psi.
 
 
 ## v2.3.9 (2026-07-29)
-Release cut -- THE FUNCTIONAL IS INNOCENT, AND THE ROPE BINDS. See docs/RELEASE_NOTES_v2.3.9.md.
+Release cut -- THE FUNCTIONAL IS INNOCENT, AND THE ROPE BINDS. See docs/history/RELEASE_NOTES_v2.3.9.md.
 Corpus: 268 claims (102 Derived, 135 Modeled, 4 EFT-constrained, 3 Conjecture, 5 Open, 19
 Failed-and-kept), 254 benchmark-backed and passing, 60 papers. The electron campaign's first
 arc integrated (fourteen claims, eleven kept failures, the first electron-shaped object, the
@@ -6223,7 +6223,7 @@ electron yet; the road to one now has a map.
 
 
 ## v2.4.0 (2026-07-30)
-Release cut -- THE CINCHED LINK. See docs/RELEASE_NOTES_v2.4.0.md. Corpus: 271 claims (102
+Release cut -- THE CINCHED LINK. See docs/history/RELEASE_NOTES_v2.4.0.md. Corpus: 271 claims (102
 Derived, 138 Modeled, 4 EFT-constrained, 3 Conjecture, 5 Open, 19 Failed-and-kept), 257
 benchmark-backed and passing, 60 papers. The stationarity arc completed in three claims:
 ELEC-011 (the exact adjoint validated at 100x lower cost; the piecewise-smoothness diagnosis;
@@ -6316,7 +6316,7 @@ contact-manifold machinery closes the one open number.
 
 
 ## v2.4.1 (2026-07-30)
-Release cut -- THE LADDER, THE NUMBER, AND THE PRICE. See docs/RELEASE_NOTES_v2.4.1.md.
+Release cut -- THE LADDER, THE NUMBER, AND THE PRICE. See docs/history/RELEASE_NOTES_v2.4.1.md.
 Corpus: 280 claims (102 Derived, 147 Modeled, 4 EFT-constrained, 3 Conjecture, 5 Open, 19
 Failed-and-kept), 266 benchmark-backed and passing, 60 papers. Nine claims completing the
 stationarity arc: the second-order decider (014); the resolution ladder ruling against comfort
@@ -6806,7 +6806,7 @@ not yet meaningful -- stated on every claim.
 
 ## v2.5.0 (2026-07-31)
 Release cut -- THE CHAIN FROM THE ELECTRON TO THE SKY, AND THE FIRST PREDICTION THAT HELD.
-See docs/RELEASE_NOTES_v2.5.0.md. Corpus: 313 claims (102 Derived, 180 Modeled, 4
+See docs/history/RELEASE_NOTES_v2.5.0.md. Corpus: 313 claims (102 Derived, 180 Modeled, 4
 EFT-constrained, 3 Conjecture, 5 Open, 19 Failed-and-kept), 299 benchmark-backed and passing,
 60 papers. Thirty-three claims and two new families. The electron campaign completes: the void
 residual metric caught (ELEC-023), the stationarity saga resolved into 'the landscape is benign
@@ -7424,7 +7424,7 @@ a 28% one-sign tension replacing the old factor-2 conflated band), six
 self-catches, all by the arc's own locked instruments. The zero-cost decider
 is filed blocked-with-path (arXiv 2409.20168 ancillary data; key file
 ENP_1064_0532.agr; manual download required -- see
-docs/RELEASE_NOTES_v2.5.1.md). 343 claims, 329 code-backed.
+docs/history/RELEASE_NOTES_v2.5.1.md). 343 claims, 329 code-backed.
 
 ## 3.6.0 (2026-08-03)
 
@@ -7439,7 +7439,7 @@ geometric (0.23 kappa, GRV-040 vindicated) and the rate thermodynamic
 thermodynamics, bright snaps. Residue: the quantum of the ring (the hbar
 frontier at the horizon's door). Document sweep propagated the verdict across
 papers, guide, state doc, SURPRISES, and figures. Full notes:
-docs/RELEASE_NOTES_v3.6.0.md.
+docs/history/RELEASE_NOTES_v3.6.0.md.
 
 ## 3.5.0 (2026-08-02)
 
@@ -7451,7 +7451,7 @@ Hawking nowhere in the inputs) and the switch-class luminosity met from below;
 and the summit returning a located disagreement -- K derived (the pressing is
 the cell's weight), the coefficient four orders under the committed 0.23, four
 suspects pre-listed on both chains, the form standing coefficient-independent.
-Full notes: docs/RELEASE_NOTES_v3.5.0.md.
+Full notes: docs/history/RELEASE_NOTES_v3.5.0.md.
 
 ## 3.4.0 (2026-08-02)
 
@@ -7465,7 +7465,7 @@ coupling built (accretion for free, collapse as recorded structure); and the
 whisper's temperature chain assembled -- T_res = N h/L*, Unruh-shaped, with the
 bit-cost measured to three digits, the lift-over theorem replacing the friction
 premise, the log-odds coefficient measured at 2.0-3.3, and one residual premise
-(P-EQ). Full notes: docs/RELEASE_NOTES_v3.4.0.md.
+(P-EQ). Full notes: docs/history/RELEASE_NOTES_v3.4.0.md.
 
 ## 3.3.0 (2026-08-02)
 
@@ -7475,7 +7475,7 @@ thermalize the fiber (GRV-020 + FDT), the transport law is forced by the one
 generator, orientation is a parameter, and the visibility is derived from
 (T, kt, h). Headline: a Bell violation (2.03-2.41 across source orientations,
 52 sigma at isotropic) whose every number is derived from three medium
-parameters. Full notes: docs/RELEASE_NOTES_v3.3.0.md.
+parameters. Full notes: docs/history/RELEASE_NOTES_v3.3.0.md.
 
 ## 3.2.0 (2026-08-02)
 
@@ -7486,7 +7486,7 @@ route killed by theorem, the dictionary reduced to one length, kappa enslaved
 source length bounded at 13-16 a by measured alpha, and 1/alpha = 2 pi^2 rho^2
 under the shared-origin hypothesis (rho = 2.6348 required, guarded). Three owned
 corrections, two killed candidates, one vacuous test caught in commission.
-Full notes: docs/RELEASE_NOTES_v3.2.0.md.
+Full notes: docs/history/RELEASE_NOTES_v3.2.0.md.
 
 ## 3.1.0 (2026-08-01)
 THE ELECTRON LINE, THE CONSTRAINT CENSUS, AND TWO TOOLING REPAIRS. Fourteen
@@ -11080,7 +11080,7 @@ A local topology-surgery control replaced ROPE-MODE-004's translated unlinked co
   4 Conjecture, 5 Open, 25 Failed-and-kept); 459 code-backed, all passing.
 - README release line bumped (checked against the v3.3.0
   silent-pattern-miss lesson); release notes at
-  docs/RELEASE_NOTES_v3.7.0.md.
+  docs/history/RELEASE_NOTES_v3.7.0.md.
 - Headline debt carried forward: the Khinchin/Poissonization derivation --
   one theorem from promoting the strand arc into a Derived cornerstone.
 - CITATION.cff version field found stale at 2.5.0 (a second silent
@@ -11240,7 +11240,7 @@ A local topology-surgery control replaced ROPE-MODE-004's translated unlinked co
   passing.
 - Release checklist (three items, per the v3.7.0 lesson): README release
   line bumped; CITATION.cff version and date bumped; release notes at
-  docs/RELEASE_NOTES_v3.8.0.md.
+  docs/history/RELEASE_NOTES_v3.8.0.md.
 
 ## 2026-08-04 — Docs and papers consolidation: the limit statement lands
 
@@ -11524,7 +11524,7 @@ A local topology-surgery control replaced ROPE-MODE-004's translated unlinked co
   passing.
 - Release checklist (three items): README release line bumped;
   CITATION.cff at 3.9.0, date already current; release notes at
-  docs/RELEASE_NOTES_v3.9.0.md.
+  docs/history/RELEASE_NOTES_v3.9.0.md.
 - Carried forward: the fourth-grant decision (the HOM pin is its brief);
   Phase B source sector; the absolute-scale map as the audited route to
   a second confronted bet.
@@ -11725,7 +11725,7 @@ A local topology-surgery control replaced ROPE-MODE-004's translated unlinked co
   code-backed, all passing; 58 papers.
 - Release checklist (three items): README release line bumped and
   corpus-state synced; CITATION.cff at 3.10.0, date current; release
-  notes at docs/RELEASE_NOTES_v3.10.0.md.
+  notes at docs/history/RELEASE_NOTES_v3.10.0.md.
 - Carried forward: the a_grav-a_mesh relation (1e30, one channel
   priced); the 3D dynamical-matrix refinement of the power-2 law; the
   ledger v2 regenerated at the M-point with R7 reclassified; the ZPE
@@ -12212,7 +12212,7 @@ A local topology-surgery control replaced ROPE-MODE-004's translated unlinked co
 
 ## 3.11.0 (2026-08-06)
 The alpha chain at summit, and the nuclear gap closed. Full notes:
-docs/RELEASE_NOTES_v3.11.0.md.
+docs/history/RELEASE_NOTES_v3.11.0.md.
 
 - 518 registered claims (111 Derived, 369 Modeled, 4 EFT-constrained, 4
   Conjecture, 5 Open, 25 Failed-and-kept); 497 code-backed.

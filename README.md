@@ -30,7 +30,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 **🗺️ [Roadmap of Knowledge](docs/ROADMAP.md)** — the whole corpus at a glance: [wall chart](docs/roadmap.png) and [interactive dependency explorer](docs/roadmap.html) (click any claim; see its dependencies, dependents, and full downstream), all generated from claims.yaml by `tools/build_roadmap.py`.
 
 
-**Current release: v3.11.0** (6 Aug 2026) — the alpha chain at summit, and the nuclear gap closed. The electron-dressing route to the fine-structure constant reached its honest summit: **1/α = 4 π³ · D_E = 137.060504** (+178.8 ppm (0.018%)), with EVERY FACTOR DERIVED — D_E computed blind from the winding-terminus solver, the 4 π³ prefactor derived across three gates (Gate 1 forces κ = π/4; Gate 2 is LINEAR with the 4/π from the force-type tether load; Gate 3 passes at 13.6 eV) — and the same machinery producing **g = 2** out of sample with its residual localized on the Schwinger term α/2π to 0.15%. Three independent observables, one convention structure. The +178.8 ppm (0.018%) residual is cornered as radiative physics the static construction cannot contain: the residual ladder is exhausted, a scale-invariance theorem shows no continuous dials, the V-A boundary candidate missed cleanly, and the functional-completeness audit came back clean — leaving **LEAD-RAD** (back-reaction, second prediction pre-installed: the α residual and the g=2 gap from one mechanism) as the stamped forward path. **NOT a derivation of α's value** — a reduction to one blind number times a derived prefactor, honestly bounded. In parallel, the nuclear heavy-table binding gap closed from ~13% to ~1% with derived classical physics (NUC-A..D2), complete by theorem. Three flattering results were retired with retractions standing (the π⁴ lock, the −15 ppm artifact, the Ω coincidence); every load-bearing number is script-backed. Provenance documented in `docs/HOW_ALPHA_WAS_DERIVED.md` and `docs/alpha_derivation_map.png`. See `docs/RELEASE_NOTES_v3.11.0.md`.
+**Current release: v3.11.0** (6 Aug 2026) — the alpha chain at summit, and the nuclear gap closed. The electron-dressing route to the fine-structure constant reached its honest summit: **1/α = 4 π³ · D_E = 137.060504** (+178.8 ppm (0.018%)), with EVERY FACTOR DERIVED — D_E computed blind from the winding-terminus solver, the 4 π³ prefactor derived across three gates (Gate 1 forces κ = π/4; Gate 2 is LINEAR with the 4/π from the force-type tether load; Gate 3 passes at 13.6 eV) — and the same machinery producing **g = 2** out of sample with its residual localized on the Schwinger term α/2π to 0.15%. Three independent observables, one convention structure. The +178.8 ppm (0.018%) residual is cornered as radiative physics the static construction cannot contain: the residual ladder is exhausted, a scale-invariance theorem shows no continuous dials, the V-A boundary candidate missed cleanly, and the functional-completeness audit came back clean — leaving **LEAD-RAD** (back-reaction, second prediction pre-installed: the α residual and the g=2 gap from one mechanism) as the stamped forward path. **NOT a derivation of α's value** — a reduction to one blind number times a derived prefactor, honestly bounded. In parallel, the nuclear heavy-table binding gap closed from ~13% to ~1% with derived classical physics (NUC-A..D2), complete by theorem. Three flattering results were retired with retractions standing (the π⁴ lock, the −15 ppm artifact, the Ω coincidence); every load-bearing number is script-backed. Provenance documented in `docs/HOW_ALPHA_WAS_DERIVED.md` and `docs/alpha_derivation_map.png`. See `docs/history/RELEASE_NOTES_v3.11.0.md`.
 
 **If the rope model is wrong**, the transferable result is
 `docs/CONSTRAINTS_FOR_MECHANICAL_SUBSTRATE_THEORIES.md` — universal programme
@@ -43,6 +43,10 @@ every strand parameter, both scale branches, with a verifier
 
 **New reader?** Start with `docs/STATE_OF_THE_PROGRAMME.md` — a short, current
 account of what the framework claims, what it predicts, what was retired and why.
+
+**Looking for something specific?** `docs/README.md` is a documentation map that
+routes you by why you are here — evaluating the programme, understanding the ideas,
+contributing, or verifying a specific claim.
 
 ## What this corpus actually bets: one confronted prediction, and two new candidates
 
@@ -130,7 +134,7 @@ instruments conjunction third. The whisper taught the corpus how to close a
 prediction honestly; those three are where the next one opens.
 
 The mesoscopic-hbar identification is RETIRED (2026-08-01) after six
-independent closures. See `docs/HBAR_SECTOR_CLOSURE.md`.
+independent closures. See `docs/technical/HBAR_SECTOR_CLOSURE.md`.
 
 One demotion from the T1 audit has since been repaired at its honest size
 (HBAR-011, 2026-08-02): the cosmological rigidity constraint is re-derived from
@@ -238,7 +242,7 @@ Read before interpreting the quantum or gauge sectors as active physics.
   requires a new, explicitly labeled postulate.
 
 The lesson from both is recorded as a standing rule:
-docs/STANDING_RULE_SOURCE_BEFORE_INSTRUMENT.md
+docs/technical/STANDING_RULE_SOURCE_BEFORE_INSTRUMENT.md
 
 ## Start here
 
@@ -246,7 +250,7 @@ docs/STANDING_RULE_SOURCE_BEFORE_INSTRUMENT.md
 - **Non-specialist?** Read [`papers/rope_plain_language_guide.pdf`](papers/rope_plain_language_guide.pdf) — "The Rope Picture of the Universe," a figures-first, no-mathematics tour that flags every honest limit.
 - **Curious what the detector-kinetics campaign found?** Read [`papers/the_detector_understood.pdf`](papers/the_detector_understood.pdf) (source: [`docs/DETECTOR_KINETICS_PLAIN_LANGUAGE.md`](docs/DETECTOR_KINETICS_PLAIN_LANGUAGE.md)) — three questions answered in plain language: how a single-photon detector works (the medium is its own metronome), why small detectors appear to have memory without anything remembering (the switch-on echo, plus the zero-parameter size law at Derived), and how single photons build interference patterns one dot at a time (the wave delivers the odds; the bath delivers the dot) -- with the measured boundary stated and every sentence traced to a benchmark.
 - **Reviewer or skeptic?** Read [`HOW_TO_CRITICIZE.md`](HOW_TO_CRITICIZE.md) and [`KNOWN_LIMITATIONS.md`](KNOWN_LIMITATIONS.md) first, then verify (below).
-- **Want to contribute?** The programme is open to building, not only breaking. Pick an `Open` problem from the registry (`claims.yaml`, mirrored as GitHub Issues via [`docs/SUGGESTED_ISSUES.md`](docs/SUGGESTED_ISSUES.md)) — e.g. the reaction-coherence fraction (CHEM-DYN-002's registered next step), the strand-level transport instantiation (FND-KIN-001's named residual), or the two theorems slated for Lean formalization. The standing open challenge is [`docs/FUTURE_MODEL_PROMPT_one_fence.md`](docs/FUTURE_MODEL_PROMPT_one_fence.md): derive the missing quantum-kinetic layer the whole corpus triangulates. New results are welcome as claim + rerunnable benchmark (the one rule: no hidden fitted parameters); see [`CONTRIBUTING.md`](CONTRIBUTING.md).
+- **Want to contribute?** The programme is open to building, not only breaking. Pick an `Open` problem from the registry (`claims.yaml`, mirrored as GitHub Issues via [`docs/SUGGESTED_ISSUES.md`](docs/SUGGESTED_ISSUES.md)) — e.g. the reaction-coherence fraction (CHEM-DYN-002's registered next step), the strand-level transport instantiation (FND-KIN-001's named residual), or the two theorems slated for Lean formalization. The standing open challenge is [`docs/technical/FUTURE_MODEL_PROMPT_one_fence.md`](docs/technical/FUTURE_MODEL_PROMPT_one_fence.md): derive the missing quantum-kinetic layer the whole corpus triangulates. New results are welcome as claim + rerunnable benchmark (the one rule: no hidden fitted parameters); see [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## Verify it yourself
 
@@ -267,7 +271,7 @@ Every claim carries a status label and, where code-backed, a rerunnable benchmar
 - **`/papers`** — the physics papers (PDF), with editable sources in `/papers/_sources`.
 - **`/benchmarks`** — one rerunnable check per code-backed claim.
 
-**How the corpus guards against motivated derivation.** [`docs/METHODOLOGY_target_free_questions.md`](docs/METHODOLOGY_target_free_questions.md) — the rule that when a candidate factor is worth approximately what the gap needs, the question to ask first is the one whose answer is wrong *wherever it lands*, because such a question cannot be biased by knowing the target. Written from a worked case (FND-MATTER-058/059/060) in which it reversed the answer: a sound argument for a gap-closing factor turned out to prove the opposite of its conclusion, and the session that found this answered against its own prior position. Also carries the stopping-rule requirement — a sequence of individually-blind sessions without a pre-committed terminal condition is a fit with extra steps.
+**How the corpus guards against motivated derivation.** [`docs/technical/METHODOLOGY_target_free_questions.md`](docs/technical/METHODOLOGY_target_free_questions.md) — the rule that when a candidate factor is worth approximately what the gap needs, the question to ask first is the one whose answer is wrong *wherever it lands*, because such a question cannot be biased by knowing the target. Written from a worked case (FND-MATTER-058/059/060) in which it reversed the answer: a sound argument for a gap-closing factor turned out to prove the opposite of its conclusion, and the session that found this answered against its own prior position. Also carries the stopping-rule requirement — a sequence of individually-blind sessions without a pre-committed terminal condition is a fit with extra steps.
 
 **How to read the honesty of the corpus.** The registry makes the `Failed` and `Open` claims as visible as the `Derived` ones. Losses are preserved as findings: the classical weak-field gravity no-go (derived deflection 0.44″ vs measured 1.75″), the PVLAS vacuum-birefringence exclusion (~570×), and and the quantum boundary documented as explicit limits rather than solved problems — now mapped to high precision by the measurement arc (Born-rate scaling benchmarked-but-conditional, entanglement localized to one imported object, γ = 1 identified), with Pauli still Conjecture-level.
 
@@ -278,7 +282,7 @@ A sector earns "Derived" status only where it follows from the rope mechanics, a
 - **Electromagnetism / optics** — Maxwell's equations, charge as winding, optics (10/10 benchmarks); the strongest derived sectors.
 - **Chemistry** — a full mechanical layer: covalent bonding from a mode-overlap functional, the ionic-force sign theorem, first-principles molecular geometry (the 90° heavy-hydride asymptote, with registered predictions for H₂Po and BiH₃), hydrogen bonding, metallic bonding, and reaction dynamics (activation barriers from phase-frustration; Hammond and catalysis emergent). **The Schrödinger equation is adopted, not derived** — ℏ and the absolute atomic scale are inherited inputs (see the chemistry paper, §3.1a). Several energies are "consistency-tier" against quantum chemistry, and labeled as such.
 - **Gravity** — Newtonian gravity is recovered; the relativistic completion is falsified under stated assumptions (a theorem-grade no-go, not a fixable discrepancy).
-- **Nuclear** — an exact Yukawa force law and a one-constant mass predictor (C-12 to U-238 to ~0.1%); binding structure (SEMF volume/surface) partially derived, with registered misses.
+- **Nuclear** — an exact Yukawa force law and a one-constant mass predictor spanning the light nuclei (A~8) through U-238; the semi-empirical mass formula is now derived from classical physics across all five terms (volume, surface, Coulomb with diffuseness and exchange, asymmetry, pairing), closing the heavy-table binding gap to ~1%, with registered misses at the lightest nuclei and a remaining quantum shell/pairing tier.
 - **Particle sector** — lepton mass ratios (Koide) and the Weinberg angle held at Conjecture pending derivation-or-demotion; the absolute mass scale is an open problem.
 
 ## Repository structure
@@ -320,7 +324,7 @@ Every physical number cited in a rope paper comes from an installed `rope_solver
 
 ## Contributing and criticizing
 
-The programme welcomes both kinds of contribution. **To criticize:** the highest-value find is a claim labeled `Derived` that actually requires a hidden fitted parameter — the failure mode the entire methodology is built to prevent. **To build:** take an `Open` problem from the registry and contribute a claim plus a rerunnable benchmark, under the one rule that no `Derived` result may hide a fitted parameter. Open problems are tracked in the registry and mirrored as GitHub Issues (templates in [`docs/SUGGESTED_ISSUES.md`](docs/SUGGESTED_ISSUES.md)); the standing open challenge is [`docs/FUTURE_MODEL_PROMPT_one_fence.md`](docs/FUTURE_MODEL_PROMPT_one_fence.md). See [`CONTRIBUTING.md`](CONTRIBUTING.md) for setup and the issue-priority list.
+The programme welcomes both kinds of contribution. **To criticize:** the highest-value find is a claim labeled `Derived` that actually requires a hidden fitted parameter — the failure mode the entire methodology is built to prevent. **To build:** take an `Open` problem from the registry and contribute a claim plus a rerunnable benchmark, under the one rule that no `Derived` result may hide a fitted parameter. Open problems are tracked in the registry and mirrored as GitHub Issues (templates in [`docs/SUGGESTED_ISSUES.md`](docs/SUGGESTED_ISSUES.md)); the standing open challenge is [`docs/technical/FUTURE_MODEL_PROMPT_one_fence.md`](docs/technical/FUTURE_MODEL_PROMPT_one_fence.md). See [`CONTRIBUTING.md`](CONTRIBUTING.md) for setup and the issue-priority list.
 
 ## Citation
 
