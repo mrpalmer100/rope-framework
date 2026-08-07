@@ -30,7 +30,7 @@ Generated for the public repository. Papers carry the status mix of the claims t
 - `rope_interface_optics.docx` — anchors: Derived
 - `rope_knot_fluctuations.docx`
 - `rope_lepton_masses.docx` — anchors: Conjecture, Failed
-- `rope_mass_weights.docx`
+- `rope_mass_weights.docx` *(archived 2026-08-07 — folded into rope_mass_paper §3.1a)*
 - `rope_maxwell_equations.docx` — anchors: Derived, Failed, Modeled
 - `rope_measurement_born_problem.docx` — anchors: Derived
 - `rope_microscopic_mechanics.docx` — anchors: Derived, Modeled, Open

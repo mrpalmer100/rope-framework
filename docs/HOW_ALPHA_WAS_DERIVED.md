@@ -8,9 +8,9 @@ ALPHA-DE-CHAIN.*
 
 ## The result
 
-    1/alpha = 4 pi^3 D_E = 137.060504     (measured: 137.035999,  +178.8 ppm)
+    1/alpha = 4 pi^3 D_E = 137.060504     (measured: 137.035999,  +178.8 ppm (0.018%))
 
-Every factor is derived. The +178.8 ppm residual is the single unexplained
+Every factor is derived. The +178.8 ppm (0.018%) residual is the single unexplained
 number. This is a **reduction** of 1/alpha to one blind number times a derived
 prefactor -- it is **not a derivation of alpha's value**.
 
@@ -59,12 +59,12 @@ pi^4 lock caught on external review.)*
 
 ## The residual
 
-**+178.8 +/- 0.4 ppm  --  the single open number.**
+**+178.8 +/- 0.4 ppm (0.018%)  --  the single open number.**
 Not derived. Z Brick 5 proved a scale-invariance theorem (d ln D_E / d ln x* = 0
 exactly): the chain's value depends on no continuous dial, only the discrete
 branch choice k/T0 = 2 (adjudicated by the electron against FND-021). The
 residual ladder is exhausted -- the branch, the r_min continuum limit, and the
-q^2 winding slot are all excluded by computation. So the +178.8 ppm is either
+q^2 winding slot are all excluded by computation. So the +178.8 ppm (0.018%) is either
 physics the chain does not yet contain (the V-A next-order boundary term is the
 named candidate, chartered in COMMISSION_V_A_NEXT_ORDER) or the anchor-metrology
 reading's own limit. It is pinned against a construction with no adjustable
@@ -94,7 +94,7 @@ observables that did not all fix it:
 
 ## The honest headline
 
-Every factor of 1/alpha = 4 pi^3 D_E has a derivation. One +178.8 ppm residual
+Every factor of 1/alpha = 4 pi^3 D_E has a derivation. One +178.8 ppm (0.018%) residual
 is unexplained. Three independent observables are consistent with the one
 convention structure, and g = 2 falls out as a free byproduct with its residual
 localized on the Schwinger term (named, not derived). This is a reduction of the

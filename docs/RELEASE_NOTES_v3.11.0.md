@@ -6,7 +6,7 @@
 The release in one sentence: the electron-dressing route to the fine-structure
 constant was driven to its honest summit — every factor of 1/alpha = 4 pi^3 D_E
 now derived, three independent observables consistent with one convention
-structure, g = 2 falling out as a free byproduct, and the +178.8 ppm residual
+structure, g = 2 falling out as a free byproduct, and the +178.8 ppm (0.018%) residual
 cornered as radiative physics the static construction cannot contain — while in
 parallel the nuclear heavy-table binding gap was closed from ~13% to ~1% with
 derived classical physics, complete by theorem.
@@ -20,7 +20,7 @@ the record.
 ## The alpha chain (ALPHA-DE-CHAIN)
 
 The chain closes as **1/alpha = 4 pi^3 D_E = 137.060504** against the measured
-137.035999, a residual of **+178.8 ppm**. Every factor is derived:
+137.035999, a residual of **+178.8 ppm (0.018%)**. Every factor is derived:
 
 - **D_E = 1.1051029** — the electron dressing, computed BLIND by the Commission
   W Euler-Lagrange boundary-value solver on the rotating winding terminus (5
