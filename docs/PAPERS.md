@@ -268,8 +268,7 @@ The corpus is organised in three tiers: **(1) In-domain** classical results (the
 
 ## Reference
 
-- **The Rope Picture of the Universe (Plain-Language Guide)** 📄
-  `rope_plainlanguage.js` → `docs/rope_plain_language_guide.docx`
+- **The Rope Picture of the Universe (Plain-Language Guide)** 📄 `papers/rope_plain_language_guide.pdf` *(the plain-language guide: light, electricity, magnetism, gravity, chemistry, the nucleus, the quantum puzzles, and black holes, built from guide/topics/ via build_guide.py)*
 - **The Rope Hypothesis — Glossary** 📝 *planned* — title only; no shipped content or code in this release
   `rope_glossary_v3.js`
 - **Rope Hypothesis Glossary — Addendum** 📝 *planned* — title only; no shipped content or code in this release

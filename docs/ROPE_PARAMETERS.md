@@ -1,7 +1,8 @@
 # Rope Parameters — the canonical card
 
 *Every quantity that describes a strand in this framework, with its status,
-provenance, and value on both registered scale branches. Compiled 1 August 2026.*
+provenance, and value. Compiled 1 August 2026; revised 7 August 2026 (M-point
+promoted to working mesh point; §5a/§5b clarified).*
 
 **Read this before any session that uses a rope constant.** Values are verified
 by `benchmarks/foundations/rope_parameter_card.py`, which recomputes every
@@ -46,35 +47,53 @@ data and survived an independent recomputation to 1.3% (ELEC-081), so the corpus
 **leans** to it without claiming it. No vacuum experiment in reach separates them
 (QGATE-018).
 
+**Working point (FND-MATTER-044).** For scale-sensitive work the corpus now uses
+the **M-point** — the mesh point that solves the m_e-pinned scale calibration
+jointly with the invariance theorem T₀ = Σa²/3 at the lattice-anchored Σ, giving
+**a = 6.0e-17 m, T₀ = 434 J/m**. This is the working point in §2–§3 below; the
+historical adoption values (a held at the Lorentz bound) are retained alongside
+for provenance and for the branch-comparison invariants.
+
 ---
 
 ## 2. Derived lengths
 
-| Quantity | Symbol | Lattice-anchored | Σ-route | Relation |
-|---|---|---|---|---|
-| Strand spacing | a | 9.999e-17 m | 1.000e-16 m | a = √(3T₀/Σ) |
-| Coherence spacing | w | 5.773e-17 m | 5.774e-17 m | **w = a/√3, exactly** |
+**The working mesh point is now the M-point** (a = 6.0e-17 m; see §3 and the
+M-point note below), fixed by solving the m_e-pinned combination jointly with the
+invariance theorem (FND-MATTER-044). Use it for scale-sensitive work. The
+historical adoption values below held a at the Lorentz bound by convention and are
+retained for provenance and for the branch-comparison invariants.
+
+| Quantity | Symbol | **M-point (working)** | Lattice-anchored (historical) | Σ-route (historical) | Relation |
+|---|---|---|---|---|---|
+| Strand spacing | a | **6.0e-17 m** | 9.999e-17 m | 1.000e-16 m | a = √(3T₀/Σ) |
+| Coherence spacing | w | **3.46e-17 m** | 5.773e-17 m | 5.774e-17 m | **w = a/√3, exactly** |
 
 The invariance theorem T₀/Σ = a²/3 holds **for any tube radius** (ELEC-053), so
-w never depended on the quantities a long campaign spent adjudicating. Both
-branches land on the Lorentz bound a ≲ 1e-16 m to better than 0.1%.
+w = a/√3 is exact on every branch and the M-point moves a and w together. The
+historical branches land on the Lorentz bound a ≲ 1e-16 m to better than 0.1%; the
+M-point sits at 60% of the bound (40% margin, no longer saturated).
 
 **The thinness ratio r/a ≈ 9.4e-4** — the strand is roughly a thousand times
 thinner than the distance to its neighbour. This is not decorative; see §5.
 
 ---
 
-## 3. Mechanical constants
+The M-point tension and line density are exact and given first. The elastic
+constants (C, γ, E, G) below are quoted on the two historical branches, since their
+derivation runs through the K₀ machinery (GRV-073) that has not yet been
+re-evaluated at the M-point; the branch-independent ratios (γ/T₀, w/a) are exact on
+every branch including the M-point.
 
-| Quantity | Symbol | Lattice-anchored | Σ-route | Status | Source |
-|---|---|---|---|---|---|
-| Tension | T₀ | 1203 J/m | 1700 J/m | **not independent**: T₀ = Σa²/3 | ELEC-053, FND-017 |
-| Line density | μ | 1.339e-14 kg/m | 1.892e-14 kg/m | derived: μ = T₀/c² | FND-MATTER-033 |
-| Stretch modulus | k | **DISPUTED — see below** | | k > T₀ required for nonlinear stability | EM-RECON-009, QB-008 |
-| Torsional rigidity | C | 4.21e-36 J·m | 5.95e-36 J·m | per strand, C = G·πr⁴/2 | GRV-009, GRV-073 |
-| Couple-stress modulus | γ | 4.21e-4 J/m | 5.95e-4 J/m | medium: γ = C/a² | GRV-073 |
-| Young's modulus | E | 8.76e40 Pa | 1.24e41 Pa | E = k/(πr²) | GRV-073 |
-| Shear modulus | G | 3.50e40 Pa | 4.95e40 Pa | G ≈ E/2.5 (**Poisson ratio unregistered**) | GRV-073 |
+| Quantity | Symbol | **M-point (working)** | Lattice-anchored (historical) | Σ-route (historical) | Status | Source |
+|---|---|---|---|---|---|---|
+| Tension | T₀ | **434 J/m** | 1203 J/m | 1700 J/m | **not independent**: T₀ = Σa²/3 | ELEC-053, FND-017, FND-MATTER-044 |
+| Line density | μ | **4.83e-15 kg/m** | 1.339e-14 kg/m | 1.892e-14 kg/m | derived: μ = T₀/c² | FND-MATTER-033 |
+| Stretch modulus | k | **magnitude open — see §5b** | | | k > T₀ required for nonlinear stability | EM-RECON-009, QB-008 |
+| Torsional rigidity | C | *(re-eval pending)* | 4.21e-36 J·m | 5.95e-36 J·m | per strand, C = G·πr⁴/2 | GRV-009, GRV-073 |
+| Couple-stress modulus | γ | *(re-eval pending)* | 4.21e-4 J/m | 5.95e-4 J/m | medium: γ = C/a² | GRV-073 |
+| Young's modulus | E | *(re-eval pending)* | 8.76e40 Pa | 1.24e41 Pa | E = k/(πr²) | GRV-073 |
+| Shear modulus | G | *(re-eval pending)* | 3.50e40 Pa | 4.95e40 Pa | G ≈ E/2.5 (**Poisson ratio unregistered**) | GRV-073 |
 
 **On the tension — corrected 1 Aug 2026 (FND-021).** T₀ behaves as a **Lagrange
 multiplier** *in the inextensible limit*, and in that limit stores no energy, from
@@ -166,10 +185,14 @@ multiplier explicit — and whether that multiplier is the right **carrier** for
 the nonlocal conditional is unestablished, since QB-007 needs spacelike
 *depletion of a wave amplitude*.
 
-## 5b. ⚠ THE k/T₀ DISPUTE — eight orders, unresolved
+## 5b. ⚠ THE k/T₀ MAGNITUDE — eight orders, still open
 
-Two registered claims give the stretch modulus incompatible values, and neither
-cites the other:
+**This is a different question from §5a.** §5a settled the *conceptual* confusion
+(FND-023): the strand stretch modulus k and the medium's volume constraint P-VOL
+are separate constraints on separate objects, so there is no paradox in a strand
+stretching while the medium conserves volume. What remains open — and what §5b is
+about — is the *numerical magnitude* of k/T₀ itself, on which two registered
+claims still disagree by eight orders, and neither cites the other:
 
 | Source | k/T₀ | Basis |
 |---|---|---|
@@ -203,21 +226,32 @@ and ~41% in T₀, and mixing them has produced errors before. The ratio γ/T₀ 
 
 ---
 
-## Card sync note — 2026-08-04 (FND-MATTER-044)
+## The M-point — provenance and status (FND-MATTER-044)
 
-**The M-point.** Solving the m_e-pinned combination T₀a = m_e c²/L (the scale
-campaign's single spent calibration, FND-MATTER-040/041) jointly with the
-invariance theorem T₀ = Σa²/3 at the lattice-anchored Σ gives the
-m_e-consistent mesh point:
+**Now the working mesh point** (promoted into §1–§3 above as of this revision).
+Solving the m_e-pinned combination T₀a = m_e c²/L (the scale campaign's single
+spent calibration, FND-MATTER-040/041) jointly with the invariance theorem
+T₀ = Σa²/3 at the lattice-anchored Σ gives the m_e-consistent mesh point:
 
 - **a = 6.0e-17 m** (Lorentz bound satisfied with 40% margin, no longer
-  saturated — the §2 values held a at the bound by adoption)
-- **T₀ = 434 J/m**
+  saturated — the historical §2 values held a at the bound by adoption)
+- **T₀ = 434 J/m**  (μ = T₀/c² = 4.83e-15 kg/m)
 
-All pairwise EM comparisons land inside the zero-point band (factor ≤ 3);
-see analysis/MATTER044_whisper_pricing_results.md. The §1–§3 tables above
-retain the historical adoption values pending full card regeneration
-(rope_parameter_card.py update flagged); treat the M-point as the working
-mesh point for scale-sensitive work. n_q is invariant under this move
+All pairwise EM comparisons land inside the zero-point band (factor ≤ 3); see
+analysis/MATTER044_whisper_pricing_results.md. n_q is invariant under this move
 (proven), so the snap-band shortfall is a genuine residual interrogating the
 core thickness h.
+
+**Downstream work now rests on it.** The directional-share question that was the
+last open piece around this construction closed after the M-point was fixed
+(FND-MATTER-059 registered the surviving half; FND-MATTER-060 returned the
+terminal negative, λ stays Open, the displaced-mode route registered as a
+near-miss at 2.08× against a 2.00× bar and **not** promoted). The first derived
+G exponent pair (GRV-073/074/075) uses these constants. The M-point is therefore
+load-bearing, not tentative.
+
+**Elastic-constant re-evaluation still pending.** The §3 elastic constants
+(C, γ, E, G) run through the K₀ machinery (GRV-073) and are quoted only on the
+historical branches until that chain is re-evaluated at the M-point;
+`rope_parameter_card.py` verifies the historical-branch values and the
+branch-independent ratios, which is what it checks today.
