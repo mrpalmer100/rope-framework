@@ -82,9 +82,9 @@ campaign's own: particle-like localization arises from detector threshold mechan
 propagation of a localized photon. Known blemish: a spacing typo in the bottom banner
 ("Rope N etwork"), noted here per house rule rather than silently tolerated.
 
-Prior version archived as rope_optics_v1_archive.png (the honest orange boundary as it stood
-before the 2026 campaigns -- kept, because the corpus keeps the boundary's history as
-carefully as the boundary).
+An earlier version (the honest orange boundary as it stood
+before the 2026 campaigns) has been retired; the corpus keeps the boundary's history in
+the registry and changelog rather than as a separate image.
 
 ## rope_nuclear.png — Nuclear physics: the strong force and beyond
 
@@ -119,24 +119,6 @@ This figure is the visual statement of the candidate Layer Separation Theorem: t
 not scattered, and the failures share a boundary. Generated-concept companion to
 tools/build_roadmap.py; a natural anchor for the whole corpus.
 
-## Legacy
-- rope_em_diagram_v2.png — EM schematic (current render; an earlier version was retired).
-
-
-## rope_ladder_v2.png (3 Aug 2026) -- the current ladder
-
-![rope_ladder_v2.png](rope_ladder_v2.png)
-
-Supersedes rope_ladder.png (kept for the record; THM-006's history is about
-that figure staying honest). v2 is colored mechanically from the live registry
-per figures/ladder_v2_spec.md: L2-L3 green (derived structure), L4 split
-(Electrodynamics and Statistical Mechanics green; Quantum Mechanics and
-Non-Linear Dynamics yellow -- Tsirelson is a theorem and the ribbon Bell
-violation is derived, but the Born rule and full dynamics are the L1
-frontier), L5 all yellow with per-box annotations ("law-form derived;
-coefficient contested in-house" -- the black-hole campaign's honest status),
-and L6 all red: the frontier the footer promises. Ten green, six yellow, ten
-red -- the distribution is the argument.
 
 ## rope_gravity.png (3 Aug 2026) -- the current gravity figure
 
@@ -150,7 +132,7 @@ ladder's own color grammar -- law-form DERIVED (Hawking via exact
 cancellations, GRV-087, with the coefficient contested in-house, GRV-088),
 statics derived, dynamics and thermodynamics MODELED with locked bars (yellow
 checks); and the Scope & Honesty box declining quantum gravity and the origin
-of mass. Consistent with rope_ladder_v2.png by construction.
+of mass. Consistent with rope_ladder.png by construction.
 
 ## rope_ladder.png (3 Aug 2026) -- the three-layer architecture, publication grade
 
@@ -166,8 +148,7 @@ Modeled/conditional tier finally instantiated, telling the year's story at
 its honest grade. Caption note per THM-006's two-sided finding: Layer II's
 green rows also contain a real minority of ordinary classical falsifications,
 kept and counted (e.g. EM-011, GRV-009/010); the layer is where most DERIVED
-results live, not a zone without failures. Consistent with rope_ladder_v2.png
-(the per-sector status ladder) and rope_gravity_v2.png in vocabulary and
+results live, not a zone without failures. Consistent with rope_ladder.png (the per-sector status ladder) and rope_gravity.png in vocabulary and
 color grammar.
 
 
@@ -177,19 +158,27 @@ Both posters carry "the number is in court" / "coefficient contested
 in-house." THE CASE IS NOW CLOSED -- category error; both routes stand
 (pitch geometric at 0.23 kappa, rate thermodynamic; crackling-noise
 emitter). Until re-rendered, this note is the load-bearing correction.
-Re-render spec, one line each: rope_ladder_v2 strong-field annotation ->
+Re-render spec, one line each: rope_ladder strong-field annotation ->
 "Hawking's law-form derived; coefficient case closed -- both routes
-stand"; rope_gravity_v2 green check -> "Hawking's law-form derived
+stand"; rope_gravity green check -> "Hawking's law-form derived
 (pitch geometric, rate thermodynamic; GRV-091)".
 
 
 ## Canonicalization note (3 Aug 2026)
 
-The base names now carry the CURRENT art: rope_ladder.png is the
+The base names carry the CURRENT art: rope_ladder.png is the
 publication-grade three-layer architecture (with the amber strong-field
 box) and rope_gravity.png is the corrected all-regimes gravity figure.
-Originals archived as *_v1_archive.png. rope_ladder_v2.png remains a
-SEPARATE figure (the per-sector status ladder, 10 green / 6 yellow / 10
-red). All document references use the base names, so every embed --
-including SURPRISES's opening map and THM-006's anchor -- now shows the
-current renders.
+Superseded earlier renders (the *_v1_archive versions and the separate
+rope_ladder_v2 status-ladder variant) have been retired to keep the
+figure set to one current image per subject; their history lives in the
+registry and changelog. All document references use the base names, so
+every embed -- including SURPRISES's opening map and THM-006's anchor --
+shows the current renders.
+
+## Paper figures (merged from docs/figures)
+
+Sector-specific figures embedded in the shipped papers:
+- condmat_logic_diagram.png — condensed-matter paper.
+- cosmo_phase_diagram.png — cosmology paper.
+- thermo_fig1_entropy.png, thermo_fig2_landscape.png — thermodynamics paper.
