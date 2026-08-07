@@ -120,7 +120,7 @@ not scattered, and the failures share a boundary. Generated-concept companion to
 tools/build_roadmap.py; a natural anchor for the whole corpus.
 
 ## Legacy
-- rope_em_diagram.png / _v2.png — earlier EM schematic.
+- rope_em_diagram_v2.png — EM schematic (current render; an earlier version was retired).
 
 
 ## rope_ladder_v2.png (3 Aug 2026) -- the current ladder
@@ -142,7 +142,7 @@ red -- the distribution is the argument.
 
 ![rope_gravity.png](rope_gravity.png)
 
-Supersedes the original render (archived as rope_gravity_v1_archive.png). Registry-faithful across
+Supersedes an earlier render (since retired). Registry-faithful across
 regimes: the isotropic weak-field metric psi = 1 + rs/4r with the derived
 classical table (1.751'' deflection, 43.0''/cy Mercury, Shapiro gamma = 1,
 Nordtvedt eta = 0; GRV-002/026/029); the strong-field campaign stated in the
@@ -156,8 +156,8 @@ of mass. Consistent with rope_ladder_v2.png by construction.
 
 ![rope_ladder.png](rope_ladder.png)
 
-THM-006's visual anchor, re-rendered at publication grade (the original is
-archived as rope_ladder_v1_archive.png; that claim's registry entry documents the figure's own honesty
+THM-006's visual anchor, re-rendered at publication grade (an earlier version was
+retired; that claim's registry entry documents the figure's own honesty
 history, including the retirement of the original 4x enrichment magnitude --
 this render correctly states only the surviving sign-level claim). The 2026
 addition is the AMBER box: "Strong-Field Gravity & Black Holes -- Hawking
