@@ -14,7 +14,7 @@ never drifts from the physics.
 ## Build
     python tools/build_guide.py [--pdf]
 Renders diagrams → assembles topics in manifest order → pandoc → styled
-`docs/rope_plain_language_guide.docx` (Georgia, teal callouts via `reference.docx`).
+`papers/_sources/rope_plain_language_guide.docx` (Georgia, teal callouts via `reference.docx`).
 
 ## Validation stance (intentional)
 The guide is produced via pandoc, whose OOXML does not pass the corpus's strict
