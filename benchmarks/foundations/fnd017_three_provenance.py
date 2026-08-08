@@ -11,7 +11,7 @@ partition, not an artifact of the tube geometry.
 
 This benchmark makes NO claim about what a displacing inclusion couples to.
 That is a separate question, registered open (see
-docs/SEALED_COMMISSION_2_fnd017_exclusion_and_doublecount.md).
+docs/technical/SEALED_COMMISSION_2_fnd017_exclusion_and_doublecount.md).
 """
 import numpy as np
 
