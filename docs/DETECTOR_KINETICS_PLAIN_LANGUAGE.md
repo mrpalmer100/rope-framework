@@ -15,71 +15,308 @@ this markdown is its living source. Every claim referenced here has a registered
 
 ---
 
-## The standard evidence for quantized light: a six-item scoreboard
+## The standard evidence for quantized light: a seven-item scoreboard
 
 Physics textbooks support quantized light with a standard list of
 experiments. Since the framework adopted its third assumption (the
 quantum arrives whole, explained below), each item on that list now has
-a definite, registered status. Here is the scoreboard, in plain terms.
+a definite, registered status. For each, we give the standard
+quantum-optical account as a physicist would state it, then the rope
+account. The point of the contrast is not that the standard predictions
+are wrong -- they are superbly confirmed -- but that the standard
+*story* underneath them leans on objects no one can point to (a
+wavefunction that is real enough to interfere yet collapses when looked
+at, an indivisibility with no carrier, a choice made by nothing), while
+the rope account replaces each of those with a mechanical event you
+could in principle watch.
 
-**1. Beam-splitter correlations (Grangier-Roger): DERIVED.** Send one
-photon at a half-silvered mirror and exactly one side clicks, 50/50,
-never both. The classical machinery measurably could not do this (the
-split packet clicked neither side). With the third assumption plus the
-framework's existing probability rule, it becomes one line of
-arithmetic: the whole quantum lands on one side, with odds given by the
-energy each side receives.
+### 0. The double slit, one photon at a time: DERIVED
 
-**2. Antibunching: DERIVED, with a bonus theorem.** A true single-photon
-source never produces two clicks at once. The framework proves something
-stronger and practical: the antibunching measurement is immune to loss.
-No amount of detector inefficiency or imbalance can fake or destroy it,
-which is exactly why the historic experiments could trust their result.
-The famous measured value of 0.18 gets a sharper reading too: it is not
-"imperfect antibunching" but a direct measurement of how often the
-source accidentally emits two photons.
+**What quantum optics says.** Fire single photons at a two-slit barrier,
+one at a time, hours apart, and each lands as a single dot on the
+screen. Yet as the dots accumulate they build up an interference
+pattern, bright and dark bands, exactly as if a wave had passed through
+both slits at once. Since only one photon is ever in the apparatus, the
+standard telling is that each photon interferes *with itself*: its
+wavefunction passes through both slits, the two amplitudes superpose,
+and |psi|^2 gives the landing-probability pattern. Cover one slit, or
+place a which-path detector, and the interference vanishes -- the wave
+behavior and the which-slit fact are complementary and cannot both be
+had. The dot is where the wavefunction "collapses" to a position on
+detection. What travels as a spread-out wave but arrives as a point, why
+detection localizes it, and how a single indivisible photon "goes
+through both slits," are the familiar puzzles, stated as facts of nature
+rather than explained. Feynman called this the one mystery of quantum
+mechanics, the phenomenon that contains everything strange about the
+theory.
 
-**3. Photon-count statistics: DERIVED, both regimes.** Laser light
-clicks randomly (Poisson); lamp light clicks in bunches
-(Bose-Einstein). Both fall out of the framework's own detector, and a
-small theorem explains a piece of history: for ordinary light, the
-smooth-wave description and the counting-quanta description give
-IDENTICAL statistics. That is why classical optics thrived for a century
-without photons, and why only special quantum light sources could ever
-force the issue.
+**What rope theory says.** Nothing pointlike ever travels, so there is
+no particle that must be in two places and no self-interference to
+explain. Each emission is a torsional wave on the strand network, and a
+wave threads both slits every single time -- there is nothing unusual in
+that, it is what waves do -- laying down the full striped standing
+pattern of delivered energy across the screen. The classical two-slit
+intensity law I proportional to 1 + cos(2 pi Delta / lambda) is already
+a Derived result of the framework, from ordinary linear superposition
+(EM-004). The dot is not the photon arriving; it is the *detector
+firing*, a threshold nucleation that is pointlike for the same reason a
+single ping of rain on a tin roof is pointlike, because that is what
+tripping a threshold looks like. Where the dot lands is drawn from the
+wave's own energy map: the chance at any spot is proportional to the
+energy the wave delivered there (the registered Born-rate structure), so
+each single dot is a sample from the same standing striped pattern. Fire
+ten thousand photons over ten hours and the dots trace the stripes,
+because every dot was drawn from the same map -- no photon needs to
+remember the ones before it, and none ever "chooses a slit," because
+none ever travels as a particle. Cover a slit and the map loses its
+stripes; the dots follow. The wave delivers the odds; the bath delivers
+the dot. The one honest boundary, stated rather than glossed: this is
+the plain single-screen double slit. Splitting one photon's energy
+between two *separated* detectors and having exactly one fire is the
+funneling step, which needs the whole-quantum rule (item 1) and is
+registered, at absorption, as the framework's surveyed edge.
 
-**4. Delayed choice: DERIVED AS A NON-PARADOX.** Wheeler's famous
-puzzle -- decide how to measure AFTER the photon is in flight, and it
-seems to retroactively "choose" wave or particle behavior -- dissolves
-because the framework never had a particle that chose anything. The
-wave takes both paths in every configuration; the only event is the
-click at the end; a late change to the apparatus just changes what the
-still-flying wave will meet. As a bonus, the celebrated wave-particle
-trade-off formula (V squared plus D squared equals one) comes out as
-four lines of energy bookkeeping.
+### 1. Beam-splitter correlations (Grangier-Roger): DERIVED
 
-**5. Hong-Ou-Mandel interference: PINNED, not yet explained.** Two
-identical photons meeting at a splitter always exit together -- the
-deepest two-photon effect below Bell tests. The framework derives its
-own exact shortfall: its wave picture can reach at most half the
-measured effect, its granular picture predicts none of it, and the
-missing ingredient is located precisely (a correlation in how two
-identical quanta are DELIVERED, not in how they travel or are
-detected). The shape of a fix is specified, with its own kill
-conditions pre-drafted, and deliberately not yet adopted.
+**What quantum optics says.** A single photon meets a 50/50 beam
+splitter. In the quantized-field description the photon is prepared in a
+one-particle Fock state, and at the splitter it enters a coherent
+superposition of two orthogonal spatial modes -- transmitted and
+reflected -- written a|t> + b|r> with |a|^2 = |b|^2 = 1/2. The field
+genuinely occupies both output arms; that is what lets it interfere if
+the arms are later recombined. Yet when two detectors watch the arms,
+exactly one fires, and the anticorrelation parameter drops below the
+classical bound (Grangier, Roger and Aspect measured it well under one),
+which no divisible classical field can do. The standard account bridges
+"the field is in both arms" and "only one detector clicks" by
+measurement collapse: the act of detection projects the superposition
+onto one mode, and does so globally, so that the instant one detector
+fires the other's probability drops to zero even though nothing
+mechanical connected them. What "collapse" *is*, why it happens on
+detection and not before, and how the two arms coordinate their
+outcomes, are left as the measurement problem -- acknowledged, not
+solved.
 
-**6. Heralded single photons, and the quantum eraser: HONESTLY
-DEFERRED.** Heralding (using one photon of a pair to announce its twin)
-mostly needs something the framework has not built yet: a mechanical
-model of the SOURCE, not the detector. And the entangled quantum eraser
-sits behind the framework's oldest proven boundary: a counting model
-cannot produce Bell-type correlations, full stop, and the registry says
-so rather than promising otherwise.
+**What rope theory says.** Two things are kept strictly separate that
+the standard story fuses: the wave and the quantum. The torsional wave
+on the strand network is an ordinary classical excitation, and it does
+split at the mirror -- part threads each arm, exactly as a wave should,
+with no mystery and no superposition-of-a-particle. What cannot split is
+the *quantum*: the conserved, integer-valued packet of channel energy
+the wave carries. Indivisibility here is not an axiom hung on a
+pointlike object; it is topological, the same integer that makes charge
+and linking number whole. At absorption the quantum is delivered to
+exactly one nucleation channel -- one detector -- and which channel wins
+is set by the framework's already-registered probability rule: the
+chance of arm i is its share of the delivered energy, P(i) = E_i / sum_j
+E_j. For a balanced splitter that is one-half each, so exactly one side
+clicks, 50/50, and the anticoincidence is exact (g2(0) = 0 for a single
+quantum) because there is only one quantum to place. No collapse is
+invoked and none is needed: there was never a particle spread across
+both arms waiting to be projected, only a wave (really in both arms) and
+a quantum (really delivered to one). The consistency check the standard
+collapse postulate usually omits is stated here on the claim's face:
+feed the same machinery ordinary coherent light and it thins to
+independent Poisson clicks with g2(0) = 1 -- the framework *cannot*
+manufacture a quantum signature for classical light, which is exactly
+the line a good granularity postulate must not cross (FND-STRAND-025,
+Derived).
 
-The pattern across the scoreboard: four items converted from quantum
-mystique into detector bookkeeping, one bounded with its missing piece
-located to the millimeter, one deferred with the reason named. Every
-verdict traces to a registered claim with an executable check.
+### 2. Antibunching: DERIVED, with a bonus theorem
+
+**What quantum optics says.** A true single-photon source never
+produces two simultaneous clicks: split its output and the two arms
+never fire together. Formally the second-order coherence at zero delay
+obeys g2(0) = <n(n-1)>/<n>^2, and for a one-photon number state this is
+identically zero, whereas every classical field satisfies g2(0) >= 1 (a
+Cauchy-Schwarz bound on a nonnegative, divisible intensity). Sub-unity
+g2(0) is therefore treated as a signature of nonclassical light with no
+wave explanation at all. In practice the measured value sits above zero
+-- historically around 0.18 -- and the textbook reading is "imperfect
+antibunching," a blemish attributed vaguely to the apparatus.
+
+**What rope theory says.** Because delivery is by whole quanta, a
+beam-splitter g2 measurement is simply a multinomial sampler of the
+source's photon number, and the framework proves the result exactly: the
+measured g2 equals the source's normalized second factorial moment,
+<n(n-1)>/<n>^2, *independent of the splitter ratio and of both arm
+efficiencies*. Every instrumental constant cancels in the ratio. That
+yields a theorem the standard pedagogy rarely states plainly -- loss
+cannot create or destroy antibunching -- which is precisely why the
+historic experiments were entitled to trust their anticoincidence
+figure through lossy, unbalanced optics. The classical bound g2 >= 1 is
+not violated but *reinterpreted*: it was always a theorem about
+divisible intensities, and once the sampled object is integer quanta its
+premise is simply absent. And the famous 0.18 stops being a blemish and
+becomes a measurement: a real source is a mixture of one- and two-quantum
+emissions, g2 = 2p2/(p1 + 2p2)^2, so 0.18 pins the two-quantum
+contamination (about p2 = 0.11 at p1 = 0.89). It is a number about the
+source's purity, not the detector's imperfection, and it is confrontable
+against any published heralded-source characterization (FND-STRAND-026,
+Derived).
+
+### 3. Photon-count statistics: DERIVED, both regimes
+
+**What quantum optics says.** Count clicks in a fixed window. Laser
+light gives a Poisson distribution; a single-mode thermal source (a
+filtered lamp) gives the wider Bose-Einstein distribution, the counting
+face of Hanbury Brown-Twiss bunching. In the quantized theory these
+follow from the photon-number statistics of the field's quantum state --
+coherent states for the laser, thermal states for the lamp. But there is
+a historical awkwardness the quantized account has to explain away:
+these same distributions drop out of a fully semiclassical treatment, in
+which the field is a classical wave and only the detector is quantized
+(Mandel's counting formula). For all ordinary light the two pictures
+agree, which is why a century of optics needed no photons and why
+photon-counting alone never forced the quantum issue -- a coincidence
+the standard framework notes but does not derive.
+
+**What rope theory says.** Both regimes fall out of the framework's own
+detector, already built twenty sessions earlier, with the coincidence
+explained as a theorem rather than left as a curiosity. In steady weak
+illumination the click rate tracks the delivered intensity, lambda(t) =
+c I(t) (the registered Born-rate structure), and each click is a
+memoryless threshold nucleation, so the counts are Poisson at fixed
+drive. Let the drive fluctuate slowly and the click record becomes a Cox
+process -- a Poisson process with a randomly modulated rate -- whose
+count distribution is exactly Mandel's semiclassical formula, P(m) =
+average of (eta W)^m e^{-eta W}/m! over the integrated intensity W.
+Constant intensity gives Poisson (laser); a fluctuating thermal
+intensity gives Bose-Einstein (lamp). The classical boundary is placed
+precisely: the Mandel Q parameter is nonnegative for every classical
+drive, so sub-Poissonian counting is the counting twin of g2 < 1 and
+requires whole-quantum delivery (a Fock source thins to a Binomial, Q =
+-eta exactly). And the historical coincidence becomes the framework's
+correspondence theorem: on every classical source the two describe, the
+granular and semiclassical accounts are provably the same theory viewed
+at two grains. That is *why* classical optics thrived without photons --
+not an accident, a theorem the framework proves about itself
+(FND-STRAND-027, Derived).
+
+### 4. Delayed choice: DERIVED AS A NON-PARADOX
+
+**What quantum optics says.** Wheeler's setup: a photon enters an
+interferometer, and the experimenter decides whether to insert the
+second, recombining beam splitter *after* the photon is already past the
+first one. Insert it and an interference pattern appears (wave behavior);
+leave it out and the detectors reveal which arm was taken (particle
+behavior). Because the choice is made while the photon is "in flight,"
+the standard telling has the photon retroactively deciding, at BS1,
+whether it was a wave or a particle -- the outcome of a past event fixed
+by a later free choice. This is usually wrapped in Bohr's complementarity
+("no phenomenon is a phenomenon until it is an observed phenomenon") and
+sometimes in frankly retrocausal language, and it is offered as evidence
+that a quantum system has no definite properties until measured. The
+duality between the two behaviors is sharpened into the
+Englert-Greenberger-Yasin relation V^2 + D^2 <= 1, presented as a deep
+complementarity bound trading fringe visibility V against which-path
+distinguishability D.
+
+**What rope theory says.** The paradox needs a variable -- which arm the
+particle took at the first splitter -- for the late choice to reach back
+and set. The framework has no such variable at any time, so there is
+nothing to retro-affect and the puzzle simply has no referent.
+Propagation is untouched by the whole-quantum rule: the torsional wave
+threads *both* arms in every configuration, nothing is decided at the
+first splitter because no trajectory exists to decide, and the only
+discrete event is absorption. There the quantum is delivered whole to one
+channel, with Born weights set by the apparatus *as it stands at the
+moment of absorption*. From this, choice-timing invariance is a one-line
+theorem: the statistics depend only on the channel-energy configuration
+at absorption, so *when* the choice was made cannot matter provided it
+precedes absorption. The late insertion of a beam splitter simply
+disposes of a wave still in flight -- ordinary forward causation, zero
+retrocausality -- and the experimental record (no dependence on choice
+timing) becomes the framework's boring null prediction instead of a
+quantum shock. The "which-path statistics" of the open configuration are
+50/50 clicks without a which-path fact, because delivery-to-one-detector
+is not travel-down-one-arm. And the celebrated duality relation is
+demoted from deep bound to arithmetic: with a partial recombiner of
+reflectivity R the output energy is 1/2 + sqrt(R(1-R)) cos(phi), giving
+V = 2 sqrt(R(1-R)) and D = |1-2R|, so V^2 + D^2 = 1 identically for every
+R -- one fixed energy budget partitioned between an interfering and a
+non-interfering part (FND-STRAND-028, Derived).
+
+### 5. Hong-Ou-Mandel interference: PINNED, not yet explained
+
+**What quantum optics says.** Send two identical photons into a 50/50
+beam splitter, one from each side. They always leave together, both out
+of the same port, never one each -- the coincidence rate drops to zero
+(the HOM dip). The quantized explanation is genuine two-photon
+interference: the amplitude for both-transmitted and the amplitude for
+both-reflected are equal and opposite (the bosonic minus sign from two
+reflections), so the "one each" outcome cancels. The depth of the dip
+measures how indistinguishable the two photons are, and no
+single-photon or classical-wave picture reproduces it at full strength
+-- a classical treatment caps at 50% visibility, while the quantum
+result reaches 100%. HOM is the deepest two-photon effect below the Bell
+tests, and it is entirely a statement about the joint amplitude of two
+identical quanta, an object with no single-particle counterpart.
+
+**What rope theory says.** Here the framework does something most
+theories avoid: it derives the exact size of what it *cannot* yet
+explain, and refuses to paper over the gap. Two internal routes are
+each pinned. The classical-wave route -- two packets with random relative
+phase interfering inside the framework's own detector theory -- gives a
+coincidence visibility of at most one-half, attained only when the
+amplitudes match exactly, and degraded by any imbalance: the textbook
+50% cap, now a derived closed form. The granular route -- two quanta each
+delivered independently by the whole-quantum rule -- gives *no* dip at
+all (visibility zero), because two independent deliveries land in the
+same joint pattern as fully distinguishable photons. So the very
+per-quantum independence that made the whole-quantum rule so clean
+everywhere else (it recovered the classical limit, forbade fake
+antibunching, made delayed choice boring) is exactly what fails here.
+The pin table is therefore explicit: granular 0, wave <= 1/2, quantum
+mechanics 1, experiment routinely above 0.9. The missing ingredient is
+located with unusual precision -- not in how the quanta propagate, not in
+how they are detected, but in a *correlation in how two indistinguishable
+quanta are delivered*. The shape of the fix is even specified (a
+joint-delivery rule, the two-quantum echo of the whole-quantum grant),
+along with the conditions that would kill it, and it is deliberately not
+adopted: a new postulate is an authorial decision with a real austerity
+cost, and this result *pins* the boundary rather than *purchasing* the
+crossing (FND-STRAND-029, Modeled).
+
+### 6. Heralded single photons, and the quantum eraser: HONESTLY DEFERRED
+
+**What quantum optics says.** Two related setups. Heralding: a nonlinear
+crystal splits one pump photon into a correlated pair (parametric
+down-conversion), and detecting one member announces -- "heralds" -- the
+presence of its twin, giving an on-demand single photon. The quantum
+eraser: which-path information about one photon is stored in an entangled
+partner, and by choosing how to measure the partner one can "erase" that
+information and restore an interference pattern that which-path knowledge
+had destroyed -- even, in the delayed-choice version, after the first
+photon has already been detected, which is again given a retrocausal
+gloss. Both rest on entanglement: genuinely nonlocal correlations
+between separated systems that violate the Bell/CHSH inequalities and so
+cannot be reproduced by any locally-caused, definite-outcome mechanism.
+
+**What rope theory says.** The framework declines both, and says exactly
+why. Heralding is a statement about the *source* -- how a correlated pair
+is born in the crystal -- and the framework has built a mechanical model
+of the detector, not of the source; that sector is registered as open,
+not quietly assumed. The entangled eraser sits behind the corpus's
+oldest and most firmly proven boundary: a local counting model cannot
+produce Bell-type (CHSH) correlations, full stop. That is not a gap
+awaiting a clever session; it is a theorem (the whole-quantum rule is
+explicitly local and per-outcome, and grants no entanglement), and the
+registry records it as a wall rather than promising a crossing. Deferring
+these honestly -- naming the source model as unbuilt and the Bell
+boundary as proven -- is itself the point: the framework marks the edge
+of its jurisdiction instead of blurring it.
+
+The pattern across the scoreboard: the double slit and four more items
+converted from quantum mystique into detector bookkeeping, one bounded
+with its missing piece located to the millimeter, one deferred with the
+reason named. In every
+case the standard predictions stand; what the rope account removes is the
+unpointable machinery beneath them -- the collapsing wavefunction, the
+carrierless indivisibility, the choice made by nothing -- and replaces it
+with a wave that is really in both arms and a quantum that is really
+delivered to one. Every verdict traces to a registered claim with an
+executable check.
 
 ## Three questions this framework can now answer
 
@@ -117,6 +354,8 @@ one's raised to the size ratio, with zero adjustable constants.
 
 **3. How can single photons, fired one at a time over hours, build up an
 interference pattern, as if each one interferes with itself?**
+(This is the double slit of scoreboard item 0, restated as one of the
+three questions; the mechanism is worth seeing twice.)
 Because nothing pointlike ever travels. Each emission is a wave that
 goes through both slits every single time and lays the full striped
 energy pattern on the screen. The dot is not the photon arriving; the

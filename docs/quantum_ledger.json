@@ -477,6 +477,13 @@
   "why": "incidental vocabulary; no dependence (default rule)",
   "branch": ""
  },
+ "PM-002": {
+  "status": "Failed",
+  "markers": [],
+  "cat": "FENCE",
+  "why": "lepton ratios attempt; Failed",
+  "branch": ""
+ },
  "PM-003": {
   "status": "Derived",
   "markers": [
@@ -694,6 +701,13 @@
   ],
   "cat": "CLASS",
   "why": "Lambda computed by percolation; no quantum input remains",
+  "branch": ""
+ },
+ "QB-003": {
+  "status": "Failed",
+  "markers": [],
+  "cat": "FENCE",
+  "why": "counting form cannot reproduce entanglement; Failed and kept",
   "branch": ""
  },
  "QB-005": {
