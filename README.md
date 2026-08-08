@@ -56,11 +56,19 @@ standard alternatives actually predict, then a flux computation for the last
 survivor (ELEC-062 -> -063 -> -064 -> GRV-049), leaves ONE:
 
 - **PRED-003** — the coupling-drift ratio d ln alpha = -2 d ln G. Testable now,
-  CONFRONTED against published optical-clock and lunar-laser-ranging data,
-  surviving at 1.74 sigma. Its named weak point is the PSR J1713+0747 G-drift
-  measurement, already at 2.06 sigma alone; a 3 sigma confirmation of its 2025
-  central value would REFUTE the claim, and needs only a factor 1.45 in sigma —
-  reachable ~2027-2030.
+  and CONFRONTED against published optical-clock and lunar-laser-ranging data:
+  it survives, but the corpus declines to bank it as a win. The confrontation is
+  **null-versus-null** (PRED-003-CONF): at present precision neither alpha nor G
+  shows drift, so the prediction survives at 0.93 sigma — and would have survived
+  at similar significance for almost any ratio, because both inputs are consistent
+  with zero. The combined figure across every independent determination sits at
+  1.74 sigma (PRED-003-META), still consistent. So this is a genuine live,
+  quantitative, checkable bet, but not yet a *discriminating* test: it acquires
+  discriminating power only when clock and G-drift precision improve enough for a
+  nonzero drift to appear. The PSR J1713+0747 lineage, once flagged as the near-term
+  refutation risk, was re-examined and found statistically normal — no anomaly
+  (PRED-003-J1713); a future tightening that resolves a nonzero drift inconsistent
+  with the -2 ratio would refute the claim.
 
 **The detector campaign's candidates, audited (ELEC-084):** P23 and P24 were run
 through the same four locked criteria, unrelaxed, with the PRED-002 precedent
