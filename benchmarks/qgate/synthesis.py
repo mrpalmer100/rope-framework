@@ -4,7 +4,7 @@ composition: every constituent claim present with its expected status,
 every correction pointer filed, every funnel constant re-derivable.
 The synthesis cannot drift from what it synthesizes.
 
-The frontier's new shape (docs/QGATE_SYNTHESIS.md): TWO BRANCHES,
+The frontier's new shape (docs/technical/QGATE_SYNTHESIS.md): TWO BRANCHES,
 ASYMMETRIC FATES. The scale branch is one conditional chain -- IF
 collective reconnection (n_t ~ 111, D/w ~ 19) AND Sigma >= 5.1e35
 J/m^3 THEN hbar = W_collective serves all four quantum inputs with
@@ -56,7 +56,7 @@ def test():
     rho = Sig_min/9e16
     assert rho > 1e18, "the invoice: vacuum mass density >= ~5.6e18 kg/m^3"
     # the map document exists
-    assert os.path.exists(os.path.join(ROOT, 'docs', 'QGATE_SYNTHESIS.md')), "the map is in docs/"
+    assert os.path.exists(os.path.join(ROOT, 'docs', 'technical', 'QGATE_SYNTHESIS.md')), "the map is in docs/technical/"
     print(f"chain verified: 8 claims, 2 correction pointers, ledger reproducible")
     print(f"funnel re-derived: W/hbar = {W/197.327:.4f}, n_t = {n_t:.0f}, D/w = {Dw:.1f}, "
           f"Sigma_min = {Sig_min:.1e}")
