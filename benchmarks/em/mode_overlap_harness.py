@@ -1,7 +1,7 @@
 """The rope mode-overlap coupling E_overlap: derived functional + anti-fitting harness.
 
-Target: docs/OPEN_PROBLEM_mode_overlap.md / claim EM-RECON-005.
-Full derivation + honesty statement: MODE_OVERLAP_DERIVATION.md.
+Target: docs/technical/OPEN_PROBLEM_mode_overlap.md / claim EM-RECON-005.
+Full derivation + honesty statement: technical/MODE_OVERLAP_DERIVATION.md.
 
 THE FUNCTIONAL (frozen everywhere below; nothing retunes it)
 ------------------------------------------------------------

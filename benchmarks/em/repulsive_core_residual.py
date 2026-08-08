@@ -4,7 +4,7 @@ not a solution.
 
 The mode-overlap energy -|A| grows monotonically as separation r -> 0 (quadratic
 functional), so nothing sets an equilibrium spacing -- no bond length, no nuclear
-spacing. The derivation doc (MODE_OVERLAP_DERIVATION.md Sec 6) flagged the missing
+spacing. The derivation doc (technical/MODE_OVERLAP_DERIVATION.md Sec 6) flagged the missing
 piece as a 'saturation steepness' not fixed by {T, mu, lambda}.
 
 Attempted route: the interpenetrability threshold (FND-MATTER-004) LOOKED like it
