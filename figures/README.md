@@ -182,3 +182,14 @@ Sector-specific figures embedded in the shipped papers:
 - condmat_logic_diagram.png — condensed-matter paper.
 - cosmo_phase_diagram.png — cosmology paper.
 - thermo_fig1_entropy.png, thermo_fig2_landscape.png — thermodynamics paper.
+
+## double_slit_corrected.png — the corrected double-slit picture
+
+Four-panel infographic for the detector paper's scoreboard item 0:
+(1) each slit alone gives a wide single-slit envelope; (2) coherent
+two-slit fringes are carved into the SUM of the envelopes, central
+maximum strongest; (3) a which-path detector removes the interference
+term only -- the screen shows the plain envelope sum, envelope shape
+unchanged; (4) one-hump vs two-hump appearance is set by envelope
+overlap (slit spacing / screen distance), not by different physics.
+Embedded in papers/the_detector_understood (item 0).
