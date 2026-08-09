@@ -34,6 +34,41 @@ closed. Full dev-entry detail retained below (v3.12.13-v3.12.22).
 - ARCHIVAL RESTORATION: 67 files pruned by intermediate packagings restored from
   the 2026-08-05 review-input package (release-notes history, sealed FND-017
   commissions, synthesis docs).
+- DEDUP HYGIENE: the restoration re-introduced the full RELEASE_NOTES set at the
+  top level of docs/ where it already existed under docs/history/ (the canonical
+  location every reference uses); the 32 byte-identical top-level copies are
+  removed and one stale self-reference in v3.10.0's notes repointed to
+  docs/history/. docs/history/ (35 files) is untouched and authoritative.
+- DEDUP HYGIENE (part 2): the same restoration also dropped 21 non-release-note
+  files at the top of docs/. Adjudicated against the pre-restore base tree: 18
+  duplicated canonical copies already held elsewhere (10 in docs/technical/, the
+  archive state in docs/history/, 4 figures in figures/, 3 papers in papers/ and
+  papers/_sources/) and were removed from docs/ top level; the 5 that differed
+  were confirmed OLDER superseded snapshots (e.g. QGATE_SYNTHESIS at 7 claims vs
+  the canonical 18; the 102KB mass paper vs the canonical 250KB), so the
+  canonical newer copies were kept. 3 files present in NO base-tree location
+  (roadmap.md -- a case-collision twin of the canonical ROADMAP.md -- and
+  rope_programme_overview.docx/pdf) were pure strays the current tree had
+  deliberately pruned, and were removed. Empty docs/figures/ dir removed. Root
+  cause: the 67-file archival restore was a blind copy to docs/ top level instead
+  of a merge that reconciles against where the current tree keeps each file.
+- FIGURE BLOAT REVERSED: the same restore also pulled figures/ back to its 30M
+  review-input-era state (2.1MB rope_ladder.png etc.) plus three *_v1_archive.png
+  superseded renders (7.4MB) -- re-inflating figures/ from the already-fixed 13M
+  to 24M. All 7 restore-added figure files (none present in the pre-restore base;
+  referenced only by historical CHANGELOG lines) removed; figures/ is now
+  byte-identical to the working-line's already-optimized 13M set. NOTE: the
+  remaining ~1.5MB illustrations are richly-rendered dark-background figures
+  whose size is genuine detail, not encoding bloat (lossless re-save yields 0%;
+  256-color quantize would cut ~83% but risks gradient banding) -- left as-is at
+  the intended working-line size, not further compressed, absent a decision to
+  trade illustration quality for repo size.
+- FIGURES OPTIMIZED (per Mark, 2026-08-09): the 9 large illustrations (0.8-1.5MB
+  each) re-encoded to 256-color adaptive palette with Floyd-Steinberg dither at
+  FULL resolution (no downscale) -- glows, gradients, starfields, and text
+  verified visually indistinguishable from the originals. figures/ 12.5M -> 2.7M
+  (79% cut); corpus 43M -> 33M. PDFs already embed compressed figures and were
+  left untouched (8.3M across 62 files, individually small).
 - MERGE HYGIENE: a packaging artifact had duplicated the FND-MATTER-059/060 id
   slots (an earlier occupant preserved out of numerical order); the stale block
   is renumbered to -hist ids (preserved-not-erased), leaving the live 059/060
