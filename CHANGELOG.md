@@ -1,5 +1,357 @@
 # Changelog
 
+## 3.14.0 (2026-08-09)
+THE UNIFICATION RELEASE: the two development lineages merged into one, the
+review-arc losses recovered by re-derivation, and the zero-point lever cycle
+closed. Full dev-entry detail retained below (v3.12.13-v3.12.22).
+
+- 549 registered claims (113 Derived, 388 Modeled, 4 EFT-constrained, 4
+  Conjecture, 8 Open, 32 Failed-and-kept); 522 code-backed, all passing.
+- COMMISSION ETA closed (FND-MATTER-063): contact-modified dispersion killed by
+  three-census exclusivity; the lambda mechanism space is empty at current
+  registration, re-scoped to the standing zero-point-dominance consistency
+  problem.
+- THE LEVER PROVENANCE CORRECTION (FND-MATTER-064): the "25 percent" was never a
+  measured zero-point share -- it was the inter-knot fraction spread of
+  FND-MATTER-009's own benchmark, drifted across a claim boundary. The
+  1.156e-5 target dissolves; FND-MATTER-050 reverts to honest form.
+- THE BRANCH-B GRANT (FND-MATTER-065, Mark's decision): pi(r/a)^2 adopted as the
+  standing lever PREDICTION (share 6.4-9.3%), falsifier armed; the ZPE band
+  collapses from factor 2-3 to ~2%, four naked coherence tensions registered
+  openly in its place. n_q commission closed at chartering (self-catch: the
+  tension was already void per FND-MATTER-046).
+- THE MERGE: the review session's output zips were lost; all SEVEN review-arc
+  results recovered by re-derivation with contamination disclosed (the
+  FND-MATTER-059 precedent) -- F1/B/L/M (FND-MATTER-067-070), Commission A
+  (FND-REL-004, Derived: beta = 1/12 - B/(T0 a^2), M-point mesh excluded 10.8
+  orders + band-top kill, LHAASO bound verified live), Commission G (FND-REL-005:
+  loaded continuum killed twice, 53-order mass deficit), Commission H
+  (EM-RECON-023 + GRV-102 split). The five consolidation entries registered
+  (FND-MATTER-066, EM-RECON-019-022). FND-MATTER-049 reopening applied and then
+  computed. Every recorded number reproduced to 0-1%.
+- PAPER SYNC: the carrier-identity note (rope_optics) and the second lever
+  postscript (rope_matter_mass) added; PAPERS.md updated.
+- ARCHIVAL RESTORATION: 67 files pruned by intermediate packagings restored from
+  the 2026-08-05 review-input package (release-notes history, sealed FND-017
+  commissions, synthesis docs).
+- MERGE HYGIENE: a packaging artifact had duplicated the FND-MATTER-059/060 id
+  slots (an earlier occupant preserved out of numerical order); the stale block
+  is renumbered to -hist ids (preserved-not-erased), leaving the live 059/060
+  lever claims unique. Registry now passes a zero-duplicate-id sweep.
+- Provenance: docs/commissions/MERGE_MANIFEST.md records the full recovery,
+  every re-derived claim carries its contamination-disclosed flag, and
+  record-grade sub-items are flagged where nothing downstream leans on them.
+
+## v3.12.22 (2026-08-09) -- Commission H re-derived; the merge manifest CLOSED
+- EM-RECON-023 (Modeled): torsion carrier -- entrywise q-independent stiffness
+  matrix (lock cannot manufacture dispersion; kill 2 has no torsional
+  counterpart), azimuth-blindness dV/dphi = 0 identical (m_gamma = 0 confirmed),
+  killed by kill class 4 with the 2a amendment folded (CONFIRMED, trace-based,
+  scoped, citing registered identities). Third independent construction of the
+  committed facts. Validity edge record-grade, nothing downstream leans on it.
+- GRV-102 (Open): the Corollary-1 tension split executed per Mark's standing
+  directive; GRV-020 face annotated; winding-equals-charge fenced off untouched.
+- ALL SEVEN review-arc results now recovered; B9 (lost script) and B10 (moot)
+  close the manifest. The corpus is UNIFIED: one lineage, 549 claims, every
+  citation resolvable in-registry. 547 -> 549 claims.
+
+## v3.12.21 (2026-08-09) -- Commission G re-derived: FND-REL-005 registered (Modeled)
+- The loaded-continuum transfer matrix solved exactly: beta = g^2/1890 EXACT
+  (dispersive term -g^2(qa)^2/3780 in omega/cq; 945 via cot in A2). Both G2
+  limits validated with residuals; the g->infinity limit IS FND-REL-004's band
+  (circle closed, new over the record).
+- Kill 1 reproduced: O(g) photon mass; PDG demands g < 9.3e-56 vs registered
+  contact contrast >= 1e-2 -- 53 orders; outcome 2, the ontology-level negative.
+- Kill 2 reproduced: g-independent bending superluminality; decay threshold
+  58 MeV; LHAASO 1.4 PeV margin 2.4e7 (record 2e7). Branch fork closed by FND-027.
+- G6 statement registered: REL-003 not de-adopted; MATTER055 lattice reading
+  survives; the carrier escalation discharged by EM-RECON-022. CA5 diatomic
+  flag inspected. 546 -> 547 claims. Remaining moderate tier: H.
+
+## v3.12.20 (2026-08-09) -- Commission A re-derived: FND-REL-004 registered (Derived)
+- beta = 1/12 - B/(T0 a^2) derived sympy-exact from the registered transverse
+  operator; exact cancellation excluded (measure-zero tuning); O((ka)^4) carried.
+- Confrontation with the LHAASO GRB 221009A quadratic bound (E_QG,2 > 6e-8 E_Pl,
+  web-verified in-session -- the original B4 breach discharged as the bar
+  demanded): M-point mesh excluded at 10.8 orders; live bound a <= 9.33e-28 m;
+  band-top existence kill (6.6 GeV ceiling vs Galactic PeV photons, 1.5e5x).
+- Every recorded number reproduced to 0-1%. The three drafted amendments folded;
+  the QB-008 branch closed by FND-027 supersession; FND-REL-002/FND-MATTER-005/
+  GRV-076 amended on their faces; FND-MATTER-068 Pin 2 upgraded to computed.
+- 545 -> 546 claims. Moderate tier remaining: G, H.
+
+## v3.12.19 (2026-08-09) -- review-arc cheap-tier reruns registered (F1, B, L, M)
+- Four lost review-arc results RE-DERIVED with contamination disclosed
+  (FND-MATTER-059 precedent; one harness, all recorded numbers confronted):
+  FND-MATTER-067 (F1 circularity, sympy-exact), FND-MATTER-068 (three-pin;
+  pairwise gaps computed; the merge-applied 049 reopening now on arithmetic
+  footing; review-arc 061 collision logged), FND-MATTER-069 (L: stable {5,7}
+  cumulative [5,12] reproduced, 4_1-anomaly sensitivity newly stated),
+  FND-MATTER-070 (M: scale-free identity, 2/8/20 with 28 absent, 1836 refused).
+- All four land on the record exactly; per-item record-grade flags where
+  constructions were not rebuilt. 541 -> 545 claims.
+- Moderate tier (A/G/H) manifested with the rerun-with-disclosure path
+  precedented; A's rerun additionally upgrades Pin 2 to computed.
+
+## v3.12.18 (2026-08-09) -- archival restoration from the 2026-08-05 review-input package
+- The uploaded rope-framework-with-commissions-2026-08-05 zip identified as the
+  review session's INPUT package (518 claims, pre-review-arc) -- another strict
+  ancestor on the claims side, but carrying 67 files later packagings pruned.
+- Restored per superseded-not-erased: the full v2.2.4-v2.3.x release-notes
+  history, both SEALED FND-017 commission documents (cited by the MATTER058/059
+  discipline), METHODOLOGY_target_free_questions and companion docs, the
+  QGATE/HBAR synthesis docs, archived figures, the plain-language guide and
+  programme-overview docx/pdf, and the archived rope_mass_weights and
+  rope_alpha_coefficient papers. No claims changed (541).
+- Review-arc registration texts (FND-REL-004, three-pin, FND-REL-005, H, L/F1/M)
+  confirmed ABSENT from every package in Mark's files examined so far; the
+  summary-grade fallback decision stands open.
+
+## v3.12.17 (2026-08-09) -- lineage proven; merge manifest collapsed; 049 reopening applied
+- The uploaded working v3.12.0 zip proven a STRICT ANCESTOR of this package
+  (0 zip-only files/claims; all shared-id diffs are this package's annotations).
+  The two lines are one line; the manifest's ID-collision items dissolve
+  (SYNC_STATE's version labels were the review session's own numbering).
+- FND-MATTER-049 REOPENED (Modeled -> Open) from the authoritative review-session
+  record with lost-text provenance on the face; FND-MATTER-003 staleness
+  annotation applied -- the registry is now consistent with its "reopened 049"
+  citations, and the SYNC_STATE verification item is discharged.
+- Blocked list revised to review-session-zip items only, with the summary-grade
+  fallback registered as Mark's per-item call. 541 claims unchanged.
+
+## v3.12.16 (2026-08-09) -- D1/D2 executed: paper prose synced to the lever cycle's close
+- rope_optics: the carrier-identity note inserted verbatim per CONSOLIDATION section 5
+  (scope section, italic), citing EM-RECON-022. Mark's confirmation given.
+- rope_matter_mass: second registered lever postscript added to section 4 (claims
+  FND-MATTER-063..065): ETA kill and three-census exclusivity, the 25%-provenance
+  correction (noting the paper's own prose had the spread reading correct all along),
+  the target's dissolution, and the Branch-B grant with armed falsifier.
+- Flagship mass paper and predictions paper scanned: no share/band/target prose
+  present, nothing to correct.
+- Both docx sources edited, validated (XSD PASS), PDFs regenerated and visually
+  verified; PAPERS.md matter_mass entry updated from 'lambda OPEN at unchanged
+  target' to the closed-cycle statement; sync note added.
+
+## v3.12.15 (2026-08-09) -- PARTIAL MERGE: consolidation entries registered; manifest for the remainder
+- Registered from docs/commissions/CONSOLIDATION_2026-08-05.md (authoritative texts,
+  ids assigned per its own merge checklist, dup-checks run): FND-MATTER-066 (F4
+  corrected), EM-RECON-019 (E-direction silence, Open), EM-RECON-020 (dressed
+  carrier Failed-kept), EM-RECON-021 (psi=0 all-orders, Derived), EM-RECON-022
+  (carrier channel-map, Modeled). Speed-identity flag appended to EM-RECON-012.
+  Mark's credit lines (corkscrew; one-azimuthal-direction) placed per house
+  practice. All flagged [REGISTERED AT PARTIAL MERGE]; benchmarks travel with
+  the working zips.
+- MERGE_MANIFEST.md created: eleven blocked items (FND-REL-004/005, three-pin
+  claim, 049 reopening + pre-staged staleness sweep, H claim + 2a amendment,
+  E addendum with superseding annotation, L/F1/M drafts, V-benchmark repair),
+  TWO ID COLLISIONS identified in advance (review-arc FND-MATTER-060/061 vs the
+  08-09 assignments) with the resolution rule pre-committed, two items deferred
+  to Mark (optics one-liner; paper propagation of the Branch-B grant).
+- 536 -> 541 claims. Spend unchanged. Full merge targets v3.14.0 and requires
+  the v3.11.0-v3.13.0 working-session zips uploaded to the completing session.
+
+## v3.12.14 (2026-08-09) -- the n_q commission closed AT chartering (self-catch)
+- The "n_q 1.65x snap-band miss" chartered for attack was found already dead:
+  FND-MATTER-046 reclassified R7 as a tracking identity and voided the shortfall
+  as stale-target; MATTER041's face carried the void. FND-MATTER-065's C4 tension
+  is VOID (fifth fail-to-search instance, Claude's own, caught by the
+  read-neighboring-registrations tripwire one session later). Catch #2 survives.
+- Branch-B open coherence queue revised to four live items: R1 anchor 2.0x,
+  l_q 2.48x, lattice 4.9x, Sigma-route 7.0x. MATTER046 honesty clause
+  re-inherited. Record: analysis/NQ_commission_closed_at_chartering.md.
+
+## v3.12.13 (2026-08-09) -- Commission ETA, the lever provenance correction, and the Branch-B grant
+- FND-MATTER-063 (Modeled/adverse): Commission ETA closed outcome 3 -- contact-modified
+  dispersion killed by three-census exclusivity on Ac sigma0/(T0 a); lambda mechanism
+  space empty; 1.51x demand spread identified as normalization artifact; re-scoped by
+  064 into the standing zero-point-dominance consistency problem.
+- FND-MATTER-064 (Modeled): the 25% lever was never a measurement -- it is the
+  inter-knot fraction spread (24%) of FND-MATTER-009's own benchmark, drifted into a
+  mass-composition reading at MATTER051. Target 1.156e-5 dissolves; FND-MATTER-050
+  reverts to honest form; MATTER056's pi(r/a)^2 re-scoped from near-miss to prediction.
+  Fourth instance of the fail-to-search error class.
+- FND-MATTER-065 (Modeled/granted): ZPE bar re-audit, both branches priced on the
+  unmodified MATTER041 pipeline; BRANCH B GRANTED by Mark (share 6.4-9.3%, band
+  collapses to x1.016, l_q/a = 34.5-35.0, E conditionality simplified). Price
+  registered: four naked tensions on the claim's face. Two branch-free catches
+  corrected on FND-MATTER-041's face (n_q recovery directionally impossible; l_q
+  excusal in wrong space). Falsifier armed: share outside 6.4-9.3% kills the grant.
+- Face annotations: FND-MATTER-009 (provenance), FND-MATTER-041 (two corrections +
+  window robustness condition share < 0.889), FND-MATTER-050 (reverted + granted).
+- 533 -> 536 claims. Spend unchanged at ONE. Nothing deleted; superseded-not-erased.
+
+## v3.12.12 (2026-08-09) -- Commission ETA chartered (named, not opened)
+
+- The contact-modified dispersion commission chartered for a fresh
+  session: E1 local dispersion shift from the registered contact form at
+  the EM-RECON-018 standoff band; E2 the zero-point integral over the
+  Crofton contact set with the power DERIVED; E3 the material ratio
+  carried symbolically (the same Ac sigma0/(T0 a) the survival and
+  nuclear censuses already price); E4 marked confrontation last.
+- Bars pre-committed: target sealed through construction, 057 identity
+  and 060 falsifier binding, form adjudication first, spend at one.
+- New: docs/commissions/COMMISSION_ETA_contact_dispersion.md.
+
+## v3.12.11 (2026-08-09) -- the standoff refinement: EM-RECON-018
+
+- The survival band narrows 41-fold to [0.40, 0.46]: the standoff derived
+  from the registered f_c = 0.309 (w/a = 0.362), both admissible readings
+  carried, thresholds 0.395/0.458. The tight tail of the old band was
+  never physically accessible (just-in-contact = at the knee).
+- The survival question converts: bundle contact multiplicity m_b below
+  ~60-70 strand pairs (L1 = 1). Point/line/patch contact geometries all
+  survive; only full-cross-section fails. Estimates remain not-adopted.
+- EM-RECON-017 superseded to the refined band; FND-029's width target
+  sharpened an order of magnitude; the both-census tripwire inherits it.
+- New: analysis/EMRECON018_standoff_bars_LOCKED.md and _results.md,
+  benchmarks/em/emrecon018_standoff_refinement.py, claim EM-RECON-018.
+
+## v3.12.10 (2026-08-09) -- the nuclear import and the convergence: FND-029
+
+- ID-collision corrected first: the K_c claim (registered as EM-RECON-014
+  in error) renamed EM-RECON-017; collision with the ATLAS/Sigma claim
+  caught, all references updated, catch logged on the claim face.
+- The import: e_b vs T0 a through a blind-committed chain returns
+  E_x/(T0 a) in [0.019, 87], straddling the survival band [0.40, 3.00] --
+  bounded reduction, no side chosen; geometric multiplicity estimates
+  displayed inside the band under the numerology guard.
+- The convergence: the block is the constituent width w, the same number
+  the QGATE tube census waits on. One quantity now carries both the hbar
+  scale branch and matter stability; the standing tripwire extends to
+  both censuses. Open-problem count unchanged.
+- New: analysis/NUCIMPORT_bars_LOCKED.md and _results.md,
+  benchmarks/foundations/nuc_import_kc_confrontation.py, claim FND-029.
+
+## v3.12.9 (2026-08-09) -- K_c derived in form: EM-RECON-017
+
+- Marginality discovered at chartering: at the adjudicated k = 2T0,
+  K_c = k is the zero-core case; survival is strictly K_c > k.
+- K_c derived from registered structure: C(standoff) x Ac/a, C in
+  [0.67, 5.06], finite at onset, stiffening with over-density. The
+  same-material O(k) argument SUPERSEDED -- K_c routes through the
+  contact amplitude, not the stretch modulus.
+- Core survival reduced to one named unregistered ratio: Ac/(T0 a) >
+  0.40..3.00. Settlers named: the nuclear contact-scale import (zero-
+  freedom decision) and the standoff refinement via f_c.
+- New: analysis/EMRECON017_Kc_bars_LOCKED.md and _results.md,
+  benchmarks/em/emrecon017_kc_derivation.py, claim EM-RECON-017; face
+  annotation on EM-RECON-013.
+
+## v3.12.8 (2026-08-09) -- the dark channel's job description: FND-028
+
+- Three falsifiable commitments generated by the k/T0 adjudication:
+  Prediction 8 sharpened (committed floor c_L >= sqrt(2) c; coupling
+  committed at T0/2; cross-sector lock with c4 = T0/8 as a falsifier);
+  Prediction 26 new (no finite-speed Bell cutoff, catastrophic falsifier
+  uniquely located near sqrt(2) c); Prediction 27 new (I^2 dark vacuum
+  attenuation, scale-open, joins the Sigma ledger).
+- All numbers verified from registered structure (sympy vertex
+  re-derivation) before entering the document; predictions paper docx and
+  PDF updated, validation passed.
+- New: benchmarks/foundations/fnd028_dark_channel_predictions.py, claim
+  FND-028.
+
+## v3.12.7 (2026-08-09) -- the k/T0 conflict adjudicated: FND-027
+
+- The eight-order k/T0 dispute (FND-021 B3) dissolves as a category error
+  under pre-locked criteria: same constant (bar 1), but one side is bound
+  to the medium (k/T0 = 2) and the other a conditional demand on an
+  unestablished conjecture, superseded to infinity by its own rung 3.
+- Adverse byproduct at full strength: the depletion conjecture's
+  instantaneous limb is incompatible with registered elasticity; rescue
+  escapes displayed and refused.
+- GRV-073 withdrawal lifted; alpha branch adjudicated safe; QB-007 fence
+  higher with weight shifting to the guidance-flow extension; face
+  annotations on FND-021, GRV-073, QB-008.
+- New: analysis/FND027_k_adjudication_bars_LOCKED.md and _results.md,
+  benchmarks/foundations/fnd027_k_adjudication.py, claim FND-027.
+
+## v3.12.6 (2026-08-09) -- documentation pass: the lever cycle written across the corpus
+
+- The FND-MATTER-055..062 zero-point cycle recorded corpus-wide:
+  PROGRAMME_OVERVIEW bracket chain extended through retirement;
+  PAPERS.md matter-mass entry carries the full cycle; README release
+  summary notes the lever's complete life cycle and the machinery test.
+- rope_matter_mass paper: registered postscript added after the lever
+  paragraph (mechanism built, confronted at 1.44x, retired by the
+  strand-engine settler under a blind threshold; lambda still honestly
+  blocked, now with a worked falsification on the record); PDF
+  regenerated; validation passed.
+
+## v3.12.5 (2026-08-09) -- the settler kills the lever: FND-MATTER-062
+
+- The strand-engine settler run with a blind threshold: exclusion geometry
+  is real (Q = 0.000) and is purchased entirely with ADDED length (+0.65
+  percent free, +0.35 percent tight, never negative) -- rerouting via the
+  FND-017 reservoir, not removal. Fork B resolves.
+- FND-MATTER-059 promotion and 060 propagation REVERTED on their faces;
+  the 1.84x ZPE band restatement reverts; lambda returns to OPEN at the
+  unchanged target; the 1.44x landing registered coincidence-class.
+- The Crofton theorem stands as mathematics. Successor channel named:
+  contact-modified dispersion (one coefficient eta, derivable blind from
+  the registered contact form).
+- Three in-session catches logged (projection sign, failed control
+  prediction, stiff-spring integrator rejected by its own audit).
+- New: benchmarks/foundations/matter062_settler.py,
+  analysis/MATTER062_settler_results.md, claim FND-MATTER-062.
+
+## v3.12.4 (2026-08-09) -- the compliance brick: a fork, not a factor (FND-MATTER-061)
+
+- The compliance correction adjudicated by dual-regulator exact mode sums:
+  point-constraint cost is a regulator artifact; only length removal is
+  scheme-stable; the registered strand model removes no length (reroute,
+  detour -> 0).
+- The dilute-exclusion count therefore has no registered foundation. Fork
+  registered: fixed-routing fact (count stands) vs dynamic routing (lambda
+  collapses, mechanism dies in detail). 059/060 flagged CONDITIONAL on
+  fork A; Crofton theorem untouched; ZPE band reverts under fork B.
+- Settler named with blind bars: strand-engine density measurement inside a
+  knot volume. Adverse outcome was pre-named; spend still one.
+- New: benchmarks/foundations/matter061_compliance_adjudication.py,
+  analysis/MATTER061_compliance_results.md, claim FND-MATTER-061.
+
+## v3.12.3 (2026-08-09) -- the lever propagated: FND-MATTER-060
+
+- Per-knot confrontation of the derived lever: ring 1.22x, 5_1 1.38x,
+  trefoil 1.84x against each knot's demanded lambda -- all inside the 2x
+  bar, nothing re-fitted, spend still one.
+- Uniform overshoot recorded as data (matches the compliance refinement's
+  sign; not invoked). ZPE band restated from factor 2-3 to 1.84x worst-knot.
+- Next brick named with pre-installed falsifier: the compliance correction
+  must shift all knots down together and cannot fix all three exactly.
+- New: benchmarks/foundations/matter060_lever_propagation.py,
+  analysis/MATTER060_lever_propagation_results.md, claim FND-MATTER-060.
+
+## v3.12.2 (2026-08-09) -- the zero-point lever derived: FND-MATTER-059
+
+- The FND-017 directional reading settled by theorem, not choice: Crofton
+  chord count shows a cylindrical inclusion excludes identical strand length
+  from all three families -- displacement is direction-blind, a^2/3 derived.
+- The displaced-mode lever promoted at 058's pre-committed threshold:
+  lambda = 6 pi (r/a)^2 = 1.666e-5, gap 1.44x over target, inside the 2x bar.
+  The matter sector's first derived lever; calibration spend still one.
+- Session contamination disclosed on the claim's face with a stated
+  reversion condition; refinement lead named (compliance correction).
+- New: benchmarks/foundations/matter059_directional_reading.py,
+  analysis/MATTER059_directional_reading_results.md, claim FND-MATTER-059.
+
+## v3.12.1 (2026-08-09) -- LEAD-RAD run and closed: the quantum fence, constructively
+
+- Commission LEAD-RAD executed (sessions 1-2, blind throughout; alpha never
+  loaded). Outcome 4 registered: THE QUANTUM FENCE. Moment-side back-reaction
+  weight is cutoff-defined at power 1/3 in the angular cutoff (static
+  subtraction does not cancel the reactive divergence; derived identity:
+  radiative rotating-frame budget E - Omega L = 0 per mode). Energy-side
+  weight on the committed f(r) finite and derived (w1 = -6.76e15, 0.5% spread,
+  coupling normalization flagged unregistered). No alpha-independent
+  registered core scale exists; the two-target arbiter forbade confrontation.
+  The +178.8 ppm residual and the Schwinger-class moment gap are FENCED as
+  quantum-radiative: not derived, not refuted.
+- New: explorations/lead_rad_a2a3_construction.py; LEAD_RAD_worklog.md
+  sessions 1-2; SYNC_STATE entry.
+- Result written corpus-wide: alpha paper, mass paper,
+  HOW_ALPHA_WAS_DERIVED.md, PAPERS.md, PROGRAMME_OVERVIEW.md, README.md.
+
 ## 1.0.0 (2026-06-29)
 First tagged release.
 
@@ -12242,3 +12594,34 @@ docs/history/RELEASE_NOTES_v3.11.0.md.
   va_next_order_boundary, de_complete_phase1_audit; the full Y/Z arc; the nuclear
   campaign (nuc_a..d2). Charters: V-A-next-order (MISS), D-E-COMPLETE (clean),
   LEAD-RAD (stamped), all in docs/commissions/.
+
+## 3.12.0 (2026-08-09)
+The exact-D arc: six commissions, the coefficient dissolved, the scale
+corrected. Full notes: docs/history/RELEASE_NOTES_v3.12.0.md.
+
+- 524 registered claims (111 Derived, 372 Modeled, 4 EFT-constrained, 4
+  Conjecture, 5 Open, 28 Failed-and-kept); 503 code-backed.
+- GRV-096..098 (Failed, kept): the D extraction protocol-dependent, the
+  two-term m-odd structure with the target subdominant 5.6x, and the
+  non-commuting q/m limits with the lattice-continuum reconciliation.
+- GRV-099: the sqrt-channel amplitude is ZERO in the ordered limit; the
+  IR-universal content is the even-log u ln u, derived L1 = -1.61e-4,
+  absorbing 82-88% of every prior lattice measurement (R^2 = 0.9996).
+- GRV-100: the even-log channel is EH-patterned at 0.0003-0.017 (two
+  orders cleaner than GRV-025's original bar-passing); the normalization
+  is scheme-borne and sign-indefinite -- the scale problem is STRUCTURAL
+  (pattern and running predicted, absolute strength not); F-Lor
+  exclusion survives trivially.
+- GRV-101 + erratum on GRV-075: chi_2 extensive (sqrt(96) hidden in
+  zeta); a = 8 Planck lengths corrects to 0.80 l_P (1D) and (0, 0.18]
+  l_P (covariant); the Planck-CLASS selection stands and strengthens;
+  positivity selects the renormalization half-line above the band gap
+  (the GRV-100 open-principle candidate).
+- Quantum-audit ledger fix (OVERRIDE entries always members; QB-003 and
+  PM-002 restored) unblocking QGATE-002 CI; the stopping-point pointer
+  convention exercised across NUC-005/006/009, GRV-012, PRED-002/003,
+  and the arc; the nuclear two-track statement propagated; the
+  corrected double-slit infographic embedded in the detector paper.
+- New paper: "The Number That Wasn't There" (plain-language account of
+  the arc). Six new benchmarks under benchmarks/gravity/; six charters
+  with outcome addenda under docs/technical/.
