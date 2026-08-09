@@ -4,7 +4,7 @@
 developed and formalised in this corpus.*
 
 <!-- BEGIN GENERATED: corpus_stats -->
-*518 registered claims, 497 code-backed and passing, 111 Derived, 25 registered Failed and kept.*
+*524 registered claims, 503 code-backed and passing, 111 Derived, 28 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
 **In one line:** one medium of strands under tension reproduces optics,
@@ -106,7 +106,7 @@ remainder of the medium's induced action is Einstein–Hilbert (GRV-025,
 *Derived*), the physical one-metric derivation makes the identification and the
 full classical table unconditional (GRV-026/028/029, *Derived*), the
 strong-field extrapolation is certified a controlled expansion (GRV-048), and
-the induced Newton constant carries a derived exponent pair with ζ = 1.208
+the induced Newton constant carries a derived exponent pair with an intensive coefficient ζ_int = 0.0126 (the earlier ζ = 1.208 carried a ring-size factor, erratum GRV-101)
 (GRV-075). The Poisson equation and the 1/r conditioning field are recovered
 from network statics (GRV-005), and the MOND acceleration scale emerges as
 g† = cH₀/2π at zero free parameters, matching SPARC rotation curves.
@@ -332,7 +332,7 @@ from its oldest unexamined assumption to the Hawking law-form, with bars locked
 before every computation. The assumed constitutive form of G was found
 dimensionally open, and the repair produced the corpus's first derived G
 exponent pair — the Sakharov route, with a 96-site lattice zero-point
-coefficient selecting a spacing of eight Planck lengths unprompted (GRV-075);
+coefficient selecting a Planck-class spacing unprompted -- corrected to at or below one Planck length by GRV-101, the registered eight having carried a ring-size bookkeeping factor (GRV-075, erratum registered);
 a survey then found ZERO live pins of the lattice scale, reducing a two-scale
 tension to a single named fork with internal discriminators (GRV-076). The
 horizon's statics were derived rather than assumed: the support load is

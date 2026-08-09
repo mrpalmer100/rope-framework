@@ -76,6 +76,18 @@ between two *separated* detectors and having exactly one fire is the
 funneling step, which needs the whole-quantum rule (item 1) and is
 registered, at absorption, as the framework's surveyed edge.
 
+![The double slit, corrected picture](../figures/double_slit_corrected.png)
+
+*Figure: the corrected double-slit picture. Panel 1: each slit alone
+produces a wide single-slit envelope. Panel 2: both slits open and
+coherent -- the fringes are carved into the sum of the two envelopes,
+with the central maximum strongest. Panel 3: a which-path detector
+destroys the fixed phase relationship, so the fringes vanish and the
+screen shows the plain sum of the two envelopes; the envelope shape
+itself is unchanged. Panel 4: whether that sum looks like one wide hump
+or two distinct humps depends only on slit spacing and screen distance
+(envelope overlap), not on any change in the physics.*
+
 ### 1. Beam-splitter correlations (Grangier-Roger): DERIVED
 
 **What quantum optics says.** A single photon meets a 50/50 beam

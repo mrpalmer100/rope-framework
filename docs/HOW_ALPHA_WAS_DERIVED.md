@@ -65,10 +65,19 @@ exactly): the chain's value depends on no continuous dial, only the discrete
 branch choice k/T0 = 2 (adjudicated by the electron against FND-021). The
 residual ladder is exhausted -- the branch, the r_min continuum limit, and the
 q^2 winding slot are all excluded by computation. So the +178.8 ppm (0.018%) is either
-physics the chain does not yet contain (the V-A next-order boundary term is the
-named candidate, chartered in COMMISSION_V_A_NEXT_ORDER) or the anchor-metrology
+physics the chain does not yet contain or the anchor-metrology
 reading's own limit. It is pinned against a construction with no adjustable
 continuous parameters.
+
+RESIDUAL STATUS (final, 2026-08-09): every named candidate has now been run.
+The V-A boundary term missed cleanly; the functional-completeness audit
+(D-E-COMPLETE) came back clean; and the last surviving class, the radiative
+back-reaction (Commission LEAD-RAD), was run blind and closed at OUTCOME 4,
+THE QUANTUM FENCE: the moment-side back-reaction weight is cutoff-defined at
+power 1/3 in the angular cutoff, with no alpha-independent registered core
+scale to regulate it, so the required two-target confrontation was never
+licensed. The residual is fenced as quantum-radiative: not derived, not
+refuted, the classical arc's constructively-audited endpoint.
 
 ## Three independent observables, one convention structure
 
@@ -100,9 +109,11 @@ convention structure, and g = 2 falls out as a free byproduct with its residual
 localized on the Schwinger term (named, not derived). This is a reduction of the
 fine-structure constant to a single blind number times a fully-derived
 prefactor, pinned against a dial-free construction -- **not a derivation of
-alpha's value**. Whether the last residual falls (deriving alpha) or is the
-quantum/radiative wall is the single decisive open question, chartered as
-COMMISSION_V_A_NEXT_ORDER for a later deliberate go-decision.
+alpha's value**. The last residual question is now ANSWERED at the classical
+level: LEAD-RAD (2026-08-09) closed at the quantum fence, so the residual is
+the quantum/radiative wall, reached constructively (cutoff-defined weight,
+power 1/3) rather than by elimination. The classical arc is complete; the
+fence re-opens only if an alpha-independent core scale is ever registered.
 
 ## Self-corrections in the permanent record
 

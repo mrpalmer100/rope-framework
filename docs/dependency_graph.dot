@@ -520,4 +520,10 @@ digraph RopeCorpus {
   "FND-024" [fillcolor="#1F3864" label="FND-024\nModeled"];
   "FND-025" [fillcolor="#1F3864" label="FND-025\nModeled"];
   "FND-026" [fillcolor="#1F3864" label="FND-026\nModeled"];
+  "GRV-096" [fillcolor="#7B2D26" label="GRV-096\nFailed"];
+  "GRV-097" [fillcolor="#7B2D26" label="GRV-097\nFailed"];
+  "GRV-098" [fillcolor="#7B2D26" label="GRV-098\nFailed"];
+  "GRV-099" [fillcolor="#1F3864" label="GRV-099\nModeled"];
+  "GRV-100" [fillcolor="#1F3864" label="GRV-100\nModeled"];
+  "GRV-101" [fillcolor="#1F3864" label="GRV-101\nModeled"];
 }

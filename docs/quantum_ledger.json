@@ -2357,5 +2357,33 @@
   "cat": "MENTION",
   "why": "incidental vocabulary; no dependence (default rule)",
   "branch": ""
+ },
+ "GRV-099": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "GRV-100": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "GRV-101": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "zp"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
  }
 }

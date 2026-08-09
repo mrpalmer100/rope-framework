@@ -33,9 +33,10 @@ Read these, roughly in order. They are written to be read, not waded through.
 - **[Ontology](ontology.md)** — what each phenomenon *is* under the rope reading.
 - **[Plain-language guide](../guide/README.md)** — the concepts without the
   machinery. (In `guide/`.)
-- **[How 1/α was derived](HOW_ALPHA_WAS_DERIVED.md)** and **[the detector,
-  understood](DETECTOR_KINETICS_PLAIN_LANGUAGE.md)** — two worked results in plain
-  language.
+- **[How 1/α was derived](HOW_ALPHA_WAS_DERIVED.md)**, **[the detector,
+  understood](DETECTOR_KINETICS_PLAIN_LANGUAGE.md)**, and **[the number that
+  wasn't there](EXACT_D_ARC_PLAIN_LANGUAGE.md)** — worked results in plain
+  language (the third is the six-commission exact-D gravity arc).
 - **[Attribution](attribution.md)** — intellectual origin; the core hypothesis is
   due to Bill Gaede, developed and formalised here.
 
