@@ -186,9 +186,11 @@ and a fair reading says so. This document concedes the Standard Model's
 predictive record without conceding that the record settles which account
 explains more from less. Second, that this framework explains mass in general.
 The distinction matters and cuts both ways. COMPOSITE masses it does well: the
-nuclear table from the light nuclei through uranium falls out of bond counting with one
-calibration, and the semi-empirical mass formula is now derived from that geometry across
-all five terms rather than fitted.
+nuclear table is covered by two tracks that meet in the middle — a discrete bond-counting
+model from A=2..16 with one He-4-calibrated constant (r = 0.978; the A=5 instability, Be-8,
+and C-12's three-alpha structure emerge unprompted), and a semi-empirical mass formula
+derived from that geometry across all five terms rather than fitted, spanning A~8 through
+uranium.
 FUNDAMENTAL masses and constants it does not: the lepton spectrum is registered as
 irreducible input (PM-004, a kept negative), G ~ 1/(Ta) is assumed rather than
 derived with PRED-003 provisional on it, and the vacuum stiffness Σ remains free

@@ -269,7 +269,9 @@ are cheap to find and retire whole disputes** — not this particular ratio.
 ### C3. Nuclear mass performance, with the right quantity named
 
 **The distinction the headline number hides.** The benchmark predicts *atomic
-masses* from the light nuclei (A~8) through U-238, using **one** calibrated nuclear
+masses* along two meeting tracks — discrete bond-counting from A=2..16 (one
+He-4-calibrated constant) and a derived semi-empirical mass formula from A~8
+through U-238 — using **one** calibrated nuclear
 constant against roughly five fitted parameters in the standard semi-empirical
 formula — and the semi-empirical formula's five terms are now derived from the bond
 geometry rather than fitted (heavy-table binding to ~1%). But the benchmark's own docstring states why that figure looks strong:
