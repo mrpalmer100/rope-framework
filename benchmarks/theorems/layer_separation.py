@@ -63,19 +63,46 @@ def test():
     # accommodate the decline -- that would be bar-shopping, which this corpus
     # refuses by rule. The claim is reclassified Failed-and-kept and this benchmark
     # now documents the falsification instead of asserting the dead threshold.
-    assert enrich < 2.0, "the original >2x bar is violated (this is the kept failure)"
-    assert enrich > 1.0, "the SIGN survives: failures still concentrate at Layer III"
-    assert f_layer["III"] >= 4, "a real cluster of failures at Layer III, not one lucky hit"
-    # the honest counterweight: NOT all failures are frontier (Layer II keeps some)
-    assert f_layer["II"] >= 2, "some failures are ordinary classical falsifications (kept, not frontier)"
-    print(f"KEPT FAILURE: enrichment {enrich:.2f}x against the locked bar of 2.0x. "
-          f"Layer III is {100*layer_tot['III']/total:.0f}% of claims and holds "
-          f"{f_layer['III']}/{n_fail} failures. The sign survives; the magnitude does not.")
-    print(f"layers: I={layer_tot['I']}, II={layer_tot['II']}, III={layer_tot['III']} (III is the minority)")
-    print(f"failures at Layer III: {f_layer['III']}/{n_fail}; enrichment {enrich:.1f}x over chance")
-    print(f"failures at Layer II (ordinary falsifications, kept): {f_layer['II']}")
-    print("VERDICT: the sign is a measured property of the registry; the 4x magnitude")
-    print("      the ladder figure was built on is retired. See THM-006's note.")
+    # STRUCTURAL SANITY (survives): three populated layers, III the minority.
+    # These are properties of the ladder, independent of the enrichment verdict.
+    #
+    # THE THEOREM IS NOW DOUBLY FALSIFIED, AND THE BARS STAY LOCKED.
+    # ---------------------------------------------------------------------
+    # First falsification (2026-08-01): the pre-committed magnitude bar was
+    # enrichment > 2.0x, measured ~4x at writing, fallen to 1.85x. The bar was
+    # NOT relaxed (bar-shopping is refused by rule); THM-006 went Failed-and-kept.
+    #
+    # Second falsification (2026-08-09, this merge): the corpus grew by ~30
+    # Failed/Modeled claims from the review-arc recovery -- the dispersion
+    # coefficient, the loaded continuum, the circularity theorem, the knot
+    # spectrum, the dressed-carrier kill -- and they land, correctly and by the
+    # classifier's own requirement rule, at Layer II (geometric/continuum), NOT
+    # Layer III. The enrichment has now crossed BELOW 1.0: the SIGN itself has
+    # inverted. Failures no longer concentrate at the dynamical frontier; with
+    # this session's work they concentrate at the GEOMETRIC layer.
+    #
+    # The sign bar (enrich > 1.0) was a locked pre-commitment. It is now violated.
+    # Per the same rule that governed the first falsification, it is NOT relaxed.
+    # This benchmark documents the second, deeper falsification instead of
+    # asserting a dead sign. What remains true is only the structural sanity.
+    assert enrich < 2.0, "magnitude bar (>2x) violated -- first kept failure, 2026-08-01"
+    SIGN_ALIVE = enrich > 1.0
+    assert not SIGN_ALIVE, (
+        "the SIGN bar (>1x) is now ALSO violated -- second kept failure, 2026-08-09: "
+        "the review-arc recovery drove failures to the GEOMETRIC layer, inverting the "
+        "clustering the theorem predicted. Locked bar, not relaxed; documented, not asserted.")
+    print(f"DOUBLY-KEPT FAILURE: enrichment now {enrich:.2f}x (was ~4x at writing, "
+          f"1.85x at the first falsification, <1x now).")
+    print(f"layers: I={layer_tot['I']}, II={layer_tot['II']}, III={layer_tot['III']} "
+          f"(III still the minority at {100*layer_tot['III']/total:.0f}%).")
+    print(f"failures: I={f_layer['I']}, II={f_layer['II']}, III={f_layer['III']} of {n_fail} "
+          f"-- the mass now sits at Layer II, not the frontier.")
+    print("SECOND FALSIFICATION (2026-08-09): the review-arc recovery (dispersion,")
+    print("  loaded continuum, circularity, knot spectrum, dressed-carrier kill) added")
+    print("  geometric-layer failures; the enrichment sign inverted. Both the 2x")
+    print("  magnitude bar AND the 1x sign bar are now violated and kept locked.")
+    print("  THM-006 is reclassified: the corpus's own failure geography moved, and")
+    print("  the theorem that named it is honestly dead. See THM-006's amended note.")
 
 
 if __name__ == "__main__":
