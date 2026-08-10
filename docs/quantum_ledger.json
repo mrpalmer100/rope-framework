@@ -477,6 +477,25 @@
   "why": "incidental vocabulary; no dependence (default rule)",
   "branch": ""
  },
+ "FND-REL-004": {
+  "status": "Derived",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-REL-005": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "e_mass"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
  "PM-002": {
   "status": "Failed",
   "markers": [],
@@ -1020,6 +1039,7 @@
   "status": "Modeled",
   "markers": [
    "e_mass",
+   "zp",
    "q"
   ],
   "cat": "MENTION",
@@ -1067,12 +1087,12 @@
   "branch": ""
  },
  "FND-MATTER-049": {
-  "status": "Modeled",
+  "status": "Open",
   "markers": [
    "zp"
   ],
-  "cat": "MENTION",
-  "why": "incidental vocabulary; no dependence (default rule)",
+  "cat": "FENCE",
+  "why": "stops at a quantum-flavored boundary (default rule)",
   "branch": ""
  },
  "FND-MATTER-050": {
@@ -1166,6 +1186,25 @@
   "why": "incidental vocabulary; no dependence (default rule)",
   "branch": ""
  },
+ "FND-MATTER-061": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "zp"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-MATTER-062": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
  "NUC-007": {
   "status": "Modeled",
   "markers": [
@@ -1180,6 +1219,94 @@
   "markers": [
    "hbar",
    "zp",
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-MATTER-063": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "zp"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-MATTER-064": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-MATTER-065": {
+  "status": "Modeled",
+  "markers": [
+   "zp",
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-MATTER-066": {
+  "status": "Failed",
+  "markers": [
+   "hbar",
+   "e_mass",
+   "zp"
+  ],
+  "cat": "FENCE",
+  "why": "stops at a quantum-flavored boundary (default rule)",
+  "branch": ""
+ },
+ "EM-RECON-027": {
+  "status": "Modeled",
+  "markers": [
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "EM-RECON-029": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-MATTER-067": {
+  "status": "Failed",
+  "markers": [
+   "e_mass"
+  ],
+  "cat": "FENCE",
+  "why": "stops at a quantum-flavored boundary (default rule)",
+  "branch": ""
+ },
+ "FND-MATTER-068": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-MATTER-070": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "e_mass",
    "q"
   ],
   "cat": "MENTION",
@@ -2353,6 +2480,25 @@
   "status": "Modeled",
   "markers": [
    "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-029": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "EM-RECON-018": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
   ],
   "cat": "MENTION",
   "why": "incidental vocabulary; no dependence (default rule)",

@@ -12,6 +12,16 @@ traveling ripple, moving sideways to the rope's own length, is light.
 
 ![Light is a transverse ripple: the rope moves only side-to-side, while the ripple itself races along it from one atom to another at speed c. The two sideways directions are the two polarisations of light. (The travelling wave becomes a standing wave when confined — that trapped version is what forms the electron shells in the chemistry chapter.)](fig:light)
 
+> REGISTERED (August 2026): the directional language on this page is no longer
+> unregistered prose. The five-commission electromagnetic arc derived it:
+> the push direction (EM-RECON-024), the whole-mesh carrier and why light is
+> massless (EM-RECON-025), the plus/minus whirlpool rule (EM-RECON-026), the
+> one-number normalization kappa_0 = c/sqrt(eps0*SIGMA) (EM-RECON-027), and
+> the no-drag closure theorem plus mu_0 = 1/(eps0 c^2) (EM-RECON-028). See the
+> "Which way does light push?" chapter of the plain-language guide and the
+> postscript of the QPT paper.
+
+
 
   **THE          *Picture two people holding a long jump rope, and one of
   ANALOGY**      them gives it a single, sharp flick. A hump of rope

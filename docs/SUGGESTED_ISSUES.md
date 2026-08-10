@@ -35,7 +35,20 @@ Consequence of FND-REL-003 (mesh spacing a << 1e-16 m, far finer than atomic ~1e
 
 ---
 
-### [FND-MATTER-050] THE ZERO-POINT LEVER (lambda) REGISTERED IN ITS OWN NAME: the two-term mass model's zero-p...
+### [FND-MATTER-049] [REOPENED, applied at merge 2026-08-09 from the review-session record (SYNC_STATE, Commiss...
+
+**Status:** Open  
+**Paper:** falsifiable_predictions  
+**Benchmark:** `benchmarks/foundations/matter049_open_claim_terminus.py`  
+**Depends on:** FND-MATTER-003, FND-MATTER-044, FND-MATTER-048, FND-MATTER-005  
+
+A registry-hygiene brick that turned out to have a conscience clause, and the clause is the reason the session was worth running. Closing an Open claim is the most self-serving edit a programme can make, so the bars made it hard on purpose: the claim could only close if every named input had a determination AND every d...
+
+*Falsification / resolution welcome. See HOW_TO_CRITICIZE.md.*
+
+---
+
+### [FND-MATTER-050] [REVERTED TO HONEST FORM + PREDICTION GRANTED (FND-MATTER-064/065, 2026-08-09): the ~25 pe...
 
 **Status:** Open  
 **Paper:** rope_matter_mass  
@@ -117,4 +130,4 @@ CONDITIONAL: with the model's own sin2thetaW=1/(3sqrt2) it FAILS (mu/e~1605). [S
 
 ---
 
-*9 open-frontier claims (5 Open, 4 Conjecture) as of the current registry.*
+*10 open-frontier claims (6 Open, 4 Conjecture) as of the current registry.*

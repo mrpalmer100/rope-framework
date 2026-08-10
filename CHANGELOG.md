@@ -1,5 +1,161 @@
 # Changelog
 
+## 3.15.0 (2026-08-10)
+THE ELECTROMAGNETIC ARC: five chartered commissions (N/K/THETA/IOTA/LAMBDA),
+bars locked before computation, zero free parameters introduced. Full notes:
+docs/history/RELEASE_NOTES_v3.15.0.md. Dev detail retained below
+(v3.15.0-dev1..dev8).
+
+- 555 registered claims (114 Derived, 395 Modeled, 4 EFT-constrained,
+  4 Conjecture, 6 Open, 32 Failed-and-kept); 531 code-backed, all passing.
+- THE DIRECTION (EM-RECON-024, Derived): E along the carrier's transverse
+  center-line displacement, from the force-per-winding definition; the
+  necessity clause unifies the state-count kill with the no-force result.
+- THE CARRIER (EM-RECON-025): the collective transverse Goldstone pair,
+  exactly gapless by translation symmetry; the prior mass kill located as a
+  frozen-background artifact; mandatory coverage/dispersive fork; live
+  bending falsifier B <= T0 a^2/12. GRV-102 resolved in structure.
+- THE SIGN (EM-RECON-026): q-linear force from the Blasius integral;
+  E = rho kappa_0 (v x zhat); static sign ledger reproduced from momentum
+  conservation; the Lorentz structure as one Magnus formula read twice.
+- THE NORMALIZATION (EM-RECON-027): kappa_0 = c/sqrt(eps0 SIGMA) from two
+  agreeing routes; Coulomb residue-free; bound kappa_0 <= ~26-50 SI.
+- THE MAGNETIC SECTOR (EM-RECON-028): ether drag cancels by winding closure
+  (trefoil-exhibited); mu_0 = 1/(eps0 c^2) FORCED by the carrier dispersion;
+  lands on EM-009/012 as two-route agreement.
+- NEW PREDICTIONS (EM-RECON-029; paper 28-31): the subluminal sign lock; the
+  sqrt(3)-linked dispersion/transparency fingerprint; the >= 2e11 GeV massive
+  partner; the one-number SIGMA lock with the quantified vacuum-density
+  internal falsifier. One gated candidate (neutral-defect linear response).
+- Documentation synced: QPT postscript, plain-language chapter, light.md
+  citations, roadmaps regenerated; release-gate freshness fixers run
+  (KNOWN_LIMITATIONS + STATE_OF_THE_PROGRAMME corpus stats, quantum ledger). In-cycle corrections logged (predictions
+  renumbering; THM-006 second falsification kept locked; validate.yml
+  restored).
+
+## v3.15.0-dev8 (2026-08-10) -- predictions renumbering fix (Mark's catch)
+- The arc's new predictions had reused the paper's existing Prediction 26/27
+  numbers (No Finite-Speed Bell Cutoff; Intensity-Squared Dark Vacuum
+  Attenuation) -- an entry-level numbering collision, same class as the
+  FND-MATTER-059/060 slot reuse. Renumbered 28-31 in both the paper (docx+PDF
+  regenerated, validated) and EM-RECON-029's face, with provenance noted.
+- Audit: all other doubled 'Prediction N' strings in the paper are the summary
+  section's cross-references to its own entries (benign); entry-level numbering
+  is now unique 1-31.
+
+## v3.15.0-dev7 (2026-08-09) -- the arc's new predictions registered
+- EM-RECON-029 (Modeled): five items where the lattice refuses to be Maxwell,
+  each with its kill condition. P26 Sign Lock (quadratic LIV must be subluminal
+  -- one bit, zero parameters). P27 Linked Cutoff (E_QG2/E_max >= sqrt(3) exact:
+  dispersion scale and transparency ceiling are one fingerprint). P28 Massive
+  Partner (optical branch at >= ~2e11 GeV; null below, by prediction). P29
+  One-Number Lock (a single SIGMA measurement fixes kappa_0, all magnitudes, and
+  the vacuum density rho >= 4.5e7 kg/m^3) + the QUANTIFIED internal falsifier:
+  the uniform medium must not gravitate, or the framework dies by 33 orders.
+  P5 gated candidate: linear optical response of neutral defects (chartered
+  computation required before assertion).
+- Predictions paper updated (Predictions 26-29 + the gated candidate), validated,
+  PDF regenerated. README/roadmaps regenerated. 554 -> 555 claims; 531 code-backed.
+
+## v3.15.0-dev6 (2026-08-09) -- documentation sync for the electromagnetic arc
+- rope_qpt: five-commission postscript added (direction / carrier / sign /
+  normalization / magnetism, EM-RECON-024..028), XSD-validated, PDF regenerated.
+- Plain-language guide: new chapter "Which way does light push?" -- the arc in
+  accessible language, honesty box included. PDF regenerated.
+- guide/topics/light.md: the page whose unregistered prose EM-RECON-019 traced
+  now cites the registered claims -- the loop that opened the arc is closed in
+  the very document that exposed it.
+- PAPERS.md sync note; README corpus state updated to the registry's authority
+  (554 claims: 114 Derived, 394 Modeled, 6 Open, 530 code-backed); ROADMAP.md
+  and the computed sector roadmap regenerated from claims.yaml.
+
+## v3.15.0-dev5 (2026-08-09) -- Commission LAMBDA: the B-sector reconciled; the EM arc closes
+- EM-RECON-028 (Modeled, outcome 1): the ether-drag worry -- the honest way the
+  Lorentz split could have died -- CANCELS as a computed identity: the Magnus
+  axis is the winding's own line direction, so the net drag on a CLOSED winding
+  is the closed integral of the tangent, identically zero (exhibited on a
+  trefoil). No ether drag, by the same topology that quantizes charge.
+- mu_0 = 1/(eps0 c^2) FORCED by the carrier wave equation via Faraday (|B|=|E|/c
+  emergent from omega = ck) -- EM-RECON-027's target identity derived.
+- Lands on the registered sector as agreement: EM-009's sign = GRV-020's sign,
+  one source; EM-012's current-current result = the field-equation consequence
+  of the same constants its swinging-rope route derived independently.
+- The five-commission EM arc (N/K/THETA/IOTA/LAMBDA) is COMPLETE: direction,
+  carrier, sign, normalization, magnetism -- zero free parameters introduced,
+  one gate remaining (SIGMA's value). 553 -> 554 claims; 530 code-backed.
+
+## v3.15.0-dev4 (2026-08-09) -- Commission IOTA: kappa_0 normalized
+- EM-RECON-027 (Modeled, outcome 2): kappa_0 = c/sqrt(eps0 SIGMA) -- closed form
+  in the bridge's ONE constant. Route A (energy bookkeeping) and Route B (static
+  Gauss) fix the identical kappa_0^2 eps0 rho = 1 with no tuning; the Magnus
+  force law becomes EXACTLY Coulomb with no residual factor.
+- No new constant exists to find: kappa_0 is exactly as pinned as SIGMA.
+  Registered bound propagated: kappa_0 <= ~26-50 m^3/(s C) from the Schwinger-
+  form SIGMA band. Dimension audit closes end to end.
+- EM-RECON-026's kappa_0 debt discharged; the sole remaining EM debt is the
+  B-sector reconciliation, whose target identity (mu_0-class 1/(eps0 c^2)) is
+  now written down. 552 -> 553 claims; 529 code-backed.
+
+## v3.15.0-dev3 (2026-08-09) -- Commission THETA: the electric sign derived
+- EM-RECON-026 (Modeled): the q-linear force derived from the momentum-flux
+  (Blasius) integral, residues shown -- F = rho (v_rel x Gamma), Gamma = q kappa_0
+  by GRV-020's pi_1 = Z. E identified: E = rho kappa_0 (v x zhat).
+- Triple confrontation passed: EM-015's static sign rule REPRODUCED from the
+  force law (like repel, q1q2, 1/r -- two independent routes now agree); Malus
+  intact; EM-RECON-024 amended with registered channel scope (parallel force =
+  q-even channel; electric direction = 90-degree rotation of v).
+- Bonus registered as structure: the relative-velocity split yields the exact
+  LORENTZ FORM F = q(E + v_d x B'), B' = -rho kappa_0 zhat -- magnetism as the
+  defect-motion half of one Magnus formula. Named future work: B-sector
+  reconciliation; kappa_0's value.
+- EM-RECON-025's standing obligation DISCHARGED. 551 -> 552 claims; 528 code-backed.
+
+## v3.15.0-dev2 (2026-08-09) -- Commission K: the collective carrier
+- EM-RECON-025 (Modeled, outcome 1): the entrance requirement is satisfiable
+  WITHIN the two-strand ontology -- the collective transverse displacement of
+  the fully-dynamical mesh is a symmetry-protected gapless Goldstone PAIR.
+  Exact: acoustic branch omega^2 = (T0/mu)q^2, gapless at all crossing
+  strengths; the O(g) mass lands entirely on the relative/optical branch.
+  FND-REL-005 kill 1 located as a frozen-background artifact (escape structural,
+  bar K4 satisfied). No third strand; no new primitive.
+- Costs on the face: the three-pin coverage/dispersive fork becomes MANDATORY
+  (a_disp <= 9.3e-28 m inherited); bending condition B <= T0 a^2/12 registered
+  as the live falsifier. Named obligation: the q-LINEAR (electric) winding
+  coupling -- the q-even inertial channel is derived, the handedness-odd
+  channel is the next commission.
+- GRV-102 RESOLVED IN STRUCTURE (Open -> Modeled): 'torsion dynamics = light'
+  was allocation over-reached to identification; winding=charge untouched;
+  light = the collective pair. FND-REL-005 and EM-RECON-022 faces annotated
+  with the located scope. 550 -> 551 claims; 527 code-backed.
+
+## v3.15.0-dev (2026-08-09) -- Commission N: the direction of E, derived
+- The first NEW frontier work after the unification release. EM-RECON-019's
+  registered gap (E's direction committed nowhere) closed by Commission N under
+  locked bars (charter: docs/commissions/COMMISSION_N_E_direction.md).
+- EM-RECON-024 (Derived): under the operational definition the static sector
+  already owned (E = force per winding), the angular-averaged linear response to
+  a passing wave is kappa(r) x IDENTITY -- the force is PARALLEL to the carrier's
+  transverse center-line displacement, so E points along it. Zeroth order
+  reproduces EM-015's radial electrostatics (one definition, both regimes);
+  Malus passes with cos^2 pure states and the registered 1/2 pitch-average.
+- Conditional (outcome 2): holds for ANY transverse-vector carrier; carrier
+  identity remains open. NECESSITY shown: no center-line displacement, no force
+  -- the bare screw's F = 0 IS the state-count kill from the force side; the H
+  kill and the E-direction condition unify into one fact.
+- EM-RECON-019 discharged (Open -> Modeled, gap-record kept); GRV-102 narrowed
+  (any resolution must supply a transverse-vector dof -- Commission K's entrance
+  requirement). 549 -> 550 claims; 526 code-backed.
+
+## v3.14.3 (2026-08-09) -- validate.yml restored to the tree (do not delete on GitHub)
+- The 'validate' workflow (solver heartbeats: 10/10 analytic validation, physics+EM
+  regression, 6/6 reproduction, benchmark catalogue) was missing from the local tree
+  though still live on GitHub -- another silent loss, not a deliberate retirement.
+  It tests the SOLVER layer; verify.yml tests the REGISTRY layer; they do not overlap
+  (verify calls none of validate's scripts). All heartbeats confirmed green this
+  session (10/10, 75/75, 6/6). Restored, with the Python matrix aligned to verify.yml
+  (3.10/3.11/3.12; dropped end-of-life 3.9). The HB2 label still reads 24/24 while the
+  grown suite returns 75/75 -- cosmetic, non-blocking (the script asserts its own count).
+
 ## v3.14.2 (2026-08-09) -- THM-006 doubly falsified: the failure geography moved
 - GitHub verification surfaced a genuine assertion failure (not a missing file):
   THM-006's layer-separation benchmark asserted enrichment > 1.0 (failures cluster
