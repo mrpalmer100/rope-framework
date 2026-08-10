@@ -111,7 +111,7 @@ sharpened twice.
 
 - README release line bumped to v3.10.0; corpus-state line synced.
 - CITATION.cff at 3.10.0, date current.
-- Release notes at `docs/RELEASE_NOTES_v3.10.0.md`.
+- Release notes at `docs/history/RELEASE_NOTES_v3.10.0.md`.
 
 ## Carried forward
 

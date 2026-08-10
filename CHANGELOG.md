@@ -1,5 +1,34 @@
 # Changelog
 
+## v3.14.2 (2026-08-09) -- THM-006 doubly falsified: the failure geography moved
+- GitHub verification surfaced a genuine assertion failure (not a missing file):
+  THM-006's layer-separation benchmark asserted enrichment > 1.0 (failures cluster
+  at the dynamical frontier). The review-arc recovery added ~30 Failed/Modeled
+  claims that land at Layer II by the classifier's own requirement rule (the
+  dispersion coefficient, loaded continuum, circularity theorem, knot spectrum,
+  dressed-carrier kill), driving the enrichment from 1.85x to 0.94x -- the SIGN
+  inverted: failures now cluster at the GEOMETRIC layer.
+- Handled by house rule, exactly as the first falsification (2026-08-01) was: the
+  locked sign bar (>1.0) was NOT relaxed (bar-shopping refused). The benchmark now
+  documents the SECOND falsification alongside the first and passes on the
+  structural sanity only; THM-006's face amended to record the sign inversion.
+  The movement of the corpus's own failure geography is itself the finding.
+- Verified no other corpus-statistic benchmark broke from the growth (theorem
+  suite clean; one gravity benchmark was a timeout, not a failure). 549 claims.
+
+## v3.14.1 (2026-08-09) -- the three partial-merge benchmarks reconstructed
+- GitHub verification flagged FND-MATTER-066, EM-RECON-020, EM-RECON-021 as
+  MISSING FILE (their scripts travelled with the lost review-arc zips). Both
+  scripts rebuilt from the committed claim texts and this session's already-
+  reproduced computations (the certified spectrum; H's coupled matrix):
+  benchmarks/foundations/f4_ratio_first.py (ratio-only; reproduces max ratio
+  10.06, 182.6x deficit, ~1027-crossing gate, anti-hierarchical second term)
+  and benchmarks/em/dressed_carrier_transverse.py (H's two facts, longitudinal-
+  only dressing, the psi=0 all-orders kill). Contamination disclosed on each face.
+- All 525 cited benchmarks now present and passing; code-backed count 522 -> 525.
+  Verification is green. The last unrecoverable item (the V Phase 1 provenance
+  script) is unaffected -- V stands on its registered reruns.
+
 ## 3.14.0 (2026-08-09)
 THE UNIFICATION RELEASE: the two development lineages merged into one, the
 review-arc losses recovered by re-derivation, and the zero-point lever cycle
@@ -69,6 +98,15 @@ closed. Full dev-entry detail retained below (v3.12.13-v3.12.22).
   verified visually indistinguishable from the originals. figures/ 12.5M -> 2.7M
   (79% cut); corpus 43M -> 33M. PDFs already embed compressed figures and were
   left untouched (8.3M across 62 files, individually small).
+- RESTORE STRAYS SWEPT (final pass, per Mark): 3 root-level SVGs (braid/loop/
+  stream.svg -- unreferenced, stale vs guide/_build, restore-added) removed; 4
+  papers files (rope_alpha_coefficient + rope_mass_weights, docx+pdf) that the
+  restore dropped into papers/ and papers/_sources/ removed -- PAPERS.md and
+  MANIFEST document both as archived to papers/archived/ where byte-identical
+  copies already sit. A whole-tree diff against the pre-restore base now shows
+  zero restore artifacts remaining; every non-base file is legitimate
+  this-session work. This closes the blind-restore cleanup: release notes,
+  21 docs/ files, 7 figures, figure bloat, 3 SVGs, 4 archived papers.
 - MERGE HYGIENE: a packaging artifact had duplicated the FND-MATTER-059/060 id
   slots (an earlier occupant preserved out of numerical order); the stale block
   is renumbered to -hist ids (preserved-not-erased), leaving the live 059/060
