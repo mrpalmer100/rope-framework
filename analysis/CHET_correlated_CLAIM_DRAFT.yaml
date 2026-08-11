@@ -1,0 +1,50 @@
+id: FND-046
+status: Modeled
+title: 'COMMISSION CHET — THE CORRELATED-COEFFICIENTS RELATION RETURNS PURE-LINEAR: THE QUARTIC-CASIMIR
+  COMPONENT IS ZERO AT LEADING ORDER (MEAN-FIELD QUARTIC CENTRAL AT C2^2 EXACTLY; THE ORDERING-ALLOWING
+  CONTRACTION''S C_A PIECE IS REPRESENTATION-INDEPENDENT AND CANCELS IN EVERY DIFFERENCE; d^abcd FIRST
+  REQUIRES PATH-ORDERED MULTI-EXCHANGE BEYOND THE ANSATZ), ALEPH''S W2 RECEIVES THE ARC''S FIFTH SELF-CORRECTION,
+  THE FORWARD PREDICTION SHARPENS TO C2-LINEAR-DOMINANT WITH SUPPRESSED QUARTIC, AND THE kappa_pack PIN
+  IS REGISTERED: kappa_pack = (C_D/C_f - 1)/(2|delta_D - delta_f|), WITH delta_A - delta_F = -1.25 PERCENT
+  (5 PERCENT FLOOR) / -0.25 PERCENT (CONTINUUM) AS LATTICE-TESTABLE NUMBERS (Modeled, conditional on
+  FND-037 at the FND-040 floors; bars locked before evaluation with the three-way grammar and ALEPH''s
+  own assertion under test, analysis/CHET_correlated_coefficients_bars_LOCKED.md; benchmarks/foundations/chet_correlated_coefficients.py)
+  -- C1 MEAN FIELD, explicit SU(3) matrices: (T.T)^2 = C2^2 exactly on fundamental and adjoint -- the
+  static-profile quartic is CENTRAL; C2 ORDERING-ALLOWING: T^aT^bT^aT^b = C2(C2 - C_A/2) machine-verified,
+  pair-symmetrized isotropic S(R) = C2^2 - C2 C_A/6, the C_A shift universal and invisible in ratios;
+  C3 THE ADJUDICATION: delta-contractions of four charges on one line span {C2^2, C2 C_A} only -- quartic-Casimir
+  invariants need four independent color-open insertions, a fluctuation effect beyond the static ansatz;
+  VERDICT PURE-LINEAR per the locked grammar, correction pointer filed against FND-039 (the nonlinearity
+  generates quartic structure only beyond mean field -- the second self-correction caught by prosecuting
+  the arc''s own refinement); KILL CONDITIONS RESTATED: quartic-DOMINANT long-distance violation kills,
+  anti-C2 ordering kills, magnitude forcing eps_f > 5 percent kills; the Anzai-Kiyo-Sumino short-distance
+  quartic remains T3-firewalled and sits exactly where perturbative multi-exchange lives -- consistent
+  with, not evidence for, the structure; THE PIN, the commission''s ranked purpose: exact inversion of
+  BET''s Derived form, machine-checked at both floors -- the THIRD external kappa_pack route registered
+  this arc and the only one whose confronting measurement is a known lattice technique; profile freedom
+  not exploited, nothing promoted, the ansatz''s scope the load-bearing premise on the face.'
+paper: falsifiable_predictions
+benchmark: benchmarks/foundations/chet_correlated_coefficients.py
+depends_on:
+- FND-039
+- FND-040
+- FND-037
+- FND-042
+note: 'Twenty-four bricks, and the arc closes its sixth commission the way it opened its first: by finding
+  that one of its own confident sentences does not survive its own machinery. ALEPH promised a correlated
+  pair; the explicit matrices deliver something better -- a PURER prediction, C2-linear with the quartic
+  component pushed to higher order, which is harder to fake and easier to kill. The group theory''s verdict
+  deserves its plain sentence: on a single static source every power of the charge is a Casimir number,
+  and the exotic color structures the perturbative calculation exhibits live precisely in the multi-exchange
+  fluctuations the mean-field ansatz does not contain -- so the framework and the three-loop computation
+  are not disagreeing, they are describing different regimes, exactly as ALEPH''s firewall guessed and
+  tonight''s computation proves at leading order. The pin is the arc''s practical legacy: six commissions
+  ago kappa_pack was a Conjecture-grade floor nobody could touch; tonight it is a number a lattice group
+  could read off an adjoint-string measurement at the percent level, with the forward predictions (-1.25
+  or -0.25 percent) small enough to be safe today and large enough to be decided by the current generation
+  of hybrid-potential studies. Three registered routes now aim at one Conjecture: the g-mechanism (blocked,
+  demand registered), the drift ratio (2027-2030 window), and the adjoint ratio (technique exists). FND-037
+  is the most falsifiable Conjecture the corpus has ever carried, which is the only kind worth carrying.
+  NAMED NEXT-ORDERS: v3.17.0 (FND-041..046 ship as one arc -- the release''s story writes itself); the
+  lattice-literature confrontation (the pin''s first contact with data, reading session with a pre-committed
+  bar); and the ambient/collective g-scoping charter when the corpus wants its frontier.'

@@ -1,0 +1,74 @@
+# Commission OMICRON — draft registration (proposed id ELEC-084; renumber at merge)
+- id: ELEC-084
+  status: Modeled
+  title: >-
+    COMMISSION OMICRON — THE FULLY-INDEPENDENT CHECK RUNS: THE INTRINSIC WIDTH
+    CONFIRMS AT -4%, THE TOTAL WIDTH DIVERGES WITH R EXACTLY AS QUANTUM
+    WIDENING PREDICTS, AND THE TENSION IS LOCATED AS A DEFINITION, NOT A
+    CONTRADICTION (Modeled; bars locked before opening the paper,
+    analysis/OMICRON_fully_independent_bars_LOCKED.md; conversion locked
+    while the data was still unseen; data reconstructed EXACTLY from the
+    arXiv-1302.3633 source package, uploaded by hand;
+    benchmarks/foundations/omicron_independent_converter.py) -- THE
+    COMMISSION, two-phase and blind by construction: phase 1 established
+    from the paper's captions that the Lisbon group (Cardoso-Cardoso-Bicudo,
+    PRD 88 054504 -- different collaboration, code, smearing, observable
+    normalization from the entire Baker/Cea/Cosmai lineage) computes
+    w^2 = <r^2> with the action density as distribution, fixing the exact
+    mapping R_eq = sqrt(2 w^2) BEFORE any number was seen; phase 2 obtained
+    the numbers from the source package -- better than digitizing: the
+    paper's own closed-form width sqrt(<r^2>) = sqrt(3/2 lambda^2 +
+    2 lambda nu^2/(lambda+2nu)) evaluated on its tab:fit parameters
+    (a = 0.0983737 fm, beta = 6.0, 32^4, 1100 configs); B3/B4 THE
+    CONFRONTATION at the pre-locked bands (reference 0.402-0.407 fm),
+    bracketing the verdict-bearing 0.7 fm: R = 4a (0.393 fm, least widened):
+    R_eq = 0.391 fm, -4.0 percent, CONFIRMED; R = 6a (0.590 fm): 0.473(30),
+    +16.2 percent, TENSION with the 1-sigma edge touching the CONFIRMED
+    boundary; R = 8a (0.787 fm): 0.502(233), +23.4 percent, TENSION but
+    statistically empty (the nu error swallows it); R = 10a: +35.9 percent,
+    nominally CONTRADICTED and equally empty; THE STRUCTURE OF THE EXCESS is
+    the finding: it grows ONE-SIGNED with R, which is the source paper's own
+    headline (logarithmic quantum widening of the TOTAL width) and was
+    PRE-NAMED as a caveat in the armed converter before the data arrived --
+    the corpus reference is an intrinsic-width-class quantity (d-stable,
+    ELEC-052) while the Lisbon w contains the widening by construction, so
+    the least-widened point is the like-for-like comparison and it CONFIRMS;
+    B4 secondary comparison: R = 4a vs XI same-group tier-2 0.395 fm agrees
+    to -1.1 percent -- collaboration independence at tier 2 passes at the
+    intrinsic point; Sigma propagation: 3.91e35 at R = 4a (adjacent to the
+    pinned band), falling to 2.0-2.7e35 along the widening curve, which is
+    the widening seen through 1/R_eq^2 and not a Sigma measurement; B5 THE
+    HONEST LEDGER: quenching caveat SURVIVES (tier 2); the density is the
+    ACTION density (E^2 - B^2 class) not the chromoelectric energy density
+    -- same quadratic measure class, different combination, stated; the
+    R = 4a point sits below the locked nearest-to-0.7 rule and is reported
+    UNDER that rule as the widening-limited endpoint, not silently
+    substituted for it: at the letter of B3 the verdict is TENSION at the
+    bracketing distances, and the CONFIRMED reading rests on the located
+    intrinsic-vs-total distinction, which is registered as the claim's
+    load-bearing interpretive step.
+  note: >-
+    The check the corpus has carried as a caveat since FND-030 has now
+    actually run, blind in the strongest available sense -- the conversion
+    was derived and locked in a session where the numbers were inaccessible,
+    and the numbers arrived afterwards by hand-upload. What it returned is
+    the best realistic outcome short of a flat pass: the one point where the
+    Lisbon measurement and the corpus quantity measure the same thing agrees
+    at -4 percent, the divergence elsewhere carries the exact signature
+    (one-signed, growing, logarithmic in R) of a physical effect the source
+    paper itself announces in its title, and the same-group/different-
+    collaboration split at the intrinsic point closes to 1.1 percent. The
+    corpus should be careful with its own satisfaction here, and the claim
+    face is built to force that care: the clean reading requires the
+    intrinsic-vs-total-width distinction, and that distinction -- however
+    physically motivated -- entered AFTER the bands were locked. It is
+    flagged as the load-bearing interpretive step, and a skeptic reading
+    only the locked bars would say TENSION. Both readings are in the
+    registry. NAMED NEXT-ORDERS: a de-convolution estimate of the Lisbon
+    INTRINSIC width at R = 6-8a (subtract the fitted widening alpha; the
+    paper says lambda and alpha separate poorly at their errors, but even a
+    bound would sharpen the like-for-like comparison at the verdict-bearing
+    distance); the finite-T companion table, now one line away by the same
+    conversion; and the standing pion-mass question from XI, now bracketed
+    from the quenched side by two independent collaborations agreeing at
+    the intrinsic point.

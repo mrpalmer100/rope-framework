@@ -1,0 +1,68 @@
+# Commission RHO — draft registration (proposed id FND-032; renumber at merge)
+- id: FND-032
+  status: Modeled
+  title: >-
+    COMMISSION RHO — THE FRAMEWORK'S FIRST OUT-OF-SAMPLE PREDICTION ON THE
+    SIGMA AXIS SURVIVES: ONE-MEDIUM FORCES THE ENTIRE QUARK-MASS WIDTH SHIFT
+    INTO THE STRING TENSION, THE REQUIRED 6-22 PERCENT IS PREDICTED BLIND,
+    AND THE LATTICE DELIVERS 8-20 (Modeled; bars locked before the literature
+    search, analysis/RHO_mass_dependence_bars_LOCKED.md, contamination
+    disclosed in the bars themselves;
+    benchmarks/foundations/rho_mass_dependence.py) -- THE EPISTEMIC
+    CONSTRUCTION, stated first because it is the claim's spine: the
+    three-point width axis (quenched 0.369-0.391 fm, PI; physical 0.402-0.407
+    fm, ELEC-052/081) was already in context, so no width prediction could be
+    blind; instead the registered commitments were used to FORCE the mass
+    dependence into one external quantity this session had never seen -- the
+    quenched-vs-dynamical string tension ratio -- and the confrontation bands
+    were locked before searching; THE CHAIN, registered claims only:
+    R_eq = sqrt(T_tube/(pi Sigma)) (ELEC-052 B3/NUCQ-003), with Sigma
+    QUARK-CONTENT-INDEPENDENT forced jointly by the one-medium declaration
+    (ELEC-038: vacuum strands and matter ropes are one kind of object) and
+    FND-017 (T0 a global multiplier, no local tuning) -- so
+    s = sigma_dyn/sigma_quench = (R_dyn/R_quench)^2, PREDICTION s in
+    [1.06, 1.22] with the 1-bit core s > 1; THE BLIND CONFRONTATION: TUMQCD's
+    continuum physical-mass results (r0 sqrt(sigma) = 1.077(16) and
+    1.110(16), r0 = 0.4547(64) fm, bracketing the published 2+1-flavor
+    value ~1.09 at FLAG r0) against the quenched Edwards convention
+    sqrt(sigma) = 0.44 GeV -- and the convention is FORCED, not chosen: the
+    Lisbon quenched widths' femtometers exist only on the a = 0.0984 fm
+    dictionary at beta = 6.0, which IS the sqrt(sigma) = 0.44 GeV
+    definition, so coherence with the width axis fixes the quenched side --
+    yielding s = 1.128(46), 1.199(48), and 1.081: ALL INSIDE THE LOCKED
+    BAND, sign and magnitude, VERDICT SURVIVES; B3 HONESTY, all carried:
+    (a) the widths were contaminated and the bars say so; only the sigma
+    ratio was blind; (b) the 160 MeV midpoint was excluded from the
+    prediction BEFORE the search by its declared ~50 percent kappa
+    systematic, and its face-value non-monotonicity remains an open flag;
+    (c) the convention-coherence argument, though forced by consistency,
+    was articulated after the search -- the sensitivity is stated: on the
+    incoherent r0 = 0.5 fm quenched dictionary s drops to 1.00-1.11 and
+    the magnitude verdict would degrade to SIGN-ONLY/marginal; (d) string
+    breaking caps the comparison at intermediate d, which is where every
+    input lives.
+  note: >-
+    This is the commission the eight-brick arc was quietly building toward:
+    not another consistency check of Sigma's value, but the framework's
+    machinery making a REFUSABLE statement about data it had not seen -- the
+    one-medium declaration, adopted in ELEC-038 at a stated and monstrous
+    price, has now purchased something: it forbade the vacuum stiffness from
+    absorbing any of the quark-mass width shift, thereby demanding that the
+    QCD string tension itself rise 6-22 percent from quenched to physical
+    masses on the width data's own scale dictionary, and the lattice
+    literature, consulted after the demand was locked, delivers 8-20. A
+    skeptic should be handed the two honest deflations along with the
+    result: the prediction band is wide (a 16-percentage-point target on a
+    quantity whose plausible range is maybe 0.9-1.3, so perhaps 2-3 bits of
+    discrimination, not a five-sigma coup), and the convention-coherence
+    argument that sharpens the verdict from marginal to clean was
+    articulated post-search even though it is internally forced. Both are
+    on the face. What survives all deflation: the SIGN was locked, the sign
+    was confirmed, and a Sigma that softened with sea content -- the
+    natural expectation if the vacuum medium were itself made of the matter
+    it hosts -- is now disfavored by the framework's own passed test.
+    NAMED NEXT-ORDERS: the 160 MeV non-monotonicity (a dedicated width
+    determination at intermediate pion mass would either dissolve it into
+    the kappa systematic or expose real structure the one-medium chain must
+    then explain); tightening the band by tightening PI's anchor bracket;
+    and the release consolidation, now nine bricks overdue.

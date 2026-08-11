@@ -1,0 +1,62 @@
+# Commission PHI — draft registration (proposed id FND-035; renumber at merge)
+- id: FND-035
+  status: Modeled
+  title: >-
+    COMMISSION PHI — THE PACKING VERDICT HARDENS ON PEER-REVIEWED DATA, THE
+    FINITE-T ROUTE CLOSES ITSELF, AND ADDITIVITY VIOLATION GETS ITS FIRST
+    MEASURED NUMBER: +12.5 PERCENT SUPER-ADDITIVITY AT 2.25x COMPRESSION
+    (Modeled; bars locked before reading the tables,
+    analysis/PHI_packing_bound_bars_LOCKED.md;
+    benchmarks/foundations/phi_packing_bound.py) -- B1 THE ROUTES: the
+    finite-T source (1702.03454, read in full) is STRUCTURALLY UNAVAILABLE
+    for the adjoint width below Tc -- non-singlet Polyakov loops vanish in
+    the confined phase, and the paper's own central result is that no flux
+    tubes exist above Tc -- so the pre-registered fallback route (zero-T
+    hybrid Wilson loops, PRD 81 034504, read in full) carries the verdict;
+    B2 THE VERDICT, in the source's own words: the adjoint (two-gluon
+    glueball) and fundamental (meson) tubes are "compatible with an
+    identical shape ... but with a different density" at the Casimir factor
+    9/4, constant across the mediator profile -- rho_R = 1.0 within errors,
+    kappa_rel = (9/4)/rho_R^2 = 2.25, the HARDENS band of the locked bars:
+    tube strands demonstrably compress 2.25x without the radius moving, and
+    UPSILON's re-scoping of the pinned Sigma to Sigma_eff stands on
+    peer-reviewed ground (caveats on the face: beta = 6.2, separation
+    ~0.58 fm, constant-ratio-fit precision rather than a dedicated width
+    analysis, and the source's own agnosticism between "one adjoint string"
+    and "two repelling fundamental strings" -- a distinction that does not
+    move rho_R); B3 THE ABSOLUTE CEILING from the registered hard core
+    d_c = 1.87e-19 m: kappa_pack <= 1.1e5 (Lorentz-bound a) or 4.0e4
+    (M-point a) -- registered and declared uselessly weak, as the bars
+    required; THE BONUS, unlooked-for and registered: the source chain
+    records the adjoint string tension as 1.125x THE SUM OF TWO FUNDAMENTAL
+    STRINGS -- a measured SUPER-ADDITIVITY delta_fusion = +12.5 percent at
+    kappa_rel = 2.25, giving the FND-029 inter-strand E_x channel its first
+    empirical calibration point (kappa, delta) = (2.25, +0.125) beside the
+    anchor (1, 0): additivity violation is REAL, SMALL, and POSITIVE under
+    compression; B4 THE HONEST REMAINDER: kappa_fund, the fundamental
+    tube's own compression, remains unmeasured by any width ratio, and with
+    it Sigma_vac; what would measure it is named (an absolute strand-count
+    observable, or the framework deriving delta(kappa) through E_x and
+    inverting the calibration point); the PLAUSIBILITY NOTE -- that the
+    fundamental tube, being the less compressed of the pair, plausibly
+    carries sub-25-percent |Sigma_vac/Sigma_eff - 1| -- is registered at
+    CONJECTURE grade, explicitly not a bound.
+  note: >-
+    Thirteen bricks. The commission sent to bound the wound instead
+    confirmed it with better data and came back carrying something the arc
+    did not order: the first number for how badly additivity breaks --
+    +12.5 percent when strand density is forced to 2.25x -- which converts
+    the E_x channel from an 87-fold-uncertain band into a phenomenon with
+    a measured operating point. The shape of the last three bricks
+    deserves one sentence of registry-level reflection: UPSILON cut the
+    arc's headline, PHI hardened the cut, and the corpus is STRONGER for
+    it -- "Sigma_eff = 3.61-3.70e35, measured three ways, with the vacuum
+    identification carrying an explicitly open compression factor" is a
+    claim that can survive an adversarial reader, where "Sigma is pinned"
+    could not have. NAMED NEXT-ORDERS: derive delta(kappa) in the
+    framework from the E_x channel and confront the (2.25, +0.125)
+    calibration point -- an out-of-sample-style test in the RHO mold,
+    since the derivation is constrained by registered claims and the
+    target is already quantitative; the absolute strand-count observable
+    hunt; and v3.16.1 folding UPSILON and PHI into the release headline,
+    which should not wait.

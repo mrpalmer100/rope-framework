@@ -1,0 +1,69 @@
+# Commission TAU — draft registration (proposed id FND-033; renumber at merge)
+- id: FND-033
+  status: Modeled
+  title: >-
+    COMMISSION TAU — THE FORK WAS ALREADY CLOSED AND THE ARC'S OWN CAVEAT WAS
+    STALE: ELEC-053'S DERIVATION STANDS, SIX FRESH CLAIM DRAFTS ARE CORRECTED,
+    AND THE LOAD RELOCATES TO ADDITIVITY WHERE THE REGISTRY ALWAYS HAD IT
+    (Modeled; bars locked before re-reading ELEC-053,
+    analysis/TAU_fork_audit_bars_LOCKED.md;
+    benchmarks/foundations/tau_fork_audit.py) -- B1 THE QUOTE, and the
+    commission's verdict in one stroke: ELEC-053 D1 reads "the strand-count
+    referent is DERIVED, not defended -- additivity gives u = nu T0 locally,
+    the lattice gives u ~ E^2, therefore nu ~ E^2," with Branch B unavailable
+    without abandoning additivity and the uniform-equivalence verified to
+    machine precision -- THE IDENTIFICATION WAS NEVER AN OPEN ASSUMPTION in
+    the current registry, and the MU-through-RHO drafts (FND-030/031/032,
+    ELEC-083/084/085), which each carried "the strand-count-follows-energy-
+    density identification remains the registered load-bearing assumption" on
+    their faces, mischaracterized it -- CORRECTION POINTERS FILED against all
+    six drafts before merge: the caveat's honest form is "rests on tension
+    additivity (registered; derived from mu = T/c^2 plus strands as sole
+    energy carriers, QGATE-005) and on u ~ E^2 (forced by EM-RECON-014's
+    registered strain calibration)"; B2 THE RESIDUAL LOAD-BEARERS, audited:
+    additivity's own provenance is the registered identity mu = T/c^2 plus
+    the framework ontology that strands are the only energy carriers -- the
+    latter is the one-medium commitment (ELEC-038), which RHO's out-of-sample
+    pass now independently supports, so the chain under Sigma is: one
+    measured tension, one bound, one exact ratio, one ontological commitment
+    with a passed prediction to its name; B3 THE ALTERNATIVES LEDGER, priced
+    and dispatched: amplitude-weighted counting (u ~ E) would require strand
+    energy linear in strain, contradicting the registered g = E
+    sqrt(eps0/Sigma) calibration -- KILLED by a registered claim, not by
+    preference, and its price had it lived (R = 0.707 fm, Sigma = 1.19e35)
+    is on the record; flux-weighted counting is the same linear class, same
+    kill; NO live alternative fork exists; B4 the machine check RE-RUN on an
+    independent profile family (the Clem K0^2 fits of XI, unavailable to
+    ELEC-053): the uniform-nu cylinder at R_eq = sqrt(2<r^2>) reproduces
+    total count and second moment exactly -- the equivalence is an identity
+    of the definition, family-independent, as a definition-level identity
+    should be; closure n T0 = T_tube holds to 0.02% at the lattice point;
+    B5 the time-average subtlety CONFRONTED: the derived nu(r) is
+    ensemble-averaged, so the identification inherits the intrinsic-vs-total
+    distinction -- and PI's resolution TRANSFERS, because second moments add
+    under convolution for the strand density exactly as for the energy
+    density; the intrinsic R_eq is the intrinsic strand distribution's
+    radius, which is the quantity the framework relation wants.
+  note: >-
+    A commission chartered to discharge the arc's deepest caveat instead
+    discovered the caveat had been discharged before the arc began -- and
+    that the arc itself had been propagating a stale characterization for
+    nine bricks. Both halves belong in the record with equal weight. The
+    mischaracterization traces to ELEC-052's pre-fork language ("the
+    registered load-bearing assumption at the scale-chain fork"), which
+    ELEC-053 superseded the same week by derivation; the MU session quoted
+    the older face and every subsequent brick inherited the quote. That is
+    precisely the failure mode the corpus's supersession pointers exist to
+    prevent, and the lesson is procedural: WHEN CITING A CAVEAT, CITE ITS
+    CURRENT FACE, not the face that first named it. The substantive state
+    after this session is strictly stronger than the arc believed: Sigma's
+    pinning rests on additivity and the strain calibration, both registered,
+    both with independent support (RHO's passed prediction for the ontology;
+    the EM arc's two-route agreement for the calibration), and the only
+    priced alternative dies against a registered claim. NAMED NEXT-ORDERS:
+    apply the six correction pointers at merge (mechanical); the additivity
+    stress-test as the new deepest question -- QGATE-005 derived it from
+    mu = T/c^2, but a dedicated commission could ask whether inter-strand
+    binding energy (the FND-029 E_x channel) breaks exact additivity at the
+    percent level and whether the 0.02% closure already bounds that; and the
+    release consolidation, now ten bricks deep and owed.

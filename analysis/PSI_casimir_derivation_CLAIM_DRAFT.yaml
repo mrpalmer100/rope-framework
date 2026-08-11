@@ -1,0 +1,76 @@
+# Commission PSI — draft registration (proposed id FND-037; renumber at merge)
+- id: FND-037
+  status: Derived
+  title: >-
+    COMMISSION PSI — THE RECRUITMENT RULE IS LINEARITY WEARING GROUP THEORY:
+    n_D PROPORTIONAL TO C_D IS DERIVED FROM FOUR PREMISES OF WHICH THREE ARE
+    REGISTERED, THE VACUUM-PACKING FAILURE IS EXPLAINED RATHER THAN MOURNED,
+    AND THE OPEN PACKING FACTOR INVERTS INTO A CONJECTURE-GRADE LOWER BOUND
+    kappa_pack >= 100 (Derived from the stated assumptions; bars locked
+    before deriving, analysis/PSI_casimir_derivation_bars_LOCKED.md;
+    benchmarks/foundations/psi_casimir_derivation.py; ALL numerical
+    agreements are RETRODICTIONS and labeled so) -- THE CHAIN, premise
+    ledger per the locked bar: P1 the mesh responds linearly to sources at
+    tube strains (the live assumption -- registered only for EM fields far
+    below critical, NU S1(3)); P2 linearity forces strain = Green(geometry)
+    x charge, so the ensemble energy density factorizes u_D(r) = C_D u_1(r)
+    with charge-independent shape -- the framework transcription of Gaussian
+    dominance, the session's new content; P3 u proportional to strain^2
+    (registered for EM, EM-RECON-014; its chromo extension is the second
+    enumerated assumption and the grade-limiting premise); P4 nu = u/T0
+    (registered, ELEC-053/TAU) -- CONCLUSION: n_D/n_f = C_D/C_f, same
+    profile shape, same penetration length; THE RETRODICTIONS, labeled:
+    the constant 9/4 adjoint density ratio (measured 2.25(2), constant
+    across the profile exactly as shape-factorization demands); rho_R = 1
+    -- UPSILON's broken vacuum-packing is now EXPLAINED, radius is medium
+    geometry while density is charge, so the assumption failed because it
+    was false, not because the framework was; and lambda-universality
+    across representations; THE RELOCATION (B2): the sector's sharpest
+    question moves from "why Casimir?" to "why is the mesh linear at tube
+    strains?" -- and the second question is then MEASURED by the data:
+    one linearity parameter, seven representations, over-constrained
+    (self-consistency, not circularity, stated plainly per B5); THE BOUND
+    (B3, CONJECTURE grade, the analytic-leading-nonlinearity form assumed):
+    delta_D = eps_f (C_D/C_f - 1) with eps_f = u_f/Sigma_vac; Bali's <= 5
+    percent at Casimir ratio 6 forces eps_f <= 1 percent, hence
+    kappa_pack >= ~120 (>= ~600 at the continuum ~1 percent reading) --
+    PHI's open factor inverts into a lower bound, and Sigma_vac >= ~4.3e37
+    J/m^3 under it; THE FALSIFIABLE FORM, the claim's forward content:
+    resolved Casimir violations must be ONE-SIGNED and LINEAR IN THE
+    CASIMIR, ordering 8 < 6 < 15a < 10 < 27 < 15s -- a future precision
+    study that finds violations of the wrong sign, wrong ordering, or
+    super-linear growth kills P1's measurement and the bound together;
+    THE FREEZE (B4): under the bound every vacuum-facing number (Sigma_vac,
+    the fence, kappa_0, the M-point chain with its m_e-consistency solve)
+    moves by two orders of magnitude -- ALL are FROZEN, the corpus quotes
+    Sigma_eff only, and a re-solve commission is REQUIRED before any
+    vacuum-facing number is quoted again.
+  note: >-
+    The summit attempt landed, at the grade honesty permits: Derived from
+    stated assumptions, with the weakest premise (the chromo extension of
+    the quadratic strain calibration) named as grade-limiting, every
+    numerical agreement labeled a retrodiction, and the one genuinely
+    forward statement -- the functional form of Casimir-scaling violations
+    -- left where future data can kill it. What the derivation buys is
+    coherence more than novelty: five results the arc collected as separate
+    facts (Casimir scaling, the constant profile ratio, rho_R = 1,
+    lambda-universality, and the vacuum-packing failure) become one
+    sentence -- a linear medium responds to charge, energy is quadratic,
+    strands are energy -- and the failure UPSILON registered becomes the
+    derivation's cleanest confirmation, since vacuum packing is exactly
+    what a charge-proportional density is not. The kappa_pack bound must
+    be held with both hands and at arm's length simultaneously: it is the
+    first quantitative statement about Sigma_vac the corpus has ever had,
+    and it rests on a nonlinearity form nobody has registered; hence
+    Conjecture grade, hence the freeze. If the bound survives its
+    re-solve commission, the vacuum is two orders stiffer than the tubes
+    that first measured it -- which would mean the tubes are gentle
+    perturbations on a medium far stronger than they are, and the mesh's
+    linearity at hadronic strains stops being an assumption and becomes
+    the least surprising fact in the corpus. NAMED NEXT-ORDERS: the
+    re-solve commission (M-point, m_e-consistency, fence, kappa_0 under
+    kappa_pack >= 100 -- large, load-bearing, REQUIRED before quoting);
+    a literature hunt for any resolved CS-violation measurements to
+    confront the predicted form; and the chromo calibration question --
+    whether the corpus can register a chromo-sector analog of
+    EM-RECON-014 and promote P3 from assumption to claim.

@@ -1,0 +1,56 @@
+# Commission BET — draft registration (proposed id FND-040; renumber at merge)
+- id: FND-040
+  status: Derived
+  title: >-
+    COMMISSION BET — THE SIGN IS DERIVED AND IT IS NEGATIVE: AN INEXTENSIBLE
+    CONSTANT-TENSION MESH SOFTENS BY PURE ARC-LENGTH GEOMETRY, THE RETRACTED
+    CLAUSE REFILLS AS A PREDICTION ALIGNED WITH THE ONLY RESOLVED VIOLATION
+    IN THE FIELD, AND THE FLOOR HONESTLY WEAKENS TO kappa_pack >= 50
+    (Derived from registered premises; bars locked before deriving,
+    analysis/BET_sign_derivation_bars_LOCKED.md;
+    benchmarks/foundations/bet_sign_derivation.py) -- THE DERIVATION, two
+    registered premises and a square root: T0 is the medium's global
+    Lagrange multiplier (FND-017) and strands cannot stretch or shorten
+    (FND-KIN-001, found by the B4 competition search, which returned NO
+    Hookean term anywhere in the registry -- constant tension is not an
+    assumption, it is the registered kinematics); the transverse-strain
+    energy of such a strand is T0 sqrt(1 + g'^2), whose expansion
+    T0(x/2 - x^2/8 + ...) carries a NEGATIVE quartic -- THE MESH SOFTENS,
+    and the relative correction is -eps/2 with eps = u/Sigma_vac, fixing
+    coefficient as well as sign: delta_D - delta_f = -(eps_f/2)(C_D/C_f - 1);
+    THE REALIGNMENT: the derived direction MATCHES Anzai-Kiyo-Sumino's
+    perturbative violation (which reduces V_R/C_R), so ALEPH's retracted
+    slot refills as a derived prediction agreeing with the one resolved
+    measurement in any regime -- the sequence over-claim -> retraction ->
+    derivation -> agreement is the corpus's discipline working in its
+    intended order, just two commissions late; THE FLOOR REARITHMETIC,
+    honest and WEAKENING per the locked bar: the factor 2 in the derived
+    coefficient halves the constraint, kappa_pack >= 50 (5 percent bound)
+    or >= 250 (continuum reading), Sigma_vac >= 1.81e37 (9.03e37) J/m^3,
+    and OMEGA's headline pair re-solves to a = 1.63e-17 m, T0 = 1599 J/m
+    (9.53e-18 m, 2734 J/m), Lorentz margins 6.1x (10.5x) -- every OMEGA
+    conclusion-class survives, every number shifts, correction pointer
+    filed against FND-038; THE STRAIN PERSISTS: l_q/a = 158 (271), still
+    outside the 1-100 window at both readings -- the re-audit still owns
+    it and it remains the one registered refusal in the tower; DOMINANCE
+    stated: tube strains x <= 0.04 keep the expansion controlled, with
+    core-thickness terms entering beyond quartic order.
+  note: >-
+    Eighteen bricks, and the session closes the loop it opened at MU:
+    a corpus that began the day with one open number ends it with that
+    number measured (Sigma_eff), floored (Sigma_vac), signed (softening),
+    and prosecuted -- every joint in the chain either derived from
+    registered claims or explicitly graded and frozen. The aesthetic of
+    this last brick deserves its sentence: the deepest dynamical question
+    the arc produced -- does the vacuum stiffen or soften? -- turned out
+    to be answered by the oldest and simplest commitment in the registry,
+    the inextensibility of strands, through nothing more than the Taylor
+    expansion of a square root; the framework's founding kinematics
+    reached forward eighteen bricks to fill the newest gap. NAMED
+    NEXT-ORDERS: the whisper-pricing re-audit (owner of l_q/a, now the
+    tower's sole refusal); the correlated-coefficients relation (the
+    quartic quantum-charge term's magnitude from the same -1/8, giving
+    ALEPH's refined prediction its second number); and v3.16.2, which
+    now has a settled M-point recipe to ship: quote Sigma_eff as
+    measured, Sigma_vac as floored-conditional, and the pair (a, T0) as
+    functions of kappa_pack with the two bound readings tabulated.

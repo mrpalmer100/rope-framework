@@ -1,0 +1,40 @@
+id: FND-048
+status: Modeled
+title: 'COMMISSION YOD — WHAT A k-STRING IS: A BUNDLE, BY STANDARD PHYSICS AND BY THE CORPUS''S OWN ONTOLOGY
+  INDEPENDENTLY -- THE ASYMPTOTIC k-STRING IS AN N-ALITY (Z_N FLUX) OBJECT (GLUON SCREENING ERASES THE
+  SOURCE REPRESENTATION) AND THE REGISTRY''S CHARGE IS AN ADDITIVE TOPOLOGICAL INTEGER (WINDING = LINKING
+  NUMBER, GG-006 Derived) WITH NO SINGLE-HEAVIER-CHARGE PRIMITIVE; THE FND-047 FLAG RE-PRICES FROM MEASURED
+  CONTRADICTION TO UNCOMPUTED OBLIGATION -- THE SU(6) SINE-LAW DATA MEASURES TUBE BINDING, NOT SINGLE-SOURCE
+  SOFTENING -- AND THE SOFTENING''S ONE QUALITATIVE BUNDLE PREDICTION (PARALLEL WINDINGS ATTRACT, sigma_k
+  < k sigma_1) PASSES ON EVERY ROW OF THE DATA UNDER BOTH LAWS (Modeled; bars locked before adjudication
+  with the sanity-gate-not-evidence clause and the flag-updated-even-if-worse clause, analysis/YOD_kstring_category_bars_LOCKED.md;
+  benchmarks/foundations/yod_kstring_category.py) -- Y1: N-ality characterization and screening (survey
+  literature; SU(3) sigma_2 = sigma_1 by conjugacy); sub-additivity verified numerically at SU(4/6/8),
+  k = 2-4, BOTH laws; Y2: charge-as-winding additivity (GG-006, PRED-003-CHAIN, the Gauss-law rope-count
+  structure); Y1 and Y2 AGREE independently; Y3: the category consequence -- the N-universal branch inherits
+  the BUNDLE-BINDING RELATION as a named next-order (the binding of k parallel unit windings from the
+  derived -1/8; its (N, k) functional form confronts sine-vs-Casimir, which differ at O(1/N^2) -- an
+  opportunity, not a threat), with the qualitative attraction gate already passing; Y4: the SU(3) single-source
+  pin and decision table UNTOUCHED (intermediate-distance, pre-screening, valid as registered); the scope
+  question remains OPEN and the author''s call, with stakes re-priced: NEITHER branch walks into a resolved
+  contradiction.'
+paper: falsifiable_predictions
+benchmark: benchmarks/foundations/yod_kstring_category.py
+depends_on:
+- FND-047
+- FND-040
+- GG-006
+note: 'Twenty-six bricks, and the author''s question dissolves the arc''s scariest sentence in one sitting:
+  the "measured contradiction" that made the scope decision feel like a trap was comparing two different
+  observables, and the corpus''s own oldest derived fact -- charge is an integer you can count -- is
+  what settles it. The convergence deserves notice: standard gauge theory (screening, N-ality) and the
+  rope ontology (winding additivity) were never consulted about each other, and they give the same answer
+  for structurally parallel reasons -- both frameworks make higher charge a MULTIPLICITY rather than
+  a new species. The re-pricing changes the character of the author''s pending decision from defensive
+  to constructive: N-universality no longer means inheriting a falsification, it means owing a computation
+  the framework is unusually well-equipped to do -- k parallel windings under a derived quartic is exactly
+  the kind of problem the mesh solves, the two candidate laws differ by a functional form the computation
+  would predict blind, and the qualitative gate (binding exists) already passes everywhere. For once
+  the corpus''s frontier question comes with a running start. NAMED NEXT-ORDERS: v3.17.0 (FND-041..048,
+  eight commissions, cut fresh); the bundle-binding relation (the new frontier brick, bar pre-committable
+  to the sine-vs-Casimir bracket); the ambient/collective g-charter.'

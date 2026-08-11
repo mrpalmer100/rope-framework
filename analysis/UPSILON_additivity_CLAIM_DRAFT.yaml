@@ -1,0 +1,73 @@
+# Commission UPSILON — draft registration (proposed id FND-034; renumber at merge)
+- id: FND-034
+  status: Modeled
+  title: >-
+    COMMISSION UPSILON — THE ADDITIVITY STRESS-TEST RETURNS TWO CORRECTIONS
+    AND A LOCATED WOUND: THE 0.02 PERCENT CLOSURE WAS A TAUTOLOGY, THE
+    CASIMIR PROFILE DATA BREAKS THE VACUUM-PACKING ASSUMPTION AT -33 PERCENT,
+    AND THE PINNED SIGMA IS RE-SCOPED FROM VACUUM STIFFNESS TO MEASURED TUBE
+    TENSION DENSITY (Modeled; bars locked before any computation,
+    analysis/UPSILON_additivity_bars_LOCKED.md;
+    benchmarks/foundations/upsilon_additivity.py) -- B1 THE TAUTOLOGY,
+    confronted first as the bars demanded: in the lattice chain n = 3 pi
+    (R_eq/a)^2 and T0 = T_tube/n BY CONSTRUCTION, so n T0 = T_tube is an
+    identity of the bookkeeping and FND-033's item (c) bounded nothing --
+    SECOND IN-ARC CORRECTION POINTER FILED, this one against the arc's own
+    self-correction claim, which is the discipline eating its own cooking
+    twice; B2/B3 THE VIOLATION PARAMETER delta = g_c E_x/(T0 a): FND-029's
+    registered band [0.019, 87] is useless upward (factor 87) and its floor
+    binds only if the intra-tube contact prefactor g_c >= 1, which is
+    UNREGISTERED (parallel bundled strands could give g_c ~ 0) -- ADDITIVITY
+    IS INTERNALLY UNTESTED, stated plainly; B4 THE EXTERNAL DISCRIMINATOR,
+    derived then confronted under pre-locked bands: exact additivity PLUS
+    the vacuum-packing relation R_tube = a sqrt(n/(3 pi)) forces the adjoint
+    (Casimir 9/4) tube to be 3/2 WIDER than the fundamental; the Lisbon
+    Casimir study (PRD 81 034504 / 1010.3870, quenched SU(3)) measures the
+    adjoint/fundamental energy-density ratio CONSTANT ACROSS THE TRANSVERSE
+    PROFILE at 2.25(2) on-axis and 2.24(6) in the mediator plane -- same
+    shape, same width, rho_R ~ 1.0, deviation -33 percent, BROKEN (caveats
+    on the face: short separations ~0.3-0.6 fm, proceedings-grade,
+    large-distance errors big); THE WOUND LOCATED, and it is not
+    additivity: two coincident tubes at 2.25x density is perfectly good
+    strand bookkeeping -- what breaks is VACUUM PACKING, the assumption
+    that tube strands sit at the ambient areal density, since the adjoint
+    tube demonstrably packs 9/4 the density into the fundamental's radius;
+    therefore the fundamental tube's own packing factor kappa_pack >= 1 is
+    unmeasured and sits between the lattice R_eq and the vacuum stiffness;
+    THE RE-SCOPING, stated at full prominence: the pinned 3.61-3.70e35
+    J/m^3 STANDS as Sigma_eff = T_tube/(pi R_eq^2), the directly measured
+    tube tension density -- every lattice-facing result of the arc is a
+    statement about Sigma_eff and survives -- but the identification
+    Sigma_vac = Sigma_eff requires kappa_pack = 1 and is now CONDITIONAL:
+    Sigma_vac = Sigma_eff/kappa_pack, kappa_pack >= 1, OPEN; SURVIVES
+    UNTOUCHED: FND-030's demotion of 5.1e35 (provenance, not packing),
+    ELEC-085/086/087 (R_eq comparisons at fixed representation), FND-032
+    (kappa_pack cancels in the same-representation quark-mass ratio);
+    INHERITS THE CONDITION: every consumer of Sigma as the vacuum's own
+    number -- kappa_0 = c/sqrt(eps0 Sigma_vac), the non-gravitating fence
+    rho_vac, the M-point T0 = Sigma_vac a^2/3 -- named for re-evaluation,
+    not performed here.
+  note: >-
+    The commission chartered to certify the arc's foundation instead cut
+    into it, and the cut is clean: eleven bricks of careful work pinned a
+    real, measured, twice-independently-checked number -- and UPSILON
+    establishes that the number is the TUBE'S tension density, while its
+    promotion to the VACUUM'S stiffness rode on an assumption the corpus
+    never registered as one and the Casimir data refuses. The deflation
+    has a precise size and shape: nothing measured moves, no verdict of
+    MU-through-TAU flips, RHO's out-of-sample pass survives by exact
+    cancellation -- but the words "Sigma is pinned" must henceforth carry
+    "as Sigma_eff" and the vacuum-facing consumers carry kappa_pack. The
+    corpus should also record what this session demonstrates about its own
+    machinery: the self-correction claim (FND-033) itself contained an
+    uncaught tautology, caught one commission later by a bar that forced
+    the circularity audit BEFORE the interesting physics -- the ordering
+    inside the bars did the work. NAMED NEXT-ORDERS: bound kappa_pack --
+    the single most valuable measurement is now a precision fundamental-
+    vs-adjoint WIDTH ratio at large separation (the Lisbon finite-T
+    companion's quark-adjoint widths, convertible by ELEC-086's pre-paid
+    mapping, are the nearest data); ask whether any registered claim
+    already constrains tube compression (the FND-MATTER hard-core d_c
+    gives an absolute packing ceiling: kappa_pack <= (a/d_c-ish)^2 --
+    enormous, but a start); and the vacuum-facing re-evaluation sweep
+    (kappa_0, fence, M-point) once any kappa_pack bound exists.

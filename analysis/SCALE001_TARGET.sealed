@@ -1,0 +1,4 @@
+SCALE-001 target commitment (SHA-256 of the range and its provenance)
+quantity: g = l_q/a at the FND-040 floor readings
+sha256: 5fed3cc1691b9ca32e213f892e561059ae952f38d03605da973da6d1c637539c
+The plaintext range is NOT stored here. It regenerates from the registry at --unseal.

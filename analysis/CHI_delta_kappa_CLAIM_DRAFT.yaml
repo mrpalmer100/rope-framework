@@ -1,0 +1,63 @@
+# Commission CHI — draft registration (proposed id FND-036; renumber at merge)
+- id: FND-036
+  status: Failed
+  title: >-
+    COMMISSION CHI — THE PAIRWISE-CONTACT delta(kappa) MODEL IS KILLED BY THE
+    SEXTET AND THE ARC REGISTERS ITS FIRST FAILURE: CASIMIR SCALING LEAVES NO
+    ROOM FOR CONTACT BINDING, STRAND ADDITIVITY SURVIVES AS A PACKAGE BOUNDED
+    AT 5 PERCENT, AND THE MAINSTREAM LITERATURE TURNS OUT TO CALL THE
+    SURVIVING PICTURE A ROPE (Failed-and-kept; bars locked with the two
+    readings and the discriminator fixed BEFORE the data was read,
+    analysis/CHI_delta_kappa_bars_LOCKED.md;
+    benchmarks/foundations/chi_delta_kappa.py) -- THE CHARTERED MODEL,
+    Reading B: the adjoint tube as the strands of k = 2 fundamental tubes
+    plus pairwise inter-strand contact binding (the FND-029 E_x channel),
+    sigma_D/sigma_f = k + c k(k-1) with c = 0.125 calibrated on PHI's
+    adjoint point; THE LOCKED DISCRIMINATOR: all k = 2 representations
+    degenerate, so the SEXTET must sit at 2.25 where the Casimir sits at
+    2.50; THE BLIND DATA (Bali hep-lat/0006022, continuum-extrapolated,
+    with Deldar independent): Casimir scaling holds across eight
+    representations with violations excluded above 5 percent to 1 fm
+    (continuum central ~1 percent) -- the sextet is at 2.50, Reading B
+    misses its cleanest point by 10 percent against a 5 percent bound and
+    degrades up the ladder (decuplet -17, 15-symmetric -46 percent),
+    KILLED, 5 of 5 non-calibration representations outside the bound;
+    READING A RETAINED, NOT CONFIRMED (the bars pre-declared its survival
+    cheap): exact strand additivity with recruitment n_D proportional to
+    the Casimir C_D -- and the registry notes with a straight face that
+    the mainstream literature independently carries this picture as the
+    Lund ROPE MODEL, overlapping strings forming a rope whose tension
+    follows the Casimir of the multiplet at its end; CONSEQUENCES, per the
+    locked B3: PHI's calibration point (2.25, +0.125) is RE-READ -- it was
+    string k-counting versus Casimir counting, never strand
+    super-additivity, and the E_x channel returns to unmeasured-in-tubes;
+    UPSILON's kappa_rel = 2.25 compression STANDS, being a measured density
+    ratio independent of its explanation; kappa_fund and Sigma_vac remain
+    open exactly as PHI left them; THE NEW BOUND, the session's positive
+    residue: across seven non-fundamental representations the
+    additivity-plus-recruitment PACKAGE closes to 5 percent (continuum ~1),
+    the first multi-point constraint on within-tube tension bookkeeping --
+    stated as the package, since delta_strand and recruitment deviations
+    are degenerate in it, and the degeneracy is on the face.
+  note: >-
+    Fourteen bricks and the arc's ledger finally shows a Failed, which it
+    needed: an arc of thirteen consecutive survivals is either charmed or
+    insufficiently ambitious, and CHI demonstrates it was neither -- the
+    first genuinely new MODEL the arc built (rather than audited,
+    converted, or re-scoped) died within one commission of its birth, on a
+    discriminator locked before the data was read, which is the system
+    working exactly as designed. What the failure purchases: the E_x
+    pairwise-contact picture is now dead IN TUBES specifically (its
+    nuclear-sector standing is untouched), the recruitment rule n_D
+    proportional to C_D is promoted to the sector's sharpest open question
+    -- WHY does strand count follow the Casimir? -- and the corpus gains
+    the amusing but genuinely useful anchor that high-energy
+    phenomenology's own name for the surviving picture is the rope model,
+    complete with tension-from-overlap physics the framework can now be
+    asked to derive rather than assume. NAMED NEXT-ORDERS: derive n_D
+    proportional to C_D from registered flux/topology claims (the
+    genuinely hard one -- a success would be the arc's deepest result, a
+    registered failure would be honest and survivable); the kappa_fund
+    observable hunt, unchanged; and v3.16.1, now owed three claims deep
+    (UPSILON, PHI, CHI all re-shape the release headline), flagged at
+    every close since the wound and flagged again here.

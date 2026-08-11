@@ -1,0 +1,47 @@
+id: FND-047
+status: Modeled
+title: 'COMMISSION TET — THE PIN MEETS THE LATTICE: CONSISTENT-AND-ARMED -- BALI''S CONTINUUM BOUND (VIOLATIONS
+  <= 5 PERCENT TO 1 fm, PRD 62 114503) INVERTS TO kappa_pack >= 12.5, BELOW THE CS FLOOR, SO BOTH READINGS
+  SURVIVE AND NOTHING TIGHTENS; THE DECISION TABLE IS REGISTERED (1.25 PERCENT DECIDES THE 5 PERCENT
+  FLOOR, 0.25 PERCENT REACHES THE CONTINUUM READING -- ACHIEVABLE MODERN LATTICE WORK); AND AN ADJACENT
+  SIGN TENSION IS CARRIED AT FLAG GRADE: SU(N>=4) k-STRINGS FAVOR THE SINE LAW, +8.3 PERCENT ABOVE ANTISYMMETRIC-CASIMIR
+  AT SU(6) AGAINST ~2 PERCENT ERRORS -- OPPOSITE TO BET''S DERIVED SOFTENING -- CONFRONTABLE ONLY UNDER
+  AN N-UNIVERSALITY PREMISE THE REGISTRY NEVER ADOPTED, WHICH IS NOW A LOAD-BEARING OPEN QUESTION (Modeled;
+  admissibility rules, inversion arithmetic, verdict grammar, and sign clause locked before reading,
+  analysis/TET_lattice_confrontation_bars_LOCKED.md; benchmarks/foundations/tet_lattice_confrontation.py;
+  sources cited in the results file) -- THE ADMISSIBLE RECORD: Bali 2000 continuum-extrapolated eight-representation
+  SU(3) study, r <= 1 fm (inside the confining window, below adjoint screening, T3 firewall respected);
+  the Shevchenko-Simonov ~1 percent characterization of the continuum extrapolation DISPLAYED with its
+  would-be floor (62.5, above the CS floor) but NOT adopted per the stated-precision rule; Deldar''s
+  5-15 percent superseded in precision; Bali''s 1999 pre-continuum octet/sextet-lying-LOW direction note
+  carried as a note; THE ARITHMETIC, pre-committed: floor = 1.25/(2b), forward predictions -1.25/-0.25
+  percent both inside the bound; THE FLAG, at full volume: the k-string sector (Del Debbio-Panagopoulos-Rossi-Vicari
+  SU(6) sine-consistent at 2 percent; 4D results between the laws per surveys; 2+1d favoring Casimir)
+  shows a resolved POSITIVE deviation where BET derives negative -- SU(3) has no independent k-strings
+  (sigma_2 = sigma_1 by conjugacy), so the confrontation requires N-universality, unregistered; one answer
+  to the scope question walks into a measured contradiction and the corpus must decide on registered
+  grounds; SIGN HYGIENE: conventions checked per source, no sign manufactured, the two-sided null and
+  the antisymmetric-reference deviation kept distinct.'
+paper: falsifiable_predictions
+benchmark: benchmarks/foundations/tet_lattice_confrontation.py
+depends_on:
+- FND-046
+- FND-040
+- FND-037
+- FND-039
+note: 'Twenty-five bricks, and the arc ends where a physics programme should: with its central Conjecture
+  standing in front of real data, unkilled and unconfirmed, holding a table that tells the next experimenter
+  exactly what to measure and what each precision buys. The confrontation''s null is the respectable
+  kind -- the existing bound was set a quarter-century ago at 5 percent and the tower''s predictions
+  live at 1.25 and 0.25, so consistency was likely but not guaranteed, and the decision table converts
+  the gap into a shopping list: half-percent adjoint-string precision in the 0.5-1 fm window is ordinary
+  modern lattice work, and it decides a floor the corpus currently holds by Conjecture. The session''s
+  real product is the flag, and it should be read as a gift rather than a wound: the k-string literature
+  has been sitting on a resolved positive deviation for twenty years, BET''s softening is negative, and
+  the only thing between them is a scope premise nobody ever wrote down -- which means the corpus gets
+  to choose its exposure DELIBERATELY, with the stakes visible, instead of discovering after the fact
+  which claim it had been making. That choice (N-universal and falsified-adjacent, or SU(3)-scoped and
+  safe-but-narrower) is exactly the kind the standing rules reserve for the author. NAMED NEXT-ORDERS:
+  v3.17.0 -- FND-041..047, seven commissions from a stale comparison to a decision table, one kept failure,
+  two self-corrections, three kappa_pack routes, one load-bearing scope question: cut it fresh; the N-universality
+  scoping session (the author''s choice, prepared on registered grounds); the ambient/collective g-charter.'

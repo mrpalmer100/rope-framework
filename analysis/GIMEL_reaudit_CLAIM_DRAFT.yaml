@@ -1,0 +1,49 @@
+id: FND-041
+status: Modeled
+title: 'COMMISSION GIMEL — THE WHISPER-PRICING RE-AUDIT: THE TOWER''S SOLE REFUSAL DISSOLVES AS A STALE-VALUE
+  COMPARISON (l_q RESCALES BY R1''S OWN REGISTERED FORM), THE RATIO OBEYS A SIXTH-ROOT LAW l_q/a = 43.0
+  kappa_pack^(1/6), AND THE 1-100 WINDOW CONVERTS INTO THE ARC''S FIRST UPPER BOUND: kappa_pack <= 157,
+  EXCLUDING THE CONTINUUM READING AND BANDING Sigma_vac IN [1.81e37, 5.7e37] J/m^3 AT THE WINDOW''S GRADE
+  (Modeled; bars locked before computing, analysis/GIMEL_whisper_reaudit_bars_LOCKED.md; benchmarks/foundations/gimel_whisper_reaudit.py)
+  -- Q1, ADJUDICATED BY REGISTRY INSPECTION: R1 (GRV-093) pins the PRODUCT T0 l_q^2, so l_q = sqrt(4
+  pi alpha hbar c/T0) is a function of the mesh by its own registered definition, exactly as MATTER044
+  computed it; the OMEGA/BET strain (158/271) held l_q at the kappa=1 value 2.58e-15 m -- a stale-value
+  comparison of the MATTER045 class, corrected at full volume, committed by us; Q2, THE RE-PRICED TABLE
+  at both FND-040 floors: kappa=50 gives (a, T0, l_q) = (1.63e-17 m, 1599 J/m, 1.347e-15 m) with T0-vs-lattice
+  1.33 and l_q-vs-registered 1.03, BOTH INSIDE the ZPE bar -- the 5 percent floor lands the tension within
+  3 percent of what the registered femtometre l_q already implied -- and l_q/a = 82.6 INSIDE the window;
+  kappa=250 gives (9.53e-18, 2734, 1.030e-15) with 2.27 and 1.35 inside but l_q/a = 108.0 OUTSIDE; the
+  a-comparisons are reclassified out of the ZPE band by argument (one determination at two Sigma readings,
+  the shift matching the derived kappa^(1/3) hierarchy to the digit -- a consequence, not a whisper);
+  n_q invariance RE-VERIFIED exactly (tracks K_me h, pinned; MATTER046''s dissolution stands); Q3, PROVENANCE:
+  the 1-100 window is GRV-093-arc pre-drafted reconciliation grammar, never derived, Modeled-class, and
+  everything inherited from it carries that grade on its face; Q4, THE CAP: both scalings registered
+  (a ~ kappa^(-1/3) from the FND-038/040 solve, l_q ~ a^(1/2) from R1) give l_q/a = 43.0 kappa_pack^(1/6),
+  exiting the window at kappa_pack = 157 -- BETWEEN the floors, so the 5 percent CS-bound reading COEXISTS
+  (the collision OMEGA searched for does not occur there) while the continuum reading is EXCLUDED at
+  the window''s grade, and a genuine window yields the band 50 <= kappa_pack <= 157; THE 4.62 DECOMPOSITION:
+  the kappa=1 pricing (1.67 x 2.77) was the Sigma_eff-normalized special case; under Sigma_vac the length
+  shift is hierarchy, the surviving like-for-like pricing content (T0, l_q) sits inside the ZPE bar at
+  both readings, and the whisper stays priced.'
+paper: falsifiable_predictions
+benchmark: benchmarks/foundations/gimel_whisper_reaudit.py
+depends_on:
+- FND-MATTER-044
+- FND-038
+- FND-040
+- GRV-093
+- ELEC-081
+note: 'Nineteen bricks, and the arc''s one refusal turns out to have been the arc talking past itself:
+  the strain was computed with a length frozen at the very M-point the same session had just moved. The
+  correction is of the MATTER045 class -- a stale value carried across a re-solve -- and the discipline
+  point is worth its sentence: the corpus caught it not by luck but because the refusal was carried at
+  full prominence with a named owner, which is what forced this session to interrogate the number instead
+  of the narrative. What replaces the refusal is better than a clean bill: a sixth-root law tying the
+  two registered scalings together, and the first UPPER bound the vacuum arc has ever produced -- soft,
+  window-grade, stated as such -- which converts GRV-093''s old aesthetic question (why is the quantum
+  area cell-scale?) into the load-bearing item standing between the tower and a hard two-sided Sigma_vac
+  band. The coincidence flagged on the face (the 5 percent floor reproducing the registered femtometre
+  l_q to 3 percent) is either the window''s vindication in disguise or a numerological trap, and the
+  corpus''s rules say we name it and do not lean on it. NAMED NEXT-ORDERS: derive or retire the 1-100
+  window (now rank 1); the correlated-coefficients relation as an independent kappa_pack pin; the HBAR-005
+  refresh at the banded M-point.'

@@ -1,0 +1,45 @@
+id: FND-045
+status: Failed
+title: 'COMMISSION ZAYIN — THE DEFECT-EXPONENT COMPUTATION MISSES STRUCTURALLY AND IS KEPT: THE ENERGY-BUDGET
+  DEFECT-LOG CLASS IS EXCLUDED AS THE g-MECHANISM -- ALL NINE PRE-COMMITTED CELLS LAND IN x = 0.10-2.00
+  AGAINST A BAR AT 4.41-6.40, THE TABLE''S RANGE LIES ENTIRELY BELOW BOTH BAR SEGMENTS (CHANCE HIT RATE
+  EXACTLY ZERO), THE ELECTRON''S OWN REST ENERGY EXHAUSTS THE SINGLE-VORTEX LOGARITHM AT g = 7.4 CELLS
+  AGAINST A TARGET OF 82.6-108.0, AND THE INVERTED DEMAND IS REGISTERED: A DEFECT-LOG RESCUE MUST DERIVE
+  A BUDGET OF 2.2-3.2 ELECTRON REST ENERGIES BLIND (Failed-and-kept; the full 3x3 table, both bar brackets,
+  the circularity rule, and the no-rescue clause locked before any cell was evaluated, analysis/ZAYIN_defect_exponent_bars_LOCKED.md;
+  benchmarks/foundations/zayin_defect_exponent.py) -- THE TABLE: budgets {m_e c^2 = 2 pi J, J = T0 a/2,
+  E_core = 5.448 K} against coefficients {pi K single-vortex, 2 pi K pair, pi^2 K 3D-line-x-ropelength}
+  with K = J the registered lattice identification and anything containing l_q, g, A, or hbar-through-l_q
+  excluded as circular on the face; THE MISS, structural not numerical: registered budgets top out at
+  2 pi K while the bar starts at 4.41 pi K -- the class CANNOT reach, no cell could have hit by luck
+  and none did by physics; WHAT IT TEACHES, stated not spun: the mesoscopic source length is NOT the
+  radius at which the winding''s own energy exhausts its logarithm -- the g-mechanism involves more energy
+  than the defect owns, or a structure that is not a single defect''s field, or a non-energetic selection;
+  MATTER055''s missing-physics lesson survives its best-shaped challenger and sharpens (the missing physics
+  is not the defect sector''s logarithm); BKT screening out of scope per the locked clause (no registered
+  vacuum temperature); THE DEMAND TABLE registered per the MATTER046 grammar (2.21-2.34 / 4.41-4.68 /
+  6.93-7.35 m_e c^2 bare across the three coefficients; 3.06-10.05 with the derived cutoff) -- specific
+  enough to kill most rescues on sight; kappa_pack UNTOUCHED: the floors stand as FND-040 left them,
+  ceiling-free per FND-042.'
+paper: falsifiable_predictions
+benchmark: benchmarks/foundations/zayin_defect_exponent.py
+depends_on:
+- FND-044
+- PRED-003-ETA
+- FND-042
+note: 'Twenty-three bricks, and the arc registers its first failure -- by design, at full volume, and
+  it is the most informative brick since GIMEL. The target sheet VAV issued was written so the machinery
+  could hit or miss blind, and the machinery missed in the strongest possible way: not by a factor that
+  invites an O(1) rescue but by a structural gap -- the bar begins more than twice above where the registered
+  energy scale tops out, so the class was never in the race and now the corpus knows it. The physical
+  sentence the failure buys is worth the price: the electron''s rest energy, spent through its own defect
+  logarithm, runs out at seven cells, and the alpha chain demands a source presenting at eighty to a
+  hundred -- whatever holds that length open is bigger than the particle it serves, which points the
+  same direction MATTER053 pointed for the zero-point problem: outward, into the ambient weave, away
+  from the knot''s interior. Two different sectors'' hardest numbers now aim at the same address, and
+  that convergence is a finding even though tonight''s mechanism died delivering it. The demand table
+  is the corpse''s gift: 2.2-3.2 rest energies is a number no future candidate can wave at, and the corpus''s
+  experience is that demands this specific kill rescues faster than commissions do. NAMED NEXT-ORDERS:
+  the correlated-coefficients relation (the only live registered kappa_pack pin); the ambient/collective
+  g-scoping session when the corpus wants it (a charter, not a hunt); the kappa rename; and v3.17.0 --
+  FND-041..045 are one arc with one kept failure, which is the honest shape for a release.'

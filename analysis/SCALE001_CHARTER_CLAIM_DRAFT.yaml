@@ -1,0 +1,53 @@
+id: FND-049
+status: Open
+title: 'COMMISSION SCALE-001 CHARTERED — THE EMERGENT MESOSCOPIC LENGTH AUDIT, RUN BLIND: DOES ANY ALREADY-LICENSED
+  COLLECTIVE PROPERTY OF THE AMBIENT WEAVE GENERATE A STABLE DIMENSIONLESS CORRELATION LENGTH g = l_q/a
+  OF ORDER 10^2 CELLS WITHOUT THAT NUMBER BEING INSERTED (Open; charter only, no mechanism evaluated,
+  docs/commissions/COMMISSION_SCALE-001_emergent_length.md; target SEALED by tools/scale001_seal.py with
+  the plaintext range absent from the repo and regenerated from the registry only at unseal) -- THE BLINDING
+  PROTOCOL, the commission''s distinguishing feature and the corpus''s first blind-target audit in this
+  sector: SEAL (SHA-256 commitment to the range AND its provenance, nothing printed) -> PHASE 1 classes
+  frozen -> PHASE 2 scaling laws written in registered inputs with NO number evaluated, each input carrying
+  its claim ID -> LOCK (Phase 2 hashed; the tool REFUSES to unseal unlocked, and refuses if the laws
+  changed after locking, registering the breach) -> PHASE 3 single evaluation of every locked law, all
+  results displayed, then unseal and compare; EIGHT CLASSES FROZEN, each with its licensing claim: collective
+  mode localization (EM-RECON-025), instability-proximity correlation length (EM-RECON-009''s k > T0 stability
+  bound), recruitment coherence (FND-037), reconnection mean-free path, topological/BKT screening (THM-004/005
+  -- flagged: the vacuum sector registers NO temperature, so this class must supply a registered one or
+  retire UNDERSPECIFIED; it may not import one), nonlinear strain localization (FND-040''s derived negative
+  quartic), percolation/coordination length (FND-MATTER-004), and the full lattice dynamical operator''s
+  spectrum (the direction FND-045''s structural exclusion points); ANTI-FITTING RULES: no inserted O(10^2)
+  factor, exponents from the mechanism, registered carriers only (a class needing a new primitive is a
+  GRANT and goes to the author, not into the evaluation), scaling before magnitude, mandatory kappa_pack
+  disclosure (a successful class does not merely explain g -- via FND-042''s inversion it MEASURES the
+  vacuum packing and must confront the floors and the FND-047 lattice bound), and the registered drift
+  filters; FOUR-WAY VERDICT GRAMMAR pre-committed: DERIVED-CANDIDATE (one landing, no free parameters,
+  look-elsewhere stated, blind out-of-sample demand attached before promotion), MULTIPLE LANDINGS (WEAK,
+  no selection without an independent discriminator), NULL (Failed-and-kept with per-class inverted demands
+  -- the registered finding that the one-number compression is BOOKKEEPING, not explanation), or UNDERSPECIFIED-DOMINANT
+  (the ontology does not yet contain enough structure to pose the question -- a sharper statement than
+  a miss).'
+paper: null
+benchmark: tools/scale001_seal.py
+depends_on:
+- FND-044
+- FND-045
+- FND-042
+note: 'The charter the corpus''s own next-order named and an external reviewer independently sharpened,
+  adopted with attribution and with the reviewer''s central methodological instruction written into the
+  bars: the question is not "find a formula that gives the number" but "does any licensed collective property
+  produce a stable scale" -- and the corpus has enough scar tissue (MATTER055''s chance-level hit, MATTER056''s
+  refused O(1) rescue, ELEC-083''s vacuity caught in its own bars) to know the difference is everything.
+  What is new here is machinery rather than physics: for the first time the target is SEALED behind a
+  tool that refuses to reveal it until the mechanism classes and their scaling laws are hashed and frozen,
+  so a landing cannot have been steered and a null cannot be quietly re-scoped. The charter''s most important
+  clause is the one that makes failure valuable: FND-044 collapsed five questions into one, and that collapse
+  is a CONSOLIDATION until the one has an answer -- if no locked class lands, the corpus learns that its
+  compression bought bookkeeping, which is a finding worth the session and is registered as such rather
+  than absorbed. Two scope guards on the face: the BKT class may not import the temperature the vacuum
+  sector does not register, and no class may adopt a new primitive without the author''s grant. SEQUENCE
+  (reviewer''s, as adjusted): SCALE-001; the nuclear residual classifier; the frame-dragging COUPLING-PROVENANCE
+  audit -- reordered and reframed because GRV-071 already found four of five coefficients ABSENT from
+  the registered action for structural reasons, so "derive the coefficient without fitting" is not currently
+  runnable and the honest prior question is whether matter-to-rotation coupling can be derived or must
+  be granted; and the Born joint-outcome gate. The lattice-precision push runs externally throughout.'

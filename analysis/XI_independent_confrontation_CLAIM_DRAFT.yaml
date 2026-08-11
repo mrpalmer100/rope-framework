@@ -1,0 +1,74 @@
+# Commission XI — draft registration (proposed id ELEC-083; renumber at merge)
+- id: ELEC-083
+  status: Modeled
+  title: >-
+    COMMISSION XI — THE EXTERNAL CHECK RUNS AT PARTIAL INDEPENDENCE AND THE
+    PINNING SURVIVES: 0.407 fm CONFIRMED AT -3% ON DIFFERENT ENSEMBLES, WITH A
+    NAMED PION-MASS SYSTEMATIC WHERE THE TENSION SITS (Modeled; bars locked
+    before any literature search, analysis/XI_independent_data_bars_LOCKED.md;
+    benchmarks/foundations/xi_independent_confrontation.py) -- THE COMMISSION:
+    FND-030's Sigma pinning rested on ONE dataset (arXiv 2409.20168) read by
+    two estimators; the bars fixed independence tiers, the registered
+    conversion, and a three-way confrontation rule BEFORE the search, so the
+    verdict could not be tuned to what the literature said; B1 THE SEARCH:
+    the physical-mass full-QCD determinations are all the same
+    Baker/Cea/Chelnokov/Cosmai/Papa lineage (excluded or partial per I1); the
+    genuinely different collaboration (Bicudo-Cardoso, pure-gauge SU(3),
+    PRD 88 054504) publishes penetration lengths whose convention could not be
+    unambiguously mapped to R_eq from published values alone and was EXCLUDED
+    per B2 rather than guessed -- so tonight's usable set is Cea-Cosmai-
+    Cuteri-Papa arXiv 1701.03371: SAME group, DIFFERENT ensembles, era, and
+    observable pipeline (connected correlator + Clem-ansatz fits), PARTIALLY
+    independent by the locked definition and labeled so throughout; B2 THE
+    CONVERSION, validated before the verdict: R_eq = sqrt(2<x^2>_{E^2})
+    computed analytically on the source's own fitted K0 profile, with the
+    implementation checked by reproducing the paper's OWN E-weighted
+    sqrt(w^2) to 0.2% -- and one in-session correction recorded per house
+    rule: a first pass used a peak-normalized definition (R_eq ~ 0.23 fm,
+    -43%) and was caught against the registered ELEC-052 bars file BEFORE any
+    verdict was drawn; B3 THE CONFRONTATION: TIER 2 (SU(3) pure gauge,
+    d = 0.76 fm, two couplings): R_eq = 0.388-0.402 fm, mean 0.395, -3.0%
+    against 0.407 -- CONFIRMED under the locked +/-10% bar, propagating to
+    Sigma = 3.83e35 J/m^3 adjacent to the pinned band; TIER 1 PARTIAL (full
+    QCD, pion 160 MeV, d = 0.76 fm): R_eq = 0.349-0.357, mean 0.353, -13.2%
+    -- the TENSION band on central values, with two honesty items attached:
+    the kappa fit errors (~50%) span R_eq = 0.315-0.445 fm, overlapping the
+    CONFIRMED band, and the named candidate systematic is the PION MASS (160
+    MeV vs physical: lighter sea quarks widen the tube, and the physical-mass
+    2409 data sits exactly on the wide side), so the tension is consistent
+    with a real quark-mass dependence of the tube width rather than a
+    contradiction; propagated Sigma = 4.78e35 central with the kappa
+    systematic spanning ~2.9-5.4e35, consistent with the pinned band, not
+    decisive; B4 distance matching: d = 0.76 vs the verdict-bearing 0.7 fm,
+    on the plateau where the source's own table shows lambda stable with d --
+    stated as a small systematic, not absorbed; B5 THE HONEST SUMMARY, per
+    the locked bar: the external check has now RUN and PASSED at tier 2 and
+    at partial independence -- Sigma's pinning gains its first leg outside
+    the 2409 dataset -- but the FULLY collaboration-independent check remains
+    unrun (the one convertible outside determination was excluded by its own
+    convention ambiguity), the quenching question is not discharged by a
+    tier-2 pass, and the method-sharing question is not discharged by a
+    partial-independence pass. The claim face lets a reader reconstruct
+    exactly how independent the check was, which was the bar.
+  note: >-
+    The session's shape is worth recording: the bars were locked before the
+    search, the search returned less independence than hoped, and the locked
+    rules converted that into a precise statement instead of a shrug -- the
+    fully-independent source was excluded by its own convention rather than
+    force-converted, the partially-independent source was used and labeled,
+    and the one mid-session error (the wrong R_eq definition) was caught by
+    the discipline of checking the registered bars file before drawing a
+    verdict, exactly the failure mode the locked-bars machinery exists to
+    catch. THE PHYSICS FINDING deserves its sentence: across quenched ->
+    160 MeV -> physical masses the tube width moves 0.395 -> 0.353 -> 0.407
+    fm, which is NOT monotone as stated and is precisely why the pion-mass
+    systematic is registered as a NAMED CANDIDATE rather than a conclusion --
+    either the 160 MeV point's kappa systematic (which spans the gap) or a
+    genuine non-monotonicity is in play, and only a dedicated determination
+    can say which. NAMED NEXT-ORDERS: obtain the Bicudo-Cardoso profile data
+    or ansatz definition sufficient to run the conversion unambiguously (the
+    genuinely independent check, one convention question away); a request to
+    the corpus's future self that any new physical-mass lattice determination
+    from ANY group be run through xi_independent_confrontation.py's machinery
+    on arrival; and the pion-mass width dependence as a small standalone
+    question the framework's tube model could be asked to predict.

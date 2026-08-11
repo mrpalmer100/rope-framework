@@ -1,0 +1,60 @@
+# Commission PI — draft registration (proposed id ELEC-085; renumber at merge)
+- id: ELEC-085
+  status: Modeled
+  title: >-
+    COMMISSION PI — THE DE-CONVOLUTION DISCHARGES OMICRON'S INTERPRETIVE STEP
+    BY COMPUTATION: THE LISBON INTRINSIC WIDTH IS CONFIRMED ACROSS THE FULL
+    ANCHOR BRACKET, AND THE QUENCHED TUBE LANDS WHERE THE DYNAMICAL ONE DOES
+    (Modeled; bars locked before extracting the widening fit,
+    analysis/PI_deconvolution_bars_LOCKED.md;
+    benchmarks/foundations/pi_deconvolution.py) -- THE LEVER, stated in the
+    bars before the numbers: second moments ADD exactly under convolution, so
+    w2_total(R) = w2_intr + w2_widening(R) with no ansatz approximation; THE
+    INPUTS, all the source's own: the paper's fitted widening law
+    w2 = A + B ln(R/fm), A = 0.1477(35) fm2, B = 0.0762(90) fm2, chi2/dof =
+    0.383 (jackknife), which reproduces the reconstructed w2 points to <5
+    percent at every R (B3 pre-check); THE ONE FREE CHOICE, the widening
+    onset R0, is BRACKETED by the two defensible source-anchored readings
+    rather than chosen: ANCHOR 1 (widening zero at the smallest measured
+    R = 4a, the fit-law reading) gives w2_intr = 0.0766(91) fm2, R_eq =
+    0.391(23) fm, -3.8 percent, CONFIRMED, Sigma = 3.89e35; ANCHOR 2 (the
+    paper's own stated small-R classical limit w2 = 3 lambda2/2, implying
+    onset R0 = 0.352 fm and a small widening already present at R = 4a)
+    gives w2_intr = 0.0680(21) fm2, R_eq = 0.369(6) fm, -9.4 percent,
+    CONFIRMED at the band edge, Sigma = 4.38e35; B3 CONSISTENCY: subtracting
+    B ln R makes the result R-independent by construction and the fit
+    residuals certify the model adequacy the bar demanded -- the
+    confrontation is NOT void; B4 THE VERDICT: CONFIRMED across the entire
+    anchor bracket, robust to ANY widening onset in R0 = 0.347-0.537 fm (the
+    window that keeps R_eq inside +/-10 percent, comfortably containing both
+    physical anchors) -- OMICRON's load-bearing interpretive step
+    (intrinsic-vs-total) is now a COMPUTATION, not a reading, and the
+    skeptic's TENSION verdict at R = 6-8a is resolved: the tension was the
+    widening, quantitatively, at the paper's own fitted slope; B5 ON THE
+    FACE: leading-order effective-string log law only (the paper's fitted B
+    sits one sigma above the one-loop 0.0640); sigma = (0.44 GeV)2 adopted
+    from the source's reference; quenching caveat SURVIVES -- and gains
+    content: the quenched intrinsic Sigma bracket 3.89-4.38e35 contains and
+    slightly exceeds the pinned dynamical band 3.61-3.70e35, a ~5-18 percent
+    quenched-vs-dynamical width difference now measured rather than feared,
+    consistent in sign with XI's observation that sea quarks widen the tube.
+  note: >-
+    Seven bricks in, the Sigma edifice now reads: pinned on physical-mass
+    dynamical data (MU), downstream-consistent (NU), card-collapsed
+    (release maintenance), checked at partial independence (XI), checked at
+    full collaboration independence at the intrinsic point (OMICRON), and
+    now checked at full independence AT THE VERDICT-BEARING DISTANCES with
+    the interpretive gap closed by an exact convolution identity (PI). The
+    remaining caveats are two, both quantified rather than open-ended: the
+    quenched-vs-dynamical width difference (~5-18 percent, right sign) and
+    the scale chain rests on tension additivity (registered; derived from mu = T/c^2 plus strands as sole energy carriers, QGATE-005) and on u ~ E^2 (forced by EM-RECON-014's strain calibration) -- the identification itself is DERIVED (ELEC-053 D1; correction per FND-033). THE SMALL PHYSICS RESULT deserves registration on its
+    own: the corpus now has a three-point quark-mass axis for the intrinsic
+    tube width -- quenched 0.369-0.391 fm (PI), 160 MeV pion 0.353 fm
+    central with wide kappa systematic (XI), physical 0.402-0.407 fm
+    (ELEC-052/081) -- and the framework's tube model could be asked to
+    PREDICT the sign and rough size of this mass dependence, which would be
+    a genuine out-of-sample question. NAMED NEXT-ORDERS: that prediction
+    commission; the finite-T conversion (pre-paid by OMICRON's mapping);
+    and the corpus-facing consolidation -- MU/NU/XI/OMICRON/PI plus the card
+    collapse is a complete release arc and the papers/roadmaps should be
+    synced when it ships.

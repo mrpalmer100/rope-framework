@@ -1,0 +1,68 @@
+# Commission NU — draft registration (proposed id FND-031; renumber at merge)
+- id: FND-031
+  status: Modeled
+  title: >-
+    COMMISSION NU — THE DOWNSTREAM BILL PAID: NOTHING FLIPS, ONE DEBT RESOLVES
+    INTO A NUMBER, AND ONE REGISTERED BOUND IS TRACED TO A DEAD BAND (Modeled;
+    bars locked before computing, analysis/NU_downstream_sweep_bars_LOCKED.md;
+    sweep list fixed in advance, both band edges evaluated per B5;
+    benchmarks/foundations/nu_downstream_sweep.py) -- THE COMMISSION: FND-030
+    pinned Sigma to 3.61-3.70e35 J/m^3 and itemized four downstream claim
+    groups conditioned on the demoted 5.10e35; this session re-evaluates every
+    one under the locked verdict classes UNCHANGED/SHIFTED/FLIPPED/DEAD;
+    S1 QGATE-009's SIX CONFRONTATIONS: (1) the fence EASES, rho_vac = 4.0-4.1e18
+    kg/m^3 = 17.5-17.9x nuclear against the old 25x -- SHIFTED, still a fence
+    not a kill, and the burden falls for the first time in the invoice's
+    history; (2) wave speed magnitude-blind, UNCHANGED; (3) THE HEADLINE RISK
+    NAMED IN B2 DOES NOT MATERIALIZE: E_crit = 2.0e23 V/m stays 1.5e5x above
+    the Schwinger field against a 100x bar -- the mesh remains linear through
+    all known fields and the matter-sector-QED debt remains coherent,
+    UNCHANGED; (4) the tension chain closes at the M-point (T0 = 433-444 J/m
+    bracketing the card's 434), UNCHANGED; (5) mesh birefringence rises to
+    6.9-7.1e-34 but remains 1.4e8x below VMB@CERN's design goal -- QGATE-018's
+    not-an-experiment verdict SHIFTED in number, intact in conclusion; (6) the
+    proton/vacuum energy-density ratio rises 11.9% -> 16.4-16.8%, below the
+    30% escalation bar: the perturbative-hierarchy question stays filed,
+    SHIFTED and sharpened; S2 THE ONE-NUMBER LOCK RESOLVES: kappa_0 =
+    c/sqrt(eps0 Sigma) = 1.66-1.68e-4 m^3/(s C) and rho = 4.0-4.1e18 kg/m^3
+    (the P29 floor of 4.5e7 held by eleven orders) -- AND THE AUDIT'S CATCH:
+    EM-RECON-027's registered bound kappa_0 <= ~26-50 reproduces exactly from
+    the Schwinger-form Sigma band ~4e24-1.5e25, which is the identification
+    QGATE-007 killed and QGATE-009 diagnosed as flattery -- the bound was
+    stale at registration and is superseded by the resolved value, correction
+    pointer owed to EM-RECON-027/029; S3 LEDGER B IS SIGMA-INSENSITIVE where
+    it was used: w = a/sqrt(3) at the Lorentz bound gives 5.77e-17 m on both
+    historical branches, the M-point 3.46e-17 m is already the card's working
+    value, and ELEC-058's scale-invariance theorem keeps every re-based
+    reconnection death dead -- UNCHANGED, no weakening; S4 QGATE-008's
+    conditional chain suffers a SECOND, INDEPENDENT DEATH: its antecedent
+    demanded Sigma >= 5.1e35 and the pinned band sits below it, so the chain
+    now fails on its own stated condition in addition to ELEC-047's
+    recruitment kill -- DEAD-CONFIRMED -- while the threshold conclusion
+    survives (the mesh sits 2.4e11x below PVLAS sensitivity, still deep in
+    the large-Sigma regime, so "PVLAS excludes Sigma-small" stands at the
+    pinned value).
+  note: >-
+    The sweep's shape is the best available outcome for a re-basing: zero
+    FLIPPED verdicts, every inequality intact at both band edges, and the two
+    non-trivial findings both in the direction of MORE closure -- the EM arc's
+    one-number lock now has its number (kappa_0 ~ 1.7e-4 SI, at the stated
+    R_eq^-2 model dependence), and a registered bound that had quietly
+    outlived its own input is caught and superseded, which is Commission MU's
+    kill-inheritance discipline finding a second stale registration one
+    session after the first. The fence easing deserves its sentence: the
+    vacuum's non-gravitating burden drops from 25x to ~18x nuclear -- still
+    monstrous, still GRV-004's zero-point theorem's to carry, but the invoice
+    shrank, and invoices that only ever grew now have one line that fell.
+    WHAT THIS SESSION DOES NOT DO: it does not re-derive any killed chain, it
+    does not touch the nonlocal branch, and it does not discharge the
+    perturbative-hierarchy question -- 16.8% is closer to the 30% bar than
+    11.9% was, and the ratio is Sigma-monotone -- a future width
+    re-measurement moving R_eq UP would lower Sigma as R_eq^-2 and raise
+    u_p/Sigma further, so the hierarchy question should be watched, not
+    archived. NAMED NEXT-ORDERS:
+    the EM-RECON-027/029 correction pointers (the stale kappa_0 band); the
+    parameter-card update (Sigma column collapses to the pinned band, branch
+    columns retire, kappa_0 joins the card); and the independent lattice
+    determination, unchanged as the one external check standing behind the
+    entire pinning.

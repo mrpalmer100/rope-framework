@@ -1,0 +1,62 @@
+# Commission MU — draft registration (proposed id FND-030; renumber at merge)
+- id: FND-030
+  status: Modeled
+  title: >-
+    COMMISSION MU — THE SIGMA PROVENANCE AUDIT: THE 28% TENSION WAS ONE RELATION
+    SEEN THROUGH A DEAD INPUT, AND SIGMA IS PINNED TO THE LATTICE BAND (Modeled;
+    bars locked before computing, analysis/MU_sigma_provenance_bars_LOCKED.md,
+    outcome 1 of four pre-committed) -- THE COMMISSION: FND-017 left Sigma as
+    the corpus's one open number with two candidates 28% apart, and QGATE-018
+    ruled the route to a decision is a better calculation; this session asked
+    whether the first better calculation is an AUDIT of the framework
+    candidate's provenance; B1 THE PROVENANCE GRAPH: every registered path to
+    Sigma = 5.10e35 J/m^3 runs through QGATE-005 Arm 2's trio {tension
+    additivity; Lorentz bound; n_t = 111}, with the corpus-wide sweep finding
+    QGATE-005 as the SOLE deriving claim (QGATE-007/008/009, ELEC-038/044-049
+    all use or condition on it, none derives it) -- THE CANDIDATE HAS EXACTLY
+    ONE LEG AND THE LEG IS n_t = 111; B2 THE LEG IS DEAD TWICE, on independent
+    grounds: (a) as an hbar normalization, killed by its own requested
+    derivation (ELEC-045's closed-form action moved the demand to ~498,
+    ELEC-047 killed the recruitment chain entirely), and (b) as a structural
+    strand count, excluded by measurement -- n = 111 forward-predicts
+    R_tube = 0.343 fm against the measured R_eq = 0.402-0.407 fm, a one-signed
+    +17-19% exclusion (ELEC-052 B2) that does not depend on the reconnection
+    chain at all; B3 THE ONE-RELATION IDENTITY, mechanically verified
+    (benchmarks/foundations/mu_sigma_provenance.py): both candidates are
+    Sigma = 3 T_tube/(n a^2) at the Lorentz bound with the SAME tube tension
+    (T_tube = 1.874-1.878e5 J/m across the three registered chains, 0.2%
+    spread), and the candidate ratio 1.414 equals the inverse strand-count
+    ratio 156/111 = 1.405 to 0.6% -- THE 28% WAS NEVER A TENSION BETWEEN TWO
+    PHYSICS ROUTES, it was one formula evaluated at a dead n and a measured n;
+    B4 THE VERDICT (outcome 1): the surviving strand count (n = 152-156,
+    ELEC-052/081) pins Sigma = 3.61-3.70e35 J/m^3; the 5.10e35 registration is
+    DEMOTED TO HISTORICAL (kill-inheritance, stated in the bars before
+    computing); FND-017's "one open number" becomes "one measured number"; the
+    parameter card's two-branch structure retires, the M-point already sitting
+    on the lattice-anchored value; B5 WHAT THIS DOES NOT SILENTLY PROMOTE,
+    on the face per the locked bar: (a) the scale chain rests on tension additivity (registered; derived from mu = T/c^2 plus strands as sole energy carriers, QGATE-005) and on u ~ E^2 (forced by EM-RECON-014's strain calibration) -- the identification itself is DERIVED (ELEC-053 D1; correction per FND-033); (b) the sech^2 conversion model carries a
+    tested 2.2% profile spread (ELEC-081 B3); (c) ELEC-052/081 use the same
+    data at the same distance -- an INDEPENDENT lattice determination remains
+    the named external check, and a future measurement moving R_eq moves Sigma
+    as R_eq^-2; (d) downstream claims conditioned on Sigma = 5.1e35 (QGATE-008's
+    conditional chain, QGATE-009's invoice, ELEC-049's Ledger B, EM-RECON-029's
+    kappa_0 bound band) owe a re-evaluation pass at the pinned band -- named
+    next-order, not performed here.
+  note: >-
+    The corpus spent three commissions specifying an experiment for Sigma and
+    one ruling that no experiment reaches it; the answer was in the registry
+    the whole time. QGATE-005's Arm 2 was sound arithmetic on its inputs, and
+    one input died twice after registration -- once by derivation, once by
+    measurement -- without the Sigma registration ever being re-run. The
+    kill-inheritance rule locked in this session's bars exists precisely so
+    that a demotion of this kind is an audit outcome rather than a judgment
+    call. WHAT IS GAINED: kappa_0 = c/sqrt(eps0 Sigma) tightens from a band to
+    a value class; the EM arc's one-number lock (EM-RECON-029 P29) now has its
+    number, at the stated model dependence; T0 = 434 J/m at the M-point stands
+    unchanged, the M-point having leaned lattice already. WHAT IS NOT GAINED:
+    Sigma is measured, not derived -- the framework still does not say why the
+    vacuum stiffness takes this value, and FND-017's no-local-derivation no-go
+    stands. NAMED NEXT-ORDERS: the downstream re-evaluation sweep (B5d list);
+    an independent lattice determination on different data, still the only
+    genuine external check; and the parameter-card verifier update so the
+    branch columns fail the build if resurrected.

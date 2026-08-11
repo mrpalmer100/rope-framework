@@ -1,0 +1,49 @@
+id: FND-050
+status: Modeled
+title: 'THE N-UNIVERSALITY GRANT (author''s decision, Mark Palmer, 2026-08-11): THE STRAND-MEDIUM SOFTENING
+  MECHANISM IS CLAIMED SU(N)-UNIVERSAL, NOT SU(3)-SCOPED -- THE PREMISE FND-047 REGISTERED AS UNREGISTERED
+  IS NOW ADOPTED AT FULL VOLUME, WITH ITS PRICE ON THE FACE: THE FRAMEWORK THEREBY OWNS THE k-STRING
+  SECTOR AND MUST DELIVER THE BUNDLE-BINDING RELATION (Modeled; a GRANT under the standing rule reserving
+  premise adoption to the author, recorded as a separate act; no computation performed by this claim)
+  -- THE GRANT IN ONE SENTENCE: the derivations that produce the softening (FND-037''s recruitment, FND-040''s
+  arc-length quartic from inextensibility and the global tension multiplier) contain no reference to
+  the number of colours anywhere, and the corpus declines to claim an N-dependence its own derivations
+  do not exhibit; WHAT IS BOUGHT: the mechanism is a statement about gauge vacua as such rather than
+  about QCD alone, the medium ontology gains explanatory reach, and every SU(N) lattice determination
+  becomes admissible evidence for or against the corpus; WHAT IS OWED, stated as an obligation rather
+  than a contradiction per FND-048''s adjudication: k-strings are BUNDLES of k unit windings (by gluon
+  screening/N-ality and by the registry''s additive winding charge independently), so the SU(N>=4) sine-law
+  data measures INTER-TUBE BINDING and not the single-source softening sign -- the framework must now
+  compute the bundle-binding relation from the derived -1/8 and confront its (N, k) functional form against
+  sine-vs-Casimir, which differ at O(1/N^2); THE RUNNING START, registered without being leaned on: the
+  one qualitative bundle prediction the softening already makes (overlapping strain costs less than the
+  sum, so parallel windings ATTRACT and sigma_k < k sigma_1) holds on every dataset row under both candidate
+  laws, a sanity gate and not evidence; THE EXPOSURE, named: if the computed bundle-binding relation
+  contradicts the resolved SU(N>=4) data, THIS GRANT is what makes that a falsification of the corpus
+  rather than someone else''s problem -- the grant is adopted knowing that, which is the point of recording
+  it as a decision; SCOPE LIMITS: the grant adopts N-universality for the SOFTENING/RECRUITMENT mechanism
+  only, does not extend to the corpus''s SU(3)-anchored CALIBRATIONS (Sigma_eff remains the measured
+  SU(3) flux tube, and every number conditional on it stays so), and changes no registered value.'
+paper: falsifiable_predictions
+benchmark: null
+depends_on:
+- FND-047
+- FND-048
+- FND-037
+- FND-040
+note: 'The author''s call, made deliberately with the stakes visible, which is exactly the shape the standing
+  grant rule exists to produce. The reasoning deserves preserving: an N-dependence that appears in no
+  derivation should not be asserted merely because asserting it would be safer, and a mechanism claimed
+  for one gauge group while its derivation never mentions the group is a weaker theory wearing a disguise.
+  The corpus has refused fitted factors, refused O(1) rescues, and refused a self-passing test on those
+  grounds; refusing a convenient scope restriction is the same discipline applied to itself. What the
+  grant changes practically is the standing of one computation: the bundle-binding relation moves from
+  interesting-if-anyone-wants-it to OWED, and its confrontation with the sine-vs-Casimir literature becomes
+  a live falsification channel with data already on the shelf. That is a genuine increase in exposure
+  and it is chosen. Two things the grant does NOT do, stated so no later session over-reads it: it does
+  not make Sigma_eff or any calibrated number N-general (those remain SU(3)-anchored measurements), and
+  it does not pre-judge the bundle computation -- if that computation lands against the data, the corpus
+  registers a falsification rather than retreating to the scope restriction it declined today. Retreating
+  later would be bar-shopping, and the rule against it is older than this arc. NAMED NEXT-ORDER, now
+  first-class: the bundle-binding relation (k parallel unit windings under the derived quartic; predict
+  the (N, k) form BLIND, then confront sine-vs-Casimir).'

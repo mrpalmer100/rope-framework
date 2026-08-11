@@ -1,0 +1,48 @@
+id: FND-043
+status: Modeled
+title: 'COMMISSION HE — THE AREA-SELECTION ATTEMPT NARROWS THE L1 QUESTION TO ONE NUMBER: l_q WAS NEVER
+  ONLY R1''S DEFINITION (THE PRED-003-DICT/LOCK LINEAGE REGISTERS IT AS THE SOURCE LENGTH WITH READING
+  l_q ~ sqrt(l_lock a) AND l_lock = eta a/2 UNDER THE ENSLAVEMENT, eta LEFT AT EXPONENT LEVEL), SO SELECTION
+  REDUCES TO THE LOCKING NORMALIZATION N = C^2 eta = 2(l_q/a)^2 = 3698 kappa_pack^(1/3) -- N DERIVED
+  MEANS kappa_pack MEASURED, THE SOLE T1''S DRIFT RATIO ACQUIRES A SECOND JOB AS PACKING METROLOGY, AND
+  A SOFT-CHANNEL CONFRONTATION IS ARMED: N ~ 1e4 DEMANDS eta >> 1 OR THE REGISTERED READING DIES WHEN
+  ITS NORMALIZATION IS COMPUTED (Modeled; bars locked before reading with the four-way verdict grammar,
+  pre-named principles, and the hardened numerology guard, analysis/HE_area_selection_bars_LOCKED.md;
+  benchmarks/foundations/he_area_selection.py) -- E1 THE PROVENANCE: DICT''s impedance reduction alpha
+  = l_q^2 T/(4 pi hbar c) with the candidate table {a, sqrt(l_lock a), l_lock} and the registered geometric-mean
+  reading; LOCK''s kappa = 2T/(eta a) with eta explicitly confined -- structural content registered,
+  one number missing; THE NARROWING, machine-checked: N = 1.37e4 (5 percent floor) / 2.33e4 (continuum),
+  the sixth-root law squared; THE CONFRONTATION carried on the face: naive homogenization constants are
+  not 1e4, so either the locking channel is genuinely SOFT (kappa << T/a, a physical claim the corpus
+  has never tested) or the sqrt(l_lock a) reading fails at number level -- both branches corpus-grade,
+  neither prejudged; THE CROSS-LINK: DICT registered that a nonzero drift ratio SELECTS l_q''s composition,
+  so the PRED-003 measurement doubles as vacuum-packing metrology -- two independent external kappa_pack
+  routes now exist on paper; E4 THE WHISPER, guard-capped and quarantined: l_q_reg sits 1.4 percent from
+  r_e/2 = alpha hbar/(2 m_e c) (probably FND-041''s 3-percent coincidence in different units), look-elsewhere
+  at full volume, conditional illustration labeled not-a-measurement (IF exact: T0 = 1460 J/m, kappa_pack
+  = 38, mildly below the 5 percent floor -- tension displayed, left alone); VERDICT per the pre-committed
+  grammar: NARROWED -- not derived, not failed, not underdetermined; the question has an address.'
+paper: falsifiable_predictions
+benchmark: benchmarks/foundations/he_area_selection.py
+depends_on:
+- FND-042
+- GRV-093
+- PRED-003
+- FND-040
+note: 'Twenty-one bricks, and the arc''s ladder now runs in one unbroken line from the vacuum floor to
+  the corpus''s oldest frontier: PSI floored the stiffness, OMEGA re-solved the mesh, ALEPH and BET signed
+  the nonlinearity, GIMEL found the sixth-root law, DALET turned the ratio into an instrument, and HE
+  finds the instrument''s missing input already half-built in the registry -- the alpha chain''s own
+  source length, one normalization short of a number. The satisfying structure is the convergence: the
+  L1 question (what selects hbar''s area), the vacuum-packing question (what is kappa_pack), and the
+  locking-channel question (how soft is kappa) turn out to be ONE question wearing three sectors'' clothes,
+  and the corpus did not build that convergence tonight -- it EXCAVATED it from claims registered across
+  months for unrelated reasons, which is the kind of coherence a wrong framework has no business exhibiting
+  and a right one cannot help. The confrontation is the health certificate: N ~ 1e4 is a strange number
+  for a lattice constant, the corpus says so on the claim''s face, and the next-order computation cannot
+  land without either vindicating a soft channel or killing a registered reading. The whisper is handled
+  the only safe way -- parked in plain sight with its own tension displayed, where it can be confirmed
+  by derivation or dissolved by it, but cannot steer. NAMED NEXT-ORDERS: the N computation (the FND-002/LOCK
+  machinery run to number level -- the sector''s everything-brick, and it should be attempted while awake);
+  the correlated-coefficients relation (a potential third kappa_pack route); the HBAR-005 refresh; and
+  v3.17.0 when the arc settles -- FND-041/042/043 are one story and ship together.'
