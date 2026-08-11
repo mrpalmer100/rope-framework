@@ -1,0 +1,56 @@
+UPLOADING v3.19.0 -- DELTA SINCE v3.15.0 (the version live on GitHub)
+=====================================================================
+
+197 files. Nothing in this range was DELETED or RENAMED in the repo, so a
+merge-style upload produces a correct repository. You do NOT need to
+upload the other ~1500 unchanged files.
+
+GitHub's web uploader caps at 100 files per commit, so this is TWO
+commits. Use github.com -- NOT the VS Code remote-repo extension, which
+prompts once per existing file. The web uploader has NO overwrite prompt.
+
+ROUTE
+-----
+On github.com/mrpalmer100/rope-framework:  Add file -> Upload files
+
+COMMIT 1 (95 files) -- the evidence
+    Drag the folder:  analysis
+    Commit message:   v3.19.0 (1/2) - commission bars and results
+
+COMMIT 2 (102 files) -- code, docs, papers, registry
+    Drag the folders: benchmarks, docs, papers, tools, .github
+    Then the 9 loose root files (claims.yaml, README.md, CHANGELOG.md,
+    HANDOFF.md, KNOWN_LIMITATIONS.md, CITATION.cff, pyproject.toml,
+    and any others at the top level here)
+    Commit message:   v3.19.0 (2/2) - dictionary closes, photon sector disclosed
+
+  If commit 2 is refused for exceeding 100, split it: benchmarks first
+  (51), then docs+papers+tools+.github+root (51).
+
+IMPORTANT
+---------
+Drag the FOLDERS THEMSELVES from inside this package (analysis,
+benchmarks, ...), not the folder that contains them. Paths must land as
+analysis/... and NOT as d2/analysis/...
+
+The uploader recurses into folders and preserves structure.
+
+AFTER UPLOADING -- SPOT CHECK
+-----------------------------
+  pyproject.toml   version = "3.19.0"
+  CITATION.cff     version: 3.19.0
+  claims.yaml      contains  id: EM-022     (the 600th claim)
+  README.md        links RELEASE_NOTES_v3.19.0.md
+  docs/history/    contains RELEASE_NOTES_v3.16.0 through v3.19.0
+
+RELEASE
+-------
+Releases -> Draft a new release -> tag v3.19.0 ->
+paste the body from GITHUB_RELEASE_v3.19.0.md
+
+WHY THIS IS SAFE
+----------------
+A merge upload cannot delete. It is correct here only because no file was
+removed or renamed between v3.15.0 and v3.19.0. If a future arc deletes
+or renames anything, that will be stated explicitly at package time and
+those files must be deleted by hand in the web UI.

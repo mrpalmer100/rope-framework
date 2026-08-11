@@ -6,9 +6,100 @@ you have found it in under five minutes.
 
 *Revised against the current registry.*
 <!-- BEGIN GENERATED: corpus_stats -->
-*555 registered claims, 531 code-backed and passing, 114 Derived, 32 registered Failed and kept.*
+*600 registered claims, 558 code-backed and passing, 120 Derived, 38 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
+
+## THE PHOTON SECTOR AT HIGH ENERGY — UNRESOLVED (adopted openly, 2026-08-11)
+
+**This is the programme's most serious open failure, and it is registered here
+rather than left inside an unadjudicated fork. Author's decision (route (c),
+FND-059/060 recommendation).**
+
+**The statement.** Ultra-high-energy photons are routinely observed — LHAASO's
+Galactic PeV gamma rays at ~1.4×10¹⁵ eV, arriving from sources distributed
+across the sky. **The registered medium cannot host them.** The requirement is:
+
+    transverse coherence sampled at ≤ ħc/E_obs = 1.41e-22 m
+
+which is five orders below the mesh spacing and three below the *measured*
+strand thickness. No registered length meets it.
+
+**The correct diagnosis is ANISOTROPY, not a Nyquist cutoff (FND-061).** An
+earlier reading — that light hits a short-wavelength cutoff at the mesh spacing
+— was an overreach and is withdrawn. EM-RECON-025's registered light branch is
+ω² = (T₀/μ)q², *continuum* in q with no Brillouin cutoff; the crossings couple
+strands (gapping the optical branch) rather than sampling the wave. The
+continuum direction is *along* a strand. Transverse coherence is still sampled
+at the crossing spacing a, so the accessible wavevector region is a slab, and
+PeV photons could propagate only within arcseconds of one of three strand axes
+— an accessible solid-angle fraction of ~10⁻⁹. That contradicts **FND-REL-002
+(Derived: the wave sector is forced to Lorentz-invariant, hence isotropic,
+form)** and the observed all-sky source distribution independently.
+
+**Four escapes were prosecuted and all four closed:**
+- the loaded continuum (FND-058): removes the lattice, not the strands;
+- the collective mode (FND-059): anisotropic, contradicts a Derived claim;
+- any operator-shaped fix (FND-060): closed as a *class* — ω²(k) is periodic
+  for arbitrary coupling range and Gershgorin bounds the disordered case, so
+  E_max ~ ħc/a always. **The ceiling is discreteness, not the
+  nearest-neighbour approximation.**
+- tuning a length: blocked because both registered lengths are
+  electron-anchored — d_c through ELEC-021's Λ = E_inf·d_c (GRV-094,
+  fork-invariant) and a through the spent m_e calibration T₀a = 2.6065e-14 J.
+  Driving a to the required value raises T₀ by 10⁵ and Σ_vac by 10¹⁵,
+  destroying the Lorentz bound that currently clears at 6.1×. Shrinking d_c
+  does not help at all — the constraint falls on the spacing *between* strands.
+
+**Scope, stated precisely.** The transverse-wave mechanics are **not** refuted.
+The collective mode exists, propagates, carries exactly two polarizations, and
+supports the derived couplings; **every result at accessible energies stands
+untouched.** The failure is at one end of one axis, by a stated number.
+
+**What a fix must supply:** isotropy at high k. A finer constituent spacing
+would do it; so might any structure that removes the preferred strand
+directions at short wavelength. The remaining candidates each cost a new
+primitive — strand substructure below the measured d_c (which must also explain
+why the electron anchor cannot see it), or a second carrier for the PeV quanta
+(owing two polarizations and a coupling). Neither is adopted.
+
+**Process note, on the record.** This contradiction was registered in
+FND-REL-004 with its escape left UNADJUDICATED across two claims while work
+continued on top of it, and FND-MATTER-049's reopening tripwire is recorded as
+having FIRED at 10¹¹× without halting further vacuum-facing work. That was a
+process failure. The house rule added in consequence: **a registered
+contradiction whose escape is unrun is a blocking item, not a footnote.**
+
+
+## The vacuum stiffness tower (conditional, floors without ceiling)
+
+Everything vacuum-facing above Σ_eff — Σ_vac, the moved M-point, the mesh pair
+(a, T₀) — hangs on **FND-037's quadratic-nonlinearity form (Conjecture)** at the
+FND-040 floors (κ_pack ≥ 50 / 250). One resolved measurement of long-distance
+Casimir-scaling violations confronts the whole tower; the current lattice bound
+(Bali 2000, ≤5%) gives only κ_pack ≥ 12.5 (FND-047), so the floors are held by
+Conjecture, not data. There is **no ceiling** (the old 1–100 window retired as
+grammar, FND-042).
+
+- **The mesoscopic source length g = l_q/a ≈ 83–108 is UNEXPLAINED.** It is the
+  corpus's single remaining mesoscopic unknown (five former questions collapse
+  to it, FND-044). Its best-shaped candidate mechanism — the defect-log energy
+  budget — is **excluded structurally** (FND-045, Failed-and-kept: the
+  electron's own rest energy exhausts its logarithm at ~7 cells; a rescue must
+  derive a budget of 2.2–3.2 m_ec² blind).
+- **The softening mechanism is claimed N-UNIVERSAL (FND-050, author's grant,
+  2026-08-11) — and the corpus therefore owes a computation it has not done.**
+  The derivations (FND-037/040) contain no reference to the number of colours,
+  so the corpus declines to assert an N-dependence its own derivations do not
+  exhibit. The price is real and chosen: k-strings are bundles of k unit
+  windings, so the SU(N≥4) sine-law data measures inter-tube binding, and the
+  framework must compute the bundle-binding relation from the derived −1/8 and
+  confront its (N, k) form against sine-vs-Casimir. If that computation lands
+  against the data, this grant is what makes it a falsification of the corpus
+  rather than someone else's problem. Retreating to the SU(3) scope afterwards
+  would be bar-shopping and is refused in advance. Running start, not evidence:
+  the qualitative bundle prediction (σ_k < kσ_1) holds on every dataset row.
+  Calibrations (Σ_eff and everything conditional on it) remain SU(3)-anchored.
 
 ## The quantum boundary (the deepest limitation)
 
@@ -119,7 +210,7 @@ kept straight, several quantum facts are **adopted, not derived**, or **open**:
 ## The complete failed-and-kept ledger
 
 <!-- BEGIN GENERATED: corpus_stats -->
-*555 registered claims, 531 code-backed and passing, 114 Derived, 32 registered Failed and kept.*
+*600 registered claims, 558 code-backed and passing, 120 Derived, 38 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
 Every one of those Failed claims is kept on permanent display below with its lesson,

@@ -1,3 +1,5 @@
+> **HISTORICAL SNAPSHOT (v2.2.1 era, 130 claims).** Current release: **v3.17.0, 577 claims** — see CHANGELOG.md and docs/history/RELEASE_NOTES_v3.17.0.md. This file is retained as the Zenodo deposit record of the v2.2.1 archive and is not updated per release. (Note added at the v3.17.0 cut; flagged for the author: delete, update, or keep as archive.)
+
 # Rope Solver Corpus — Release Notes
 
 **Version 2.2.1 · 130 registered claims · 116 rerunnable benchmarks (all passing)**

@@ -1,4 +1,677 @@
+## [Unreleased]
+
+(nothing pending)
+
+## 3.18.0 detail (2026-08-11) — commission-by-commission (SCALE-001 through SHIN)
+
+### Added (SHIN: the ceiling is the spacing, FND-060)
+- FND-060: proposal 3 (attack the dispersion relation rather than the
+  length) run and CLOSED BY THEOREM over the whole admissible class.
+  omega^2(k) is periodic with period 2pi/a for arbitrary coupling range
+  (symbolically exact), and Gershgorin bounds arbitrary disordered
+  arrangements, so E_max ~ hbar c/a up to an O(1) factor for every
+  operator. Reaching 1.4 PeV at fixed spacing needs the coupling-to-mass
+  ratio up by 5e9-1e10 against T0 and mu pinned by the m_e calibration.
+  The ceiling is discreteness, not the nearest-neighbour approximation.
+  Sharpest form of the problem: a <= hbar c/E_obs = 1.41e-22 m.
+  Remaining fixes cost a primitive or an admission; none proposed here.
+  Annotations to FND-REL-004, FND-059, FND-058, GRV-094. Files:
+  analysis/SHIN_*.md, benchmarks/foundations/shin_operator_ceiling.py.
+
+### Added (RESH: the collective-mode escape closed, FND-059)
+- FND-059: FND-058's route (b) given its strongest registered form
+  (strands continuous along their length, discreteness transverse only)
+  and closed. The accessible wavevector region is a slab: PeV photons
+  confined to ~1e-3 degree cones about three strand axes, solid-angle
+  fraction ~1e-9 against a 10 percent bar locked before computing.
+  Killed by FND-REL-002's Derived isotropy and independently by the
+  observed all-sky LHAASO source distribution. Transverse-wave mechanics
+  NOT refuted -- the limitation is the length inventory, at
+  short wavelength only. Route (c) recommended to the author: register
+  the photon sector's short-wavelength structure as unresolved in
+  KNOWN_LIMITATIONS with the three-pin contradiction, EM-RECON-025's
+  cost 1, and the unpaid label gap named together. Annotations to
+  FND-058, FND-REL-002, EM-RECON-025, FND-MATTER-068. Files:
+  analysis/RESH_*.md, benchmarks/foundations/resh_collective_cutoff.py.
+
+### Added (QOF: the three-pin fork adjudicated, FND-058)
+- FND-058: the loaded-continuum escape adjudicated against its filed
+  three-part standard. Necessity PASSES (~11-order pair 1-2
+  contradiction); independent motivation PASSES (interpenetrability,
+  FND-MATTER-004, independently implies no Brillouin zone); consistency
+  FAILS -- the escape removes the lattice but not the carriers, so the
+  band ceiling follows the measured strand thickness (2.11 TeV) against
+  routinely observed 1.4 PeV photons, short by 663x, while dispersion
+  demands 8.3 orders below anything registered. Verdict
+  ESCAPE-INSUFFICIENT, Failed-and-kept. All four consolidated
+  obligations undischarged; EM-RECON-025's cost 1 has no satisfying
+  branch; FND-057's label gap unpaid and GRANT-N2-GAP back on the
+  author's desk. Named frontier: derive that a collective mode inherits
+  no material short-wavelength cutoff. Annotations to FND-057,
+  FND-MATTER-068, FND-REL-004, EM-RECON-025, FND-MATTER-004. Files:
+  analysis/QOF_*.md, benchmarks/foundations/qof_threepin_fork.py.
+
+### Added (TSADE: the label gap, FND-057)
+- FND-057: the label-gap derivation attempted against a bar locked at the
+  corpus's LHAASO photon anchor (1.4 PeV). The intended tube/confinement
+  route FAILS by seven orders (~50 MeV). The five candidates split along
+  the registered three-pin coverage-vs-dispersive fork: dispersive
+  (hbar c / a_disp = 2.1e20 eV) clears by five orders, coverage does not.
+  Verdict FORK-INHERITED -- GRANT-N2-GAP is unneeded on one branch and
+  fatal-if-refused on the other, collapsing the author's second decision
+  into an obligation already owed. The fork now carries four independent
+  obligations and is registered as the highest-leverage open question.
+  Annotations to FND-056, FND-054, EM-RECON-025, FND-MATTER-068. Files:
+  analysis/TSADE_*.md, benchmarks/foundations/tsade_label_gap.py.
+
+### Added (PE: the label-blindness audit, FND-056)
+- FND-056: GRANT-N2's owed audit, run with the "expected cheap" prior
+  explicitly refused at lock. Does NOT pass cheap. Dynamical labels
+  multiply every count over strand states: the photon polarization count
+  becomes 2N against a measured 2, which is a KILL of the registered
+  light carrier by the corpus's own EM-RECON-022/023 criterion applied
+  symmetrically; the vacuum zero-point sum is disturbed by N; horizon
+  entropy by (A/a^2) ln N; the tube strand count left OPEN as a
+  definitional question. All close iff the label sector is gapped.
+  GRANT-N2-GAP named and priced for the author; GRANT-N2's cost
+  re-stated as two primitives, one coupling, one new scale. Named
+  next-order: derive the gap from the tube/confinement machinery.
+  Annotations to FND-054, FND-055, FND-053, EM-RECON-025, GRV-004,
+  FND-030. Files: analysis/PE_*.md,
+  benchmarks/foundations/pe_label_blindness.py.
+
+### Added (GRANT-N2 adopted and tested, FND-054 / FND-055)
+- FND-054: GRANT-N2 adopted by the author -- strands carry one of N
+  labels, inter-tube attraction by label exchange. One primitive, one
+  coupling. Label-blindness audit of the corpus OWED and outstanding.
+- FND-055 (Commission AYIN): the acceptance test. DERIVES-CASIMIR
+  exactly -- the exclusion statistic gives v = 2/(N-1) and hence
+  b_k = (k-1)/(N-1) identically for all N, k with zero fitted
+  coefficients, vindicating FND-053's factorization. Registered as a
+  partial success with live exposure: the corpus now owns the Casimir
+  law against a record favouring sine (+8.3 percent at SU(6) k=2), with
+  FND-040's softening pushing further from the data. Free-label
+  statistic reported (same law, half strength), not used. Demand: a
+  continuum-limit SU(6) k-string determination decides it. Annotations
+  to FND-053, FND-052, FND-050, FND-047, FND-040. Files:
+  analysis/AYIN_*.md, benchmarks/foundations/ayin_grantN2_acceptance.py.
+
+### Added (SAMEKH: the 1/N channel provenance, FND-053)
+- FND-053: FND-052's derive-branch adjudicated over a closed four-route
+  list. UNDERIVABLE. The demand factorizes: b_k(N) = (k-1) x 1/(N-1);
+  the (k-1) half is generic to any attractive pair potential (computed),
+  the 1/(N-1) half requires Z_N arithmetic the Z-charged medium (GG-006)
+  cannot express -- a group-theoretic closure, not a missing coefficient.
+  Routes: screening import-class (ELEC-054 rule), loop exchange
+  underspecified (reconnection rate's third absence), core overlap
+  obstructed (repulsive contact), torsion obstructed (computed like-sense
+  repulsion). Grant menu named, none adopted: GRANT-N2 (N-valued strand
+  label, acceptance test pre-built) vs OPTION-ACK; GRANT-N1 dismissed as
+  self-refuting. Annotations to FND-052, FND-050, FND-048, FND-051.
+  Files: analysis/SAMEKH_*.md,
+  benchmarks/foundations/samekh_1overN_provenance.py.
+
+### Added (NUN: the coupling-provenance audit, GRV-103)
+- GRV-103: the frame-dragging prior question adjudicated. Verdict
+  GRANT-REQUIRED by elimination over a closed four-route list: momentum
+  entrainment obstructed (FND-REL-002, plus the d_t u = 0 symbolic check),
+  the derived Magnus coupling disqualified (wrong charge), GRV-058's shift
+  null; the twist route (GRV-061/064/066, FND-STRAND-002/003) complete
+  except its source. GRANT-CANDIDATE-ROT named and priced on the author's
+  desk: tau = beta_J J, beta_J's derivation target GRV-073's gamma;
+  exposure GRV-057's 500-sigma ladder vs GRV-059 becoming permanent.
+  The GRV-029 dictionary shift-map gap remains separately owed.
+  Annotations to GRV-071, GRV-059, GRV-066, GRV-057, FND-KIN-001. Files:
+  analysis/NUN_*.md, benchmarks/gravity/nun_coupling_provenance.py.
+
+### Added (MEM: the pairing confrontation, NUC-027)
+- NUC-027: NUC-024's A-independent 6.11 MeV parity cost confronted against
+  the binned table staggering (six pre-committed A-bins, AME2012, round-2
+  NUC-026 residual). REFUTED: the staggering falls as 1/sqrt(A) at
+  6.6 sigma (chi2 6326 vs 42 at zero parameters); the derived value
+  overshoots its home bin ~9 sigma (estimator sensitivity disclosed). The
+  channel itself is real and sign-stable in every bin. One consolidated
+  demand registered on NUC-021: derive the 1/sqrt(A) dilution of the
+  cross-sublattice cost, covering the asymmetry-magnitude,
+  asymmetry-scaling, and pairing-scaling misses jointly. Files:
+  analysis/MEM_*.md, benchmarks/nuclear/mem_pairing_confrontation.py.
+
+### Added (LAMED: the nuclear residual classifier, NUC-026)
+- NUC-026: blind out-of-sample correlation of the binding residual against
+  six rope-native descriptors (closed list, locked bars, seed-3141 split,
+  permutation null), AME2012, 2398 nuclides. Round 1 (as locked) measured
+  the corrected-both NUC-018 chain at 8.1 percent rms -- baseline
+  miscalibration, confirming NUC-018's own ranking at table scale. Round 2
+  (registry-best chain, locked addendum): DIFFUSE -- joint oos R^2 0.581
+  vs the 0.6 bar, p < 0.001, five sign-stable channels. Priced targets:
+  isospin quartic (coef -47), curvature (+6 MeV), linking (+64), pairing
+  +1.41 MeV (NUC-024's confrontation number), shell -0.15 MeV/valence
+  unit. D7 reconnection-count UNDERSPECIFIED. Annotations to NUC-018,
+  NUC-A, NUC-B, NUC-024. Files: analysis/LAMED_*.md,
+  benchmarks/nuclear/lamed_residual_classifier.py.
+
+### Added (KAF: the bundle-binding relation, FND-052)
+- FND-052: the computation owed by the FND-050 grant, run against locked
+  bars with the exposure branch pre-wired. Verdict UNBOUND-PREDICTED:
+  binding requires x > 4/(k^2+k+1) (0.571 at k=2) against the registered
+  x <= 0.04 domain; sigma_2/sigma_1 = 2.000 misses the pre-committed SU(6)
+  bracket [1.600, 1.767] by +13.2 percent; verdict holds under both quartic
+  signs; the derived law is N-independent against data with b ~ (k-1)/(N-1).
+  First falsification-channel hit under the grant; SU(3) retreat refused;
+  SU(3) single-source content and calibrations untouched. Inverted demand
+  registered (1/N attraction channel, grant-level). Annotations appended to
+  FND-050, FND-048, FND-047, FND-040. Files:
+  analysis/KAF_bundle_binding_bars_LOCKED.md,
+  analysis/KAF_bundle_binding_results.md,
+  benchmarks/foundations/kaf_bundle_binding.py.
+
+### Added (SCALE-001 executed, FND-051)
+- FND-051: Commission SCALE-001 run under the sealed-target protocol.
+  Verdict UNDERSPECIFIED-DOMINANT (5 of 8 classes cannot be written in
+  registered inputs: no crossing disorder, no reconnection rate, no vacuum
+  temperature, no non-circular amplitude, no located coverage) with NULL
+  among the evaluated (C2 = 1.00, C8 = 0.50, C3 = 24.7/42.2 against the
+  unsealed [82.6, 108.0]; look-elsewhere 8.5 percent, disclosed-target
+  condition stated). Failed-and-kept; inverted demands and five acquisition
+  targets registered. Files: analysis/SCALE001_PHASE2_laws.md (locked),
+  analysis/SCALE001_PHASE3_results.md,
+  benchmarks/foundations/scale001_evaluate.py. Annotations appended to
+  FND-044, FND-045, FND-049.
+
 # Changelog
+
+## 3.19.0 (2026-08-11) — THE DICTIONARY CLOSES, THE PHOTON SECTOR OPENS
+Two arcs pointing opposite ways. EM-016, the field-tensor dictionary, went
+from four registered debts to ZERO -- uniqueness (EM-017), phi's channel
+(EM-018), the inertial term's form (EM-019), Sigma's absolute value
+(EM-021), each discharged by theorem with its defeater named in advance --
+and was raised to DERIVED by the author's act (EM-022), with three
+conditionalities on its face and a falsifier armed. The photon sector's
+high-energy failure was prosecuted to exhaustion (FND-058/059/060), had its
+diagnosis CORRECTED by an external reviewer (FND-061: the problem is
+anisotropy, not a Nyquist cutoff on light), and was DISCLOSED under route
+(c) (FND-062) rather than escaped. Also: four commissions independently
+finding missing carriers rather than missing numbers (FND-051/052/053,
+GRV-103); GRANT-N2 adopted and paid (FND-054/055) then failing its own
+blindness audit on a state count (FND-056); the nuclear residual classifier
+and the pairing refutation (NUC-026/027). Three self-corrections registered
+rather than patched, including one against a claim of the same session.
+600 claims (120 Derived, 38 Failed-and-kept). Full notes:
+docs/history/RELEASE_NOTES_v3.19.0.md.
+
+### Patch-level detail for this release (3.18.1 - 3.19.0)
+
+#### grade change (was 3.19.0)
+EM-016 RAISED TO DERIVED (EM-022, author's act). All four registered
+debts of the field-tensor dictionary are discharged by theorem --
+uniqueness (EM-017), phi's channel (EM-018), the inertial term's form
+(EM-019), Sigma's absolute value (EM-021) -- so no identification in the
+mapping from mechanical state to field tensor remains a choice, and
+GG-005's central identification no longer rests on any undischarged
+debt. The grade change is registered as its OWN auditable act rather
+than folded into the discharges, because three of the four were
+produced in the same session and a grade raised by its own
+evidence-producing session cannot otherwise be checked.
+THREE CONDITIONALITIES travel with the label and are written into
+EM-016's title, its note, the paper and the README: (C1) Sigma
+evaluates on a mesh sitting on the kappa_pack floors, held by FND-037's
+Conjecture-grade nonlinearity form, giving a 6.0e36-9.0e37 J/m^3
+spread -- inherited input conditionality, not a logical gap, but a
+Derived grade resting on a partly Conjecture-held chain and the corpus
+does not pretend otherwise; (C2) the inertial coefficient is matched to
+EM-RECON-025 rather than independently derived; (C3) its uniqueness
+assumes locality. FALSIFIER ARMED: if the floors move materially or
+FND-037's form is refuted, the grade returns to adjudication rather
+than keeping the label by seniority. Paper section 4 rewritten and PDF
+regenerated; FND-037 and GG-005 annotated. 600 claims.
+
+#### 3.18.9
+Documentation propagated for the emptied EM-016 ledger.
+- papers/_sources/em_field_tensor_dictionary.docx: section 4 rewritten
+  from "why Modeled and not Derived" to "the four debts, all
+  discharged", each debt retired with its claim, method and residuals,
+  and the history kept rather than erased. PDF regenerated.
+- The paper now carries the downstream correction: EM-RECON-015's
+  vacuum mass density (~1e8 kg/m^3) was computed from the superseded
+  ~1e25 Sigma and is stale by 10-12 orders; the live figures are
+  4.0e18 kg/m^3 on Sigma_eff (matching FND-031's registered fence) and
+  2.0e20 on 3T0/a^2. THE VACUUM-ENERGY PROBLEM IS LARGER THAN THAT
+  CLAIM STATES, NOT SMALLER -- registered as an annotation on
+  EM-RECON-015 and disclosed in the paper.
+- docs/ontology.md pointer updated; README already current.
+- Grade of EM-016 deliberately untouched throughout: it is the
+  author's act.
+
+#### 3.18.8
+EM-021 (Commission HE-2): the Sigma bridge LANDS and EM-016's ledger
+EMPTIES. Sigma_EM is not a free constant -- it is its own definition
+T0 n_L evaluated on the registered mesh (n_L = 1/a^2 per family),
+giving 6.0e36-9.0e37 J/m^3. The ~1e25 that made it look independent is
+a LOWER BOUND saturated by an assumed equality ("EQUALITY = the
+identification", EM-RECON-014's own source) whose warrant QGATE-007
+withdrew -- so the 10.6-order gap is the distance from a bound to a
+value, not a discrepancy. All eight floor x convention x g*
+combinations clear Schwinger by 5-6 orders; FND-031's independently
+registered E_crit = 2.0e23 V/m confirms the corpus had already run this
+confrontation on the right quantity. EM-020's DIFFERENT-OBJECTS verdict
+is CORRECTED in-arc, with the transferable lesson registered: a
+numerical gap is evidence of distinct objects only if both numbers are
+of the same epistemic kind. The approved relabel is no longer needed.
+EM-016's four blockers are all discharged by derivation; ITS GRADE IS
+UNTOUCHED and is the author's call, travelling with the pinned chain's
+conditionalities, the kappa_pack floor spread, EM-019's matched
+coefficient and its locality assumption.
+
+#### 3.18.7
+EM-020 (Commission DALET-2): the Sigma provenance audit the author
+demanded BEFORE the approved relabel could proceed -- and it justified
+the demand. (1) STALE-VALUE ERROR LOGGED: an earlier estimate this
+session called Sigma undecided with an unreachable arbiter, formed from
+EM-016's blocker text without checking the FND-030 series, which had
+already pinned the quantity, paid the downstream bill, confronted an
+out-of-sample prediction, and re-scoped the result. The author caught
+it. Lesson registered: a claim's BLOCKER TEXT ages independently of the
+claims that would discharge it. (2) THE FINDING: EM-016's blocker-(i)
+SIGMA is NOT the pinned Sigma_eff. EM-RECON-014's Sigma_EM ~ 1e25 J/m^3
+sits 10.6 orders below FND-030's lattice-pinned 3.61e35, with the
+vacuum-mesh constructions (T0/a^2, 3T0/a^2) sitting with the pinned
+quantity and no registered conversion spanning the gap. A naming
+collision of the kappa class, disambiguated as Sigma_eff vs Sigma_EM.
+Sigma_EM's only quoted determination is superseded (QGATE-007).
+(3) THE RELABEL'S SHAPE CHANGES: it was framed against the wrong
+object; correctly scoped it concerns Sigma_EM and must disclose the
+superseded pin. NOT executed -- the Sigma_EM <-> Sigma_eff bridge is
+open and tractable and should be attempted first; if it lands, EM-016
+has no blockers left.
+
+#### 3.18.6
+EM-019 (Commission GIMEL-2): the inertial term's FORM derived,
+discharging EM-016's blocker (ii). The locked bar forbade the easy
+Newtonian move in advance -- FND-REL-002 and EM-RECON-012 rule out
+material velocity -- and what works instead is that the SAME shift
+symmetry which forbids the mass term PERMITS the inertial one: a gauge
+label's rate of change is observable even when the label is not.
+Computed: under a -> a + c_0 the mass term changes by c_0(c_0+2a)/2 and
+the mixed term by c_0 da/dt, while (da/dt)^2 and (grad a)^2 are exactly
+invariant. At two-derivative order only EM-007's stiffness and the
+inertial term survive; anisotropic and nonlocal kernels excluded (the
+latter by a locality assumption stated, not smuggled). Coefficient
+matched to EM-RECON-025's registered branch rather than independently
+derived -- registered as partial. EM-016's ledger falls from FOUR
+blockers to ONE in a single day; every identification in the dictionary
+is now forced, and the grade stays Modeled because the last item
+(SIGMA) awaits an author DECISION about labelling, not a computation.
+
+#### 3.18.5
+EM-018 (Commission BET-2): phi's channel identification DERIVED by
+elimination, discharging EM-016's blocker (iii). Over the closed
+inventory {transverse, longitudinal, screw}: the transverse carrier is
+excluded by a computed Helmholtz argument (k.e = 0 => divergence-free;
+curl-free and divergence-free subspaces meet only at zero, so a gradient
+E has zero projection onto it); the screw mode is excluded structurally
+(it carries winding -- it IS the charge); the longitudinal channel is
+the only survivor, and its gaplessness -- derived in EM-RECON-012 for an
+unrelated reason (u is gauge, no mass term is writable) -- is exactly
+what long-range Coulomb requires, since a gapped mediator gives Yukawa.
+EM-016's ledger falls from four blockers to two in one day; GRADE
+UNCHANGED. Remaining: (i) SIGMA is an input, (ii) EM-010's inertial term
+is assumed. Part B (audit only, not adopted): SIGMA passes all three of
+the corpus's own tests for a calibration input; recommendation to
+relabel it is on the author's desk, with the caution that any relabel be
+registered as its own act rather than function as a quiet upgrade path.
+
+#### 3.18.4
+EM-017 (Commission ALEPH-2): the field-tensor dictionary's UNIQUENESS
+derived, discharging EM-016's blocker (iv). Any mechanical assignment
+predicting the same force on every test winding at every velocity gives
+the same (E, B) pointwise -- E from the static probe under the
+registered operational definition, B by explicit inversion of v x B on
+three independent velocities (residual 3.8e-16, no velocity-degeneracy),
+F_munu pointwise, potentials up to gauge via Poincare on EM-003's
+dF = 0. The duality escape, pre-named in the locked bar as the
+defeater, fails arithmetically and structurally (winding is the only
+registered charge; no monopole). EM-016's ledger drops from four
+blockers to three; ITS GRADE IS DELIBERATELY UNCHANGED -- upgrading on a
+partial discharge would be bar-shopping. README's electromagnetism
+paragraph sharpened accordingly: the dictionary is not arbitrary, it is
+pinned up to one undetermined calibration constant.
+
+#### 3.18.3
+README staleness fixed AT THE ROOT. The README was showing version
+3.15.0 and 577 claims against a 3.18.x, 594-claim corpus -- and no tool
+could have caught it, because README.md was never in
+`sync_doc_facts.py`'s target list and carried no generated markers.
+Fixed: README added as a sync target; two new generators
+(`version`, sourced from pyproject.toml so it cannot drift from the
+packaged version, and `status_breakdown`); markers inserted for the
+version line, the discipline paragraph's counts, and the corpus-state
+line. `sync_doc_facts.py --check` now reports DRIFT on a stale README,
+verified by test. Also corrected the electromagnetism sentence, which
+compressed two distinct derivations into one clause: optics follows
+from the transverse wave equation d^2 s/dt^2 = (T0/mu) grad^2 s, while
+the Maxwell equations are reached separately via Bianchi + Chern-Weil
+(EM-003, Derived) with a Modeled field-tensor dictionary -- and the
+paragraph now points at the disclosed photon-sector limitation instead
+of claiming unqualified strength. The "edges" paragraph gains the two
+grants adopted this arc and their outcomes.
+
+#### 3.18.2
+CI FIX, no physics change. `benchmarks/foundations/matter062_settler.py`
+was tripping the verifier's 300 s per-benchmark timeout on GitHub's
+runner (269 s locally, no margin). Two pure-performance edits, both
+NUMERICALLY IDENTICAL and verified byte-for-byte against the
+pre-optimisation script: (1) the contact block is restricted to
+midpoints inside the cutoff the code already gated on with
+np.where(r2 < (6 sigma)^2) -- the inclusion lies on the z-axis, so
+r2 >= rho2 and rows with rho2 above the cutoff contributed exactly zero
+already; (2) the projection loop computes its norm via einsum with
+fewer temporaries. Runtime 269 s -> 103 s (2.9x headroom under the
+limit). FND-MATTER-062's registered numbers (Q = 0.0000, Delta L/L =
++6.5e-3 free / +3.5e-3 tight) are unchanged, as they must be.
+
+#### 3.18.1
+ROUTE (c) ADOPTED -- the photon sector's high-energy failure registered
+openly. FND-061 (Commission TAV, UV-MODE-001): an external reviewer's
+premise-attack LANDS as a scope correction -- FND-060 bounded the
+nearest-neighbour lattice displacement field, while EM-RECON-025's
+registered light branch is omega^2 = (T0/mu) q^2, continuum in q with no
+Brillouin cutoff (crossings couple, they do not sample). The implication
+that FND-060 bounded LIGHT is withdrawn. The escape closes anyway on
+FND-059's isotropy ground, and the demand is RESTATED from "supply a
+length below 1.41e-22 m" to "supply ISOTROPY at high k" -- a strictly
+wider target. FND-062 (author's decision): the limitation is disclosed
+in KNOWN_LIMITATIONS at full volume, with its number, its diagnosis,
+its four closed escapes, its precise scope (the transverse-wave
+mechanics are NOT refuted; every result at accessible energies stands),
+and the process failure that let it sit unadjudicated. 594 claims.
+
+## 3.18.0 (2026-08-11)
+THE LENGTH INVENTORY FAILS: eleven commissions (SCALE-001..SHIN), five
+kept failures, two author grants. Four independent commissions found the
+ontology missing CARRIERS rather than numbers (SCALE-001's five
+unposable channels; KAF's free bundles; SAMEKH's group-theoretic
+closure; NUN's elimination to twist). GRANT-N2 adopted and its
+acceptance test PAID (Casimir derived exactly, zero fitted coefficients)
+-- then its owed audit found dynamical labels give the light carrier 2N
+polarizations against a measured 2. The photon sector's three-pin fork
+was adjudicated and BOTH escapes closed, the second on the corpus's own
+Derived isotropy; the operator-shaped fix then closed as a CLASS
+(E_max ~ hbar c/a for any coupling range, ordered or disordered). The
+problem's sharpest form: a <= 1.41e-22 m, five orders below the mesh
+spacing, with both registered lengths electron-anchored so neither is
+free. Nuclear: the residual classifier returned DIFFUSE with a priced
+channel list, and NUC-024's pairing form was refuted at 6.6 sigma.
+592 claims (116 Derived, 38 Failed-and-kept). Full notes:
+docs/history/RELEASE_NOTES_v3.18.0.md.
+
+- FND-050: THE N-UNIVERSALITY GRANT (author's decision, Mark Palmer,
+  2026-08-11). The softening/recruitment mechanism is claimed
+  SU(N)-universal, not SU(3)-scoped: the derivations reference no
+  colour number and the corpus declines an N-dependence they do not
+  exhibit. Price on the face: the framework now OWES the bundle-binding
+  relation and owns the k-string sector as a live falsification
+  channel; retreat to SU(3) scope afterwards is refused in advance as
+  bar-shopping. Calibrations remain SU(3)-anchored. Pointers filed on
+  FND-037/040/047/048; KNOWN_LIMITATIONS and Prediction 20 updated.
+- HANDOFF.md added: complete next-session package (state, the
+  FND-041..050 arc, SCALE-001's sealed protocol and Phase 2
+  instructions, the grant and what it owes, the ranked queue with the
+  frame-dragging reframing, housekeeping, and two live cautions).
+- FND-049 (Open): COMMISSION SCALE-001 chartered -- the Emergent
+  Mesoscopic Length Audit, the corpus's first BLIND-TARGET commission.
+  Eight mechanism classes frozen with their licensing claims; scaling
+  laws must be written in registered inputs and hashed before any
+  evaluation; target sealed by tools/scale001_seal.py, which refuses to
+  unseal until Phase 2 is locked and refuses if the laws changed after
+  locking. Four-way verdict grammar including NULL as a first-class
+  finding (the one-number compression as bookkeeping). Charter:
+  docs/commissions/COMMISSION_SCALE-001_emergent_length.md. External
+  reviewer's framing adopted with attribution; their frame-dragging
+  priority reordered and reframed per GRV-071's absent-coefficient
+  finding.
+- New paper: **The Rope Programme: Formula Compendium**
+  (papers/rope_formulas.pdf, source papers/_sources/rope_formulas.docx).
+  Sector-organised reference for every load-bearing relation in the
+  corpus -- foundations, EM and the alpha chain, light/optics, gravity,
+  the vacuum tower, the quantum boundary, nuclear, matter/chemistry,
+  thermodynamics -- each entry stamped with its claim ID and status
+  grade, closing with the falsifiable relations and an explicit
+  open-numbers inventory. Indexed in docs/PAPERS.md.
+- Formula Compendium correction (same session, caught by the author):
+  the light section originally read "a transverse two-strand torsion
+  wave," conflating two carriers and repeating GRV-020 Corollary 1's
+  over-reach that EM-RECON-022/023 killed (one polarization state vs
+  two; kill class 4) and EM-RECON-025 resolved. Corrected: the carrier
+  is the COLLECTIVE TRANSVERSE Goldstone pair; the screw/torsion mode
+  keeps charge (winding), not light. Live carrier conditions (bending
+  falsifier, three-pin fork, dispersive-spacing cost) now stated.
+
+## 3.17.0 (2026-08-11)
+THE VACUUM TOWER PROSECUTED: nine commissions (GIMEL..YOD + paper sync).
+The refusal dissolved, the window retired, five questions collapsed to
+one (g), the defect-log mechanism excluded (Failed-and-kept), the
+prediction sharpened to pure-linear, the kappa_pack pin registered and
+confronted (decision table vs Bali 2000), and the k-string flag
+re-priced as a category error. 577 claims (116 Derived, 34
+Failed-and-kept); 539 code-backed, all passing. Full notes:
+docs/history/RELEASE_NOTES_v3.17.0.md.
+- FND-048 (Commission YOD, Modeled): what a k-string IS -- a BUNDLE,
+  by standard physics (N-ality/screening) and the corpus ontology
+  (winding = additive integer, GG-006) independently. The FND-047 flag
+  re-prices: the sine-law data measures tube binding, not single-source
+  softening ("measured contradiction" was a category error). The
+  softening's qualitative bundle prediction (attraction, sub-additivity)
+  passes on every (N, k) row under both laws. New named frontier: the
+  bundle-binding relation from the derived quartic, confronting
+  sine-vs-Casimir blind. Pin and decision table untouched; scope
+  question open with stakes re-priced. 577 claims; 539 code-backed.
+- Pre-release paper/doc sync: falsifiable_predictions gains PREDICTION 20
+  (the Casimir-scaling violation with pin, decision table, falsifiers,
+  and the scope flag; title count 19 -> 20), the stale Sigma >= 5.1e35
+  lines corrected to the pinned 3.61e35 band, and the drift ratio's
+  second job added. ROPE_PARAMETERS.md l_q/a column corrected
+  (158/271 stale values -> 82.6/108.0, window-retired note, kappa_lock
+  and kappa_pack-routes sync note). KNOWN_LIMITATIONS gains the
+  vacuum-tower section (conditional tower, g unexplained with the
+  FND-045 exclusion, N-universality scope open). Generated stats blocks
+  re-synced; README/STATE prose counts reconciled to the registry
+  authority (576 claims, 538 code-backed by the tool's count).
+- FND-047 (Commission TET, Modeled): the pin meets the lattice --
+  CONSISTENT-AND-ARMED. Bali's continuum bound (violations <= 5% to
+  1 fm) inverts to kappa_pack >= 12.5: both readings survive, nothing
+  tightens. Decision table registered: 1.25% decides the 5% CS floor,
+  0.25% reaches the continuum reading (achievable modern lattice
+  work). FLAG at full volume: SU(N>=4) k-strings favor the sine law
+  (+8.3% above antisymmetric-Casimir at SU(6), ~2% errors) -- opposite
+  to BET's derived softening -- confrontable only under an
+  N-universality premise the registry never adopted; the scope
+  question is registered load-bearing and OPEN (author's call).
+  576 claims; 538 code-backed. The arc FND-041..047 is complete:
+  cut v3.17.0 fresh.
+- FND-046 (Commission CHET, Modeled): the correlated-coefficients
+  relation returns PURE-LINEAR -- the quartic-Casimir component is
+  ZERO at leading order (mean-field quartic central at C2^2; the
+  ordering-allowing C_A piece rep-independent; d^abcd needs
+  path-ordered multi-exchange beyond the ansatz). ALEPH's W2 corrected
+  (fifth self-correction); the prediction sharpens to
+  C2-linear-dominant with suppressed quartic; kill conditions
+  restated. THE PIN registered: kappa_pack = (C_D/C_f - 1)/
+  (2|delta_D - delta_f|), forward delta_A - delta_F = -1.25% / -0.25%
+  at the floors -- the third external kappa_pack route and the only
+  one with an existing lattice technique. 575 claims; 552 code-backed.
+- FND-045 (Commission ZAYIN, FAILED and kept): the defect-exponent
+  computation misses structurally -- nine pre-committed cells span
+  x = 0.10-2.00 against the 4.41-6.40 bar (chance rate exactly zero;
+  registered budgets top out at m_e c^2 = 2 pi K). The energy-budget
+  defect-log class is excluded as the g-mechanism; the electron's rest
+  energy exhausts its own logarithm at 7.4 cells vs the 82.6-108.0
+  target. Inverted demand registered: a rescue must derive a budget of
+  2.2-3.2 m_e c^2 blind. Convergence with MATTER053: the answer points
+  into the ambient weave. The arc's first kept failure, at brick 23.
+  574 claims (34 Failed-and-kept); 551 code-backed.
+- FND-044 (Commission VAV, Modeled): the N computation. eta = 1 was
+  already registered (ETA), so N = 2g^2 -- the everything-brick is the
+  g-mechanism residual wearing four names (L1 area selection, vacuum
+  packing, amplitude selection, lambda: ONE question). DICT's
+  composition table dies whole (all O(a) vs g = 82.6/108.0 determined);
+  ETA's bounds become determinations (kappa_lock = 1.96e20/5.74e20
+  J/m^2 predicted); the MeV-adjacency dissolves as the identity
+  J = m_e c^2/(2L) = 81.4 keV (sixth catch); the g-mechanism target
+  sheet issued (defect-log exponent 4.4-6.4 in pi K, registered
+  machinery). Guard disclosure on the face. 573 claims; 550
+  code-backed. FND-041..044 ship as one arc. Next: the defect-exponent
+  computation, bar pre-committable.
+- FND-043 (Commission HE, Modeled): the area-selection attempt, verdict
+  NARROWED. l_q's provenance (PRED-003-DICT/LOCK) gives it registered
+  structural content one number short: selection reduces to the locking
+  normalization N = 2(l_q/a)^2 = 3698 kappa_pack^(1/3) (1.4e4 / 2.3e4
+  at the floors). N derived => kappa_pack measured; the sole T1's drift
+  ratio doubles as packing metrology (second external route). Soft-
+  channel confrontation armed: N ~ 1e4 demands eta >> 1 or the
+  sqrt(l_lock a) reading dies at number level. The r_e/2 whisper (1.4%)
+  guard-capped, parked with its tension displayed (conditional kappa =
+  38, below the 5% floor). 572 claims; 549 code-backed. FND-041/042/043
+  ship together. Next: the N computation (the everything-brick).
+- FND-042 (Commission DALET, Modeled): the window adjudicated HALF-WINDOW.
+  Lower edge supported (cutoff + n_q<=1, both computed as lower bounds);
+  the upper edge retires as grammar; FND-041's kappa_pack <= 157 cap
+  WITHDRAWN same-arc, continuum reading un-excluded, refusal count zero.
+  The Branch-B tracking bracket refused as a constraint per the fourth
+  guardrail. Constructive residue: kappa_pack = (l_q/a / 43.0)^6 -- the
+  ratio becomes a packing instrument (x6 sensitivity). 571 claims;
+  548 code-backed. FND-041/042 ship together or not at all.
+- FND-041 (Commission GIMEL, Modeled): the whisper-pricing re-audit. The
+  tower's sole refusal (l_q/a = 158/271) DISSOLVES as a stale-value
+  comparison -- l_q rescales with the mesh by R1's own registered form;
+  true ratios 82.6 (inside) / 108.0 (marginally outside). Sixth-root law
+  l_q/a = 43.0 kappa_pack^(1/6); the 1-100 window (GRV-093-arc grammar,
+  never derived) converts to the arc's first UPPER bound, kappa_pack <=
+  157: the 5% CS-bound floor coexists, the continuum reading is excluded
+  at the window's grade; if genuine, 50 <= kappa_pack <= 157 and
+  Sigma_vac in [1.81e37, 5.7e37] J/m^3. n_q invariance re-verified;
+  MATTER046's dissolution stands. Corrections filed against FND-038,
+  FND-040, FND-MATTER-044. 570 claims (117 Modeled... see registry);
+  547 code-backed. Next-orders: derive-or-retire the window (rank 1);
+  correlated coefficients; HBAR-005 refresh.
+
+## 3.16.2 (2026-08-11)
+THE VACUUM TOWER: four commissions (PSI/OMEGA/ALEPH/BET) raise, test, and
+sign the conditional structure above Sigma_eff. 569 claims (116 Derived,
+33 Failed-and-kept); 546 code-backed, all passing.
+
+- FND-037 (PSI, Derived): Casimir recruitment n_D ~ C_D DERIVED -- linearity
+  wearing group theory; UPSILON's vacuum-packing failure explained; kappa_pack
+  inverts from open factor to Conjecture-grade floor. Merged at current face
+  (sign and floor per FND-039/040).
+- FND-038 (OMEGA): the vacuum-facing re-solve. No collision -- the m_e chain
+  re-solves inside the Lorentz bound; the perturbative-hierarchy tension
+  DISSOLVES; kappa_0 third-generation pointers filed; one refusal: l_q/a
+  exits its 1-100 window.
+- FND-039 (ALEPH): the prosecution. FND-037 WOUNDED -- the underived
+  positive-sign clause retracted against the three-loop violation (negative,
+  quartic); the floor survives sign-independently; refined prediction:
+  correlated C2-linear + quartic components at long distance.
+- FND-040 (BET, Derived): the sign DERIVED -- inextensible constant-tension
+  strands soften by pure arc-length geometry (-eps/2), matching the resolved
+  perturbative direction; floor honestly weakens to kappa_pack >= 50/250;
+  M-point becomes a function of kappa_pack (table on the parameter card).
+- Annotations: EM-RECON-027/029 (3rd-gen kappa_0), FND-MATTER-044 (M-point =
+  kappa_pack=1 special case), FND-KIN-001 (first load-bearing forward use).
+- New benchmarks: psi_casimir_derivation, omega_vacuum_resolve, aleph_attack,
+  bet_sign_derivation, plus upsilon/phi/chi from v3.16.1.
+- Named next-orders: the whisper-pricing re-audit (owns the l_q/a refusal);
+  the correlated-coefficients relation; resolved CS-violation data on arrival.
+
+
+## 3.16.1 (2026-08-10)
+THE WOUND, THE HARDENING, AND THE FIRST KILL: three commissions (UPSILON,
+PHI, CHI) that cut into v3.16.0's headline and left the corpus stronger.
+
+- 565 registered claims; 541 code-backed, all passing; 33 Failed-and-kept.
+- FND-034 (UPSILON): the additivity stress-test. The "0.02% closure" of
+  FND-033(c) exposed as a construction tautology (second in-arc correction);
+  the Casimir profile data (constant 9/4 density ratio, same shape) BREAKS
+  the vacuum-packing assumption at -33%. The pinned band is RE-SCOPED:
+  3.61-3.70e35 J/m^3 stands as Sigma_eff (tube tension density, measured
+  three ways); Sigma_vac = Sigma_eff/kappa_pack with kappa_pack >= 1 OPEN.
+  Untouched: the 5.1e35 demotion, all R_eq checks, RHO's prediction (exact
+  cancellation). Conditional: kappa_0, the fence, the M-point T0.
+- FND-035 (PHI): the verdict HARDENS on peer-reviewed data ("identical
+  shape ... different density"); the finite-T route closes itself; the
+  hard-core ceiling priced (~1e5, declared weak); and additivity violation
+  gets its first measured number, +12.5% super-additivity at 2.25x
+  compression -- later re-read by CHI.
+- FND-036 (CHI, Failed-and-kept, the arc's first kill): the pairwise-
+  contact delta(kappa) model, calibrated on the adjoint, dies on the
+  sextet -- Casimir scaling (Bali, continuum, violations < 5%) leaves no
+  room for contact binding; 5/5 non-calibration representations outside
+  the bound. Strand additivity survives as a PACKAGE with recruitment
+  n_D ~ C_D, bounded at 5% across seven representations. The sector's
+  sharpest open question: WHY does strand count follow the Casimir? (The
+  mainstream literature's name for the surviving picture: the rope model.)
+- Parameter card: Sigma row split into Sigma_eff (pinned) and Sigma_vac
+  (conditional, kappa_pack open).
+- New benchmarks: upsilon_additivity, phi_packing_bound, chi_delta_kappa.
+- Named next-orders: derive n_D ~ C_D from registered flux/topology claims;
+  the kappa_fund observable; the vacuum-facing re-evaluation once any
+  kappa_pack bound exists.
+
+
+## 3.16.0 (2026-08-10)
+THE SIGMA ARC: eight chartered commissions (MU/NU/XI/OMICRON/PI/RHO/TAU plus
+the parameter-card collapse), bars locked before every computation, one
+in-arc self-correction filed against the arc's own drafts. Sigma is PINNED.
+
+- 562 registered claims (114 Derived, 402 Modeled, 4 EFT-constrained,
+  4 Conjecture, 6 Open, 32 Failed-and-kept); 538 code-backed, all passing.
+- THE PINNING (FND-030, Commission MU): the 28% two-candidate tension was ONE
+  relation, Sigma = 3 T_tube/(n a^2), evaluated at a dead strand count. The
+  5.10e35 registration rested solely on n_t = 111 -- killed twice since
+  registration (reconnection derivation; +17-19% one-signed structural
+  exclusion) -- and is demoted to historical by the pre-locked
+  kill-inheritance rule. Sigma = 3.61-3.70e35 J/m^3, measured not derived.
+- THE DOWNSTREAM BILL PAID (FND-031, Commission NU): all four claim groups
+  conditioned on 5.1e35 re-evaluated at both band edges; zero FLIPPED
+  verdicts; the vacuum fence EASES 25x -> 17.5-17.9x nuclear (first line in
+  that invoice ever to fall); the one-number lock RESOLVES, kappa_0 =
+  1.66-1.68e-4 m^3/(s C); EM-RECON-027's 26-50 bound caught stale at
+  registration (Schwinger-form band) and superseded, pointers filed.
+- THE PARAMETER CARD COLLAPSED: Sigma column pinned, branch structure retired
+  to historical, kappa_0 added; verifier extended to fail on resurrection.
+- THE EXTERNAL CHECKS RUN: partial independence (ELEC-085, Commission XI:
+  same-group different-ensemble Clem fits, tier-2 CONFIRMED at -3.0%,
+  implementation validated against the source's own widths to 0.2%; one
+  in-session definition error caught by the bars before any verdict);
+  full collaboration independence (ELEC-086, Commission OMICRON: conversion
+  locked while the data was inaccessible, numbers then reconstructed exactly
+  from the arXiv 1302.3633 source package -- intrinsic point CONFIRMED at
+  -4.0%, the R-growing excess located as the source's own quantum widening);
+  and the de-convolution (ELEC-087, Commission PI: second moments add
+  exactly under convolution -- CONFIRMED across the full widening-onset
+  anchor bracket at the verdict-bearing distances, discharging OMICRON's
+  interpretive step by computation; quenched-vs-dynamical width difference
+  now MEASURED at 5-18%, right sign).
+- THE OUT-OF-SAMPLE PREDICTION PASSES (FND-032, Commission RHO): one-medium
+  Sigma-universality forces the entire quark-mass width shift into the
+  string tension; sigma_dyn/sigma_quench predicted in [1.06, 1.22] before
+  the literature search; TUMQCD physical-mass continuum results deliver
+  1.08-1.20 on the width data's own scale dictionary. The one-medium
+  declaration's first purchased result.
+- THE FORK AUDIT AND SELF-CORRECTION (FND-033, Commission TAU): the
+  "load-bearing assumption" caveat carried on every arc face was STALE --
+  ELEC-053 had derived the identification before the arc began; correction
+  pointers applied to all six drafts at this merge; the load relocates to
+  additivity (registered) and the strain calibration (registered); the
+  amplitude-weighting alternative killed by EM-RECON-014, priced at 1.19e35.
+- New benchmarks: mu_sigma_provenance, nu_downstream_sweep,
+  xi_independent_confrontation, omicron_independent_converter,
+  pi_deconvolution, rho_mass_dependence, tau_fork_audit (foundations/).
+- Named next-orders: the additivity stress-test (does FND-029's inter-strand
+  E_x channel break exact additivity at the percent level; the 0.02%
+  n T0 = T_tube closure may already bound it); the 160 MeV width
+  non-monotonicity; any new physical-mass lattice determination to be run
+  through the XI machinery on arrival.
+
 
 ## 3.15.0 (2026-08-10)
 THE ELECTROMAGNETIC ARC: five chartered commissions (N/K/THETA/IOTA/LAMBDA),
