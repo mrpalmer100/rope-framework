@@ -1,56 +1,53 @@
-UPLOADING v3.19.0 -- DELTA SINCE v3.15.0 (the version live on GitHub)
-=====================================================================
+v3.19.1 -- PHRASING CORRECTION ONLY (7 files)
+=============================================
 
-197 files. Nothing in this range was DELETED or RENAMED in the repo, so a
-merge-style upload produces a correct repository. You do NOT need to
-upload the other ~1500 unchanged files.
+You have already uploaded everything through v3.19.0. This package
+contains ONLY the files changed by the photon-sector phrasing
+correction plus the version bump.
 
-GitHub's web uploader caps at 100 files per commit, so this is TWO
-commits. Use github.com -- NOT the VS Code remote-repo extension, which
-prompts once per existing file. The web uploader has NO overwrite prompt.
+WHAT CHANGED AND WHY
+--------------------
+The README, KNOWN_LIMITATIONS and the v3.19.0 release notes said the
+medium "cannot host" the observed PeV photons. That asserts a proof of
+impossibility. What was actually established is narrower and true: the
+medium AS CURRENTLY SPECIFIED has no way to carry them -- a failure of
+the registered length inventory, with two candidate fixes (strand
+substructure below the measured thickness; a second carrier for the
+high-energy quanta) still open and unattempted, and FND-061 having
+widened the target from "find an impossibly small length" to "supply
+isotropy at high k".
+
+No claim text and no registered result changed. The underlying claims
+(FND-058/059/060/061/062) always carried the correct scope on their
+faces; the overstatement was only in the summary documents.
+
+FILES (7)
+---------
+  README.md                              corrected paragraph
+  KNOWN_LIMITATIONS.md                   corrected first section
+  CHANGELOG.md                           3.19.1 entry
+  CITATION.cff                           version -> 3.19.1
+  pyproject.toml                         version -> 3.19.1
+  docs/history/RELEASE_NOTES_v3.19.0.md  corrected Part II
+  docs/STATE_OF_THE_PROGRAMME.md         regenerated counts
 
 ROUTE
 -----
-On github.com/mrpalmer100/rope-framework:  Add file -> Upload files
+github.com/mrpalmer100/rope-framework -> Add file -> Upload files
 
-COMMIT 1 (95 files) -- the evidence
-    Drag the folder:  analysis
-    Commit message:   v3.19.0 (1/2) - commission bars and results
+Drag the 5 loose root files, then the "docs" folder (it contains only
+the two files listed above and will merge, not replace).
 
-COMMIT 2 (102 files) -- code, docs, papers, registry
-    Drag the folders: benchmarks, docs, papers, tools, .github
-    Then the 9 loose root files (claims.yaml, README.md, CHANGELOG.md,
-    HANDOFF.md, KNOWN_LIMITATIONS.md, CITATION.cff, pyproject.toml,
-    and any others at the top level here)
-    Commit message:   v3.19.0 (2/2) - dictionary closes, photon sector disclosed
+Commit message:
+  v3.19.1 - photon sector phrasing: open problem, not settled negative
 
-  If commit 2 is refused for exceeding 100, split it: benchmarks first
-  (51), then docs+papers+tools+.github+root (51).
+Well under the 100-file cap; one commit.
 
-IMPORTANT
----------
-Drag the FOLDERS THEMSELVES from inside this package (analysis,
-benchmarks, ...), not the folder that contains them. Paths must land as
-analysis/... and NOT as d2/analysis/...
-
-The uploader recurses into folders and preserves structure.
-
-AFTER UPLOADING -- SPOT CHECK
------------------------------
-  pyproject.toml   version = "3.19.0"
-  CITATION.cff     version: 3.19.0
-  claims.yaml      contains  id: EM-022     (the 600th claim)
-  README.md        links RELEASE_NOTES_v3.19.0.md
-  docs/history/    contains RELEASE_NOTES_v3.16.0 through v3.19.0
+IMPORTANT: drag the folder "docs" itself, not the folder containing it,
+so paths land as docs/... and not d3/docs/...
 
 RELEASE
 -------
-Releases -> Draft a new release -> tag v3.19.0 ->
-paste the body from GITHUB_RELEASE_v3.19.0.md
-
-WHY THIS IS SAFE
-----------------
-A merge upload cannot delete. It is correct here only because no file was
-removed or renamed between v3.15.0 and v3.19.0. If a future arc deletes
-or renames anything, that will be stated explicitly at package time and
-those files must be deleted by hand in the web UI.
+If you already published the v3.19.0 release, either edit its body with
+the corrected GITHUB_RELEASE_v3.19.0.md, or leave it and let the repo
+carry the corrected text. Both are defensible; editing is tidier.

@@ -18,7 +18,7 @@ FND-059/060 recommendation).**
 
 **The statement.** Ultra-high-energy photons are routinely observed — LHAASO's
 Galactic PeV gamma rays at ~1.4×10¹⁵ eV, arriving from sources distributed
-across the sky. **The registered medium cannot host them.** The requirement is:
+across the sky. **The medium as currently specified has no way to carry them** — a failure of the registered length inventory, not a demonstration that no rope medium could. The requirement is:
 
     transverse coherence sampled at ≤ ħc/E_obs = 1.41e-22 m
 
@@ -56,7 +56,7 @@ The collective mode exists, propagates, carries exactly two polarizations, and
 supports the derived couplings; **every result at accessible energies stands
 untouched.** The failure is at one end of one axis, by a stated number.
 
-**What a fix must supply:** isotropy at high k. A finer constituent spacing
+**This is an open problem under active work, not a dead end.** What a fix must supply is isotropy at high k. A finer constituent spacing
 would do it; so might any structure that removes the preferred strand
 directions at short wavelength. The remaining candidates each cost a new
 primitive — strand substructure below the measured d_c (which must also explain

@@ -201,6 +201,20 @@ docs/history/RELEASE_NOTES_v3.19.0.md.
 
 ### Patch-level detail for this release (3.18.1 - 3.19.0)
 
+#### 3.19.1 — phrasing correction (photon sector)
+The README, KNOWN_LIMITATIONS, and the v3.19.0 release notes stated that
+the medium "cannot host" the observed PeV photons. That asserted a proof
+of impossibility, when what was established is narrower and true: the
+medium AS CURRENTLY SPECIFIED has no way to carry them -- a failure of
+the registered length inventory, with two candidate fixes (strand
+substructure; a second carrier) open and unattempted, and FND-061 having
+widened the target from a length to isotropy at high k. Corrected in all
+four documents to read as an open problem under active work rather than
+a settled negative. No claim text or registered result changed; the
+underlying claims (FND-058/059/060/061/062) always carried the correct
+scope on their faces.
+
+
 #### grade change (was 3.19.0)
 EM-016 RAISED TO DERIVED (EM-022, author's act). All four registered
 debts of the field-tensor dictionary are discharged by theorem --
