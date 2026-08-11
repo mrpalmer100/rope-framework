@@ -79,10 +79,14 @@ def total_length(X_list):
 
 def project_lengths(Xs, RESTs):
     """Gauss-Seidel projection of every segment to rest length; anchors fixed."""
+    # PERFORMANCE (2026-08-11): same arithmetic, fewer temporaries --
+    # the norm is computed as sqrt(sum d*d) rather than via np.linalg.norm
+    # and the scale factor is applied in one fused multiply. Verified
+    # identical to the pre-optimisation script to full printed precision.
     for _ in range(PROJ_ITERS):
         d = Xs[:, 1:] - Xs[:, :-1]
-        L = np.linalg.norm(d, axis=2) + 1e-15
-        corr = 0.5 * (L - RESTs)[..., None] * d / L[..., None]
+        L = np.sqrt(np.einsum('sij,sij->si', d, d)) + 1e-15
+        corr = d * (0.5 * (L - RESTs) / L)[..., None]
         # node i: +corr_i (left end of seg i), -corr_{i-1} (right end of seg i-1)
         Xs[:, 1:-1] += corr[:, 1:] - corr[:, :-1]
     return Xs
@@ -95,13 +99,30 @@ def step_stack(Xs, RESTs):
     bl[:, 1:-1] = lap[:, 2:] - 2 * lap[:, 1:-1] + lap[:, :-2]
     G += KB * bl
     m = 0.5 * (Xs[:, :-1] + Xs[:, 1:])
-    D = m[:, :, None, :] - inc[None, None, :, :]
-    r2 = np.sum(D * D, axis=3)
-    r = np.sqrt(r2) + 1e-12
-    rc = np.minimum(r / SIG, 50.0)               # clamp to avoid overflow far away
-    u = rc**4
-    w = np.where(r2 < (6.0 * SIG)**2, -AC * 4.0 * u / (SIG * rc * (1.0 + u)**2) / r, 0.0)
-    fm = np.einsum('snm,snmk->snk', w, D)
+    # PERFORMANCE (2026-08-11, CI timeout fix -- NUMERICALLY IDENTICAL):
+    # the contact term is already gated by np.where(r2 < (6 sigma)^2, ...),
+    # so every midpoint whose transverse distance to the inclusion axis
+    # already exceeds 6 sigma contributes EXACTLY ZERO. The inclusion is a
+    # straight segment on the z-axis (x = y = 0 by construction), hence
+    # r2 = m_x^2 + m_y^2 + (m_z - z_j)^2 >= rho2, and rho2 >= (6 sigma)^2
+    # kills the whole row. Restricting the O(N_mid x N_inc) block to the
+    # surviving midpoints changes no arithmetic, only how much of it is
+    # skipped. Verified against the pre-optimisation script: identical
+    # Q, Delta L/L, and per-checkpoint probe/total to full printed
+    # precision.
+    CUT2 = (6.0 * SIG) ** 2
+    rho2 = m[:, :, 0] ** 2 + m[:, :, 1] ** 2
+    cand = rho2 < CUT2
+    fm = np.zeros_like(m)
+    if np.any(cand):
+        mc = m[cand]                              # (P, 3)
+        D = mc[:, None, :] - inc[None, :, :]       # (P, N_inc, 3)
+        r2 = np.sum(D * D, axis=2)
+        r = np.sqrt(r2) + 1e-12
+        rc = np.minimum(r / SIG, 50.0)             # clamp to avoid overflow far away
+        u = rc**4
+        w = np.where(r2 < CUT2, -AC * 4.0 * u / (SIG * rc * (1.0 + u)**2) / r, 0.0)
+        fm[cand] = np.einsum('pm,pmk->pk', w, D)
     G[:, :-1] += 0.5 * fm
     G[:, 1:] += 0.5 * fm
     G[:, 0] = 0.0
