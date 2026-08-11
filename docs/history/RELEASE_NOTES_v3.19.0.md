@@ -72,8 +72,10 @@ session cannot otherwise be checked.
 ## Part II — The photon sector, prosecuted and disclosed
 
 Ultra-high-energy photons (LHAASO's Galactic PeV gamma rays, arriving from
-across the sky) **cannot be hosted by the registered medium**. Four escapes
-were prosecuted and all four closed:
+across the sky) **cannot be carried by the medium as currently specified**. Four escapes were
+prosecuted and all four closed, which is what makes the problem sharp rather
+than vague -- the failure is of the registered length inventory, not a proof
+that no rope medium could do it:
 
 - the loaded continuum (`FND-058`) — removes the lattice, not the strands;
 - the collective mode (`FND-059`) — anisotropic, contradicting the corpus's
