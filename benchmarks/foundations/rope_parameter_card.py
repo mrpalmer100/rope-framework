@@ -12,14 +12,19 @@ K_OVER_T0 = 2.0         # EM-RECON-009 stability, GRV-009 evaluation
 POISSON = 2.5           # G ~ E/2(1+nu), nu ~ 0.25 -- IMPORTED, unregistered
 A_LORENTZ = 1.0e-16
 
+# Sigma PINNED per FND-030 (Commission MU); Sigma-route retained as HISTORICAL
+# provenance only -- its 5.10e35 rests on the dead n_t = 111 and is demoted.
+SIGMA_PINNED = (3.61e35, 3.70e35)
+KAPPA0_CARD = (1.66e-4, 1.68e-4)   # kappa_0 = c/sqrt(eps0 Sigma), FND-031
+EPS0 = 8.8541878128e-12
 BRANCHES = {"lattice-anchored": (1203.0, 3.61e35),
-            "Sigma-route": (1700.0, 5.10e35)}
+            "Sigma-route (HISTORICAL, demoted FND-030)": (1700.0, 5.10e35)}
 
 CARD = {  # values as printed in docs/ROPE_PARAMETERS.md
+    "Sigma-route (HISTORICAL, demoted FND-030)": dict(a=1.000e-16, w=5.774e-17, mu=1.892e-14,
+                        C=5.95e-36, gamma=5.95e-4, E=1.24e41, G=4.95e40),
     "lattice-anchored": dict(a=9.999e-17, w=5.773e-17, mu=1.339e-14,
                              C=4.21e-36, gamma=4.21e-4, E=8.76e40, G=3.50e40),
-    "Sigma-route": dict(a=1.000e-16, w=5.774e-17, mu=1.892e-14,
-                        C=5.95e-36, gamma=5.95e-4, E=1.24e41, G=4.95e40),
 }
 
 
@@ -67,9 +72,30 @@ def main():
     print(f"THE THINNESS RATIO: r/a = {r/A_LORENTZ:.2e}, "
           f"(r/a)^2 = {(r/A_LORENTZ)**2:.2e}")
     print("   -- which is why gamma/T0 is ~3.5e-7 and not order unity.")
+    # THE PINNED SIGMA AND kappa_0 (FND-030/031): fail if the branch structure
+    # is resurrected or the pinned values drift.
+    lat_sigma = BRANCHES["lattice-anchored"][1]
+    assert SIGMA_PINNED[0] <= lat_sigma <= SIGMA_PINNED[1], "lattice Sigma outside pinned band"
+    for S, k_card in zip(SIGMA_PINNED, reversed(KAPPA0_CARD)):
+        k0 = C_LIGHT / np.sqrt(EPS0 * S)
+        assert abs(k0 / k_card - 1) < 0.01, f"kappa_0 drift at Sigma={S:.2e}"
+    print(f"PINNED: Sigma in [{SIGMA_PINNED[0]:.2e}, {SIGMA_PINNED[1]:.2e}] J/m^3; "
+          f"kappa_0 = {C_LIGHT/np.sqrt(EPS0*SIGMA_PINNED[1]):.3e}"
+          f"-{C_LIGHT/np.sqrt(EPS0*SIGMA_PINNED[0]):.3e} m^3/(s C)")
     assert worst < 0.01, f"card drifted by {worst*100:.2f}%"
     print(f"\nPASS: every card value reproduced to within {worst*100:.2f}%.")
 
 
 if __name__ == "__main__":
     main()
+
+# v3.16.2: the vacuum tower (conditional on FND-037). Fails if the kappa_pack=1
+# conflation resurfaces as the vacuum value or the floor/table drifts.
+KAPPA_FLOOR = (50, 250)
+K_ME = 2.6065e-14
+for kap, a_ref, t0_ref in [(1, 6.006e-17, 434.0), (50, 1.630e-17, 1599), (250, 9.533e-18, 2734)]:
+    sv = kap * 3.61e35
+    a_k = (3 * K_ME / sv) ** (1 / 3)
+    assert abs(a_k / a_ref - 1) < 0.01 and abs((K_ME / a_k) / t0_ref - 1) < 0.01
+    assert a_k < 1e-16
+print(f"VACUUM TOWER: kappa_pack floor {KAPPA_FLOOR} verified; M-point(kappa) table reproduced")
