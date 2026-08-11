@@ -23,7 +23,7 @@ abstractions:
   rotation of the two-strand helix — a flux of the invariant, not the invariant itself.
   **Voltage** is the longitudinal *tension* field that drives the transport. Only charge is
   topological; current and potential are separate mechanical quantities the framework derives
-  in their own right (EM-001, EM-008, EM-014, EM-016).
+  in their own right (EM-001, EM-008, EM-014, EM-016; the dictionary's four registered debts are all discharged as of 2026-08-11 -- EM-017, EM-018, EM-019, EM-021).
   *(code: `rope_solver.topology`, `rope_solver.electromagnetism`)*
 - **Entanglement** is the framework's registered *boundary*, not a solved item: a
   configuration-counting rope model provably cannot reproduce Bell/CHSH violation

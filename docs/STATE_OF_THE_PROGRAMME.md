@@ -4,7 +4,7 @@
 developed and formalised in this corpus.*
 
 <!-- BEGIN GENERATED: corpus_stats -->
-*555 registered claims, 531 code-backed and passing, 114 Derived, 32 registered Failed and kept.*
+*600 registered claims, 558 code-backed and passing, 120 Derived, 38 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
 **In one line:** one medium of strands under tension reproduces optics,
@@ -64,9 +64,64 @@ Three quantities anchor everything downstream:
   never depended on the disputed quantities it was long thought to. The absolute
   mesh scale is now measurement-fixed at the M-point (a = 6.0e-17 m, FND-MATTER-044),
   the m_e-consistent point that sits at 60% of the Lorentz bound rather than on it.
-- **Vacuum stiffness** Σ — the one genuinely open number, with two registered
-  candidates 28% apart: the framework's 5.1e35 J/m³ and a lattice-anchored
-  3.61e35 computed from published QCD flux-tube data.
+- **Tube tension density** Σ_eff — **pinned by measurement (v3.16.0, FND-030):
+  3.61–3.70e35 J/m³**, and (v3.16.2) the vacuum tower above it is now
+  explicit: Casimir recruitment DERIVED (linearity wearing group theory,
+  FND-037); Σ_vac FLOORED at κ_pack ≥ 50/250, Conjecture-grade (FND-037/040);
+  the nonlinearity's sign DERIVED — the inextensible mesh softens (FND-040),
+  agreeing with the only resolved Casimir violation in the field; the tower
+  PROSECUTED and wounded-not-killed (FND-039). The re-audit is PAID (FND-041):
+  the l_q/a refusal was a stale-value comparison; the ratio follows
+  l_q/a = 43.0 κ_pack^(1/6), and the window then adjudicated
+  HALF-WINDOW (FND-042): lower edge physics, upper edge grammar — the
+  soft cap withdrawn, the continuum reading un-excluded, refusal count
+  zero. The ratio inverts into a κ_pack instrument: κ_pack =
+  (l_q/a ÷ 43.0)^6. The area-selection attempt
+  (FND-043) then NARROWED the L1 question to one number: the locking
+  normalization N = 2(l_q/a)² = 3698 κ_pack^(1/3) — N derived means
+  κ_pack measured, the PRED-003 drift ratio doubles as packing
+  metrology, and a soft-channel confrontation is armed (N ~ 1e4 demands
+  η >> 1 or the registered reading dies). The N computation (FND-044)
+  then collapsed it: η = 1 was already registered, so N = 2g² and the
+  L1 question, the vacuum packing, the amplitude selection, and λ are
+  ONE unknown — what sets g (82.6 / 108.0 per floor). The g-mechanism
+  now has a target sheet: a defect-log exponent of 4.4–6.4 in πK
+  units, computable blind in registered machinery. The defect-exponent computation
+  (FND-045, FAILED and kept) then excluded the energy-budget defect-log
+  class structurally — the winding's own rest energy exhausts its
+  logarithm at 7 cells against the 83–108 target; the demand (2.2–3.2
+  m_e c² blind) is registered, and the g-mechanism points into the
+  ambient weave. The correlated-coefficients
+  relation (FND-046) then returned PURE-LINEAR — the quartic-Casimir
+  component is zero at leading order, ALEPH's W2 corrected (fifth
+  self-correction), and the κ_pack PIN registered: κ_pack =
+  (C_D/C_f − 1)/(2|δ_D − δ_f|), with δ_A − δ_F = −1.25% / −0.25% at
+  the floors as lattice-testable numbers. Three external κ_pack routes
+  now stand: the g-mechanism (blocked, demand registered), the drift
+  ratio (2027–2030), and the adjoint ratio (technique exists).
+  The pin then met the lattice
+  (FND-047): CONSISTENT-AND-ARMED against Bali's 5% continuum bound
+  (κ_pack ≥ 12.5; both readings survive), with the decision table
+  registered — 1.25% adjoint-string precision decides the CS floor,
+  0.25% tests the whole tower — and one load-bearing flag: SU(N≥4)
+  k-strings favor the sine law (positive deviation) where BET derives
+  softening (negative); whether the mechanism is SU(3)-scoped or
+  N-universal is unregistered and now the author's open call.
+  The k-string category was
+  then adjudicated (FND-048): bundles, by physics and ontology
+  independently — the sine-law data measures tube binding, the flag's
+  contradiction was a category error, and the softening's qualitative
+  bundle prediction (attraction) matches every dataset. Scope question
+  open, stakes re-priced constructive. Rank-1 next brick: cut v3.17.0 —
+  FND-041..048, one complete arc. Everything vacuum-facing is conditional on
+  FND-037's nonlinearity form. The former 28% two-candidate tension was one relation
+  evaluated at a dead strand count; the 5.1e35 registration is demoted to
+  historical. The pinning is checked at partial and full collaboration
+  independence (ELEC-085/086/087), survives an out-of-sample prediction on
+  the quark-mass axis (FND-032), and rests on registered additivity and the
+  strain calibration (FND-033). Σ is measured, not derived — why the vacuum
+  stiffness takes this value remains open, and an independent physical-mass
+  lattice determination remains the standing external check.
 
 **The classical sectors work, and this is the programme's real substance.** It
 deserves stating before the prediction accounting, because a reader who meets
@@ -424,3 +479,42 @@ audit, and pre-committed bars that failed and were kept as the findings they wer
 The failures are the point. A framework that recorded only its successes would
 have a longer list of predictions and no way to tell which of them meant
 anything.
+
+## v3.18.0 position (2026-08-11) -- THE LENGTH INVENTORY FAILS
+
+Eleven commissions. The arc's content is one pattern found four
+independent times: the ontology is missing CARRIERS, not numbers
+(FND-051's five unposable channels; FND-052's free bundles; FND-053's
+group-theoretic closure; GRV-103's elimination to twist). GRANT-N2
+adopted (FND-054) and its acceptance test paid exactly (FND-055:
+antisymmetric-Casimir derived identically, zero fitted coefficients) --
+at the cost of owning Casimir against sine-favouring data, and of a
+label-blindness audit (FND-056) that did not pass cheap.
+
+THE BLOCKING ITEM is the photon sector. The three-pin fork was
+adjudicated and both escapes closed (FND-058, FND-059), the second on
+the corpus's own Derived isotropy; the operator-shaped fix then closed
+as a class (FND-060: E_max ~ hbar c/a for arbitrary coupling range,
+ordered or disordered -- the ceiling is discreteness, not the
+nearest-neighbour approximation). The problem's sharpest form:
+
+    a <= hbar c / E_obs = 1.41e-22 m
+
+Both registered lengths are electron-anchored (d_c via ELEC-021's
+Lambda = E_inf d_c; a via the spent m_e calibration T0 a), so no length
+is free and shrinking d_c does not help -- the ceiling tracks a. Any fix
+must change a LENGTH; no fix can change the dynamics. Three routes
+remain, all costing a primitive or an admission, none adopted: strand
+substructure, a second carrier, or route (c) (register the limitation).
+The wave sector's other work waits on that decision.
+
+Scope: the transverse-wave mechanics are NOT refuted. The collective
+mode exists, propagates, carries two polarizations and the derived
+couplings; every result at accessible energies stands. The failure is
+one end of one axis, by a stated number.
+
+Nuclear ran clean alongside: NUC-026's classifier returned DIFFUSE with
+five priced channels, NUC-027 refuted NUC-024's pairing form at 6.6
+sigma, and three registered misses consolidated into one demand (derive
+the 1/sqrt(A) dilution of the NUC-021 cost) -- the cheapest real physics
+available and the one brick that does not wait on a decision.

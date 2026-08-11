@@ -256,6 +256,10 @@ The corpus is organised in three tiers: **(1) In-domain** classical results (the
 - **Condensed-Matter Analogues of the Rope Medium: Near-Term Tabletop Tests** 📄
   `rope_condmat.js` -> `docs/rope_theory_of_condensed_matter.docx`
 
+- **The Rope Programme: Formula Compendium** 📄 `papers/rope_formulas.pdf`
+  `papers/_sources/rope_formulas.docx`
+  *New at v3.17.0: a single-place reference for the corpus's load-bearing relations, organised by sector (foundations, electromagnetism, light/optics, gravity, the vacuum-stiffness tower, the quantum boundary, nuclear structure, matter/chemistry, thermodynamics), with every entry carrying its claim ID and status grade. Closes with the falsifiable relations and an explicit inventory of the OPEN numbers (g, lambda, hbar, the absolute scale, the Born rule). Compiled from claims.yaml; the registry remains the authority.*
+
 - **Falsifiable Predictions of the Rope Hypothesis** 📄 `papers/falsifiable_predictions.pdf`
   `predictions_paper.js` → `docs/falsifiable_predictions.docx`
   *Updated at v3.12.8 (FND-028): Prediction 8 sharpened with the adjudicated k/T0 = 2 -- committed floor c_L >= sqrt(2) c, coupling committed at T0/2, and the cross-sector lock with the nuclear/chemical core coefficient c4 = T0/8 stated as a falsifier. Two new entries: Prediction 26 (no finite-speed Bell cutoff; the medium's ceiling sits four orders below the Bell-timing floor, with the catastrophic falsifier uniquely located near sqrt(2) c) and Prediction 27 (intensity-squared dark vacuum attenuation from the exact cubic vertex; scale-open, joining the Sigma ledger so two independent experiments price the same constant).*

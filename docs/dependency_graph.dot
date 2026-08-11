@@ -557,4 +557,28 @@ digraph RopeCorpus {
   "GRV-099" [fillcolor="#1F3864" label="GRV-099\nModeled"];
   "GRV-100" [fillcolor="#1F3864" label="GRV-100\nModeled"];
   "GRV-101" [fillcolor="#1F3864" label="GRV-101\nModeled"];
+  "FND-030" [fillcolor="#1F3864" label="FND-030\nModeled"];
+  "FND-031" [fillcolor="#1F3864" label="FND-031\nModeled"];
+  "ELEC-085" [fillcolor="#1F3864" label="ELEC-085\nModeled"];
+  "ELEC-086" [fillcolor="#1F3864" label="ELEC-086\nModeled"];
+  "ELEC-087" [fillcolor="#1F3864" label="ELEC-087\nModeled"];
+  "FND-032" [fillcolor="#1F3864" label="FND-032\nModeled"];
+  "FND-033" [fillcolor="#1F3864" label="FND-033\nModeled"];
+  "FND-034" [fillcolor="#1F3864" label="FND-034\nModeled"];
+  "FND-035" [fillcolor="#1F3864" label="FND-035\nModeled"];
+  "FND-036" [fillcolor="#7B2D26" label="FND-036\nFailed"];
+  "FND-037" [fillcolor="#2E6E4F" label="FND-037\nDerived"];
+  "FND-038" [fillcolor="#1F3864" label="FND-038\nModeled"];
+  "FND-039" [fillcolor="#1F3864" label="FND-039\nModeled"];
+  "FND-040" [fillcolor="#2E6E4F" label="FND-040\nDerived"];
+  "FND-041" [fillcolor="#1F3864" label="FND-041\nModeled"];
+  "FND-042" [fillcolor="#1F3864" label="FND-042\nModeled"];
+  "FND-043" [fillcolor="#1F3864" label="FND-043\nModeled"];
+  "FND-044" [fillcolor="#1F3864" label="FND-044\nModeled"];
+  "FND-045" [fillcolor="#7B2D26" label="FND-045\nFailed"];
+  "FND-046" [fillcolor="#1F3864" label="FND-046\nModeled"];
+  "FND-047" [fillcolor="#1F3864" label="FND-047\nModeled"];
+  "FND-048" [fillcolor="#1F3864" label="FND-048\nModeled"];
+  "FND-049" [fillcolor="#666666" label="FND-049\nOpen"];
+  "FND-050" [fillcolor="#1F3864" label="FND-050\nModeled"];
 }

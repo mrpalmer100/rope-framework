@@ -23,6 +23,18 @@ Went after the repulsive-core residual (the equilibrium-spacing gap in the mode-
 
 ---
 
+### [FND-049] COMMISSION SCALE-001 CHARTERED — THE EMERGENT MESOSCOPIC LENGTH AUDIT, RUN BLIND: DOES ANY...
+
+**Status:** Open  
+**Benchmark:** `tools/scale001_seal.py`  
+**Depends on:** FND-044, FND-045, FND-042  
+
+The charter the corpus's own next-order named and an external reviewer independently sharpened, adopted with attribution and with the reviewer's central methodological instruction written into the bars: the question is not "find a formula that gives the number" but "does any licensed collective property produce a stabl...
+
+*Falsification / resolution welcome. See HOW_TO_CRITICIZE.md.*
+
+---
+
 ### [FND-MATTER-001] REFRAMED via Gaede's atom: atomic size is a standing-wave WAVELENGTH (decoupled from mesh ...
 
 **Status:** Open  
@@ -130,4 +142,4 @@ CONDITIONAL: with the model's own sin2thetaW=1/(3sqrt2) it FAILS (mu/e~1605). [S
 
 ---
 
-*10 open-frontier claims (6 Open, 4 Conjecture) as of the current registry.*
+*11 open-frontier claims (7 Open, 4 Conjecture) as of the current registry.*

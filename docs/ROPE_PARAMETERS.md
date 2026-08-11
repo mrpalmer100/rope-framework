@@ -2,7 +2,8 @@
 
 *Every quantity that describes a strand in this framework, with its status,
 provenance, and value. Compiled 1 August 2026; revised 7 August 2026 (M-point
-promoted to working mesh point; §5a/§5b clarified).*
+promoted); revised 10 August 2026 (Σ pinned per FND-030, branch structure
+retired to historical, κ₀ added per FND-031).*
 
 **Read this before any session that uses a rope constant.** Values are verified
 by `benchmarks/foundations/rope_parameter_card.py`, which recomputes every
@@ -18,8 +19,9 @@ A strand is a **thin, framed, very stiff but EXTENSIBLE rod** under tension, wit
 - **two independent lengths** — the spacing between strands, and the strand's own
   thickness — and the ratio between them is ~1000, which matters more than it
   looks;
-- **one independent stiffness scale**, the vacuum stiffness Σ, from which the
-  tension follows;
+- **one stiffness scale**, the vacuum stiffness Σ — **now pinned by
+  measurement to 3.61–3.70e35 J/m³** (FND-030) — from which the tension
+  follows;
 - **a frame**, giving it twist and torsional rigidity — it is a rod, not a string;
 - **two postulates rather than numbers**: near-inextensibility (a *limit*, not an
   exact property — see below), and no material points.
@@ -36,16 +38,49 @@ Everything else is derived.
 
 ## 1. The independent quantities
 
-| Quantity | Symbol | Lattice-anchored | Σ-route | Status | Source |
+| Quantity | Symbol | Pinned band | Historical Σ-route (demoted) | Status | Source |
 |---|---|---|---|---|---|
-| Vacuum stiffness | Σ | 3.61e35 J/m³ | 5.10e35 J/m³ | **the one open number** | ELEC-052, ELEC-081 |
+| Tube tension density | Σ_eff | **3.61–3.70e35 J/m³** | 5.10e35 J/m³ | **pinned by measurement** | ELEC-052/081, FND-030 |
+| Vacuum stiffness | Σ_vac | Σ_eff·κ_pack, **κ_pack ≥ 50 (5% CS) / ≥ 250 (continuum)** | — | Conjecture-grade floor, conditional on FND-037 | FND-037/040 |
+
+**M-point as a function of κ_pack** (m_e-pinned solve a = (3K/Σ_vac)^⅓, T₀ = K/a,
+K = 2.6065e-14 J; the v3.16.1 M-point a = 6.0e-17 m, T₀ = 434 J/m is the κ_pack = 1 row):
+
+| κ_pack | Σ_vac [J/m³] | a [m] | T₀ [J/m] | Lorentz margin | l_q/a |
+|---|---|---|---|---|---|
+| 1 (historical) | 3.61e35 | 6.00e-17 | 434 | 1.7× | 43.0 |
+| 50 (5% CS floor) | 1.81e37 | 1.63e-17 | 1599 | 6.1× | 82.6 |
+| 250 (continuum floor) | 9.03e37 | 9.53e-18 | 2734 | 10.5× | 108.0 |
+| EM normalization | κ₀ | **1.66–1.68e-4 m³/(s·C)** | ≤ 26–50 (stale bound, superseded) | derived: κ₀ = c/√(ε₀Σ) | EM-RECON-027/029, FND-031 |
 | Strand thickness | d_c | 1.87e-19 m | 1.87e-19 m | measured (calibration) | HBAR-005 |
 
-**Σ is the corpus's single remaining free scale** (FND-017). The two candidates
-differ by 28%; the lattice-anchored value derives from published QCD flux-tube
-data and survived an independent recomputation to 1.3% (ELEC-081), so the corpus
-**leans** to it without claiming it. No vacuum experiment in reach separates them
-(QGATE-018).
+
+**l_q/a card sync (v3.17.0 arc, FND-041/042/044):** l_q rescales with the mesh by
+R1's own registered form (l_q = √(4πα ħc/T₀)); the previously tabulated 158/271
+used the stale κ=1 l_q and are corrected above (l_q/a = 43.0·κ_pack^(1/6)). The
+1–100 window is retired as HALF-WINDOW (lower edge physics, upper edge grammar,
+FND-042) — no κ_pack ceiling exists. The ratio g = l_q/a is the corpus's single
+mesoscopic unknown (FND-044): λ = g²/(4π), A = 2.6348·l_q slaved; κ_lock = 2T₀/a
+predicted at 1.96e20 (κ=50) / 5.74e20 (κ=250) J/m² awaiting any independent
+determination; the energy-budget defect-log mechanism is EXCLUDED (FND-045,
+Failed-and-kept; demand 2.2–3.2 m_ec² blind). κ_pack routes: the g-mechanism
+(blocked), the PRED-003 drift ratio, and the adjoint Casimir ratio
+(κ_pack = 1.25/(2|δ_A−δ_F|); current lattice bound gives ≥ 12.5, FND-047).
+
+**Σ_eff is pinned (FND-030); its promotion to the VACUUM stiffness is conditional
+(FND-034/035, v3.16.1).** The Casimir profile data shows tube strands compress
+(2.25× density at unchanged radius, adjoint vs fundamental), so the fundamental
+tube's own packing factor κ_pack ≥ 1 is open and Σ_vac = Σ_eff/κ_pack. The provenance audit showed both former candidates were ONE relation,
+Σ = 3T_tube/(n·a²), evaluated at two strand counts: the measured n = 152–156
+(lattice, two independent estimators agreeing to 1.3%) and the dead n_t = 111
+(killed twice — by its own requested derivation in the reconnection chain, and
+structurally by the measured tube radius at +17–19%, one-signed). The 5.10e35
+registration is **demoted to historical** by kill-inheritance. The pinned band
+carries its dependences on the face: the strand-count-follows-energy-density
+identification (ELEC-053), the sech² conversion model (2.2% profile spread),
+and the same-data caveat — an independent lattice determination remains the
+one external check, with Σ scaling as R_eq⁻². The downstream sweep at the
+pinned band (FND-031, Commission NU) returned zero flipped verdicts.
 
 **Working point (FND-MATTER-044).** For scale-sensitive work the corpus now uses
 the **M-point** — the mesh point that solves the m_e-pinned scale calibration
@@ -64,7 +99,7 @@ invariance theorem (FND-MATTER-044). Use it for scale-sensitive work. The
 historical adoption values below held a at the Lorentz bound by convention and are
 retained for provenance and for the branch-comparison invariants.
 
-| Quantity | Symbol | **M-point (working)** | Lattice-anchored (historical) | Σ-route (historical) | Relation |
+| Quantity | Symbol | **M-point (working)** | Lattice-anchored (historical) | Σ-route (historical, demoted) | Relation |
 |---|---|---|---|---|---|
 | Strand spacing | a | **6.0e-17 m** | 9.999e-17 m | 1.000e-16 m | a = √(3T₀/Σ) |
 | Coherence spacing | w | **3.46e-17 m** | 5.773e-17 m | 5.774e-17 m | **w = a/√3, exactly** |
@@ -85,7 +120,7 @@ derivation runs through the K₀ machinery (GRV-073) that has not yet been
 re-evaluated at the M-point; the branch-independent ratios (γ/T₀, w/a) are exact on
 every branch including the M-point.
 
-| Quantity | Symbol | **M-point (working)** | Lattice-anchored (historical) | Σ-route (historical) | Status | Source |
+| Quantity | Symbol | **M-point (working)** | Lattice-anchored (historical) | Σ-route (historical, demoted) | Status | Source |
 |---|---|---|---|---|---|---|
 | Tension | T₀ | **434 J/m** | 1203 J/m | 1700 J/m | **not independent**: T₀ = Σa²/3 | ELEC-053, FND-017, FND-MATTER-044 |
 | Line density | μ | **4.83e-15 kg/m** | 1.339e-14 kg/m | 1.892e-14 kg/m | derived: μ = T₀/c² | FND-MATTER-033 |
@@ -220,9 +255,11 @@ this corpus spent 1 August correcting.
 
 ---
 
-*Branch note: use ONE branch throughout a calculation. The two differ by 28% in Σ
-and ~41% in T₀, and mixing them has produced errors before. The ratio γ/T₀ =
-3.50e-7 is branch-independent, as is w/a = 1/√3.*
+*Branch note (revised 10 Aug 2026): the two-branch structure is RETIRED —
+Σ is pinned (FND-030) and the Σ-route columns below are historical provenance
+only, retained because mixing branches produced errors before and the record
+of both must stay legible. All new work uses the pinned band with the M-point.
+The ratio γ/T₀ = 3.50e-7 is branch-independent, as is w/a = 1/√3.*
 
 ---
 
