@@ -5,13 +5,18 @@ Bars: analysis/MEM_pairing_confrontation_bars_LOCKED.md.
 H1: S = 6.11 MeV (A-independent, NUC-024). H2: S = 24/sqrt(A) (empirical).
 Measurement: binned 2*coef(D2) from the round-2 LAMED residual.
 """
-import numpy as np, glob, os, masstable
+import numpy as np, glob, os
 
 rng = np.random.default_rng(3141)
 D_H, D_N = 7.28897, 8.07132
 MAGIC = np.array([2, 8, 20, 28, 50, 82, 126])
-path = [p for p in glob.glob(os.path.dirname(masstable.__file__) + "/data/*")
-        if p.endswith("AME2012.txt")][0]
+_LOCAL = os.path.join(os.path.dirname(__file__), "..", "..", "data", "ame2012", "AME2012.txt")
+if os.path.exists(_LOCAL):
+    path = _LOCAL   # vendored copy (2026-08-12): CI-safe, no pip dependency
+else:
+    import masstable
+    path = [p for p in glob.glob(os.path.dirname(masstable.__file__) + "/data/*")
+            if p.endswith("AME2012.txt")][0]
 rows = [l.split() for l in open(path).read().splitlines()[1:] if l.strip()]
 Z = np.array([int(r[0]) for r in rows]); N = np.array([int(r[1]) for r in rows])
 DEL = np.array([float(r[2]) for r in rows]); A = Z + N
