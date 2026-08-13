@@ -63,6 +63,24 @@
   "why": "birefringence discriminator confronts quantum prediction",
   "branch": ""
  },
+ "EM-017": {
+  "status": "Derived",
+  "markers": [
+   "e_mass"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "EM-022": {
+  "status": "Modeled",
+  "markers": [
+   "e_mass"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
  "QGATE-003": {
   "status": "Modeled",
   "markers": [
@@ -1467,6 +1485,42 @@
   "why": "incidental vocabulary; no dependence (default rule)",
   "branch": ""
  },
+ "NUC-026": {
+  "status": "Modeled",
+  "markers": [
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "NUC-027": {
+  "status": "Modeled",
+  "markers": [
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "NUC-029": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "NUC-030": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
  "FND-BOUND-001": {
   "status": "Modeled",
   "markers": [
@@ -2559,6 +2613,15 @@
   "why": "incidental vocabulary; no dependence (default rule)",
   "branch": ""
  },
+ "ELEC-091": {
+  "status": "Modeled",
+  "markers": [
+   "q"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
  "FND-037": {
   "status": "Derived",
   "markers": [
@@ -2646,6 +2709,134 @@
   ],
   "cat": "FENCE",
   "why": "stops at a quantum-flavored boundary (default rule)",
+  "branch": ""
+ },
+ "FND-056": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-057": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-058": {
+  "status": "Failed",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "FENCE",
+  "why": "stops at a quantum-flavored boundary (default rule)",
+  "branch": ""
+ },
+ "FND-059": {
+  "status": "Failed",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "FENCE",
+  "why": "stops at a quantum-flavored boundary (default rule)",
+  "branch": ""
+ },
+ "FND-060": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "e_mass"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-065": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-066": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-067": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-071": {
+  "status": "Modeled",
+  "markers": [
+   "hbar",
+   "tunnel"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-072": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-073": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-076": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-079": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-081": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
   "branch": ""
  }
 }

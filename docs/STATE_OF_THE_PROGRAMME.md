@@ -4,7 +4,7 @@
 developed and formalised in this corpus.*
 
 <!-- BEGIN GENERATED: corpus_stats -->
-*600 registered claims, 558 code-backed and passing, 120 Derived, 38 registered Failed and kept.*
+*648 registered claims, 595 code-backed and passing, 121 Derived, 40 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
 **In one line:** one medium of strands under tension reproduces optics,
@@ -266,14 +266,18 @@ supplement to the reconstruction above, not a verdict on it.
 
 ## What the framework predicts, testably
 
-**Nineteen falsifiable predictions; one that is distinctive, checkable, and live
+**A standing inventory of falsifiable predictions; two firm discriminators, checkable and live
 today.** The full inventory is maintained in `papers/falsifiable_predictions.pdf`
 — each a stated mathematical relation with its inputs classified derived or
 measured, its test named, and its falsifier spelled out. A discrimination audit
 (1 August 2026) asked the strictest question of each: does its *observable
 outcome* differ from standard physics, is it checkable, and is it live? Exactly
-one passes all three (the α–G covariation below), which is why earlier editions
-led with "one prediction." But that strict filter is not the whole story: the
+one passed all three at that audit (the α–G covariation below), which is why
+earlier editions led with "one prediction." [UPDATE, v3.24.0 (2026-08-12): the
+count is now TWO FIRM -- the α–G covariation, and the Casimir-scaling pin
+(Prediction 20), whose grade conditionality was discharged by author's ruling
+FND-093 with an armed return clause -- plus ONE CONDITIONAL (the k-string
+statistic, adverse-leaning, decision bands pre-registered in FND-092).] But that strict filter is not the whole story: the
 corrected distinctiveness census counts **eight** predictions distinctive in
 observable outcome (ELEC-063), and **five** are testable with existing
 apparatus now — the α–G ratio, the heavy-hydride 90° asymptote (H₂Po), the
@@ -491,7 +495,7 @@ antisymmetric-Casimir derived identically, zero fitted coefficients) --
 at the cost of owning Casimir against sine-favouring data, and of a
 label-blindness audit (FND-056) that did not pass cheap.
 
-THE BLOCKING ITEM is the photon sector. The three-pin fork was
+THE BLOCKING ITEM (of that arc; RESOLVED at v3.23.1, see the update at the end of this passage) was the photon sector. The three-pin fork was
 adjudicated and both escapes closed (FND-058, FND-059), the second on
 the corpus's own Derived isotropy; the operator-shaped fix then closed
 as a class (FND-060: E_max ~ hbar c/a for arbitrary coupling range,
@@ -518,3 +522,45 @@ five priced channels, NUC-027 refuted NUC-024's pairing form at 6.6
 sigma, and three registered misses consolidated into one demand (derive
 the 1/sqrt(A) dilution of the NUC-021 cost) -- the cheapest real physics
 available and the one brick that does not wait on a decision.
+
+## v3.20.0 position (2026-08-11) -- WHAT AN ELECTRON LOOKS LIKE
+
+Begun by a plain question and closed thirteen commissions later. The
+electron core is now structurally specified: HOLLOW with a hard boundary
+at r0, where the boundary is explained rather than merely located --
+the profile's first integral reads r^2 sin(theta) = C, so the core is
+where the strand tilt reaches 90 degrees, and the hollow is KINEMATIC
+(sin <= 1), hence independent of every material parameter. Strands reach
+r0 tangentially, so hairy-ball forces index-2 zeros and the core cannot
+be isotropic; matching the exterior winding fixes the boundary field as
+azimuthal with exactly two polar defects, reproducing index 2 by a route
+not built to produce it.
+
+THE ARC'S CENTRAL RESULT IS A NEGATIVE, AND A CLEAN ONE. The derived
+axis looked compellingly like spin. The identification was TESTED rather
+than adopted: the weave's point group is O_h, so pinning is allowed at
+order 4 (ELEC-096), and it is MEASURED under periodic boundaries on the
+registered engine -- anisotropy fraction 0.21, 166x the noise floor,
+R^2 = 0.71 on a form fixed before the data existed, all controls passed
+before labels were read (ELEC-099). A dependency trace then showed the
+corpus's spin machinery predates the axis and never referenced it
+(ELEC-100). An INTERPRETATION died; no mechanism did. Spin lives in
+GRV-020's internal azimuth and the Hopf/Pauli-quaternion machinery.
+
+The methodological result is house discipline now: GEOMETRIC RESEMBLANCE
+IS NOT PHYSICAL IDENTIFICATION -- require a dependency path. The axis had
+two poles, an axis, two orientations; the resemblance was total and the
+identification was empty.
+
+Alongside: EM-016's field-tensor dictionary went from four registered
+debts to ZERO and was graded Derived with three conditionalities and an
+armed falsifier; the photon sector's high-energy failure was prosecuted
+to exhaustion, had its diagnosis corrected from Nyquist cutoff to
+anisotropy by an external reviewer, and was DISCLOSED under route (c)
+rather than escaped. [UPDATE, v3.23.1 (2026-08-12): the disclosed failure is RESOLVED by the SHIN arc (FND-083..091) -- sub-strand redistribution at zero Lorentz cost, the winding derived in closed form and unique up to level relabeling, the 3D two-polarization check passed, FND-REL-002 re-derived on wound carriers at Derived grade, the bending cost priced and armed. Full kept history: docs/RESOLVED_LIMITATIONS.md.] Seven self-corrections are registered rather than
+patched, several against claims from the same session.
+
+NEXT: the mesoscopic scale g (FND-044), rank 1, carrying a protocol rule
+from this arc -- do not search for something that numerically resembles
+g; require a dependency path from an existing collective mechanism
+before looking at the target value.
