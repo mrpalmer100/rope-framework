@@ -1,3 +1,20 @@
+## 3.24.1 (2026-08-13) -- CI guard: release-notes completeness
+
+- tools/check_release_notes.py + .github/workflows/release-notes.yml:
+  CI now FAILS any push where a CHANGELOG X.Y.0 cut lacks its
+  docs/history/RELEASE_NOTES file (convention enforced from v3.18.0;
+  patch versions exempt). Negative-tested (exit 1 on a hidden file,
+  clean on restore). This makes the miss caught twice by the author
+  at 3.22.0-3.24.0 structurally impossible going forward.
+- FINDING from the checker's first run, RESOLVED same day:
+  docs/history/RELEASE_NOTES_v3.19.0.md initially appeared orphaned,
+  but the 3.19.0 record exists in CHANGELOG.md as patch-level detail
+  folded under the 3.20.0 entry ("#### 3.19.0 -- the dictionary
+  closes, the photon sector opens"). Nothing is inconsistent; the
+  checker's orphan scan now accepts folded (###/####) records, and
+  it reports clean: 6 cuts since v3.18.0, all with notes, no
+  orphans.
+
 ## 3.24.0 (2026-08-12) -- RELEASE CUT: the two-discriminator surface
 
 - papers/_sources/falsifiable_predictions.docx synced (validated,
@@ -21,6 +38,10 @@
   registered outcomes (shin6_3d_bloch, fnd_rel_002_wound,
   shin7_kb_pricing, resh_discrimination_push); full-corpus benchmark
   re-execution deferred to CI (exceeds session compute), disclosed.
+- docs/history/RELEASE_NOTES_v3.22.0.md, _v3.23.0.md, and
+  _v3.24.0.md added (backfilled: the per-release notes convention
+  was missed at the 3.22.0, 3.23.0, and 3.24.0 cuts and caught by
+  the author, twice).
 
 ## 3.23.3 (2026-08-12) -- AUTHOR'S RULING: the contact channel and the FIRM pin
 
