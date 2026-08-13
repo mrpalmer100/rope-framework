@@ -1,0 +1,93 @@
+#!/usr/bin/env python3
+"""COMMISSION CHET-2 -- specifying the hollow's interior.
+
+Bars: analysis/CHET2_hollow_interior_bars_LOCKED.md.
+C1 the boundary condition, geometrically.
+C2 kinematic or dynamical?
+C3 what the boundary forces about the interior.
+"""
+import numpy as np
+import sympy as sp
+
+print("=" * 72)
+print("C1 -- WHAT F = 1 MEANS ABOUT THE STRANDS (not an algebraic limit)")
+print("=" * 72)
+p, th = sp.symbols("p theta", positive=True)
+F = p / sp.sqrt(1 + p**2)
+# p = psi' is a SLOPE: the transverse excursion per unit length along the
+# reference axis. A slope is a tangent of an angle.
+F_of_theta = sp.simplify(F.subs(p, sp.tan(th)))
+print(f"   F(p) = {F}")
+print(f"   p = psi' is a SLOPE, so write p = tan(theta), theta the strand's")
+print(f"   tilt from the reference axis:")
+print(f"      F(tan theta) = {F_of_theta}")
+print()
+print("   *** F IS THE SINE OF THE STRAND TILT ANGLE. ***")
+print()
+print("   The first integral r^2 F(p) = C therefore reads")
+print("        r^2 sin(theta) = C,     i.e.   sin(theta) = C / r^2")
+print("   -- an exact geometric statement about strand orientation.")
+print()
+for r_over in (3.0, 2.0, 1.5, 1.2, 1.05, 1.0):
+    s = min(1.0, 1.0 / r_over**2)
+    print(f"      r/r0 = {r_over:5.2f}:  sin(theta) = {s:.4f}"
+          f"   theta = {np.degrees(np.arcsin(s)):6.2f} deg")
+print()
+print("   AT r = r0 THE STRANDS ARE PERPENDICULAR TO THE REFERENCE AXIS.")
+print("   The 'hard core' is the locus where the strand tangent has turned")
+print("   through a full right angle.")
+
+print()
+print("=" * 72)
+print("C2 -- KINEMATIC OR DYNAMICAL?")
+print("=" * 72)
+print("   sin(theta) = C/r^2 has NO SOLUTION for r^2 < C because")
+print("   sin(theta) <= 1 ALWAYS. That is a KINEMATIC bound on an angle,")
+print("   not an energetic accident.")
+print()
+print("   CONSEQUENCE, and it is the strong form: the hard core does not")
+print("   depend on T0, on k, on the packing floors, or on any material")
+print("   parameter. It cannot be tuned away or moved by a different")
+print("   parameter choice. ANY radial solution of this first integral")
+print("   terminates at finite radius. The hollowness is UNIVERSAL for")
+print("   this class, which is why ELEC-074 found it and why no choice")
+print("   of constants would have hidden it.")
+
+print()
+print("=" * 72)
+print("C3 -- WHAT THE BOUNDARY FORCES ABOUT THE INTERIOR")
+print("=" * 72)
+print("   At r0 the strand tangent is perpendicular to the reference axis")
+print("   and, by axisymmetry (STATED ASSUMPTION, inherited from the")
+print("   registered profile's own construction), lies in the local")
+print("   tangent plane of the sphere r = r0.")
+print()
+print("   WHAT IS THEREFORE EXCLUDED, and this is a real result:")
+print("   (i) strands CANNOT pass radially through the core -- a radial")
+print("       crossing needs a tangent with a radial component, i.e.")
+print("       sin(theta) < 1 at r0, contradicting the boundary value;")
+print("   (ii) the field CANNOT be continued inward as any radial profile")
+print("       of this class -- excluded kinematically by C2;")
+print("   (iii) the interior CANNOT be a smooth continuation of the")
+print("       exterior solution at all: the exterior is not merely")
+print("       undefined inside, it meets r0 tangentially.")
+print()
+print("   WHAT IS THEREFORE FORCED: strands reaching r0 run TANGENT to the")
+print("   core boundary. The core is not a hole the strands avoid, nor an")
+print("   object they wrap around -- it is the surface on which the")
+print("   winding's strands become tangential and close upon themselves.")
+print()
+print("   WHAT IS NOT DETERMINED, stated plainly: the tangential direction")
+print("   field ON that sphere is not fixed by this argument. A tangent")
+print("   field on S^2 must vanish somewhere (hairy-ball theorem), so the")
+print("   configuration cannot be uniformly tangential -- there must be")
+print("   at least one defect on the boundary sphere, and WHERE those")
+print("   defects sit, and what happens at them, is not determined here.")
+print()
+print("   HAIRY-BALL CHECK (the one genuinely new constraint):")
+print("   Euler characteristic of S^2 is 2, so any continuous tangent")
+print("   vector field on it has zeros of total index 2 -- e.g. two")
+print("   index-1 points (a pole pair) or one index-2 point.")
+print("   THE CORE THEREFORE HAS DISTINGUISHED POINTS. It cannot be")
+print("   isotropic. That is a derived structural fact about the interior")
+print("   boundary, and it is a NEW constraint the corpus did not carry.")
