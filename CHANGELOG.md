@@ -1,3 +1,212 @@
+## 3.25.0 (2026-08-13) -- RELEASE: the accountability day
+
+Consolidates 3.24.2-3.24.10 (see docs/history/RELEASE_NOTES_v3.25.0.md).
+657 claims. The bundle-count arc (currency audit, TAV3 decider, Chain
+A held open); the label arc closed at zero new scales (ASSIGN-SUB,
+C1 exhibited, GRANT-N2-GAP retired); the b/a closure failed fourfold
+and kept; the wound-bundle session (reading derived by exclusion,
+k_f/T0_f = 8.09, falsifier armed); NAME_REGISTRY binding; charter at
+section E. Docs synced: README (version + release paragraph),
+STATE_OF_THE_PROGRAMME (v3.25.0 update section), RESOLVED_LIMITATIONS
+(the label multiplication problem), STRATEGIC_TARGETS (section E),
+pyproject 3.25.0.
+
+## 3.24.10 (2026-08-13) -- EM-RECON-032: the wound-bundle c4; a reading derived, a rescue refuted
+
+- READING-FINE EXCLUDED BY THE EXISTENCE OF MATTER: transmission
+  s = sin^2(psi1) sin^2(psi2) = 0.2472 (exact, registered angles)
+  makes the fine reading's coarse quartic negative (-0.0632): no
+  core, no matter. k/T0 = 2 is therefore the COARSE-EFFECTIVE ratio,
+  DERIVED BY EXCLUSION -- an ambiguity that had sat silently inside
+  the constant since the substructure was adopted.
+- CLOSURE UNCHANGED-FAIL: coarse c4 = T0/8 unrenormalized by
+  winding; EM-RECON-031's re-run confirms the fourfold miss. The
+  wound-bundle rescue candidate is refuted; live suspects narrow to
+  the amplitude identification and the truncation.
+- BYPRODUCTS: the first derived fine-level mechanical constant,
+  k_f/T0_f = 8.09 (stiff-helix lower bound; winding hides fine
+  stiffness); core-existence demand 4.05; falsifier armed against
+  any independent fine determination below it.
+- NAME_REGISTRY addendum: the c4/C4/g_C4 three-way collision
+  disarmed; k/T0's canonical sense recorded.
+- 657 claims; annotations to EM-RECON-009/031, FND-027, FND-087.
+  The v3.25.0 release cut is next.
+
+## 3.24.9 (2026-08-13) -- EM-RECON-031: the b/a closure FAILS and is kept
+
+- FAIL-BOTH at zero free parameters: with every input registered
+  (c4 = T0/8 from the adjudicated k/T0 = 2, exponential profiles,
+  amplitude locked at the Kerr saturation g* = 2), the full quartic
+  cross-energy gives d0/xi = 6.16 vs measured 1.36/1.67 -- 353/269
+  percent misses; no amplitude in the locked sweep passes;
+  equilibrium abolished above g ~ 2.3.
+- The mechanism (disclosed at lock, now measured): the g1^3 g2
+  cross-terms decay at the attraction's own rate and demolish the
+  registered compact model at saturation amplitude.
+- Untouched: k/T0 = 2 (adjudicated on disjoint grounds), the
+  parameter-free vibrational FORM check, EM-RECON-008's unification.
+- EM-RECON-008 remains Open with its gap RELOCATED AND SHARPENED:
+  the missing input is now the operating amplitude/profile of bound
+  modes at quartic order. Board-scan framing corrected on record.
+- Named routes for a successor: a registered bound-mode strain; a
+  2D/3D profile computation; or the Kerr window (measures c4
+  directly, bypasses profiles).
+- 656 claims (40 Failed, all kept); annotations to EM-RECON-008/009,
+  FND-027, NUC-004. The v3.25.0 release cut is next.
+
+## 3.24.8 (2026-08-13) -- C1: the fine ceiling exhibited; the label arc closes (FND-100)
+
+- C1-CERTIFIED at 2.1x margin: on the SHIN engine (inherited
+  verbatim), the full-operator ceiling is S x c/a_f with S = 3.916
+  straight and S = 3.3575 on the adjudicating wound f = 1/5 member
+  (grid-stable at 0.01 percent). Winding softens the ceiling a
+  measured 14 percent -- real, and nowhere near threatening pi/2.
+  FND-060's theorem transfers to the wound fine mesh, exhibited not
+  assumed. Label gap at the window edge: E_gap = 2.99 PeV at m = 1,
+  clearing the LHAASO anchor with no O(1) appeal.
+- RIDE-ALONG SURVIVES: FND-053's factorization read verbatim --
+  neither the (k-1) half (pair-potential-generic) nor the 1/(N-1)
+  half (the modulus of Z_N) names the carrier. The 1/N structure
+  survives label composition; FND-099's armed exposure is DISARMED.
+- THE LABEL ARC CLOSES: the four FND-056 disturbances convert to
+  CLOSED (the label sector not excitable in the observed spectrum);
+  GRANT-N2's feared re-pricing reverts (zero new scales, ever); C2
+  demotes from certificate to free corroboration.
+- Total arc cost: two readings, one afternoon of spectra, no grants.
+- 655 claims; annotations to FND-053/056/060/098/099.
+
+## 3.24.7 (2026-08-13) -- AUTHOR'S RULING: ASSIGN-SUB; GRANT-N2-GAP retired (FND-099)
+
+- The ruling: GRANT-N2's label is assigned to the SUB-STRAND (the
+  colour-like reading), resolving the ambiguity FND-087 created in
+  the grant's pre-substructure text. Reasoning on the face: the
+  constituent reading is the natural one for a composite carrier, it
+  coincides with the cheap one, and its derivation route runs through
+  a registered theorem applied to a grant's stated purpose.
+- GRANT-N2-GAP LEAVES THE DESK PERMANENTLY: retired unneeded, no new
+  scale granted -- the cheapest possible end for a priced grant.
+- Discipline on the face: (1) the four FND-056 disturbances are
+  CONDITIONALLY-CLOSED-PENDING-CERTIFICATE -- not quotable as closed
+  until C1 (the fine-ceiling session on the SHIN engine, the named
+  next session) or C2 (any confirmed >2.2 PeV photon) fires; (2) the
+  1/N composition consistency reading is ARMED -- the k-string
+  statistic rides GRANT-N2 at strand level, and if the 1/N structure
+  does not survive label composition, the ruling returns to
+  adjudication.
+- Untouched: GRANT-N2 itself, the k-string bands, the n_b holding.
+- 654 claims; annotations to FND-054/056/087/098.
+
+## 3.24.6 (2026-08-13) -- TSADE2: the label gap on post-SHIN lengths (FND-098)
+
+- ASSIGNMENT-SPLIT: L-STRAND underivable (TSADE's coarse table stands
+  verbatim); L-SUB CONDITIONALLY-DERIVED -- window-edge bounds land
+  AT-BAND at 0.891 PeV = (4/2pi) x bar (foreseen, disclosed at lock),
+  and the consistency reading closes it: a fine mesh adopted to CARRY
+  m x 1.4 PeV cannot, by FND-060's ceiling, be excited for less than
+  that up to O(1). The gap inherited from the carrier's own
+  consistency at zero new scales.
+- GRANT-N2-GAP TRANSFORMED on the desk: no longer a bare yes/no on a
+  new unregistered scale. If the author rules ASSIGN-SUB (label rides
+  the sub-strand, colour-like), the grant dissolves into an
+  assignment statement plus one certificate: C1 (a fine-ceiling
+  session on the SHIN engine) or C2 (any confirmed photon above
+  2.2 PeV forces m >= pi/2 and clears the window edge outright). If
+  ASSIGN-STRAND, GRANT-N2-GAP stands at full FND-056 price.
+- Untouched on every branch: the k-string discriminator (rides
+  GRANT-N2's 1/N structure, not the gap). The four FND-056
+  disturbances remain formally open pending ruling + certificate.
+- Files: analysis/TSADE2_label_gap_bars_LOCKED.md,
+  analysis/TSADE2_label_gap_results.md,
+  benchmarks/foundations/tsade2_label_gap_rerun.py; annotations to
+  FND-054/056/057/058/087; 653 claims.
+
+## 3.24.5 (2026-08-13) -- T4 ride-alongs: the rename sweep + the NUCQ-002 audit (FND-097)
+
+- docs/NAME_REGISTRY.md: canonical names for the four live kappas
+  (kappa_lock, kappa_grav, kappa_C, kappa_pack with its
+  kappa50/kappa250 floors), the two g's (g_contrast vs g_C4), and the
+  two w's (w_mesh always-with-its-a vs w_const, never silently
+  identified post OM-S). Registered text is history and is NOT
+  rewritten; the registry binds new text, with a quote-with-brackets
+  convention for old symbols and a bare-symbol review flag from this
+  version. Discharges the sweep queued since PRED-003-ETA.
+- The NUCQ-002 desk item RETIRED AS STALE: ELEC-050/052 already
+  dissolved the two-route T0 agreement into the measured 28 percent
+  fork (energy-density identification load-bearing), and FND-096
+  governs the bundle-count route. Replaced by its current form: the
+  T0 fork, waiting on the same non-engine data as Chain A.
+- The desk after this session: GRANT-CANDIDATE-ROT (GRV-103),
+  GRANT-N2-GAP (FND-056), and the external clocks. 652 claims.
+
+## 3.24.4 (2026-08-13) -- AUTHOR'S ADJUDICATION: Chain A held open (FND-096)
+
+- The ruling (option 3 of TAV3's desk memo): the n_b = 63-73
+  selection is WITHDRAWN from standing without retraction of its
+  premises; Chain A-prime (n_b = [14, 21], measured inversion)
+  stays DISPLAYED-NOT-ADOPTED; the bundle count is OPEN pending a
+  non-engine determination.
+- Reasoning on the face: the engine is Modeled and unscaled, the
+  [14, 27] intersection is the coincidence guard's exact shape, and
+  adopting a bundle count from the corpus's own contact model steps
+  further than Chain A ever did.
+- Kept as standing measurements: full-section geometry (p_inf = 1.05)
+  and the currency correction (r_inf = 3.6-4.9). Untouched: the g
+  fix, the pin m_b = [63.0, 73.4], the lateral exclusion, the
+  at-threshold premise.
+- Armed: any non-engine n_b determination confronts both [63, 73]
+  (withdrawn) and [14, 21] (displayed) on arrival; adoption of Chain
+  A-prime, if ever, owes FND-072/074 propagation and the tube-census
+  confrontation at the new count.
+- Tripwire hardened: neither n_b window may be quoted as standing.
+- 651 claims; annotations to FND-080 and FND-095.
+
+## 3.24.3 (2026-08-13) -- T4 top: TAV3, the widened G-AX sweep (FND-095)
+
+- CORNER 2 AT BOTH PACKINGS, both numbers settled with wide margin:
+  p_inf = 1.053 (hex) / 1.046 (f_c) -- axial contact IS full-section,
+  TAV2's UNSTABLE resolved, Chain A's geometry premise MEASURED.
+  r_inf = m_eff/n = 4.87 (hex) / 3.58 (f_c) -- the m_b = n currency
+  step CONVICTED, exactly the corner FND-094 armed.
+- THE PIN RE-POINTS: m_b = [63.0, 73.4] inverts through the measured
+  currency to n = [12.9, 15.1] (hex) / [17.6, 20.5] (f_c) -- missing
+  Chain A's (kappa250, hex) window [40, 81] but intersecting the
+  intermediate hierarchy window [14, 27] at both packings.
+- LEDGER: FND-080's n_b = 63-73 purchase RETURNED TO ADJUDICATION
+  under its own armed clause (g fix and the pin untouched; grant not
+  retracted). CHAIN A-PRIME (n_b = [14, 21], cell no longer unique,
+  triple discrimination lost) placed on the desk displayed-not-
+  adopted. New stale-statement tripwire: n_b = 63-73 may not be
+  quoted as a standing purchase.
+- Files: analysis/TAV3_widened_gax_bars_LOCKED.md (locked before
+  computing; sweep to n = 547 fixed, four corners pre-committed),
+  analysis/TAV3_widened_gax_results.md,
+  benchmarks/foundations/tav3_widened_gax_sweep.py; annotations to
+  FND-094, FND-082, FND-080, FND-079; 650 claims.
+
+## 3.24.2 (2026-08-13) -- T4: the multiplicity-currency audit (FND-094)
+
+- THE READING: MEM's locked bars define m_b as PAIR currency
+  ("per-pair ratio 29.0/(m_b L1)"; single-pair model m_b = 1),
+  confirmed verbatim by EM-RECON-018 ("~60-70 strand pairs"),
+  FND-029's L2, and FND-080's own grant text. The engaged-constituent
+  reading does not exist in the locked file.
+- CONSEQUENCE: the pin m_b = [63.0, 73.4] and the grant's g fix are
+  UNTOUCHED (pair-currency against pair-currency machinery). Chain
+  A's n_b = 63-73 selection carries TAV2's filed tension confirmed in
+  its pair-currency branch (engine inversion lands n ~ 16-24, outside
+  every registered window) -- NOT fired: the m_eff figure is
+  displayed-not-adopted from the axially unstable fit.
+- THE SUCCESSOR SHARPENED: the widened G-AX sweep is now a
+  pre-committed two-number decider (settled exponent AND settled
+  m_eff/n); Chain A survives only the (p -> 1, m_eff/n -> ~1) corner,
+  any other corner returns the grant's n_b purchase to adjudication
+  under FND-080's armed return clause.
+- Files: analysis/MEM_currency_audit_results.md; annotations to
+  FND-079, FND-080, FND-082; 649 claims.
+- Ride-along: docs/STRATEGIC_TARGETS.md refreshed against the
+  resolved photon sector and the shipped T1/T2 surface (the standing
+  ranking was three releases stale); HANDOFF refreshed.
+
 ## 3.24.1 (2026-08-13) -- CI guard: release-notes completeness
 
 - tools/check_release_notes.py + .github/workflows/release-notes.yml:

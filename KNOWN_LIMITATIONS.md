@@ -6,7 +6,7 @@ you have found it in under five minutes.
 
 *Revised against the current registry.*
 <!-- BEGIN GENERATED: corpus_stats -->
-*648 registered claims, 595 code-backed and passing, 121 Derived, 40 registered Failed and kept.*
+*657 registered claims, 595 code-backed and passing, 121 Derived, 41 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
 
@@ -205,7 +205,7 @@ kept straight, several quantum facts are **adopted, not derived**, or **open**:
 ## The complete failed-and-kept ledger
 
 <!-- BEGIN GENERATED: corpus_stats -->
-*648 registered claims, 595 code-backed and passing, 121 Derived, 40 registered Failed and kept.*
+*657 registered claims, 595 code-backed and passing, 121 Derived, 41 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
 Every one of those Failed claims is kept on permanent display below with its lesson,
