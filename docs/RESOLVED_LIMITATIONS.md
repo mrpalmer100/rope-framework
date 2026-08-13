@@ -79,3 +79,27 @@ process failure. The house rule added in consequence: **a registered
 contradiction whose escape is unrun is a blocking item, not a footnote.**
 
 
+
+## The label multiplication problem (RESOLVED, v3.25.0, 2026-08-13)
+
+WHAT IT WAS: FND-056's audit found GRANT-N2's N-label primitive
+multiplies every state count -- the light carrier (2N = 6 vs the
+measured and SHIN-derived 2), the vacuum zero-point sum (x N),
+horizon entropy (x ln N), and the tube-count definition -- unless the
+label sector is gapped, and TSADE/QOF (FND-057/058) showed no
+registered length could supply the gap. The fix was priced as
+GRANT-N2-GAP: one new unregistered scale.
+
+HOW IT RESOLVED (zero new scales): the photon-sector substructure
+(FND-087), adopted for an unrelated purpose, registered fine lengths
+that postdate the TSADE table. TSADE2 (FND-098) enumerated the
+label-carrier assignment the original grant's text left ambiguous;
+the author ruled ASSIGN-SUB (FND-099, the colour-like reading); and
+C1 (FND-100) exhibited FND-060's band ceiling on the wound fine mesh
+at S = 3.3575, putting the label gap at >= 2.99 PeV (m = 1) --
+above every observed photon. The 1/N structure behind the k-string
+discriminator survives label composition by verbatim reading
+(neither factor of FND-053's factorization names the carrier). All
+four disturbances CLOSED; GRANT-N2-GAP retired unneeded. Free
+corroboration channel: any confirmed photon above 2.2 PeV clears the
+window edge with no O(1) appeal.

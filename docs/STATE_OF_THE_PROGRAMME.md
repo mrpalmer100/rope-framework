@@ -4,7 +4,7 @@
 developed and formalised in this corpus.*
 
 <!-- BEGIN GENERATED: corpus_stats -->
-*648 registered claims, 595 code-backed and passing, 121 Derived, 40 registered Failed and kept.*
+*657 registered claims, 595 code-backed and passing, 121 Derived, 41 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
 **In one line:** one medium of strands under tension reproduces optics,
@@ -564,3 +564,54 @@ NEXT: the mesoscopic scale g (FND-044), rank 1, carrying a protocol rule
 from this arc -- do not search for something that numerically resembles
 g; require a dependency path from an existing collective mechanism
 before looking at the target value.
+
+
+## Update, v3.25.0 (2026-08-13): the accountability day
+
+Eleven patch releases in one day, every verdict pre-committed before
+its numbers existed, and the day's shape is the methodology working
+under load in both directions -- favorable and adverse alike.
+
+THE BUNDLE-COUNT ARC. The multiplicity-currency audit (FND-094) read
+MEM's locked bars verbatim and found m_b is a PAIR count, arming the
+widened G-AX sweep (FND-095) as a two-number decider. It decided:
+axial contact IS full-section (p_inf = 1.05, settled -- the geometry
+premise measured after surviving commentary, instability, and
+settling), while the m_b = n currency is convicted (each facing
+constituent engages ~4 opposite ends). The pin m_b = [63.0, 73.4]
+stands; its inversion re-points to n ~ 13-21. The author held the
+bundle count OPEN (FND-096): the withdrawn [63, 73] and the displayed
+[14, 21] both wait on non-engine data, because a corpus should not
+let its own unscaled engine name a physical number.
+
+THE LABEL ARC, CLOSED AT ZERO NEW SCALES. FND-056's four
+disturbances (state count, zero-point, entropy, tube count) had
+priced GRANT-N2-GAP at one new unregistered scale. The photon
+substructure -- adopted for an unrelated purpose -- changed the
+terms: TSADE2 (FND-098) split the question on the label-carrier
+assignment, the author ruled ASSIGN-SUB (FND-099), and C1 (FND-100)
+exhibited the fine band ceiling at S = 3.3575 on the same engine
+that derived the two-polarization count: the label gap is >= 2.99
+PeV, above every observed photon. The grant retired unneeded; the
+1/N structure behind the k-string discriminator survives by verbatim
+reading.
+
+THE KEPT FAILURE. The b/a closure (EM-RECON-031) ran the fixed
+c4 = T0/8 forward at zero free parameters and MISSED FOURFOLD
+(d0/xi = 6.16 vs 1.36/1.67), demolishing the compact model at
+saturation amplitude. Registered Failed and kept; EM-RECON-008
+remains Open with its gap relocated to the bound-mode
+amplitude/profile. The follow-up (EM-RECON-032) then refuted the
+wound-bundle rescue while deriving two genuine results: k/T0 = 2 is
+the COARSE-EFFECTIVE ratio by exclusion (the fine reading abolishes
+the repulsive core and matter with it), and the first fine-level
+mechanical constant, k_f/T0_f = 8.09 (stiff-helix bound; falsifier
+armed at 4.05).
+
+HYGIENE. The kappa/w/g NAME_REGISTRY (FND-097) now binds all new
+text; two desk items were retired as stale (NUCQ-002's coincidence,
+long since a measured 28 percent fork; GRANT-N2-GAP's framing); and
+the day's standing lesson is on the record three times over: desk
+items age, and the cheapest session on the board is often a re-read
+of an old question against machinery that arrived after it was
+asked.

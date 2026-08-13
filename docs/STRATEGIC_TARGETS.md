@@ -85,3 +85,57 @@ the two rationed items in T4.
 Before chartering any session, it must name which target tier it
 serves. Tier-4 work rides along at the END of a session that served
 T1-T3, or in a deliberately short session; it does not get arcs.
+
+## D. CHARTER REFRESH (2026-08-13, v3.24.2, author-directed T4 session)
+
+The ranking above is retained as history; the CURRENT standing of each
+tier, superseding the stale entries:
+
+T1 (EXTERNAL SURFACE): DONE. The reconciliation shipped, the
+   predictions paper is synced at two-firm-plus-one-conditional
+   (v3.24.0), the alpha paper exists (papers/rope_alpha_paper.pdf).
+   Nothing owed until the next content change forces a paper sync.
+
+T2 (DISCRIMINATION COUNT): COMPLETE AND EXTERNALLY CLOCKED. PSR J1713
+   (~2027-2030); any continuum SU(6) k-string determination (bands
+   pre-registered, kill-ready); achievable lattice work on the pin.
+   No session owed until data or a new candidate discriminator.
+
+T3 (PHOTON SECTOR): RESOLVED (v3.23.1, docs/RESOLVED_LIMITATIONS.md).
+   The stale-statement tripwire in HANDOFF governs; this tier is
+   CLOSED, not frozen.
+
+T4 (INTERIOR DEBTS, RATIONED): the ACTIVE tier. Board after the
+   currency audit (FND-094): the widened G-AX sweep is PROMOTED to
+   the top of T4 -- it is now a pre-committed two-number decider on a
+   standing grant's Chain A purchase (one afternoon of compute, fresh
+   bars owed). Below it: the kappa/w/g rename sweeps; NUCQ-002;
+   GRANT-CANDIDATE-ROT (GRV-103) and GRANT-N2-GAP (FND-056) on the
+   desk; Chain A / n_b sessions remain rationed to the sweep itself.
+
+The session-selection rule in C stands unchanged.
+
+## E. CHARTER REFRESH (2026-08-13 evening, v3.25.0 cut)
+
+Section D's T4 queue is DISCHARGED in full and its desk items have
+resolved; current standing, superseding D's queue lines:
+
+- The rename sweeps: DONE (FND-097; docs/NAME_REGISTRY.md binding,
+  with the k/T0 and c4-family addendum of EM-RECON-032).
+- NUCQ-002: RETIRED AS STALE (FND-097); current form is the T0 fork
+  (ELEC-052), waiting on the same non-engine data as Chain A.
+- The Chain A question: ADJUDICATED HELD OPEN (FND-096); n_b waits
+  on non-engine data; neither [63, 73] nor [14, 21] quotable.
+- GRANT-N2-GAP: RETIRED UNNEEDED (FND-098/099/100); the label sector
+  is gapped at >= 2.99 PeV by exhibited machinery, all four FND-056
+  disturbances CLOSED, zero new scales.
+- EM-RECON-008: RAN AND KEPT ITS FAILURE (EM-RECON-031/032); still
+  Open, twice-sharpened (amplitude/profile), with the wound-bundle
+  escape eliminated and the fine stiffness k_f/T0_f = 8.09 derived.
+
+THE ACTIVE QUEUE (post-v3.25.0): the substructure-dividend arc --
+(1) the refinement-invariance audit (protective; Sigma, zero-point,
+the hbar route, the T0 fork); (2) the scale-class n_sub reading
+(NAME_REGISTRY-class, minutes). On the desk: GRANT-CANDIDATE-ROT
+(GRV-103). External clocks unchanged, plus >2.2 PeV photons as free
+corroboration. The session-selection rule in C stands unchanged.
