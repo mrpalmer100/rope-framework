@@ -6,69 +6,57 @@ you have found it in under five minutes.
 
 *Revised against the current registry.*
 <!-- BEGIN GENERATED: corpus_stats -->
-*600 registered claims, 558 code-backed and passing, 120 Derived, 38 registered Failed and kept.*
+*648 registered claims, 595 code-backed and passing, 121 Derived, 40 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
 
-## THE PHOTON SECTOR AT HIGH ENERGY — UNRESOLVED (adopted openly, 2026-08-11)
+## Resolved and relocated
 
-**This is the programme's most serious open failure, and it is registered here
-rather than left inside an unadjudicated fork. Author's decision (route (c),
-FND-059/060 recommendation).**
+The photon-sector high-energy limitation (the corpus's most serious
+open failure, 2026-08-11) is RESOLVED as of the SHIN arc
+(FND-083..091: the repair adopted, the winding derived, the 3D
+two-polarization check passed, FND-REL-002 re-derived on wound
+carriers at Derived grade, the bending cost priced and armed) and
+its full kept history is preserved at docs/RESOLVED_LIMITATIONS.md.
+The residual items are general-class, not photon-specific, and live
+in their standing homes: the underived absolute scales (m, n_sub)
+belong to the corpus-wide irreducible-constant class
+(FND-MATTER-003), the discrete O((ka)^2) question is FND-REL-004's,
+and the soft falsifier (any confirmed photon above m x 1.4 PeV
+forces m upward) is registered on FND-086/087.
 
-**The statement.** Ultra-high-energy photons are routinely observed — LHAASO's
-Galactic PeV gamma rays at ~1.4×10¹⁵ eV, arriving from sources distributed
-across the sky. **The medium as currently specified has no way to carry them** — a failure of the registered length inventory, not a demonstration that no rope medium could. The requirement is:
+## The electron core's axis is pinned, and its status is open (2026-08-11)
 
-    transverse coherence sampled at ≤ ħc/E_obs = 1.41e-22 m
+The electron core carries a derived axis — strands reach the hard boundary
+tangentially, so the tangent field's zeros must total index 2 (hairy-ball),
+and matching the exterior winding fixes the field as azimuthal with two
+polar defects (ELEC-090/091).
 
-which is five orders below the mesh spacing and three below the *measured*
-strand thickness. No registered length meets it.
+**That axis is pinned by the weave at ordinary strength.** The registered
+three-family direction set has point group O_h rather than SO(3), so
+orientation dependence is allowed at order 4 in K(n) = Σnᵢ⁴ − 3/5
+(ELEC-096); and the pinning is *measured* on the registered strand engine
+under periodic boundaries — anisotropy fraction 0.21, 166× the noise floor,
+R² = 0.71 on a form fixed before the data existed, with null and
+global-rotation controls passed (ELEC-099).
 
-**The correct diagnosis is ANISOTROPY, not a Nyquist cutoff (FND-061).** An
-earlier reading — that light hits a short-wavelength cutoff at the mesh spacing
-— was an overreach and is withdrawn. EM-RECON-025's registered light branch is
-ω² = (T₀/μ)q², *continuum* in q with no Brillouin cutoff; the crossings couple
-strands (gapping the optical branch) rather than sampling the wave. The
-continuum direction is *along* a strand. Transverse coherence is still sampled
-at the crossing spacing a, so the accessible wavevector region is a slab, and
-PeV photons could propagate only within arcseconds of one of three strand axes
-— an accessible solid-angle fraction of ~10⁻⁹. That contradicts **FND-REL-002
-(Derived: the wave sector is forced to Lorentz-invariant, hence isotropic,
-form)** and the observed all-sky source distribution independently.
+**What this killed:** the suggestion that the axis's two orientations are
+the electron's two spin states. A dependency trace (ELEC-100) confirmed
+that the corpus's spin machinery — Tsirelson, the half-angle law,
+Stern-Gerlach, the transport law — predates the axis by many sessions and
+never referenced it. **Spin is untouched.**
 
-**Four escapes were prosecuted and all four closed:**
-- the loaded continuum (FND-058): removes the lattice, not the strands;
-- the collective mode (FND-059): anisotropic, contradicts a Derived claim;
-- any operator-shaped fix (FND-060): closed as a *class* — ω²(k) is periodic
-  for arbitrary coupling range and Gershgorin bounds the disordered case, so
-  E_max ~ ħc/a always. **The ceiling is discreteness, not the
-  nearest-neighbour approximation.**
-- tuning a length: blocked because both registered lengths are
-  electron-anchored — d_c through ELEC-021's Λ = E_inf·d_c (GRV-094,
-  fork-invariant) and a through the spent m_e calibration T₀a = 2.6065e-14 J.
-  Driving a to the required value raises T₀ by 10⁵ and Σ_vac by 10¹⁵,
-  destroying the Lorentz bound that currently clears at 6.1×. Shrinking d_c
-  does not help at all — the constraint falls on the spacing *between* strands.
+**What remains open:** what the pinned axis represents. Three logically
+distinct readings are recorded on ELEC-091 as *possibilities*, with no
+commission chartered: physically observable (which would eventually need
+experimental confrontation), present-but-not-independently-observable
+scaffolding, or structure that coarse-grains away from the effective
+electron description.
 
-**Scope, stated precisely.** The transverse-wave mechanics are **not** refuted.
-The collective mode exists, propagates, carries exactly two polarizations, and
-supports the derived couplings; **every result at accessible energies stands
-untouched.** The failure is at one end of one axis, by a stated number.
-
-**This is an open problem under active work, not a dead end.** What a fix must supply is isotropy at high k. A finer constituent spacing
-would do it; so might any structure that removes the preferred strand
-directions at short wavelength. The remaining candidates each cost a new
-primitive — strand substructure below the measured d_c (which must also explain
-why the electron anchor cannot see it), or a second carrier for the PeV quanta
-(owing two polarizations and a coupling). Neither is adopted.
-
-**Process note, on the record.** This contradiction was registered in
-FND-REL-004 with its escape left UNADJUDICATED across two claims while work
-continued on top of it, and FND-MATTER-049's reopening tripwire is recorded as
-having FIRED at 10¹¹× without halting further vacuum-facing work. That was a
-process failure. The house rule added in consequence: **a registered
-contradiction whose escape is unrun is a blocking item, not a footnote.**
+**Two conditionalities on the measurement**, neither pointing toward
+safety: it sits at s = 1.5, inside the pre-asymptotic regime, and the
+inclusion is a prolate proxy for the core's anisotropy rather than the
+circulating boundary itself.
 
 
 ## The vacuum stiffness tower (conditional, floors without ceiling)
@@ -81,12 +69,19 @@ Casimir-scaling violations confronts the whole tower; the current lattice bound
 Conjecture, not data. There is **no ceiling** (the old 1–100 window retired as
 grammar, FND-042).
 
-- **The mesoscopic source length g = l_q/a ≈ 83–108 is UNEXPLAINED.** It is the
+- **The mesoscopic source length g_C4 = l_q/a ≈ 83–108 is UNEXPLAINED, and the
+  wall now has a shape (updated 2026-08-12, the QOPH–TET arc).** It is the
   corpus's single remaining mesoscopic unknown (five former questions collapse
-  to it, FND-044). Its best-shaped candidate mechanism — the defect-log energy
-  budget — is **excluded structurally** (FND-045, Failed-and-kept: the
-  electron's own rest energy exhausts its logarithm at ~7 cells; a rescue must
-  derive a budget of 2.2–3.2 m_ec² blind).
+  to it, FND-044). The ledger after the arc: FOUR mechanism classes evaluated,
+  FOUR misses — the defect-log budget (FND-045, structural), SCALE-001's two
+  low misses, and the reconnection mean-free path (FND-075/081), the only
+  class ever to CONTAIN the target, converted to a clean miss from ABOVE when
+  the data-selected pinned spectra forced the encounter scale to ka = π–3.9
+  (closest approach on record: 1.16×, high, S1/volume — displayed, not leaned
+  on). Three misses from below, one from above; the surviving instrument set
+  at the current registry is exhausted. Note the rename adopted in this arc:
+  the mesoscopic ratio is written g_C4; the crossing CONTRAST g is a distinct
+  object, fixed at [0.395, 0.460] by GRANT-THRESHOLD (FND-080).
 - **The softening mechanism is claimed N-UNIVERSAL (FND-050, author's grant,
   2026-08-11) — and the corpus therefore owes a computation it has not done.**
   The derivations (FND-037/040) contain no reference to the number of colours,
@@ -210,7 +205,7 @@ kept straight, several quantum facts are **adopted, not derived**, or **open**:
 ## The complete failed-and-kept ledger
 
 <!-- BEGIN GENERATED: corpus_stats -->
-*600 registered claims, 558 code-backed and passing, 120 Derived, 38 registered Failed and kept.*
+*648 registered claims, 595 code-backed and passing, 121 Derived, 40 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
 Every one of those Failed claims is kept on permanent display below with its lesson,

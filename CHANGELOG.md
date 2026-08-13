@@ -1,6 +1,682 @@
+## 3.24.0 (2026-08-12) -- RELEASE CUT: the two-discriminator surface
+
+- papers/_sources/falsifiable_predictions.docx synced (validated,
+  PDF regenerated): Prediction 20's status line carries the FND-093
+  discharge with the armed return clause on its face; the audit
+  intro and closing recount move to TWO FIRM (Prediction 6; the
+  Casimir pin) PLUS ONE CONDITIONAL (the k-string statistic); the
+  pre-registered SU(6) decision bands (FND-092) are stated in the
+  recount; version line synced to v3.24.0.
+- docs/STATE_OF_THE_PROGRAMME.md: the discrimination headline and
+  audit passage carry the two-firm update with the ruling cited.
+- The corpus surface is current: registry, KNOWN_LIMITATIONS (photon
+  entry resolved and relocated at 3.23.1), README, STATE, HANDOFF,
+  predictions paper, and Zenodo notes all state the same counts and
+  statuses. External clocks: PSR J1713 (~2027-2030) on Prediction 6;
+  achievable modern lattice work on the pin's decision table; any
+  continuum SU(6) k-string determination (kill-ready bands).
+- Verification at cut: structural checks clean (648 claims, parsers
+  agree, all referenced papers and benchmarks exist); the four
+  benchmarks new since 3.22.1 re-executed and reproducing their
+  registered outcomes (shin6_3d_bloch, fnd_rel_002_wound,
+  shin7_kb_pricing, resh_discrimination_push); full-corpus benchmark
+  re-execution deferred to CI (exceeds session compute), disclosed.
+
+## 3.23.3 (2026-08-12) -- AUTHOR'S RULING: the contact channel and the FIRM pin
+
+- FND-093 (author's act, Mark Palmer): the contact channel is absent
+  from core-free mesh strands in the long-distance bulk regime;
+  endpoint contact disclosed as boundary-subleading; armed return
+  clause (any core on the flux path, or endpoint contact promoted to
+  bulk order, returns the ruling to adjudication). Consequences: the
+  FND-063 clause on Prediction 20 discharged; FND-040's Derived
+  grade confirmed for the mesh regime; the Casimir pin FIRM; the
+  discrimination count TWO FIRM plus one conditional, pending the
+  next paper sync.
+- Annotations: FND-092 (ruling landed), FND-063 (mesh-regime scope),
+  FND-046 (forward numbers unconditioned).
+
+## 3.23.2 (2026-08-12) -- RESH: the T2 discrimination push
+
+- FND-092 (Modeled): (1) adjudication prep on the FND-063
+  conditionality -- all computable facts land dischargeable (no K_c
+  in FND-040's chain, machine-verified; BET4's indictment confined
+  to the localised branch by its own scope sentence; BET3's
+  functional facts re-confirmed); the deciding step is a geometric
+  reading (contact channel absent on core-free mesh strands?)
+  reserved to the author. If granted, the Casimir pin goes FIRM and
+  the discrimination count rises to TWO FIRM. No ruling made.
+  (2) SU(6) k-string decision bands pre-registered before any
+  continuum determination exists: k=2 softened Casimir
+  [1.5904, 1.5981] vs sine 1.7321; k=3 [1.7856, 1.7971] vs 2.0000;
+  kill at 3e above band-top, select inside band and 3e below sine,
+  no post-hoc adjustment.
+
+## 3.23.1 (2026-08-12) -- the photon limitation removed from KNOWN_LIMITATIONS
+
+- The photon-sector entry is REMOVED from KNOWN_LIMITATIONS.md and
+  its full kept history relocated, not deleted, to a new permanent
+  record: docs/RESOLVED_LIMITATIONS.md (resolving claims FND-083..091
+  named on the entry). A short pointer remains in KNOWN_LIMITATIONS
+  routing the residual general-class items to their standing homes
+  (scales -> FND-MATTER-003 class; discrete O((ka)^2) -> FND-REL-004;
+  soft falsifier -> FND-086/087, armed).
+- Predictions paper cross-reference updated to the resolved record
+  (docx revalidated, PDF regenerated). ZENODO_RELEASE_NOTES bumped.
+- README overview paragraph rewritten (the "most serious open
+  problem" passage now states the resolution with the derivation
+  chain and points at the resolved record); STATE_OF_THE_PROGRAMME's
+  two photon passages carry dated resolution updates.
+- HANDOFF tripwires updated: the photon sector is quoted as RESOLVED
+  with residuals in their standing homes, never as open or as
+  merely repaired-under-grant-in-KL.
+
+## 3.23.0 (2026-08-12) -- RELEASE CUT: the external-surface sync (T1)
+
+- papers/_sources/falsifiable_predictions.docx synced to the registry
+  (validated, PDF regenerated at papers/falsifiable_predictions.pdf):
+  - Prediction 6 second-use sentence now carries the FND-044 kill and
+    the fixed-g premise; primary content untouched.
+  - Prediction 20: FND-063 grade conditionality on the status line;
+    SHIN floor-vindication sentence added; the "owes a bundle-binding
+    relation" sentence replaced by the delivered b_k = (k-1)/(N-1)
+    with the adverse sine-law disclosure, retreat pre-refused.
+  - Predictions 28-29: the stale LHAASO consistency line SUPERSEDED
+    and both entries pointed at the photon-sector section.
+  - NEW photon-sector section before Part VII, written to the
+    post-SHIN state: the failure at full volume, the repair with the
+    derived winding and its verifications (FND-083..091), the kb
+    bound, and the underived scales with the armed soft falsifier.
+  - Discrimination recount: ONE FIRM (Prediction 6) PLUS TWO
+    CONDITIONAL (Prediction 20 pin; FND-055 k-string,
+    adverse-leaning, stated as a way to be killed).
+  - Failed-and-kept count regenerated: 40. Version line release-synced.
+- ZENODO_RELEASE_NOTES.md refreshed to v3.23.0 / 646 claims / 40
+  kept failures, photon highlight rewritten to repaired-under-grant.
+- The GRANT-SUBSTRUCTURE-TIGHT debt register is CLEAR: all five items
+  discharged (FND-089/090/091 + this sync).
+
+## 3.22.4 (2026-08-12) -- SHIN7: the bending cost priced
+
+- FND-091 (Modeled): kb priced as a registered constraint at the
+  derived angles, worst-case pitch p = a_f. Static price binds:
+  kb <= 0.126 T0_f a_f^2 (dispersive price 13x looser). Slenderness
+  reading r_s/a_f <= 0.355 consistent with spacing-separated fibers.
+  kb stays unscaled; the bound is armed against any future kb
+  derivation. Debt 4 discharged; the photon debt register is down to
+  the release sync alone.
+- FND-087 annotated (debt 4 -> priced constraint).
+
+## 3.22.3 (2026-08-12) -- SHIN6 arc: the 3D check and the wound re-derivation
+
+- FND-089 (Modeled): COMMISSION SHIN6, the 3D two-polarization Bloch
+  check, PASSES at the FND-088 derived angles on a triply-controlled
+  instrument. Instrument history fully disclosed in four locked
+  addenda: wavelength lock error + lattice aliasing
+  (parameterization-invalid); projector engine violating the acoustic
+  sum rule (instrument-invalid at its own control, taken not tuned);
+  cubic Cauchy anisotropy exposed by the isotropic-null control (raw
+  bars unpassable in principle) and removed by the closed-form g = 2
+  shell calibration on the null only; fourth-moment sampling
+  requirement (>= 5 phases/level) derived a priori. Adjudicating
+  member f = 1/5: group 0.791, spread 0.0476 (thin margin disclosed),
+  angle 3.3 deg, pw weight 0.86, polarization split 0.033; straight
+  control obstructed 0.82/0.92 on the same engine. Debt 3 discharged.
+- FND-090 (Derived, homogenized scope): FND-REL-002 re-derived on
+  wound carriers -- per-fiber legs inherit by dependency path, the
+  owed isotropy is a theorem of the derived angles (orientation
+  tensor isotropic to 2.6e-15, acoustic spectrum
+  direction-independent to 6.7e-16), SHIN6 as engine verification.
+  The grant's trigger DELIVERED, not fired. Debt 1 discharged.
+- Debt 2 resolved SHARPENED: "level one at the magic angle" is not a
+  theorem; the exhaustive exact solve shows the magic angle at
+  exactly one level of every admissible solution, level-exchange
+  symmetric, the adopted winding unique up to relabeling. A
+  conjecture died and a stronger theorem replaced it.
+- KNOWN_LIMITATIONS photon entry softened per FND-087's own gate:
+  UNRESOLVED -> REPAIRED UNDER GRANT, SCALES UNDERIVED, with kb, the
+  scale class, FND-REL-004's discrete question, and the paper sync
+  disclosed as remaining. Soft falsifier (m x 1.4 PeV) stays armed.
+- Annotations: FND-087 (debts 1-2 discharged, gate exercised),
+  FND-088 (necessity theorem corrected to symmetric form),
+  FND-REL-002 (wound-carrier extension).
+- Remaining on the photon debt register: kb bending-cost pricing;
+  the T1 release sync (predictions paper + Zenodo) carries the entry
+  conversion.
+
+## 3.22.2 (2026-08-12)
+Documentation cut: the arc paper and the handoff refresh.
+
+- papers/photon_sector_repair.md: the FND-083..088 arc documented end
+  to end (problem, pricing, three commissions, adoption, derivation,
+  plain-English statement, debt register, drafted candidate
+  prediction, claim index).
+- HANDOFF.md refreshed for v3.22.1+ (prior handoff archived under
+  docs/history/); stale-statement tripwires for the photon sector
+  registered; queue re-ranked tier-tagged per STRATEGIC_TARGETS.
+
+## 3.22.1 (2026-08-12)
+Commission SHIN5: the winding derived.
+
+- 643 registered claims. FND-088 (Modeled): the grant's winding
+  structure is fixed in closed form by the corpus's own demands --
+  hierarchy depth two by exact counting (1/9 != 1/5), psi_1 the magic
+  angle arcsin(1/sqrt3), psi_2 from 35u^2 - 30u + 3 = 0 with the
+  Lorentz floors uniquely selecting the (15+2sqrt30)/35 root; the
+  fourth-order orientation tensor isotropic to 2.9e-13 at the
+  selected angles. GRANT-SUBSTRUCTURE-TIGHT's underived parameters
+  drop from four to two (the scale class).
+
+## 3.22.0 (2026-08-12)
+The photon-repair arc closes: SHIN3, SHIN4, and GRANT-SUBSTRUCTURE-TIGHT.
+
+- 642 registered claims. FND-085 (Failed, kept): pitch ~ lambda is the
+  resonant Bragg regime; second bracketing exclusion. FND-086
+  (Modeled): the homogenized-winding check PASSES all bars (spread
+  0.36 percent, group speed 0.86, angle 0.3 deg, pw weight 0.92)
+  against a still-obstructed straight control. FND-087: GRANT-
+  SUBSTRUCTURE-TIGHT adopted per the author's standing conditional
+  authorization -- the vacuum strand is a bundle of finer wound
+  sub-strands; price sheet and debt register on the claim.
+- KNOWN_LIMITATIONS photon entry: ADOPTED CANDIDATE status appended;
+  the failure disclosure stands until the debt register clears.
+- Debt register: FND-REL-002 on wound carriers (adjudication
+  trigger); 3D two-polarization instrument; parameter provenance;
+  bending cost; predictions-paper sync at next release cut.
+
+## 3.21.3 (2026-08-12)
+Commissions TAV3/TAV3B: the wound-carrier dispersion check.
+
+- 639 registered claims. FND-084 (Failed, kept): the sufficiency half
+  of the helical-substructure candidate fails on a validated Bloch
+  instrument -- loose hierarchical winding scatters the short wave
+  (group speed 0.046 on-axis, 31 percent spread, spectral weight
+  fragmented). GRANT-CANDIDATE-SUBSTRUCTURE NOT adopted; the
+  candidate returns sharpened: pitch <= wavelength (tight winding).
+- The time-domain instrument returned INSTRUMENT-INVALID at its own
+  control and was retired for the question; verdict taken, not tuned.
+- FND-083's length-axis result (redistribution at zero Lorentz cost)
+  is untouched.
+
+## 3.21.2 (2026-08-12)
+Commissions TAV2 and SHIN2; the T1 predictions reconciliation; the T3
+photon-repair pricing.
+
+- 638 registered claims. FND-083 (Modeled): the helical-substructure
+  acceptance test PASSES all four locked bars -- redistribution buys
+  the PeV length axis at zero Lorentz cost; two-level winding reaches
+  full-sky coverage (single-level fails by five orders, kept); the
+  guided-path tension (0.008c) locked on the face with the
+  collective-branch assignment as the named escape.
+  GRANT-CANDIDATE-SUBSTRUCTURE is on the author's desk.
+- papers/PREDICTIONS_RECONCILIATION_v3.21.md: three material
+  corrections to the predictions paper (Pred 6 conditions, Pred 20
+  delivered/strengthened/conditional, Pred 29 superseded by the
+  photon conviction), the photon disclosure drafted, discrimination
+  recount: one firm plus two conditional. ZENODO_RELEASE_NOTES
+  unfrozen at v3.21.1.
+- docs/T3_PHOTON_REPAIR_PRICING.md: all five repair candidates
+  priced; C4 and C5 closed with kill numbers (pointing 1.3e-21 rad;
+  the charge-carrier fence; 8.6e9 kink units).
+- docs/STRATEGIC_TARGETS.md: the standing tier ranking; HANDOFF
+  points to it.
+
+## 3.21.1 (2026-08-12)
+Commission TAV2: the bundle-contact scaling measurement.
+
+- 637 registered claims. FND-082 (Modeled): lateral bundle-bundle
+  contact measured SUB-LINE on the strand engine at TAV's locked gaps
+  (full-section excluded laterally, the commentary converted to
+  conviction); axial contact trends to p ~ 1 but fails the locked
+  half-sweep stability bar -- UNSTABLE, kept; neither the discharge
+  nor the conviction branch of Chain A's conditional fires.
+- Filed for the author: the MULTIPLICITY-CURRENCY question against
+  MEM (pair-currency inverts the pin to n ~ 16-24, outside every
+  registered window; engaged-constituent currency gives m = n exactly).
+  The verbatim reading of MEM's locked bars is the named first step.
+- Sweep extension after seeing numbers refused as bar-shopping; the
+  asymptotic G-AX exponent owed to a successor with fresh bars.
+
+## 3.21.0 (2026-08-12) -- ARC RELEASE: the QOPH-TET arc ships
+
+- Release cut for the 2026-08-12 arc (FND-074..081, nine commissions,
+  two author's acts). Headlines: one-medium convicted whole; the
+  two-level strand hierarchy opened and held; GRANT-THRESHOLD adopted;
+  the reconnection chain conditionally crowned end-to-end on the
+  sealed v0 band; C4's mesoscopic landing cleanly missed (fourth
+  conviction, first from above, 1.16x best approach). Release notes:
+  docs/history/RELEASE_NOTES_v3.21.0.md. HANDOFF.md rewritten (prior
+  version archived in docs/history). KNOWN_LIMITATIONS mesoscopic
+  entry restated with the wall's shape. G2's FND-KIN sweep discharged
+  (no registered profile; the step class is the KIN-consistent one;
+  no re-solve owed). Name hygiene adopted: contrast g vs mesoscopic
+  g_C4.
+
+## 3.20.15 (2026-08-12) -- Grant-Threshold adopted; Commission TET: the spectrum
+
+- FND-080 registered (author's act): GRANT-THRESHOLD adopted -- matter
+  sits at its own survival threshold. Purchases: g = [0.395, 0.460]
+  fixed; m_b = [63.0, 73.4] pinned; Chain A selects n_b = [63, 73] at
+  (kappa250, hex) under the named full-section conditional. Exposure
+  armed through the spectrum computation and all future independent
+  determinations.
+- FND-081 registered: CHAIN-CLOSES + C4-MISSES. The granted g through
+  the pinned spectrum class (segment fundamental; step-kink harmonics)
+  returns p_eff = [1.30e-3, 2.67e-3] INSIDE the sealed v0 band -- the
+  reconnection chain closes end-to-end, NUC-030 conditionally crowned,
+  the grant's first exposure survived, and the pinned-vs-unpinned fork
+  settled by data (transit and continuum readings excluded/marginal).
+  No surviving spectrum lands the mesoscopic g: effective ka 3.14/3.88
+  is outside FND-075's pre-registered [1.8, 2.9], so C4 converts to a
+  clean miss -- the fourth, the first from above, closest approach
+  1.16x displayed and not leaned on. FND-044's residual stands with
+  its best-ever approach on record. Annotations on FND-080, NUC-030,
+  FND-075, FND-074, FND-071, FND-051, FND-044.
+
+## 3.20.14 (2026-08-12) -- Commission MEM: the m_b(n) confrontation
+
+- FND-079 registered: PINNED-CONDITIONAL. The registered multiplicity
+  models made functional and fed the hierarchy's counts: survival
+  passes at every plausible cell of both identities (the bundle
+  hierarchy cannot be killed by the matter-stability census), and the
+  at-threshold demand pins m_b = [63.0, 73.4], inverting through
+  full-section contact alone to n = [63, 73] -- intersecting exactly
+  the (kappa250, hex) constituent window (Chain A: floor, packing, and
+  n_b selected together) and the tube census (Chain B: below the
+  collective-hbar mark within L1). Line and patch intersect nothing.
+  Third independent appearance of matter-at-its-own-threshold; priced
+  as GRANT-CANDIDATE-THRESHOLD (buys g ~ 0.40-0.46, m_b = 63-73,
+  n_b = 63-73 at kappa250/hex; exposed through the sealed
+  arriving-spectrum demands) and PLACED ON THE DESK. Four sealed
+  demands now converge on the arriving-wavenumber spectrum. Annotations
+  on FND-078, FND-077, FND-029, EM-RECON-018, QGATE-004, FND-074.
+
+## 3.20.13 (2026-08-12) -- Commission KAF2: the fusion confrontation
+
+- FND-078 registered: POINT-CONSUMED. PHI's calibration point
+  (2.25, +0.125) is one measurement in two coordinates
+  (delta = kappa_rel/2 - 1 identically at rho_R = 1; the single degree
+  of freedom is the lattice Casimir 9/4), consumed exactly by FND-037's
+  n_b-free recruitment (retrodiction, per the locked disclosure).
+  BOTH winding-configuration readings of KAF's family are excluded by
+  the same point -- the free minimum's null from below, forced
+  coherence (+94/+106 percent) from above by x7.5-8.5 -- so the adjoint
+  tube's excess is recruitment, not strain coherence: a two-sided
+  confrontation FND-037's law uniquely survives. FND-077's named n_b
+  decider is adjudicated EMPTY; the acquisition is re-pointed at
+  m_b(n_b) (shortest path), the strand-engine barrier spectrum, or
+  lattice substructure. Annotations on FND-077, FND-052, FND-035,
+  FND-037.
+
+## 3.20.12 (2026-08-12) -- Commission TAV: the bundle census
+
+- FND-077 registered: BUNDLE-CONSISTENT with the demotion on its face.
+  The tube constituent can be a solid bundle of axial vacuum strands:
+  integer n_b windows non-empty at both live floors and both locked
+  packings (5-9 at kappa 50/f_c up to 40-81 at kappa 250/hex); solidity
+  passes at both packings (gap 0.80/0.05 sigma vs 1.5); and the count
+  confrontation reduces identically to (families)/phi because FND-068's
+  coverage convention gives (pi/4)(w_vac/a)^2 = f_c to 1.3e-4 -- the
+  cell declared natural at lock (axial, hex) lands at 1.103, the strand
+  budget balancing to the bundle's void fraction, all other cells
+  beyond L1. FND-067 demotion pre-committed and applied: the
+  cancellation runs through the shared f_c convention; consistency, not
+  evidence. n_b undetermined; the bundle-binding derivation against
+  PHI's (2.25, +12.5 percent) calibration point is the named decider.
+  T0 fork and NUCQ-002 flag untouched per the scope fence. Annotations
+  on FND-076, QGATE-004, ELEC-050, NUCQ-003, FND-066.
+
+## 3.20.11 (2026-08-12) -- Commission SHIN: one-medium convicted whole
+
+- FND-076 registered: CONVICTED-WHOLE. The registry's decisive question
+  is decided. One-medium decomposes on the claim faces into OM-D
+  (kappa_pack = 1, ELEC-050 B1's form) and OM-S (vacuum strand = tube
+  constituent, FND-073's form); both are excluded by the registered
+  Casimir-scaling bound through FND-040's DERIVED -eps/2 coefficient
+  with eps_f = 1/kappa_pack (verified against the registered floor
+  arithmetic exactly): OM-D x50, OM-S x58-x137. Escape audit closed at
+  lock; defense case (R_pred edge contact, the 4.9-percent M-point
+  coherence) weighed and outweighed. Casualties executed per the locked
+  schedule: FND-073's w determination reverts (n_t = 111 liveness
+  unwinds), BET7's downstream dies, ELEC-050 B1 stands convicted with
+  NUCQ-002's agreement flagged an unexplained coincidence, FND-029
+  gains a same-substrate caveat, FND-074/075 re-conditioned unchanged
+  in content. Yield: the kappa_pack floors vindicated by confrontation,
+  the FND-040 (a, T0) pairs the only live readings, the width ledger
+  clean (tube constituent is NOT a single vacuum strand, factor 4-9),
+  and the bundle census named as successor acquisition. Annotations on
+  FND-073, FND-067, ELEC-050, FND-040, FND-029, QGATE-004, FND-074,
+  FND-075.
+
+## 3.20.10 (2026-08-12) -- Commission RESH: C4 re-opened
+
+- FND-075 registered: CONDITIONAL-CONTAINS. SCALE-001's C4 mean-free-path
+  law, locked 2026-08-11 and retired UNDERSPECIFIED for want of a
+  cross-section, is posable for the first time with sigma_x = p a^2
+  (FND-071) and p exact (FND-072). Over the locked enumeration (both
+  registered crossing-density readings; survival-band contrast under
+  FND-073's C3 identification; QOPH's ka family) the six-cell matrix
+  straddles the sealed range [82.6, 108.0]: transit low beyond L1, kink
+  low within L1, fundamental high within L1. Look-elsewhere printed at
+  35 percent; containment claimed as weak evidence only. The inversion
+  is the forward content: robust landing demands effective ka in
+  [2.19, 2.38], inside QOPH's family -- the arriving-wavenumber spectrum
+  now carries two independent sealed demands and is the g arc's single
+  decisive computation. Everything conditional on the unprosecuted
+  per-pair identification, hence doubly gated by one-medium.
+  Annotations on FND-051, FND-044, FND-072, FND-074.
+
+## 3.20.9 (2026-08-12) -- Commission QOPH: the encounter spectrum
+
+- FND-074 registered: RESOLVED. The C3 tension (reconnection window vs
+  matter-stability survival, disjoint 1.49x at ka = 1) is an
+  evaluation-scale artifact: from FND-072's exact form, g_demanded at
+  fixed p is exactly linear in ka (verified 1e-12), and under the route
+  classification closed at lock -- segment fundamental ka = pi
+  (FND-REL-005's hard-pinning limit), kink width ka = a/w = 1.594
+  (FND-068/EM-RECON-030), transit ka = 1 (FND-071 incumbent) -- both
+  mode-based scales OVERLAP the survival floor [0.395, 0.460]; the
+  incumbent sits within the L1 band. The NUC-030 falsifier does not
+  fire; the demanded window restates as the family [0.082, 0.265] x ka,
+  ka in [1, pi]. The floor-coincidence (g ~ 0.40-0.46 satisfying
+  reconnection while placing matter at its own survival threshold)
+  displayed and refused per the resemblance rule. Named acquisitions:
+  the arriving-wavenumber spectrum (collapses the family); RESH, the
+  SCALE-001 C4 re-opening under seal. Annotations on FND-071, FND-072,
+  FND-073, NUC-030.
+
+## 3.20.8 (2026-08-12) -- Commission TSADE: the w determination
+
+- FND-073 registered: CONDITIONALLY-DETERMINED. Under one-medium (the
+  identity ELEC-050's B1 already uses for T0), w = [0.0395, 0.0528] fm
+  and a = [6.30e-17, 8.41e-17] m: the Lorentz bound satisfied at 1.11x
+  unaimed margin; the hbar census non-empty with n_t = 111 inside
+  [47, 198] (first time the framework's own hbar is live inside a
+  computed band); the reconnection-vs-survival tension named at 1.49x
+  (coverable, assigned to the encounter-spectrum derivation). Two
+  adjacencies displayed and refused per the FND-070 rule (M-point at
+  4.9 percent). One conflict registered: one-medium and FND-040's
+  kappa_pack-floor a readings cannot both stand. Everything funnels to
+  ONE prosecution: one-medium. Annotations on FND-066, QGATE-004,
+  ELEC-050, FND-040, FND-072.
+
+## 3.20.7 (2026-08-12) -- Commission PE: the branching ratio derived
+
+- FND-072 registered: p derived in exact closed form as one-crossing
+  inter-strand transfer, p(g, ka) = g^2/(2(g^2 + 4(ka)^2)) -- symmetric
+  channel free (gaplessness exhibited from the registered matrix),
+  antisymmetric scatters off Commission G's contrast; unitarity symbolic;
+  amplitude-free (SCALE-001's circularity cancels in the ratio); the
+  topological ceiling 1/2 emerges from the hard-node limit. At the
+  locked ka = 1 the sealed band inverts to g in [0.082, 0.265], strictly
+  inside the registered inventory (floor 1e-2; FND-029 band [0.019, 87])
+  and not pinned by it: CONSISTENT-UNDERDETERMINED. Falsifier holds.
+  The acquisition descends from p to g, and the constituent width w now
+  carries THREE census verdicts (hbar, matter stability, reconnection).
+
+## 3.20.6 (2026-08-12) -- CI repair: masstable and THM-006
+
+- AME2012 data vendored to data/ame2012/ (2439 nuclides); LAMED and MEM
+  benchmarks patched local-first with the masstable package as fallback,
+  and masstable added to requirements.txt. Both reproduce their
+  registered numbers exactly (LAMED: DIFFUSE, permutation p < 0.001;
+  MEM: chi2 6325.9 vs 42.3, +6.6 sigma).
+- THM-006's benchmark hardened: it asserted the second falsification's
+  snapshot of a LIVE registry statistic, and the live enrichment drifted
+  back to 1.11x (third movement) as the recent arcs shifted the layer
+  census, crashing CI. The record (both locked bars, both kept
+  violations) is now documented with the live value printed; structural
+  invariants remain asserted; exit clean. House lesson recorded on the
+  claim: kept-failure benchmarks must not gate CI on live registry
+  statistics. Grade unchanged: Failed, twice, kept.
+
+## 3.20.5 (2026-08-12) -- Commission AYIN: the reconnection acquisition reduced
+
+- FND-071 registered: the five-context reconnection demand classified
+  (three dimensional objects, one conversion chain), the attempt scale
+  nu = c/a derived from registered inputs at every a reading (1.97-20.3
+  GeV in hbar units, causality honoured per ELEC-043), two theorems fixed
+  (athermality forbids Arrhenius; free interpenetration makes p a
+  topological branching ratio in (0, 1]), and NUC-030's sealed v0
+  converted to the demanded window p in [8.3e-04, 8.6e-03] -- the arc's
+  third sealed target, armed before any mechanism exists to tune to it.
+  No p value selected by rule. Named next-order: derive p blind from
+  EM-RECON-022's channel map plus crossing acceptance.
+
+## 3.20.4 (2026-08-12) -- the adoption
+
+- NUC-030 registered (author's decision, no computation): GRANT-CANDIDATE-COH
+  adopted as the R4 channel separation. Diagonal cost -> asymmetry (surface
+  dilution, -1/3); off-diagonal hybridization -> pairing (-1/2, volume-
+  normalized mediator). Conditional on QGATE quantization and the
+  reconnection rate; falsifier armed at v0 = 16.97 MeV (sealed target,
+  priced from data before any mechanism could tune to it). Consequences
+  annotated on NUC-024/027/029. The nuclear sector's three consolidated
+  misses resolve 2 + 1, with the asymmetry shape and magnitude and v0's
+  derivation named as the surviving open items.
+
+## 3.20.3 (2026-08-12) -- Commission SAMEKH: the grant realized in structure
+
+- NUC-029 registered: GRANT-CANDIDATE-COH taken to trial before adoption.
+  Eight (realization x normalization) cells enumerated at lock; unique
+  survivor R4 (pure off-diagonal hybridization, volume-normalized
+  amplitude), exponent -1/2 exact, no cancellation (R1's cancellation
+  route refused as unprotected). The three-miss consolidation splits
+  2 + 1: asymmetry dilutes by surface (-1/3 derived, confirmed against
+  NUC-020 at max 6.9 percent with amplitude the only fitted number --
+  an exponent miss converted to a prediction hit), pairing by coherence.
+  Price: v0 = 16.97 MeV, one unregistered number; conditionalities: mode
+  quantization (QGATE) and the reconnection rate (FIFTH context). No
+  root-extensive smooth component owed; NUC-028's absorbed shadow does
+  not arise. Nothing adopted; the restated grant is on the author's desk.
+
+## 3.20.2 (2026-08-12) -- Commission NUN: the dilution
+
+- NUC-028 registered: the NUC-027 consolidated demand prosecuted blind.
+  Four channels enumerated at lock; exponents 0, -2/3 (plus a fixed part),
+  0, and -1/2 -- only coherent collective sharing reaches the target.
+  Durable theorem: 1/2 is not a geometric exponent (strictly between
+  curvature 1/3 and surface 2/3), so local counting cannot produce
+  root-extensive energy; NUC-021's boundary extended from shape to scale.
+  The channel priced from the measured staggering (c = 33.94 MeV; smooth
+  component 24 sqrt(A) MeV) and found ABSORBED into the droplet basis to
+  0.068 MeV -- invisible in smooth binding, staggering the sole instrument.
+  GRANT-CANDIDATE-COH to the author's desk; the reconnection rate demanded
+  in a FOURTH independent context. Bars locked first;
+  benchmarks/nuclear/nun_dilution.py.
+
+## 3.20.1 (2026-08-12) -- housekeeping and the owed re-solve
+
+- Stale-annotation repair: EM-RECON-018 carried FND-069's placement
+  annotation with no FND-070 withdrawal (the only FND-069-touched claim
+  missed by the retraction sweep); correction bracket appended.
+- HANDOFF version/count inconsistencies fixed (header arc label; section-7
+  paste block updated from v3.19.0/600 to v3.20.0+/622).
+- EM-RECON-030 registered: the owed EM-RECON-018 re-solve under FND-068's
+  areal convention. Band robust at [0.395, 0.460] (readings straddle the
+  knee of the single-peaked C curve, sweep-verified); m_b < 63-73 stands;
+  W1 values scale by sqrt(3); reading B's sub-touching standoff (0.797
+  contact ranges) carried as the named open edge. Quarantine on the
+  survival band LIFTED. Bars locked first; benchmark
+  benchmarks/em/emrecon018r_areal_resolve.py.
+
 ## [Unreleased]
 
-(nothing pending)
+### Added (FND-070: the placement adjudicated -- and FND-069 retracted in part)
+- FND-070 Q1: GRV-035's percolation is CROSSING-SURVIVAL bond percolation
+  (p_c = 0.2488); FND-MATTER-038's is AREAL COVERAGE of disks in a
+  cross-section (f_c = 0.309). Different order parameters, different
+  lattices. NOT the same transition; FND-069's contradiction WITHDRAWN.
+  Propagation vector: ELEC-048's paraphrase attached the coverage symbol
+  f_c to a bond-collapse statement, and FND-069 read through it.
+- FND-070 Q2 (pre-registered, not asked by FND-069, and decisive against
+  it): the K_c chain places MATTER at the coverage threshold, not the
+  vacuum. EM-RECON-012 verbatim "atoms sit AT the coverage threshold";
+  FND-MATTER-004 "an ATOM sits at the ONSET of impenetrability".
+- RETRACTED from FND-069: the C7 re-opening in full, the divergence, the
+  "critical vacuum" ontological commitment, and the retirement of the
+  correlation-length candidate family (those candidates are LIVE AGAIN).
+- SURVIVES: FND-069's C6 check (partial discharge is not a re-opening).
+- SCALE-001 ledger REVERTS to 3 evaluable / 5 UNDERSPECIFIED;
+  UNDERSPECIFIED-DOMINANT restored as FND-051's verdict. g is exactly
+  where FND-051 left it.
+- Annotations: FND-069, FND-051, GRV-035, ELEC-048, EM-RECON-017, FND-044.
+
+### Added (FND-069: back to Rank-1 g -- the vacuum is committed to criticality)
+- FND-069: SCALE-001's C7 re-opened. Its missing carrier IS registered:
+  EM-RECON-017 derives K_c by requiring the ambient mesh AT the coverage
+  threshold ("below threshold K_c = 0"), and EM-RECON-018 uses that
+  placement to derive w/a. So f = f_c exactly.
+- FND-051's LOCKED C7 law, used verbatim, then returns a DIVERGENCE at
+  every universality exponent. First licensed law to miss HIGH; the
+  other three missed low. Ledger 3/5 -> 4/4; UNDERSPECIFIED-DOMINANT
+  retired as FND-051's verdict. g still NOT delivered.
+- THE REAL CONTENT: the corpus is committed to a CRITICAL, scale-free
+  vacuum, arrived at sideways for matter-stability reasons and never
+  registered as an ontological statement. A scale-free vacuum cannot
+  supply g by ANY correlation-length mechanism -- an entire candidate
+  family retires at once. Reported, NOT adopted.
+- CONTRADICTION REGISTERED: GRV-035 has ordinary vacuum "far from
+  collapse", i.e. NOT critical, against EM-RECON-017's requirement that
+  it is. Neither cites the other. Not adjudicated -- may be the FND-066
+  naming failure mode again.
+- C6 HELD underspecified (B3): FND-063/064 discharged its contested-sign
+  ground, amplitude circularity stands; one of two grounds is not a
+  re-opening. Its retirement is now single-ground.
+- Annotations: FND-051, EM-RECON-017, GRV-035, EM-RECON-018, FND-044.
+
+### Added (FND-068: the 3 pi audit, OUTCOME O2 -- the identity dissolves)
+- FND-068: the strand-area convention derived from primitive geometry
+  under a preregistered anti-circularity prohibition (neither route
+  opened, no target count used). The coefficient is pi, NOT 3 pi.
+- f_c is AREAL by FND-MATTER-038's own construction (Poisson disks in
+  the cross-section, 2D-parallel reduction). EM-RECON-018 equated it to
+  the VOLUME fraction of the O_h three-family weave. Correct relation:
+  pi w^2/(4a^2) = f_c, so w/a = 0.6272 not 0.3621, a factor sqrt(3).
+- ON SUBSTITUTION THE ROUTES COUNT DIFFERENT OBJECTS: QGATE-004's n_t is
+  strands THREADING the cross-section (pi R^2/a^2); NUCQ-003's n is
+  TOTAL STRAND LENGTH per unit tube length (3 pi R^2/a^2). Ratio 3.
+  FND-067's identity was manufactured by the conflation the audit was
+  chartered to find, and is WITHDRAWN. One-medium: no evidence either
+  way, exactly as FND-066 found it.
+- RE-SOLVE OWED on EM-RECON-018: the standoff readings, the survival
+  band [0.40, 0.46] and the m_b < 63-73 conversion all move by sqrt(3)
+  and must not be quoted until re-solved. FND-065's substance unaffected
+  (units bridge moves 0.24 orders against a 4.6-5.2 order gap).
+- The 111 vs >=115 confrontation is NOT adjudicated -- it swings by
+  orders across the registered a values. Blocked on a.
+- STOP CONDITION FIRED: the permitted consequence commission is DECLINED
+  (blocked on a). THE CHAIN ENDS. Next commission is Rank-1 g.
+- Annotations: EM-RECON-018, FND-067, QGATE-004, NUCQ-003, FND-066,
+  FND-065.
+
+### Added (BET7: one-medium on trial, FND-067)
+- FND-067: QGATE-004's percolation count and NUCQ-003's tension/density
+  count are ALGEBRAICALLY IDENTICAL under EM-RECON-018's coverage
+  relation -- n_t = f_c (2R/w)^2 = 3 pi (R/a)^2, symbolic difference
+  zero, with f_c CANCELLING completely. The test had teeth there.
+- DEMOTED IN THE SAME BREATH by the mandatory provenance audit: both
+  routes carry a factor 3 pi that neither derives from the other's
+  premises. ELEC-050's own rule, applied to a result this commission
+  produced. One-medium is not-false, NOT established.
+- DOWNSTREAM: QGATE-004's "no independent constraint on the constituent
+  width" is FALSE under the identity -- NUCQ-003's floor n >= ~115
+  constrains it and the demanded n_t = 111 sits below. The claims never
+  met because of the FND-066 name collision. Third consequence in this
+  arc traceable to naming rather than physics.
+- No census executed, no fork branch picked, identity not established.
+- Next-order: derive the per-cell strand-area convention (the 3 pi)
+  ONCE from registered geometry -- converts this into evidence or a kill.
+- Annotations: QGATE-004, NUCQ-003, ELEC-050, EM-RECON-018, FND-066.
+
+### Added (BET6: the w census, FND-066)
+- FND-066: chartered to determine w, stopped at the doorway. The name
+  carries THREE registered objects in TWO roles: the vacuum-mesh strand
+  (EM-RECON-018, w/a = 0.3621 derived) versus the flux-tube constituent
+  (QGATE-004 demanded ~1.5e-3 fm, ELEC-050 measured 0.0395-0.0565 fm).
+  Kappa-rename class, second occurrence, on a symbol load-bearing for
+  the localised sign, matter stability and the hbar branch at once.
+- THE a DEPENDENCY, never previously exhibited: w/a is a RATIO and the
+  registry carries at least three a values, swinging W1 from 0.0362 fm
+  to 0.0035 fm and the gap to QGATE's demand from 24x to 2.3x.
+- FND-029's "unregistered width" is STALE as to the tube constituent.
+  THIRD stale-value catch of the arc and the FIRST caught before
+  building on it, by a bar written because of the previous two.
+- V-COLLISION. No w determined, no census executed (B4 held), no
+  identification made or refused on the merits. Proximity (8 percent,
+  W1 at the Lorentz bound vs W3's low edge) REPORTED AND REFUSED with
+  its structural confound named.
+- Next-orders: the rename; the one-medium adjudication; settle a; only
+  then re-point FND-029's m_b and run the census.
+- Annotations: FND-029, EM-RECON-018, QGATE-004, ELEC-050, FND-065.
+
+### Added (BET5: the escape is gone, FND-065)
+- FND-065: FND-064's sign identity composed with FND-MATTER-063's
+  three-census exclusivity. UNITS CHECKED FIRST: the two censuses are
+  not the same quantity (Ac sigma0/(T0 a) vs Ac/(T0 a)); the registered
+  bridge sigma0/a = 0.362 is O(1) and the gap corrects to 4.6-5.2
+  orders -- FND-MATTER-063's headline survives, slightly reduced.
+- THE PRODUCT: FND-029's nuclear import excludes the eta-satisfying
+  region (R1 < 9.7e-6) by 3.3 orders. The branch where FND-040's
+  negative sign is correct is the branch that would have escaped the
+  zero-point consistency problem, and it is gone. That problem is now
+  UNCONDITIONAL given the import, not contingent on core survival.
+- THE SIGN REMAINS OPEN: the straddle spans both surviving regions and
+  EM-RECON-018's narrowing does not resolve it. No branch picked; w is
+  still the single decider.
+- SECOND OPERATOR ERROR LOGGED: FND-064 named the nuclear import as
+  undischarged; FND-029 had already executed it. Second
+  next-order-without-searching error of the arc, same root cause.
+- Annotations: FND-064, FND-MATTER-063, FND-029, FND-040. Files:
+  analysis/BET5_dilemma_bars_LOCKED.md,
+  benchmarks/foundations/bet5_dilemma.py.
+
+### Added (BET4: the sign IS matter stability, FND-064)
+- FND-064: BET3's localised sign condition and EM-RECON-013's
+  core-survival condition are THE SAME INEQUALITY -- symbolic
+  difference exactly zero, both reducing to K_c(k - T0) > T0 k. The
+  quartic's positivity IS the repulsive core's existence, closing a
+  loop EM-RECON-009 opened at its own registration.
+- OPERATOR ERROR REPAIRED, stale-value class: FND-063's acquisition
+  target rested on EM-RECON-013's SUPERSEDED face value for K_c;
+  EM-RECON-017 derived it in form and EM-RECON-018 narrowed the band
+  41-fold, both in that claim's own annotations. Target WITHDRAWN.
+  Also corrected: FND-063's guard disclosure 1 is EM-RECON-017's
+  registered MARGINALITY DISCOVERY, not a new noticing.
+- FND-040's c4 = -T0/8 maps to k_eff = 0: in localised settings, no
+  repulsive core and no stable matter. NOT retracted; grade remains
+  the author's. Matter stability explicitly NOT claimed settled --
+  EM-RECON-018 carried, its geometry prior not adopted.
+- Annotations: FND-063, EM-RECON-013, EM-RECON-017, EM-RECON-018,
+  FND-040, EM-RECON-009. Files:
+  analysis/BET4_stability_identity_{bars_LOCKED,results}.md,
+  benchmarks/foundations/bet4_stability_identity.py.
+
+### Added (BET3: the C6 sign conflict is a definitional mismatch, FND-063)
+- FND-063: SCALE-001 class C6 adjudicated. ONE functional --
+  c4_eff = [k(K_c + f k)/(K_c + k) - T0]/8, f the localisation
+  fraction -- reduces EXACTLY to EM-RECON-009's (k-T0)/8 at f -> 1 and
+  to FND-040's -T0/8 at f -> 0, K_c -> 0, with zero fitted
+  coefficients. The two claims were never in conflict: they hold
+  different quantities fixed (material vs tension) and attach
+  'inextensible' to opposite ends of the k axis.
+- Unbidden confirmation: the f -> 0 limit reproduces EM-RECON-013's
+  k_eff = k K_c/(k+K_c) IDENTICALLY, derived there for an unrelated
+  purpose. Dependency path, not resemblance.
+- HONEST HALF: B2 FAILS. c4 > 0 iff K_c > T0 (inextensible reading),
+  and EM-RECON-013 registers K_c only as O(k) argued-not-derived, so
+  the sign flip sits inside the O(1). Verdict V-UNDERSPECIFIED for the
+  sign selection; a derived K_c registered as an acquisition target.
+- Guard disclosures displayed and refused: the exact zero at K_c = k,
+  k = 2T0; and the rescue shape against FND-047's k-string data, with
+  the magnitude explicitly NOT determined.
+- EM-RECON-016's PVLAS confrontation confirmed UNAFFECTED (f = 1).
+  FND-040 NOT retracted; its grade question reported to the author with
+  both prices, not taken. kappa_pack floors untouched.
+- Annotations: FND-040, EM-RECON-009, EM-RECON-013, FND-051,
+  EM-RECON-016, FND-046. Files:
+  analysis/BET3_c4_sign_adjudication_{bars_LOCKED,results}.md,
+  benchmarks/foundations/bet3_c4_adjudication.py.
 
 ## 3.18.0 detail (2026-08-11) — commission-by-commission (SCALE-001 through SHIN)
 
@@ -180,7 +856,29 @@
 
 # Changelog
 
-## 3.19.0 (2026-08-11) — THE DICTIONARY CLOSES, THE PHOTON SECTOR OPENS
+## 3.20.0 (2026-08-11) — WHAT AN ELECTRON LOOKS LIKE
+Thirteen commissions from a plain question. The electron core's boundary
+EXPLAINED (r^2 sin(theta) = C -- the core is where the strand tilt
+reaches 90 degrees; the hollow is KINEMATIC and untunable), its structure
+DERIVED (tangent arrival, hairy-ball index 2, azimuthal boundary field
+with exactly two polar defects), and the resulting axis's resemblance to
+spin TESTED AND FALSIFIED -- O_h permits order-4 pinning (ELEC-096), the
+pinning is measured at 0.21 anisotropy fraction and 166x the noise floor
+with R^2 = 0.71 on a pre-fixed form and all controls passed before labels
+were read (ELEC-099), and a dependency trace showed the corpus's spin
+machinery predates the axis and never referenced it (ELEC-100). An
+interpretation died; no mechanism did. Methodological result now house
+discipline: GEOMETRIC RESEMBLANCE IS NOT PHYSICAL IDENTIFICATION.
+Alongside: EM-016 from four debts to zero, graded Derived with three
+conditionalities and an armed falsifier; the photon sector's high-energy
+failure prosecuted, re-diagnosed as anisotropy by an external reviewer,
+and DISCLOSED under route (c). 613 claims (120 Derived, 38
+Failed-and-kept). Seven self-corrections registered rather than patched.
+Full notes: docs/history/RELEASE_NOTES_v3.20.0.md.
+
+### Patch-level detail for this release (3.19.1 - 3.20.0)
+
+#### 3.19.0 — the dictionary closes, the photon sector opens
 Two arcs pointing opposite ways. EM-016, the field-tensor dictionary, went
 from four registered debts to ZERO -- uniqueness (EM-017), phi's channel
 (EM-018), the inertial term's form (EM-019), Sigma's absolute value
@@ -200,6 +898,340 @@ rather than patched, including one against a claim of the same session.
 docs/history/RELEASE_NOTES_v3.19.0.md.
 
 ### Patch-level detail for this release (3.18.1 - 3.19.0)
+
+#### 3.19.16 — the g protocol strengthened (no new claim)
+The transferable lesson from the electron-axis arc carried forward, at
+an external reviewer's suggestion, into the mesoscopic-scale problem.
+Rule registered on FND-044/049/051 and in HANDOFF's queue: DO NOT SEARCH
+FOR SOMETHING THAT NUMERICALLY RESEMBLES g -- require a DEPENDENCY PATH
+from an existing collective mechanism to the mesoscopic scale BEFORE
+looking at the target value. The sealed-target machinery already
+prevents tuning TO the number; this prevents the subtler failure of
+proposing a mechanism BECAUSE it lands near the number. It combines
+source-before-instrument with section 0's resemblance rule, whose worked
+example is the electron axis that looked exactly like spin and was not.
+
+
+#### 3.19.15 — the electron core arc closed
+No new claim, per an external reviewer's advice to resist ELEC-101: the
+arc reached a natural stopping point (axis discovered, characterized,
+tested, an attractive interpretation falsified, dependency audit showing
+exactly what survived). Two records added instead.
+(1) HOUSE DISCIPLINE, added to HANDOFF section 0: GEOMETRIC RESEMBLANCE
+IS NOT PHYSICAL IDENTIFICATION -- before identifying a newly derived
+geometric structure with an already-derived observable, require a
+DEPENDENCY PATH. Worked example kept because it cost a full arc:
+ELEC-090/091's axis looked like a perfect match for spin, ELEC-099
+measured the weave to pin it, and ELEC-100 showed the corpus's spin
+results predate the axis and never referenced it. The resemblance was
+total and the identification was empty.
+(2) ELEC-091 annotated with the three logically distinct readings of
+what the pinned axis represents -- physically observable, present but
+not independently observable, or coarse-grains away -- recorded AS
+POSSIBILITIES with no commission chartered, since selecting among them
+now would mean inventing dynamics to pick an answer.
+HANDOFF gains section 2c (the arc's derived results, what was retired,
+what not to charter) and the queue is re-pointed: the mesoscopic scale g
+(FND-044) is rank-1, on the reviewer's advice to return to a
+load-bearing unresolved quantity rather than asking the new axis to
+explain something else.
+
+
+#### 3.19.14 — the spin-provenance audit (ELEC-100)
+The reviewer's ELEC-100, run before any further compute, and decisive in
+one dependency trace: nothing outside this session's own core arc
+depends on the electron axis, and every registered spin result --
+QB-020's Tsirelson theorem, QB-025's half-angle junction law, QB-026's
+Stern-Gerlach, QB-031's transport law, QB-011/023, GRV-045, QGATE-010 --
+predates the axis by many sessions and therefore cannot rest on it.
+Spin lives in GRV-020's internal azimuth and the Hopf/Pauli-quaternion
+machinery. VERDICT: ELEC-099 killed an INTERPRETATION, not a MECHANISM.
+RETIRED: the suggestion that ELEC-091's two axis orientations are the
+electron's two degenerate spin states. KEPT: the axis, derived from
+topology without reference to spin and now known to be pinned structure
+of the charged defect. The reviewer's further point registered: two
+orientations of a classical axis were never sufficient for spin-1/2,
+which needs spinor transformation structure. ELEC-099's language
+corrected -- "ordinary axis pinning" stated loudly as established,
+any specific electron splitting stated conditionally, the "eight orders"
+phrasing withdrawn as a measured exclusion. TUMBLING NOT CHARTERED: it
+would violate source-before-instrument, needing a torque source,
+ground-state persistence, a derived frequency, an averaging argument, no
+extra observable dynamics, and spinor/4pi behaviour -- none registered.
+figures/README.md updated: do not draw the axis as a spin indicator.
+
+
+#### 3.19.13 — ELEC-099, the deciding computation (PE-2)
+C_pin MEASURED on the registered engine under cubic PBC, with the
+reviewer's blinding order binding. Controls first: null projection on an
+isotropic inclusion = 2e-16 (machine zero); three-seed noise floor
+3.15e-02; global-rotation control (system AND cell rotated together)
+invariant to within the floor. Only then were orientation labels read.
+THE PERTURBATIVE SHORTCUT FAILED ITS CONTROL, exactly as the reviewer
+warned -- R^2 0.46 and |amp|/E 0.92, configuration mismatch rather than
+anisotropy, since [100] -> [111] is not a small perturbation and
+Hellmann-Feynman does not apply across finite rotations. Rejected; PBC
+retained and the relaxations paid for. THE MEASUREMENT: six
+symmetry-inequivalent axes fully relaxed, projected onto ELEC-096's
+pre-fixed K(n) -- amplitude -5.2273, R^2 = 0.7098 on an angular form
+never fitted, anisotropy fraction 0.21, signal 166x the floor. VERDICT:
+the reviewer's outcome (3), ORDINARY COUPLING. Exact cancellation
+excluded; 1e-8 suppression excluded. At the registered s^(-3/2) scaling
+the predicted spin splitting stands many orders above the 1e-6 eV
+degeneracy bar, so ELEC-091's two-orientations reading of spin is NOT
+supported by the registered mechanics as they stand. Two conditionalities
+stated, neither pointing toward safety: the measurement sits at s = 1.5
+(pre-asymptotic) and the inclusion is a prolate proxy for the core's
+anisotropy. Only named escape remaining: orientation averaging by axis
+tumbling, still unregistered. Quiet win: ELEC-096's order-4 harmonic is
+now supported by measurement, not only by symmetry.
+
+
+#### 3.19.12 — embedded-core solver feasibility (ELEC-098)
+The reviewer's ELEC-098, run before provisioning brute force -- and it
+earned its place. Of their three routes, two preserve FND-STRAND-001
+exactly and one is REJECTED on physics. R1 (periodic boundaries): a
+cubic cell is commensurate with the three axis-aligned strand families
+for every integer N, so the periodic system's point group is O_h --
+exactly the group ELEC-096's harmonic is built on. PBC restores the
+symmetry the free box destroyed, trades an uncontrolled and
+orientation-DEPENDENT free-surface artifact (the likely cause of
+ELEC-097's sign flip) for a controlled image artifact extrapolating in
+1/L, and DISSOLVES the nrings >= s requirement that made cost scale with
+s. R2 (Green-function embedding): FAILS -- it needs linear exterior
+response, while inextensibility is an exact nonlinear nonlocal
+projection and the contact kernel is nonlinear; a stiff-spring
+linearization was already rejected in the settler work at 10 percent
+stretch. R3 (perturbative): at a relaxed configuration the energy is
+stationary in the displacements, so orientation changes enter at first
+order through the interaction term alone -- N relaxations become 1
+relaxation plus N evaluations, conditional on one control run.
+VERDICT FEASIBLE: the bottleneck is reformulable, not merely large, and
+the 30-100x estimate is superseded. Next brick well-posed: C_pin under
+PBC with the perturbative scan, carrying the order-4 estimator, the 3/2
+exponent as fixed input, and noise-floor-plus-1/L-extrapolation measured
+BEFORE any signal is read.
+
+
+#### 3.19.11 — C_pin attempted, found infeasible at accessible scale (ELEC-097)
+The deciding computation run and NOT fitted. Nine orientations spanning
+ELEC-096's order-4 harmonic, relaxed energy REGRESSED on K(n) rather
+than reduced to max-minus-min. Three disqualifying symptoms: K-fit R^2
+of 0.108-0.549; amplitude changing SIGN between s = 3 and s = 4; and a
+box adequacy check that FAILS outright -- at the feasible grid the
+inclusion extends beyond the strand grid, so it protrudes from the
+medium rather than sitting in it and every row measures boundary
+artifact. Adequacy needs nrings >= s; the asymptotic turnover plausibly
+needs s ~ 8-15, i.e. 30-100x the MEM-2 cost, which already exceeded the
+wall-clock at an invalid box. Registered INFEASIBLE-AT-ACCESSIBLE-SCALE:
+the computation is well-posed and out of reach, an infrastructure
+problem rather than a physics one. IMPORTANT: the low R^2 is NOT
+evidence against ELEC-096's order-4 form -- a protruding inclusion
+breaks the symmetry the harmonic classifies, so the fit never tested it.
+Procedural failure logged against this commission: the bar required the
+adequacy check BEFORE reporting signal, and it was run after. Retained
+gains: the projection estimator (retire max-minus-min), the explicit
+adequacy criterion, and a quantified cost.
+
+
+#### 3.19.10 — the rotational symmetry question (ELEC-096)
+The cheap brick an external reviewer said should precede the expensive
+one; they were right. The registered three-family direction set has
+point group O_h, not SO(3), so orientation dependence is generically
+allowed. The lowest nontrivial cubic harmonic is ORDER 4 (order 2 is
+constant on the unit sphere; all odd orders die because ELEC-091's two
+poles make the axis a director), taking 1.0000/0.5000/0.3333 on
+[100]/[110]/[111] -- spread 0.667, it does not vanish. MECHANISM (A)
+exact symmetry protection: EXCLUDED. MECHANISM (C) orientation
+averaging: FAILS as registered, since ELEC-068's rotation is ABOUT the
+axis and leaves the order-4 invariant unchanged; averaging would need
+axis tumbling, which has no registered rate. Only mechanism (B), a
+derived suppression, survives, and the target is now fixed in advance:
+E_pin(n) = C_pin s^(-3/2) [sum_i n_i^4 - 3/5] E_core, with 3/2 as FIXED
+INPUT so exponent and prefactor cannot compensate. Reviewer's
+methodology adopted in full; their numerical target (39-58 eV, 1e-8
+suppression) does not survive, having come from ELEC-094 which ELEC-095
+withdrew. Their correction to ELEC-094's overstatement is accepted and
+registered: the two routes DO share ELEC-074's sharp boundary, so the
+3/2 agreement evidences a universal consequence of that boundary rather
+than the proxy's physical correctness.
+
+
+#### 3.19.9 — the coupling prefactor on the registered engine (ELEC-095)
+Chartered to firm up ELEC-094; undercut it instead. FND-STRAND-001's own
+dynamics (inextensible curves by exact projection, bending, finite
+contact, parameters unchanged, NO coupling model introduced) produce a
+genuine orientation-dependent energy for an anisotropic inclusion --
+dE/E = 1.72e-02, 4.51e-02, 5.78e-02 at s = 1.5, 2.0, 3.0 against a
+3.44e-02 three-seed noise floor established BEFORE any signal was read.
+16x-51x above noise: the first such measurement from registered
+mechanics rather than a model. BUT dE/E RISES with s where ELEC-094's
+phase-overlap proxy had it FALLING as s^-1.469 from s = 2.5 -- a sign
+disagreement in the overlap. The accessible range is pre-asymptotic
+(inclusion comparable to the mesh), so the 3/2 ASYMPTOTIC law is
+untouched and remains doubly corroborated as a form-factor property. But
+the proxy asserted its power law inside the checkable range and fails
+there, so it is unvalidated in TREND, not merely in prefactor.
+ELEC-094's extrapolation, its 39-58 eV figure and its PINNED-UNDER-PROXY
+threat to ELEC-091 are WITHDRAWN. The spin question is reopened, not
+resolved. Method signal recorded: two commissions in a row have
+corrected their predecessor, which is the discipline working and a
+warning that this sector has been reaching for models where it should
+derive. NEXT BRICK: multipole-expand the registered contact kernel about
+an anisotropic inclusion -- closed form, and it yields a prefactor with
+provenance rather than an extrapolation with a proxy.
+
+
+#### 3.19.8 — the axis-pinning experiment, scaled (ELEC-094)
+An external reviewer's rotate-relax-measure-extrapolate protocol adopted
+with attribution, plus one correction recorded in the bars: the mesh
+spacing a is PHYSICAL, not a discretization, so refinement is numerical
+at fixed a and the extrapolation is in s = r0/a. Six symmetry-
+inequivalent axes at six core sizes give an orientation-energy falloff
+that is a POWER LAW with exponent 1.469 (beating exponential 280x).
+THE CROSS-CHECK, unarranged: ELEC-093 measured 1.4615 by Fourier-
+transforming ELEC-074's radial profile; this measures 1.469 by a
+real-space scan of ELEC-091's boundary structure. No shared method,
+input or code; agreement to three parts in a thousand on the sharp-edge
+value 3/2. THE SCALING IS ESTABLISHED. THE THREAT: extrapolated to the
+registered core size the pinning is 39-58 eV against a 1e-6 eV
+degeneracy bar -- failing by 7.8 orders, which by the letter of the
+locked grammar is PINNED and would kill ELEC-091's two-orientations
+reading of spin. Registered PINNED-UNDER-PROXY, NOT as a completed
+falsification: the coupling prefactor is a phase-overlap model this
+commission constructed, and ELEC-092 was corrected one brick earlier for
+exactly that failure mode. Exponent survives, prefactor does not.
+RANK-1 BRICK, ahead of the interior configuration because it can kill a
+registered claim: compute the coupling prefactor on the registered
+strand engine (FND-STRAND-001).
+
+
+#### 3.19.7 — the core's form factor measured, the pinning target re-aimed (ELEC-093)
+The falsifier ELEC-092 sharpened, computed. THE MEASUREMENT: the 3D
+transform of ELEC-074's exact energy density has a POWER-LAW envelope,
+n = 1.4615 against the sharp-edge prediction 3/2, beating exponential by
+3400x in residual -- the hard boundary controls the high-q behaviour and
+the comfortable smooth branch is excluded. THE RE-AIMING, which is the
+larger result: a radial profile is spherically symmetric, so S depends
+only on |q| and the orientation energy sum_G S(|G|) V(G) is identically
+zero under rotation IN EITHER REGIME. ELEC-092's 218-order dichotomy was
+between two answers to a question the registered profile cannot pose.
+The pinning is sourced by the core's anisotropy alone -- ELEC-091's two
+polar defects -- whose density profile no registered claim supplies.
+TWO METHOD FAILURES CAUGHT BY THE BARS, both this commission's own: a
+scattered-sampling first pass gave meaningless fits (S oscillates in
+sign) and was discarded under the ambiguity clause rather than rounded;
+and the charter's own framing was found wrong mid-commission. ELEC-091's
+two-orientations reading of spin is NEITHER RESCUED NOR REFUTED and must
+be quoted with that conditionality. Third in-arc correction against a
+claim of the same session.
+
+
+#### 3.19.6 — the axis-pinning debt, called in and NOT paid (ELEC-092)
+The debt ELEC-091 created one commission earlier. Verdict
+UNDERSPECIFIED. The core is large compared to the mesh (r0/a = g =
+82.6-108.0), so its orientation energy is its form factor at the
+reciprocal-lattice wavevector -- and the two admissible readings differ
+by 218 ORDERS. Smooth: exp(-2 pi g) ~ 1e-226, passing the conservative
+1e-6 eV degeneracy bar by 214 orders. Sharp-edged: a power law which at
+an illustrative exponent 4 gives a 1.1e-2 eV spin splitting and fails by
+four orders. ELEC-074's core HAS a hard boundary, so the sharp reading
+cannot be waved away, and no registered claim gives that core's
+asymptotic form factor. THE COMMISSION CAUGHT ITS OWN ERROR: the
+exponent 4 was invented, which its own locked bar forbade, so the FAIL
+is illustrative and NOT registered as a falsification. ELEC-091's
+charge-fixes-spin resolution is made explicitly CONDITIONAL: the
+internal azimuth's symmetry freedom is not the same claim as an extended
+core feeling no orienting torque, and those are now separated. NEXT
+BRICK, cheap and rank-1: ELEC-074's exact profile is in closed form, so
+its Fourier transform at G = 2 pi/a decides whether the electron's spin
+states are degenerate.
+
+
+#### 3.19.5 — the core's tangent field determined (ELEC-091)
+The one thing ELEC-090 left open, closed by matching rather than by an
+energetic principle. Requiring the boundary tangent to track the
+exterior's n = 1 phase advance forces v = e_phi, the azimuthal field,
+whose zeros are exactly the two poles of the winding axis, index +1
+each, total 2 -- independently reproducing ELEC-090's hairy-ball
+requirement it was not constructed to satisfy. Axisymmetry (inherited,
+stated) excludes the single index-2 alternative. THE CORE IS THEREFORE A
+SPHERE OF RADIUS r0 WITH AZIMUTHAL STRAND CIRCULATION AND EXACTLY TWO
+POLAR DEFECTS. The mandatory angular-momentum confrontation -- made
+unsoftenable in the bars before the answer was known -- returns
+SPIN-INDEPENDENT rather than the falsification it could have: charge
+reverses the circulation relative to its own axis, but GRV-020's
+breaking acts on the internal azimuth and leaves the axis's laboratory
+orientation free, so charge fixes the helicity relation, not spin
+direction. The two spin states read as the two axis orientations, an
+axis that exists because topology forces it -- registered as SUGGESTIVE
+AND NOT DERIVED, since no magnetic moment, g-factor or 4pi periodicity
+has been computed. NEW DEBT NAMED: the resolution requires the core axis
+to be unpinned by the ambient weave; show that, or compute the pinning
+energy against the observed spin degeneracy.
+
+
+#### 3.19.4 — the hollow's interior constrained (ELEC-090)
+The target ELEC-088 and ELEC-089 named from opposite directions,
+attacked. THE BOUNDARY IS EXPLAINED: ELEC-074's first integral
+r^2 F(p) = C reads r^2 sin(theta) = C once the slope p = psi' is written
+as tan(theta) -- F is the SINE OF THE STRAND TILT, and the hard core is
+where the tangent reaches 90 degrees. The reported divergence of p is a
+parametrization artifact, the second apparent singularity in this sector
+to dissolve after ELEC-073's cusp. THE HOLLOW IS KINEMATIC: sin <= 1 is
+an angle bound, so the hard core is independent of T0, k and the packing
+floors and cannot be tuned away -- a property of the geometry, not the
+material. NEW STRUCTURAL FACT: strands reach r0 tangentially, so the
+core carries a continuous tangent field on S^2 whose zeros have total
+index 2 (hairy-ball) -- THE CORE HAS DISTINGUISHED POINTS AND CANNOT BE
+ISOTROPIC, generically a pole pair, hence an axis. That sits beside
+ELEC-041's registered 18.3:1 asymmetry as a point of contact, though the
+identification remains unmade (ELEC-088). VERDICT INTERIOR-CONSTRAINED,
+not interior-derived: the tangential direction field on the core sphere
+is still undetermined, and the bars forbade dressing a constraint as a
+solution. figures/README.md updated with the drawing consequences.
+
+
+#### 3.19.3 — the electron core question (ELEC-089)
+An external reviewer challenged the winding figure's solid core as
+implying "ropes plus a separate object", and asked the sharper question:
+what mechanical degree of freedom is phi, and how do continuous strands
+regularize the winding at r = 0? Adjudicated PARTLY-ANSWERED.
+(Z1) phi IS registered and Derived: GRV-020's internal azimuth, the
+single circle-valued Goldstone -- the construction the reviewer
+reconstructed unaided. (Z2) r = 0 IS regularized, by none of the
+mechanisms proposed: ELEC-074's exact object is HOLLOW, the field
+existing only outside r0, so there is no origin to regularize.
+(Z3) WHAT IS INSIDE r0 IS UNREGISTERED -- the reviewer's central point
+stands, and the bar forbade letting "the exterior field terminates at a
+boundary" pass for "here is what is inside". Figure caption corrected in
+BOTH directions: the ball overstates (no new object), the proposed
+"to be specified" label understates (the boundary and its finite radius
+are registered). Read the sphere as a boundary, not a body. ELEC-041's
+clasp is NAMED as a candidate interior, not asserted -- that
+identification remains unmade (ELEC-088). Two independent routes now
+converge on specifying the hollow's interior as the sector's next brick.
+
+
+#### 3.19.2 — the winding figure, verified and installed (ELEC-088)
+An author-supplied figure treated as a claim and verified panel by panel
+before installation, with the bars permitting it to be found wrong.
+Five of six assertions supported, two by a Derived theorem (GRV-020:
+winding of the internal circle-valued orientation, pi_1(S^1) = Z,
+winding quantized = charge). TWO CORRECTIONS to the corpus's loose
+summary language: the electron is not a "knot" (that machinery is the
+matter sector's; the electron's charge is a winding of a circle-valued
+orientation) and it is not "static" (ELEC-068: no static soliton
+survives Derrick scaling; the dynamical branch carries L* = c/omega with
+no strand-spacing reference). ONE TENSION EXPOSED AND LEFT UNRESOLVED:
+the field-winding picture (GRV-020, Derived, centrelines need not move)
+and the clasp-and-loop geometry (ELEC-041/042, Modeled, explicitly
+deformed) have never been adjudicated; they may be one object but no
+claim establishes it. Named as an acquisition target rather than settled
+in a caption. Figure installed at 1300x1040 / 354 KB, in line with the
+repository's other figures; figures/README.md documents the grade
+including the tension.
+
 
 #### 3.19.1 — phrasing correction (photon sector)
 The README, KNOWN_LIMITATIONS, and the v3.19.0 release notes stated that
