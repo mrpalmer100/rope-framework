@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21430784.svg)](https://doi.org/10.5281/zenodo.21430784)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Verify](https://img.shields.io/badge/verify-411%2F411%20passing-brightgreen.svg)](#verify-it-yourself)
+[![Verify](https://img.shields.io/badge/verify-600%2F600%20passing-brightgreen.svg)](#verify-it-yourself)
 [![verify-corpus](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml/badge.svg)](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml)
 
 # rope-framework
@@ -33,9 +33,9 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 <!-- END GENERATED: status_breakdown -->
 > Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
 
-**📄 [Release notes v3.20.0](docs/history/RELEASE_NOTES_v3.20.0.md)** — *What an electron looks like*: the core's boundary explained and its structure derived, an attractive spin interpretation falsified by the framework's own mechanics, the field-tensor dictionary closed and graded Derived, and the photon sector's high-energy failure disclosed rather than escaped.
+**📄 [Release notes v3.26.0](docs/history/RELEASE_NOTES_v3.26.0.md)** — *The adjudication day*: external continuum lattice data — published five years before the derivation it tested — adjudicated the k-string sector on the framework's own pre-registered terms, rejecting the rival sine law's functional class while killing the framework's exact coefficient at its own blind 3σ checkpoint (honored at 4.3σ, no adjustment); eleven gap mechanisms eliminated on locked bars; the κ_pack decision bands cut kill-ready against a literature-verified empty field, with an executable measurement spec shipped for external lattice groups; the substructure arc's protective audit closed six of six with no break.
 
-**🪜 [The Ladder and the Frontier](figures/rope_ladder.png)** — the whole corpus in one image: three layers, every result placed by status, and the coherent frontier where the open problems cluster. The best single-glance answer to "what is this?"
+**🪜 [The Ladder and the Frontier](figures/rope_ladder.png)** — the whole corpus in one image: three layers, every result placed by status, and the coherent frontier where the open problems cluster. The best single-glance answer to "what is this?" *(Hand-drawn architecture snapshot; for claim-level currency use the auto-generated Roadmap below, which rebuilds from the registry.)*
 
 **🎨 [Figure gallery](figures/README.md)** — conceptual diagrams, each labeled with its corpus status (derived / modeled / hypothesis).
 
@@ -44,7 +44,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 **🗺️ [Roadmap of Knowledge](docs/ROADMAP.md)** — the whole corpus at a glance: [wall chart](docs/roadmap.png) and [interactive dependency explorer](docs/roadmap.html) (click any claim; see its dependencies, dependents, and full downstream), all generated from claims.yaml by `tools/build_roadmap.py`.
 
 
-**Current release: v3.25.0** (13 Aug 2026) — the accountability day. Eleven sessions in one day, run entirely on pre-committed verdicts: the multiplicity-currency audit (FND-094) and the widened G-AX sweep (FND-095, a two-number decider that measured full-section geometry AND convicted the m_b = n currency), with the author's Chain A adjudication holding the bundle count open rather than letting the corpus's own engine name it (FND-096); the label arc closed at zero new scales — the assignment ruled to the sub-strand (FND-099), the fine band ceiling exhibited at S = 3.36 on the SHIN engine, and the label gap landed at ≥ 2.99 PeV, retiring GRANT-N2-GAP unneeded and closing all four FND-056 disturbances (FND-098/100); the b/a closure run at zero free parameters and FAILED FOURFOLD, registered and kept, relocating EM-RECON-008's gap to the bound-mode amplitude/profile (EM-RECON-031); and the wound-bundle c4 session that refuted the substructure rescue while deriving the reading inside k/T0 = 2 by the existence of matter and the first fine-level mechanical constant, k_f/T0_f = 8.09 with an armed falsifier at 4.05 (EM-RECON-032). Hygiene shipped alongside: the kappa/w/g NAME_REGISTRY (binding for new text) and two stale desk items retired. See `docs/history/RELEASE_NOTES_v3.25.0.md`.
+**Current release: v3.26.0** (13 Aug 2026) — the adjudication day. Consolidates twelve same-day sessions: the FND-055 external clock fired on continuum data that predated the derivation by five years — the sine law's functional class REJECTED (FND-101: nonzero leading 1/N preferred at χ²/dof 0.5 vs 2.2; the granted label carrier's structure is what the vacuum exhibits) and the pre-registered softened-Casimir band KILLED at its own point-level checkpoint (FND-102, Failed-and-kept: SU(6) 1.654(13), 4.3σ past the blind 3σ threshold, honored without adjustment). Eleven shortfall mechanisms then eliminated across two locked sweeps (FND-103/104), the surviving decoherence family pinned to partial-and-permanent, the one counting inside the window certified unwritable in the registered exchange language (FND-107), and the missing physics identified as ONE object — the exchange interaction's dynamical form (FND-108) — held as a pending grant question with a three-shadow acceptance test pre-built. The κ_pack floor verified best-that-exists by blind-bar sweep (FND-105) and the adjoint decision bands cut kill-ready with a pre-accepted tower kill and shipped external spec (FND-106, `docs/ADJOINT_CS_MEASUREMENT_SPEC.md`). The substructure protection completed: refinement-invariance six of six, k_f/T0_f = 8.09 refinement-proof (EM-RECON-033); the zero-point ledger convention codified with an armed tripwire (FND-109, ZP-CONV). See `docs/history/RELEASE_NOTES_v3.26.0.md`; prior day: `docs/history/RELEASE_NOTES_v3.25.0.md`.
 
 **If the rope model is wrong**, the transferable result is
 `docs/CONSTRAINTS_FOR_MECHANICAL_SUBSTRATE_THEORIES.md` — universal programme
@@ -62,12 +62,37 @@ account of what the framework claims, what it predicts, what was retired and why
 routes you by why you are here — evaluating the programme, understanding the ideas,
 contributing, or verifying a specific claim.
 
-## What this corpus actually bets: one confronted prediction, and two new candidates
+## What this corpus actually bets: three committed discriminators — one confronted, one adjudicated this week, one armed and waiting
 
-A census against four locked criteria (quantitative; distinctive in OBSERVABLE
-OUTCOME; checkable; live), then a full audit of every entry against what the
-standard alternatives actually predict, then a flux computation for the last
-survivor (ELEC-062 -> -063 -> -064 -> GRV-049), leaves ONE:
+First, a scope note: the predictions paper
+([`papers/falsifiable_predictions.pdf`](papers/falsifiable_predictions.pdf))
+carries twenty predictions, all quantitative with named tests and falsifiers.
+This section applies a *stricter* filter — a census against four locked criteria
+(quantitative; distinctive in OBSERVABLE OUTCOME from standard alternatives;
+checkable; live) — because a prediction that any competing framework also makes
+is a commitment, not a bet. Under that filter, the original census (ELEC-062 ->
+-063 -> -064 -> GRV-049) left ONE survivor; the ledger has since grown honestly
+in both directions. The standing count:
+
+**1 — ADJUDICATED (2026-08-13): the k-string binding law.** The corpus committed
+exact antisymmetric-Casimir bundle-binding against a record favoring the sine
+law, pre-registered its decision bands blind (FND-092), and the demanded
+continuum determination turned out to already exist. Both edges cut: the sine
+law's functional class is REJECTED on the data (FND-101 — the granted label
+carrier's 1/N structure is what the vacuum exhibits), and the corpus's own exact
+coefficient was KILLED at its pre-registered checkpoint, 4.3σ past a blind 3σ
+threshold, honored without adjustment (FND-102, kept). A bet made, called, and
+paid — the strongest evidence in this repository that the bets are real.
+
+**2 — ARMED AND WAITING: the adjoint Casimir-scaling pin.** Two committed
+numbers (δ = −1.25% or −0.25%, no freedom), decision bands pre-registered with a
+pre-accepted tower kill and a sign clause (FND-106), and provable blindness: a
+locked-bar literature sweep verified NO measurement capable of deciding it has
+ever been performed (FND-105). The measurement is technically routine; the spec
+is shipped ([`docs/ADJOINT_CS_MEASUREMENT_SPEC.md`](docs/ADJOINT_CS_MEASUREMENT_SPEC.md)).
+This bet waits on the field's will, not the corpus's.
+
+**3 — LIVE NOW AND CONFRONTED:**
 
 - **PRED-003** — the coupling-drift ratio d ln alpha = -2 d ln G. Testable now,
   and CONFRONTED against published optical-clock and lunar-laser-ranging data:
@@ -92,7 +117,7 @@ committed timescale while the absolute scale stays open (T2); P24's
 zero-parameter power law follows from independence plus intensivity, which
 standard independent-site device models also assume, so both frameworks predict
 the same outcome (T3 -- a genuine Derived achievement that does not
-discriminate). The bet count therefore STANDS AT ONE, and the ranked promotion
+discriminate). Neither joins the count, and the ranked promotion
 path is registered on the claim: the absolute-scale map (FND-MATTER-003)
 unlocks P23 and P25; P24's small-N violation domain is the nearest
 instrument-facing discriminator.

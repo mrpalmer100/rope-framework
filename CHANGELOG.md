@@ -1,3 +1,45 @@
+## 3.26.3 (2026-08-14) -- Front-door tripwire + front-door audit
+
+- tools/sync_doc_facts.py gains the FRONT-DOOR TRIPWIRE: (a) README
+  must mention the current pyproject version; (b) any vX.Y.Z
+  reference in README/KNOWN_LIMITATIONS prose more than one minor
+  version behind fails unless the line carries an archival cue; (c)
+  the Verify badge count must equal the registry's code-backed
+  count. Negative-tested against both real bugs it exists to catch
+  (the v3.20.0 release card; the 411/411 badge) -- both fire; two
+  overbroad archival cues ("docs/history", "pre-") were found
+  masking the card during testing and removed, with the lesson
+  commented in the tool.
+- Front-door audit executed: the Verify badge corrected from
+  411/411 (about 189 benchmarks stale) to 600/600; docs/roadmap
+  (html + png + md) regenerated to 667 claims (was stale at
+  EM-RECON-032); the hand-drawn ladder card honestly dated as an
+  architecture snapshot with a pointer to the auto-generated
+  roadmap; SURPRISES title/content verified consistent (eleven).
+
+## 3.26.2 (2026-08-14) -- README betting census brought current
+
+- README "What this corpus actually bets" rewritten: the stale
+  header (one confronted prediction + two candidates its own body
+  had already disqualified via ELEC-084) replaced by the current
+  three-discriminator ledger -- (1) the k-string binding law,
+  ADJUDICATED on pre-registered terms (class won, coefficient
+  killed, FND-101/102); (2) the adjoint Casimir-scaling pin, armed
+  and waiting with provable blindness (FND-105/106); (3) PRED-003
+  alpha-G, live and confronted (null-vs-null, unchanged). Scope note
+  added distinguishing the paper's twenty falsifiable predictions
+  from this section's stricter discriminating-bet filter.
+
+## 3.26.1 (2026-08-14) -- README release references fixed
+
+- README.md: the prominent release-notes card (stale at v3.20.0
+  since that cut) now points at v3.26.0 with the adjudication-day
+  summary; the Current-release paragraph updated from v3.25.0 to
+  v3.26.0 with the day's ledger and a pointer to the prior notes.
+  Lesson filed: the release checklist gains "update the README
+  release card" -- the generated-region sync covers counts, not
+  narrative cards.
+
 ## 3.26.0 (2026-08-13) -- RELEASE: the adjudication day
 
 Consolidates 3.25.1-3.25.12. 667 claims, 42 kept failures. The
