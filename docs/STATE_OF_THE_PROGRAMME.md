@@ -4,7 +4,7 @@
 developed and formalised in this corpus.*
 
 <!-- BEGIN GENERATED: corpus_stats -->
-*657 registered claims, 595 code-backed and passing, 121 Derived, 41 registered Failed and kept.*
+*667 registered claims, 600 code-backed and passing, 121 Derived, 42 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
 **In one line:** one medium of strands under tension reproduces optics,
@@ -615,3 +615,63 @@ the day's standing lesson is on the record three times over: desk
 items age, and the cheapest session on the board is often a re-read
 of an old question against machinery that arrived after it was
 asked.
+
+## Update, v3.25.11 (2026-08-13): the adjudication day
+
+Twelve further releases in the same day, and the day's shape is the
+methodology meeting external data on pre-committed terms and taking
+both verdicts.
+
+THE k-STRING ADJUDICATION. The demanded continuum SU(6) k-string
+determination turned out to have existed since 2021, predating the
+corpus's derivation by five years; the confrontation was therefore
+blind in the direction that matters. The verdict split exactly along
+the pre-committed grammar (FND-101): the sine law's FUNCTIONAL CLASS
+is rejected by the continuum data (nonzero leading 1/N preferred at
+chi2/ndf 0.5 versus 2.2; sine has identically zero 1/N term), so the
+structure only the granted label carrier could express is the
+structure the vacuum exhibits -- and at point level the corpus's own
+pre-registered kill clause FIRED (FND-102, Failed and kept: SU(6)
+1.654(13), 4.3 sigma above the softened band top against the
+pre-committed 3-sigma threshold, no adjustment made, within 48 hours
+of the band's registration). The vacuum sits strictly between the
+laws. Two locked elimination sweeps then killed eleven candidate
+shortfall mechanisms, the surviving family was pinned to PARTIAL AND
+PERMANENT orientation decoherence, the one counting inside the
+surviving window was certified unwritable in the registered exchange
+language, and the missing object was identified as the exchange
+interaction's dynamical form -- one precisely-shaped hole, on the
+author's desk as a grant question with a three-shadow acceptance
+test pre-built.
+
+THE PIN'S CLOCK GOES KILL-READY. A blind-bar literature sweep
+verified that no admissible SU(3) determination tighter than Bali
+2000's five percent exists anywhere in the 2000-2026 record: the
+kappa_pack floors are held by Conjecture because the deciding
+measurement has been technically routine and unperformed for a
+quarter-century. The corpus's response was to cut its own decision
+bands in advance (FND-106: the two predictions, a tiered grammar
+with a pre-accepted tower kill at 0.25 percent precision, a sign
+clause, a frozen-pipeline self-measurement rule) and ship a
+standalone measurement spec any lattice group can execute
+(docs/ADJOINT_CS_MEASUREMENT_SPEC.md). The blindness of the bands is
+provable from the verified null.
+
+THE SUBSTRUCTURE PROTECTION COMPLETED. The refinement-invariance
+audit ran six of six with no break: every load-bearing coarse
+quantity -- c, Sigma, the hbar route, the T0 fork, zero-point, and
+the first derived fine constant k_f/T0_f = 8.09 -- is invariant
+under the sub-strand count at its stated grade, so the adopted
+substructure cannot leak its one free population parameter into
+anything the corpus measures. The audit's one finding, a missing
+zero-point cutoff convention, was closed the same day by
+codification (ZP-CONV: carried modes only, the lattice is the
+regulator -- a rule one claim had already stated and the whole
+registry had always obeyed), with a tripwire armed against silent
+departures.
+
+The count stands at 667 claims, 42 failures kept, two external
+clocks armed on the corpus's own pre-registered terms, and one grant
+question deliberately held open. The day's lesson, recorded once: a
+pre-registered falsifier honored on schedule is worth more to the
+programme than the result it killed.

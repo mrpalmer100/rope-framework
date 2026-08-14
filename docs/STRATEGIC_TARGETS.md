@@ -97,9 +97,15 @@ T1 (EXTERNAL SURFACE): DONE. The reconciliation shipped, the
    Nothing owed until the next content change forces a paper sync.
 
 T2 (DISCRIMINATION COUNT): COMPLETE AND EXTERNALLY CLOCKED. PSR J1713
-   (~2027-2030); any continuum SU(6) k-string determination (bands
-   pre-registered, kill-ready); achievable lattice work on the pin.
-   No session owed until data or a new candidate discriminator.
+   (~2027-2030); the SU(6) k-string bands FIRED and were adjudicated
+   (FND-101/102, 2026-08-13: sine's class rejected, the softened band
+   killed at point level, both on pre-registered terms); the ADJOINT
+   CS BANDS are now cut and armed (FND-106, kill-ready, blindness
+   verified by FND-105's null; spec for external groups at
+   docs/ADJOINT_CS_MEASUREMENT_SPEC.md); k=3 continuum and
+   safe-volume large-N k-strings remain shopping-list entries
+   awaiting band-cutting when data classes exist. No session owed
+   until data or a new candidate discriminator.
 
 T3 (PHOTON SECTOR): RESOLVED (v3.23.1, docs/RESOLVED_LIMITATIONS.md).
    The stale-statement tripwire in HANDOFF governs; this tier is
@@ -133,9 +139,25 @@ resolved; current standing, superseding D's queue lines:
   Open, twice-sharpened (amplitude/profile), with the wound-bundle
   escape eliminated and the fine stiffness k_f/T0_f = 8.09 derived.
 
-THE ACTIVE QUEUE (post-v3.25.0): the substructure-dividend arc --
-(1) the refinement-invariance audit (protective; Sigma, zero-point,
-the hbar route, the T0 fork); (2) the scale-class n_sub reading
-(NAME_REGISTRY-class, minutes). On the desk: GRANT-CANDIDATE-ROT
-(GRV-103). External clocks unchanged, plus >2.2 PeV photons as free
-corroboration. The session-selection rule in C stands unchanged.
+THE ACTIVE QUEUE (post-v3.25.11): the substructure-dividend arc's
+protective items are DISCHARGED -- the refinement-invariance audit
+ran SIX OF SIX, NO BREAK (EM-RECON-033: c exact; Sigma and the hbar
+route by-inputs; the T0 fork untouched in both directions;
+k_f/T0_f = 8.09 refinement-proof), the zero-point ledger convention
+is CODIFIED with its tripwire (FND-109, ZP-CONV: carried modes only,
+the lattice is the regulator), and the hierarchy counts are ruled
+DISTINCT (n_rs vs n_sub, NAME_REGISTRY addendum). Remaining queued:
+the scale-class determination (which hierarchy level sets the
+corpus's absolute lengths). On the author's desk: the
+EXCHANGE-DYNAMICS GRANT QUESTION (FND-108, superseding the G-A/G-B
+menu; three-shadow acceptance test pre-built: the NUN4 bar, the
+near-coaxial overlap geometry, the safe-volume profile) and
+GRANT-CANDIDATE-ROT (GRV-103). The k-string sector rests adjudicated
+(sine's class rejected FND-101; the softened band killed at its own
+checkpoint FND-102; eleven mechanisms eliminated FND-103/104; the
+half-coherence reading certified unwritable FND-107) with the
+decoherence window displayed and the O2 profile-adoption commission
+optional. External clocks: PSR J1713; the ADJOINT CS BANDS
+(FND-106, kill-ready, spec shipped); k=3 and safe-volume large-N
+awaiting data classes; >2.2 PeV photons as free corroboration. The
+session-selection rule in C stands unchanged.

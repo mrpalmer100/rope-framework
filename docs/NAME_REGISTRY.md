@@ -111,3 +111,20 @@ carry (they have since ELEC-050).
   ratio); the three-way collision flagged in the 2026-08-13 board
   scan is hereby disarmed. Bare "c4/C4" outside a defining claim is
   a review flag.
+
+## ADDENDUM (2026-08-13, v3.25.10): THE HIERARCHY COUNTS (SHIN8 ruling, EM-RECON-033)
+
+Two bundle counts at DIFFERENT hierarchy levels were at risk of one
+symbol; ruled DISTINCT:
+
+- n_rs -- ROPE STRAND COUNT: how many VACUUM STRANDS compose a
+  matter rope (FND-MATTER / NUCQ sector usage). Level: rope of
+  strands.
+- n_sub -- SUB-STRAND COUNT: how many SUB-STRANDS compose a vacuum
+  strand (FND-087, GRANT-SUBSTRUCTURE-TIGHT; underived). Level:
+  strand of sub-strands. Unchanged.
+
+New text uses these canonical names; old text quoting a bare strand
+count attaches the canonical name in brackets per the standing
+tripwire. A formula's scale class is henceforth readable from its
+symbol.
