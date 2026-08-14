@@ -1,3 +1,221 @@
+## 3.26.0 (2026-08-13) -- RELEASE: the adjudication day
+
+Consolidates 3.25.1-3.25.12. 667 claims, 42 kept failures. The
+k-string sector adjudicated by external data on pre-registered terms
+(sine's class rejected, FND-101; the softened band killed at its own
+checkpoint, FND-102, kept); eleven mechanisms eliminated (FND-103/
+104); the half-coherence reading certified unwritable (FND-107); the
+one-hole identification and pending exchange-dynamics grant question
+(FND-108). The kappa_pack null verified and the adjoint bands cut
+kill-ready with the external spec shipped (FND-105/106). The
+substructure protection completed: refinement-invariance six of six
+(EM-RECON-033), ZP-CONV codified with tripwire (FND-109), hierarchy
+counts ruled distinct. Full docs synced (3.25.12). Release notes:
+docs/history/RELEASE_NOTES_v3.26.0.md. pyproject 3.26.0.
+
+## 3.25.12 (2026-08-13) -- FULL DOCUMENTATION SYNC (author-directed)
+
+- HANDOFF.md rewritten to the v3.25.11 state: the twelve-release day
+  summarized (k-string adjudication, mechanism eliminations, adjoint
+  clock, substructure protection), the v3.25.0 material preserved as
+  historical context, standing constraints carried forward.
+- docs/STRATEGIC_TARGETS.md active queue updated: protective items
+  discharged; queued = scale-class determination; desk =
+  exchange-dynamics grant + ROT; k-string sector recorded adjudicated;
+  clock list current.
+- KNOWN_LIMITATIONS.md: the vacuum-stiffness tower entry now carries
+  FND-105's verified null and FND-106's armed bands; the k-string
+  entry extended with the eleven-elimination ledger, the unwritable
+  certificate, and the one-hole identification; the resolved section
+  records the completed substructure protection (six of six, ZP-CONV,
+  n_rs/n_sub).
+- README.md edges paragraph updated: the external adjudication on
+  pre-registered terms (class win + honored kill), the eliminations,
+  the pending grant question, and the shipped adjoint spec.
+- docs/STATE_OF_THE_PROGRAMME.md: "Update, v3.25.11: the adjudication
+  day" appended (k-string verdicts, the kill-ready pin clock, the
+  completed substructure protection).
+- Predictions paper synced to v3.25.11 (header; audit recount gains
+  the mechanism-elimination ledger and the pending grant status).
+
+## 3.25.11 (2026-08-13) -- COMMISSION TSADE3: the zero-point cutoff convention -- codification
+
+- FND-109 (Modeled, definitional): the nine-family census returns
+  uniform coarse regulation and uniform pre-grant provenance;
+  GRV-021 already stated the rule (the lattice is the regulator).
+  ZP-CONV registered as codified practice: the ledger integrates
+  carried (strand-level) modes only; tripwire armed against silent
+  fine-mode integration (departures must declare and price their
+  n_sub piece). SHIN8's Q5 closes; EM-RECON-033 annotated: the
+  refinement-invariance audit is SIX OF SIX, NO BREAK. The
+  substructure arc's protective work is complete.
+
+## 3.25.10 (2026-08-13) -- COMMISSION SHIN8: the refinement-invariance audit -- no break, one located hole
+
+- EM-RECON-033 (Modeled): under FND-087's own redistribution map, c
+  invariant (exact algebra); Sigma and the hbar route
+  invariant-by-inputs; the T0 fork invariant in the protective double
+  sense; k_f/T0_f = 8.09 invariant at every depth (EM-RECON-032's
+  falsifier is refinement-proof). Zero-point returns CONDITIONAL:
+  carried band invariant by the over-resolution mode partition, but
+  the registry carries NO zero-point ledger-cutoff convention -- the
+  missing definitional claim is precisely located (one session,
+  TSADE-class, closes the item). No break anywhere.
+- Ride-along ruled DISTINCT at NAME_REGISTRY class: n_rs (rope
+  strand count) vs n_sub (sub-strand count); addendum appended;
+  scale class now readable from the symbol.
+
+## 3.25.9 (2026-08-13) -- COMMISSION NUN6: chromo-profile scoping -- PARTIAL, two holes become one
+
+- FND-108 (Modeled, scoping): C2's three objects itemized. O1 width
+  REGISTERED (ELEC-050's 0.342 fm flux-tube prediction; FND-066 name
+  census satisfied; R3 dependency path via its own lattice-band
+  confrontation) -- FND-103's no-carrier finding refined. O2 shape
+  ACQUIRABLE-EXTERNAL (lattice profile data class; adoption bars
+  owed). O3 separation MISSING-INTERNAL -- and identical to
+  FND-107's missing coherence rule: both are faces of the exchange
+  interaction's dynamical form. One gap, two directions. FND-102
+  restated geometrically (near-coaxial pairs, overlap declining in
+  N). The exchange-dynamics grant question supersedes the G-A/G-B
+  menu; the author's wait-decision vindicated retroactively.
+
+## 3.25.8 (2026-08-13) -- COMMISSION NUN5: the half-coherence reading -- NOT-FORCED, certificate grade
+
+- FND-107 (Modeled, SAMEKH-class certificate): AYIN's exchange
+  grammar, quoted verbatim, is channel counting with no amplitudes
+  and no weighting operation -- w = 1/2 + 1/(N-1) is unwritable in
+  the registered language, not merely unforced. Missing structure
+  named: an ORIENTATION-COHERENCE RULE (weighted exchange channels),
+  primitive-level, grant territory. Two grant shapes displayed
+  ungraded (direct half-weight-plus-echo; equal free/exclusion
+  statistic mixture plus echo), acceptance test pre-built unchanged
+  (NUN4 three-part bar, derivation-or-demotion). The window point
+  stays uninhabited; the grant decision is the author's.
+
+## 3.25.7 (2026-08-13) -- COMMISSION TET3: the adjoint bands are cut; the pin's clock goes kill-ready
+
+- FND-106 (Modeled): the CHET forward predictions (-1.25 percent at
+  kappa=50; -0.25 percent at 250) pre-registered as decision bands
+  with a tiered verdict grammar: Tier 1 (e <= 0.25 percent) is the
+  full tower test with a pre-accepted TOWER KILL if both readings
+  die at 3e; sign clause arms a BET-mechanism kill on any resolved
+  positive deviation; self-measurement clause (frozen pipeline,
+  permanent asterisk, external data outranks). Blindness is provable
+  via FND-105's verified null. Registration:
+  analysis/TET3_adjoint_bands_PREREGISTERED.md.
+- docs/ADJOINT_CS_MEASUREMENT_SPEC.md ships: a standalone,
+  framework-agnostic proposal for external lattice groups (SU(3)
+  adjoint potential, 0.5-1.0 fm, half-percent, continuum), with the
+  precision-consequence table and methodology pointer.
+- STRATEGIC_TARGETS T2 updated: SU(6) bands recorded as fired and
+  adjudicated; adjoint bands recorded as armed.
+
+## 3.25.6 (2026-08-13) -- COMMISSION TET2: kappa_pack floor campaign -- verified null
+
+- FND-105 (Modeled, verified null): the literature sweep under TET's
+  inherited machinery (bars locked blind, null branch pre-written)
+  finds NO admissible SU(3) 4d higher-rep determination tighter than
+  Bali 2000's 5 percent anywhere in 2000-2026. Deldar 5-15 percent;
+  the ~1 percent continuum reading remains secondary (A3-excluded);
+  G2 and 2+1d SU(2) precision work R3-inadmissible. Pin stays 12.5;
+  Conjecture floors remain Conjecture; decision table untouched;
+  CHET forward predictions inside every admissible bound. The
+  shopping-list entry re-priced: the floor-deciding measurement is
+  ordinary-but-unperformed, waiting on will rather than capability
+  -- the corpus's cheapest outstanding external decision.
+
+## 3.25.5 (2026-08-13) -- COMMISSION NUN4: decoherence inventory -- eight fail, the window survives
+
+- FND-104 (Modeled, elimination with surviving window): all eight
+  countable decoherence weights fail the three-part bar. The profile
+  bar (registered at lock) executed the two-number seduction
+  w = 4/(N-1) at 11.4 sigma; healing weights died at the asymptote;
+  the N-blind control failed as NUN3 requires. Shape lemma: the
+  family f = A + c/(N-1) keeps a nonempty window (A in [0.51, 0.84]),
+  so family exclusion does NOT fire -- the decoherence is partial
+  and permanent, never total, never healed. The point (3/4, 1/2)
+  (second orientation half-coherent plus a 1/(N-1) exclusion echo)
+  sits inside the window and is named for charter, not evaluated.
+  On the author's desk: the half-coherence reading commission (bar
+  pre-built), the chromo-profile acquisition, standing lattice
+  shopping list.
+
+## 3.25.4 (2026-08-13) -- COMMISSION NUN3: the mechanism sweep -- elimination, wall shaped
+
+- FND-103 (Modeled elimination): all three chartered shortfall
+  classes fail FND-102's blind two-number bar. C1 orientation
+  weighting PARTIAL (asymptotic ratio hit at 1.4 sigma; SU(6) missed
+  by 11.1); C2 partial-overlap BLOCKED (chromo-tube transverse
+  profile is an unregistered carrier -- joins the most-wanted list
+  beside the reconnection rate); C3 softening-on-exchange MISS
+  (refuted by N-dependence, not magnitude; N-blind suppression
+  cannot chase an N-dependent deficit). The measured pair straddles
+  AYIN's own statistics: two-orientation at SU(6), one-orientation
+  asymptotically. New class named, unchartered, for the author's
+  desk: orientation decoherence growing with the label space.
+  Caveat displayed, not leaned on: T2 rides the source paper's
+  crossover/volume caveats at N >= 8.
+
+## 3.25.3 (2026-08-13) -- COMMISSION NUN2: THE KILL FIRES -- the FND-092 point-level adjudication
+
+- FND-102 (Failed and kept): Table 14 of Athenodorou-Teper 2021
+  extracted; SU(6) k=2 continuum point 1.654(13) (safe-volume group,
+  NG and l-to-infinity columns identical). Against FND-092's
+  pre-registered grammar the KILL FIRES: 4.3 sigma above the softened
+  band top vs the pre-committed 3. No rescue attempted; none
+  permitted. Display: 4.15 sigma above exact Casimir, 6.0 sigma below
+  sine -- the vacuum sits strictly between the laws; safe-volume
+  binding is 87-93 percent of Casimir (each N individually 3.4-4.6
+  sigma). FND-101's fit-level neither-fires reading superseded (its
+  0.040 uncorrelated error was 3x the true point error; lesson kept).
+  Standing: the 1/N class win, GRANT-N2, SU(3) calibrations,
+  FND-047's decision table, the k=3 band (still armed). Owed: the
+  shortfall mechanism as a blind two-number target -- b/b_CS =
+  0.865(33) at SU(6), 0.64(10) asymptotic; three candidate classes on
+  the author's desk.
+- Corrections in the same release that created the stale lines:
+  KNOWN_LIMITATIONS FND-050 section and the predictions paper (audit
+  recount + Prediction 20 scope; header to v3.25.3) now carry the
+  kill, not the fit-level reading. k=3 continuum determination joins
+  the lattice shopping list.
+
+## 3.25.2 (2026-08-13) -- PREDICTIONS PAPER SYNC (author-directed): FND-101 carried into the paper
+
+- papers/_sources/falsifiable_predictions.docx and
+  papers/falsifiable_predictions.pdf: (i) header release-synced to
+  registry v3.25.1; (ii) the audit recount's conditional entry
+  rewritten -- the k-string statistic is PARTIALLY ADJUDICATED, sine's
+  class rejected, the exact coefficient convicted at 3.8 sigma, the
+  entry re-characterised from adverse-leaning to data-tensioned in
+  both directions, the surviving falsifiable content the 0.64
+  normalization mechanism; (iii) Prediction 20's scope paragraph
+  updated with the fired adjudication. Count unchanged: TWO FIRM plus
+  ONE CONDITIONAL.
+- FND-092's pre-registered bands confronted at fit level and the
+  result annotated on FND-092 and FND-101: SU(6) k=2 = 1.654(40)
+  fires NEITHER kill (threshold 1.719) nor select; no post-hoc
+  adjustment; the kill rule stays armed for the point-level Table 14
+  read, which remains the named next step.
+
+## 3.25.1 (2026-08-13) -- COMMISSION NUN: the FND-055 clock fires; KNOWN_LIMITATIONS de-staled
+
+- FND-101 (Modeled, PARTIAL CONFIRMATION WITH REGISTERED MISS): the
+  literature hunt found the demanded continuum SU(6) k-string
+  determination already exists (Athenodorou-Teper 2021,
+  arXiv:2106.00364, N = 2..12). Bars locked before computing. S1:
+  sine's functional class (zero 1/N coefficient) REJECTED -- the data
+  prefers nonzero leading 1/N at chi2/ndf 0.5 vs 2.2; the old
+  sine-favouring +8.3 percent record is SUPERSEDED. S2: the exact
+  derived coefficient (2/N from b_k = (k-1)/(N-1)) MISSES at 3.8
+  sigma (measured 1.28(19)/N); registered, not absorbed. S3 display:
+  SU(6) continuum 1.654(40) between Casimir 1.600 and sine 1.732.
+  T2's k-string external clock is DISCHARGED. Owed: the 0.64
+  normalization mechanism, blind bar mandatory; the Table 14
+  point-level re-read.
+- KNOWN_LIMITATIONS.md: the FND-050 paragraph ("owes a computation it
+  has not done") was stale against FND-052/054/055 by two days and is
+  rewritten to the current ledger through FND-101.
+
 ## 3.25.0 (2026-08-13) -- RELEASE: the accountability day
 
 Consolidates 3.24.2-3.24.10 (see docs/history/RELEASE_NOTES_v3.25.0.md).

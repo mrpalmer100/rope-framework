@@ -6,7 +6,7 @@ you have found it in under five minutes.
 
 *Revised against the current registry.*
 <!-- BEGIN GENERATED: corpus_stats -->
-*657 registered claims, 595 code-backed and passing, 121 Derived, 41 registered Failed and kept.*
+*667 registered claims, 600 code-backed and passing, 121 Derived, 42 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
 
@@ -23,7 +23,16 @@ in their standing homes: the underived absolute scales (m, n_sub)
 belong to the corpus-wide irreducible-constant class
 (FND-MATTER-003), the discrete O((ka)^2) question is FND-REL-004's,
 and the soft falsifier (any confirmed photon above m x 1.4 PeV
-forces m upward) is registered on FND-086/087.
+forces m upward) is registered on FND-086/087. The substructure the
+repair adopted is now FULLY PROTECTED against its own free parameter
+(2026-08-13): the refinement-invariance audit runs six of six with no
+break (EM-RECON-033 -- c, Sigma, the hbar route, the T0 fork,
+zero-point, and the fine constant k_f/T0_f = 8.09 all
+n_sub-invariant at their stated grades), the zero-point ledger
+convention is codified with a tripwire (FND-109, ZP-CONV: carried
+modes only, the lattice is the regulator), and the hierarchy counts
+carry distinct canonical names (n_rs vs n_sub). The remaining
+substructure item is the scale-class determination, queued.
 
 ## The electron core's axis is pinned, and its status is open (2026-08-11)
 
@@ -65,9 +74,19 @@ Everything vacuum-facing above Σ_eff — Σ_vac, the moved M-point, the mesh pa
 (a, T₀) — hangs on **FND-037's quadratic-nonlinearity form (Conjecture)** at the
 FND-040 floors (κ_pack ≥ 50 / 250). One resolved measurement of long-distance
 Casimir-scaling violations confronts the whole tower; the current lattice bound
-(Bali 2000, ≤5%) gives only κ_pack ≥ 12.5 (FND-047), so the floors are held by
-Conjecture, not data. There is **no ceiling** (the old 1–100 window retired as
-grammar, FND-042).
+(Bali 2000, ≤5%) gives only κ_pack ≥ 12.5 (FND-047), and this is now a
+**verified** rather than assumed state of the field: a blind-bar literature
+sweep (FND-105, 2026-08-13) confirms no tighter admissible SU(3) 4d
+determination exists anywhere in 2000–2026 — the floors are held by Conjecture
+because the deciding measurement has been technically routine and unperformed
+for a quarter-century, not because the corpus declined to look. The corpus's
+response is registered: the ADJOINT DECISION BANDS are pre-registered and
+kill-ready (FND-106; CHET's −1.25% / −0.25% predictions, tiered grammar with a
+pre-accepted tower kill at 0.25% precision and a sign clause under which any
+resolved positive deviation falsifies the BET softening outright), and a
+standalone measurement spec for external lattice groups ships at
+docs/ADJOINT_CS_MEASUREMENT_SPEC.md. There is **no ceiling** (the old 1–100
+window retired as grammar, FND-042).
 
 - **The mesoscopic source length g_C4 = l_q/a ≈ 83–108 is UNEXPLAINED, and the
   wall now has a shape (updated 2026-08-12, the QOPH–TET arc).** It is the
@@ -83,18 +102,46 @@ grammar, FND-042).
   the mesoscopic ratio is written g_C4; the crossing CONTRAST g is a distinct
   object, fixed at [0.395, 0.460] by GRANT-THRESHOLD (FND-080).
 - **The softening mechanism is claimed N-UNIVERSAL (FND-050, author's grant,
-  2026-08-11) — and the corpus therefore owes a computation it has not done.**
-  The derivations (FND-037/040) contain no reference to the number of colours,
-  so the corpus declines to assert an N-dependence its own derivations do not
-  exhibit. The price is real and chosen: k-strings are bundles of k unit
-  windings, so the SU(N≥4) sine-law data measures inter-tube binding, and the
-  framework must compute the bundle-binding relation from the derived −1/8 and
-  confront its (N, k) form against sine-vs-Casimir. If that computation lands
-  against the data, this grant is what makes it a falsification of the corpus
-  rather than someone else's problem. Retreating to the SU(3) scope afterwards
-  would be bar-shopping and is refused in advance. Running start, not evidence:
-  the qualitative bundle prediction (σ_k < kσ_1) holds on every dataset row.
-  Calibrations (Σ_eff and everything conditional on it) remain SU(3)-anchored.
+  2026-08-11) -- the owed bundle-binding computation has since been RUN, its
+  failure kept, its repair granted, and its data confrontation adjudicated
+  (updated 2026-08-13, Commission NUN).** The ledger in order: the computation
+  from the derived -1/8 returned UNBOUND-PREDICTED and the exposure clause
+  fired (FND-052, Failed and kept -- inside its licensed strain domain the
+  quartic mechanism repels parallel windings); the missing 1/N attraction was
+  certified underivable from registered structure (FND-053); the author granted
+  the N-valued strand label (GRANT-N2, FND-054) and its acceptance test derived
+  the binding fraction b_k = (k-1)/(N-1) exactly -- the antisymmetric-Casimir
+  law, zero fitted coefficients (FND-055); the label-gap disturbances that
+  grant raised were later closed at zero new scales (FND-098..100). The
+  demanded continuum confrontation then fired twice (FND-101/102): the
+  Athenodorou-Teper 2021 continuum determination REJECTS the sine law's
+  functional class (sine has identically zero 1/N coefficient; the data
+  prefers nonzero leading 1/N at chi2/ndf 0.5 vs 2.2), superseding the old
+  sine-favouring record and confirming the granted law's CLASS -- while the
+  pre-registered FND-092 KILL CLAUSE FIRED at point level (FND-102, Failed
+  and kept): the SU(6) continuum point 1.654(13) sits 4.3 sigma above the
+  softened-Casimir band top against the pre-committed 3-sigma threshold,
+  4.15 sigma above exact Casimir and 6.0 sigma below sine. The vacuum sits
+  strictly between the laws; the exchange-counting normalization
+  b_k = (k-1)/(N-1) is falsified as the complete binding law at its own
+  checkpoint, with the 1/N class, GRANT-N2, and all SU(3) calibrations
+  standing. What remains open is the shortfall mechanism, and its wall is now
+  precisely shaped (2026-08-13, the NUN3-through-NUN6 sweep): eleven candidate
+  mechanisms are eliminated across two locked sweeps (fixed suppressions die on
+  N-dependence; every countable decoherence weight fails a three-part bar that
+  executed the two-number seduction w = 4/(N-1) at 11.4 sigma on the
+  safe-volume profile), the surviving family requires PARTIAL AND PERMANENT
+  orientation decoherence (asymptote strictly above 1/2), the one counting
+  inside the surviving window is certified UNWRITABLE in the registered
+  exchange language (FND-107: the grammar counts channels and has no weights),
+  and the missing object is identified as the EXCHANGE INTERACTION'S DYNAMICAL
+  FORM — one hole seen from two directions (orientation weights and bound-pair
+  separation, FND-108), with the tube width already registered (ELEC-050) and
+  the profile shape acquirable from lattice data. The grant decision is the
+  author's, deliberately pending, with a three-shadow acceptance test
+  pre-built. Blind two-number target for any candidate: b/b_CS = 0.865(33) at
+  SU(6) and 0.64(10) asymptotic. Calibrations
+  (Σ_eff and everything conditional on it) remain SU(3)-anchored throughout.
 
 ## The quantum boundary (the deepest limitation)
 
@@ -205,7 +252,7 @@ kept straight, several quantum facts are **adopted, not derived**, or **open**:
 ## The complete failed-and-kept ledger
 
 <!-- BEGIN GENERATED: corpus_stats -->
-*657 registered claims, 595 code-backed and passing, 121 Derived, 41 registered Failed and kept.*
+*667 registered claims, 600 code-backed and passing, 121 Derived, 42 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
 Every one of those Failed claims is kept on permanent display below with its lesson,

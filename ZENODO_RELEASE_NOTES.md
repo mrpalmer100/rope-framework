@@ -1,14 +1,34 @@
-# Zenodo Release Notes -- rope-framework v3.24.0
+# Zenodo Release Notes -- rope-framework v3.26.0
 
 *Refreshed 2026-08-12 from the v2.2.1-era freeze; supersedes all prior
 release-note text. Counts regenerate from claims.yaml.*
 
 ## What this release is
 
-The Rope Framework corpus at v3.24.0: 648 registered claims, each
-carrying a status grade, a benchmark, and provenance; 40 registered
+The Rope Framework corpus at v3.26.0: 667 registered claims, each
+carrying a status grade, a benchmark, and provenance; 42 registered
 Failed-and-kept claims; machine verification via tools/verify_corpus.py.
 The registry (claims.yaml) is the single source of truth.
+
+## Headline of this release (2026-08-13): the adjudication day
+
+External continuum lattice data (published 2021, predating the
+corpus's derivation) adjudicated the k-string sector on the corpus's
+own pre-registered terms: the rival sine law's functional class is
+REJECTED (the granted label carrier's 1/N structure is what the data
+prefers), and the corpus's exact coefficient was KILLED at its own
+pre-registered checkpoint (4.3 sigma past a threshold fixed blind,
+honored without adjustment, registered Failed-and-kept). Eleven
+candidate gap mechanisms were then eliminated on locked bars; the
+one remaining open object (the exchange interaction's dynamical
+form) is held as a pending grant question. The kappa_pack decision
+bands are now pre-registered and kill-ready against a
+literature-verified empty field, with a standalone measurement spec
+shipped for external lattice groups
+(docs/ADJOINT_CS_MEASUREMENT_SPEC.md). The substructure arc's
+refinement-invariance audit runs six of six with no break, and the
+zero-point ledger convention is codified with an armed tripwire.
+Full narrative: docs/history/RELEASE_NOTES_v3.26.0.md.
 
 ## Highlights since the v2.2.x era
 
