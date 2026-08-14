@@ -165,6 +165,66 @@ def main():
                 print(f"synced {rel}: {', '.join(changed)}")
         else:
             print(f"ok     {path.relative_to(ROOT)}")
+
+    # ---- FRONT-DOOR TRIPWIRE (added v3.26.3) -------------------------------
+    # Narrative furniture (release cards, version mentions) lives OUTSIDE the
+    # generated regions and went stale twice at v3.26.x. This check compares
+    # every version-like reference in the front-door docs against the release
+    # version in pyproject.toml. Rules:
+    #   - README must reference the CURRENT version at least once.
+    #   - Any vX.Y.Z reference in README/KNOWN_LIMITATIONS prose that is more
+    #     than one MINOR version behind current fails, unless the line also
+    #     contains a history/archival cue (docs/history, 'prior', 'archived',
+    #     'superseded', 'era', 'since v', 'through v', 'from v', 'at v').
+    # This is a report-and-fail check only; it never edits.
+    import re as _re
+    pyproject = (ROOT / "pyproject.toml").read_text()
+    m = _re.search(r'version\s*=\s*"(\d+)\.(\d+)\.(\d+)"', pyproject)
+    if m:
+        cur = tuple(int(x) for x in m.groups())
+        cur_str = f"{cur[0]}.{cur[1]}.{cur[2]}"
+        # NOTE: "docs/history" is deliberately NOT a cue -- the release card
+        # itself links into docs/history, and exempting the path would have
+        # masked the exact v3.20.0 bug this tripwire exists to catch
+        # (verified by negative test at v3.26.3).
+        HISTORY_CUES = ("prior", "archived", "superseded", "-era",
+                        "since v", "through v", "from v", "consolidat")
+        stale_hits = []
+        readme_text = (ROOT / "README.md").read_text()
+        if cur_str not in readme_text:
+            stale_hits.append(("README.md", 0,
+                               f"current version v{cur_str} never mentioned"))
+        for doc in (ROOT / "README.md", ROOT / "KNOWN_LIMITATIONS.md"):
+            for i, line in enumerate(doc.read_text().splitlines(), 1):
+                for vm in _re.finditer(r"v(\d+)\.(\d+)\.(\d+)", line):
+                    ref = tuple(int(x) for x in vm.groups())
+                    behind_minor = (cur[0] - ref[0]) * 1000 + (cur[1] - ref[1])
+                    if behind_minor > 1:
+                        low = line.lower()
+                        if any(c in low for c in
+                               (c.lower() for c in HISTORY_CUES)):
+                            continue
+                        stale_hits.append((doc.name, i,
+                                           f"references v{'.'.join(map(str, ref))}"
+                                           f" (current v{cur_str})"))
+        # Badge check: the Verify badge count must equal the code-backed
+        # count from claims.yaml (it sat at 411/411 for ~189 benchmarks
+        # before this check existed).
+        backed = sum(1 for c in claims if c.get("benchmark"))
+        bm = _re.search(r"verify-(\d+)%2F(\d+)%20passing", readme_text)
+        if bm and (int(bm.group(1)) != backed or int(bm.group(2)) != backed):
+            stale_hits.append(("README.md", 0,
+                               f"Verify badge says {bm.group(1)}/{bm.group(2)},"
+                               f" registry has {backed} code-backed"))
+        if stale_hits:
+            any_drift = True
+            for name, ln, msg in stale_hits:
+                print(f"FRONTDOOR-STALE  {name}:{ln}: {msg}")
+        else:
+            print(f"ok     front-door version tripwire (current v{cur_str},"
+                  f" badge {backed}/{backed})")
+    # ------------------------------------------------------------------------
+
     if check and any_drift:
         sys.exit(1)
 
