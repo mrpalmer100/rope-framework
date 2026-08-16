@@ -1,3 +1,34 @@
+## 3.26.52 (2026-08-16) -- LINK FIX + GUIDE REBUILT FROM SOURCE (no new claims)
+
+- docs/README.md: the 'Plain-language guide' link pointed at
+  guide/README.md (the BUILD-SYSTEM readme) instead of the paper;
+  now points at papers/rope_plain_language_guide.pdf, with the
+  build system noted parenthetically.
+- The link fix exposed a real process bug in v3.26.47: the guide is
+  GENERATED from guide/topics/ (build_guide.py), and the
+  frame-dragging section had been hand-edited into the build output
+  only -- the next rebuild would have silently deleted it. FIXED
+  the build-system way: the section (with the HONEST LIMIT as a
+  proper CALLOUT) added to guide/topics/gravity.md, the guide
+  rebuilt from source (11 topics, render-check PASS), and the
+  rebuilt PDF verified (section p.23, callout p.25, flows into
+  Chemistry). One source, no drift, exactly as guide/README.md
+  demands.
+- 704 claims; doc/build-only release.
+
+## 3.26.51 (2026-08-16) -- CONVENTION FIX: stray plain-language doc removed from docs/ (no new claims)
+
+- docs/FRAME_DRAGGING_PLAIN_LANGUAGE.md REMOVED per the corpus
+  convention (author directive): papers for humans live in papers/.
+  The plain-language guide (papers/rope_plain_language_guide.*) is
+  the canonical plain-language surface and already carries the
+  frame-dragging section (added v3.26.47, written to the GRV-127
+  corrected status) -- nothing is lost. MANIFEST entry removed;
+  HANDOFF corrected and the convention noted for future sessions.
+- If a standalone frame-dragging paper is ever wanted, it goes in
+  papers/ (docx source in papers/_sources, rendered PDF in papers/),
+  matching every other paper in the corpus. 704 claims; doc-only.
+
 ## 3.26.50 (2026-08-16) -- KNOWN_LIMITATIONS FULL FLATTEN: every section converted to current-state-only (no new claims)
 
 - The whole file rewritten to the v3.26.48/49 policy (author

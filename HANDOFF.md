@@ -1,5 +1,19 @@
 # HANDOFF -- Rope Framework, next session
 
+*Build-system note (v3.26.52): the plain-language guide is GENERATED
+from guide/topics/ via tools/build_guide.py -- NEVER hand-edit
+papers/_sources/rope_plain_language_guide.docx (the v3.26.47 edit did,
+and was re-done through the source at v3.26.52). To change the guide:
+edit the topic .md, rebuild.*
+
+*Corpus convention note (v3.26.51, author directive): human-facing
+plain-language material lives in papers/ -- the plain-language guide
+(papers/rope_plain_language_guide.*) is THE plain-language surface,
+and any future standalone explainer paper also goes in papers/, never
+docs/. The stray docs/FRAME_DRAGGING_PLAIN_LANGUAGE.md is REMOVED
+(its content is carried by the guide's frame-dragging section,
+v3.26.47); docs/ holds registry-adjacent process material only.*
+
 *Docs policy note (v3.26.48/49, author directive): README AND
 KNOWN_LIMITATIONS entries carry CURRENT STATE ONLY -- updates by
 REPLACEMENT, history by pointer to docs/history/. The append-only
@@ -85,7 +99,7 @@ core-closure horns; n_rs. T2 clocks unchanged.
 # HANDOFF -- Rope Framework, next session
 
 *Doc-sync note (v3.26.44): KNOWN_LIMITATIONS, README, and the new
-FRAME_DRAGGING_PLAIN_LANGUAGE.md are current through GRV-125. The
+the papers/ plain-language guide are current. The
 external surface now matches the registry on frame dragging.*
 
 *Written 2026-08-16 at the close of v3.26.43 (the shift-coefficient
