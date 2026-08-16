@@ -6,7 +6,7 @@ you have found it in under five minutes.
 
 *Revised against the current registry.*
 <!-- BEGIN GENERATED: corpus_stats -->
-*704 registered claims, 121 Derived, 45 registered Failed and kept.*
+*704 registered claims, 620 code-backed and passing, 121 Derived, 45 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
 
@@ -115,7 +115,7 @@ kept straight, several quantum facts are **adopted, not derived**, or **open**:
 ## Gravity
 
 - **Frame dragging: form derived; amplitude gated on the fine scale.** As of 16 Aug
-  2026 (v3.26.50, through GRV-127), the current state is: the gravitomagnetic-to-
+  2026 (through GRV-127), the current state is: the gravitomagnetic-to-
   gravitoelectric ratio is derived exactly as `Lambda x J sin^2(theta)/(Mc)`, r-free,
   with every structural element parameter-free (J-linearity by the granted beta_J = 1;
   the Lense-Thirring angular form; parity; dipole-led sourcing; complete radial
@@ -136,7 +136,7 @@ kept straight, several quantum facts are **adopted, not derived**, or **open**:
   GRV-113), any LARES/GP-B comparison is a one-parameter measurement, not a kill test.
   *Full arc (GRV-059 through GRV-127, including the grant chain, the impossibility
   certification and its supersession, and the demoted numeric quotes): docs/history/
-  release notes v3.26.31–v3.26.48 and DAY_SUMMARY_2026-08-16.md.*
+  release notes v3.26.31 onward and DAY_SUMMARY_2026-08-16.md.*
 - **The vacuum weave is measured parity-balanced to two parts in 1e19** (registered
   property, PRED-002-FREQ + GRV-113). Inverting the registered material-optical-activity
   rate against the Eskilt-Komatsu birefringence angle at `beta + 2 sigma` caps the weave's

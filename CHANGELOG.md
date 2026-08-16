@@ -1,3 +1,23 @@
+## 3.26.53 (2026-08-16) -- FRONT-DOOR SYNC: generated blocks regenerated, long blurbs shortened (no new claims)
+
+- ROOT CAUSE of the stale '3.26.32' at the top of the README: the
+  version and corpus_stats are GENERATED blocks maintained by
+  tools/sync_doc_facts.py, which had not been run all day while the
+  version was bumped 20 times in pyproject/CITATION. RAN IT: README
+  now shows 3.26.53 / 704 claims / 620 code-backed everywhere the
+  generator writes (README, KNOWN_LIMITATIONS, STATE_OF_THE_
+  PROGRAMME). The generator's own freshness check then flagged the
+  Verify badge (612/612 stale) -- fixed to 620/620.
+- The long-explanation regression fixed: the 'Current release'
+  paragraph and both release-notes blurbs cut to one-to-two
+  sentences plus pointers, per the reader-first policy. Version
+  self-references removed from section headers and KL pointers so
+  they cannot go stale again.
+- PROCESS RULE added to HANDOFF: every release cut MUST run
+  tools/sync_doc_facts.py (and heed its freshness warnings) before
+  packaging -- version bumps in pyproject/CITATION alone leave the
+  front door stale. 704 claims; doc-only.
+
 ## 3.26.52 (2026-08-16) -- LINK FIX + GUIDE REBUILT FROM SOURCE (no new claims)
 
 - docs/README.md: the 'Plain-language guide' link pointed at

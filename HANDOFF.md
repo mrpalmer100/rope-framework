@@ -1,5 +1,12 @@
 # HANDOFF -- Rope Framework, next session
 
+*Release-cut rule (v3.26.53): every release MUST run
+tools/sync_doc_facts.py before packaging and heed its FRONTDOOR-STALE
+warnings -- the README version/stats are GENERATED blocks, and bumping
+pyproject/CITATION alone leaves the front door stale (this bit us:
+the README showed 3.26.32 for twenty releases). Blurbs on the front
+door stay at one-to-two sentences plus a pointer.*
+
 *Build-system note (v3.26.52): the plain-language guide is GENERATED
 from guide/topics/ via tools/build_guide.py -- NEVER hand-edit
 papers/_sources/rope_plain_language_guide.docx (the v3.26.47 edit did,
