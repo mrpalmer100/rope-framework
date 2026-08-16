@@ -9,7 +9,7 @@ override table -- auditable line by line, with the classifier's freedom acknowle
 
 ## The headline
 
-**299 claims touch quantum vocabulary; only 11 genuinely depend on a quantum
+**304 claims touch quantum vocabulary; only 11 genuinely depend on a quantum
 input; and those 11 bottleneck through FOUR underlying inputs:**
 
 1. **The electron mass** (PM-005 -- registered input, said so from the start)
@@ -21,7 +21,7 @@ Everything else that says "quantum" is: a **fence** (27 claims that stop at the
 boundary and say so), **classicalized** (14 claims -- the lambda saga's category:
 an hbar reading eliminated, a geometric version surviving), **form-only** (30 --
 including the QB rungs, which derive quantum-SHAPED bounds classically, and the Hawking
-chain, where hbar only converts units), or **incidental** (217).
+chain, where hbar only converts units), or **incidental** (222).
 
 ## The split frontier, confirmed at ledger level
 

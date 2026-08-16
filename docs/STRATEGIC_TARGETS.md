@@ -147,8 +147,10 @@ k_f/T0_f = 8.09 refinement-proof), the zero-point ledger convention
 is CODIFIED with its tripwire (FND-109, ZP-CONV: carried modes only,
 the lattice is the regulator), and the hierarchy counts are ruled
 DISTINCT (n_rs vs n_sub, NAME_REGISTRY addendum). Remaining queued:
-the scale-class determination (which hierarchy level sets the
-corpus's absolute lengths). On the author's desk: the
+none -- the scale-class determination is DISCHARGED (FND-110,
+TSADE4, 2026-08-15): SINGLE-ANCHOR at the vacuum-strand M-point,
+the fine level suspended on (m, n_sub), the rope level on n_rs,
+the numeric-w fork entry named per bars and left to its data. On the author's desk: the
 EXCHANGE-DYNAMICS GRANT QUESTION (FND-108, superseding the G-A/G-B
 menu; three-shadow acceptance test pre-built: the NUN4 bar, the
 near-coaxial overlap geometry, the safe-volume profile) and
@@ -161,3 +163,69 @@ optional. External clocks: PSR J1713; the ADJOINT CS BANDS
 (FND-106, kill-ready, spec shipped); k=3 and safe-volume large-N
 awaiting data classes; >2.2 PeV photons as free corroboration. The
 session-selection rule in C stands unchanged.
+
+## E. CHARTER REFRESH (2026-08-15, v3.26.31, the fourteen-release day)
+
+THE BOARD IS FULLY CLEAR FOR THE FIRST TIME IN THE PROGRAMME'S
+HISTORY. Nothing is owed in any tier. The day's fourteen releases
+(v3.26.17 -> v3.26.31): the gravitomagnetic condition list closed
+(GRV-115), routing audited and same-day corrected (GRV-116/117),
+twist radiation EXISTS-VIA-LOCK (GRV-118); the scale class ruled
+SINGLE-ANCHOR with three underived integers named (FND-110); the
+k-string exchange-dynamics question resolved the honest way --
+profile adopted (FND-111), grant made blind (FND-112), demoted at
+its own bar (FND-113); the core-closure arc run to its terminus in
+five sessions (EM-RECON-034..038), both amplitude candidates dead,
+trilemma registered, parked on polarimetry clocks.
+
+STANDING ITEMS, all optional, none owed:
+1. The twist-to-carrier VERTEX SESSION (GRV-118's three enumerated
+   obligations; every input registered and derived; nothing waits on
+   a grant).
+2. The three core-closure trilemma horns (programme-level, each its
+   own bars if taken up): wall deformability under coherent load;
+   the structural level of binding strain; the quartic threshold.
+3. Any n_rs determination or bound (pays at the ladder rung;
+   FND-MATTER-003's obstruction stands).
+4. COMMISSION CURRENT-AS-SPIN, chartered 2026-08-16 (author's
+   question: what specifically makes conduction ropes SPIN rather
+   than merely vibrate). THE QUESTION, two halves, both to be
+   answered from registered structure with bars locked before
+   computing: (a) TORQUE INJECTION -- does an EMF-class longitudinal
+   strain gradient on a WOUND strand force azimuthal rotation
+   through the registered twist-stretch lock (EM-RECON-012, Derived)
+   at a derivable rate, i.e. the torque-balance allocation
+   steady-EMF -> steady rotation rate, currently UNREGISTERED as a
+   quantitative statement; (b) SPIN PERSISTENCE -- quantify the
+   asymmetry already exact in structure: transverse vibration leaks
+   at every crossing through the O(g) machinery while azimuth
+   escapes only via the lock chain (dV/dphi = 0 identically,
+   EM-RECON-023), so the azimuthal reservoir is the low-loss
+   channel and current survives as spin. REGISTERED PARTS LIST,
+   complete: the winding-is-charge identification (GG-006 lineage),
+   the derived lock, the exact azimuth-blindness, the O(g) crossing
+   coupling (EM-RECON-026), torsional stiffness and the priced
+   torsion speed (FND-MATTER-047). PRE-COMMITMENTS OWED AT LOCK: no
+   new coupling registered; the drive is the registered EMF-strain
+   reading only; admissible outcomes DERIVED-RATE /
+   RATE-UNDERDETERMINED (with the missing input named) / the
+   asymmetry quantified either way. ADJACENCY DISCLOSED IN ADVANCE:
+   this commission shares its entire parts list with the
+   twist-to-carrier vertex session (item 1) and the two should
+   either run adjacent or share bars discipline, since each
+   computes a lock-mediated conversion rate from the same three
+   objects.
+
+T2 EXTERNAL CLOCKS (unchanged, kill-ready where marked): PSR J1713;
+adjoint CS bands (kill-ready, spec shipped); PVLAS/VMB@CERN
+polarimetry (QGATE-006/018); continuum SU(6) k-string data;
+>2.2 PeV photons; m x 1.4 PeV soft falsifier.
+
+DISCIPLINE ADDENDA RATIFIED THIS DAY (carried in HANDOFF 0d
+sections, restated here as standing rules): (1) a TITLE IS NOT A
+VERDICT -- cited claims are read at verdict level inside
+commissions, not only when annotating; (2) BEFORE IDEALIZING ANY
+OBJECT, CHECK WHETHER THE REGISTRY ALREADY CONSTRUCTED IT; (3) the
+prose layer fails more often than the registry layer -- both
+author catches of the day were prose -- and corrections are named
+claims or named handoff corrections, never silent edits.

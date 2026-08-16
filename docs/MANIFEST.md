@@ -65,6 +65,7 @@ Generated for the public repository. Papers carry the status mix of the claims t
 - `comparative_audit_of_theory_programmes.docx`
 - `lessons_from_the_gravity_campaign.docx`
 
+- `docs/FRAME_DRAGGING_PLAIN_LANGUAGE.md` -- plain-language companion for the gravitomagnetic sector (restates GRV-120..125; no new claims)
 ## Archived / superseded (kept for transparency, not current)
 
 - `ARCHIVED_rope_gravity_v1_superseded.docx`
