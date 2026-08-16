@@ -33,7 +33,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 <!-- END GENERATED: status_breakdown -->
 > Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
 
-**📄 [Release notes v3.26.31](docs/history/RELEASE_NOTES_v3.26.31.md)** — *The fourteen-release day*: the gravitomagnetic book closed with its supersession commission and an author-caught same-day correction; twist radiation ruled EXISTS-VIA-LOCK; the scale class ruled SINGLE-ANCHOR (three underived integers named); the exchange-dynamics grant made blind and demoted at its own pre-built bar hours later; the core-closure arc run to a named terminus in five sessions with both amplitude candidates dead and the trilemma registered.
+**📄 [Day summary 16 Aug 2026](docs/history/DAY_SUMMARY_2026-08-16.md)** — *The fifteen-release day*: current-as-spin closed, the dynamo composed, frame dragging carried to a one-parameter theory (form derived, chirality-meter amplitude, residue read at 1), and the evening's premature numbers demoted by the sector's own scheduled level adjudication — amplitude now gated on the fine scale. Prior day: [v3.26.31](docs/history/RELEASE_NOTES_v3.26.31.md).
 
 **📄 [Release notes v3.26.0](docs/history/RELEASE_NOTES_v3.26.0.md)** — *The adjudication day*: external continuum lattice data — published five years before the derivation it tested — adjudicated the k-string sector on the framework's own pre-registered terms, rejecting the rival sine law's functional class while killing the framework's exact coefficient at its own blind 3σ checkpoint (honored at 4.3σ, no adjustment); eleven gap mechanisms eliminated on locked bars; the κ_pack decision bands cut kill-ready against a literature-verified empty field, with an executable measurement spec shipped for external lattice groups; the substructure arc's protective audit closed six of six with no break.
 
@@ -46,7 +46,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 **🗺️ [Roadmap of Knowledge](docs/ROADMAP.md)** — the whole corpus at a glance: [wall chart](docs/roadmap.png) and [interactive dependency explorer](docs/roadmap.html) (click any claim; see its dependencies, dependents, and full downstream), all generated from claims.yaml by `tools/build_roadmap.py`.
 
 
-**Current release: v3.26.31** (15 Aug 2026) — the fourteen-release day. The gravitomagnetic book closed: the GRV-110 shift-term grant's last condition discharged by the supersession commission (GRV-115, superseded-not-erased, mixed verdict with the impossibility proof's core vindicated), the routing audit run and corrected same-day when the author caught a title read as a verdict (GRV-116/117), and twist radiation ruled EXISTS-VIA-LOCK on registered text (GRV-118: the same azimuth-blindness that protects m_gamma = 0 throttles the channel). The scale class ruled SINGLE-ANCHOR — one measurement-fixed rung (the M-point), three underived integers separating the other rungs (FND-110). The k-string sector taken to its honest end: profile adopted external (FND-111), the exchange-dynamics grant made blind and demoted at its own pre-built bar the same day (FND-112/113, Failed-and-kept). The core-closure arc run to a named terminus in five sessions: the 1D fourfold miss largely convicted as dimensional artifact (EM-RECON-034), the invented profile families dissolved into the registry's own mode class (EM-RECON-035), the registered-class closure failed at policy amplitude (EM-RECON-036), the policy audited to a convenience (EM-RECON-037), and the one live mechanism run to NO-BINDING-CONTRADICTION (EM-RECON-038) — both amplitude candidates dead, the trilemma registered, the arc parked on polarimetry clocks. Two author-caught prose-layer corrections registered by name, zero registry-layer errors found. 679 -> 691 claims. Prior consolidated day: v3.26.0 (13 Aug 2026), the adjudication day — see `docs/history/RELEASE_NOTES_v3.26.0.md`.
+**Current release: v3.26.48** (16 Aug 2026). 704 claims. The day's arc: current-as-spin answered end to end (EM-RECON-039/040, GRV-119), the k/T0 = 2 grade audited ADOPTED-ADJUDICATED (FND-114), planetary magnetism composed from registered parts with convection proved structurally mandatory (EM-RECON-041), and the frame-dragging sector carried to a one-parameter theory — form derived, amplitude factorized as chi x Lambda_nat, residue read at 1 — with the evening's premature numeric quotes demoted by the sector's own scheduled level adjudication (GRV-127) and the amplitude now gated on the fine scale. Full arc: `docs/history/DAY_SUMMARY_2026-08-16.md`. Prior consolidated day: v3.26.31 (15 Aug 2026), the fourteen-release day — see `docs/history/RELEASE_NOTES_v3.26.31.md`.
 
 **If the rope model is wrong**, the transferable result is
 `docs/CONSTRAINTS_FOR_MECHANICAL_SUBSTRATE_THEORIES.md` — universal programme
@@ -193,200 +193,63 @@ instruments (many-multiplet quasar alpha; the Yb+ E3/E2 clock, giving
 |d ln A/dt| < 1.6e-18 per year). It returns as a CONSTRAINT at T3 ceiling, not
 a prediction; the T1 count remains one. The two-alpha-chain audit (PRED-003-XCHAIN) found consistency-by-locking; the constitutive session (PRED-003-CONST, 2026-08-02) then closed the chain dimensionally: e_eff^2/(4 pi eps0) = 2 lambda J a, triple (2, 1, -1). The -2 tension ratio SURVIVES (co-drift A ~ T^(-1/2)); the +1 spacing discriminator is WITHDRAWN pending registration of the alpha chain itself, which the audit found to be paper-stated and registry-underived. The chain attempt (PRED-003-CHAIN) then killed the naive route by theorem — winding charge is a circulation, and phase electrostatics is logarithmic, not Coulomb — leaving the alpha form BLOCKED-WITH-SPECIFICATION: the completing computation is a Maxwell-sector dictionary evaluation with target q_s^2 = 8 pi eps0 lambda J a, the corpus-wide highest-value open item. The dictionary evaluation (PRED-003-DICT) then collapsed that computation by impedance reduction: eps_med = 1/T, alpha = l_q^2 T/(4 pi hbar c), and the -2 ratio is now the middle of a three-candidate table {-1, -2, -3} indexed by the winding's source length — with any measured nonzero drift ratio selecting it. The decider (PRED-003-LOCK) then dissolved the question: the registered model is pure XY with no on-site locking, and matching OPT-006's impedance to the derived director stiffness ENSLAVES kappa = 2T/(eta a) — the EM vacuum runs on two primitives. The ratio is reassigned: tension channel -1, spacing channel -2; the registered -2 survives on the spacing channel, testability intact, and a measured nonzero ratio now identifies the drift channel. The eta session (PRED-003-ETA) then set eta = 1 by one-metric uniqueness (kappa = 2T/a exact, J = Ta/2), bounded the winding's source length at >= 13-16 lattice spacings from measured alpha alone, and killed the bare 2 pi normalization — leaving g, the mesoscopic source length's mechanism, as the dictionary's true residual. The ratio test (ELEC-083) then proved its own commissioned scale-set vote vacuous and extracted the residue: under the shared-origin hypothesis for the two mesoscopic lengths, 1/alpha = 2 pi^2 rho^2 exactly, with rho = 2.6348 required and guarded against numerology — one mechanism now owes one pure number, blind.
 
-## OPEN: the gravitomagnetic sector (1 Aug 2026; status updated 16 Aug 2026)
+## The gravitomagnetic sector: frame dragging (status as of 16 Aug 2026, v3.26.48)
 
-The gravity sector's classical weak-field tests are UNCONDITIONAL (GRV-029) — and
-every one is GRAVITOELECTRIC, testing g_00. The GRAVITOMAGNETIC sector, g_0i,
-has no registered coupling in the action (GRV-059, Failed), and Gravity Probe B
-measures Earth's frame-dragging at 37.2 ± 7.2 mas/yr with zero 5.2 sigma away.
+**Current status, in one line: FORM DERIVED; AMPLITUDE = chi x Lambda_nat with the
+overlap residue READ at R_0 = 1; Lambda_nat GATED on the fine scale
+{(G I_p)_f, a_f}; the birefringence attribution GATED (neither excluded nor
+confirmed); condition 4 in force (one-parameter measurement framing only, no
+kill-test advertising).**
 
-**But the route to one is live and matches on structure** (GRV-066). The medium
-is a genuine Cosserat continuum (framed strands carry an independent
-microrotation). The micropolar screening that would kill the route depends on a
-rotation-locking modulus κ — which is a MASS TERM for the relative rotation. And
-EM-RECON-012 (**Derived**) states that a mass term is *forbidden* in this medium
-because there are no material points, with the sector gapless in principle;
-FND-STRAND-002 separately *measured* a twist kink propagating 170 nodes with
-winding conserved exactly.
+What is derived, exactly and with zero freedom (GRV-120):
 
-With κ = 0 the equation is **Poisson**, GRV-020's Derived angular no-monopole
-lemma forces dipole-led sourcing, and the far field is (J × r)/r³ — a 1/r²
-falloff with dipole structure, **exactly what Lense-Thirring requires**, from a
-Derived theorem with no free parameter.
+- The gravitomagnetic-to-gravitoelectric ratio is **Lambda x J sin^2(theta)/(Mc),
+  r-free** — linear in J (forced by the granted identity J-is-twist at
+  beta_J = 1, GRV-104/105), the Lense-Thirring sin^2(theta) angular form from
+  the axial-dipole vacuum solution, correct parity (J -> -J flips the drag),
+  dipole-led sourcing (GRV-020), and the complete radial cancellation — the
+  framework's ratio loses r exactly as GR's loses r and G, natively.
+- Frame dragging therefore **exists in this framework with the correct shape**,
+  as a structural consequence of rotation-is-twist plus dipole-led sourcing
+  plus the granted shift term L_C3 (GRV-110).
 
-**That antecedent is now supplied** (GRV-067). GRV-020's Corollary 1 gives a
-spontaneously broken global SO(2) on the internal azimuth with exactly one
-Goldstone — identified as the frame orientation by the claim's own reading
-(torsion dynamics = light). Goldstone's theorem forbids a mass term for that
-mode, and the micropolar locking modulus **is** a mass term: under the broken
-symmetry η → η + ε, so η² is not invariant. **κ = 0 exactly.**
+What sets the strength (GRV-121, GRV-126):
 
-So one Derived claim supplies both halves — Corollary 1 the vanishing screening,
-Corollary 2 the dipole structure. **And step 4 is now done** (GRV-068). Diagonalising the coupled vector operator
-shows its determinant vanishes at k = 0 for **any** κ: one mode is massless
-regardless of the locking modulus, and it is the combination where the
-microrotation *tracks* the backbone — the one angular momentum excites. So the
-conclusion no longer depends on the Goldstone argument at all, and GRV-064's
-screening is fully retired: it was real physics aimed at the orthogonal mode.
+- **Lambda = chi x Lambda_nat**: the amplitude is (the vacuum weave's net
+  chirality fraction chi) times (a natural scale built from strand torsional
+  rigidity and the weave's own torsion). **Frame dragging is a chirality
+  meter**: a parity-symmetric vacuum drags nothing; a frame-dragging
+  measurement is, at bottom, a measurement of the vacuum's handedness.
+- The last order-one factor — GRV-070's source/metric overlap residue — is
+  **read at R_0 = 1**: the author's two grants fix all four coefficients, far
+  from both null lines (GRV-126).
 
-**Precisely stated** (GRV-069): micropolar locking gaps only the
-*relative-rotation* sector and leaves a collective co-rotation mode massless for
-arbitrary locking strength, so the blanket screening obstruction is **invalid**.
-Whether angular momentum *sources* that pole, and whether it enters the
-*observable* metric, remain to be derived — those are two further projections,
-and both are currently generic rather than computed.
+What is gated (GRV-127, the binding constraint):
 
-The route is legitimately **reopened**, not established — and the remaining work
-is now a single equation (GRV-070). With a source map L = J·(aΩ + bφ) and an
-observable map g_0i = cΩ_i + dφ_i, the pole residue is **R₀ ~ (a+b)(c+d)**, and
-the long-range field is
+- **Lambda_nat is symbolic.** The torsion in the coupling is the ambient
+  vacuum weave's own, registered at the FINE level (|tau_1| = 4.1888/a_f,
+  GRV-112), and both a_f and (G I_p)_fine are deliberately unregistered under
+  the FND-110 substructure suspension on (m, n_sub). That suspension is now
+  the **single gate** under frame dragging, the k-string sector, and the
+  substructure dividends alike. No numeric Lambda_nat, chi, or LARES-class
+  comparison is quotable until it moves.
+- **The birefringence question is open.** Whether the observed cosmic
+  birefringence (PRED-002's anchor) and frame dragging share one vacuum
+  handedness is neither excluded nor confirmed — it answers immediately, in
+  one direction or the other, when the fine scale prices. It ships on the
+  external surface in neither framing.
 
-    g_0i(r) ~ [(a+b)(c+d)/(4πK₀)] (J × r)_i / r³
+Standing constraints: GRV-110 condition 4 is unchanged — until lambda is
+derived or independently bounded beyond the chirality cap (chi <= 2.49e-19,
+GRV-113), any LARES/GP-B comparison is a **one-parameter measurement, not a
+kill test**, and is not advertised otherwise.
 
-— already the Lense-Thirring structure. Against GR's −2G(J × r)/(c³r³), the
-framework must deliver **(a+b)(c+d)/(4πK₀) = −2G/c³**. Four coefficients and one
-stiffness.
-
-**The audit came back** (GRV-071): four of the five are ABSENT from the
-registered action, for two distinct structural reasons. **a and b** are missing
-because the corpus has no matter coupling to medium rotation at all — GRV-005's
-source is a static force density with no torque or spin term. **c and d** are
-missing because GRV-029's dictionary is an exact *four-to-four* bijection for a
-static diagonal metric: a shift is three further functions, so there is nowhere
-for g_0i to live. Only K₀ is computable in principle.
-
-**So the framework is SILENT here** — it predicts neither 37.2 mas/yr nor its
-absence, and claims neither. The massless mode still exists for any locking
-strength; nothing sources it, and nothing maps it to an observable. The two work
-items are explicit and each is a substantial addition rather than a calculation:
-a matter-to-rotation coupling, and a dictionary with a shift slot.
-
-And K₀ is **derived** (GRV-073): γ = 4.2e−4 J/m, from the corpus's own elastic
-constants. GRV-009 registers `torsion~r^4` — the polar-moment law of a **rod** —
-and GRV-005 states the full elastic set is possessed. The value is **seven orders
-below the tension**, because the axial stiffness carries r² while the torsional
-rigidity carries r⁴, leaving (r/a)² for a thin strand. A dimensional estimate
-could not have found this.
-
-**Status update (14 Aug 2026) — the bigger work item has been adjudicated.**
-The matter-to-rotation coupling is now certified **GRANT-REQUIRED by
-elimination** (GRV-103): a channel-exhaustion audit over a closed inventory
-killed three of the four angular-momentum-shaped carriers by registered
-claims — momentum entrainment dies on FND-REL-002's derived
-no-material-velocity theorem, the registry's one derived coupling (Magnus,
-EM-RECON-026) is the wrong charge and vanishes for neutral matter, and
-GRV-058's shift is null for exactly the stationary source — leaving the
-twist-sector identification: an ontological commitment (mechanical J lives in
-topological-geometric twist) of exactly the class the standing rule reserves
-for the author. That grant question, **GRANT-CANDIDATE-ROT**, was GRANTED on 14 Aug 2026
-(GRV-104), with two conditions on the face: the beta_J pin audit
-(Commission NUN-GRV2, bars locked) registers its verdict before any LARES-2
-number is computed, and any residual freedom is registered and priced before
-confrontation. The audit RAN the same day (GRV-105, split verdict): beta_J = 1
-is pinned by the grant's totality reading plus J-conservation, but the LARES-2
-confrontation remains blocked -- the observable chain needs the shift-slot
-dictionary (GRV-055, GRV-071 c/d), which became the sector's single gating item.
-THE GATING AUDIT RAN AND CLOSED THE DOOR (GRV-106, Commission NUN-GRV3, bars
-locked): every mixed time-space bilinear of the combined action vanishes
-identically, no registered-adjacent acquisition opens the shift slot, and the
-verdict is IMPOSSIBLE-CERTIFIED -- the granted sector is UNFALSIFIABLE BY FRAME
-DRAGGING under registered structure. KNOWN_LIMITATIONS carries this at full
-volume as of this release. The medium cannot spin, and that statement now
-survives the grant -- and survives the author's own challenge: the FND-REL-002
-scope audit (GRV-107, bars locked, motivation disclosed) attacked the theorem
-at full strength and returned EXACT-CONFIRMED; the rotating-source staticity
-is a chain-rule identity immune to order corrections. The challenge is kept.
-The candidate search then ran over a closed inventory (GRV-108): ONE name
-survives to the author's queue -- GRANT-CANDIDATE-SHIFT-C3,
-L = lambda (grad phi) . u_t, feeding exactly the three missing functions from
-a static background at one new constant, with its price of admission stated:
-re-scoping FND-REL-002's forced-LI wording to lambda = 0, and a lambda-bound
-audit against registered EM optics owed before any gravitational use. Nothing
-is adopted; the grant decision is pending. The lambda-bound audit then ran
-pre-grant (GRV-109): BOUND-VACUOUS -- the induced operator is exactly
-longitudinal, transverse light is untouched (zero, not small), and the C3
-price drops to extending an existing annotation. The honest headline stands:
-lambda underived means a granted C3 converts the LARES-class confrontation
-into a one-parameter measurement, not a kill test, unless lambda is derived
-or independently bounded. THE GRANT WAS MADE (GRV-110, 14 Aug 2026): the
-action acquires L_C3 = lambda (grad phi) . u_t on the revised price sheet,
-with four conditions on the face -- lambda derivation before confrontation
-framing, the FND-REL-002 annotation extended (done), the GRV-055/071/106
-supersession commission owed, and no kill-test advertising until lambda is
-derived or bounded. The sector is now a one-parameter theory of frame
-dragging whose parameter has a named derivation route. The derivation attempt
-ran (GRV-111): NOT-PINNED -- straight strands give lambda = 0 exactly; the
-coupling lives in the cubic twist-writhe vertex as lambda_eff ~ (G Ip)
-<kappa_bar>, with the mesh curvature statistic <kappa_bar> unregistered. The
-frame-dragging coupling is a property of MESH GEOMETRY. The <kappa_bar>
-determination is the sector's next chartered-size question: it pins lambda,
-or it derives zero and falsifies the grant's structure microscopically. Its
-pricing is sharp in the direction the house prefers: granting it makes the
-sector confront **LARES-2 at 0.2%** with β_J possibly pinned by the
-already-derived torsional rigidity γ — near-zero freedom against a ~500σ
-knife, with the FND-050 precedent (exposure clause fired within one arc) cited
-in the registration. The arc's inversion is worth stating plainly: it began at
-"the sector is falsified" and now stands at **one identification away from
-parameter-free**. Consistency note: γ's input k/T0 = 2 was adjudicated
-COARSE-EFFECTIVE this week (EM-RECON-032); torsional rigidity is a
-coarse-medium property, so γ = 4.2×10⁻⁴ J/m stands under the correct reading.
-
-Three predictions follow **conditionally on the grant**: a spin radiation
-channel GR lacks, intrinsic-spin sourcing of frame dragging, and the
-finite-range signature above. Ungranted, the framework remains exactly as
-silent as this section states — predicting neither 37.2 mas/yr nor its
-absence. The second work item (a dictionary with a shift slot) remains fully
-open.
-
-**Status update (16 Aug 2026, GRV-119..125) — the sector ran end to end in one
-day and now carries its sharpest confrontable structure.** The vertex
-obligations were discharged (GRV-119: the lock-chain crossing transfer is
-*first* order in g with geometric sin²χ_d suppression — a refinement, not a
-contradiction, of the display-level phrase). The frame-dragging **ratio was
-then derived** (GRV-120): **Λ × J sin²θ/(Mc), r-free**, with every structural
-element exact — linear in J by the pinned β_J = 1, the sin²θ Lense-Thirring
-angular form from the axial-dipole vacuum solution, correct parity, dipole-led
-sourcing, and the radial dependence dividing out *completely*, the framework's
-ratio losing r exactly as GR's loses r and G. Frame dragging exists in this
-framework, with the right shape, for structural reasons; everything that is
-amplitude prices into **one dimensionless constant, Λ, with Lense-Thirring
-exactly at Λ = 1**. Composing the discharged λ chain gives **Λ = χ × Λ_nat**
-(GRV-121): *frame dragging is a chirality meter* — the amplitude is directly
-proportional to the vacuum weave's net parity imbalance, and the
-parity-symmetric default vacuum drags nothing. The pricing arc then closed the
-temptation this raised: the chiral-vacuum reading (GRV-122) found the corpus's
-own confirmed prediction (PRED-002, cosmic birefringence) prefers χ ≠ 0,
-suggesting birefringence and frame dragging might be ONE parity knob; the
-numerator was priced from registered numbers (GRV-123); λ's joule units fixed
-the slot and GRV-073's own pair was found to encode the registered mesh spacing
-a = 1.000e-16 m exactly (GRV-124); and the shift operator's coefficients turned
-out to have been registered since GRV-068 (T = T₀, γ = γ_grav, κ = 0), closing
-the fork by reading (GRV-125): **at registered coefficients the one-knob
-attribution is EXCLUDED** — weave chirality at the birefringence-implied level
-would overdrive frame dragging by 18–31 orders, branch-independent. The two
-observables **decouple**, and the sector's standing prediction is stated: **the
-vacuum is parity-balanced to ~1e-37; the observed cosmic birefringence is not
-weave chirality; no polarimeter will ever see the frame-dragging χ.** Binding
-status, quotable only in this form: **form derived; amplitude = χΛ_nat with
-Λ_nat = g₀ × [1.1e37, 1.9e37] at registered stiffness; χ ~ 1e-37 required for
-GR strength; decoupled from cosmic birefringence; one O(1) — the GRV-070
-overlap residue (a+b)(c+d) — from a quotable number.** Condition 4 (no
-kill-test framing) stands, its parameter's expected magnitude now named. Owed
-before final numbers: the residue derivation and the level-assignment
-adjudication. **Both then ran the same evening. The residue READ at R_0 = 1
-(GRV-126: the author's two grants fix all four GRV-070 coefficients). The level
-adjudication then FIRED AGAINST THE EVENING'S OWN CLAIMS (GRV-127): GRV-123's
-numerator had transplanted the EM conduction-lock twist into the vacuum-weave
-torsion slot with no registered identification -- the registered torsion is
-fine-level (GRV-112), with a_f and (G I_p)_fine unregistered. The numeric
-brackets, the chi ~ 1e-37 quote, and the birefringence exclusion are demoted to
-coarse-transplant-conditional; the attribution question is REOPENED AS GATED.
-The binding status: form derived; R_0 = 1 read; amplitude gated on the fine
-scale (the FND-110 substructure suspension, now the single gate under frame
-dragging, the k-string sector, and the substructure dividends alike); condition
-4 unchanged. The rider that caught this was created by the same discipline it
-executed -- flagged at GRV-123's own bars lock, carried on every face, run
-before FINAL.**
+*The sector's full arc — from GRV-059 (Failed, no coupling in the action)
+through the grant chain, the ratio derivation, the chirality-meter
+factorization, and the level adjudication that demoted this evening's
+premature numeric quotes — is preserved in `docs/history/` (release notes
+v3.26.31 through v3.26.47, and `DAY_SUMMARY_2026-08-16.md`) and in
+KNOWN_LIMITATIONS.md. This section carries current status only.*
 
 ## Two branches carry validated machinery and no target
 

@@ -1,3 +1,79 @@
+## 3.26.50 (2026-08-16) -- KNOWN_LIMITATIONS FULL FLATTEN: every section converted to current-state-only (no new claims)
+
+- The whole file rewritten to the v3.26.48/49 policy (author
+  directive): 411 -> 236 lines, zero UPDATE/CORRECTION blocks
+  remain, history by pointer only.
+- Section changes: header stats regenerated (704 claims); 'Resolved
+  and relocated' condensed to its pointers; the electron-core
+  section condensed to current state (axis pinned, meaning open,
+  two conditionalities); the stiffness-tower intro tightened; the
+  g_C4 bullet condensed (unexplained, four classes missed,
+  instruments exhausted); the k-string softening saga (56 lines,
+  FND-050 through FND-113) condensed to its 16-line current state
+  (b_k falsified at its own checkpoint, 1/N class and calibrations
+  standing, missing object = the exchange dynamical form, parked,
+  blind two-number target); the repulsive-core bullet condensed to
+  its terminus (both candidates dead, trilemma, parked on
+  polarimetry clocks); the 85-line failed-and-kept ledger replaced
+  by a pointer to the registry (claims.yaml IS the ledger) with
+  four headline entries named.
+- Untouched: the quantum-boundary section (already current-state),
+  the flattened Gravity section, gauge/particle/chemistry/method
+  sections (already short), the one-fence synthesis.
+- 704 claims; doc-only release.
+
+## 3.26.49 (2026-08-16) -- KNOWN_LIMITATIONS REWRITE: frame-dragging entry converted to current-state-only (no new claims)
+
+- The frame-dragging entry (111 lines of stacked UPDATE/CORRECTION
+  blocks, opening at the 2026-08-01 state) replaced with a 23-line
+  current-state entry per the author's directive (same standard as
+  the v3.26.48 README rewrite): what is derived, what factorizes,
+  the open limitation (fine-scale gate), the gated birefringence
+  question, the standing condition-4 constraint, and one italic
+  pointer to docs/history for the full arc.
+- The parity-balance bullet flattened (19 -> 10 lines; the demoted
+  GRV-125 two-direction statement removed, the gated status stated
+  directly). The cross-sector synthesis paragraph flattened on the
+  same standard.
+- History preserved in docs/history/ (release notes and the day
+  summary), not in KNOWN_LIMITATIONS. Policy note added to HANDOFF:
+  KNOWN_LIMITATIONS entries carry CURRENT STATE ONLY, updates by
+  replacement, history by pointer. 704 claims; entry-local only,
+  other sections untouched.
+
+## 3.26.48 (2026-08-16) -- README REWRITE: gravitomagnetic section converted to latest-status-only (no new claims)
+
+- The README's frame-dragging section (195 lines of layered history,
+  opening with the superseded GRV-059 'no coupling / 5.2 sigma'
+  state) replaced with a current-status-only section per the
+  author's directive: readers stop at the first stale sentence, so
+  the README carries LATEST STATUS ONLY. New section: the one-line
+  binding status, what is derived (GRV-120), what sets the strength
+  (GRV-121/126), what is gated (GRV-127), standing constraints
+  (condition 4), and a single pointer to docs/history/ and
+  KNOWN_LIMITATIONS for the full arc. History preserved there,
+  not in the README. 704 claims; README 501 -> 364 lines.
+
+## 3.26.47 (2026-08-16) -- PAPERS SYNC: plain-language guide gains the frame-dragging section (no new claims)
+
+- papers/rope_plain_language_guide.pdf (+ _sources docx): the
+  Gravity chapter gains 'Frame dragging -- the swirl around
+  anything that spins' -- the literal mechanism (spin IS twist; the
+  weave's answering swirl), the four derived structural facts
+  stated plainly (spin-linearity, equatorial pattern, parity, the
+  distance cancellation that fell out and surprised the session),
+  the chirality-meter reading ('a frame-dragging measurement is, at
+  bottom, a measurement of whether the universe is left- or
+  right-handed'), and an HONEST LIMIT block that tells the
+  transplant story straight: the exciting numbers were withdrawn
+  the same evening by the calculation's own scheduled cross-check,
+  the strength is gated on the fine-strand scale, and the catch IS
+  the method. Consistent with GRV-127's corrected status; no
+  demoted number appears; the gated birefringence question is
+  described as open, in neither framing.
+- Validation: +7 paragraphs, XSD PASSED, PDF re-rendered and
+  visually verified. No claims touched; 704 claims.
+
 ## 3.26.46 (2026-08-16) -- THE LEVEL ADJUDICATION: TRANSPLANT-FOUND; the rider fires against the evening's own claims; same-release doc sync
 
 - GRV-127 (Modeled): the vacuum-weave torsion slot is FINE-level

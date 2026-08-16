@@ -1,5 +1,23 @@
 # HANDOFF -- Rope Framework, next session
 
+*Docs policy note (v3.26.48/49, author directive): README AND
+KNOWN_LIMITATIONS entries carry CURRENT STATE ONLY -- updates by
+REPLACEMENT, history by pointer to docs/history/. The append-only
+discipline applies to the registry (claims.yaml), not to the
+reader-facing surface.*
+
+*README policy note (v3.26.48, author directive): the README carries
+LATEST STATUS ONLY -- no layered history. Status updates go by
+REPLACEMENT in the README; the history lives in docs/history/ and
+KNOWN_LIMITATIONS. Future sessions must not append status blocks to
+the README.*
+
+*Papers-sync note (v3.26.47): the plain-language guide's Gravity
+chapter now carries the frame-dragging section, written to the
+GRV-127 corrected status (structure stated, numbers gated, the
+transplant story told as method). External surface fully
+consistent.*
+
 *Written 2026-08-16 at the close of v3.26.46 (the level
 adjudication: GRV-127). 704 claims. Prior handoff content preserved
 below -- NOTE: the v3.26.45 handoff's quotes are superseded by this
