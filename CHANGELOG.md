@@ -1,3 +1,1190 @@
+## 3.26.46 (2026-08-16) -- THE LEVEL ADJUDICATION: TRANSPLANT-FOUND; the rider fires against the evening's own claims; same-release doc sync
+
+- GRV-127 (Modeled): the vacuum-weave torsion slot is FINE-level
+  (|tau_1| = 4.1888/a_f, GRV-112; a_f and (G I_p)_fine
+  unregistered) and GRV-123 transplanted the EM conduction-lock
+  tau0 into it with NO registered identification (corpus-wide
+  search: none). DEMOTED to coarse-transplant-conditional, kept:
+  GRV-123's brackets and landing; GRV-124's ladder magnitudes;
+  GRV-125's exclusion and chi numbers; GRV-126's quotes. SURVIVES:
+  the derived form, the chirality meter, R_0 = 1, the registered
+  coefficients, the spacing confirmation, and QOF2 in its own EM
+  sector. RESTORED: Lambda_nat gated on {(G I_p)_f, a_f}; the
+  birefringence attribution REOPENED AS GATED. The FND-110
+  substructure suspension is now the single gate under frame
+  dragging, k-strings, and the substructure dividends.
+- PRED-002 annotation commission RESCINDED (premise demoted); the
+  predictions-paper carries NEITHER framing -- the relation stays
+  off the external surface.
+- SAME-RELEASE DOC SYNC: README, KNOWN_LIMITATIONS, and
+  FRAME_DRAGGING_PLAIN_LANGUAGE corrected by appended correction
+  blocks (superseded-not-erased) before the cut.
+- The day's first substantive session-level error, caught by the
+  rider the sector scheduled against itself. 704 claims.
+
+## 3.26.45 (2026-08-16) -- THE RESIDUE READING: R_0 = 1 by reading; the amplitude chain completes
+
+- GRV-126 (Modeled): GRV-070's four generic coefficients were fixed
+  by the author's own two grants -- J-is-twist forces (a, b) =
+  (0, 1); L_C3-as-sole-feed forces (c, d) = (1, 0) -- so
+  R_0 = (a+b)(c+d) = 1, distance 1 from both null lines (the
+  kill-shaped outcome got its chance and did not fire). All four
+  GRV-069 C1 escapes dispositioned in the negative from registered
+  text. QUOTABLE: Lambda_nat = [1.09e37, 1.88e37];
+  chi_required = [5.3e-38, 9.2e-38]. Riders: k/T0 = 2; gamma_lock
+  bracket; LEVEL = COARSE with the level adjudication STILL OWED
+  before FINAL. Condition 4 unchanged.
+- The sector's standing prediction, final registered form: if
+  Lense-Thirring is as measured, the vacuum's gravitationally
+  active chirality is ~7e-38-class -- decoupled from cosmic
+  birefringence, below all polarimetric reach.
+- Doc note: KNOWN_LIMITATIONS' 'one residue from a number' line is
+  superseded by this claim; sync owed at next doc release.
+  703 claims.
+
+## 3.26.44 (2026-08-16) -- DOCUMENTATION SYNC: frame dragging (no new claims)
+
+- KNOWN_LIMITATIONS.md: the gravitomagnetic entry updated through
+  GRV-125 -- the 'DYNAMICALLY UNDERIVED THROUGHOUT' status line
+  superseded; the new binding status recorded (form derived;
+  amplitude = chi x Lambda_nat at registered stiffness; chi ~ 1e-37
+  required; decoupled from cosmic birefringence; one residue from a
+  number). The parity-balance bullet gains its second customer and
+  the two-direction constraint. The cross-sector synthesis
+  paragraph updated.
+- README.md: gravitomagnetic section status-updated to 16 Aug with
+  the GRV-119..125 arc; header date bumped.
+- NEW: docs/FRAME_DRAGGING_PLAIN_LANGUAGE.md -- plain-language
+  companion (mechanism, exact structure, chirality-meter reading,
+  the killed one-knob temptation, honest ledger, one-sentence
+  version). MANIFEST updated.
+- No claims added or changed; 702 claims. Doc-only release.
+
+## 3.26.43 (2026-08-16) -- THE SHIFT-COEFFICIENT READING: fork resolved (A); the one-knob story dies at registered numbers; the sector keeps a prediction
+
+- GRV-125 (Modeled): GRV-068 has carried the operator's coefficients
+  all along (T = T0; gamma = gamma_grav; kappa = 0). Both branches
+  priced: T-branch Lambda_nat = g0 x [1.1e37, 1.9e37]; gamma-branch
+  ~1e50. BOTH exceed the attribution window by 18+/31 orders: the
+  birefringence attribution is EXCLUDED at registered coefficients,
+  branch-independent. Cosmic birefringence and frame dragging
+  DECOUPLE; GR-strength dragging demands chi ~ [5e-38, 9e-38] --
+  permitted, forever below polarimetric reach. GRV-123's flagged
+  landing was clothing. The one escape (residue ~5.5e-19 from a
+  GRV-070 null line) displayed and refused (unmotivated smallness).
+- NAMED CORRECTION to GRV-124's face: 'branch (B) ~18 orders
+  SOFTER' had the wrong direction (Lambda_nat ~ 1/stiffness^2);
+  numbers untouched; the day's fifth prose-layer catch.
+- The sector keeps: form (GRV-120), chirality mechanism (GRV-121),
+  and now a PREDICTION: the vacuum is parity-balanced to ~1e-37;
+  the observed birefringence is NOT weave chirality (cross-sector
+  kill for PRED-002's attribution, annotation owed).
+- Next: the residue derivation ((a+b)(c+d), the last O(1));
+  PRED-002 annotation; predictions-paper sync with DECOUPLED
+  framing only; level adjudication. 702 claims.
+
+## 3.26.42 (2026-08-16) -- THE kappa_conv SESSION: slot adjudicated, spacing confirmed, the fork made binary
+
+- GRV-124 (Modeled): lambda is in JOULES on the registry's face --
+  slot A lives, slot B dies, kappa_conv's units fixed. SPACING
+  CONFIRMED: a^2 = C/gamma_grav = (1.000e-16 m)^2 exactly --
+  GRV-073's own pair encodes the registered ceiling spacing. Two
+  natural closures exhibited, neither adopted (T0-class:
+  Lambda_nat = g0 x [1.1e37, 1.9e37]; Sigma-class: ~1e51; the
+  mu^2c^3 and T0^2 forms coincide by T0 = mu c^2). DECIDING OBJECT
+  NAMED: the shift field's kinetic coefficient (GRV-068 operator),
+  unregistered.
+- THE CONSEQUENCE LADDER: under BOTH natural closures the GRV-122
+  attribution is EXCLUDED (chi_beta x Lambda_nat ~ 1e18+ --
+  birefringence-as-chi would drag frames 18 orders too hard); GR
+  strength instead demands chi ~ 1e-37, decoupling the observables.
+  THE BINARY FORK: (A) T0-class stiffness -> attribution dies;
+  (B) ~18 orders softer -> GRV-123's flagged landing is physics and
+  birefringence IS frame dragging. One coefficient chooses. The
+  flag is disfavored, not killed.
+- Next: the shift-coefficient reading (cheap); if unregistered,
+  GRANT-CANDIDATE-KSHIFT to the author's desk with this fork as its
+  price sheet. One unit slip caught by locked assertion, kept.
+  701 claims.
+
+## 3.26.41 (2026-08-16) -- THE Lambda_nat PRICING: numerator priced, blocked at THE wall, consonance affirmed, one resemblance flagged. 700 claims.
+
+- GRV-123 (Modeled): the coarse numerator computes from registered
+  numbers (slot A: C tau0 in [2.6e-17, 4.5e-17] J; slot B:
+  gamma_grav tau0 in [2.6e15, 4.5e15] J/m^2; riders on the face).
+  The denominator blocks at (i) kappa_conv (unregistered
+  normalization bookkeeping, required dimensions exhibited) and
+  (ii) THE INDUCED-STRENGTH WALL: Lambda_nat's remaining question
+  IS gravity's own strength question (GRV-005's ~40-order
+  suppression). One wall, two sectors.
+- STRUCTURAL CONSONANCE affirmed at its ceiling: twist couples by
+  identity, mass pays 40 orders, so Lambda_nat = unsuppressed/
+  suppressed is structurally LARGE -- the >= 4-6e18 demand is the
+  ledger's expected shape. Plausible, not derived.
+- FLAGGED at display volume, nothing built on it: the raw pre-kappa
+  magnitude num_A c^3/(2G) = [5.3e18, 9.1e18] LANDS ON the demanded
+  window; it becomes Lambda_nat iff kappa_conv prices O(1). REFUSED
+  outright: '19 ~ 40/2' numerology.
+- NAMED: the kappa_conv normalization session is now the single
+  cheapest decisive move in the sector; the level-assignment
+  adjudication (coarse vs fine tau) is owed before any final
+  number. Bars analysis/NUNGRV16_lambdanat_price_bars_LOCKED.md;
+  results analysis/NUNGRV16_lambdanat_price_results.md; benchmark
+  benchmarks/gravity/lambdanat_price_nungrv16.py. 700 claims.
+
+## 3.26.40 (2026-08-16) -- THE CHIRAL-VACUUM READING: PREFERS-NONZERO; birefringence and frame dragging are one knob
+
+- GRV-122 (Modeled, reading session): the corpus's FIRST CONFIRMED
+  PREDICTION is chirality-sourced -- PRED-002's registered mechanism
+  ('the rope is chiral... parity-odd Chern-Simons') at the measured
+  Eskilt beta = 0.342 deg, flatness confirmed (PRED-002-CONF).
+  Object identity passes on GRV-113's own locked convention; the
+  attribution caveat quoted at full volume (GRV-113 capped, never
+  attributed). Grade carried: the surviving mechanism route is
+  postulate-grade (PRED-002-FREQ).
+- Display-level: chi_central ~ 1.6e-19 if beta is chi-sourced;
+  GRV-121's demand becomes Lambda_nat ~ 6.2e18.
+- THE CROSS-PREDICTION, registered: cosmic birefringence and frame
+  dragging are measurements of the SAME parity knob -- beta measures
+  chi; Lense-Thirring measures chi x Lambda_nat; their ratio
+  measures fine-scale strand mechanics from the sky. The framework
+  commits in advance: zero birefringence means zero rope-model
+  frame dragging.
+- chi = 0 default no longer unopposed. Fine-scale pricing session
+  now has a target number (~6e18). Condition 4 unchanged. Bars
+  analysis/NUNGRV15_chiral_vacuum_bars_LOCKED.md; results
+  analysis/NUNGRV15_chiral_vacuum_results.md. 699 claims.
+
+## 3.26.39 (2026-08-16) -- COMMISSION LAMBDA-COMPOSE: frame dragging is a chirality meter; named handoff correction
+
+- GRV-121 (Modeled): the discharged lambda chain (GRV-111/112/113)
+  composed with GRV-120's ratio: Lambda = chi x Lambda_nat EXACTLY.
+  (1) Frame dragging is a CHIRALITY METER -- the Lense-Thirring
+  amplitude is directly proportional to the vacuum weave's net
+  parity imbalance. (2) THE DEFAULT VACUUM PREDICTS ZERO: chi = 0
+  gives Lambda = 0 exactly -- a parity-symmetric weave drags
+  nothing. (3) THE PINCER: Lambda = 1 (GR point) plus chi <=
+  2.49e-19 demand Lambda_nat >= ~4.0e18 -- an internal structural
+  demand on the unregistered fine scale, armed and waiting. Three
+  measurement classes (polarimetry, frame dragging, fine-scale
+  mechanics) now meet on one constant. Condition 4 unchanged.
+- NAMED HANDOFF CORRECTION (B0): v3.26.37/38 handoffs called the
+  lambda derivation 'owed' -- FALSE; GRV-111 discharged condition 1
+  on 2026-08-15. The operator's session-selection prose failed
+  where the registry did not. Search bar's fourth payout, first to
+  catch the session-selection layer itself.
+- Bars analysis/NUNGRV14_lambda_compose_bars_LOCKED.md; results
+  analysis/NUNGRV14_lambda_compose_results.md; benchmark
+  benchmarks/gravity/lambda_compose_nungrv14.py. 698 claims.
+
+## 3.26.38 (2026-08-16) -- COMMISSION FRAME-DRAG-RATIO run: RATIO-REPRODUCED-IN-FORM at one-parameter amplitude
+
+- GRV-120 (Modeled): the framework's gravitomagnetic/gravitoelectric
+  ratio is Lambda x J sin^2(theta)/(Mc), r-FREE -- J-linearity
+  forced by the pinned beta_J = 1; sin^2(theta) exact from the
+  axial-dipole vacuum solution; dipole-led (GRV-020 realized);
+  parity correct; and the radial dependence divides out COMPLETELY,
+  the ratio losing r exactly as GR's loses r and G. FRAME DRAGGING
+  EXISTS in this framework with the correct shape, scaling, parity,
+  and radial cancellation. THE ONE PARAMETER: Lambda =
+  C_d c^3/(2 C_m), Lense-Thirring EXACTLY at Lambda = 1; Lambda
+  does not cancel because the monopole rides strain (G-calibrated)
+  and the dipole rides the granted L_C3 (lambda underived) --
+  GRV-062's fork resolves at its honest third prong: the framework
+  predicts the form and offers the amplitude.
+- Condition 4 honored: no LARES numbers, no kill-test language,
+  lambda never estimated. Clean-room held. EM constants excluded
+  (dynamo contributed composition discipline only). Third
+  prose-layer catch of the day corrected to the machine (the exact
+  r-independence was stronger than the draft hedged).
+- Sector confrontability ladder: structural impossibility ->
+  one-parameter framing (GRV-115) -> one-parameter framing WITH THE
+  FORM DERIVED AND THE TARGET IDENTIFIED (today). The lambda
+  derivation (GRV-110 condition 1) is now the sector's
+  highest-leverage session.
+- Bars analysis/NUNGRV13_framedrag_ratio_bars_LOCKED.md; results
+  analysis/NUNGRV13_framedrag_ratio_results.md; benchmark
+  benchmarks/gravity/framedrag_ratio_nungrv13.py. 697 claims.
+
+## 3.26.37 (2026-08-16) -- COMMISSION DYNAMO run (LOOP-CLOSES) and COMMISSION FRAME-DRAG-RATIO chartered
+
+- EM-RECON-041 (Modeled): planetary magnetism is CONVECTING
+  TRANSPORTED WINDING sustaining mesh circulation -- all four loop
+  links registered (Magnus drive; screw/spin transport; Gaede
+  sweep; jump-rope reinforcing sign, cycle (+)); dipole-led by
+  GRV-020. THE STRONGER NULL: curl(E) = 0 EXACTLY for ANY purely
+  toroidal flow, rigid or sheared -- rotation organizes but cannot
+  create; A BODY MAGNETIZES ONLY IF IT CONVECTS. Self-excitation
+  criterion R_rope = rho kappa_0^2 u_c/(2 pi L n_x g sin^2(chi_d)
+  C26) > 1 assembled with ZERO new unknowns. Scope split: Earth
+  unconditional; Sun conditional on the unexamined plasma sweep.
+  Second prose-layer catch of the day corrected to the machine on
+  the face.
+- COMMISSION FRAME-DRAG-RATIO CHARTERED (not run):
+  docs/commissions/COMMISSION_FRAMEDRAG_ratio.md -- the same
+  rotation-sources-circulation machinery pointed at GRV-062's open
+  G-free target J sin^2(theta)/(Mc); bars owed at lock; GRV-110/113/
+  114/115 conditions binding leg by leg; EM constants refused
+  cross-sector; outcome grammar RATIO-REPRODUCED / RATIO-OFF-BY /
+  RATIO-BLOCKED-AT. A charter is not a result.
+- Bars analysis/MEM3_dynamo_bars_LOCKED.md; results
+  analysis/MEM3_dynamo_results.md; benchmark
+  benchmarks/em/dynamo_mem3.py. 696 claims.
+
+## 3.26.36 (2026-08-16) -- THE k/T0 = 2 GRADE AUDIT: ADOPTED-ADJUDICATED, the inheritance rider lands
+
+- FND-114 (Modeled, reading session, no computation): the chain
+  walked at verdict level -- origin empirical (spacings fit,
+  EM-RECON-009/FND-021), disputed at eight orders (FND-021 vs
+  QB-008), adjudicated with locked bars (FND-027: 'exactly ONE
+  registered value of the medium constant'), reading fixed by the
+  existence of matter (EM-RECON-032, coarse-effective
+  derived-by-exclusion), falsifier-armed three ways (sqrt(2) c
+  channel floor; spacing re-fit; fine ratio >= 4.046), grade-stable
+  under the kept EM-RECON-031 failure.
+- THE INHERITANCE RIDER, now quotable on EM-RECON-040's brackets
+  and GRV-119's closed forms: conditional on the adjudicated
+  coarse-effective k/T0 = 2 -- the same conditionality carried by
+  c4 = T0/8 and the alpha chain's adjudicated branch. Sensitivity
+  smooth and monotonic (no cliff) through the (k/T0 - 1/5)
+  denominator.
+- Pattern registered: second audit chartered in fear of a soft
+  foundation to return ADJUDICATED (FND-094 was the first).
+- No new gates; the angular sector's residuals remain
+  {beta, n_x, C26, g}. Bars
+  analysis/PE3_kT0_grade_audit_bars_LOCKED.md; results
+  analysis/PE3_kT0_grade_audit_results.md. 695 claims.
+
+## 3.26.35 (2026-08-16) -- THE tau0 PIN SESSION: dimensionlessly pinned, the gate dissolved
+
+- EM-RECON-040 (Modeled): r tau0 = 1/sqrt(gamma - 1) EXACTLY by
+  inversion of the Derived lock relation; bracket [0.577, 1] on the
+  registered gamma ~2-4. THE CANCELLATION: absolute tau0 drops out
+  of every downstream closed form -- tan(2 chi_d) =
+  (2/9) beta gamma/sqrt(gamma-1) at the registered ratios
+  ((v_t/c)^2 = 1/5; k/T0 = 2, grade carried). At the beta = 1
+  reference: sin^2(chi_d) in [0.043, 0.055], eta_conv in
+  [0.082, 0.104], L_az/L_tr <= ~4-6 percent -- twenty-fold spin
+  protection from registered geometry, no tuning.
+- THE NAME COLLISION adjudicated (search bar's third payout): the
+  corpus's numeric tau0 = 1.95 w/c is ELEC-047's traversal TIME
+  (retired hbar sector), quarantined not imported; NAME_REGISTRY
+  addendum tau0_lock vs tau0_trav binding.
+- Gate ledger: {tau0, n_x, C26, g} -> {beta, n_x, C26, g}; chi_d
+  bracketed; r gates only ABSOLUTE tau0, which nothing downstream
+  needs.
+- Instrument catch logged on the claim face: a draft print block
+  hardcoded stale brackets; corrected to computed-and-assertion-
+  locked before registration. Day's discipline ledger: three
+  sessions, three instrument-class catches, all on claim faces.
+- Named next-orders: beta from a registered cross-section
+  construction (the LAST dimensionless gate); the k/T0 = 2 grade
+  audit, now load-bearing, one verbatim reading session.
+- Bars analysis/QOF2_tau0_pin_bars_LOCKED.md; results
+  analysis/QOF2_tau0_pin_results.md; benchmark
+  benchmarks/em/tau0_pin_qof2.py. 694 claims.
+
+## 3.26.34 (2026-08-16) -- THE VERTEX SESSION run: all three GRV-118 obligations discharged, eta_chain priced, the order refined
+
+- GRV-119 (Modeled): (V1) emission partition derived -- a twist
+  source splits cos^2(chi_d) : sin^2(chi_d) between the branches of
+  the dynamical eigenproblem, tan(2 chi_d) =
+  2 sqrt(I mu) lambda gamma tau0/(I k_s - lambda mu). (V2) lock
+  conversion efficiency derived: eta_conv = sin^2(2 chi_d)/2 exactly,
+  bounded at 1/2, ~2 chi_d^2 at weak lock. (V3) ORDER-DETERMINED,
+  the headline: per-crossing transfer T = g sin^2(chi_d) C26 at
+  leading order g^1 -- the suppression is GEOMETRIC (mixing angle),
+  not higher powers of g; EM-RECON-023's display-level
+  'higher-order-in-g' phrase refined per pre-committed grammar,
+  annotated not overwritten.
+- Mass-term tripwire PASSED: crossing-induced azimuthal coupling is
+  gradient-only; no mass generated; m_gamma = 0 verified against one
+  more attack surface.
+- eta_chain = n_x g sin^2(chi_d) C26 PRICED; EM-RECON-039's balance
+  closes as Omega = lambda gamma tau0 E0/eta_chain. Four numeric
+  gates, all pre-existing (tau0, n_x, C26-via-SIGMA, g); zero new
+  unknowns added.
+- Sector status: STRUCTURALLY UNSUPPRESSED AT THE SOURCE,
+  REGISTERED-VIA-LOCK IN PROPAGATION, DYNAMICALLY DERIVED AT LEADING
+  ORDER WITH FOUR NAMED NUMERIC GATES.
+- Instrument note kept per house rule: one sympy trigsimp
+  branch-ordering artifact, adjudicated by exact rational-point
+  identity; instrument, not physics.
+- Bars analysis/TAV4_vertex_session_bars_LOCKED.md; results
+  analysis/TAV4_vertex_session_results.md; benchmark
+  benchmarks/em/vertex_session_tav4.py. Run adjacent to RESH2 under
+  shared-bars discipline. STRATEGIC_TARGETS E.1 discharged.
+  693 claims.
+
+## 3.26.33 (2026-08-16) -- COMMISSION CURRENT-AS-SPIN run: injection derived, rate underdetermined with its input named, asymmetry quantified
+
+- EM-RECON-039 (Modeled): the commission's two halves answered to
+  registry depth. (a) TORQUE INJECTION DERIVED, exact:
+  Gamma_inj = lambda gamma tau0 E0 from the derived lock alone --
+  the drill-bit picture is now an equation; winding is the
+  transmission. (a') THE RATE: RATE-UNDERDETERMINED per
+  pre-commitment -- azimuth-blindness is exact, so no registered
+  azimuthal drag exists; the sole escape coefficient eta_chain is
+  the vertex session's obligation (3), refused at these bars per
+  the adjacency discipline. The eta_chain -> 0 limit is quotable:
+  steady EMF gives steady angular ACCELERATION -- rotation, not
+  vibration, is what the drive buys. (b) THE ASYMMETRY: the twist
+  branch leaks only through its stretch admixture sin^2(chi),
+  tan(2 chi) = 2 lambda gamma tau0/(k_s - lambda);
+  L_az/L_tr <= sin^2(chi) < 1/2 on branch ordering alone; the
+  pure-twist crossing coupling is ZERO EXACTLY; sin^2(chi) -> 0 as
+  tau0 -> 0. One identity (dV/dphi = 0) now carries three duties:
+  m_gamma = 0, twist-radiation throttling, and current persistence.
+- Bars locked before computing
+  (analysis/RESH2_current_as_spin_bars_LOCKED.md); results at
+  analysis/RESH2_current_as_spin_results.md; benchmark
+  benchmarks/em/current_as_spin_resh2.py (sympy-exact, assertions
+  pass). Numeric sin^2(chi) gated on tau0 (no registered numeric);
+  gamma carried at its registered ~2-4 bracket.
+- STRATEGIC_TARGETS E.4 discharged; the vertex session (E.1) now has
+  a second customer waiting on its obligation (3). 692 claims.
+
+## 3.26.32 (2026-08-16) -- charter cut: COMMISSION CURRENT-AS-SPIN
+
+- Chartered from the author's question (what specifically makes
+  conduction ropes spin rather than vibrate), registered as
+  STRATEGIC_TARGETS standing item E.4 with pre-commitments owed at
+  lock. No claim registered; a charter is not a result.
+- The split the charter encodes: REGISTERED -- winding converts
+  longitudinal drive to rotation through the derived twist-stretch
+  lock (EM-RECON-012), and azimuth-blindness (dV/dphi = 0 exactly,
+  EM-RECON-023) makes spin the low-loss reservoir while vibration
+  leaks at every crossing (EM-RECON-026's O(g) coupling).
+  UNREGISTERED, the commission's two halves: (a) the quantitative
+  torque-balance allocation, steady EMF -> steady rotation rate;
+  (b) the leak-asymmetry quantification.
+- Adjacency disclosed in advance: the parts list is identical to the
+  twist-to-carrier vertex session (E.1); the two run adjacent or
+  under shared bars discipline.
+- HANDOFF updated. 691 claims, unchanged.
+
+## 3.26.31 (2026-08-15) -- the documentation consolidation: every doc brought current with the fourteen-release day
+
+- README: version 3.26.31 (pyproject + CITATION.cff aligned,
+  date-released updated), verify badge 612/612, generated counts
+  synced (691 claims, 45 Failed-and-kept), the stale "pending grant
+  question" edge narrative replaced with the granted-and-demoted
+  truth, and a new current-release paragraph consolidating
+  v3.26.17 -> v3.26.31 with a pointer to the new history note.
+- KNOWN_LIMITATIONS: the k-string section updated with
+  FND-111/112/113 (adoption, blind grant, same-day demotion, sector
+  parked with successor constraints named); the EM/optics section
+  gains the core-closure terminus entry (both amplitude candidates
+  dead, the trilemma, the surviving coherence-blind constraint); the
+  failed-and-kept ledger brought to PARITY at 45/45 -- it was twenty
+  entries behind, spanning six sectors, now grouped and captioned.
+- docs/STRATEGIC_TARGETS: charter refresh E -- the board fully clear
+  for the first time in the programme's history, the three optional
+  standing items, the T2 clocks, and the day's three discipline
+  rules ratified as standing rules (a title is not a verdict; check
+  whether the registry already constructed it; prose fails more than
+  registry and is corrected in the open).
+- docs/history/RELEASE_NOTES_v3.26.31.md: the fourteen-release day
+  consolidated in one document, v3.26.0-precedent style.
+- Generated docs regenerated: roadmap (png/html/md), programme
+  overview, dependency graph, quantum ledger, claim-status registry
+  (docx/pdf), STATE_OF_THE_PROGRAMME counts.
+- Guards: check_freshness FRESH (all docs, references, versions,
+  catalogs current); check_release_notes OK; verify_corpus green.
+- 691 claims, unchanged: a docs release registers no claim.
+
+## 3.26.30 (2026-08-15) -- NUN-GRV12: twist radiation EXISTS-VIA-LOCK -- the feared sentence stays unregistered, on registered text
+
+- GRV-118 registered: the existence-first commission ran under bars
+  locked before any determination
+  (analysis/NUNGRV12_twist_radiation_existence_bars_LOCKED.md),
+  verbatim verdict-reading only, no vertex, no rate, no suppression
+  order computed.
+- T1 BRANCH: EM-RECON-023's screw-stretch sector is registered clean
+  dynamics (omega = c q exactly, both eigenbranches; torsion speed
+  v_t/c = 1/sqrt(5) priced in FND-MATTER-047). Its kill is class 4,
+  state count, explicitly SCOPED to the photon identification: a
+  one-state-per-direction branch is a dead photon and a live
+  radiation channel.
+- T2 SOURCE: coupling by identity -- GRV-104's J = twist at the
+  GRV-105 pin (beta_J = 1, derived gamma = 4.21e-4 J/m). No lambda,
+  no g_0i anywhere in the leg.
+- T3 TRANSPORT: exists ONLY through the lock. Direct crossing
+  transfer is dead by azimuth-blindness (dV/dphi = 0 identically,
+  the exactness that protects m_gamma = 0); the registered route is
+  twist -> mixed eigenbranch (derived lock, EM-RECON-012) -> stretch
+  content crossing at the registered q-linear coupling
+  (EM-RECON-026). Registered end to end.
+- VERDICT: EXISTS-VIA-LOCK. A spinning mass radiates, in this
+  corpus, as a lock-mediated mixed wave -- torsion dressed in
+  stretch -- indirect by the same identity that makes the photon
+  massless. One identity protects m_gamma = 0 and throttles twist
+  radiation: deep consistency or coincidence is the vertex session's
+  question.
+- Sector status updates one word, quotable only in this form:
+  STRUCTURALLY UNSUPPRESSED AT THE SOURCE, REGISTERED-VIA-LOCK IN
+  PROPAGATION, DYNAMICALLY UNDERIVED THROUGHOUT. KNOWN_LIMITATIONS
+  updated. Nothing confronts any experiment; condition 4 untouched.
+- The vertex session's parts list is complete and all-registered
+  (emission from time-varying tau; lock conversion efficiency;
+  crossing transfer rate). Not owed.
+- 691 claims.
+
+## 3.26.29 (2026-08-15) -- EM-RECON-038: the caged route dies honestly and the arc parks
+
+- EM-RECON-038 registered (Failed, kept): the caged strain derivation
+  ran under bars locked before any number
+  (analysis/EMRECON038_strain_derivation_bars_LOCKED.md), the cage
+  from EM-RECON-037's face transcribed binding, quarantine held.
+- THE EXTENSION CARRIES and survives as a registered constraint: the
+  collision cap is hard geometric contact, frequency-blind by
+  FND-MATTER-036's own registration and COHERENCE-BLIND by the same
+  logic. Bound winding modes are capped like jitter, conditional on
+  the same above-crossover assumption.
+- THE NUMBER KILLS THE ROUTE: at the registered wall gap (the vacuum
+  mesh spacing a, the only gap FND-MATTER-036 registers, substitution
+  barred at lock), with C_shape = 4.954 through the registered mode
+  class, the operating strain lands at ~1e-6 (chemical) and
+  ~2.5-4.5e-2 (nuclear) against the ~0.6 no-binding threshold.
+  NO-BINDING-CONTRADICTION in both sectors: at the route's strain
+  the registered landscape cannot bind at all where bound states
+  manifestly exist. FND-MATTER-036's alpha-chain standing untouched;
+  its mean-field-hard-walls caveat becomes the live suspect.
+- THE REGISTERED TRILEMMA (convicting none): (i) coherent modes
+  deform the walls that cap jitter; (ii) binding strain lives at a
+  different structural level than mesh-rope displacement; (iii) the
+  quartic landscape's threshold is an energy-model artifact. Each is
+  programme-level, none chartered.
+- THE ARC'S TERMINUS: both registered amplitude candidates are dead
+  (onset policy by closure failure, collision saturation by
+  contradiction); the corpus contains no third. EM-RECON-008 stays
+  Open at its sharpest ledger ever, parked on QGATE-006/018's
+  external polarimetry clocks per the charter.
+- Cage clauses restated on the face: the result lands far from the
+  quarantined g ~ 0.75 display and refutes nothing about it.
+- 690 claims.
+
+## 3.26.28 (2026-08-15) -- EM-RECON-037: the amplitude policy audit -- convenience-certified, one live mechanism found, the successor caged
+
+- EM-RECON-037 registered: a reading commission under bars locked
+  before reading (analysis/EMRECON037_amplitude_policy_bars_LOCKED.md),
+  no number derived, no closure re-run, EM-RECON-036's g ~ 0.75
+  display quarantined throughout.
+- Q1 verified verbatim: g* = sqrt(4 T0/(k - T0)) = 2 is
+  EM-RECON-010's ONSET strain -- the threshold where the quartic
+  correction equals the quadratic term. A threshold, not an
+  operating point.
+- Q2 verified verbatim: the identification of bound-mode operating
+  amplitude with this onset was EM-RECON-031's "one modeling step...
+  STATED AT LOCK" -- a disclosed convenience inherited by three
+  closures, never a registered identification claim. Disclosure is
+  not registration.
+- Q3, the complete inventory across 689 claims: NO registered
+  normalization of bound-mode operating strain exists. Exactly one
+  registered amplitude-fixing mechanism exists at all:
+  FND-MATTER-036's collision saturation (amplitude capped by
+  geometry, MC-verified, mesh-jitter scope). HBAR-003 registers the
+  principled negative (closure quantizes wavelength, leaves
+  amplitude free) plus its strand-count geometric option; ELEC-068's
+  soliton amplitude is registered unfixed.
+- VERDICT: CONVENIENCE-CERTIFIED. The core arc's last suspect is an
+  unregistered convenience.
+- THE SUCCESSOR, chartered with its cage written here so it cannot
+  be softened there: one session; route fixed IN ADVANCE as
+  collision-saturation geometry applied to the registered bound-mode
+  class, with the mesh-to-bound scope extension DERIVED as the first
+  obligation; output registered whatever it is; landing near the
+  quarantined display is NOT confirmation, landing far is NOT
+  refutation. If the route yields a registered strain, the
+  registered-class closure re-runs at it for one line's cost; if the
+  route fails to extend, the failure is kept and the arc parks on
+  its registered external clocks (QGATE-006/018).
+- 689 claims.
+
+## 3.26.27 (2026-08-15) -- EM-RECON-036: the registered-class closure fails and isolates the last suspect
+
+- EM-RECON-036 registered (Failed, kept): the arc's one live
+  computation ran under bars locked before any integral
+  (analysis/EMRECON036_registered_class_bars_LOCKED.md) on the
+  registry's own mode profile (w(rho_perp/xi) e^(-rho/xi),
+  w(u) = u/sqrt(1+u^2), spherical envelope, vortex core, peak strain
+  = g), zero profile freedom of any kind, every other input
+  unchanged.
+- Orientation by energy, not choice: the three canonical
+  configurations were computed; COAXIAL minimizes (E = -1.343 vs
+  -1.005 for both transverse), the sigma-like head-on geometry,
+  directionally consistent with EM-RECON-007's sigma > pi ordering
+  (display).
+- THE VERDICT: d0/xi = 5.2003 at g* = 2, grid-converged identically
+  at three resolutions, integrator anchored on the analytic 3D
+  Gaussian identity. Outside both bands. FAIL, kept.
+- What the failure can no longer blame: not the coefficient
+  (adjudicated), not the dimension (fully 3D), not the profile (the
+  registry's own, untouchable by bars), not the orientation (the
+  energy chose). The arc's residual isolates to ONE registered
+  suspect: the operating-amplitude identification g* = 2.
+- The display the failure pays for, never used for the verdict: the
+  sweep reaches the joint band only near g ~ 0.71-0.80, a factor
+  2.5-2.8 below Kerr saturation, with no binding below g ~ 0.6 and
+  equilibrium abolished above g ~ 2.6-3 (echoing EM-RECON-031's
+  abolition finding). The registered landscape behaves as if bound
+  modes operate well below saturation -- a hypothesis with NO
+  registered determination, kept as display, not rescue.
+- The arc's day in one line: 'operating amplitude and profile' (031)
+  -> dimensional half largely convicted (034) -> family question
+  dissolved by the registry's own construction (035) -> registered
+  class RUN and FAILED at policy amplitude (036). The residual is
+  now ONE question: at what strain do bound modes operate?
+- Named next-orders, neither owed: the Kerr window admissibility
+  commission (external data on vacuum optical nonlinearity, the
+  independent instrument); a strain derivation from mode energetics,
+  flagged in advance with its motivated-construction hazard now that
+  g ~ 0.75 has been displayed.
+- 688 claims.
+
+## 3.26.26 (2026-08-15) -- EM-RECON-035: the window is not narrowed, it is dissolved
+
+- EM-RECON-035 registered: the window-narrowing commission ran under
+  bars locked before any assembly
+  (analysis/EMRECON035_window_narrowing_bars_LOCKED.md), symbol
+  inspection and registered-text reading only, no integral, no
+  closure re-run, the indication not consumed in any direction.
+- THE FINDING: the registered structure does not contain a free core
+  ratio r_w/xi. The corpus's registered mode class
+  (MODE_OVERLAP_DERIVATION.md Sec 2, declared ansatz Sec 7, harness
+  benchmarks/em/mode_overlap_harness.py line 13) is
+  psi = w(rho/xi) e^(-rho/xi) e^(i s phi) with w(u) = u/sqrt(1+u^2),
+  the standard vortex core, every length in units of the one healing
+  length xi = sqrt(lambda/T). Zero free core ratio exists.
+- BOTH prior closures ran off-registry profile families: EM-RECON-031
+  dropped the core factor entirely (pure exponential); EM-RECON-034
+  replaced the registered class with a K0-capped family carrying a
+  free ratio the registry never had. EM-RECON-034's INDICATED and its
+  n_rs convergence are scoped to that family, neither killed nor
+  confirmed; its dimensional mechanism finding survives in direction.
+  EM-RECON-031's FAIL stands with its idealization gap named twice.
+- The session's lesson applied to itself, on the face: the
+  torsion-carrier error was reading a title instead of a verdict;
+  this was constructing "the honest profile" from physics instead of
+  reading the registered construction that already existed. The
+  registry had already answered what a bound mode looks like.
+- EM-RECON-008's ledger simplifies dramatically: no coefficient
+  (supplied), no anonymous amplitude-and-profile (named), no free
+  core ratio (dissolved). Remaining: ONE un-run computation -- the
+  registered-class 2D closure, zero profile freedom of any kind,
+  same amplitude policy, same targets and bands -- plus the standing
+  amplitude policy. Deliberately NOT run this session per the locked
+  refusals: a surprising assembly finding does not flow into a
+  same-session number under bars written for a different question.
+- Grammar disclosure carried on the face: the bars' REFRAMED outcome
+  anticipated a per-sector split; the assembly found a profile-family
+  mismatch; registered as REFRAMED with actual content and the
+  anticipation gap stated. Prior question answered en route: the
+  per-sector comparison is well-posed as EM-RECON-031 posed it.
+- FND-110's ladder untouched (its anchor ruling was correct; only
+  EM-RECON-034's contingent tie-in is scoped). n_rs returns to
+  exactly the wants it had before the convergence story.
+- 687 claims.
+
+## 3.26.25 (2026-08-15) -- EM-RECON-034: the 2D profile closure -- the dimensional suspect largely convicted, INDICATED at the edge and said so
+
+- EM-RECON-034 registered: EM-RECON-031's named successor route 2 ran
+  under bars locked before any integral
+  (analysis/EMRECON034_2d_profile_bars_LOCKED.md), 1D regression
+  anchor reproduced (6.1566) before any 2D number was read. Same
+  registered inputs throughout: c4 = T0/8, g* = 2, targets 1.36/1.67,
+  bands +-25 percent. Upgrade in dimension only: the honest 2D
+  transverse profile K0(r/xi), capped at the rope radius with surface
+  strain = g; r_w/xi unregistered, swept over the locked window
+  [0.05, 0.5].
+- THE LARGE FINDING, unconditional: the fourfold 1D miss was
+  substantially a dimensional artifact. Across the whole window
+  d0/xi runs 1.70-5.39 against 1D's 6.16, and the mechanism is
+  exhibited: the 2D cross-to-attraction ratio I31/I2 falls with
+  separation (0.199 -> 0.109 over d = 2 -> 4) where 1D held it
+  near-constant. The same-rate renormalization that demolished the
+  compact model is geometry-suppressed in the physical dimension.
+- THE SMALL FINDING, kept small by the pre-committed grammar:
+  INDICATED. Both bands are met simultaneously only on
+  r_w/xi in [0.0500, ~0.0502] -- the window's bottom edge, under one
+  percent of its log-width -- at d0/xi = 1.6975 +- ~0.002 numerics
+  against the joint band edge 1.70 (pass margin 0.15 percent,
+  comparable to numerics, disclosed). Chemical band alone met on
+  [0.050, ~0.082]. Stated against interest: a window locked at
+  [0.06, 0.5] would have returned FAIL. Nothing downstream may
+  consume the indication.
+- The structural payoff: the closure's one remaining ratio, rope
+  radius over healing length, is a rope-level absolute scale, and
+  FND-110's ladder says those hang on n_rs. The core-closure gap and
+  the scale-ladder gap are now REGISTERED AS THE SAME UNDERIVED
+  INTEGER. Any future n_rs determination pays twice.
+- Chain updated: EM-RECON-008 stays Open, ledger narrowed;
+  EM-RECON-031's failure stands with its dimensional suspect largely
+  convicted (its computation was correct; its locked idealization
+  was the mechanism); suspect (i) neither convicted nor exonerated
+  (amplitude sweep displayed, never used); the Kerr window route
+  remains open and untouched.
+- 686 claims.
+
+## 3.26.24 (2026-08-15) -- GRV-117: corrigendum -- the routing audit's propagation leg misread a title as a verdict
+
+- GRV-117 registered (author-caught, same day): GRV-116 wrote that
+  time-varying twist radiates into "the corpus's registered
+  torsion-carrier channel." The registry says the opposite: the
+  torsion carrier was computed and KILLED (EM-RECON-023, kill class
+  4, state counting), the registered photon carrier is the collective
+  transverse Goldstone pair (EM-RECON-025), and GRV-102 ruled
+  "torsion dynamics = light" a killed identification. The audit
+  cited EM-RECON-023 by its title, which names the candidate, while
+  missing that the claim registers its kill. A title is not a
+  verdict.
+- Corrected routing verdict: P2 unchanged (routes-through; the leg
+  never touched the carrier). P1's energy-loss reading weakens from
+  ROUTES-INDEPENDENT to CONDITIONALLY-INDEPENDENT: the source leg
+  stands (pinned beta_J = 1, no lambda, no g_0i), the propagation
+  leg is UNDETERMINED -- whether any registered mode can carry
+  macroscopic twist radiation is an open existence question. The
+  oddity paragraph (spinning mass sheds angular momentum into
+  carrier-channel light) is withdrawn entire.
+- The feared sentence still does not register, on thinner ground:
+  the suppression argument still fails at the source leg. Binding
+  sector status, quotable only in this form: STRUCTURALLY
+  UNSUPPRESSED AT THE SOURCE, UNDETERMINED IN PROPAGATION,
+  DYNAMICALLY UNDERIVED THROUGHOUT.
+- The named next-order re-scoped EXISTENCE-FIRST: before any vertex
+  or rate, determine whether any registered mode (the Goldstone pair
+  with unexamined twist coupling; the killed torsional branch as
+  dynamics only; or nothing) can carry it at all. If nothing, the
+  feared sentence returns through the back door and registers at
+  full volume with GRV-117 as provenance. Not owed.
+- GRV-116 annotated superseded-not-erased; KNOWN_LIMITATIONS
+  corrected to the three-part status.
+- The day's ledger, kept: two author catches in one session (the
+  desk-listing error; this), both in the prose layer, both corrected
+  by named claims rather than silent edits. The registry has not yet
+  been caught wrong today; the prose describing it has been caught
+  twice.
+- 685 claims.
+
+## 3.26.23 (2026-08-15) -- NUN-GRV11: the routing audit -- the feared sentence does not register
+
+- GRV-116 registered: GRV-106's named next-order 2 ran under bars
+  locked before any routing analysis
+  (analysis/NUNGRV11_routing_audit_bars_LOCKED.md), symbol inspection
+  and registered-structure inventory only, no wave dynamics derived,
+  no magnitude computed.
+- P2 (intrinsic-spin frame dragging): ROUTES-THROUGH, necessarily and
+  definitionally. Frames are dragged by g_0i; the sole registered
+  feed into g_0i is L_C3 (certified by the GRV-106/110/115 chain,
+  cited not recomputed). Every chain inherits the lambda suppression,
+  the 2.49e-19 cap, and the condition-4 quotation bar.
+- P1 (spin radiation): SPLIT. The metric-radiation reading routes
+  through the slot and is capped with P2. The energy-loss reading
+  ROUTES-INDEPENDENT: the source couples at the pinned beta_J = 1
+  strength (the GRV-104 identification itself, no lambda anywhere),
+  and time-varying twist radiates into the corpus's registered
+  torsion carrier (EM-RECON-023/025, the GRV-020/102 split resolved
+  in structure), reaching an energy-loss observable with no g_0i
+  feed in the chain.
+- Consequence per the pre-committed grammar: GRV-106's feared
+  sentence (the granted sector has no falsification channel at all)
+  does NOT register. KNOWN_LIMITATIONS carries the split at full
+  volume instead, with the bar's own caution binding on quotation:
+  the surviving channel is STRUCTURALLY UNSUPPRESSED, DYNAMICALLY
+  UNDERIVED. A surviving routing is a license to derive, not a
+  result.
+- The oddity registered rather than hidden: the torsion carrier is
+  the corpus's light channel, so the surviving route says a spinning
+  mass sheds angular momentum into carrier-channel radiation.
+  Feature, falsifier-in-waiting, or strain on the identification is
+  what the underived vertex will decide.
+- Named next-order, NOT owed: the twist-to-carrier emission vertex
+  derivation, the sector's one live route, a real cross-sector
+  session (twist grant to EM-RECON carrier map).
+- 684 claims.
+
+## 3.26.22 (2026-08-15) -- NUN8: the adjudication fires -- GRANT-EXDYN-OVERLAP DEMOTED at its own bar
+
+- FND-113 registered (Failed, kept): the three-shadow adjudication ran
+  under bars locked before any overlap integral
+  (analysis/NUN8_exdyn_adjudication_bars_LOCKED.md) and returned
+  NOT-SOLVABLE for every required finite N. The self-consistency
+  equation O(d_N) = (1 + w2)/2 + w2/(N-1), zero free parameters, has
+  no positive solution: minimum demand-minus-overlap gaps at central
+  alpha are +0.108 (SU4), +0.080 (SU5), +0.061 (SU6), robust across
+  the whole pre-committed alpha band [3.0, 4.2].
+- Display, not a pass: the N-to-infinity equation alone solves, at
+  f = 0.658-0.671, inside FND-102's asymptotic 0.64(10) -- but at
+  d* = 2.4-2.8/mu, outside the near-coaxial condition. The
+  asymptote's agreement arrives at the wrong geometry.
+- Structural diagnosis, the failure's teaching: the Clem profile's
+  K0 tail is too fat. Near coaxiality, doubling the path barely costs
+  amplitude (w2 > 0.95), so the reversed orientation stays nearly
+  coherent and the demand exceeds unity. Reaching the data needs a
+  profile falling several times faster between d and 2d than the
+  registered form falls anywhere near coaxiality. Shape
+  incompatibility, not tuning shortfall.
+- GRANT-EXDYN-OVERLAP demoted per its own exposure statement,
+  Failed-and-kept, no rescue, no path-reading swap. Untouched:
+  AYIN's Casimir skeleton (the weights died, not the counting);
+  FND-111's profile (an external measurement does not fail when a
+  use of it fails); the FND-104 window, displayed exactly as before.
+- The sector's binding one-line status: adjudicated between the laws,
+  eleven countable mechanisms dead, the counting-language ceiling
+  certified, one dynamical form granted and demoted at its own bar,
+  window displayed, external clocks armed. What a successor grant
+  now knows free of charge: strong orientation decoherence must
+  arise at NEAR-COAXIAL geometry, so it cannot ride the profile
+  tail -- core-region physics or a non-echo N-dependence, neither
+  granted nor priced here.
+- Benchmark preserved: benchmarks/foundations/nun8_exdyn_adjudication.py.
+- 683 claims.
+
+## 3.26.21 (2026-08-15) -- THE EXCHANGE-DYNAMICS GRANT: GRANT-EXDYN-OVERLAP adopted
+
+- FND-112 registered (author's decision): the exchange interaction
+  acquires a dynamical form -- exchange amplitude per AYIN channel is
+  proportional to the transverse profile overlap of the two tubes
+  along the exchange transport path, profile = CHROMO-PROFILE-CLEM
+  (FND-111). Direct orientation path d, reversed path 2d, coherence
+  weight w2 = O(2d)/O(d), the incoherent remainder re-entering
+  through the per-partner exclusion echo at its own amplitude.
+- Zero new constants: the form's only inputs are the registered
+  profile parameters and AYIN's registered channel counting. The
+  G-A/G-B menu superseded per FND-108's scoping.
+- Conditions on the face: the three-shadow adjudication runs
+  immediately at the pre-built NUN4 bar, derivation-or-demotion
+  armed, one session, no re-granting on failure; nothing advertised
+  before adjudication; the grant text fixed before any shadow is
+  computed.
+- 682 claims.
+
+## 3.26.20 (2026-08-15) -- NUN7: the O2 profile adoption -- the shelf stocked, the grant decision untouched
+
+- FND-111 registered: FND-108's acquisition menu item 1 ran under bars
+  locked before any literature search
+  (analysis/NUN7_profile_adoption_bars_LOCKED.md), on the author's
+  instruction with the exchange-dynamics grant decision explicitly
+  deferred until after the commission.
+- ADOPTED, EXTERNAL-ADOPTED class: the SU(3) flux-tube transverse
+  profile in the Clem-ansatz form, source Cea-Cosmai-Cuteri-Papa,
+  PRD 89, 094505 (2014). Quoted, never re-fit:
+  mu/sqrt(sigma) = 2.684(97), kappa_GL = 0.178(21) (deep type-I), and
+  at the source's own sqrt(sigma) = 420 MeV convention
+  lambda = 0.1750(63) fm, xi = 0.983(121) fm. Distance window
+  Delta = 6a, source-contamination checked in the source itself.
+- The locked B3 selection order was genuinely tested and is disclosed
+  on the face: the larger-lattice 2019-2025 Baker et al. series is
+  recorded SUPPLEMENTARY -- its product is a Coulomb/nonperturbative
+  decomposition without a quoted Clem-form parameter set in the
+  retrieved record, and adopting it would require a re-fit refused at
+  B6. A future adoption of the NP-isolated profile is its own bars
+  cut.
+- Consistency gate B4 passed at family level: the adopted profile's
+  transverse scales sit in the same sub-femtometer family as the
+  width band ELEC-050's 0.342 fm already confronted. No width
+  computed; ELEC-050 not reopened.
+- Discipline stated: the profile is a stored lattice measurement, not
+  a rope prediction; no identification with any strand-level object;
+  its lengths hang on the lattice sqrt(sigma) convention, not the
+  M-point ladder (FND-110 untouched). No overlap fraction, weight
+  function, or shadow computed.
+- NAME_REGISTRY addendum: CHROMO-PROFILE-CLEM registered; kappa_GL
+  named with suffix to stay distinct from kappa (locking) and
+  kappa_pack.
+- What this purchases: if the author grants the exchange dynamics,
+  the three-shadow adjudication tests against a registered profile
+  rather than acquiring one mid-session. If the author declines, the
+  corpus holds a well-sourced external object at zero interpretive
+  cost. The desk item returns to the author exactly as it left.
+- 681 claims.
+
+## 3.26.19 (2026-08-15) -- TSADE4: the scale-class determination -- SINGLE-ANCHOR, the ladder drawn
+
+- FND-110 registered: the item queued since GRANT-SUBSTRUCTURE-TIGHT
+  ran under bars locked before any classification
+  (analysis/TSADE4_scale_class_bars_LOCKED.md), symbol inspection
+  only, no new number computed, no scale derived.
+- VERDICT: SINGLE-ANCHOR. The corpus's absolute lengths are set at the
+  VACUUM-STRAND level and nowhere else; the one measurement-fixed
+  calibration is the M-point (FND-MATTER-044: a = 6.0e-17 m,
+  T0 = 434 J/m). The sweep of all 42 length-quoting claims found no
+  second anchor; the SPLIT-ANCHOR outcome was available and did not
+  occur.
+- The suspension structure is a ladder with one fixed rung. Above:
+  the rope level waits on n_rs (FND-MATTER-003's kept obstruction --
+  charge counts winding, not packing). Below: T0_f = T0/n_sub is
+  relative to coarse; a_f and p carry only the lambda/4 ceiling at
+  the highest carried photon energy, suspended on m; k_f/T0_f = 8.09
+  is a ratio and scale-free. GRV-113's l_chi is a bound parasitic on
+  w, not an anchor. THREE UNDERIVED INTEGERS (n_rs, m, n_sub) are
+  the exact and complete list separating the other rungs from
+  calibration, and the corpus now says so in one place.
+- The sweep surfaced, and bar B3 correctly caged, a value-level
+  finding: the registered numeric w = 5.774e-17 m is ELEC-053's
+  derived relation a/sqrt3 evaluated at the pre-M-point Lorentz edge
+  (a = 1.0e-16 m), not at the M-point (which gives 3.46e-17 m). This
+  is the registered ELEC-052 fork surfacing in the length table, NOT
+  a new inconsistency; it is named, its descendants listed
+  (PRED-002-FREQ's l_struct and GRV-113's chi reading at that
+  length), and deliberately NOT resolved -- level and value are
+  distinct questions and only level was in scope. The fork continues
+  to wait on the non-engine data it was already waiting on.
+- STRATEGIC_TARGETS queue line cleared. FND-087's price sheet
+  unchanged. Any future n_sub determination now has its consequence
+  pre-mapped: it calibrates the entire fine level in one move.
+- 680 claims.
+
+## 3.26.18 (2026-08-15) -- NUN-GRV10: the supersession commission, condition 3 discharged, the grant's condition list closed
+
+- GRV-115 registered: the GRV-055/071/106 supersession commission ran
+  under bars locked before any edit
+  (analysis/NUNGRV10_supersession_bars_LOCKED.md) and returned the
+  MIXED verdict the bars admitted in advance. Annotation only: no
+  original claim text was edited, and the append-only discipline was
+  verified mechanically against a pre-edit copy of the registry.
+- GRV-055 SUPERSEDED IN PART. The seven-against-seven count and its
+  consequence fall: L_C3 is exactly the mixed time-space bilinear the
+  count assumed absent, so the medium is no longer restricted onto the
+  zero-shift sector by structure and Kerr is no longer certified
+  unrepresentable. "The medium can ring and cannot spin" may not be
+  quoted as standing. B1/B2 survive entire (the Euler-Lagrange
+  operator; GRV-029's static special case, no correction owed), B5's
+  caveat survives, and the shift-vector diagnosis is VINDICATED rather
+  than overturned -- it is what told the sector where to spend a grant.
+- GRV-071 SUPERSEDED IN PART. The structural reason for the c/d
+  absence falls (the slot is built); the arithmetic, the a/b history,
+  the derived K_0, and the VERDICT all stand, with the reason changed
+  from ABSENT STRUCTURE to UNDERIVED MAGNITUDE. The sector still
+  predicts neither 37.2 mas/yr nor its absence, and still claims
+  neither.
+- GRV-106 NOT SUPERSEDED IN ITS CERTIFICATION. Every mixed bilinear of
+  the registered action did vanish, and the claim wrote its own escape
+  clause: a candidate must bring genuinely new derivative structure and
+  its price. GRV-108 found one, GRV-109 priced it twice, GRV-110 paid.
+  A certification defeated on exactly the terms it named has worked,
+  not failed. Its PRE-COMMITTED CONSEQUENCE is superseded: the sector
+  is no longer unfalsifiable-by-frame-dragging under registered
+  structure.
+- KNOWN_LIMITATIONS de-staled at the volume the original bars demanded,
+  and not softened. The replacement statement, binding on future
+  quotation: granted, sourced, corrected, bounded, and kept -- a term
+  that exists in the action, that may not advertise a LARES-class
+  result as a kill test, and that is at most 2.49e-19 of its natural
+  strength if the vacuum weave is its source. Structural impossibility
+  has become one-parameter measurement framing, which is not an
+  improvement in confrontability.
+- Bar B3 earned its place. With chi <= 2.49e-19 available it would have
+  been easy to call the three claims "effectively still true" and skip
+  the annotations; that is the collapse of structure into magnitude
+  GRV-114 refused in the other direction, and it was barred in advance.
+- RIDE-ALONG TAKEN: the measured parity balance (two parts in 1e19 at
+  the registered structural length, l_chi <= 1.44e-35 m) is added to
+  KNOWN_LIMITATIONS as a registered property of the vacuum weave,
+  recorded as a constraint on future work -- any sector sourcing an
+  observable from net mesh chirality now meets it on the way in.
+- GRV-110's face carries condition 3 DISCHARGED. All four conditions
+  are now accounted: 1 discharged, 2 discharged, 3 discharged,
+  4 indefinite and partially measurement-backed. The exposure clause
+  remains armed and untriggered on its original terms. The
+  gravitomagnetic arc has no owed item for the first time since
+  GRV-104.
+- Genuinely un-run and NOT owed: the spin-radiation and
+  intrinsic-spin-sourcing routing audit GRV-106 named, now more worth
+  running because the slot exists.
+- 679 claims.
+
+## 3.26.17 (2026-08-15) -- THE GRANT STANDS: GRV-110 kept, on the record and at its price
+
+- GRV-114 registered (author's decision): GRANT-CANDIDATE-SHIFT-C3 is
+  KEPT as an effective-coupling placeholder at measurement framing;
+  the structurally-disfavored registration is declined. The decision
+  was made with the full adverse chain on its face: lambda = 0 exactly
+  from straight strands (GRV-111), the sole located channel reduced to
+  lambda = chi (G I_p) |tau| (GRV-112), and chi capped at 2.49e-19 by
+  registered polarimetry (GRV-113).
+- The reasons are registered, not silent: the grant's purchase was
+  falsifiability-in-principle for the frame-dragging sector, and that
+  survives the cap; the placeholder keeps the sector able to receive a
+  future derivation or external measurement without re-granting; and
+  killing now would round a measured smallness into a structural
+  absence, the same over-reading the house refuses in reverse.
+- Conditions as they now stand: 1 discharged, 2 discharged, 3 STILL
+  OWED (the GRV-055/071/106 supersession commission -- the sector's
+  natural next session), 4 indefinite and now partially
+  measurement-backed. The exposure clause remains armed and
+  untriggered on its original terms.
+- GRV-110's face annotated with the standing decision. The sector's
+  honest one-line status, binding on future quotation: granted,
+  sourced, corrected, bounded, and kept -- a term that exists in the
+  action, may not advertise kill tests, and is at most 2.49e-19 of its
+  natural strength if the vacuum weave is its source.
+- 678 claims.
+
+## 3.26.16 (2026-08-15) -- NUN-GRV9 executed: chi BOUNDED by registered polarimetry
+
+- GRV-113 registered: the chi bound ran on an instrument the corpus
+  already owned. PRED-002-FREQ's registered material-optical-activity
+  rate (2.85e-10 rad/m at 150 GHz on w = 5.774e-17 m, 3.7e16 rad over
+  the registered path) was reproduced to 2 percent, read linearly in
+  the net handedness per the locked convention, and inverted against
+  the pre-committed ceiling |psi| <= beta + 2 sigma = 0.530 deg:
+
+      chi <= 2.49e-19        l_chi = chi l_struct <= 1.44e-35 m
+
+- Consequence for the granted sector: under GRV-111/112's located
+  source lambda = chi (G I_p) |tau|, the mesh-chirality channel of
+  lambda is capped NINETEEN ORDERS below its natural scale. GRV-110
+  condition 4's independently-bounded leg is PARTIALLY DISCHARGED.
+  The exposure clause does NOT arm: a bound is not a pin. No absolute
+  lambda in joules is quoted (fine-scale G I_p unregistered, the
+  FND-091 kb precedent).
+- The inheritance: PRED-002-FREQ's nineteen-order suppression finding
+  acquires a physical name -- the vacuum weave is measured
+  parity-balanced to two parts in 1e19 at the registered structural
+  length. Its standing constraint (check any strand-scale optical
+  proposal against the suppression first) is exercised and annotated
+  on its face; GRV-112's named next-order marked discharged on its.
+- Consistency held: the capped channel stays n = +2 at a magnitude
+  invisible to the Eskilt beta(nu) fit (no registered exclusion
+  disturbed); GRV-109's O(lambda^2) null untouched (different
+  operator). Resemblance of l_chi to 1.6e-35 m flagged and refused.
+- On the author's desk: the GRV-110 standing decision (keep at
+  measurement framing, or register structurally disfavored), with the
+  condition-3 supersession commission still owed either way.
+- 677 claims.
+
+## 3.26.15 (2026-08-15) -- NUN-GRV8 executed: the statistic corrected, the missing input bounded
+
+- GRV-112 registered: the <kappa_bar> determination returned REDUCED.
+  The cubic twist-writhe vertex contracts the mean background WRITHE
+  (torsion) density <tau_bar>, a PARITY-ODD statistic, not the
+  parity-even curvature magnitude GRV-111's schematic label suggested;
+  both routes to the parity assignment agree (tau -> -tau under mirror
+  by sympy; grad phi axial against polar u_t makes L_C3 a pseudoscalar).
+- The per-strand magnitude turns out already registered: the FND-091
+  helix gives tau = (2 pi/p) cos^2 psi, i.e. |tau| = 4.1888/a_f and
+  1.6239/a_f at the derived angles and worst-case pitch, with the
+  registered curvatures 2.9619/a_f and 2.7506/a_f reproduced as check.
+- The mesh mean turns on exactly one unregistered input, now named and
+  BOUNDED: the ambient weave's net chirality fraction chi, |chi| <= 1,
+  with lambda = chi (G I_p) |tau| and a zero default. A nonzero lambda
+  therefore carries a newly disclosed structural price: the vacuum must
+  be globally chiral.
+- The pre-committed ZERO-DERIVED consequence did NOT fire, and the bars
+  said so in advance: the zero rests on a vacuum parity symmetry the
+  registry has never adopted, and boundary rule B2 rules a default is
+  not a theorem. GRV-111's face annotated with the corrected label.
+- GRV-110 condition 4 STANDS: no pin, no kill test, measurement framing
+  only. Named next-order, chartered-size: bound chi from registered
+  polarimetry (the O(lambda) chiral channel GRV-109's O(lambda^2) null
+  never examined).
+- 676 claims.
+
+## 3.26.14 (2026-08-14) -- NUN-GRV7 executed: NOT-PINNED; the coupling located in mesh geometry
+
+- GRV-111 registered: the lambda-derivation attempt (grant condition 1
+  discharged) returned NOT-PINNED with both edges sharp. Straight
+  strands give lambda = 0 exactly (Kirchhoff twist-bend decoupling,
+  six of six cross bilinears identically zero, sympy); the generation
+  channel is the cubic Lk-conservation twist-writhe vertex, yielding
+  lambda_eff ~ (G Ip) <kappa_bar> with the mesh background curvature
+  statistic <kappa_bar> unregistered. Dimensional assembly refused per
+  the GRV-073 lesson.
+- Grant condition 4 hardens to indefinite: measurement framing only,
+  until <kappa_bar> is derived or measured. The exposure clause
+  remains armed, untriggered.
+- Named next-order, chartered-size: the <kappa_bar> determination from
+  the corpus's own mesh construction. Pin route: lambda pins through
+  the displayed cubic vertex. Kill route: <kappa_bar> = 0 registers
+  the grant's structure falsified microscopically, per the
+  pre-committed ZERO-DERIVED consequence.
+- 675 claims.
+
+## 3.26.13 (2026-08-14) -- THE SHIFT-STRUCTURE GRANT: C3 adopted
+
+- GRV-110 registered: the author grants GRANT-CANDIDATE-SHIFT-C3. The
+  action acquires L_C3 = lambda (grad phi) . u_t -- one new constant,
+  magnitude underived, adopted on the GRV-109 revised price sheet.
+  Four conditions on the face: the lambda-derivation attempt runs
+  before any confrontation framing (the beta_J precedent); the
+  FND-REL-002 longitudinal annotation extends this release (DONE, on
+  that claim's face); the GRV-055/071/106 supersession commission is
+  owed; and until lambda is derived or independently bounded, no
+  LARES-class result may be advertised as a kill test.
+- Exposure statement in the FND-050 form, armed at grant time: a
+  pinned lambda landing against a LARES-class confrontation registers
+  a falsification of the grant's structure; retreat to
+  lambda-as-free-parameter after a pinned failure is barred in
+  advance.
+- The superseded chain (GRV-055/071/106) stands as registered --
+  correct statements about the lambda = 0 action -- awaiting the
+  supersession commission.
+- 674 claims.
+
+## 3.26.12 (2026-08-14) -- NUN-GRV6 executed: BOUND-VACUOUS; the C3 price sheet revised
+
+- GRV-109 registered: the lambda-bound audit ran pre-grant as pricing.
+  Exact constraint-field elimination yields an induced operator
+  proportional to |k . u|^2 alone -- identically zero on transverse
+  light (symbolic projection, zero not small). Registered optics
+  places no constraint on lambda at O(lambda^2); the background term
+  is statics; the discrete leak is doubly suppressed.
+- The C3 price sheet revised (GRV-108's S2 line superseded, not
+  edited): the forced-LI re-scoping confines to the longitudinal
+  sector, the leg GRV-107 already annotated -- the price drops from
+  'amend a derived theorem' to 'extend an existing annotation'.
+- The honest headline preserved at full volume: lambda's magnitude is
+  underived, so a granted C3 makes a LARES-class confrontation a
+  one-parameter measurement, not a kill test, unless lambda is later
+  derived or independently bounded. The candidate buys back
+  falsifiability-in-principle at the cost of the 500-sigma knife's
+  edge. Grant decision with the author.
+- 673 claims.
+
+## 3.26.11 (2026-08-14) -- NUN-GRV5 executed: one candidate found, priced, not adopted
+
+- GRV-108 registered: the shift-structure candidate inventory (closed
+  C1-C6 before any screen fired; screens S1-S5 conjunctive, locked
+  order). Result: CANDIDATES-FOUND, count one.
+  GRANT-CANDIDATE-SHIFT-C3, L = lambda (grad phi) . u_t -- the unique
+  inventory member feeding shift structure from a STATIC sourced
+  background (grad phi_bar ~ 1/r^2 enters linearly), supplying exactly
+  the three missing GRV-055 functions at the price of one new
+  constant. S2 failed and is the price of admission: acquiring C3
+  re-scopes FND-REL-002's forced-LI wording to lambda = 0 and owes a
+  lambda-bound audit against registered EM optics BEFORE any
+  gravitational use. All other classes dead (C1 S2-kill with weaker
+  revival price, C2/C4/C5 dead on screens, C6 a direction not a
+  candidate). Nothing adopted; the author's call with the full
+  dependency sweep on the face.
+- GRV-106/107 stand untouched; supersession only via a downstream
+  commission if the grant is made and the bound survives.
+- 672 claims.
+
+## 3.26.10 (2026-08-14) -- NUN-GRV4 executed: EXACT-CONFIRMED; the challenge kept
+
+- GRV-107 registered: the FND-REL-002 scope audit, run as the author's
+  challenge to GRV-106's upstream premise, returned EXACT-CONFIRMED.
+  L2 (gauge point-identity) is structural with no small parameter in
+  it; the gravity application d_t u = 0 for rotating axisymmetric
+  sources is a sympy-verified chain-rule identity immune to order
+  corrections; the FND-REL-004 O((ka)^2) crack modifies dispersion
+  without constructing a material velocity (no trackable point, no
+  transported momentum from a static source).
+- What the challenge won, kept at full volume: L1 is order-limited AS
+  WORDED (registered finite k = 2 T0 admits longitudinal phonons) but
+  redundant to the conclusion. Annotation applied to FND-REL-002's
+  face. ELEC-067..071 checked: the soliton line leans on L2, not L1;
+  undisturbed; the B3 pre-commitment does not trigger.
+- GRV-106 STANDS. The registry now carries the record that its
+  hardest recent verdict was contested by its own author at full
+  strength and held.
+- 671 claims.
+
+## 3.26.9 (2026-08-14) -- NUN-GRV4 chartered: the FND-REL-002 scope audit
+
+- The author challenged GRV-106's upstream premise on physical grounds
+  (rotating planetary-scale matter should entrain the medium). The
+  house response: audit the theorem's order structure, not the
+  conclusion's comfort. COMMISSION NUN-GRV4 chartered with bars locked
+  (analysis/NUNGRV4_rel002_scope_bars_LOCKED.md), motivation disclosed
+  on the bars' face.
+- The audit tests FND-REL-002 leg by leg (inextensibility, gauge
+  point-identity, pattern transport) with FND-REL-004's discrete
+  O((ka)^2) LI violation as the one pre-identified crack. Licensing
+  requires the order-limited premise named and the entrainment
+  magnitude computed from registered constants at zero new parameters;
+  plausibility arguments and signal-adjacent tuning are refused as
+  rescues. Clean-room continues.
+- Load-bearing pre-commitment: a SCOPE-LIMITED verdict triggers a
+  same-release re-audit item for ELEC-067..071 (the attractive quartic
+  selection). GRV-106 can only be superseded-not-erased by a new
+  downstream commission, never edited.
+
+## 3.26.8 (2026-08-14) -- NUN-GRV3 executed: IMPOSSIBLE-CERTIFIED; the hard consequence taken
+
+- GRV-106 registered: the shift-map extension audit returned
+  IMPOSSIBLE-CERTIFIED under registered structure. Sympy-verified term
+  by term: every mixed time-space bilinear of the combined (u, phi)
+  action is identically zero, including all cross blocks; with
+  kappa = 0 derived the sectors decouple except through the stationary
+  source; the GRV-055 counting cannot close at three. The no-bolting
+  rule held under temptation: gradient-order locking was examined and
+  priced adverse (spatial cross terms only), the gyroscopic route dies
+  on FND-REL-002 -- no registered-adjacent acquisition opens the slot.
+- Pre-committed consequence executed same-release, no softening:
+  KNOWN_LIMITATIONS states at full volume that the granted
+  gravitomagnetic sector is UNFALSIFIABLE BY FRAME DRAGGING; the
+  limitation upgraded from degree to kind, certified. README sector
+  narrative brought current.
+- Named next-orders (author queue): a shift-capable dictionary is a
+  grant-level acquisition with no identified candidate; the other two
+  conditional predictions owe an audit for whether they route through
+  the same missing slot.
+- 670 claims.
+
+## 3.26.7 (2026-08-14) -- NUN-GRV3 chartered: the shift-map extension audit
+
+- COMMISSION NUN-GRV3 chartered (docs/commissions/, bars locked in
+  analysis/NUNGRV3_shiftmap_bars_LOCKED.md before any computation).
+  Question: does the sourced twist sector supply the three shift
+  functions missing from the GRV-029/GRV-055 bijection, through the
+  registered variational grammar alone. Three pre-committed outcomes:
+  DERIVED-EXTENSION (counting closes at exactly three, phi = 0
+  reduction verified), IMPOSSIBLE-CERTIFIED (KNOWN_LIMITATIONS updated
+  at full volume in the same release -- the granted sector
+  unfalsifiable by frame dragging), or NOT-CLOSED (missing structure
+  named as a grant candidate, nothing adopted). No-bolting rule in
+  force; clean-room continues.
+- NAME_REGISTRY addendum records NUN-GRV3.
+
+## 3.26.6 (2026-08-14) -- NUN-GRV2 executed: beta_J pinned, confrontation blocked at the dictionary
+
+- GRV-105 registered (split verdict, bars honored as locked): beta_J = 1
+  is PINNED by the grant's totality reading plus J-conservation, with
+  propagation fixed by derived gamma -- no new constant, no O(1)
+  factor, no branch choice in the chain. The LARES-2 confrontation
+  REMAINS BLOCKED under bars B2(c): the observable chain requires the
+  shift-slot dictionary, and GRV-055 (zero-shift restriction) plus
+  GRV-071 (c/d absent) say the structure does not exist. The freedom
+  does not hide in the coupling; the sector's single gating item is
+  now the shift-map extension of the dictionary.
+- Clean-room rule held: no LARES-2 or GR rate value appears in the
+  benchmark.
+- 669 claims.
+
+## 3.26.5 (2026-08-14) -- GRANT-CANDIDATE-ROT granted + NUN-GRV2 chartered
+
+- GRV-104 registered: the rotation-source grant (author's decision) --
+  mechanical J identified with topological-geometric twist, adopting
+  GRV-103's elimination survivor. Two conditions on the face: the
+  beta_J pin audit runs and registers before any LARES-2 number is
+  computed; residual freedom, if any, is registered and priced before
+  confrontation. Exposure statement in the FND-050 form: a pinned
+  sector landing against LARES-2 registers a falsification of the
+  identification, no retreat to prior silence.
+- COMMISSION NUN-GRV2 chartered (docs/commissions/, bars locked in
+  analysis/NUNGRV2_betaJ_pin_bars_LOCKED.md before any computation):
+  pin criteria, not-pinned criteria with confrontation block,
+  clean-room rule keeping the LARES-2 target out of the room, and the
+  deliverable form. NAME_REGISTRY addendum records the NUN-GRV2 name.
+- 668 claims.
+
+## 3.26.4 (2026-08-14) -- Gravitomagnetic status update + NUN disambiguation
+
+- README "OPEN: the gravitomagnetic sector" brought current: GRV-103
+  recorded (matter-to-rotation coupling GRANT-REQUIRED by
+  elimination; GRANT-CANDIDATE-ROT pending; LARES-2 0.2% pricing
+  with the FND-050 precedent cited); the three sector predictions
+  restated as conditional on the grant; the gamma consistency note
+  under EM-RECON-032's coarse-effective reading added; the
+  shift-slot dictionary item recorded as fully open.
+- NAME_REGISTRY addendum: the NUN commission-name collision
+  (GRV-103 vs the FND-101 arc) retired by qualification -- NUN-GRV
+  and NUN-FND -- with the truncated-uniqueness-check process fix
+  recorded.
+
 ## 3.26.3 (2026-08-14) -- Front-door tripwire + front-door audit
 
 - tools/sync_doc_facts.py gains the FRONT-DOOR TRIPWIRE: (a) README

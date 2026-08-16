@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21430784.svg)](https://doi.org/10.5281/zenodo.21430784)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Verify](https://img.shields.io/badge/verify-600%2F600%20passing-brightgreen.svg)](#verify-it-yourself)
+[![Verify](https://img.shields.io/badge/verify-612%2F612%20passing-brightgreen.svg)](#verify-it-yourself)
 [![verify-corpus](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml/badge.svg)](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml)
 
 # rope-framework
@@ -9,7 +9,7 @@
 
 **Version:**
 <!-- BEGIN GENERATED: version -->
-3.26.0
+3.26.32
 <!-- END GENERATED: version -->
 
 A machine-verified development of the Rope Hypothesis — a classical, mechanical model in which matter and light are configurations of physical filaments — into falsifiable, independently checkable form.
@@ -20,18 +20,20 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 >
 > **What makes it unusual is the discipline.** Every claim is registered with a pass/fail line drawn *before* the computation runs, and the failures are kept on permanent display rather than quietly dropped. As of this release:
 <!-- BEGIN GENERATED: corpus_stats -->
-*667 registered claims, 600 code-backed and passing, 121 Derived, 42 registered Failed and kept.*
+*691 registered claims, 612 code-backed and passing, 121 Derived, 45 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats --> A dealbreaker, if one exists, should be findable in about five minutes — start with [`KNOWN_LIMITATIONS.md`](KNOWN_LIMITATIONS.md).
 >
 > **Where it is strong.** *Electromagnetism and optics* follow from the transverse wave equation on a tensioned strand, ∂²s/∂t² = (T₀/μ)∇²s, with c = √(T₀/μ) — linear superposition then gives interference (two-slit as I ∝ 1+cos(2πΔ/λ), Derived), diffraction, lenses, and fibre optics without further postulates. The Maxwell equations are reached separately, from Bianchi identities plus Chern-Weil in d=3 (EM-003, Derived); the field-tensor dictionary connecting them to the mechanical state is *unique* — given the registered charge (winding) and force law, any assignment reproducing the same forces on test windings is the same assignment up to gauge and one global scale (EM-017, Derived) — and its four registered obstacles are now all discharged by derivation. Every *identification* in the dictionary is forced — the assignment is unique (EM-017), the scalar potential's mechanical channel is the only survivor (EM-018), the inertial term is the unique leading-order term the gauge symmetry permits (EM-019), and the calibration constant is not free but the mesh's own tension density (EM-021). Nothing in the mapping is a choice, and the assembly is graded **Derived** (EM-022, the author's act, registered separately from its own evidence) with three conditionalities carried on its face: Σ inherits the κ_pack floor spread held by a Conjecture-grade form, the inertial coefficient is matched rather than independently derived, and its uniqueness assumes locality — with a falsifier armed, since if those floors move the grade returns to adjudication rather than keeping the label by seniority. **This sector also carried the programme's most serious failure, disclosed at full volume and now resolved by derivation rather than escape** -- the medium as *originally* specified (straight strands at the registered spacing) could not carry the observed PeV photons: four escape routes were prosecuted and closed on locked bars, the diagnosis corrected to anisotropy by an external reviewer, and the failure registered openly before any repair was attempted. The repair (the SHIN arc, FND-083..091) then arrived the way the house prefers: the vacuum strand is a bundle of finer sub-strands under redistributed tension (zero change to c, Σ, or the Lorentz margins), hierarchically wound -- and the winding was never a choice: isotropy's own moment conditions force hierarchy depth two and fix both pitch angles in closed form, with the registered Lorentz floors selecting the physical root and the solution unique up to level relabeling by exhaustive exact solve. Two kept failures bracket the passing regime; the 3D two-polarization check passes on a triply-controlled instrument; the isotropic Lorentz-invariant wave sector is re-derived on the wound carriers at Derived grade; and the bending cost is priced as an armed constraint. The absolute scales remain underived (disclosed, with a soft falsifier armed at m × 1.4 PeV); the full kept history lives at [`docs/RESOLVED_LIMITATIONS.md`](docs/RESOLVED_LIMITATIONS.md). In the *electron sector* the core is now structurally specified — hollow with a hard boundary at the radius where the strand tilt reaches 90°, carrying azimuthal circulation with exactly two polar defects forced by topology — and when that structure produced an axis that looked compellingly like spin, the framework tested the identification and **falsified it** rather than adopting it (ELEC-099/100). *Gravity is a genuine strength, not a caveat:* the framework derives the weak-field metric (not merely matches it), derives light-bending around the Sun at the exact 1.751 arcseconds general relativity predicts, and reproduces the galaxy-scale acceleration relation of the full SPARC set (155 galaxies, 2,788 points) — its predicted acceleration scale *g*† = *cH₀*/2π matching the data's best fit to a fraction of a percent with **zero free parameters, no dark matter, no galaxy-by-galaxy tuning** (one specific interpolation form was tested and disfavored, and that is kept on the record too). It goes further into *black holes* than any model we know of: a mechanical horizon, a derived Newton constant, an entropy from countable reconnection events, and a mass-independent "quantum of the ring" whose action is written in the same form as the fine-structure constant's. And in the *measurement / detector sector*, a twenty-session campaign produced a parameter-free Derived law for detector statistics and three new falsifiable predictions.
 >
-> **The edges are where the work is** — and the framework names them as precisely as its wins, because a framework earns trust at its frontier. These are open problems, not dead ends: this program has a habit of turning walls into doorways. The classical route to gravity was falsified and *kept* — and the induced-gravity route that replaced it went on to derive the metric, the light-bending, and Newton's constant. On entanglement the framework does more than most expect — it *derives* the exact ceiling on quantum correlations (the Tsirelson bound) as a theorem and demonstrates a Bell violation end to end — and while it proves that no counting model of ropes-in-space can produce those correlations unaided (kept as QB-003), the honest route across that wall is already mapped: one guiding influence, added openly and not yet derived from the ropes, is the next thing to break through. The split-quantum "funneling step" behind beamsplitter statistics was a *measured* boundary of the classical detector — and it has since been bridged by the third grant, indivisible delivery, adopted openly with its falsifiers armed, its deeper mechanism now a named target rather than a barrier. Two further grants were adopted and immediately put at risk: N-universality, whose exposure clause fired within one arc (FND-052, kept), and the N-label primitive, which paid for itself by deriving the k-string binding law exactly and then failed its own blindness audit on a state count (FND-055/056, both registered). That sector has since been *adjudicated by external data on the framework's own pre-registered terms* (2026-08-13): a continuum lattice determination that predates the derivation by five years **rejects the rival sine law's functional class** — the 1/N binding structure only the granted label carrier could express is what the data prefers — while the framework's exact coefficient was killed at its own pre-registered checkpoint, 4.3σ past a threshold fixed before the data was ever read, with the kill registered without adjustment within 48 hours of the band being cut (FND-101/102). The vacuum sits strictly between the two laws; eleven candidate gap mechanisms were then eliminated on locked bars, and what remains is one precisely-shaped open object — the exchange interaction's dynamical form — held as a pending grant question rather than papered over. The same day, the framework's other lattice-facing constant got its clock: a blind-bar sweep verified no measurement capable of deciding the κ_pack floors has ever been performed, and the framework responded by pre-registering its own decision bands, kill conditions included, and shipping a standalone measurement spec any lattice group can execute ([`docs/ADJOINT_CS_MEASUREMENT_SPEC.md`](docs/ADJOINT_CS_MEASUREMENT_SPEC.md)). Each edge carries its own falsifier. That is the point: this is a framework built to be *wrong in specific ways* — which is what makes it physics, and what makes each edge the next place to push, not the place the story stops.
+> **The edges are where the work is** — and the framework names them as precisely as its wins, because a framework earns trust at its frontier. These are open problems, not dead ends: this program has a habit of turning walls into doorways. The classical route to gravity was falsified and *kept* — and the induced-gravity route that replaced it went on to derive the metric, the light-bending, and Newton's constant. On entanglement the framework does more than most expect — it *derives* the exact ceiling on quantum correlations (the Tsirelson bound) as a theorem and demonstrates a Bell violation end to end — and while it proves that no counting model of ropes-in-space can produce those correlations unaided (kept as QB-003), the honest route across that wall is already mapped: one guiding influence, added openly and not yet derived from the ropes, is the next thing to break through. The split-quantum "funneling step" behind beamsplitter statistics was a *measured* boundary of the classical detector — and it has since been bridged by the third grant, indivisible delivery, adopted openly with its falsifiers armed, its deeper mechanism now a named target rather than a barrier. Two further grants were adopted and immediately put at risk: N-universality, whose exposure clause fired within one arc (FND-052, kept), and the N-label primitive, which paid for itself by deriving the k-string binding law exactly and then failed its own blindness audit on a state count (FND-055/056, both registered). That sector has since been *adjudicated by external data on the framework's own pre-registered terms* (2026-08-13): a continuum lattice determination that predates the derivation by five years **rejects the rival sine law's functional class** — the 1/N binding structure only the granted label carrier could express is what the data prefers — while the framework's exact coefficient was killed at its own pre-registered checkpoint, 4.3σ past a threshold fixed before the data was ever read, with the kill registered without adjustment within 48 hours of the band being cut (FND-101/102). The vacuum sits strictly between the two laws; eleven candidate gap mechanisms were then eliminated on locked bars, and the one precisely-shaped remaining object — the exchange interaction's dynamical form — was then taken to its honest end (15 Aug 2026): the lattice profile it needed was adopted from published data with parameters quoted and never re-fit, the author granted the overlap form with zero new constants and the grant text fixed blind, and the pre-built three-shadow adjudication killed it the same day, NOT-SOLVABLE for every finite N — a structural incompatibility registered and kept (FND-111/112/113), the sector parked on its external clocks with the successor's constraints named. The same day, the framework's other lattice-facing constant got its clock: a blind-bar sweep verified no measurement capable of deciding the κ_pack floors has ever been performed, and the framework responded by pre-registering its own decision bands, kill conditions included, and shipping a standalone measurement spec any lattice group can execute ([`docs/ADJOINT_CS_MEASUREMENT_SPEC.md`](docs/ADJOINT_CS_MEASUREMENT_SPEC.md)). Each edge carries its own falsifier. That is the point: this is a framework built to be *wrong in specific ways* — which is what makes it physics, and what makes each edge the next place to push, not the place the story stops.
 
 > **Corpus state:**
 <!-- BEGIN GENERATED: status_breakdown -->
-667 registered claims (121 Derived, 489 Modeled, 4 EFT-constrained, 4 Conjecture, 7 Open, 42 Failed-and-kept); 600 code-backed.
+691 registered claims (121 Derived, 510 Modeled, 4 EFT-constrained, 4 Conjecture, 7 Open, 45 Failed-and-kept); 612 code-backed.
 <!-- END GENERATED: status_breakdown -->
 > Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
+
+**📄 [Release notes v3.26.31](docs/history/RELEASE_NOTES_v3.26.31.md)** — *The fourteen-release day*: the gravitomagnetic book closed with its supersession commission and an author-caught same-day correction; twist radiation ruled EXISTS-VIA-LOCK; the scale class ruled SINGLE-ANCHOR (three underived integers named); the exchange-dynamics grant made blind and demoted at its own pre-built bar hours later; the core-closure arc run to a named terminus in five sessions with both amplitude candidates dead and the trilemma registered.
 
 **📄 [Release notes v3.26.0](docs/history/RELEASE_NOTES_v3.26.0.md)** — *The adjudication day*: external continuum lattice data — published five years before the derivation it tested — adjudicated the k-string sector on the framework's own pre-registered terms, rejecting the rival sine law's functional class while killing the framework's exact coefficient at its own blind 3σ checkpoint (honored at 4.3σ, no adjustment); eleven gap mechanisms eliminated on locked bars; the κ_pack decision bands cut kill-ready against a literature-verified empty field, with an executable measurement spec shipped for external lattice groups; the substructure arc's protective audit closed six of six with no break.
 
@@ -44,7 +46,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 **🗺️ [Roadmap of Knowledge](docs/ROADMAP.md)** — the whole corpus at a glance: [wall chart](docs/roadmap.png) and [interactive dependency explorer](docs/roadmap.html) (click any claim; see its dependencies, dependents, and full downstream), all generated from claims.yaml by `tools/build_roadmap.py`.
 
 
-**Current release: v3.26.0** (13 Aug 2026) — the adjudication day. Consolidates twelve same-day sessions: the FND-055 external clock fired on continuum data that predated the derivation by five years — the sine law's functional class REJECTED (FND-101: nonzero leading 1/N preferred at χ²/dof 0.5 vs 2.2; the granted label carrier's structure is what the vacuum exhibits) and the pre-registered softened-Casimir band KILLED at its own point-level checkpoint (FND-102, Failed-and-kept: SU(6) 1.654(13), 4.3σ past the blind 3σ threshold, honored without adjustment). Eleven shortfall mechanisms then eliminated across two locked sweeps (FND-103/104), the surviving decoherence family pinned to partial-and-permanent, the one counting inside the window certified unwritable in the registered exchange language (FND-107), and the missing physics identified as ONE object — the exchange interaction's dynamical form (FND-108) — held as a pending grant question with a three-shadow acceptance test pre-built. The κ_pack floor verified best-that-exists by blind-bar sweep (FND-105) and the adjoint decision bands cut kill-ready with a pre-accepted tower kill and shipped external spec (FND-106, `docs/ADJOINT_CS_MEASUREMENT_SPEC.md`). The substructure protection completed: refinement-invariance six of six, k_f/T0_f = 8.09 refinement-proof (EM-RECON-033); the zero-point ledger convention codified with an armed tripwire (FND-109, ZP-CONV). See `docs/history/RELEASE_NOTES_v3.26.0.md`; prior day: `docs/history/RELEASE_NOTES_v3.25.0.md`.
+**Current release: v3.26.31** (15 Aug 2026) — the fourteen-release day. The gravitomagnetic book closed: the GRV-110 shift-term grant's last condition discharged by the supersession commission (GRV-115, superseded-not-erased, mixed verdict with the impossibility proof's core vindicated), the routing audit run and corrected same-day when the author caught a title read as a verdict (GRV-116/117), and twist radiation ruled EXISTS-VIA-LOCK on registered text (GRV-118: the same azimuth-blindness that protects m_gamma = 0 throttles the channel). The scale class ruled SINGLE-ANCHOR — one measurement-fixed rung (the M-point), three underived integers separating the other rungs (FND-110). The k-string sector taken to its honest end: profile adopted external (FND-111), the exchange-dynamics grant made blind and demoted at its own pre-built bar the same day (FND-112/113, Failed-and-kept). The core-closure arc run to a named terminus in five sessions: the 1D fourfold miss largely convicted as dimensional artifact (EM-RECON-034), the invented profile families dissolved into the registry's own mode class (EM-RECON-035), the registered-class closure failed at policy amplitude (EM-RECON-036), the policy audited to a convenience (EM-RECON-037), and the one live mechanism run to NO-BINDING-CONTRADICTION (EM-RECON-038) — both amplitude candidates dead, the trilemma registered, the arc parked on polarimetry clocks. Two author-caught prose-layer corrections registered by name, zero registry-layer errors found. 679 -> 691 claims. Prior consolidated day: v3.26.0 (13 Aug 2026), the adjudication day — see `docs/history/RELEASE_NOTES_v3.26.0.md`.
 
 **If the rope model is wrong**, the transferable result is
 `docs/CONSTRAINTS_FOR_MECHANICAL_SUBSTRATE_THEORIES.md` — universal programme
@@ -191,7 +193,7 @@ instruments (many-multiplet quasar alpha; the Yb+ E3/E2 clock, giving
 |d ln A/dt| < 1.6e-18 per year). It returns as a CONSTRAINT at T3 ceiling, not
 a prediction; the T1 count remains one. The two-alpha-chain audit (PRED-003-XCHAIN) found consistency-by-locking; the constitutive session (PRED-003-CONST, 2026-08-02) then closed the chain dimensionally: e_eff^2/(4 pi eps0) = 2 lambda J a, triple (2, 1, -1). The -2 tension ratio SURVIVES (co-drift A ~ T^(-1/2)); the +1 spacing discriminator is WITHDRAWN pending registration of the alpha chain itself, which the audit found to be paper-stated and registry-underived. The chain attempt (PRED-003-CHAIN) then killed the naive route by theorem — winding charge is a circulation, and phase electrostatics is logarithmic, not Coulomb — leaving the alpha form BLOCKED-WITH-SPECIFICATION: the completing computation is a Maxwell-sector dictionary evaluation with target q_s^2 = 8 pi eps0 lambda J a, the corpus-wide highest-value open item. The dictionary evaluation (PRED-003-DICT) then collapsed that computation by impedance reduction: eps_med = 1/T, alpha = l_q^2 T/(4 pi hbar c), and the -2 ratio is now the middle of a three-candidate table {-1, -2, -3} indexed by the winding's source length — with any measured nonzero drift ratio selecting it. The decider (PRED-003-LOCK) then dissolved the question: the registered model is pure XY with no on-site locking, and matching OPT-006's impedance to the derived director stiffness ENSLAVES kappa = 2T/(eta a) — the EM vacuum runs on two primitives. The ratio is reassigned: tension channel -1, spacing channel -2; the registered -2 survives on the spacing channel, testability intact, and a measured nonzero ratio now identifies the drift channel. The eta session (PRED-003-ETA) then set eta = 1 by one-metric uniqueness (kappa = 2T/a exact, J = Ta/2), bounded the winding's source length at >= 13-16 lattice spacings from measured alpha alone, and killed the bare 2 pi normalization — leaving g, the mesoscopic source length's mechanism, as the dictionary's true residual. The ratio test (ELEC-083) then proved its own commissioned scale-set vote vacuous and extracted the residue: under the shared-origin hypothesis for the two mesoscopic lengths, 1/alpha = 2 pi^2 rho^2 exactly, with rho = 2.6348 required and guarded against numerology — one mechanism now owes one pure number, blind.
 
-## OPEN: the gravitomagnetic sector (1 Aug 2026)
+## OPEN: the gravitomagnetic sector (1 Aug 2026; status updated 16 Aug 2026)
 
 The gravity sector's classical weak-field tests are UNCONDITIONAL (GRV-029) — and
 every one is GRAVITOELECTRIC, testing g_00. The GRAVITOMAGNETIC sector, g_0i,
@@ -266,8 +268,125 @@ below the tension**, because the axial stiffness carries r² while the torsional
 rigidity carries r⁴, leaving (r/a)² for a thin strand. A dimensional estimate
 could not have found this.
 
-Three new predictions follow: a spin radiation channel GR lacks, intrinsic-spin
-sourcing of frame dragging, and the finite-range signature above.
+**Status update (14 Aug 2026) — the bigger work item has been adjudicated.**
+The matter-to-rotation coupling is now certified **GRANT-REQUIRED by
+elimination** (GRV-103): a channel-exhaustion audit over a closed inventory
+killed three of the four angular-momentum-shaped carriers by registered
+claims — momentum entrainment dies on FND-REL-002's derived
+no-material-velocity theorem, the registry's one derived coupling (Magnus,
+EM-RECON-026) is the wrong charge and vanishes for neutral matter, and
+GRV-058's shift is null for exactly the stationary source — leaving the
+twist-sector identification: an ontological commitment (mechanical J lives in
+topological-geometric twist) of exactly the class the standing rule reserves
+for the author. That grant question, **GRANT-CANDIDATE-ROT**, was GRANTED on 14 Aug 2026
+(GRV-104), with two conditions on the face: the beta_J pin audit
+(Commission NUN-GRV2, bars locked) registers its verdict before any LARES-2
+number is computed, and any residual freedom is registered and priced before
+confrontation. The audit RAN the same day (GRV-105, split verdict): beta_J = 1
+is pinned by the grant's totality reading plus J-conservation, but the LARES-2
+confrontation remains blocked -- the observable chain needs the shift-slot
+dictionary (GRV-055, GRV-071 c/d), which became the sector's single gating item.
+THE GATING AUDIT RAN AND CLOSED THE DOOR (GRV-106, Commission NUN-GRV3, bars
+locked): every mixed time-space bilinear of the combined action vanishes
+identically, no registered-adjacent acquisition opens the shift slot, and the
+verdict is IMPOSSIBLE-CERTIFIED -- the granted sector is UNFALSIFIABLE BY FRAME
+DRAGGING under registered structure. KNOWN_LIMITATIONS carries this at full
+volume as of this release. The medium cannot spin, and that statement now
+survives the grant -- and survives the author's own challenge: the FND-REL-002
+scope audit (GRV-107, bars locked, motivation disclosed) attacked the theorem
+at full strength and returned EXACT-CONFIRMED; the rotating-source staticity
+is a chain-rule identity immune to order corrections. The challenge is kept.
+The candidate search then ran over a closed inventory (GRV-108): ONE name
+survives to the author's queue -- GRANT-CANDIDATE-SHIFT-C3,
+L = lambda (grad phi) . u_t, feeding exactly the three missing functions from
+a static background at one new constant, with its price of admission stated:
+re-scoping FND-REL-002's forced-LI wording to lambda = 0, and a lambda-bound
+audit against registered EM optics owed before any gravitational use. Nothing
+is adopted; the grant decision is pending. The lambda-bound audit then ran
+pre-grant (GRV-109): BOUND-VACUOUS -- the induced operator is exactly
+longitudinal, transverse light is untouched (zero, not small), and the C3
+price drops to extending an existing annotation. The honest headline stands:
+lambda underived means a granted C3 converts the LARES-class confrontation
+into a one-parameter measurement, not a kill test, unless lambda is derived
+or independently bounded. THE GRANT WAS MADE (GRV-110, 14 Aug 2026): the
+action acquires L_C3 = lambda (grad phi) . u_t on the revised price sheet,
+with four conditions on the face -- lambda derivation before confrontation
+framing, the FND-REL-002 annotation extended (done), the GRV-055/071/106
+supersession commission owed, and no kill-test advertising until lambda is
+derived or bounded. The sector is now a one-parameter theory of frame
+dragging whose parameter has a named derivation route. The derivation attempt
+ran (GRV-111): NOT-PINNED -- straight strands give lambda = 0 exactly; the
+coupling lives in the cubic twist-writhe vertex as lambda_eff ~ (G Ip)
+<kappa_bar>, with the mesh curvature statistic <kappa_bar> unregistered. The
+frame-dragging coupling is a property of MESH GEOMETRY. The <kappa_bar>
+determination is the sector's next chartered-size question: it pins lambda,
+or it derives zero and falsifies the grant's structure microscopically. Its
+pricing is sharp in the direction the house prefers: granting it makes the
+sector confront **LARES-2 at 0.2%** with β_J possibly pinned by the
+already-derived torsional rigidity γ — near-zero freedom against a ~500σ
+knife, with the FND-050 precedent (exposure clause fired within one arc) cited
+in the registration. The arc's inversion is worth stating plainly: it began at
+"the sector is falsified" and now stands at **one identification away from
+parameter-free**. Consistency note: γ's input k/T0 = 2 was adjudicated
+COARSE-EFFECTIVE this week (EM-RECON-032); torsional rigidity is a
+coarse-medium property, so γ = 4.2×10⁻⁴ J/m stands under the correct reading.
+
+Three predictions follow **conditionally on the grant**: a spin radiation
+channel GR lacks, intrinsic-spin sourcing of frame dragging, and the
+finite-range signature above. Ungranted, the framework remains exactly as
+silent as this section states — predicting neither 37.2 mas/yr nor its
+absence. The second work item (a dictionary with a shift slot) remains fully
+open.
+
+**Status update (16 Aug 2026, GRV-119..125) — the sector ran end to end in one
+day and now carries its sharpest confrontable structure.** The vertex
+obligations were discharged (GRV-119: the lock-chain crossing transfer is
+*first* order in g with geometric sin²χ_d suppression — a refinement, not a
+contradiction, of the display-level phrase). The frame-dragging **ratio was
+then derived** (GRV-120): **Λ × J sin²θ/(Mc), r-free**, with every structural
+element exact — linear in J by the pinned β_J = 1, the sin²θ Lense-Thirring
+angular form from the axial-dipole vacuum solution, correct parity, dipole-led
+sourcing, and the radial dependence dividing out *completely*, the framework's
+ratio losing r exactly as GR's loses r and G. Frame dragging exists in this
+framework, with the right shape, for structural reasons; everything that is
+amplitude prices into **one dimensionless constant, Λ, with Lense-Thirring
+exactly at Λ = 1**. Composing the discharged λ chain gives **Λ = χ × Λ_nat**
+(GRV-121): *frame dragging is a chirality meter* — the amplitude is directly
+proportional to the vacuum weave's net parity imbalance, and the
+parity-symmetric default vacuum drags nothing. The pricing arc then closed the
+temptation this raised: the chiral-vacuum reading (GRV-122) found the corpus's
+own confirmed prediction (PRED-002, cosmic birefringence) prefers χ ≠ 0,
+suggesting birefringence and frame dragging might be ONE parity knob; the
+numerator was priced from registered numbers (GRV-123); λ's joule units fixed
+the slot and GRV-073's own pair was found to encode the registered mesh spacing
+a = 1.000e-16 m exactly (GRV-124); and the shift operator's coefficients turned
+out to have been registered since GRV-068 (T = T₀, γ = γ_grav, κ = 0), closing
+the fork by reading (GRV-125): **at registered coefficients the one-knob
+attribution is EXCLUDED** — weave chirality at the birefringence-implied level
+would overdrive frame dragging by 18–31 orders, branch-independent. The two
+observables **decouple**, and the sector's standing prediction is stated: **the
+vacuum is parity-balanced to ~1e-37; the observed cosmic birefringence is not
+weave chirality; no polarimeter will ever see the frame-dragging χ.** Binding
+status, quotable only in this form: **form derived; amplitude = χΛ_nat with
+Λ_nat = g₀ × [1.1e37, 1.9e37] at registered stiffness; χ ~ 1e-37 required for
+GR strength; decoupled from cosmic birefringence; one O(1) — the GRV-070
+overlap residue (a+b)(c+d) — from a quotable number.** Condition 4 (no
+kill-test framing) stands, its parameter's expected magnitude now named. Owed
+before final numbers: the residue derivation and the level-assignment
+adjudication. **Both then ran the same evening. The residue READ at R_0 = 1
+(GRV-126: the author's two grants fix all four GRV-070 coefficients). The level
+adjudication then FIRED AGAINST THE EVENING'S OWN CLAIMS (GRV-127): GRV-123's
+numerator had transplanted the EM conduction-lock twist into the vacuum-weave
+torsion slot with no registered identification -- the registered torsion is
+fine-level (GRV-112), with a_f and (G I_p)_fine unregistered. The numeric
+brackets, the chi ~ 1e-37 quote, and the birefringence exclusion are demoted to
+coarse-transplant-conditional; the attribution question is REOPENED AS GATED.
+The binding status: form derived; R_0 = 1 read; amplitude gated on the fine
+scale (the FND-110 substructure suspension, now the single gate under frame
+dragging, the k-string sector, and the substructure dividends alike); condition
+4 unchanged. The rider that caught this was created by the same discipline it
+executed -- flagged at GRV-123's own bars lock, carried on every face, run
+before FINAL.**
 
 ## Two branches carry validated machinery and no target
 
