@@ -229,3 +229,73 @@ OBJECT, CHECK WHETHER THE REGISTRY ALREADY CONSTRUCTED IT; (3) the
 prose layer fails more often than the registry layer -- both
 author catches of the day were prose -- and corrections are named
 claims or named handoff corrections, never silent edits.
+
+
+## F. CHARTER REFRESH (2026-08-17, v3.26.77 — the BLOCH-L/wave arc): NEW FALSIFICATION SURFACES
+
+The wave reading (FND-130/131/132) creates prediction surfaces that belong in
+the next falsifiable-predictions reconciliation. Drafted here to the paper's
+input-classification standard; formal PRED-class registration is the owed
+step for items 1–2.
+
+### F1. THE ZERO-POINT SHARE IS NOW A PREDICTION, NOT A BOUND (sharpest new item)
+The corpus previously carried only FND-MATTER-041's survival ceiling
+(zero-point share < 0.889). The forced wave reading PREDICTS the share:
+**[0.615, 0.779]** of the vacuum energy budget is dynamical (FND-132; the
+level-1 edge 0.615 is exact, the upper edge closes with the composite build).
+Any independent determination of the vacuum's zero-point fraction OUTSIDE
+this band falsifies the wave reading — below 0.615 kills it outright (the
+level-1 kinetic term is exact and irreducible); above 0.779 falsifies the
+two-level bracket and re-opens the composite question. This converts a
+one-sided survival condition into a TWO-SIDED registered target.
+
+### F2. THE VACUUM ROTATION QUANTUM: A PeV-CLASS SCALE, AND A COINCIDENCE TO ADJUDICATE
+The level-1 winding rotates with material orbit at c on radius R_1 = 0.22508
+a_f, giving a characteristic quantum E_rot = ħc/R_1 = **3.96 PeV at the a_f
+ceiling**, scaling as 1/a_f. The registered photon-sector ceiling (FND-086/087)
+sits at m × 1.4 PeV — SAME CLASS, independently derived. Either the rotation
+quantum and the fine-mesh ceiling are two faces of one scale (an
+identification session away) or their proximity is coincidence; both outcomes
+are registrable. Confrontable consequence either way: the wave reading
+predicts vacuum spectral structure in the PeV window the photon ceiling
+already points at, moving together (both linear in 1/a_f) under any future
+a_f determination.
+
+### F3. CASIMIR FROM THE WINDING SPECTRUM (chartered target, not yet a number)
+With zero-point energy mechanically identified as the winding's rotation
+(FND-132), the Casimir force becomes computable IN PRINCIPLE from the
+corpus's own machinery: boundary-modified winding-mode spectrum between
+plates vs free vacuum, on FND-089-class supercells. The corpus already
+carries an adjoint-Casimir handle (FND-046/047, κ_pack pin). SUCCESS
+CRITERION: reproduce the measured Casimir coefficient π²/240 (or the
+corpus's deviation from it, with a sign and size). This is the wave
+reading's strongest potential external confrontation and the natural
+successor to the composite build. FAILURE MODE, pre-named: if the winding
+spectrum yields a Casimir force off by orders, the mechanical identity of
+F1 is falsified even if the share band survives.
+
+### F4. CONSISTENCY PREDICTIONS AND ARMED TRIPWIRES (already registered, collected here)
+- **v₂(kb)**: any independent kb determination predicts the level-2 wave
+  speed √(3/2 + 17.926 kb) c (FND-130) — a zero-freedom cross-check.
+- **The tension tripwire**: v_m = c exactly iff T_fibre = 3/2; any
+  re-pricing of the fibre tension moves the material speed off c by name
+  (FND-132).
+- **The twist sheet**: any future twist registration lands on Cω = 0.7162
+  T0_f a_f (static, re-opens KBSAT adjudication) vs anything else
+  (dynamical stands) — FND-130/131.
+- **The contact clause**: any load-bearing fine-contact registration
+  supersedes GRANT-CONTACT by name and re-opens the k/T0 = 2 theorem route
+  at 10.2% softening (FND-129).
+- **Frame-dragging demands, updated**: chi_required ≥ 3.0e-35 (FND-122
+  chain, reverted) / ≥ 8.5e-36 (GRV-128 chain) for GR-strength dragging;
+  Lambda_nat ceilings 3.3e34 / 1.18e35, both linear in a_f.
+
+### F5. RECONCILIATION NOTE — EXECUTED (17 Aug 2026, same day)
+The section-A reconciliation ran against v3.26.77: all 31 entries audited
+(28 stand, P8 sharpened, P19 naming-flagged, one SHIN sentence updated,
+zero retired by the arc), and Predictions 32–34 drafted to the paper's
+standard. Authoritative addendum: docs/PREDICTIONS_RECONCILIATION_v3_26_77.md;
+the docx/PDF re-render is the remaining format debt. The
+priority order within this refresh: F1 (registration-ready), F3 (highest
+external value, one commission), F2 (identification session), F4 (already
+registered, paper-sync only).

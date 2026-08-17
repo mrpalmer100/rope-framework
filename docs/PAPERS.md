@@ -314,3 +314,6 @@ EM-RECON-024..028 with locked charters in docs/commissions/. The plain-language
 guide gains the chapter "Which way does light push?". The guide's light topic
 page now cites the registered claims where its prose was previously the only
 directional language in the corpus — the gap EM-RECON-019 traced, now closed.)*
+
+
+**falsifiable_predictions.pdf** is frozen at v2.2.5 and carries an authoritative addendum: [`PREDICTIONS_RECONCILIATION_v3_26_77.md`](PREDICTIONS_RECONCILIATION_v3_26_77.md) (full 31-entry audit + Predictions 32–34, 17 Aug 2026). The paper itself is re-rendered at v2.3.0 (Part IX) as of 17 Aug 2026; the addendum remains the detailed audit record.
