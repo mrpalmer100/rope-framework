@@ -23,27 +23,63 @@ per FND-110's ladder hangs on the underived rope count n_rs.
 
 1D regression anchor reproduced first: d0/xi = 6.1566 at g* = 2.
 """
+
+# NUMERICS NOTE (2026-08-16, performance-only change, no physics touched):
+# the original scipy.dblquad implementation (epsrel 1e-7, scalar calls
+# inside the minimizer) exceeded the 300 s CI timeout. Replaced with
+# kink-aligned Gauss-Legendre quadrature: r-panels split at the cap
+# radius r_w and at d -+ r_w, and the theta integral split analytically
+# at theta*(r) where the second rope's cap boundary (r2 = r_w) crosses,
+# with f2 = 1 exact inside the cap. Self-converged to ~1e-12 between
+# resolutions; agrees with the original integrator to <= 5e-5 on d0 at
+# both window edges (1.69747 vs 1.6974; 5.38393 vs 5.38391). All
+# registered numbers unchanged. Runtime ~5 s.
+
 import numpy as np
 from scipy.special import k0
-from scipy import integrate, optimize
+from scipy import optimize
 
 T0, C4, XI = 1.0, 1.0 / 8.0, 1.0
+RMAX = 22.0
+_GL = {}
 
-def make(rw):
+def _gl(n):
+    if n not in _GL:
+        _GL[n] = np.polynomial.legendre.leggauss(n)
+    return _GL[n]
+
+def energy(d, rw, g=2.0, nr=160, nth=100):
     norm = k0(rw / XI)
-    return lambda rr: k0(np.maximum(rr, rw) / XI) / norm
-
-def energy(d, rw, g=2.0):
-    f = make(rw)
-    def I(m, n):
-        def integrand(rr, th):
-            r2 = np.sqrt(rr * rr + d * d - 2 * rr * d * np.cos(th))
-            return (g * f(rr)) ** m * (g * f(r2)) ** n * rr
-        v, _ = integrate.dblquad(lambda th, rr: integrand(rr, th),
-                                 0, 22, 0, np.pi,
-                                 epsabs=1e-10, epsrel=1e-7)
-        return 2 * v
-    return -(T0 / 2) * I(1, 1) + C4 * (4 * I(3, 1) + 6 * I(2, 2) + 4 * I(1, 3))
+    xr, wr = _gl(nr); xt, wt = _gl(nth)
+    edges = [0.0, rw]
+    for e in (d - rw, d + rw):
+        if rw < e < RMAX:
+            edges.append(e)
+    edges.append(RMAX)
+    edges = sorted(set(edges))
+    rs, ws = [], []
+    for a, b in zip(edges[:-1], edges[1:]):
+        rs.append(0.5 * (b - a) * (xr + 1) + a)
+        ws.append(0.5 * (b - a) * wr)
+    r = np.concatenate(rs); wr_all = np.concatenate(ws)
+    fr = k0(np.maximum(r, rw) / XI) / norm
+    cosarg = (r * r + d * d - rw * rw) / (2 * r * d)
+    has = np.abs(d - r) < rw
+    thstar = np.where(has, np.arccos(np.clip(cosarg, -1, 1)), 0.0)
+    tA_w = 0.5 * thstar[:, None] * wt
+    span = np.pi - thstar
+    tB = thstar[:, None] + 0.5 * span[:, None] * (xt + 1)
+    tB_w = 0.5 * span[:, None] * wt
+    r2B = np.sqrt(r[:, None] ** 2 + d * d - 2 * r[:, None] * d * np.cos(tB))
+    f2B = k0(np.maximum(r2B, rw) / XI) / norm
+    out = 0.0
+    for (m, n), c in {(1, 1): -(T0 / 2), (3, 1): 4 * C4,
+                      (2, 2): 6 * C4, (1, 3): 4 * C4}.items():
+        gm = (g * fr) ** m
+        IA = np.sum(tA_w * g ** n, axis=1) * gm * r      # inside cap: f2 = 1
+        IB = np.sum(tB_w * (g * f2B) ** n, axis=1) * gm * r
+        out += c * 2 * np.sum(wr_all * (IA + IB))
+    return out
 
 def d0(rw, g=2.0):
     r = optimize.minimize_scalar(lambda d: energy(d, rw, g),
