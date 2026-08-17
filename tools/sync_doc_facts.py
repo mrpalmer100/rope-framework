@@ -113,8 +113,30 @@ def gen_sector_maturity(claims):
     return "\n".join(rows)
 
 
+
+
+def gen_current_release(claims):
+    """One-line current-release banner: version from pyproject (single
+    source of truth), claim count from the registry, date from today's
+    UTC. Added 2026-08-16 after the hand-written banner went stale at
+    v3.26.52 within three releases of being written -- version numbers
+    never belong in hand-maintained prose."""
+    import re as _re, datetime as _dt
+    v = gen_version(claims)
+    # date from the CHANGELOG entry for this version (the release's own
+    # date), not the wall clock -- avoids UTC-midnight drift
+    ch = (ROOT / "CHANGELOG.md").read_text()
+    m = _re.search(_re.escape(v) + r"\s*\((\d{4})-(\d{2})-(\d{2})\)", ch)
+    if m:
+        d = _dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        ds = d.strftime("%-d %b %Y")
+    else:
+        ds = _dt.date.today().strftime("%-d %b %Y")
+    return f"**Current release: v{v}** ({ds}), {len(claims)} claims."
+
 GENERATORS = {
     "version": gen_version,
+    "current_release": gen_current_release,
     "status_breakdown": gen_status_breakdown,
     "corpus_stats": gen_corpus_stats,
     "failed_ledger": gen_failed_ledger,
