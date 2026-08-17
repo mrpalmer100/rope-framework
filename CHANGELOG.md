@@ -1,3 +1,20 @@
+## 3.26.56 (2026-08-16) -- FRONT-DOOR HARDENING: current-release banner becomes a generated block (no new claims)
+
+- ROOT CAUSE of the recurring staleness: at v3.26.53 the 'Current
+  release' banner was rewritten by hand WITH a hardcoded version,
+  which went stale within three releases -- the same anti-pattern
+  the front-door tripwire was built against. FIX THAT STICKS:
+  tools/sync_doc_facts.py gains a current_release generator
+  (version from pyproject, claim count from the registry, date from
+  the version's own CHANGELOG entry -- not the wall clock), and the
+  README banner is now a GENERATED block. Version numbers no longer
+  appear in hand-maintained README prose anywhere.
+- The '[Release notes v3.26.0]' pointer (a hardcoded historical
+  link that read as stale) replaced with a never-stales pointer to
+  docs/history/ itself; the day-summary pointer stays.
+- sync run: banner reads v3.26.56 after this cut; tripwire clean.
+  704 claims; tooling/doc-only release.
+
 ## 3.26.55 (2026-08-16) -- CI FIX: EM-RECON-034 benchmark 300s timeout -> 2.5s (performance-only, no physics)
 
 - benchmarks/em/emrecon034_2d_profile_closure.py exceeded GitHub

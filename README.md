@@ -9,7 +9,7 @@
 
 **Version:**
 <!-- BEGIN GENERATED: version -->
-3.26.55
+3.26.56
 <!-- END GENERATED: version -->
 
 A machine-verified development of the Rope Hypothesis — a classical, mechanical model in which matter and light are configurations of physical filaments — into falsifiable, independently checkable form.
@@ -35,7 +35,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 
 **📄 [Day summary 16 Aug 2026](docs/history/DAY_SUMMARY_2026-08-16.md)** — *The fifteen-release day*: current-as-spin closed, planetary magnetism composed, frame dragging carried to a one-parameter theory with its amplitude gated on the fine scale.
 
-**📄 [Release notes v3.26.0](docs/history/RELEASE_NOTES_v3.26.0.md)** — *The adjudication day*: external lattice data adjudicated the k-string sector on pre-registered terms — the rival sine law's class rejected, the framework's exact coefficient killed at its own blind checkpoint and kept.
+**📄 [Release history](docs/history/)** — every release note, per release, back to v3.0; the day summaries live there too.
 
 **🪜 [The Ladder and the Frontier](figures/rope_ladder.png)** — the whole corpus in one image: three layers, every result placed by status, and the coherent frontier where the open problems cluster. The best single-glance answer to "what is this?" *(Hand-drawn architecture snapshot; for claim-level currency use the auto-generated Roadmap below, which rebuilds from the registry.)*
 
@@ -46,7 +46,10 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 **🗺️ [Roadmap of Knowledge](docs/ROADMAP.md)** — the whole corpus at a glance: [wall chart](docs/roadmap.png) and [interactive dependency explorer](docs/roadmap.html) (click any claim; see its dependencies, dependents, and full downstream), all generated from claims.yaml by `tools/build_roadmap.py`.
 
 
-**Current release: v3.26.52** (16 Aug 2026), 704 claims. Headline: frame dragging is now a one-parameter theory — form derived, amplitude = chi x Lambda_nat with the residue read at 1, gated on the fine scale. Full day: [`docs/history/DAY_SUMMARY_2026-08-16.md`](docs/history/DAY_SUMMARY_2026-08-16.md); prior day: [v3.26.31](docs/history/RELEASE_NOTES_v3.26.31.md).
+<!-- BEGIN GENERATED: current_release -->
+**Current release: v3.26.56** (16 Aug 2026), 704 claims.
+<!-- END GENERATED: current_release -->
+Headline: frame dragging is now a one-parameter theory — form derived, amplitude = chi x Lambda_nat with the residue read at 1, gated on the fine scale. Full day: [`docs/history/DAY_SUMMARY_2026-08-16.md`](docs/history/DAY_SUMMARY_2026-08-16.md); prior day: [v3.26.31](docs/history/RELEASE_NOTES_v3.26.31.md).
 
 **If the rope model is wrong**, the transferable result is
 `docs/CONSTRAINTS_FOR_MECHANICAL_SUBSTRATE_THEORIES.md` — universal programme
