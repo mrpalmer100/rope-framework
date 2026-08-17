@@ -15,6 +15,19 @@
 - Residuals named: Sigma_wave naming (flagged pre-collision), exact
   two-level KE (composite build's customer), the tension tripwire.
 - Amended: FND-131, FND-MATTER-041, FND-083. 723 claims.
+- PREDICTIONS RECONCILIATION (same release): the STRATEGIC_TARGETS SecA
+  charter executed against v3.26.77 -- all 31 paper entries audited (28
+  stand; P8 STANDS-SHARPENED with c_L,f = 3.00 c as a completed number;
+  P19 Sigma-naming flag; SHIN kb sentence updated to the fired-tripwire
+  state; zero retired by the arc) and Predictions 32-34 added (zero-point
+  share band [0.615, 0.779] two-sided; the 3.96 PeV rotation quantum and
+  its ceiling coincidence; the level-2 speed lock). Casimir deliberately
+  NOT added (uncomputed). Authoritative addendum:
+  docs/PREDICTIONS_RECONCILIATION_v3_26_77.md. PAPER RE-RENDERED same
+  release (v2.3.0): Part IX added to falsifiable_predictions.docx/pdf
+  (Predictions 32-34, the audit summary, the fired-tripwire record on the
+  SHIN kb sentence), XSD-validated, visually verified. No format debt
+  remains.
 - DOCS SYNC (same release): KNOWN_LIMITATIONS fine-level section rewritten for
   the post-arc state; ROPE_PARAMETERS.md §6 added (fine-level card: dynamical
   mapping, contact-free grant, wave state, tripwires) and the stale 'Poisson
