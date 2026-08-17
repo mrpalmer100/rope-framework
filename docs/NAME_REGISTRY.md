@@ -179,3 +179,11 @@ sorted list, not its tail.
   QUANTITY. Any numeric import of tau0_trav into lock-sector
   formulas is a registered failure mode (misassigned ontology
   class, FND-MATTER-047 pattern).
+
+
+## Addendum (2026-08-16, v3.26.59, FND-115 -- SHIN8)
+
+- **f_{c,f}** (fine volume coverage): the volume fraction of a coarse
+  cell occupied by the n_sub wound sub-strands. Bracketed
+  <= [2.15%, 6.08%] at the registered ceilings; scales as a_f^2.
+  Distinct from any EM crossing/contact fraction.

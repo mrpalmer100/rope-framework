@@ -61,6 +61,7 @@ Generated for the public repository. Papers carry the status mix of the claims t
 
 ## Process & methodology documents (about the programme, not physics claims)
 
+- `docs/WHERE_IT_STANDS.md` -- the full strengths/edges/bets prose the front-door README summarizes
 - `STATE_OF_THE_PROGRAMME.docx`
 - `comparative_audit_of_theory_programmes.docx`
 - `lessons_from_the_gravity_campaign.docx`

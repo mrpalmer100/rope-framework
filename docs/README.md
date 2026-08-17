@@ -29,6 +29,8 @@ Read these, roughly in order. They are written to be read, not waded through.
 
 ## If you want to understand the ideas
 
+- **[Where it stands](WHERE_IT_STANDS.md)** — strengths, edges, and the
+  committed bets, in full (the README carries the short version).
 - **[Philosophy](philosophy.md)** — why the rope model; the motivation.
 - **[Ontology](ontology.md)** — what each phenomenon *is* under the rope reading.
 - **[Plain-language guide](../papers/rope_plain_language_guide.pdf)** — "The Rope
