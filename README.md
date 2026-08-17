@@ -33,7 +33,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 <!-- END GENERATED: status_breakdown -->
 > Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
 
-**📄 [Day summary 16 Aug 2026](docs/history/DAY_SUMMARY_2026-08-16.md)** — *The fifteen-release day*: current-as-spin closed, planetary magnetism composed, frame dragging carried to a one-parameter theory with its amplitude gated on the fine scale.
+**📄 [The wave arc, 17 Aug 2026](docs/history/RELEASE_NOTES_v3.26.77.md)** — *The eight-release day*: k/T0 = 2 closed as adopted, the fine weave contact-free by grant, KBSAT executed by its own tripwire, and the vacuum's winding forced to a rotating-wave state — constituents orbiting at exactly c, energy bill payable, zero-point energy given a mechanical identity. Plain-language version: [`docs/VACUUM_WAVE_PLAIN_LANGUAGE.md`](docs/VACUUM_WAVE_PLAIN_LANGUAGE.md).
 
 **📄 [Release history](docs/history/)** — every release note, per release, back to v3.0; the day summaries live there too.
 
@@ -41,7 +41,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 
 **🎨 [Figure gallery](figures/README.md)** — conceptual diagrams, each labeled with its corpus status (derived / modeled / hypothesis).
 
-**✨ START HERE: [Eleven Results We Did Not Expect](docs/SURPRISES.md)** — how the investigation actually unfolded: derived emergences, kept failures, labeled coincidences, and the day the framework eliminated its own favorite hypothesis. The best answer to "why spend an afternoon here?"
+**✨ START HERE: [Thirteen Results We Did Not Expect](docs/SURPRISES.md)** — how the investigation actually unfolded: derived emergences, kept failures, labeled coincidences, and the day the framework eliminated its own favorite hypothesis. The best answer to "why spend an afternoon here?"
 
 **🗺️ [Roadmap of Knowledge](docs/ROADMAP.md)** — the whole corpus at a glance: [wall chart](docs/roadmap.png) and [interactive dependency explorer](docs/roadmap.html) (click any claim; see its dependencies, dependents, and full downstream), all generated from claims.yaml by `tools/build_roadmap.py`.
 
@@ -69,11 +69,17 @@ account of what the framework claims, what it predicts, what was retired and why
 routes you by why you are here — evaluating the programme, understanding the ideas,
 contributing, or verifying a specific claim.
 
-## The three committed bets
+## The committed bets and the prediction inventory
 
-The corpus's bets, filtered strictly (quantitative, distinctive in observable
-outcome, checkable, live — a prediction any rival also makes is a commitment,
-not a bet):
+The full falsifiable inventory stands at **thirty-three live entries** (plus one
+declared retrodiction and two retired-and-kept), maintained under one standard
+in the predictions paper, re-rendered 17 Aug 2026 (paper edition 2.3.0):
+[`papers/falsifiable_predictions.pdf`](papers/falsifiable_predictions.pdf)
+(detailed audit: [`docs/PREDICTIONS_RECONCILIATION_v3_26_77.md`](docs/PREDICTIONS_RECONCILIATION_v3_26_77.md)).
+
+Filtered strictly to **bets** (quantitative, distinctive in observable outcome,
+checkable, live — a prediction any rival also makes is a commitment, not a
+bet), the ledger holds four:
 
 **1 — ADJUDICATED (13 Aug 2026): the k-string binding law.** Pre-registered
 blind bands; external continuum data REJECTED the rival sine law's class and
@@ -91,25 +97,31 @@ Waits on the field, not the corpus.
 honestly as null-versus-null, not as a win; it becomes discriminating when
 either drift resolves.
 
-Full ledger and the census history: [`docs/WHERE_IT_STANDS.md`](docs/WHERE_IT_STANDS.md)
-and the predictions paper ([`papers/falsifiable_predictions.pdf`](papers/falsifiable_predictions.pdf)).
+**4 — NEW (17 Aug 2026): the zero-point share band.** The forced rotating-wave
+vacuum commits the zero-point fraction of the vacuum energy budget to
+**[0.615, 0.779]**, two-sided, lower edge exact, zero measured inputs
+(Prediction 32; FND-130/131/132). Below 0.615 kills the wave reading
+outright; above 0.779 breaks the two-level bracket. A one-sided survival
+condition became a committed band in one day.
 
-## Frame dragging (status: 16 Aug 2026)
+Full ledger and the census history: [`docs/WHERE_IT_STANDS.md`](docs/WHERE_IT_STANDS.md).
+
+## Frame dragging (status: 17 Aug 2026)
 
 **Form derived; amplitude gated.** The gravitomagnetic ratio is derived exactly
 as Λ × J sin²θ/(Mc) — linear in spin, the Lense-Thirring angular form, correct
 parity, radial dependence cancelling natively (GRV-120) — so frame dragging
 exists in this framework with the correct shape and one dimensionless amplitude.
 That amplitude factorizes as Λ = χ × Λ_nat: **frame dragging is a chirality
-meter** — a parity-symmetric vacuum drags nothing (GRV-121), and the overlap
-residue reads to exactly 1 from the two structural grants (GRV-126). What
-remains: Λ_nat is gated on the fine-strand scale (the FND-110 substructure
-suspension — one gate now under three sectors), and whether cosmic
-birefringence shares the same handedness is open, neither excluded nor
-confirmed (GRV-127). No LARES comparison is quotable until the gate moves;
-condition 4 (one-parameter measurement framing) is in force. Details:
-[`KNOWN_LIMITATIONS.md`](KNOWN_LIMITATIONS.md); the full day:
-[`docs/history/DAY_SUMMARY_2026-08-16.md`](docs/history/DAY_SUMMARY_2026-08-16.md).
+meter** — a parity-symmetric vacuum drags nothing (GRV-121). After the 17 Aug
+arc the ceilings stand at Λ_nat ≤ 1.18e35 (GRV-128 chain, dynamical k_f) and
+≤ 3.3e34 (FND-122 chain, reverted bound), both linear in a_f, with GR-strength
+dragging demanding χ ≥ 8.5e-36 / ≥ 3.0e-35 respectively. Λ_nat remains gated
+on the fine-strand scale (FND-110); whether cosmic birefringence shares the
+vacuum's handedness is open, neither excluded nor confirmed (GRV-127). No
+LARES comparison is quotable until the gate moves; condition 4 (one-parameter
+measurement framing) is in force. Details:
+[`KNOWN_LIMITATIONS.md`](KNOWN_LIMITATIONS.md).
 
 ## Two branches carry validated machinery and no target
 
