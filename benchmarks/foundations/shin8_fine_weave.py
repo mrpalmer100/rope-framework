@@ -4,6 +4,10 @@ Leg 1: coverage f_{c,f}, blind (no r_f, gravity, conduction twist,
 coarse radius). Leg 2: the compensation identity + Sigma. Leg 3:
 handedness (reading, recorded in results)."""
 import math
+# SWEEP-TAU (2026-08-17): 4.1888/(2pi) = 2/3 and 1.6239/(2pi) = 0.2584 are
+# cos^2 psi_1 and cos^2 psi_2 -- angle arithmetic, correct under either
+# convention; the numerals coincide with the now-corrected tau labels of
+# NUN-GRV8 (see FND-126) but tau is not used here. Identity untouched.
 c1sq = 4.1888/(2*math.pi); c2sq = 1.6239/(2*math.pi)
 s1sq, s2sq = 1-c1sq, 1-c2sq
 ident = 2/(s1sq*s2sq)
