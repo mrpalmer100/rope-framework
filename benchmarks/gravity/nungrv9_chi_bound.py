@@ -19,8 +19,10 @@ L_HUBBLE = 1.3e26              # the registered path
 BETA, SIG = 0.342, 0.094       # deg
 # ---- LOCKED INVERSION CONVENTION (bars B2) ----
 CEILING = np.radians(BETA + 2 * SIG)   # 0.530 deg, conservative ceiling
-# ---- GRV-112 registered per-strand writhe magnitudes (check values) ----
-TAU1, TAU2 = 4.1888, 1.6239    # in 1/a_f, FND-091 geometry
+# ---- Per-strand writhe magnitudes (check/display only; the chi bound
+# ---- is linear in chi and never multiplies by tau) ------------------
+# SWEEP-TAU (2026-08-17): corrected per FND-126 (psi convention).
+TAU1, TAU2 = 2.0944, 4.6593    # in 1/a_f, FND-091 geometry, reading A
 
 
 def main():

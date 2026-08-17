@@ -10,16 +10,23 @@ import math
 print("B1 -- IDENTITY: registered SHIN windings are FINE-pitch by text")
 print("  (FND-086: p in [a_f, lambda/4], worst case p = a_f;")
 print("   FND-091: kappa = (pi/p) sin 2psi -> 2.962/a_f, 2.751/a_f;")
-print("   GRV-112: |tau_1| = 4.1888/a_f). No registered winding at the")
+print("   GRV-112 corrected by FND-126: tau_1 = 2.0944/a_f). No registered winding at the")
 print("  strand radius exists. VERDICT: DISTINCT-CERTIFIED; GRV-127")
 print("  upheld; the transplant stays demoted.\n")
 
 # ---------------- B2: the fine-route computation -------------------
 # Registered inputs (every factor sourced):
 T0 = 1.203e3          # N (GRV-073 chain; k = 2 T0 rider via FND-114)
-kf_over_T0f = 8.091   # DERIVED fine stiffness ratio (EM-RECON-032)
+# FND-127 (2026-08-17): the projection ratio 8.091 is superseded in form;
+# the dynamical mapping (FND-126) returns 9 exactly at the adjudicated
+# k/T0 = 2 (FND-114 rider carried unchanged).
+kf_over_T0f = 9.0     # dynamical fine stiffness ratio (was projection 8.091)
 nu = 0.25             # GRV-073's chain: E/G = 2(1+nu) = 2.5
-tau1_coeff = 4.1888   # |tau_1| = 4.1888 / a_f (GRV-112 / FND-091)
+# SWEEP-TAU (2026-08-17): FND-126 corrected the psi convention.
+# Corrected torsions: tau_1 = 2.0944/a_f, tau_2 = 4.6593/a_f.
+# BRANCH = 'MAX' (bounding, proposed default) or 'L1' (level-1 pinned).
+BRANCH = 'MAX'
+tau1_coeff = {'MAX': 4.6593, 'L1': 2.0944}[BRANCH]   # was 4.1888 (inverted)
 slender = 0.355       # r_s <= 0.355 a_f (FND-091, registered CEILING)
 E_PeV = 1.400e15 * 1.602176634e-19   # J (FND-083 fine-mesh ceiling)
 hc = 1.98644586e-25   # J m
@@ -38,7 +45,7 @@ print(f"B2 -- lambda_PeV = {lam_PeV:.4e} m; a_f ceiling = {af_max:.4e} m")
 C = kf_over_T0f * slender**2 * tau1_coeff / (4 * (1 + nu))
 print(f"  n_sub CANCELS exactly (redistribution T0_f = T0/n_sub against")
 print(f"  the coherent n_sub sum). lambda_strand <= C * T0 * a_f with")
-print(f"  C = 8.091 * 0.355^2 * 4.1888 / (4*1.25) = {C:.4f}")
+print(f"  C = {kf_over_T0f} * 0.355^2 * {tau1_coeff} / (4*1.25) = {C:.4f}  [branch {BRANCH}, dynamical k_f]")
 lam_max = C * T0 * af_max
 print(f"  lambda_strand <= {lam_max:.3e} J   [UPPER BOUND, every factor")
 print(f"  registered; coherence and slenderness both bound-preserving]")
