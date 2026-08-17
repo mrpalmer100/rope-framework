@@ -6,7 +6,7 @@ you have found it in under five minutes.
 
 *Revised against the current registry.*
 <!-- BEGIN GENERATED: corpus_stats -->
-*704 registered claims, 620 code-backed and passing, 121 Derived, 45 registered Failed and kept.*
+*707 registered claims, 622 code-backed and passing, 121 Derived, 45 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
 
@@ -115,7 +115,7 @@ kept straight, several quantum facts are **adopted, not derived**, or **open**:
 ## Gravity
 
 - **Frame dragging: form derived; amplitude gated on the fine scale.** As of 16 Aug
-  2026 (through GRV-127), the current state is: the gravitomagnetic-to-
+  2026 (through FND-116), the current state is: the gravitomagnetic-to-
   gravitoelectric ratio is derived exactly as `Lambda x J sin^2(theta)/(Mc)`, r-free,
   with every structural element parameter-free (J-linearity by the granted beta_J = 1;
   the Lense-Thirring angular form; parity; dipole-led sourcing; complete radial
@@ -124,10 +124,13 @@ kept straight, several quantum facts are **adopted, not derived**, or **open**:
   residue read at R_0 = 1 (GRV-121/126): frame dragging is a chirality meter, and a
   parity-symmetric vacuum drags nothing. **The open limitation:** `Lambda_nat` is
   symbolic — the coupling's torsion is the vacuum weave's own, registered at the FINE
-  level (`4.1888/a_f`, GRV-112), and both `a_f` and `(G I_p)_fine` are unregistered
-  under the FND-110 substructure suspension on `(m, n_sub)`. That suspension is the
-  single gate under this sector (and under the k-strings and substructure dividends).
-  No numeric `Lambda_nat`, `chi`, or LARES-class comparison is quotable until it moves.
+  level (`4.1888/a_f`, GRV-112), and after GRV-128's exact `n_sub`
+  cancellation the gate is ONE number: `a_f` (the FND-110 suspension). A registered
+  CEILING now exists: `Lambda_nat <= 9.5e34` (audited twice and standing: the
+  object challenge, GRV-128, and the compensation challenge, FND-115 -- the SHIN
+  1/sin^2 compensation is inside k_f/T0_f = 8.091 by construction, FND-116) at the `a_f` ceiling, falling linearly
+  with `a_f`; GR-strength dragging demands `chi >= 1.1e-35`. No point value is
+  quotable until `a_f` moves.
   **Also open:** whether the observed cosmic birefringence and frame dragging share one
   vacuum handedness is GATED — neither excluded nor confirmed (GRV-127 demoted the
   evening's exclusion as a cross-sector object transplant, caught by the sector's own

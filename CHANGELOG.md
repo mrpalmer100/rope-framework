@@ -1,3 +1,68 @@
+## 3.26.60 (2026-08-16) -- THE k/T0 = 2 READING: remains adopted; FND-115 corrected by name within the hour
+
+- FND-116 (Modeled): CIRCULARITY FOUND -- EM-RECON-032 defined
+  k_f/T0_f := 2/s with the coarse ratio as input, so FND-115's
+  'cross-sector identity' was by-construction, not discovery;
+  corrected by name, with the load-bearing conclusion STRENGTHENED
+  (the compensation is inside GRV-128's ceiling with certainty).
+  NO independent fine pin exists; the reversal requirement is
+  registered (an independent k_f/T0_f from sub-strand physics,
+  double-armed: derivation above, the 4.046 falsifier below);
+  k/T0 = 2 stands at FND-114's grade. FND-063's 'f = 1' is a
+  different f (material fraction) -- resemblance refused,
+  NAME_REGISTRY class. FND-115's coverage/Sigma/handedness legs
+  untouched. 707 claims.
+
+## 3.26.59 (2026-08-16) -- COMMISSION FINE-WEAVE: the compensation identity; coverage bracketed; gate confirmed at one number
+
+- FND-115 (Modeled): THE JEWEL -- k_f/T0_f = 2/(sin^2 psi_1 sin^2
+  psi_2) = 8.0912 exactly (2.7e-5): the derived fine stiffness
+  ratio IS the coarse k/T0 = 2 times the double SHIN winding
+  compensation. Three claims from three arcs are one equation; the
+  SHIN3 compensation is already inside GRV-128's chain --
+  CEILING-SURVIVES-AUDIT (Lambda_nat <= 9.5e34 stands, twice
+  audited). COVERAGE (blind per the author's exclusions):
+  f_{c,f} <= [2.15%, 6.08%], packing headroom 4-7x,
+  SPARSE-CERTIFIED. SIGMA-CLOSES-WITHOUT-a_f (a_f cancels; the
+  registered Sigma = 3 T0/a^2 confirmed consistent). HANDEDNESS
+  undetermined at the population level; bounding case stands.
+- Named next-order: is k/T0 = 2 itself the f = 1 limit of the same
+  winding form? One verbatim reading (FND-063). f_{c,f} in
+  NAME_REGISTRY; KL updated. 706 claims.
+
+## 3.26.58 (2026-08-16) -- COMMISSION TAU-IDENT: the challenge adjudicated; first ceiling on Lambda_nat; the gate halves
+
+- GRV-128 (Modeled): the author's challenge to the demoted 1e37
+  result, run clean-room (derivation before comparison). IDENTITY:
+  DISTINCT-CERTIFIED -- the SHIN windings are fine-pitch by
+  registered text; the transplant's demotion becomes a physics
+  statement. THE COMPUTATION NOBODY HAD RUN: the fine lambda bounds
+  from registered numbers alone, with the n_sub CANCELLATION exact
+  (redistribution against the coherent sum) -- lambda <= 0.854 T0
+  a_f, so Lambda_nat <= 9.5e34 (T-branch, R_0 = 1) and chi >=
+  1.1e-35 for GR strength. FIRST registered ceiling on the natural
+  scale; gate ledger improves from {(G I_p)_f, a_f} to {a_f} ALONE.
+- THE COINCIDENCE: class-level, not object-level -- the transplant
+  band sits 114-198x above the ceiling; the 1e37/1e-37 point values
+  do not resurrect. Attribution consistency point quantified:
+  a_f ~ 1.4e-38 m (m ~ 2e16); named demand, neither excluded nor
+  favored. KNOWN_LIMITATIONS updated (gate = one number). 705
+  claims.
+
+## 3.26.57 (2026-08-16) -- README FIRST-VISIT CUT: wall paragraphs relocated, sections condensed (no new claims)
+
+- Per the author's directive, the README is cut to first-visit size
+  (327 -> 222 lines) with NOTHING deleted from the corpus:
+  - the 4,476- and 3,456-char 'strong'/'edges' wall paragraphs
+    relocated verbatim to the NEW docs/WHERE_IT_STANDS.md and
+    replaced by five-line and four-line summaries with pointers;
+  - the 129-line committed-bets section condensed to a ~25-line
+    three-item ledger, full census prose relocated to the same doc;
+  - the 58-line frame-dragging section condensed to one 17-line
+    status paragraph (KNOWN_LIMITATIONS carries the detail).
+- docs/WHERE_IT_STANDS.md registered in MANIFEST and routed from
+  docs/README. Front-door tripwire clean. 704 claims; doc-only.
+
 ## 3.26.56 (2026-08-16) -- FRONT-DOOR HARDENING: current-release banner becomes a generated block (no new claims)
 
 - ROOT CAUSE of the recurring staleness: at v3.26.53 the 'Current
