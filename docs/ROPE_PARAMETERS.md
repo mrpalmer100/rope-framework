@@ -3,7 +3,9 @@
 *Every quantity that describes a strand in this framework, with its status,
 provenance, and value. Compiled 1 August 2026; revised 7 August 2026 (M-point
 promoted); revised 10 August 2026 (Σ pinned per FND-030, branch structure
-retired to historical, κ₀ added per FND-031).*
+retired to historical, κ₀ added per FND-031); **revised 17 August 2026 (§6
+added: the fine level after the BLOCH-L arc — dynamical mapping, contact-free
+grant, KBSAT executed, the winding as a rotating wave)**.*
 
 **Read this before any session that uses a rope constant.** Values are verified
 by `benchmarks/foundations/rope_parameter_card.py`, which recomputes every
@@ -128,7 +130,7 @@ every branch including the M-point.
 | Torsional rigidity | C | *(re-eval pending)* | 4.21e-36 J·m | 5.95e-36 J·m | per strand, C = G·πr⁴/2 | GRV-009, GRV-073 |
 | Couple-stress modulus | γ | *(re-eval pending)* | 4.21e-4 J/m | 5.95e-4 J/m | medium: γ = C/a² | GRV-073 |
 | Young's modulus | E | *(re-eval pending)* | 8.76e40 Pa | 1.24e41 Pa | E = k/(πr²) | GRV-073 |
-| Shear modulus | G | *(re-eval pending)* | 3.50e40 Pa | 4.95e40 Pa | G ≈ E/2.5 (**Poisson ratio unregistered**) | GRV-073 |
+| Shear modulus | G | *(re-eval pending)* | 3.50e40 Pa | 4.95e40 Pa | G ≈ E/2.5 (ν = 0.25 registered import, GRV-073; carried at the fine level by NUN-GRV21/FND-131) | GRV-073 |
 
 **On the tension — corrected 1 Aug 2026 (FND-021).** T₀ behaves as a **Lagrange
 multiplier** *in the inextensible limit*, and in that limit stores no energy, from
@@ -292,3 +294,48 @@ load-bearing, not tentative.
 historical branches until that chain is re-evaluated at the M-point;
 `rope_parameter_card.py` verifies the historical-branch values and the
 branch-independent ratios, which is what it checks today.
+
+
+---
+
+## 6. The fine level (added 17 Aug 2026, v3.26.77 — the BLOCH-L arc, FND-126 → FND-132)
+
+The photon sector's granted substructure (GRANT-SUBSTRUCTURE, FND-084) makes
+each coarse strand a bundle of n_sub finer fibres, two-level wound at the
+derived angles. The 17 Aug arc determined this level's mechanics end to end.
+
+**The fibre (granted rod class, FND-118 — one modulus, circular section):**
+
+| Quantity | Symbol | Value / bound | Status | Source |
+|---|---|---|---|---|
+| Fibre tension | T_fibre | **3/2 T0_f exactly** | derived (dynamical anchor solve) | FND-126 |
+| Fine stretch ratio | k_f/T0_f | **9 exactly** at k/T0 = 2 (read 9.008) | derived: k_f/T0_f = 6(k/T0) − 3 | FND-126/127 |
+| Fine longitudinal speed | c_L,f | **3.00 c, FINAL at this instrument class** | derived; non-affine channel = 0 by grant | FND-126/129 |
+| Bending stiffness | kb | **≤ 0.07909 T0_f a_f²** | bound-with-named-gap (dynamical-background correction unpriced) | FND-121 cond. 1 fired, FND-131 |
+| Fibre radius | r_s | **≤ 0.1874 a_f** | bound (rod identity at k_f = 9) | FND-131 |
+| Torsional stiffness | C_f | **kb/(1+ν) = 0.8 kb** | derived (granted class + registered ν) | FND-131 |
+| Twist density | ω | 0 (wound-born) or −1.5332/a_f (Lk-conserving) | both formation readings computed | FND-131 |
+| Fine frame-drag coupling | (G I_p)_f | **≤ 0.0633 T0_f a_f²** | bound (reverted from KBSAT value) | FND-131 |
+| Contact rule | — | **contact-free, sub-threshold** (coverage at 7–20% of tangibility onset) | Author-granted, three registered legs, supersession clause armed | FND-129 |
+
+**The winding is a wave (forced, not adopted — FND-130/131):** the static
+winding is unreachable across the entire admissible (ν, kb, ω) box, so the
+two-level winding is a **rotating-wave state**:
+
+| Quantity | Value | Status |
+|---|---|---|
+| Level-1 wave speed (along fibre) | **√(3/2) c = 1.2247 c exactly**, kb-free | derived (bending-neutrality theorem) |
+| Level-1 material orbital speed | **c exactly** — sin²θ × T_fibre = (2/3)(3/2) = 1 | derived; ARMED TRIPWIRE on T_fibre |
+| Level-2 wave speed | √(3/2 + 17.926 kb) c = 1.5–1.7 c at the bound | derived, kb-dependent |
+| Energy bill (dynamical share) | **[0.615, 0.779]** — inside FND-MATTER-041's zero-point window (< 0.889) | priced-and-payable |
+
+**The magic angle's triple duty** (one angle, three unrelated derivations —
+the standing open question): sin²ψ₁ = 1/3 is simultaneously isotropy-exact
+(FND-088), bending-force-neutral (τ² = κ²/2 identically, FND-130), and
+c-orbital (FND-132).
+
+**Dead and kept:** KBSAT (kb = 0.126 as a value) was executed by its own
+condition 1 on 17 Aug (FND-131) — the extremal principle and the against-case
+stand as the record. The multiplicative coarse→fine factorization (4.046 ×
+per-level compensations) is superseded in form; the 4.046 core-existence
+floor survives flagged, its dynamical test chartered.

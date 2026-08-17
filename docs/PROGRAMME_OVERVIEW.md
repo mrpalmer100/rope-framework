@@ -15,9 +15,9 @@ The programme's discipline is its defining feature: **derived results, empirical
 ## Corpus at a glance (generated)
 
 - **Bundled papers:** 64
-- **Reproducible benchmarks:** 600
-- **Registered claims:** 690 (612 code-backed and machine-verified)
-- **Claim status distribution:** Derived 121, EFT-constrained 4, Modeled 509, Conjecture 4, Failed 45, Open 7
+- **Reproducible benchmarks:** 616
+- **Registered claims:** 722 (627 code-backed and machine-verified)
+- **Claim status distribution:** Derived 121, EFT-constrained 4, Modeled 541, Conjecture 4, Failed 45, Open 7
 
 Verify it yourself in one command: `make verify` (runs every benchmark the registry references) or `python tools/verify_corpus.py`.
 

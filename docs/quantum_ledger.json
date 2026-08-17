@@ -2884,5 +2884,68 @@
   "cat": "MENTION",
   "why": "incidental vocabulary; no dependence (default rule)",
   "branch": ""
+ },
+ "EM-RECON-040": {
+  "status": "Modeled",
+  "markers": [
+   "hbar"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-119": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-120": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-122": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-123": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-131": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
+ },
+ "FND-132": {
+  "status": "Modeled",
+  "markers": [
+   "zp"
+  ],
+  "cat": "MENTION",
+  "why": "incidental vocabulary; no dependence (default rule)",
+  "branch": ""
  }
 }

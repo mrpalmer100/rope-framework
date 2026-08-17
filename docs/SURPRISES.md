@@ -228,3 +228,31 @@ reported impossible numbers and was twice repaired.
 
 *None of this proves the rope hypothesis. All of it is rerunnable. That combination is the
 point.*
+
+
+## Twelve: the angle with three jobs
+
+We derived one number — sin²ψ = 1/3, the "magic angle" — in July, from a dry
+requirement: waves must travel at the same speed in every direction through the
+wound vacuum. It checked out to thirteen decimal places and we moved on. In
+August it came back twice in one night. First: it is the *unique* winding angle
+at which a bent fibre exerts zero net bending force on itself (FND-130) — the
+geometry holds no spring tension at all. Second: at that same angle, the
+winding's material points orbit at *exactly* the speed of light — the angle's
+transverse share (2/3) times the fibre tension (3/2) multiplies to one
+(FND-132). Three properties, one angle, derived from three unrelated demands.
+We do not know why. The question is registered, which is the most honest thing
+a registry can do with a miracle.
+
+## Thirteen: the vacuum's energy bill balanced itself
+
+When the winding turned out to be a wave — perpetual rotation, everywhere —
+the immediate worry was the electric bill: all that motion carries kinetic
+energy, and nothing in the books had budgeted for it. Then we checked a number
+the matter sector had derived a week earlier for its own survival: the F-2SCALE
+window tolerates a vacuum whose "zero-point" share is anything below 0.889.
+The wave's share computes to 0.62–0.78. It fits — with margin — inside a
+ceiling derived before the wave existed, by people (well, sessions) that had
+never heard of it. And in fitting, it answered an old question by accident:
+asked what zero-point energy *is*, this framework can now say — it is the
+vacuum's winding, rotating, everywhere, forever (FND-132).

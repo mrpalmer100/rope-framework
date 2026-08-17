@@ -142,3 +142,18 @@ instruments (many-multiplet quasar alpha; the Yb+ E3/E2 clock, giving
 |d ln A/dt| < 1.6e-18 per year). It returns as a CONSTRAINT at T3 ceiling, not
 a prediction; the T1 count remains one. The two-alpha-chain audit (PRED-003-XCHAIN) found consistency-by-locking; the constitutive session (PRED-003-CONST, 2026-08-02) then closed the chain dimensionally: e_eff^2/(4 pi eps0) = 2 lambda J a, triple (2, 1, -1). The -2 tension ratio SURVIVES (co-drift A ~ T^(-1/2)); the +1 spacing discriminator is WITHDRAWN pending registration of the alpha chain itself, which the audit found to be paper-stated and registry-underived. The chain attempt (PRED-003-CHAIN) then killed the naive route by theorem — winding charge is a circulation, and phase electrostatics is logarithmic, not Coulomb — leaving the alpha form BLOCKED-WITH-SPECIFICATION: the completing computation is a Maxwell-sector dictionary evaluation with target q_s^2 = 8 pi eps0 lambda J a, the corpus-wide highest-value open item. The dictionary evaluation (PRED-003-DICT) then collapsed that computation by impedance reduction: eps_med = 1/T, alpha = l_q^2 T/(4 pi hbar c), and the -2 ratio is now the middle of a three-candidate table {-1, -2, -3} indexed by the winding's source length — with any measured nonzero drift ratio selecting it. The decider (PRED-003-LOCK) then dissolved the question: the registered model is pure XY with no on-site locking, and matching OPT-006's impedance to the derived director stiffness ENSLAVES kappa = 2T/(eta a) — the EM vacuum runs on two primitives. The ratio is reassigned: tension channel -1, spacing channel -2; the registered -2 survives on the spacing channel, testability intact, and a measured nonzero ratio now identifies the drift channel. The eta session (PRED-003-ETA) then set eta = 1 by one-metric uniqueness (kappa = 2T/a exact, J = Ta/2), bounded the winding's source length at >= 13-16 lattice spacings from measured alpha alone, and killed the bare 2 pi normalization — leaving g, the mesoscopic source length's mechanism, as the dictionary's true residual. The ratio test (ELEC-083) then proved its own commissioned scale-set vote vacuous and extracted the residue: under the shared-origin hypothesis for the two mesoscopic lengths, 1/alpha = 2 pi^2 rho^2 exactly, with rho = 2.6348 required and guarded against numerology — one mechanism now owes one pure number, blind.
 
+
+
+## Addendum, 17 August 2026 (v3.26.77)
+
+The k/T0 = 2 derive question is CLOSED at this instrument class (the value
+stands adopted; the theorem route is reachable only through GRANT-CONTACT's
+supersession clause). KBSAT is dead by its own tripwire; the fine ledger is
+bounds again (kb ≤ 0.079, r_s ≤ 0.187), each with its named gap. The standing
+ontology: **the vacuum's winding is a rotating-wave state** — forced by three
+independently-earned registrations — with the level-1 wave at √(3/2) c, the
+material orbit at exactly c, and the energy bill payable inside the registered
+zero-point window. Sharpest open items: the rotating-background correction to
+the anchors, the exact composite wave, and the magic angle's unexplained
+triple duty. See KNOWN_LIMITATIONS.md §fine-level and
+docs/VACUUM_WAVE_PLAIN_LANGUAGE.md.
