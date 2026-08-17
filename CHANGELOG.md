@@ -1,3 +1,35 @@
+## 3.26.55 (2026-08-16) -- CI FIX: EM-RECON-034 benchmark 300s timeout -> 2.5s (performance-only, no physics)
+
+- benchmarks/em/emrecon034_2d_profile_closure.py exceeded GitHub
+  CI's 300 s timeout (scalar scipy.dblquad at epsrel 1e-7 inside a
+  minimizer, hundreds of calls). Replaced with kink-aligned
+  Gauss-Legendre quadrature: r-panels split at r_w and d -+ r_w,
+  the theta integral split analytically at theta*(r) where the
+  second rope's cap boundary crosses, f2 = 1 exact inside the cap.
+- EQUIVALENCE ESTABLISHED BEFORE THE REWRITE: self-converged to
+  ~1e-12 between resolutions; agrees with the ORIGINAL integrator
+  to <= 5e-5 on d0 at both window edges (1.69747 vs 1.6974;
+  5.38393 vs 5.38391, old code run as reference). Full output
+  reproduces every registered number: bottom edge 1.6975 (the
+  registered value), window 1.70 -> 5.38, amplitude sweep intact.
+  Adjudication note: the claim prose's '5.39' window top was prose
+  rounding in the original registration -- BOTH integrators give
+  5.3839; the claim's own +-0.002 numerics band covers it; no claim
+  edit needed. Runtime 300+ s -> 2.5 s. NUMERICS NOTE on the
+  benchmark's face. 704 claims; benchmark-only release.
+
+## 3.26.54 (2026-08-16) -- RELEASE-NOTES BACKFILL (no new claims)
+
+- docs/history was missing notes for eight doc-class releases
+  (v3.26.44, v3.26.47..53) -- changelog entries existed but no
+  RELEASE_NOTES files, and tools/check_release_notes.py audits only
+  tagged cuts so it passed silently. Backfilled all eight, brief
+  per the reader-first policy (each states doc-only and no-claims
+  on its face).
+- HANDOFF rule extended: a release is not cut until its
+  RELEASE_NOTES_v*.md exists in docs/history -- every version bump
+  ships a note, doc-only releases included. 704 claims; doc-only.
+
 ## 3.26.53 (2026-08-16) -- FRONT-DOOR SYNC: generated blocks regenerated, long blurbs shortened (no new claims)
 
 - ROOT CAUSE of the stale '3.26.32' at the top of the README: the
