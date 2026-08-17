@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21430784.svg)](https://doi.org/10.5281/zenodo.21430784)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Verify](https://img.shields.io/badge/verify-622%2F622%20passing-brightgreen.svg)](#verify-it-yourself)
+[![Verify](https://img.shields.io/badge/verify-628%2F628%20passing-brightgreen.svg)](#verify-it-yourself)
 [![verify-corpus](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml/badge.svg)](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml)
 
 # rope-framework
@@ -9,7 +9,7 @@
 
 **Version:**
 <!-- BEGIN GENERATED: version -->
-3.26.60
+3.26.77
 <!-- END GENERATED: version -->
 
 A machine-verified development of the Rope Hypothesis — a classical, mechanical model in which matter and light are configurations of physical filaments — into falsifiable, independently checkable form.
@@ -20,7 +20,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 >
 > **What makes it unusual is the discipline.** Every claim is registered with a pass/fail line drawn *before* the computation runs, and the failures are kept on permanent display rather than quietly dropped. As of this release:
 <!-- BEGIN GENERATED: corpus_stats -->
-*707 registered claims, 622 code-backed and passing, 121 Derived, 45 registered Failed and kept.*
+*723 registered claims, 628 code-backed and passing, 121 Derived, 45 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats --> A dealbreaker, if one exists, should be findable in about five minutes — start with [`KNOWN_LIMITATIONS.md`](KNOWN_LIMITATIONS.md).
 >
 > **Where it is strong (the five-line version):** electromagnetism and optics derive from one wave equation on the weave; the classic gravity tests (light bending, Mercury, clock rates) come out exact; the fine-structure constant lands at 178 ppm from geometry; chemistry and the nuclear mass table are full mechanical layers; and the exact quantum ceiling (the Tsirelson bound) is a theorem. Full account: [`docs/WHERE_IT_STANDS.md`](docs/WHERE_IT_STANDS.md); how it unfolded: [`docs/SURPRISES.md`](docs/SURPRISES.md).
@@ -29,7 +29,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 
 > **Corpus state:**
 <!-- BEGIN GENERATED: status_breakdown -->
-707 registered claims (121 Derived, 526 Modeled, 4 EFT-constrained, 4 Conjecture, 7 Open, 45 Failed-and-kept); 622 code-backed.
+723 registered claims (121 Derived, 542 Modeled, 4 EFT-constrained, 4 Conjecture, 7 Open, 45 Failed-and-kept); 628 code-backed.
 <!-- END GENERATED: status_breakdown -->
 > Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
 
@@ -47,9 +47,11 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 
 
 <!-- BEGIN GENERATED: current_release -->
-**Current release: v3.26.60** (16 Aug 2026), 707 claims.
+**Current release: v3.26.77** (17 Aug 2026), 723 claims.
 <!-- END GENERATED: current_release -->
-Headline: frame dragging is now a one-parameter theory — form derived, amplitude = chi x Lambda_nat with the residue read at 1, gated on the fine scale. Full day: [`docs/history/DAY_SUMMARY_2026-08-16.md`](docs/history/DAY_SUMMARY_2026-08-16.md); prior day: [v3.26.31](docs/history/RELEASE_NOTES_v3.26.31.md).
+Headline: THE ENERGY BILL — priced and payable. The vacuum's constituents orbit at exactly c (two registered numbers multiplying to one), and the wave's dynamical share [0.62, 0.78] fits inside the matter sector's registered zero-point window (< 0.889): zero-point energy IS the winding's rotation. Full account: [`docs/history/RELEASE_NOTES_v3.26.77.md`](docs/history/RELEASE_NOTES_v3.26.77.md); prior: [`docs/history/RELEASE_NOTES_v3.26.76.md`](docs/history/RELEASE_NOTES_v3.26.76.md).
+
+**Plain-language guide to the 17 Aug findings** (the vacuum as a rotating wave, the magic angle's triple duty, the energy bill): [`docs/VACUUM_WAVE_PLAIN_LANGUAGE.md`](docs/VACUUM_WAVE_PLAIN_LANGUAGE.md). Canonical constants card, revised: [`docs/ROPE_PARAMETERS.md`](docs/ROPE_PARAMETERS.md).
 
 **If the rope model is wrong**, the transferable result is
 `docs/CONSTRAINTS_FOR_MECHANICAL_SUBSTRATE_THEORIES.md` — universal programme

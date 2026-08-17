@@ -1,5 +1,171 @@
 # HANDOFF -- Rope Framework, next session
 
+*Written 2026-08-17 at the close of v3.26.77 (the energy-bill release,
+end of the eight-release BLOCH-L arc). 723 claims, registry at zero
+failures, freshness green, badge 628/628. THIS SECTION IS THE CLEAN
+HANDOFF for the next session; prior handoff content preserved below.*
+
+## WHERE THE ARC LANDED (FND-126 -> FND-132, v3.26.70 -> v3.26.77)
+k/T0 = 2 does NOT derive and the question is CLOSED at this instrument
+class (GRANT-CONTACT zeroes the non-affine channel; reachable again
+only via the grant's supersession clause). The fine weave is
+CONTACT-FREE (FND-129, tenth grant, class C alone). The twist channel
+is DETERMINED (C = 0.8 kb; both formation readings computed) and the
+static winding is UNREACHABLE across the whole admissible box
+(FND-131), so KBSAT was executed by its own condition 1: kb reverts to
+<= 0.07909 (bound-with-named-gap), r_s <= 0.1874, (G I_p)_f <= 0.0633,
+FND-122 ceiling 3.3e34. THE WINDING IS A ROTATING-WAVE STATE, forced:
+level-1 wave at sqrt(3/2) c, MATERIAL ORBIT AT EXACTLY c (armed
+tripwire on T_fibre = 3/2), energy bill payable inside FND-MATTER-041's
+zero-point window (share [0.615, 0.779] < 0.889) -- zero-point energy
+now has a mechanical identity (FND-132).
+
+## THE ONE JOB (next session)
+THE DYNAMICAL-BACKGROUND CORRECTION: BLOCH-L's anchors (and therefore
+the standing kb <= 0.079 bound) were computed on a STATIC winding; the
+rotating-wave background's second-order corrections are the named gap
+on the fine sector's sharpest number. Run it on FND-089-class
+machinery. Alternative first jobs of equal standing: the
+NESTED-COMPOSITE WAVE BUILD (two customers: exact two-level KE, exact
+energy total) or the DYNAMICAL c4 COMMISSION (FND-127's chartered test
+of the 4.046 floor -- independent, parallel).
+
+## ALSO OPEN, NAMED
+- The magic angle's TRIPLE DUTY (isotropy / bending-neutral / c-orbit)
+  -- variational unification question, FND-130/132.
+- Sigma_wave naming registration (flagged pre-collision, EM-020 class).
+- papers/_sources/rope_plain_language_guide.docx refresh (docs sync
+  done in md; the Word guide is owed a format session).
+- Armed tripwires: T_fibre re-pricing moves v_m off c by name (FND-132);
+  any load-bearing fine-contact registration re-opens class A (FND-129).
+
+## HOUSE STATE
+All eight release notes present (check_release_notes OK). Docs synced:
+KNOWN_LIMITATIONS fine section rewritten, ROPE_PARAMETERS Sec. 6 added
+(card benchmark passes), SURPRISES Twelve/Thirteen, WHERE_IT_STANDS
+addendum, new docs/VACUUM_WAVE_PLAIN_LANGUAGE.md. Full benchmark suite
+NOT rerun this arc (multi-hour); the eight new/touched benchmarks all
+pass individually. Locked docs immutable throughout; grants exercised
+by the author on the record (Branch MAX; class C unbundled; MAINT
+charter; twist run).
+
+---
+# PRIOR HANDOFF (v3.26.70), preserved
+
+
+*Written 2026-08-17 at the close of v3.26.70 (the Bloch-L verdict
+release). 717 claims, registry at zero failures. THIS SECTION IS THE
+CLEAN HANDOFF for the next session; prior handoff content preserved
+below.*
+
+## THE ONE JOB
+TAKE GRANT-CANDIDATE-CONTACT TO THE DESK, or charter its bars. The
+fine weave's contact/clearance rule is now the sector's bottleneck:
+it gates THREE live questions at once -- the non-affine correction
+to Bloch-L's read, the second-order pre-stress terms of the bending
+channel, and therefore whether FND-121's KBSAT tripwire fires.
+FND-123 named it grant-class five sessions ago; FND-126 gave it
+three named customers. Read analysis/BLOCHL_longitudinal_results.md
+sections 4 and 5 first.
+
+The competing job, if the author prefers arithmetic to a grant: THE
+COMPENSATION RE-PRICING (see OWED below). It is smaller, fully
+specified, and blocks quotation of a registered ceiling.
+
+## THE LINE, IN SIX SENTENCES (context for a fresh session)
+COMMISSION BLOCH-L ran (FND-126) and returned CONFLICT: the fine
+longitudinal read is c_L,f = 3.00 c, off the derive-point, so
+k/T0 = 2 does NOT derive and FND-114 stands unupgraded. The
+structural payoff is larger than the verdict: the dynamical
+coarse->fine mapping is k_f/T0_f = 6(k/T0) - 3, ADDITIVE and
+containing NO winding angle, so FND-117's multiplicative
+factorization is superseded in form and the derived angles are NOT
+the defendant. Two corrections landed with it -- the registered
+winding radii and torsions were convention-inverted (FND-125,
+GRV-112), and the one-orientation-per-cell build is rank-deficient
+-- both found by controls, with a sensitivity leg confirming the
+verdict survives either geometry. The rigidity demand did not fire
+but was not spent, because nothing registered makes the response
+non-affine. KBSAT is infeasible with bending on and was
+deliberately NOT declared superseded, the omitted pre-stress terms
+being the same order as the effect. Every road out of tonight runs
+through the contact rule.
+
+## DISCIPLINE REMINDERS THAT HAVE EARNED THEIR PLACE
+- The seals held; they may now be quoted freely (sheet unsealed at
+  FND-126 section 6). New clean-room rules apply to nothing today.
+- THE THIRTEENTH CATCH'S LESSON, the sharpest of the arc: the form
+  the corpus had checked hardest (kappa) was exactly the form that
+  COULD NOT adjudicate, because sin 2psi is invariant under the
+  convention swap. When a check keeps passing, ask what it is blind
+  to before concluding the input is sound.
+- A grant is not executed on a computation whose declared hole is
+  the same order as its result. KBSAT stands, on notice.
+- Release rules: sync_doc_facts.py every cut; release note every
+  cut; README/KL are replace-only; version numbers never in prose.
+
+## OWED, AND NOT PAID AT v3.26.70
+Every quantity priced through the 4.046 double compensation --
+SHIN7's kb ceiling (0.126 T0_f a_f^2) and FND-091's eps = 0.5078
+headroom among them -- was priced through the factorization FND-126
+supersedes in form. NOT QUOTABLE until re-priced. Note the coupling
+the re-pricing must handle: the dynamics returns T_fibre = 1.5 T0_f
+where SHIN7 charged 4.046 T0_f, and the kb ceiling moves with it.
+
+## STANDING BOARD BELOW BLOCH-L (unchanged)
+KBSAT tripwire (armed, patrols kb); FND-121 clean-room condition 3;
+population-handedness (readable if ensemble constructed);
+induced-strength wall; LARES-2 gated (condition 4); plasma scope;
+n_rs; T2 clocks. The frame-dragging ceiling is Lambda_nat <= 4.7e34
+(FND-122) and inherits any r_s/a_f motion.
+
+# HANDOFF -- Rope Framework, next session
+
+*v3.26.65 (FND-121/122): KBSAT GRANTED (auto-supersession tripwire
+armed). The trap is PURE r_s: derive-point 0.2496 a_f, falsifier
+above 0.3529 a_f, clean-room guards the target. Frame-dragging
+ceiling tightened to 4.7e34. TOP NEXT (updated v3.26.66): the question now has THREE equivalent
+forms -- r_s = 0.2496 a_f / c_L,f = 2.844 c / the mapping is exact --
+and BLOCH-L IS CHARTERED (FND-124): longitudinal branch on the
+FND-089 instrument, rigidity demand standing guard inside it, R-gap CLOSED
+(FND-125: R_1 = 0.1125 a_f, R_2 = 0.2696 a_f derived from the joint
+kappa+tau system; FND-124 corrected by name). BLOCH-L IS RUNNABLE --
+the next session is the commission itself. The 0.355 ceiling is retired (provenance);
+0.3529 a_f (existence) is the ceiling of record. Superseded below:*
+
+*v3.26.64 (FND-120): GRANT-CANDIDATE-KBSAT was on the author's desk
+(maximal winding within the priced margin => kb saturates => the trap
+becomes PURE r_s: derive at 0.2496 a_f / falsifier above 0.3529 a_f).
+The case for and against is on FND-120's face; nothing runs until
+decided; independent r_s handles stay live regardless.*
+
+*v3.26.62 (FND-118/119): THE GRANT WAS MADE (elastic-rod class) and
+its first session ran. The trap's final form: pin kb/(T0_f r_s^2)
+and everything moves (2.023 derives k/T0 = 2; [1.011, inf)
+off-value = conflict; < 1.011 = falsifier). Corner excluded (the
+fiber cannot saturate both registered ceilings). TOP NEXT: a kb
+pricing session in the SHIN7 style. Superseded below:*
+
+*v3.26.61 (FND-117): GRANT-CANDIDATE-BASEFIBER was on the author's
+desk -- the constitutive class of the bottom fiber, double-armed
+(8.091 derives k/T0 = 2 programme-wide; [4.046, inf) off-value =
+conflict; < 4.046 = falsifier fires). Nothing in this line runs
+until the author decides. The inextensible-string class is already
+excluded; the live options are finite-stretch elastic rod (-> EA
+derivation session next) or recursive winding (-> re-poses one
+level down).*
+
+*v3.26.58 (GRV-128): the fine-scale gate for frame dragging is now ONE
+number (a_f) after the exact n_sub cancellation; Lambda_nat <= 9.5e34
+registered as the sector's first ceiling; the 1e37 coincidence
+adjudicated class-level. Any a_f bound from any sector prices
+Lambda_nat directly.*
+
+*Release-notes rule (v3.26.54): a release is not cut until
+docs/history/RELEASE_NOTES_v*.md exists for it -- every version bump
+ships a note, doc-only releases included (eight were backfilled at
+v3.26.54 after the author caught the gap).*
+
 *Release-cut rule (v3.26.53): every release MUST run
 tools/sync_doc_facts.py before packaging and heed its FRONTDOOR-STALE
 warnings -- the README version/stats are GENERATED blocks, and bumping

@@ -1,3 +1,374 @@
+## 3.26.77 (2026-08-17) -- THE ENERGY BILL: priced and payable -- and the vacuum's constituents move at exactly c
+
+- FND-132 (Modeled): FND-131's named next-order executed.
+- THE MATERIAL-SPEED IDENTITY: v_m^2/c^2 = sin^2(theta) x T_fibre = (2/3)(3/2)
+  = 1 EXACTLY. The level-1 winding's material points orbit at the medium's
+  own causal speed -- two registered numbers from different arcs multiplying
+  to one. Registered with an armed tripwire on T_fibre = 3/2.
+- THE BILL: static bookkeeping 1.0 T0 per strand per length; wave reading
+  2.598 T0 (level-1 exact) to <= 4.52 T0 (two-level bracket). Dynamical
+  share [0.615, 0.779].
+- THE WINDOW: FND-MATTER-041's zero-point robustness condition (< 0.889)
+  admits the share at both edges, margin 1.14-1.45x. THE BILL IS PAYABLE --
+  and the zero-point energy acquires a mechanical identity: it IS the
+  winding's rotation.
+- Residuals named: Sigma_wave naming (flagged pre-collision), exact
+  two-level KE (composite build's customer), the tension tripwire.
+- Amended: FND-131, FND-MATTER-041, FND-083. 723 claims.
+- DOCS SYNC (same release): KNOWN_LIMITATIONS fine-level section rewritten for
+  the post-arc state; ROPE_PARAMETERS.md §6 added (fine-level card: dynamical
+  mapping, contact-free grant, wave state, tripwires) and the stale 'Poisson
+  unregistered' note corrected; SURPRISES.md entries Twelve and Thirteen;
+  WHERE_IT_STANDS addendum; new docs/VACUUM_WAVE_PLAIN_LANGUAGE.md; README
+  links. Owed: papers/_sources/rope_plain_language_guide.docx refresh (named,
+  not executed -- document-format session).
+
+## 3.26.76 (2026-08-17) -- COMMISSION TWIST: the determination lands, condition 1 FIRES, THE WINDING IS A WAVE
+
+- FND-131 (Modeled): the twist channel determined without invention -- the
+  granted rod + the registered Poisson chain give C = kb/(1+nu) = 0.8 kb;
+  the density's two formation readings both computed (free-twist theorem:
+  omega = 0; Lk-conserving: omega = -1.5332/a_f, Fuller's writhe verified by
+  Gauss double integral to 0.05%).
+- THE EXCLUSION IS ROBUST: the static requirement exceeds the Frenet-locked
+  twist ceiling even at the most favourable corner of the (nu, kb) box
+  (margin 1.21x at nu = 0, kb = 0.282) and exceeds the Lk reading 4.6x at
+  standing values, wrong sign besides. C omega != 0.7162 DETERMINED.
+- THE DYNAMICAL READING IS FORCED: the winding is a rotating-wave state,
+  v_1 = sqrt(3/2) c exactly (FND-130). Not adopted -- forced, by three
+  independent registrations, each earned under its own bars.
+- FND-121 CONDITION 1 FIRES: KBSAT auto-superseded by its own law.
+  Reverting set executed verbatim (FND-128): kb <= 0.07909 T0_f a_f^2
+  (bound-with-named-gap: dynamical-background correction unpriced),
+  r_s <= 0.1874 a_f, (G I_p)_f <= 0.0633, FND-122 dividend <= 0.2948
+  T0 a_f (Lambda 3.3e34, chi >= 3.0e-35); GRV-128 unchanged (1.18e35).
+- Amended: FND-121, FND-130, GRV-072, FND-122, FND-126, FND-128. 722 claims.
+- NAMED NEXT: THE ENERGY BILL -- the perpetual rotation's kinetic energy vs
+  the registered Sigma/zero-point machinery: the wave reading's sharpest
+  falsification surface. Plus: the dynamical-background correction, the
+  composite wave build, the coincidence question, the c4 commission.
+
+## 3.26.75 (2026-08-17) -- COMMISSION MAINT: CHANNEL-OPEN, the warrant held -- and the magic angle is bending-force-neutral
+
+- FND-130 (Modeled): the winding-maintenance question ran under locked bars,
+  doubled clean-room held. VERDICT: CHANNEL-OPEN. Condition 1 does NOT fire.
+- THE BENDING-NEUTRALITY THEOREM (sympy-exact, numeric control 0.005%):
+  f_n = kappa[T + kb(tau^2 - kappa^2/2)], and tau^2 - kappa^2/2 =
+  2 pi^2 s(3s - 1) = 0 iff sin^2 psi = 1/3 -- THE MAGIC ANGLE. The winding
+  derived from the isotropy demand is also the unique bending-force-neutral
+  helix. Corollary filed on FND-088; coincidence question named.
+- THE REFUTATION: no static pure-bending equilibrium at either level --
+  level 1 kb-FREE (the theorem deletes the only static restoring channel),
+  level 2 by sign (bending reinforces). Channel (i) inadmissible verbatim.
+- THE BLOCK: the twist rescue reduces to ONE closed-form number, kb-free at
+  level 1 (C omega = T_fibre/tau_1 = 0.7162 T0_f a_f), and both factors are
+  unregistered (GRV-072). Channel (iv) blocked at the same registration.
+- THE EXHIBITED STATE: the level-1 winding is a rotating wave at EXACTLY
+  sqrt(3/2) c = 1.2247 c, bending-independent, every input registered and
+  forced; level-2 wave at 1.71-1.94 c across the kb range, inside margins.
+- THE TWIST SHEET, pre-registered: C omega = 0.7162 -> KBSAT adjudicates on
+  numbers; anything else -> dynamical forced, condition 1 fires with
+  FND-128's reverting set executed verbatim. No outcome null.
+- THE BOTTLENECK MOVED AND SHARPENED: contact rule (resolved, FND-129) ->
+  twist registration (GRV-072), now carrying the whole KBSAT adjudication
+  on a one-number sheet, three customers on its face.
+- Amended: FND-121, FND-129, FND-088, GRV-072. 721 claims.
+
+## 3.26.74 (2026-08-17) -- THE CONTACT GRANT: class C alone, unbundled; the warrant held; COMMISSION MAINT chartered with locked bars
+
+- FND-129 (Author-granted, the tenth structural grant): GRANT-CONTACT --
+  THE FINE WEAVE IS CONTACT-FREE, SUB-THRESHOLD, on three registered legs
+  (interpenetration primitive + zero-parameter threshold f_c = 0.309 +
+  blind-certified fine coverage at 7-20% of onset). A reading of registered
+  physics, not a new commitment.
+- THE UNBUNDLING IS THE DECISION: the topological-maintenance reading --
+  the least-supported piece of FND-128's package and the piece doing the
+  KBSAT-executing work -- is deliberately NOT adopted. Lk constrains
+  topology, not geometry; a tripwire executed on an adopted-to-enable
+  premise is the move FND-126 refused.
+- BOUGHT TONIGHT, maintenance-independent: non-affine channel = 0;
+  FND-124's rigidity demand PASSED-UNGATED; c_L,f = 3.00 c FINAL at this
+  instrument class; the k/T0 = 2 derive question CLOSED here unless the
+  grant is superseded by name (supersession clause on the face: any
+  load-bearing fine-contact registration re-opens class A).
+- THE WARRANT: held, displayed-not-served. FND-121 condition 1 is now
+  mechanically gated on COMMISSION MAINT's pre-registered verdict grammar.
+- COMMISSION MAINT chartered, bars LOCKED (analysis/
+  MAINT_equilibrium_bars_LOCKED.md): static equilibrium without contact
+  forces, or necessarily dynamical? Closed channel list (elastic
+  self-equilibrium / bending-moment balance / dynamical maintenance /
+  topological rigidity), doubled clean-room (derive-point family AND kb
+  numbers excluded from build legs), three verdicts, none null:
+  EQUILIBRIUM-EXISTS -> pre-stress computable, KBSAT adjudicates on
+  numbers; NO-STATIC-EQUILIBRIUM -> dynamical reading FORCED, tripwire
+  fires mechanically on that release; CHANNEL-OPEN -> instrument demand
+  named, warrant stays held.
+- Amended faces: FND-128, FND-121, FND-124, FND-126, FND-123. 720 claims.
+
+## 3.26.73 (2026-08-17) -- THE CONTACT RULE SESSION (PE11): GRANT-CANDIDATE-CONTACT to the desk, carrying another grant's execution warrant
+
+- FND-128 (Modeled): the bottleneck registration chartered. The registered
+  inventory is not silent: interpenetration primitive, tangibility emergent
+  at f_c = 0.309 (zero parameters), contact-as-constraint where it operates.
+- THE LOAD-BEARING NUMBER: the fine weave's own SPARSE-CERTIFIED coverage
+  (2.15-6.08%) sits at 7-20% of the registered tangibility onset -- 5-14x
+  below -- crossing rate ~ f^2 = 5e-4 to 4e-3 per cell. Fine-fibre contacts
+  are dynamically sub-threshold by the corpus's own structure.
+- THREE CLASSES PRICED, decision reserved: (C) CONTACT-FREE, derivation-
+  shaped -- non-affine correction zero (FND-124's demand PASSED-UNGATED,
+  the read 3.00 c final at this instrument class), and with the topological-
+  maintenance reading the Kirchhoff gap closes, kb <= 0.079 converts to a
+  determination, and FND-121 CONDITION 1 FIRES (KBSAT auto-supersedes;
+  reverting set enumerated: r_s <= 0.1874, (G I_p)_f <= 0.0633, FND-122
+  ceiling -> 3.3e34); the grant BUNDLES the maintenance re-reading.
+  (A) CLEARANCE -- one imported parameter, the only class under which
+  k/T0 = 2 could still derive (10.2% softening = 3.00 -> 2.844 c).
+  (B) MIRRORED -- two imported constants, deferral-shaped.
+- Amended faces: FND-123 (customer served), FND-121 (warrant displayed,
+  not served), FND-124 (class-C consequence displayed). 719 claims.
+- The dynamical c4 commission (FND-127) is independent and can run parallel.
+
+## 3.26.72 (2026-08-17) -- COMMISSION REPRICE: the 4.046/8.091 docket closes; the kb ceiling RISES; the corner exclusion dissolves
+
+- FND-127 (Modeled): every quantity priced through the superseded
+  multiplicative compensation recomputed under the dynamical mapping
+  (k_f/T0_f = 9 exactly at k/T0 = 2, T_fibre = 3/2 T0_f; FND-114 rider
+  carried unchanged). Benchmark benchmarks/foundations/reprice_4046.py.
+- THE DIRECTION SURPRISE: SHIN7's kb ceiling re-prices UP, 0.126 -> 0.2819
+  T0_f a_f^2 -- the ceiling is a headroom price and the smaller dynamical
+  tension spend (1.5 vs 4.046 of the 6.1x floor) leaves MORE headroom
+  (eps 0.508 -> 3.067). Conditional on the energy-price form.
+- THE COST: FND-119's corner exclusion (the 1.2% squeeze, the first-ever
+  bottom-fiber constraint) was priced off the superseded ceiling and
+  DISSOLVES (re-priced corner k_f = 9.06 > 4.046). Superseded-not-erased.
+- THE COLLAPSE: the (kb, r_s) price sheet re-expresses as derives-iff
+  kb/(T0_f r_s^2) = 9/4, and at KBSAT its derive-point (0.2366) equals
+  BLOCH-L's read by identity -- the sheet's discriminating power is SPENT
+  pending an independent (kb, r_s) determination.
+- GRV-128 (SWEEP-TAU rider executed): C = 1.0569, lambda_strand <= 2.815e-19 J,
+  Lambda_nat <= 1.18e35, chi_required >= 8.5e-36 (Branch MAX held).
+- THE FLOOR: EM-RECON-032's 4.046 core-existence demand SURVIVES FLAGGED
+  (quartic projection, distinct object from stiffness homogenization);
+  its dynamical test -- the wound-bundle c4 on FND-089's machinery -- is
+  the named next-order. Via the mapping: floor reads k/T0 >= 1.174,
+  positivity cap reads k_f < 15; the read 9.008 sits inside both.
+- KBSAT: displayed, not decided. Condition 1 does NOT fire (the ceiling
+  moved UP). The grant's value question is at the author's desk.
+- Amended faces: FND-091, FND-115, FND-116, FND-118, FND-119, FND-121,
+  FND-122, GRV-128, EM-RECON-032. 718 claims.
+- The 4.046 family docket CLOSES. Remaining open: the contact-rule grant
+  candidate (FND-123) and the KBSAT value decision.
+
+## 3.26.71 (2026-08-17) -- SWEEP-TAU: the thirteenth catch propagated register-wide; BRANCH MAX adopted
+
+- Full-register sweep of FND-126's psi-convention correction: 717 claims read,
+  nine touch the tau/R tokens, TWO chains consume tau numerically (GRV-128's
+  fine-level lambda ceiling; FND-122's cross-sector dividend), both
+  gravitomagnetic. No other sector is torsion-exposed -- verified by sweep.
+- THE SET IS NOT A PERMUTATION: corrected {2.0944, 4.6593} vs inverted
+  {4.1888, 1.6239}; the max per-strand torsion RISES 11%, the level-1 value
+  halves. Precision note appended to GRV-112's earlier bracket.
+- BRANCH MAX ADOPTED (author's decision): both chains are registered ceilings
+  and a ceiling takes the conservative torsion (4.6593/a_f). GRV-128:
+  lambda_strand <= 0.9502 T0 a_f, Lambda_nat <= 1.06e35, chi_required >=
+  9.4e-36 (loosens x1.1123). FND-122: dividend -> 0.4697 T0 a_f, ceiling
+  4.7e34 -> 5.2e34, chi_required >= 1.9e-35. Declined L1 branch displayed on
+  both faces with its supersession condition named.
+- Amended faces: GRV-111, GRV-127, GRV-128, FND-115, FND-122, GRV-112 (note).
+- Benchmarks: tau_ident_nungrv21.py branch-flagged and corrected;
+  nungrv9_chi_bound.py display fix (bound value unaffected -- linear in chi,
+  never in tau); shin8_fine_weave.py label note (identity untouched).
+- Locked analysis docs (NUNGRV20/21, NUNGRV9, SHIN8) immutable; this release
+  is their superseded-by pointer.
+- OWED, unchanged: the 4.046/8.091 re-pricing docket and the contact-rule
+  grant candidate (FND-123) -- the 8.091 -> 9.008 re-pricing intersects
+  GRV-128 (a further x1.113 on MAX) and was deliberately not executed here.
+
+## 3.26.70 (2026-08-17) -- COMMISSION BLOCH-L: k/T0 = 2 does NOT derive; the mapping superseded in form; two named corrections
+
+- FND-126 (Modeled): BLOCH-L ran on FND-089's supercell machinery with all
+  three controls re-run for the longitudinal build, cleared its locked
+  window (lambda = 24p vs 48p, drift 0.0343% against the 0.5% bar), and
+  READ c_L,f = 3.00 c -> r_s = 0.2365 a_f: OFF the derive-point, inside
+  FND-122's CONFLICT region, above the rigidity threshold, on the safe side
+  of EM-RECON-032's falsifier. k/T0 = 2 does NOT derive; FND-114 is NOT
+  upgraded; the alpha chain's rider is unchanged.
+- THE STRUCTURAL RESULT, exact: k_f/T0_f = 6(k/T0) - 3 and T_fibre/T0_f =
+  9/2 - (3/2)(k/T0), i.e. k_f/T0_f = 9 EXACTLY at k/T0 = 2, with a new
+  structural bound k/T0 < 3 from positivity of the fibre tension. The
+  mapping is ADDITIVE and ANGLE-FREE; FND-117's multiplicative,
+  angle-dependent factorization is SUPERSEDED IN FORM (its refusal, its
+  inextensible-bottom exclusion and its non-circularity argument survive).
+  The angles are not the defendant -- the law does not move when they do.
+- NAMED CORRECTION (thirteenth catch) to FND-125 and GRV-112's tau line:
+  the registered radii and torsions carry an angle-convention inversion.
+  kappa is convention-blind and cannot adjudicate; FND-088's isotropy
+  theorem does. Corrected R_1 = 0.22508 a_f, R_2 = 0.09396 a_f;
+  tau_1 = 2.0944/a_f, tau_2 = 4.6593/a_f. FND-091/SHIN7 untouched.
+- INSTRUMENT CATCH, disclosed before the run it governed: one fibre
+  orientation per cell is rank-deficient and collapsed the read; the
+  registered bundle carries all phase pairs, so each cell samples the phase
+  torus. Repaired, converges by 16 fibres/cell to the affine limit at 0.05%.
+- SENSITIVITY LEG on the charter's uncorrected geometry lands in the SAME
+  conflict region while failing FND-089's isotropy bar at 17.06% -- the
+  verdict is robust to the correction.
+- RIGIDITY DEMAND not fired and NOT SPENT (the response is affine because
+  nothing registered makes it otherwise). KBSAT TRIPWIRE approached and
+  deliberately NOT pulled: infeasible at kb = 0.126 (negative fibre
+  tension), feasibility needs kb <= 0.0791 -- registered CONDITIONAL, the
+  omitted pre-stress terms being the same order as the effect.
+- THE BOTTLENECK NAMED: the fine weave's contact rule (FND-123,
+  grant-class) gates all three of the above and goes to the desk.
+- OWED: re-pricing of every 4.046-conditional quantity (SHIN7's kb ceiling,
+  FND-091's eps headroom); not quotable until re-priced.
+- 717 claims.
+
+## 3.26.69 (2026-08-16) -- BLOCH-L: resonance check passed; charter locked; clean handoff written (no new claims)
+
+- Resonance-avoidance check run (light): the locked reading window
+  (lambda = 24p and 48p, convergence bar 0.5%) sits 24-48x from
+  FND-085's excluded resonance and 3-8x deeper than FND-086's
+  validated homogenization point. PASS by construction;
+  REGIME-NOT-REACHED registered as the stop condition.
+- analysis/COMMISSION_BLOCHL_charter_LOCKED.md written:
+  self-contained charter (question in three forms, clean-room
+  seals, the FND-089 instrument with its three inherited controls,
+  fully sourced inputs including the FND-125 radii and the KBSAT
+  tripwire, the locked window, the rigidity demand as internal
+  kill, and the pre-registered outcome sheet with no null region).
+- HANDOFF rewritten as a clean handoff: the one job, the line in
+  six sentences, the discipline reminders that earned their place
+  today, and the standing board. A fresh session can run the
+  commission from the charter plus the registry alone.
+- 716 claims; doc-only release.
+
+## 3.26.68 (2026-08-16) -- THE R READING: the radii were derivable all along; FND-124 corrected; Bloch-L is runnable
+
+- FND-125 (Modeled): the registered kappa+tau closed forms are
+  JOINTLY the standard Frenet helix iff R = p tan(psi)/(2pi) --
+  machine-exact on all four registered values. R_1 = 0.11254 a_f,
+  R_2 = 0.26959 a_f DERIVED. NAMED CORRECTION to FND-124 (twelfth
+  catch, operator layer): the stage-1 convention check tested the
+  forms separately; the joint system is unique. The rigidity demand
+  and charter survive; BLOCH-L's INPUT LIST CLOSES. Caveated
+  display: load paths look comparable near the derive-point --
+  Bloch-L would be decisive, not confirmatory. 716 claims.
+
+## 3.26.67 (2026-08-16) -- BLOCH-L STAGE 1: the rigidity demand derived; the R-gap found; the commission chartered
+
+- FND-124 (Modeled): THE RIGIDITY DEMAND -- the registered sqrt(2)c
+  coarse channel floor reaches down a level: the fine winding must
+  be STRETCH-DOMINATED axially or the structure violates its own
+  floor; registered falsifier-shaped, it fires before any target
+  comparison in Bloch-L. THE R-GAP -- the winding radius is
+  unregistered (both natural helix conventions disagree against the
+  registered closed forms); no spring number computed tonight (it
+  would smuggle an invented R). COMMISSION BLOCH-L chartered on
+  FND-089's triply-controlled instrument: longitudinal branch,
+  granted-rod inputs, targets sealed from the build, speed-form
+  sheet pre-registered (2.844c derives; else the FND-122 sheet
+  catches it; sub-projection fires the rigidity demand first).
+- Next: the R reading (one verbatim pass through the SHIN
+  construction for the helix parametrization); Bloch-L runs when
+  its inputs close. 715 claims.
+
+## 3.26.66 (2026-08-16) -- THE r_s HANDLE SESSION: no handle tonight; the question converts to a speed
+
+- FND-123 (Modeled): NO-REGISTERED-HANDLE -- 'is r_s = 0.2496 a_f'
+  cannot be answered from the current registry (every named
+  instrument closed: no contact rule, FND-109 is a convention,
+  rho_f unregistered, no fine dispersion measurement). Delivered:
+  PROVENANCE RETIREMENT (the 0.355 string-reading ceiling
+  superseded; the existence bound 0.3529 a_f is the ceiling of
+  record) and THE SPEED EQUIVALENCE (exact, r_s cancels):
+  r_s/a_f = 0.7099 c/c_L,f -- the question IS 'is the fine
+  longitudinal speed 2.844 c' IS 'is the mapping exact', with the
+  ladder identity c_L,f/c_L,coarse = sqrt(gamma_1 gamma_2) = 2.0115
+  registered as structure. Next natural attack: a fine-channel
+  dispersion session on the FND-089 Bloch machinery. 714 claims.
+
+## 3.26.65 (2026-08-16) -- THE kb SATURATION GRANT AND ITS CONSEQUENCES: the trap goes pure-r_s; the frame-dragging ceiling halves
+
+- FND-121 (Author-granted, the ninth grant): kb = 0.126 T0_f a_f^2
+  by maximal-winding extremal principle; the against-case preserved
+  on the face and answered by CONDITION 1, the auto-supersession
+  tripwire (any independent kb below the ceiling supersedes the
+  grant automatically, by name, same release). Falsifiable on
+  arrival. Clean-room: the r_s derive-point may not steer r_s work.
+- FND-122 (Modeled): the FND-119 sheet BINDS in one length --
+  r_s = 0.2496 a_f derives k/T0 = 2; conflict off-point; falsifier
+  above 0.3529 a_f. No r_s handle registered; the sector parks on
+  the programme's sharpest question. LEDGER SWAP: E_f out, r_s in.
+  CROSS-SECTOR DIVIDEND (verified): (G I_p)_f is r_s-INDEPENDENT
+  under KBSAT, so lambda = 0.4222 T0 a_f becomes an equality (given
+  coherence) and the frame-dragging ceiling TIGHTENS to
+  Lambda_nat <= 4.7e34, chi_required >= 2.1e-35. KL updated.
+  713 claims.
+
+## 3.26.64 (2026-08-16) -- THE kb VALUE SESSION: inversion blocked (and the block is good news); KBSAT chartered to the desk
+
+- FND-120 (Modeled): the winding angles are ISOTROPY-DERIVED
+  (FND-088/090), kb-free -- the extremum inversion cannot run, and
+  that kb-independence is exactly why FND-117's factorization was
+  non-circular (the block and the trust are one fact). No
+  registered equality contains kb. VALUE-UNREACHABLE-AT-REGISTRY.
+- THE EXITS PRICED, neither taken: (i) GRANT-CANDIDATE-KBSAT
+  (maximal winding within the priced margin) chartered to the desk
+  -- under it the trap becomes PURE r_s: derives k/T0 = 2 at
+  r_s = 0.2496 a_f exactly, falsifier above 0.3529 a_f, corner
+  exclusion patrolling, coverage consistent; the for (extremal
+  principle, same family as the isotropy demand) and against (the
+  assume-saturation move the house refuses elsewhere) both on the
+  face, decision reserved. (ii) any fine bending-mode observable
+  pins kb directly; none registered. 711 claims.
+
+## 3.26.63 (2026-08-16) -- FND-118 DISPLAY NOTE: the declined branch, priced (no new claims)
+
+- Author-requested appendix on FND-118's note: the post-decision
+  exploration of alternative (B) recorded -- strictly self-similar
+  recursion is SELF-REFUTING (2 x 4.046^n diverges into the
+  excluded inextensible class); the sole viable variant is a
+  convergent ANGLE FLOW (psi_n -> 90 deg, named as the only door);
+  the costs priced (infinite constant ladder; the price sheet
+  unreachable at finite depth; the PeV soft falsifier dissolves).
+  Grant condition 2 sharpened: future recursion proposals arrive
+  with a convergent angle flow or die by the divergence argument.
+  Decision unchanged; display note only. 710 claims.
+
+## 3.26.62 (2026-08-16) -- THE BASE-FIBER GRANT AND ITS FIRST SESSION: the rod identity; the price sheet in final form; the corner excluded
+
+- FND-118 (Author-granted, the eighth structural grant): the bottom
+  fiber is a FINITE-STRETCH ELASTIC FILAMENT, class granted NOT
+  number, clean-room doubled on the face; recursion declined
+  (defers its own adjudication); depth-two SHIN registration
+  confirmed terminal; E_f enters the irreducible-constant class.
+- FND-119 (Modeled): THE ROD IDENTITY k_f = 4 kb/r_s^2 exact under
+  the grant -- the ratio question becomes the PAIR (kb, r_s). Price
+  sheet in final registered form: derives k/T0 = 2 iff kb = 2.023
+  T0_f r_s^2; conflict in [1.011, inf) off-value; falsifier below
+  1.011; no null region. CORNER EXCLUDED: both ceilings saturated
+  gives 3.999 < 4.046 -- matter existence forbids the fiber living
+  at its ceilings (1.2 percent squeeze), the first constraint on
+  the bottom fiber's actual mechanics. Semi-circular near-match
+  displayed, not spent. k/T0 = 2 remains at FND-114's grade.
+- Next: a kb pricing session in the SHIN7 style; any independent
+  r_s handle enters the sheet directly. 710 claims.
+
+## 3.26.61 (2026-08-16) -- THE FINE-ELASTICITY SESSION: inventory insufficient; the best-priced grant question in programme history goes to the desk
+
+- FND-117 (Modeled): the lock route REFUSED by reading (gamma =
+  1/sin^2 theta is helix geometry, not a stretch ratio -- the day's
+  fifth name-adjacency); THE FACTORIZATION registered (the
+  compensation law and the lock law are ONE law, independently
+  derived twice: k_f/T0_f = (k/T0) x gamma_1 x gamma_2, non-
+  circular, form-constraining); THE EXCLUSION derived (finite
+  coarse ratio + multiplicative mapping excludes an inextensible
+  bottom fiber); and GRANT-CANDIDATE-BASEFIBER goes to the author's
+  desk with the double-armed price sheet on its face -- k_f/T0_f
+  = 8.091 derives k/T0 = 2 programme-wide; off-value in [4.046,
+  inf) registers a conflict; below 4.046 fires the armed falsifier.
+  NO NULL OUTCOME. Decision reserved to the author. 708 claims.
+
 ## 3.26.60 (2026-08-16) -- THE k/T0 = 2 READING: remains adopted; FND-115 corrected by name within the hour
 
 - FND-116 (Modeled): CIRCULARITY FOUND -- EM-RECON-032 defined

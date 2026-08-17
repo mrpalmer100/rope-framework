@@ -6,7 +6,7 @@ you have found it in under five minutes.
 
 *Revised against the current registry.*
 <!-- BEGIN GENERATED: corpus_stats -->
-*707 registered claims, 622 code-backed and passing, 121 Derived, 45 registered Failed and kept.*
+*723 registered claims, 628 code-backed and passing, 121 Derived, 45 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
 
@@ -20,6 +20,49 @@ items live in their standing homes: the underived absolute scales (m, n_sub) are
 corpus-wide irreducible-constant class (FND-MATTER-003 / FND-110), the discrete
 O((ka)^2) question is FND-REL-004's, and the soft falsifier (any confirmed photon
 above m x 1.4 PeV forces m upward) is registered on FND-086/087.
+
+## The fine level after the 17 Aug arc: the winding is a wave, and the ledger is bounds
+
+The BLOCH-L verdict stands: **k/T0 = 2 does not derive** (c_L,f = 3.00 c, now
+FINAL at this instrument class per GRANT-CONTACT); FND-114 stays
+ADOPTED-ADJUDICATED and the alpha chain's inheritance rider is unchanged. The
+17 Aug arc (FND-126 → FND-132, v3.26.70 → v3.26.77) paid every debt the
+commission named: the psi-convention correction was swept register-wide
+(SWEEP-TAU, Branch MAX), the 4.046/8.091 family was re-priced under the
+dynamical mapping `k_f/T0_f = 6(k/T0) − 3 = 9` (FND-127), the contact rule was
+granted — **the fine weave is contact-free, sub-threshold** (FND-129, three
+registered legs) — the twist channel was determined (C = kb/(1+ν) = 0.8 kb;
+both formation readings computed, FND-131), and KBSAT was **executed by its own
+condition 1**: the static winding is unreachable across the entire admissible
+box, so **the winding is a rotating-wave state, forced not adopted** (level-1
+wave at √(3/2) c; material points orbiting at exactly c; energy bill payable
+inside FND-MATTER-041's zero-point window, FND-132).
+
+**The standing limitations of the fine sector, current:**
+
+- **kb ≤ 0.07909 T0_f a_f² is a bound-with-named-gap**: the BLOCH-L anchors ran
+  on a *static* winding; the rotating-wave background's second-order
+  corrections are unpriced. This is the sector's sharpest open computation.
+- **The two-level composite wave is bracketed, not built.** The level-1
+  rotating wave is exact; the nested construction (and the exact two-level
+  kinetic energy, which the energy bill only brackets at [0.615, 0.779]
+  dynamical share) awaits the composite build on FND-089-class machinery.
+- **Armed tripwires**: the material-speed identity v_m = c is exact at
+  T_fibre = 3/2 — any re-pricing of the fibre tension moves it off c by name
+  (FND-132); GRANT-CONTACT's supersession clause re-opens class A (and the
+  10.2%-softening route back to the k/T0 = 2 theorem) on any registration of
+  load-bearing fine contacts.
+- **The magic angle's triple duty is unexplained**: isotropy-exact (FND-088),
+  bending-force-neutral (FND-130), and c-orbital (FND-132) at one angle,
+  derived from unrelated demands. Either a variational principle unifies them
+  or the corpus owns a spectacular coincidence; the question is named, not
+  answered.
+- **The 4.046 core-existence floor survives flagged** (quartic projection,
+  distinct from the convicted stiffness mapping); its own dynamical test —
+  the wound-bundle c4 on FND-089 machinery — is chartered and unrun.
+- **Sigma naming**: the wave total (2.6–4.5 T0/a²-class) is a distinct object
+  from Sigma_vac = 3 T0/a²; flagged before collision (EM-020 precedent), the
+  Sigma_wave registration is owed.
 
 ## The electron core's axis: pinned, meaning open
 
@@ -115,7 +158,7 @@ kept straight, several quantum facts are **adopted, not derived**, or **open**:
 ## Gravity
 
 - **Frame dragging: form derived; amplitude gated on the fine scale.** As of 16 Aug
-  2026 (through FND-116), the current state is: the gravitomagnetic-to-
+  2026 (through FND-123), the current state is: the gravitomagnetic-to-
   gravitoelectric ratio is derived exactly as `Lambda x J sin^2(theta)/(Mc)`, r-free,
   with every structural element parameter-free (J-linearity by the granted beta_J = 1;
   the Lense-Thirring angular form; parity; dipole-led sourcing; complete radial
@@ -126,7 +169,8 @@ kept straight, several quantum facts are **adopted, not derived**, or **open**:
   symbolic — the coupling's torsion is the vacuum weave's own, registered at the FINE
   level (`4.1888/a_f`, GRV-112), and after GRV-128's exact `n_sub`
   cancellation the gate is ONE number: `a_f` (the FND-110 suspension). A registered
-  CEILING now exists: `Lambda_nat <= 9.5e34` (audited twice and standing: the
+  CEILING now exists: `Lambda_nat <= 4.7e34` (tightened from 9.5e34 by the KBSAT
+  grant's r_s-cancellation, FND-122; riders KBSAT + coherence on the face) (audited twice and standing: the
   object challenge, GRV-128, and the compensation challenge, FND-115 -- the SHIN
   1/sin^2 compensation is inside k_f/T0_f = 8.091 by construction, FND-116) at the `a_f` ceiling, falling linearly
   with `a_f`; GR-strength dragging demands `chi >= 1.1e-35`. No point value is
