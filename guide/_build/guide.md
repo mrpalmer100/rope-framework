@@ -89,6 +89,16 @@ traveling ripple, moving sideways to the rope's own length, is light.
 
 ![Light is a transverse ripple: the rope moves only side-to-side, while the ripple itself races along it from one atom to another at speed c. The two sideways directions are the two polarisations of light. (The travelling wave becomes a standing wave when confined — that trapped version is what forms the electron shells in the chemistry chapter.)](/home/claude/rope/rope/guide/_build/light.png)
 
+> REGISTERED (August 2026): the directional language on this page is no longer
+> unregistered prose. The five-commission electromagnetic arc derived it:
+> the push direction (EM-RECON-024), the whole-mesh carrier and why light is
+> massless (EM-RECON-025), the plus/minus whirlpool rule (EM-RECON-026), the
+> one-number normalization kappa_0 = c/sqrt(eps0*SIGMA) (EM-RECON-027), and
+> the no-drag closure theorem plus mu_0 = 1/(eps0 c^2) (EM-RECON-028). See the
+> "Which way does light push?" chapter of the plain-language guide and the
+> postscript of the QPT paper.
+
+
 
   **THE          *Picture two people holding a long jump rope, and one of
   ANALOGY**      them gives it a single, sharp flick. A hump of rope
@@ -728,6 +738,71 @@ technical papers do state --- but the papers themselves assert the
 tension-drop and verify its CONSEQUENCES, rather than spelling out this
 particular mechanical reasoning step by step. (Where gravity's overall
 STRENGTH comes from is taken up just above.)*
+
+## Frame dragging — the swirl around anything that spins
+
+General relativity makes one more strange promise about gravity, and it
+has been checked: a spinning mass does not just pull things toward it —
+it slowly wrings the space around it. A satellite orbiting a spinning
+planet has its orbit dragged around in the direction of the spin, very
+slightly, as if the floor it stands on were slowly turning. This is
+called frame dragging (the Lense–Thirring effect), and laser-ranged
+satellites around Earth have measured it, matching Einstein's prediction.
+
+The rope picture's explanation is, once again, embarrassingly literal.
+In this framework a body's spin is not an abstract number: a spinning
+mass actually holds a twist in the weave of ropes it is anchored to —
+the way winding a crank puts real twist into a real cable. That twist
+cannot stay put. It leaks into the surrounding network and conditions
+it, the same way a heavy knot's tension conditions the network to make
+ordinary gravity. And because a neutral spinning body has no net "spin
+charge," a theorem of the framework forces the influence to spread in
+the gentlest allowed pattern: strongest around the equator, fading fast
+with distance, with a handedness set by which way the body spins.
+
+So the weave near a spinning planet carries a faint standing swirl,
+turning the same way the planet turns. A satellite moving through that
+region is riding a floor that is slowly rotating underneath it — and
+its orbit drifts accordingly. Where Einstein says "spacetime is dragged"
+as a statement about geometry, the rope picture says the fabric is
+actually, mechanically twisted. A handy image from the electricity
+chapter: a conduction rope works like a drill bit — push it lengthwise
+and its winding turns the push into rotation. A spinning planet is the
+drill bit run in reverse, at planetary scale: rotation pumps twist into
+the weave, and the weave's answering swirl is frame dragging.
+
+Here is what the framework genuinely derives, with no knobs to turn.
+Double the spin and the drag doubles — that is forced, because in this
+picture spin IS twist, one-for-one. The drag is strongest over the
+equator and fades toward the poles in exactly the mathematical pattern
+Einstein's theory has. Reverse the spin and the drag reverses. And one
+more delicate thing comes out exactly: in general relativity, the RATIO
+of the dragging effect to ordinary gravity famously does not depend on
+how far away you are, or on the strength of gravity itself. The rope
+picture's ratio loses its distance dependence in precisely the same
+way, for its own homegrown reason — the pull and the swirl are two
+solutions of the same underlying equation, so their ratio cleans itself
+up. That cancellation was not put in by hand; it fell out, and it
+surprised the people doing the calculation.
+
+Then comes the framework's most distinctive twist on the story —
+literally. When the calculation traces the swirl's strength down to its
+microscopic root, the only channel it finds is one that exists ONLY if
+the vacuum weave itself has a slight net handedness — a tiny overall
+excess of left-twisting over right-twisting strands, or the reverse.
+Write that imbalance as a fraction, and the frame-dragging strength is
+simply (that fraction) times (a natural scale built from the strands'
+stiffness and winding). A perfectly balanced weave — the
+zero-assumption default — would drag nothing at all. In other words: in
+the rope picture, a frame-dragging measurement is, at bottom, a
+measurement of whether the universe is left-handed or right-handed, and
+by how much. No other picture of gravity ties those two ideas together
+so directly.
+
+
+| **HONEST LIMIT — AND HOW THIS FRAMEWORK POLICES ITSELF** | The SHAPE of frame dragging above is derived, but its STRENGTH is not yet a number. The natural scale it multiplies depends on the winding and stiffness of the very finest strands — a structural level whose absolute size the framework has deliberately never assigned, because assigning it without a derivation would be guessing. For a few hours during the work, a shortcut looked available: borrow a twist rate from the electricity chapter's conduction ropes and price the strength with it. The numbers that came out were exciting — they briefly suggested the observed "cosmic birefringence" (a claimed slight rotation of light crossing the universe) and frame dragging might be one and the same handedness, seen twice. But a scheduled cross-check, one the calculation itself had demanded in advance, caught the shortcut the same evening: the conduction rope's twist and the vacuum weave's twist are different objects, and nothing in the framework identifies them. The exciting numbers were withdrawn, at full volume, in the record. What stands is the structure — the mechanism, the exact shape, the handedness connection — and the promise that when the fine-strand scale is finally derived, frame dragging becomes a sharp yes-or-no test. That a wrong number was caught within hours by the framework's own scheduled check, and retracted in public, is not an embarrassment of the method; it IS the method. |
+|:--|:--|
+
 
 \newpage
 
