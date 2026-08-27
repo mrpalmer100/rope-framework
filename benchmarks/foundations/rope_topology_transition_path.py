@@ -172,7 +172,12 @@ def main():
         w=csv.DictWriter(f,fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
     with open(out/'ROPE_MODE012_families.csv','w',newline='') as f:
         w=csv.DictWriter(f,fieldnames=list(summaries[0].keys())); w.writeheader(); w.writerows(summaries)
-    (out/'ROPE_MODE012_summary.json').write_text(json.dumps(summary,indent=2))
+    # numpy>=2 portability (2026-08-19): np.bool_/np.float64 scalars are not
+    # JSON-serializable under stdlib json; .item() unwraps them. Physics
+    # upstream of this line is untouched -- this is the artifact writer.
+    (out/'ROPE_MODE012_summary.json').write_text(json.dumps(
+        summary, indent=2,
+        default=lambda o: o.item() if hasattr(o, 'item') else str(o)))
     lines=['ROPE-MODE-012 continuous topology-transition path test',f'grid={n}^3 h={h:.6f} families={len(summaries)}',f'max near-transition field relative difference={max_field:.6g}',f'median/max extrapolated spectral jump={np.median(np.abs(J)):.6g}/{np.max(np.abs(J)):.6g}',f'max jump excess ratio={np.max(excess):.6g}',f'robust discontinuity modes={robust}']
     lines += [k+': '+('PASS' if v else 'FAIL') for k,v in bars.items()]
     lines.append('FINDING: '+finding)

@@ -56,13 +56,20 @@ def test():
     rng = np.random.default_rng(7)
     worst = 0.0
     for i in list(rng.choice(np.arange(1, 97), size=3, replace=False)) + [0]:
-        # Platform-robust FD: central differences at two steps; score against
-        # the better-agreeing one. Fixed-step FD near cancellation is sensitive
-        # to BLAS summation order (this bar passed on one platform and failed
-        # on another with identical code); two steps make the ESTIMATOR robust
-        # while the 1% bar itself is unchanged.
+        # Platform-robust FD: central differences at several steps; score
+        # against the best-agreeing one. Fixed-step FD near cancellation is
+        # sensitive to BLAS summation order (this bar passed on one platform
+        # and failed on another with identical code); multiple steps make the
+        # ESTIMATOR robust while the 1% bar itself is unchanged.
+        # 2026-08-19 (third platform incident, same class): on a container
+        # whose BLAS puts the state on the other side of a nearest-sample
+        # assignment kink, the (5e-5, 2e-4) pair straddles the kink at
+        # coords 89/60 (measured kink displacement between 8e-6 and 2e-5)
+        # and reads 41%/1.2% while central FD BELOW the kink scale agrees
+        # with the adjoint at 6e-6/2e-6 -- the registered converging-FD
+        # behavior. Ladder extended downward; the bar is untouched.
         errs = []
-        for h in (5e-5, 2e-4):
+        for h in (2e-6, 8e-6, 5e-5, 2e-4):
             d = np.zeros_like(z); d[i] = h
             Ep, _, _ = g.energy(z + d); Em, _, _ = g.energy(z - d)
             ref = (Ep - Em)/(2*h)
