@@ -9,7 +9,7 @@
 
 **Version:**
 <!-- BEGIN GENERATED: version -->
-3.27.6
+3.28.0
 <!-- END GENERATED: version -->
 
 A machine-verified development of the Rope Hypothesis — a classical, mechanical model in which matter and light are configurations of physical filaments — into falsifiable, independently checkable form.
@@ -20,7 +20,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 >
 > **What makes it unusual is the discipline.** Every claim is registered with a pass/fail line drawn *before* the computation runs, and the failures are kept on permanent display rather than quietly dropped. As of this release:
 <!-- BEGIN GENERATED: corpus_stats -->
-*742 registered claims, 641 code-backed with 639 passing (2 itemized in docs/VERIFY_STATUS.md), 121 Derived, 45 registered Failed and kept.*
+*742 registered claims, 641 code-backed and passing, 121 Derived, 45 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats --> A dealbreaker, if one exists, should be findable in about five minutes — start with [`KNOWN_LIMITATIONS.md`](KNOWN_LIMITATIONS.md).
 >
 > **Where it is strong (the five-line version):** electromagnetism and optics derive from one wave equation on the weave; the classic gravity tests (light bending, Mercury, clock rates) come out exact; the fine-structure constant lands at 178 ppm from geometry; chemistry and the nuclear mass table are full mechanical layers; and the exact quantum ceiling (the Tsirelson bound) is a theorem. Full account: [`docs/WHERE_IT_STANDS.md`](docs/WHERE_IT_STANDS.md); how it unfolded: [`docs/SURPRISES.md`](docs/SURPRISES.md).
@@ -29,11 +29,11 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 
 > **Corpus state:**
 <!-- BEGIN GENERATED: status_breakdown -->
-742 registered claims (121 Derived, 556 Modeled, 4 EFT-constrained, 4 Conjecture, 7 Open, 45 Failed-and-kept, 5 newly registered); 641 code-backed, 639 passing (docs/VERIFY_STATUS.md).
+742 registered claims (121 Derived, 556 Modeled, 4 EFT-constrained, 4 Conjecture, 7 Open, 45 Failed-and-kept, 5 registered); 641 code-backed.
 <!-- END GENERATED: status_breakdown -->
 > Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
 
-**📄 [The wave arc, 17 Aug 2026](docs/history/RELEASE_NOTES_v3.26.77.md)** — *The eight-release day*: k/T0 = 2 closed as adopted, the fine weave contact-free by grant, KBSAT executed by its own tripwire, and the vacuum's winding forced to a rotating-wave state — constituents orbiting at exactly c, energy bill payable, zero-point energy given a mechanical identity. Plain-language version: [`docs/VACUUM_WAVE_PLAIN_LANGUAGE.md`](docs/VACUUM_WAVE_PLAIN_LANGUAGE.md).
+**📄 [THE WEAVE RELEASE, 27 Aug 2026](docs/history/RELEASE_NOTES_v3.28.0.md)** -- *v3.28.0*: the medium's topology settled -- a LOCAL WEAVE, not Gaede's every-atom-to-every-atom ropes (9/9 vs 3/9 on the locked spectator tests); weave membership measured as a graded ladder (FND-148) with tension setting the clock, never the roster (FND-149); the q-sensitivity verdict S1-SPLIT (FND-147); and the winding field found load-bearing, its velocity running 2.7x hot exactly where amplitude growth collapses (FND-150/151). New picture paper: [`papers/rope_weave_universe.pdf`](papers/rope_weave_universe.pdf).
 
 **📄 [Release history](docs/history/)** — every release note, per release, back to v3.0; the day summaries live there too.
 
@@ -47,7 +47,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 
 
 <!-- BEGIN GENERATED: current_release -->
-**Current release: v3.27.6** (22 Aug 2026), 737 claims.
+**Current release: v3.28.0** (26 Aug 2026), 742 claims.
 <!-- END GENERATED: current_release -->
 Headline: THE ENERGY BILL — priced and payable. The vacuum's constituents orbit at exactly c (two registered numbers multiplying to one), and the wave's dynamical share [0.62, 0.78] fits inside the matter sector's registered zero-point window (< 0.889): zero-point energy IS the winding's rotation. Full account: [`docs/history/RELEASE_NOTES_v3.26.77.md`](docs/history/RELEASE_NOTES_v3.26.77.md); prior: [`docs/history/RELEASE_NOTES_v3.26.76.md`](docs/history/RELEASE_NOTES_v3.26.76.md).
 

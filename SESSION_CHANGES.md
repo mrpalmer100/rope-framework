@@ -1,6 +1,28 @@
 
 # SESSION_CHANGES -- 2026-08-21 (NATIVE-96 session 3: snap hunt + guide repair)
 
+## FRONT-DOOR DRIFT FIXED + RELEASE CHECKLIST ADOPTED (2026-08-27)
+
+- The author caught README still reading v3.27.6 (version block
+  and Current-release banner) after the v3.28.0 pass. Root cause:
+  pyproject (the version's single source of truth) was never
+  bumped and tools/sync_doc_facts.py -- which exists precisely so
+  "version numbers never belong in hand-maintained prose" -- was
+  never run during the release pass.
+- Fixed: pyproject 3.27.6 -> 3.28.0; sync run (version block,
+  banner "v3.28.0 (26 Aug 2026), 742 claims", counts); README
+  featured paragraph replaced with THE WEAVE RELEASE headline;
+  tripwire taught the passing/code-backed badge format
+  (denominator checked, passing <= backed) and history-citation
+  exemptions (docs/history links auto-exempt; explicit
+  <!-- version-ok --> waiver otherwise); two legitimate history
+  citations waived. Final: "ok front-door version tripwire
+  (current v3.28.0, badge denominator 641)".
+- docs/RELEASE_CHECKLIST.md ADOPTED (the institutional fix): the
+  seven-step order with the tripwire as the gate; "a release
+  where step 3 was not run, or did not end clean, is not a
+  release."
+
 ## THE WOVEN UNIVERSE PAPER ADDED (2026-08-27, author-requested)
 
 - New paper: papers/rope_weave_universe.pdf (source

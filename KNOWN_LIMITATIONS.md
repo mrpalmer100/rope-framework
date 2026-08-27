@@ -6,7 +6,7 @@ you have found it in under five minutes.
 
 *Revised against the current registry.*
 <!-- BEGIN GENERATED: corpus_stats -->
-*737 registered claims, 641 code-backed and passing, 121 Derived, 45 registered Failed and kept.*
+*742 registered claims, 641 code-backed and passing, 121 Derived, 45 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
 
@@ -26,7 +26,7 @@ above m x 1.4 PeV forces m upward) is registered on FND-086/087.
 The BLOCH-L verdict stands: **k/T0 = 2 does not derive** (c_L,f = 3.00 c, now
 FINAL at this instrument class per GRANT-CONTACT); FND-114 stays
 ADOPTED-ADJUDICATED and the alpha chain's inheritance rider is unchanged. The
-17 Aug arc (FND-126 → FND-132, v3.26.70 → v3.26.77) paid every debt the
+17 Aug arc (FND-126 → FND-132, v3.26.70 → v3.26.77) <!-- version-ok --> paid every debt the
 commission named: the psi-convention correction was swept register-wide
 (SWEEP-TAU, Branch MAX), the 4.046/8.091 family was re-priced under the
 dynamical mapping `k_f/T0_f = 6(k/T0) − 3 = 9` (FND-127), the contact rule was
@@ -183,7 +183,7 @@ kept straight, several quantum facts are **adopted, not derived**, or **open**:
   GRV-113), any LARES/GP-B comparison is a one-parameter measurement, not a kill test.
   *Full arc (GRV-059 through GRV-127, including the grant chain, the impossibility
   certification and its supersession, and the demoted numeric quotes): docs/history/
-  release notes v3.26.31 onward and DAY_SUMMARY_2026-08-16.md.*
+  release notes v3.26.31 onward <!-- version-ok --> and DAY_SUMMARY_2026-08-16.md.*
 - **The vacuum weave is measured parity-balanced to two parts in 1e19** (registered
   property, PRED-002-FREQ + GRV-113). Inverting the registered material-optical-activity
   rate against the Eskilt-Komatsu birefringence angle at `beta + 2 sigma` caps the weave's
