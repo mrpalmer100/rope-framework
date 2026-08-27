@@ -6,8 +6,10 @@ conditions that keep the EM, gravity, and particle modules from drifting apart.
 
 Run:  python3 tests/test_electromagnetism.py
 """
-import numpy as np
+import os
 import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import numpy as np
 from rope_solver.electromagnetism import (eps0_from_structure,
     impedance_of_free_space, alpha_from_impedance, charge,
     dirac_quantization_n, wave_speed_squared, maxwell_structure,

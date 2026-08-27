@@ -7,8 +7,10 @@ with the reference implementation.
 
 Run:  python3 tests/test_physics.py
 """
-import numpy as np
+import os
 import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import numpy as np
 from rope_solver.gravity import (ppn_parameters, mercury_perihelion_arcsec_per_century,
     light_deflection_arcsec, nordtvedt_eta)
 from rope_solver.spectrum import (poschl_teller_bound_states, log_det_ratio,
