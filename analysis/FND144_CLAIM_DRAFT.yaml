@@ -1,0 +1,44 @@
+id: FND-144
+status: Modeled
+title: 'COMMISSION NATIVE-96 (RATES-REGISTERED) -- THE ALIGNED BRANCH EXISTS NATIVELY
+  AT 96 x 36 THROUGH AND PAST THE THIRD SHARED PIN, ITS AMPLITUDE GROWTH COLLAPSES
+  EIGHTFOLD INSIDE THE FORMER MILD REGIME (dA2/ds 6.5e-4 AT A2 = 0.0048 TO 6.8e-5
+  AT 0.0063, MEMBER-GRADE, DECAYING), AND THE 64 x 24 MEMBER AT THE THIRD PIN IS
+  DISPLACED ALONG THE BRANCH BY +0.73% IN A2 (SINGLE-COORDINATE, OUT-OF-GATE) RATHER
+  THAN FABRICATED'
+benchmark: benchmarks/foundations/native96_continuation.py
+benchmarks_secondary:
+  - benchmarks/foundations/native96_probe94.py
+depends_on:
+  - FND-142
+  - FND-143
+note: "Bars locked before computing with zero amendments (analysis/NATIVE96_bars_LOCKED.md;
+  draft preserved). Results: analysis/NATIVE96_results.md. THE INSTRUMENT: control
+  (i) native level-1 recovery (theta constant 3.3e-10, value 5.4e-6, Om1 rel 9.8e-6); control (0*) 2-of-3 shared pins at 7.7-7.9e-5 (gamma)
+  and 0.6-1.4e-4 (Om2) against stage-2 regenerations at machine grade; two native
+  members under the PROMOTED HALT-GRADE CLOSURE BAR (1.5e-8 and 4.8e-9 against 1e-6)
+  with 112 x 42 confirmations at 1e-5-grade drift. THE CENTRAL RECORD: member-grade
+  dA2/ds trajectory 6.5e-4 (A2 0.0048) -> 7.8e-5 (0.0062) -> 6.8e-5 (0.0063, decaying),
+  gamma frozen 0.5746, Om2 carrying the arclength (3.343 and climbing ~3e-4/step),
+  W0-margin declining 1.243 -> 1.093 (operative resonance 1:1, distant). PROBE-94
+  (FND-143 deviation procedure, 64 -> 96): the 64-grid third-pin member regenerates
+  at 6.4e-15 on its own grid (gamma 0.569652, Om2 3.52702), interpolates at 8.2e-2
+  field RMS, and re-solves natively in 51 rounds to 2.7e-10 with closure 9.5e-9 at
+  A2 = 0.0094647, gamma = 0.56950, Om2 = 3.53805 -- the branch EXISTS at the pin
+  neighborhood; the 64 member's drift is single-coordinate (A2 +7.34e-3 OUT of the
+  5e-3 gate; gamma 2.6e-4 and Om2 3.1e-3 in-gate), an order milder than the steepened
+  2-7% fabrication grade. OPEN AND OWED: the landed state's wsNyq = 2.6e-3 armed
+  the tail trigger; its 112 x 42 confirmation is BUDGET-BOXED PARTIAL at round 38
+  of a raised 80-round cap (5.0e-1 -> 1.8e-5; capped-lsmr descent alternating
+  with f32-J exact GN after eight pure exact-GN rounds circulated; floor
+  contracting ~7-8% per pair WITHOUT decay and the exact-GN bounces SHRINKING
+  1.2e-4 -> 3.4e-5, the pre-snap signature the 96-grid fight showed before its
+  five-round five-order collapse) and resumes from the exported checkpoint --
+  no verdict is claimed; if it ultimately fails, exhaustion is PROGRESSIVE
+  ACROSS GRIDS. NOT CONCLUDED:
+  the chartered reach-or-asymptote binary (outcome RATES-REGISTERED per bars delta
+  6); Sigma_wave NOT re-priced; FND-139 rider standing; FND-135 box not superseded.
+  The UNGRANTED interpretive lead: contamination boundary near A2 ~ 0.006 at
+  displacement grade, asymptote scenario leading, q = 3/2 the standing named
+  suspect. Instrument record and the kept waypoint-tolerance incident (hypothesis
+  falsified by member-grade re-measurement) at their sites and in the results doc."

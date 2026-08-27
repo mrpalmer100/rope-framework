@@ -1,0 +1,13 @@
+ROPE-MODE-003 surrounding 3-D scalar-field spectrum
+certified=True dmin=0.06054996 Lk512=-1.00244128
+alpha=2.0 eps=0.12 sigma=0.1 box=3.0 grids=(23, 29)
+beta=0 gap_conv=0.00751713 clusters=[1, 3, 1, 3, 2, 1, 1] dominant_l=[0, 1, 1, 1, 0, 2, 2, 2, 2, 2, 3, 1] mean_purity=0.9102 mean_localized=0.5092
+beta=0.25 gap_conv=0.00834284 clusters=[1, 3, 1, 3, 2, 1, 1] dominant_l=[0, 1, 1, 1, 0, 2, 2, 2, 2, 2, 3, 1] mean_purity=0.9104 mean_localized=0.5096
+beta=0.5 gap_conv=0.00919652 clusters=[1, 3, 1, 3, 2, 1, 1] dominant_l=[0, 1, 1, 1, 0, 2, 2, 2, 2, 2, 3, 1] mean_purity=0.9107 mean_localized=0.5099
+beta=1 gap_conv=0.0109901 clusters=[1, 3, 1, 3, 2, 1, 1] dominant_l=[0, 1, 1, 1, 0, 2, 2, 2, 2, 2, 3, 1] mean_purity=0.9112 mean_localized=0.5106
+B1 certified linked rope: PASS
+B2 grid-converged low excitation gaps: PASS
+B3 low modes localized inside analysis volume: FAIL
+B4 central baseline has identifiable s/p angular families: PASS
+B5 angular families survive modest rope coupling: PASS
+FINDING: SURROUNDING_3D_FIELD_GATE_NOT_YET_PASSED

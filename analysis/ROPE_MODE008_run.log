@@ -1,12 +1,12 @@
 ROPE-MODE-008 matched-ensemble blinded classifier
 pairs=15 families=5 grid=31^3 h=0.25
 balanced accuracy=0.5000
-ROC AUC=0.6267
-leave-family-out scores=[0.3333333333333333, 0.3333333333333333, 0.6666666666666666, 0.6666666666666666, 0.5]
-paired permutation p=0.56954
-max descriptor SMD=1.6535
-median pair match score=0.0717
-max reduced-vs-exact gap error=0.000391704
+ROC AUC=0.5556
+leave-family-out scores=[0.16666666666666666, 0.5, 0.6666666666666666, 0.5, 0.6666666666666666]
+paired permutation p=0.55629
+max descriptor SMD=1.4860
+median pair match score=0.0649
+max reduced-vs-exact gap error=0.000174309
 B1_topology_controls: PASS
 B2_geometric_matching: FAIL
 B3_reduced_solver_validation: PASS

@@ -5,16 +5,16 @@
     5.0
   ],
   "h": 0.25,
-  "median_pair_field_mismatch": 0.011427796777780426,
-  "max_pair_field_mismatch": 0.02822173942693486,
-  "median_pair_geometry_rms": 0.0039049444370980037,
-  "max_outer_probability": 7.98746437212971e-07,
-  "max_domain_contrast_drift": 2.991804226581962e-08,
-  "median_abs_topology_residual": 0.0002700926934977588,
-  "median_topology_to_sham_ratio": 0.06991269761153737,
+  "median_pair_field_mismatch": 0.011419114613008482,
+  "max_pair_field_mismatch": 0.03489525408630565,
+  "median_pair_geometry_rms": 0.0038519561729617193,
+  "max_outer_probability": 7.986618257955828e-07,
+  "max_domain_contrast_drift": 2.2944486310905177e-08,
+  "median_abs_topology_residual": 0.00021736582285214467,
+  "median_topology_to_sham_ratio": 0.07604787078495552,
   "consistent_modes": [
     true,
-    false,
+    true,
     true
   ],
   "bars": {

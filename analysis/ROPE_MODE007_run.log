@@ -1,17 +1,17 @@
 ROPE-MODE-007 repeated independent local surgeries
-linked certified=True dmin=0.06195531 Lk=-1.00225398
+linked certified=True dmin=0.06054996 Lk=-1.00244128
 surgeries=6 boxes=(4.0, 5.0) h=0.25
 max outer probability=4.5203347e-05
 worst relative gap drift=9.6286978e-05
-majority same-sign counts modes1-3=[5, 5, 5]
-3sigma counts modes1-3=[6, 5, 5]
+majority same-sign counts modes1-3=[5, 4, 4]
+3sigma counts modes1-3=[6, 3, 5]
 domain-stable counts modes1-3=[6, 6, 6]
-max absolute nuisance correlation=0.848088
+max absolute nuisance correlation=0.881241
 B1 topology and geometry controls: PASS
 B2 boundary leakage: PASS
 B3 domain convergence: PASS
 B4 universal sign consistency: FAIL
-B5 significance consistency: PASS
+B5 significance consistency: FAIL
 B6 domain stability: PASS
 B7 weak nuisance correlations: FAIL
 FINDING: REPEATED_SURGERIES_DO_NOT_ISOLATE_LINKING_NUMBER

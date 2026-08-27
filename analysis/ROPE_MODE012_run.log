@@ -1,9 +1,9 @@
 ROPE-MODE-012 continuous topology-transition path test
 grid=31^3 h=0.250000 families=5
-max near-transition field relative difference=0.00958847
-median/max extrapolated spectral jump=3.22318e-05/6.11305e-05
-max jump excess ratio=2.37261
-robust discontinuity modes=[False, False, False]
+max near-transition field relative difference=0.0103247
+median/max extrapolated spectral jump=3.3101e-05/7.64396e-05
+max jump excess ratio=5.09602
+robust discontinuity modes=[False, False, np.False_]
 B1_reference_and_paths_certified: PASS
 B2_both_topology_sectors_sampled: PASS
 B3_field_path_continuous_near_transition: PASS

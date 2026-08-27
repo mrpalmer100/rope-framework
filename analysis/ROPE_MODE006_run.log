@@ -1,7 +1,7 @@
 ROPE-MODE-006 local topology-surgery fingerprint
-linked certified=True dmin=0.06195531 Lk=-1.00225398
-surgery amplitude=0.123000 Lk=-5.3417218e-06 dmin=0.06084545
-geometry rms=0.030040493 length_rel=0.001152127 radial_moment_rel=0.00065223085 quadrupole_rel=0.0038789075
+linked certified=True dmin=0.06054996 Lk=-1.00244128
+surgery amplitude=0.121000 Lk=-5.9674681e-06 dmin=0.06027562
+geometry rms=0.02955203 length_rel=0.0010767335 radial_moment_rel=0.00058005534 quadrupole_rel=0.0036913492
 alpha=12.0 eps=0.3 beta=0.5 sigma=0.16 boxes=(4.0, 5.0) h=0.25
 max outer probability=4.5203347e-05
 worst relative gap drift=9.6286978e-05

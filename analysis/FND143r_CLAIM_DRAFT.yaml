@@ -1,0 +1,58 @@
+id: FND-143
+status: Modeled
+title: 'COMMISSIONS TRAVERSE AND TRAVERSE-96 -- THE STEEPENED REGIME OF THE ALIGNED
+  BRANCH IS RESOLUTION-LIMITED AT 64 x 24: ITS REGISTERED MEMBERS ARE ALIASING ARTIFACTS
+  AT THE SEVERAL-PERCENT LEVEL, AND THE TELL (A TRANSVERSE-CLOSURE RESIDUAL THAT WAS
+  PRINTED AND NOT BARRED) WAS ON THE FACE OF EVERY ACCEPTED POINT'
+benchmark: benchmarks/foundations/traverse96_scout.py
+benchmarks_secondary:
+  - benchmarks/foundations/traverse_steepened.py
+depends_on:
+  - FND-139
+  - FND-140
+  - FND-142
+note: "Two commissions, bars locked before computing in both cases (analysis/TRAVERSE_bars_LOCKED.md
+  with three pre-lock amendments recorded at their sites; analysis/TRAVERSE96_bars_LOCKED.md
+  inheriting it in full). Results: analysis/TRAVERSE_results.md, analysis/TRAVERSE96_results.md.
+  THE INSTRUMENT IS PROVEN AT BOTH RESOLUTIONS: control (0) representation
+  equivalence at 64 x 24 (two registered FND-142 members reproduced to 1e-6 relative
+  in Om2, gamma and A2), control (i) level-1 recovery (theta constant to 8.4e-12,
+  value 4.7e-7 from 0.955317, the known 4.9e-5 Om1 discretization shift), control
+  (vii) declared influence pattern (0 of 25 probed columns escape), and at 96 x 36
+  the mild-member re-solve to 7.1e-12 field RMS with 1e-4-grade drift (gamma 7.7e-5,
+  Om2 1.4e-4). THE FINDING, in three parts. (a) MILD ALIGNED-BRANCH MEMBERS ARE
+  RESOLUTION-CONVERGED: the A2 = 0.0047 member re-solves at 96 x 36 in three rounds,
+  thirtyfold inside every gate. (b) STEEPENED MEMBERS (gamma <= 0.558) FAIL THEIR
+  FINE-GRID RE-SOLVE with monotonically growing drift, reaching 2-7% in gamma / Om2
+  / A2, and the growth TRACKS their continuous-level transverse-closure violation,
+  which reaches 8e-3; the endpoint re-solve terminates in a genuine least-squares
+  stationary point (exact-Newton direction with full line search, no descending step)
+  at field RMS 2.2e-5 with transverse-closure residual 1.9e-2. The discriminating
+  table (64-closure / interpolation RMS / converged-to / gamma-drift / Om2-drift)
+  is in the results doc. (c) THE a2-PIN NEAR-SINGULARITY OF THE STEEPENED REGIME
+  REPRODUCES AT 96 x 36: the branch direction goes near-null to the pin (the 64-run's
+  own dA2/ds ~ 1.5e-5) and the pinned solve crawls at ~x1.25 per round, so the
+  re-solve anchored the branch direction with the commission's own arc instrument
+  at ds = 0 against the interpolated tangent, with A2 moved into the 5e-3 drift
+  gate -- a registered deviation from bars delta 2, strictly stronger than the pinned
+  form, annotated at its site. WHAT IS SUPERSEDED-NOT-ERASED: the steepening's
+  quantitative record, including the no-fold statement as a quantitative record,
+  the dA2/ds = 1.5e-5 rate and its ~3x decay, and all rates measured past gamma =
+  0.558 at 64 x 24. These were measured on contaminated members and are withdrawn
+  as values; the earlier PROPOSED FND-143 text was never granted and is retired
+  unregistered. WHAT SURVIVES UNTOUCHED: FND-142's converged-member list in the
+  mild regime (verified here at both resolutions to 1e-4 grade) and FND-142's
+  verdict, which claimed a SEARCH FAILURE and therefore stands independent of this
+  finding -- PIN-UNREACHED, Sigma_wave NOT re-priced, the FND-139 rider standing,
+  the FND-135 box not superseded, the author's interim deferral continuing.
+  FND-142's steepened-regime DISPLAY quantities inherit the several-percent caveat.
+  The 64-run's own control-(v) halt and its resolution-exhaustion diagnosis are
+  STRENGTHENED: the exhaustion begins earlier on the branch than that run could
+  see. THE METHOD LESSON, registered because it is the reusable content: the
+  transverse and axial closure residuals are EQUATIONS in this chart, not
+  identities, and the inherited bars PRINTED them without gating on them, so the
+  field-RMS acceptance bar at 1e-8 admitted members whose own-grid closure had
+  already degraded three orders (1.9e-9 mild, 3.9e-4 at gamma = 0.558, 8.3e-3 at
+  the endpoint). The successor commission NATIVE-96 promotes closure to a
+  halt-grade bar at 1e-6 and runs the continuation natively at 96 x 36 from
+  level-1, so that aliasing cannot silently carry the branch again."
