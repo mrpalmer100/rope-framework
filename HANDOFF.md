@@ -1,5 +1,518 @@
 # HANDOFF -- Rope Framework, next session
 
+*Written 2026-08-18; cuts v3.27.1 (TRUE-SOLVE) and v3.27.2 (TRUE-STATE
+stage 2). 733 claims, quick-verify green, freshness green; full suite
+verified green by the author on CI before stage 2 (two cuts of debt
+since). THIS SECTION IS THE CLEAN HANDOFF; prior content preserved
+below.*
+
+## WHERE THE SESSION LANDED (FND-141, FND-142)
+TWO MOVERS MOVED. (1) TRUE-SOLVE: the kb feasibility ceiling of
+record re-solved under kappa_true -- kb <= 0.09332 T0_f a_f^2
+(LOOSER; the 0.102 display over-predicted: direction estimator, not
+value estimator). kb = 0 sector reproduced identically; SHIN7 worst
+case paid at 4.4689; KBSAT 0.126/0.282 both still OUTSIDE.
+(2) STAGE 2: the two-frequency composite state EXISTS -- machine-
+precision invariant-torus members to A2 = 0.0108, linear spectrum
+Om2 = 3.201/2.221 (0.48x/0.34x build) -- but PIN-UNREACHED: the
+aligned branch steepens toward z' -> 0 an order below the registered
+R2 (near-vertical gamma(A2) at ~0.0102), and the anti-aligned root
+sits EXACTLY on Om1/2 (n = 1 cell mode): the FND-140 resonant-k2
+window is INHABITED. Sigma_wave NOT re-priced; FND-139 rider stands;
+the author's deferral continues.
+
+## THE ONE JOB (next session)
+THE STEEPENED-REGIME TRAVERSAL: a general-position representation
+(arc-parametrized, no z-graph) to follow the aligned branch past
+min z' -> 0 and decide whether it reaches the registered amplitude.
+The target is representable (registered geometry's pointwise
+min z' ~ 0.08); the path turns singular early -- that is the open
+question with a customer (Sigma_wave's re-pricing waits on it).
+COMPETING JOB of equal standing: THE RESONANT ROOT -- degenerate
+perturbation at Om2 = Om1/2, or de-rationalize the cell (q off 3/2)
+to test whether the resonance is an artifact of the instrument
+choice.
+
+## ALSO OPEN, NAMED
+- Sigma_wave: rider in force; box [3.222, 4.313] carries it; interim
+  options hold-with-rider / retreat-to-2.598 at the desk (deferral
+  standing). The kb-corner re-pricing on the true state also waits.
+- The kb-built downstream re-pricings from 0.09332: (G I_p)_f, the
+  Lambda_nat chain, r_s <= 0.2036 -- arithmetic-propagation class,
+  ride their own claims' next touch.
+- The angle-family file (handedness fork, sixth-moment anisotropy,
+  fourth harmonic, triple duty); KBSAT value question (ceiling now
+  0.09332, both candidates outside); plain_language_guide refresh
+  (owed).
+- Tripwires: T_fibre re-pricing moves v_m off c; fine-contact
+  registration re-opens class A; core-existence falsifier at
+  k_f/T0_f = 3.
+
+## HOUSE STATE
+Quick-verify green at 733; freshness FRESH; release notes per cut.
+Suite debt: two cuts since the author's CI run (v3.27.1, v3.27.2) --
+the stage-2 benchmark is HEAVY (~20 min) and exits through legs that
+include unconverged DISPLAYS by design; its verdict line is the
+green condition, not silence. Session discipline note: THREE
+instrument catches in stage 2, each surfaced by a printed control or
+by its absence being felt (dense pin rows vs column grouping;
+composed-stencil sparsity truncation -- now guarded by a permanent
+pattern control; pin-scale burial in the truncated subproblem). Keep
+controls printing; a solver that stalls silently is a control that
+was not printed.
+
+---
+# HANDOFF -- Rope Framework, next session
+
+*Written 2026-08-18; arc closed and rolled up as v3.27.0 (the
+curvature arc, FND-133..140). 731 claims, registry green, freshness green.
+THIS SECTION IS THE CLEAN HANDOFF; prior content preserved below.*
+
+## WHERE THE SESSION LANDED (FND-140)
+TRUE-STATE STAGE 1: NONEXISTENCE-IN-FAMILY. No rigidly-rotating
+two-level composite exists at the registered pins -- continuation
+from the exact level-1 member returns a residual EQUAL to the pin
+violation (the equations eject the level-2 content). Mechanism:
+Omega^2 = T k^2 per mode; one Omega cannot serve two wavenumbers;
+sidebands do not rescue. The three-session loop closes: the FND-135
+ansatz's two-frequency FORM was right, its numbers averaged a
+non-solution (FND-139), and no one-frequency solution exists to
+relax into (FND-140). THE TRUE COMPOSITE STATE IS A TWO-FREQUENCY
+OBJECT: r = R_z(Omega_1 t) q(s, Omega_2 t), invariant-torus class.
+
+## THE ONE JOB (next session)
+TRUE-STATE STAGE 2: the two-frequency solve. Fourier in s AND the
+internal phase; unknowns include both frequencies; the FND-135
+ansatz is the seed; the FND-139 refit display brackets the search
+(refit Omega_2 at 0.43x/<=0.20x the build's). Sigma_wave re-prices
+from ITS solution and nowhere else. Interim: the FND-139 rider
+stands; author's live interim options are hold-with-rider or retreat
+to the level-1-exact 2.598 (option (b) EXECUTES THROUGH stage 2).
+PARALLEL, unblocked: COMMISSION TRUE-SOLVE (the Bloch bending
+re-solve under kappa_true; kb ceiling display 0.102, looser; only
+mover of record for the registered 0.079).
+
+## ALSO OPEN, NAMED
+- Resonant-k2 exception window (FND-140 limitation, unexplored).
+- The angle-family file: handedness fork, sixth-moment anisotropy,
+  fourth harmonic, triple duty.
+- KBSAT value question (desk; informed by the 0.102 display).
+- plain_language_guide.docx refresh (owed).
+- Tripwires: T_fibre re-pricing moves v_m off c; fine-contact
+  registration re-opens class A; core-existence falsifier at
+  k_f/T0_f = 3.
+
+## HOUSE STATE
+Checks green at 731 claims. ANSATZ benchmark exits nonzero BY DESIGN
+(curveobj imports it and replays its banner -- cosmetic). Full suite
+NOT rerun since the BLOCH-L arc: EIGHT releases of debt -- run it
+overnight before stage 2. Same-night discipline note: two
+verdict-prose corrections (FND-137, FND-138) were caught by printed
+controls, and FND-140's decisive evidence WAS a printed control;
+keep controls printing.
+
+---
+# HANDOFF -- Rope Framework, next session
+
+*Written 2026-08-18 at the close of v3.26.84 (the adjudication
+release). 730 claims, registry at zero failures, freshness green,
+badge 629/629. THIS SECTION IS THE CLEAN HANDOFF; prior handoff
+content preserved below.*
+
+## WHERE THE SESSION LANDED (FND-139)
+CURVE-OBJ closed three ways. (1) TRUE-CURVATURE-ADJUDICATED: the
+granted rod bends against the Frenet curvature of its actual
+centerline -- by FND-118's no-wound-reference clause, sealed by the
+orthogonality indictment |t . K_registered| = 1.506 (no curve's
+curvature). (2) The recovered ANSATZ test: the composite state is
+ORDER-ONE OFF-SHELL at kb = 0 (residual RMS 1.38/1.09 centripetal
+units vs a 5% bar; first b-harmonic dominant -- the cross-rotation
+coupling; arclength NOT preserved, stretch rate 0.15 Omega_2).
+(3) CONFLICT REGISTERED: the anti-aligned kb = 0 refit corner is
+3.089 T0, BELOW Sigma_wave's registered lower edge 3.222, minimizer
+railed at its bound (true refit lower). Sigma_wave carries the
+registry rider; the level-1 component 2.598 is a verified solution's
+number and is untouched.
+
+## AT THE AUTHOR'S DESK (blocking)
+THE Sigma_wave DECISION: (a) hold the box with the rider; (b)
+commission the TRUE COMPOSITE STATE (variational, arclength-
+preserving, on the true-curvature force law) and re-price the box
+from its solution; (c) retreat Sigma_wave to the level-1-exact 2.598
+plus an open two-level increment. The refit display argues (b) or
+(c); nothing moves without the call. ALSO AT THE DESK, unchanged:
+the KBSAT value question -- now informed by the zeroth-order display
+that the ceiling loosens to ~0.102 under kappa_true.
+
+## THE ONE JOB (next session, not blocked by the desk)
+COMMISSION TRUE-SOLVE: the Bloch-instrument bending re-solve under
+kappa_true -- the ONLY mover of record for the kb feasibility
+ceiling (zeroth-order display 0.102, looser; the registered 0.079
+stands until this runs). Modify local_set's k0 to the true-curvature
+field (the validated D_s construction; consider tabulating
+kappa_true(f1, f2) on a grid for speed), rerun the anchor solve and
+the feasibility scan. The 17.926 level-2 coefficient re-derives here
+too.
+
+## ALSO OPEN, NAMED
+- The angle-family file: handedness fork (FND-135), sixth-moment
+  anisotropy (FND-137), fourth harmonic (FND-133), triple duty
+  (FND-130/132).
+- papers/_sources/rope_plain_language_guide.docx refresh (owed).
+- Armed tripwires: T_fibre re-pricing moves v_m off c (FND-132);
+  fine-contact registration re-opens class A (FND-129); the
+  core-existence falsifier at k_f/T0_f = 3 (FND-137).
+
+## HOUSE STATE
+Release note present; sync run; freshness FRESH; derived docs
+regenerated; quick-verify green at 730 claims. The ANSATZ benchmark
+exits nonzero BY DESIGN; curveobj_adjudication.py imports it and
+replays its halt banner before its own output (cosmetic; annotate
+the runner). Full benchmark suite NOT rerun since the BLOCH-L arc --
+seven releases of debt; run overnight BEFORE TRUE-SOLVE so the
+re-solve lands on a verified base.
+
+---
+# HANDOFF -- Rope Framework, next session
+
+*Written 2026-08-18 at the close of v3.26.83 (the halt-that-paid
+release). 729 claims, registry at zero failures, freshness green,
+badge 629/629. THIS SECTION IS THE CLEAN HANDOFF for the next
+session; prior handoff content preserved below.*
+
+## WHERE THE SESSION LANDED (FND-138)
+COMMISSION ANSATZ HALTED AT ITS OWN SURFACE CONTROL, and the halt is
+the finding: the registered composite curvature K = k1 + kappa_2
+(frame) is a PER-LEVEL CURVATURE SUM; the Frenet curvature of the
+actual nested curve is a DIFFERENT OBJECT (order-one gap, BOTH pieces
+-- level-1 weighted at unit backbone rate where the backbone advances
+at less; level-2 given a straight-axis rate the curved backbone does
+not have). Bending-energy weighting <|k|^2>: 0.73x. The chartered
+self-consistency test CANNOT run until the corpus adjudicates which
+curvature the granted rod bends against. ON NOTICE, by name: the kb
+feasibility ceiling (direction if true-curvature wins: LOOSER),
+SHIN7's worst-case kappa_tot (was an upper bound; safe direction),
+the level-2 coefficient 17.926, the composite build's level-2
+balance. NOT implicated: all pure level-1 objects (neutrality
+theorem, v_m = c, DBC null) -- single-helix Frenet and per-level
+curvature coincide.
+
+## THE ONE JOB (next session)
+COMMISSION CURVE-OBJ: the curvature-object adjudication. Which
+object does the granted rod's bending energy reference -- the Frenet
+curvature of the actual nested curve, or the per-level sum? First
+exhibit: FND-118's granted class carries NO stress-free wound
+reference (the MAINT channel-i inadmissibility ruling), which argues
+the rod bends against the TRUE curvature; the per-level reading gets
+its day. The bending re-pricing (kb ceiling and the on-notice list)
+EXECUTES ON THE VERDICT; the ansatz test re-charters after it with
+the force side unambiguous. Everything bending-flavored now queues
+behind this one adjudication -- it is the sector's bottleneck, and a
+registry that keeps moving its bottleneck to sharper questions is
+converging.
+
+## ALSO OPEN, NAMED
+- THE HANDEDNESS FORK (FND-135); the SIXTH-MOMENT anisotropy
+  (FND-137); the FOURTH-HARMONIC question (FND-133); the TRIPLE DUTY
+  (FND-130/132) -- the angle-family file, possibly one variational
+  session.
+- The KBSAT value question (author's desk) -- now also gated behind
+  CURVE-OBJ (the ceiling it would re-saturate is on notice).
+- papers/_sources/rope_plain_language_guide.docx refresh (owed).
+- Armed tripwires: T_fibre re-pricing moves v_m off c (FND-132);
+  fine-contact registration re-opens class A (FND-129); the
+  core-existence falsifier at k_f/T0_f = 3 (FND-137).
+
+## HOUSE STATE
+Release note present; sync run; freshness FRESH; derived docs
+regenerated; quick-verify green at 729 claims. The ANSATZ benchmark
+exits NONZERO BY DESIGN (halt condition); exclude it from any
+green-suite expectation or annotate the runner. TWO same-night
+instances of the verdict-prose lesson (FND-137, FND-138's diagnostic)
+-- both caught by printed controls; keep controls printing. Full
+benchmark suite still NOT rerun since the BLOCH-L arc opened -- six
+releases of debt; run it overnight BEFORE CURVE-OBJ if possible.
+
+---
+# HANDOFF -- Rope Framework, next session
+
+*Written 2026-08-18 at the close of v3.26.82 (the floor-remap
+release). 728 claims, registry at zero failures, freshness green,
+badge 629/629. THIS SECTION IS THE CLEAN HANDOFF for the next
+session; prior handoff content preserved below.*
+
+## WHERE THE SESSION LANDED (FND-137)
+COMMISSION C4-DYN ran; EM-RECON-032's caution flag is DISCHARGED.
+The 4.046 floor decomposed into the coarse core-existence condition
+(k/T0 > 1) times the CONVICTED multiplicative transmission; through
+the adopted additive mapping the same condition reads k_f/T0_f > 3
+EXACTLY, and the rider audit found it inherits NO FND-114 rider (an
+inequality in k/T0, not an evaluation at 2). Falsifier re-armed at 3;
+read 9 clears at 3.0x, exact midpoint of the fine window (3, 15) by
+linearity. THE BLIND LEG'S FINDING: the two-level ensemble is
+isotropic exactly through FOURTH moments and ANISOTROPIC at sixth and
+eighth (E[t_z^6] = 0.1369 vs 1/7; z vs (111) at the third decimal) --
+the magic angles buy the harmonic sector's isotropy and NO MORE. The
+projected quartic is negative and purely geometric in the declared
+measure (characterization, measure attached). Two corrections on the
+record: the FD control's stencil repair (Richardson), and a verdict
+block drafted before the run that said the opposite of the
+measurement -- corrected before registration. LESSON REGISTERED:
+outcome SHEETS are pre-registerable; verdict PROSE is not.
+
+## THE ONE JOB (next session)
+THE ANSATZ SELF-CONSISTENCY SESSION (FND-135's audit gap): does the
+superposed-rigid-rotations composite state satisfy the equations of
+motion at order (R_2/R_1)^2 = 0.174, and if not, where do the
+composite corners move? It now gates how hard Sigma_wave's numbers
+may be leaned on, and it is the only open item that gates another
+registered value. Competing jobs of equal standing if the author
+prefers: the SIXTH-MOMENT ANISOTROPY follow-through (does the
+anisotropy have consequences at any registered observable, e.g.
+thermal/anharmonic response?), or the KBSAT VALUE QUESTION (author's
+desk: re-saturate at 0.282 / hold at 0.126 / await the contact rule).
+
+## ALSO OPEN, NAMED
+- THE HANDEDNESS FORK (FND-135): ensemble construction for the
+  relative sign; the board item has a customer with a number.
+- The FOURTH-HARMONIC question (FND-133) and the magic angle's
+  TRIPLE DUTY (FND-130/132) -- now joined by the sixth-moment
+  anisotropy as a third angle-family question; one variational
+  session might answer all three.
+- papers/_sources/rope_plain_language_guide.docx refresh (owed).
+- Armed tripwires: T_fibre re-pricing moves v_m off c (FND-132);
+  fine-contact registration re-opens class A (FND-129); the
+  core-existence falsifier NOW AT k_f/T0_f = 3 (FND-137).
+
+## HOUSE STATE
+Release note present; sync run; freshness FRESH; derived docs
+regenerated; quick-verify green at 728 claims. EM-RECON-032 amended
+by appended annotation (flag discharged). Full benchmark suite still
+NOT rerun since the BLOCH-L arc opened -- now five releases of debt;
+schedule the overnight run before the next physics session.
+
+---
+# HANDOFF -- Rope Framework, next session
+
+*Written 2026-08-18 at the close of v3.26.81 (the tightening release).
+727 claims, registry at zero failures, freshness green, badge 629/629.
+THIS SECTION IS THE CLEAN HANDOFF for the next session; prior handoff
+content preserved below.*
+
+## WHERE THE SESSION LANDED (FND-136 + the FND-135 audit)
+An independent audit of the composite build (fresh derivation,
+Monte-Carlo control, both path factors, all four corners) CONFIRMS
+every number, and attaches the caveat the build owed: the closed form
+is exact FOR THE ANSATZ (superposed rigid rotations); its dynamical
+self-consistency at order (R_2/R_1)^2 = 0.174 is NOT established --
+precedented by MAINT's exhibited state, now named on FND-135's face.
+COMMISSION SWEEP-PATH then ran: coverage f_{c,f} <= [1.80%, 5.07%]
+under the load-bearing reading (down by exactly 0.8349), headroom
+unchanged, both fine-weave assertions pass with more margin. The
+sweep-blindness mechanism is registered: A SWEEP'S CLEARANCE EXTENDS
+EXACTLY AS FAR AS THE INVARIANCE OF THE QUANTITY IT CHECKED. Every
+live reading-B path quote is dispositioned; the inherited debt is
+paid.
+
+## THE ONE JOB (next session)
+THE DYNAMICAL c4 COMMISSION (FND-127's chartered test of the 4.046
+floor) -- the last standing chartered-and-unrun item, independent
+machinery, blocked by nothing. The competing job of equal standing,
+if the author prefers the new question to the chartered one: THE
+ANSATZ SELF-CONSISTENCY session (does the superposed-rigid-rotations
+state satisfy the equations of motion at order (R_2/R_1)^2, and if
+not, where do the composite corners move?). It now gates how hard
+FND-135's numbers may be leaned on.
+
+## ALSO OPEN, NAMED
+- THE HANDEDNESS FORK (FND-135): can an ensemble construction read
+  the relative sign? The board item now has a customer with a number.
+- The FOURTH-HARMONIC question (FND-133); the magic angle's TRIPLE
+  DUTY (FND-130/132) -- check whether one session answers both.
+- papers/_sources/rope_plain_language_guide.docx refresh (owed).
+- Armed tripwires: T_fibre re-pricing moves v_m off c by name
+  (FND-132); load-bearing fine-contact registration re-opens class A
+  (FND-129). Untouched.
+
+## HOUSE STATE
+Release note present; sync run; freshness FRESH; derived docs
+regenerated; quick-verify green at 727 claims. Registered text edited
+nowhere (FND-135 amended by appended annotation, the house's amend
+form). Full benchmark suite still NOT rerun since the BLOCH-L arc
+opened (multi-hour; standing debt -- now four releases old, schedule
+it).
+
+---
+# HANDOFF -- Rope Framework, next session
+
+*Written 2026-08-18 at the close of v3.26.80 (the composite-build
+release). 726 claims, registry at zero failures, freshness green,
+badge 629/629. THIS SECTION IS THE CLEAN HANDOFF for the next
+session; prior handoff content preserved below.*
+
+## WHERE THE SESSION LANDED (FND-135)
+THE NESTED-COMPOSITE WAVE BUILD ran; both of FND-132's customers are
+paid. Exact two-level KE in closed form (four pieces, two-torus
+numeric control to 1e-13); Sigma_wave narrowed to [3.222, 4.313] T0
+per strand per axial length (areal [9.67, 12.94] T0/a^2), inside the
+registered bracket at every corner; bill payable at share
+[0.690, 0.768] against 0.889, margin 1.157x.
+
+THE CATCH, and it is the session's real product: the path factor
+1/(c_ax1 c_ax2) is NOT convention-blind, and the registered bracket
+carried its level-1 path as sqrt(3) (reading A) alongside its
+two-level path as 2.409 (reading B). One bracket, two conventions.
+The fine-weave file had been swept and cleared because its
+compensation identity is swap-invariant; the path factor six lines
+below it is not. THE THIRTEENTH CATCH'S LESSON RECURRING -- "this
+file was cleared" is a claim about the QUANTITY checked, never about
+the file. Treat prior sweeps accordingly.
+
+THE OTHER FINDING: the bracket summed two of the four kinetic pieces,
+omitting the offset's widening of the level-1 orbit and a CROSS TERM
+whose sign is the relative handedness of the two rotations. It is
+nonzero and handedness is unregistered, so THE EXACT TOTAL IS
+TWO-VALUED ON THE REGISTRY. Neither sign adopted.
+
+## THE ONE JOB (next session)
+THE FINE-WEAVE PATH-FACTOR FOLLOW-UP. The coverage number inherits
+the same 0.8349 factor (coverage DOWN, packing headroom UP; that
+session's assertions still pass, so this is a tightening not a
+break). Small, fully specified, and it closes the convention sweep
+the composite build reopened. Do it before anything else quotes a
+coverage figure. THEN, of equal standing and independent: the
+DYNAMICAL c4 COMMISSION (FND-127's chartered 4.046-floor test).
+
+## ALSO OPEN, NAMED
+- THE HANDEDNESS FORK (new, FND-135): can an ensemble construction
+  read the relative sign of the two rotations? The population-
+  handedness board item now has a customer with a number attached.
+- The FOURTH-HARMONIC question (FND-133): which symmetry of the
+  nested two-level form kills it? Check whether the triple-duty
+  session answers it for free.
+- The magic angle's TRIPLE DUTY (isotropy / bending-neutral /
+  c-orbit), FND-130/132.
+- papers/_sources/rope_plain_language_guide.docx refresh (owed).
+- Armed tripwires: T_fibre re-pricing moves v_m off c by name
+  (FND-132); load-bearing fine-contact registration re-opens class A
+  (FND-129). Untouched.
+
+## HOUSE STATE
+Release note present; sync_doc_facts run; freshness FRESH;
+overview/roadmap/issues/graph regenerated; quick-verify green at 726
+claims. NAME_REGISTRY's Sigma_wave entry updated in value (definition
+unchanged, prior reading preserved in brackets) and now carries the
+PATH-FACTOR RULE: any new text quoting a path factor states its
+reading. Full benchmark suite still NOT rerun since the BLOCH-L arc
+opened (multi-hour; standing debt). Registered claim text edited
+nowhere.
+
+---
+# HANDOFF -- Rope Framework, next session
+
+*Written 2026-08-18 at the close of v3.26.79 (the fourth-Sigma
+release). 725 claims, registry at zero failures, freshness green,
+badge 629/629. THIS SECTION IS THE CLEAN HANDOFF for the next
+session; prior handoff content preserved below.*
+
+## WHERE THE SESSION LANDED (FND-134)
+THE SIGMA FAMILY is registered (Sigma_eff pinned / Sigma_EM different
+object / Sigma_vac static bookkeeping / Sigma_wave NEW), executed
+ahead of the composite build per FND-132's pre-collision flag and the
+EM-020/DALET-2 precedent. Sigma_wave: the rotating winding's total
+energy PER COARSE STRAND PER UNIT AXIAL LENGTH, bracketed
+[2.598, 4.522] T0 (level-1 exact sqrt(3) x 3/2; two-level upper at
+the standing kb bound, SHIN8 path factor). Areal form is 3x, quoted
+with the x3 shown. THE CATCH: FND-132's prose wears an areal unit
+label on per-strand numbers -- the correction is attached by name in
+the registry, registered text untouched. The dynamical share keeps
+its name, no letter. Bare Sigma outside a defining claim is a review
+flag.
+
+## THE ONE JOB (next session)
+THE NESTED-COMPOSITE WAVE BUILD, on FND-089-class machinery. The
+ledger is now clear: its exact number lands in a named, unit-fixed
+slot (Sigma_wave, per-strand per axial length). Two customers
+standing: the exact two-level KE and the exact energy total (the
+interior point of [2.598, 4.522], and with it the exact dynamical
+share inside [0.615, 0.779]). The parallel job of equal standing:
+THE DYNAMICAL c4 COMMISSION (FND-127's chartered 4.046-floor test --
+independent machinery, shares nothing with the build).
+
+## ALSO OPEN, NAMED
+- The FOURTH-HARMONIC question (DBC deviation, FND-133): which
+  symmetry of the nested two-level form kills it? Small; check
+  whether the magic-angle triple-duty session answers it for free
+  before spending a session on it alone.
+- The magic angle's TRIPLE DUTY (isotropy / bending-neutral /
+  c-orbit) -- variational unification question, FND-130/132.
+- papers/_sources/rope_plain_language_guide.docx refresh (owed a
+  format session; unchanged).
+- Armed tripwires: T_fibre re-pricing moves v_m off c by name
+  (FND-132); any load-bearing fine-contact registration re-opens
+  class A (FND-129). Untouched.
+
+## HOUSE STATE
+Release note present; sync_doc_facts run; freshness FRESH;
+overview/roadmap/issues/graph regenerated; quick-verify green at 725
+claims. Full benchmark suite still NOT rerun since the BLOCH-L arc
+opened (multi-hour; standing debt). Registered text edited nowhere;
+the FND-132 correction rides the registry per the standing
+convention.
+
+---
+# HANDOFF -- Rope Framework, next session
+
+*Written 2026-08-18 at the close of v3.26.78 (the null-correction
+release). 724 claims, registry at zero failures, freshness green, badge
+629/629. THIS SECTION IS THE CLEAN HANDOFF for the next session; prior
+handoff content preserved below.*
+
+## WHERE THE SESSION LANDED (FND-133)
+COMMISSION DBC ran and returned NULL-CORRECTION: the rotating-wave
+background leaves the BLOCH-L anchors exactly unchanged at the
+production instrument (material frame carries no convective/Coriolis
+term; rotation = common phase shift; ensemble averaging exactly
+shift-invariant at m = 6 -- 1e-13 spreads against a 1e-6 bar, both
+directions, bending on, arbitrary rates at both levels). The Floquet
+problem degenerates to the static one; the anchors carry zero
+background-rotation correction at every order. The standing kb bound
+sheds its static-background rider; the Kirchhoff-only rider
+(pre-stress, contact-gated) STANDS, untouched. No registered number
+moved.
+
+## THE ONE JOB (next session)
+THE NESTED-COMPOSITE WAVE BUILD, on FND-089-class machinery: two
+customers standing (the exact two-level KE and the exact energy total,
+FND-132's bracket [0.615, 0.779] awaiting its exact interior point).
+Register Sigma_wave BEFORE the build touches the ledger (the flagged
+naming collision, EM-020 class). The parallel job of equal standing:
+THE DYNAMICAL c4 COMMISSION (FND-127's chartered test of the 4.046
+floor -- independent machinery, shares nothing with the build).
+
+## ALSO OPEN, NAMED
+- NEW, small: which symmetry of the nested two-level form kills the
+  FOURTH phase-harmonic? (DBC's pre-registration deviation -- nullity
+  arrived at m = 4, one multiplicity earlier than harmonic counting
+  predicted. Recorded open in the results doc, sec. 3.)
+- The magic angle's TRIPLE DUTY (isotropy / bending-neutral / c-orbit)
+  -- variational unification question, FND-130/132.
+- papers/_sources/rope_plain_language_guide.docx refresh (owed a
+  format session; unchanged from prior handoff).
+- Armed tripwires: T_fibre re-pricing moves v_m off c by name
+  (FND-132); any load-bearing fine-contact registration re-opens
+  class A (FND-129). Both untouched by DBC, deliberately.
+
+## HOUSE STATE
+Release note present (check_release_notes OK). sync_doc_facts run;
+freshness FRESH; badge updated 629/629; overview/roadmap/issues/graph
+regenerated. Full benchmark suite still NOT rerun since the BLOCH-L
+arc opened (multi-hour; standing debt). Bars locked before computing;
+the pre-registration deviation reported, not smoothed; clean room held.
+
+---
+# HANDOFF -- Rope Framework, next session
+
 *Written 2026-08-17 at the close of v3.26.77 (the energy-bill release,
 end of the eight-release BLOCH-L arc). 723 claims, registry at zero
 failures, freshness green, badge 628/628. THIS SECTION IS THE CLEAN

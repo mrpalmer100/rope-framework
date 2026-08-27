@@ -1,3 +1,193 @@
+## 3.27.6 (2026-08-22) -- FND-146: the bottom spectrum acquitted on the measured aligned branch; the q-sensitivity probe promoted
+
+- FND-146 registered (737 claims), granted by the author with a
+  scope-tightening amendment (acquittal on the MEASURED branch and
+  TESTED discretizations; "not explained by any detected Jacobian
+  degeneration"). The smallest-singular-value diagnostic (external
+  review step 3): effective smallest singular value does not
+  deteriorate S0 -> S3 (1.068e-6 -> 1.219e-6, S0/S3 = 0.876 against
+  the registered 10x rule); Jfree tracks J; omega-content ~1e-11;
+  no fold, resonance approach, or gauge degeneration detected. The
+  W0-margin-below-one suspect cleared at the tested states.
+- Bars locked before computing with three daylight amendments and
+  one implementation note, all stricter: structural-null cluster
+  (k0 = 115 at 96 x 36 -> 178 at 112 x 42, matching the projected
+  mean/s-Nyquist families) with effective-sigma measurement; f64
+  true-operator arbiter; f64 normal-matrix vectors after the arbiter
+  failed f32 vectors twice at a pinched gap (first diagnosis wrong,
+  kept on the record).
+- Live interpretation, not part of the finding: direction field vs
+  rationalized cell. Q-SWEEP STAGE 1 (the q-sensitivity probe)
+  AUTHORIZED as the discriminator.
+
+## 3.27.5 (2026-08-21) -- THE THIRD PIN ADJUDICATED: the 112 x 42 confirmation converged and failed every drift gate; progressive resolution exhaustion; the FND-144 displacement reading withdrawn
+
+- FND-145 registered (736 claims): the confirmation FND-144 owed
+  COMPLETED at round 58 without touching solver or acceptance
+  criteria. It CONVERGED (RMS 1.86e-9 under the 1e-8 bar, closure
+  6.2e-7 under the halt-grade bar) and landed ELSEWHERE: gamma drift
+  1.01e-2 at 2x the 5e-3 gate, Om2 6.02e-3 and A2 7.51e-3 both out.
+  The drift pattern is the finding: 64 -> 96 moved A2 alone; 96 ->
+  112 moves all three coordinates. Refinement made it worse -- the
+  exhaustion signature, not the displacement one. Corroborated
+  independently by wsNyq falling only 3x (2.6e-3 -> 8.0e-4) under
+  1.4x-per-axis refinement where genuine grid-scale content collapses
+  to 1e-9 grade.
+- FND-144 AMENDED at its site: "displaced along the branch rather
+  than fabricated" is WITHDRAWN as overclaimed, per the conditional
+  the external review staked in advance. The claim's branch-existence,
+  rate-collapse, and mild-member results STAND. The third pin is NOT
+  a usable anchor at any resolution tested; the chartered
+  reach-or-asymptote binary remains OPEN; Sigma_wave NOT re-priced;
+  FND-139 rider standing; FND-135 box not superseded.
+- Instrument (annotated at sites, kept): setsid-detached runs SURVIVE
+  the tool-call boundary (measured; reverses the registered note);
+  per-round checkpointing; the NO-VERDICT cap guard (a budget must
+  not adjudicate -- it kept an 80-round cap from writing 'failed' on
+  a still-descending solve at round 42); two silent container OOM
+  reaps absorbed at one round each; detached stage-D runs are
+  MEMORY-EXCLUSIVE. Lesson kept: the pre-snap signature forecasts
+  convergence, never correctness.
+- External review (2026-08-21) folded in: FND-144 wording conditional
+  VINDICATED and applied; smallest-singular-value diagnostic,
+  q-sensitivity probe, and Om2-parameterized continuation ADOPTED to
+  the queue; validation entry points repaired (self-bootstrapping
+  sys.path; the physics runner no longer swallows a failing suite's
+  stderr; 10/10 + 35/35 + 40/40 from any cwd).
+- Plain-language guide: 12 callout boxes repaired at SOURCE (they had
+  been pasted back into guide/topics/*.md in rendered form);
+  electricity re-led on current-as-turning and
+  voltage-as-tension-difference with charge demoted to a closing
+  subsection; rebuilt, render-check PASS.
+
+## 3.27.4 (2026-08-21) -- NATIVE-96: the branch exists at the third pin, the 64-grid member is displaced not fabricated, and the amplitude growth collapses inside the former mild regime
+
+- FND-144 registered (735 claims), granted by the author:
+  COMMISSION NATIVE-96 (RATES-REGISTERED per bars delta 6) plus
+  PROBE-94. The native 96 x 36 instrument proven (control (i);
+  control (0*) 2-of-3 at 1e-4 grade against stage-2 regenerations);
+  two native members under the PROMOTED HALT-GRADE CLOSURE BAR, both
+  112 x 42 cross-confirmed at 1e-5-grade drift; member-grade dA2/ds
+  trajectory 6.5e-4 (A2 = 0.0048) -> 6.8e-5 (0.0063), decaying, an
+  eightfold collapse INSIDE the former mild regime, gamma frozen,
+  Om2 carrying the arclength, W0-margin declining toward the distant
+  1:1 resonance.
+- PROBE-94: the branch EXISTS natively at the third-pin neighborhood
+  (A2 = 0.0094647, RMS 2.7e-10, closure 9.5e-9); the FND-142 64 x 24
+  member there is DISPLACED along the branch (+0.73% in A2,
+  single-coordinate, out of the 5e-3 gate; gamma and Om2 in-gate) --
+  displacement grade, an order milder than the steepened fabrication
+  grade. The chartered reach-or-asymptote binary is NOT concluded;
+  Sigma_wave NOT re-priced; FND-139 rider standing; asymptote
+  scenario leads interpretively with q = 3/2 the named suspect.
+- OWED TO CI: the 112 x 42 confirmation of the probe's landed state,
+  budget-boxed partial at round 38/80 (5.0e-1 -> 1.8e-5, floor
+  contracting without decay, exact-GN bounces shrinking -- the
+  pre-snap signature); and the walk from the march head at
+  A2 = 0.0063277. Checkpoints exported in analysis/.
+- Bars: analysis/NATIVE96_bars_LOCKED.md (locked before computing,
+  zero amendments). Results: analysis/NATIVE96_results.md. Full
+  instrument record annotated at sites, including the KEPT
+  waypoint-tolerance incident (hypothesis falsified by member-grade
+  re-measurement).
+
+## 3.27.3 (2026-08-20) -- TRAVERSE: the steepened regime of record was an aliasing artifact, and the tell was on the face
+
+- FND-143 registered (734 claims), granted by the author, consolidating
+  COMMISSION TRAVERSE (2026-08-19) and COMMISSION TRAVERSE-96 (SCOUT)
+  (2026-08-20): the 64 x 24 steepened-regime members of the aligned
+  branch are RESOLUTION ARTIFACTS at the 2-7% level. Mild members are
+  resolution-converged (96 x 36 re-solve to 7.1e-12, 1e-4-grade drift);
+  steepened members (gamma <= 0.558) fail their fine-grid re-solve with
+  drift tracking a continuous-level closure violation that reaches
+  8e-3, terminating in a genuine least-squares stationary point.
+- SUPERSEDED-NOT-ERASED: the steepening's quantitative record past
+  gamma = 0.558 at 64 x 24, including the no-fold statement as a
+  quantitative record and the dA2/ds rates. The earlier PROPOSED
+  FND-143 text is retired unregistered.
+- FND-142 UNTOUCHED where it matters: its verdict claimed a search
+  failure and stands (PIN-UNREACHED, Sigma_wave not re-priced, FND-139
+  rider standing). Its steepened-regime displays inherit the
+  several-percent caveat. The 64-run's resolution-exhaustion diagnosis
+  is STRENGTHENED.
+- THE METHOD LESSON, the reusable content: closure residuals are
+  equations in the tangent-sphere chart, and the inherited bars printed
+  them without gating (1.9e-9 mild -> 3.9e-4 -> 8.3e-3 under a clean
+  1e-8 field-RMS acceptance). Successor NATIVE-96 promotes closure to a
+  HALT-grade bar at 1e-6 and runs natively at 96 x 36 from level-1
+  (bars: analysis/NATIVE96_bars_LOCKED.md).
+- Instrument fixes from the suite run carried in-place (verify_corpus
+  budget map and cache; ansatz_selfconsistency exit semantics;
+  electron_kkt_push FD ladder; topology-transition numpy>=2
+  portability; truestate_stage2 --task driver implemented). Full suite:
+  ALL CHECKS PASS (637/637 code-backed).
+
+## 3.27.2 (2026-08-18) -- TRUE-STATE STAGE 2: the two-frequency state exists, the pins are unreached, and the resonance window is inhabited
+
+- FND-142 registered (733 claims). The invariant-torus solve ran as
+  chartered: the state FND-140 adjudged EXISTS at machine precision,
+  with the linear internal spectrum measured (Om2 = 3.201 / 2.221 --
+  0.48x / 0.34x the build; FND-139's display direction confirmed, its
+  magnitudes superseded).
+- PIN-UNREACHED-IN-SEARCH: the aligned branch steepens toward the
+  z' -> 0 boundary an order below the registered R2 (near-vertical
+  gamma(A2) tangent at A2 ~ 0.0102; min z' 0.57 -> 0.17); whether it
+  continues in a general-position representation is open by name.
+- THE RESONANCE: the anti-aligned root sits exactly on Om1/2 (the
+  n = 1 cell mode) -- FND-140's resonant-k2 exception window is
+  INHABITED; continuation degenerate; no converged member registered;
+  the q = 3/2 rationalization named a suspect.
+- Sigma_wave NOT re-priced; FND-139 rider stands; the author's
+  deferral continues. Price display at the last converged member:
+  2.62 T0 (display only).
+- Instrument record: three catches (dense pin rows vs column
+  grouping; composed-stencil sparsity truncation; pin-scale burial),
+  each fixed under a printed control; a new sparsity-pattern control
+  joins the benchmark.
+
+## 3.27.1 (2026-08-18) -- TRUE-SOLVE: the kb ceiling of record re-solved under the true curvature
+
+- FND-141 registered (732 claims). The Bloch bending re-solve under
+  kappa_true: the feasibility ceiling moves 0.079 -> kb <= 0.09332
+  T0_f a_f^2 (LOOSER, the display's direction; below the display's
+  0.102 -- the zeroth-order weighting is a direction estimator, not a
+  value estimator, registered as such).
+- Instrument-unchanged proof: kb = 0 anchors reproduce FND-126
+  identically (k_f = 9.008, T = 1.501, window drift 0.0343%); every
+  kb = 0 object untouched by construction and by measurement.
+- SHIN7 worst case paid: max |kappa_true| = 4.4689 /a_f (5.713 bound
+  holds, 1.28x). KBSAT desk display: 0.126 and 0.282 both remain
+  OUTSIDE. The 17.926 re-derivation GATED ON STAGE 2 by name.
+- FND-131's dynamical-background gap carries unchanged on the new
+  bound. Sigma_wave untouched (author's deferral through stage 2).
+
+## 3.27.0 (2026-08-18) -- THE CURVATURE ARC: eight sessions, and the composite sector rebuilt on what is actually known
+
+- FND-133..FND-140 registered (731 claims, from 717). Full arc notes at
+  docs/history/RELEASE_NOTES_v3.27.0.md and per-cut notes v3.26.78-85.
+- NULL-CORRECTION (FND-133): the rotating background changes the BLOCH-L
+  anchors by exactly zero at the production instrument; kb bound sheds its
+  static-background rider.
+- THE SIGMA FAMILY (FND-134): Sigma_wave named before the collision;
+  FND-132's unit-class slip corrected by name.
+- THE COMPOSITE BUILD + THE CONVENTION CATCH (FND-135/136): exact two-level
+  KE in closed form; one registered bracket wore two angle conventions; the
+  coverage tightened to [1.80%, 5.07%]. Codified: a sweep's clearance
+  extends exactly as far as the invariance of the quantity it checked.
+- FLOOR-REMAPPED (FND-137): core-existence floor to k_f/T0_f > 3 exactly,
+  rider-free; falsifier re-armed; sixth/eighth ensemble moments measured
+  ANISOTROPIC (magic angles buy fourth-moment isotropy only).
+- THE CURVATURE ADJUDICATION (FND-138/139): the registered composite
+  curvature is no curve's curvature (|t.K| = 1.5); the rod bends against
+  the true curve by the grant's no-wound-reference clause; the composite
+  ansatz measured order-one off-shell; CONFLICT registered on Sigma_wave's
+  anti-aligned corner (rider attached; at the author's desk).
+- NONEXISTENCE-IN-FAMILY (FND-140): no one-frequency composite exists at
+  the registered pins; the true state is a two-frequency object; stage 2
+  chartered. Sigma_wave NOT re-priced -- nothing to price from.
+- Standing: TRUE-STATE stage 2 and TRUE-SOLVE chartered; kb display 0.102
+  (looser, not of record); suite debt eight releases -- overnight it.
+
 ## 3.26.77 (2026-08-17) -- THE ENERGY BILL: priced and payable -- and the vacuum's constituents move at exactly c
 
 - FND-132 (Modeled): FND-131's named next-order executed.
@@ -317,6 +507,57 @@
   coherence) and the frame-dragging ceiling TIGHTENS to
   Lambda_nat <= 4.7e34, chi_required >= 2.1e-35. KL updated.
   713 claims.
+
+## 3.28.0 (2026-08-26) -- THE WEAVE RELEASE
+
+- TOPOLOGY SETTLED: the analytic spectator test (V2) establishes
+  the local weave over Gaede-style direct ropes 9/9 vs 3/9; guide
+  harmonized under Option A ("ROPE framework" kept; explicit
+  "not Gaede's rope model" section); FND-148 (membership is a
+  graded ladder; the z=1 pendant is one-rope physics to 0.5
+  percent) and FND-149 (uniform pretension rescales, never
+  rescues) registered.
+- Q-SWEEP STAGE 1 (FND-147): first branches off q = 3/2; rate
+  profiles 11 + 38 gated points; RULE S1-SPLIT (D 5.31x vs
+  1.11x): the collapse is rationalization-selective.
+- THE WINDING-FIELD TRAIL: FND-150 (the winding field is
+  load-bearing; frozen-direction continuation gate-infeasible,
+  misfit first-order in ds, ratio 0.250 measured vs 0.25) and
+  FND-151 (E-DIRECTION: winding velocity elevated 2.7x exactly
+  in the collapse region, control 1.12, Q = 2.515); stage-2c
+  profile experiment chartered (per-step retention; sector
+  ledger).
+- VERIFICATION: 639/641 code-backed passing (full cold sweep +
+  targeted re-adjudication). ELEC-011 RESOLVED: the sweep itself
+  had overwritten evidence (live-instrument benchmark saved over
+  analysis/ELEC006_state.npz); era file restored from the
+  author's archive, check passes untouched; EVIDENCE-MUTATION
+  GUARD added to the verifier (evidence immutable under
+  verification). Remaining two itemized in docs/VERIFY_STATUS.md
+  (FND-143 archival gap; FND-144 unbounded backing).
+- Registry: 742 claims. Charters, results docs, checkpoints, and
+  the FND-147 provenance incident all in SESSION_CHANGES.md.
+
+## 3.27.8 (2026-08-26) -- FND-147/148/149 REGISTERED; STAGE 2 CHARTERED
+
+- FND-147 (Q-SWEEP S1-SPLIT, Option A framing), FND-148
+  (coordination W3, cross-ref amended, replication recorded),
+  FND-149 (pretension W2 with mechanism, open edge recorded):
+  registry at 740. Stage 2 charter locked (frozen-direction /
+  frozen-cell transplant); execution awaits release. FND-147
+  provenance incident recorded in SESSION_CHANGES.
+
+## 3.27.7 (2026-08-26) -- Q-SWEEP STAGE 1 COMPLETE: S1-SPLIT
+
+- First aligned branches constructed off q = 3/2 (q = 4/3 and 5/3,
+  two gated members each); rate profiles measured (11 + 38 full-bar
+  points); locked rules fired S1-SPLIT (D = 5.31x vs 1.11x): the
+  dA2/ds collapse is rationalization-selective; stage 2 required.
+- om2 strongly q-dependent across the neighbors (2.15/3.20/4.23).
+- Solver: trust cap + abort persistence (limit-cycle fix), closure-
+  aware stop. Draft registration FND-147 awaiting the author.
+- Topology: spectator test decided V2 (local weave); Option A name
+  treatment applied to the guide; coordination brick chartered.
 
 ## 3.26.64 (2026-08-16) -- THE kb VALUE SESSION: inversion blocked (and the block is good news); KBSAT chartered to the desk
 
