@@ -5,11 +5,11 @@ ROPE-VALIDATION-004 curved closed excluded-core 3-D Aharonov--Bohm instrument te
 levels=(23, 27, 31) core radii=(0.48, 0.64) alphas=(0.0, 0.25, 0.5, 1.0) eigs=5  
 loop radius=1.15 shell radius=0.72  
 max Hermiticity error=0  
-max arbitrary-gauge spectrum error=2.73559e-13  
-max distributed-vs-cut spectrum error=3.97904e-13  
-max flux-reversal error=2.23821e-13  
-r_core=0.480 half-flux response=0.102816 period closure=3.03757e-13 max gap drift=0.391248  
-r_core=0.640 half-flux response=0.0224084 period closure=3.12639e-13 max gap drift=1.69204  
+max arbitrary-gauge spectrum error=2.57572e-13  
+max distributed-vs-cut spectrum error=2.61124e-13  
+max flux-reversal error=2.62901e-13  
+r_core=0.480 half-flux response=0.102816 period closure=2.2915e-13 max gap drift=0.391248  
+r_core=0.640 half-flux response=0.0224084 period closure=4.26326e-13 max gap drift=1.69204  
 B1_hermitian: PASS  
 B2_arbitrary_gauge_invariance: PASS  
 B3_distributed_cut_equivalence: PASS  

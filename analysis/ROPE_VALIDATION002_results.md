@@ -4,7 +4,7 @@ ROPE-VALIDATION-002 3-D regularized AB flux-tube instrument test
 3-D imposed-flux solver validation only; flux is external and not derived from rope dynamics  
 levels=(17, 23, 29) a/h=(1.5, 2.5, 3.5) alphas=(0.0, 0.25, 0.5, 1.0) eigs=5  
 max Hermiticity error=0  
-max gauge spectrum error=8.17124e-13  
+max gauge spectrum error=5.61329e-13  
 fixed-core gap drift=0.115905  
 a/h=1.50 half-flux response=0.1185 period closure=2.28333 max gap drift=0.109929  
 a/h=2.50 half-flux response=0.0990929 period closure=2.1373 max gap drift=0.201657  

@@ -2,17 +2,17 @@ ROPE-VALIDATION-003 3-D excluded-core Aharonov--Bohm instrument test
 3-D excluded-core AB solver validation only; holonomy is imposed externally and not derived from rope dynamics
 levels=(15, 19, 23) core radii=(0.45, 0.75) alphas=(0.0, 0.25, 0.5, 1.0) eigs=4
 max Hermiticity error=0
-max arbitrary-gauge spectrum error=1.75859e-13
-max distributed-vs-cut spectrum error=1.91847e-13
-max flux-reversal error=1.35003e-13
-r_core=0.450 half-flux response=0.131185 period closure=9.23706e-14 max gap drift=0.0451407
-r_core=0.750 half-flux response=0.122255 period closure=2.30926e-13 max gap drift=0.0535434
+max arbitrary-gauge spectrum error=2.36255e-13
+max distributed-vs-cut spectrum error=2.64677e-13
+max flux-reversal error=2.00728e-13
+r_core=0.450 half-flux response=0.131185 period closure=3.606e-13 max gap drift=1
+r_core=0.750 half-flux response=0.122255 period closure=4.40536e-13 max gap drift=0.0535434
 B1_hermitian: PASS
 B2_arbitrary_gauge_invariance: PASS
 B3_distributed_cut_equivalence: PASS
 B4_unit_flux_periodicity: PASS
 B5_flux_reversal_symmetry: PASS
 B6_nontrivial_half_flux_response: PASS
-B7_grid_convergence: PASS
-FINDING: AB_3D_EXCLUDED_CORE_INSTRUMENT_VALIDATED
+B7_grid_convergence: FAIL
+FINDING: AB_3D_EXCLUDED_CORE_VALIDATION_INCOMPLETE
 NOTE: The cylindrical core is excluded from the wavefunction domain. Link phases implement a flat connection outside the core, so unit-flux periodicity and cut-gauge equivalence are exact lattice tests rather than thin-core extrapolations.

@@ -1,0 +1,14 @@
+ROPE-MODE-002 central-field spectrum
+certified=True dmin=0.06054996 Lk512=-1.00244128 eps=0.09215958
+alpha=0 maxconv=0.00486932 clusters=[[1, 2, 2, 2, 2], [1, 2, 2, 2, 2]] dominant_l=[[0, 2, 2, 2, 2, 2, 2, 2, 2], [0, 2, 1, 2, 2, 1, 2, 2, 1]] mean_purity=[0.4342, 0.4386] multiplet=False class=False purity=False
+alpha=0.1 maxconv=0.00487203 clusters=[[1, 1, 1, 2, 2, 2], [1, 1, 1, 2, 2, 2]] dominant_l=[[2, 2, 2, 2, 2, 2, 2, 2, 2], [2, 2, 1, 2, 2, 1, 2, 1, 2]] mean_purity=[0.4344, 0.4453] multiplet=False class=False purity=False
+alpha=0.3 maxconv=0.0048775 clusters=[[1, 1, 1, 2, 2, 2], [1, 1, 1, 2, 2, 2]] dominant_l=[[2, 2, 2, 2, 2, 2, 2, 2, 2], [2, 2, 1, 2, 2, 1, 2, 1, 2]] mean_purity=[0.4349, 0.4476] multiplet=False class=False purity=False
+alpha=1 maxconv=0.00489693 clusters=[[1, 1, 1, 1, 1, 2, 2], [1, 1, 1, 1, 1, 2, 2]] dominant_l=[[2, 2, 2, 2, 2, 2, 2, 2, 2], [2, 1, 1, 2, 2, 1, 2, 1, 2]] mean_purity=[0.4366, 0.4608] multiplet=False class=False purity=False
+alpha=3 maxconv=0.00495417 clusters=[[1, 1, 1, 1, 1, 2, 2], [1, 1, 1, 1, 1, 2, 2]] dominant_l=[[2, 2, 2, 2, 2, 2, 2, 2, 2], [2, 1, 1, 2, 2, 1, 2, 1, 2]] mean_purity=[0.4413, 0.4881] multiplet=False class=False purity=False
+alpha=10 maxconv=0.00518014 clusters=[[1, 1, 1, 1, 1, 1, 1, 2], [1, 1, 1, 1, 1, 2, 2]] dominant_l=[[2, 1, 1, 2, 2, 2, 2, 2, 2], [2, 1, 2, 2, 2, 1, 1, 1, 2]] mean_purity=[0.4786, 0.527] multiplet=False class=False purity=False
+B1 certified linked reference: PASS
+B2 mesh-converged central-field spectrum: PASS
+B3 1/3/5 multiplets emerge: FAIL
+B4 multiplets classify as s/p/d: FAIL
+B5 structure robust across coupling sweep: FAIL
+FINDING: CENTRAL_FIELD_DOES_NOT_GENERATE_ATOMIC_MULTIPLETS
