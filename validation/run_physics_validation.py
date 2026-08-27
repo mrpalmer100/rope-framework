@@ -16,6 +16,13 @@ for s in suites:
     print(r.stdout, end="")
     if r.returncode != 0:
         fail = True
+        # (2026-08-21, annotated) A failing suite used to be SILENT: stderr
+        # was captured and dropped, so an ImportError printed as
+        # "COMBINED PHYSICS+EM: 0/0 tests passed" with no cause shown.
+        # A failure must always say why.
+        if r.stderr:
+            print(f"--- {os.path.basename(s)} FAILED; stderr follows ---")
+            print(r.stderr, end="")
     # parse "RESULT: x/y"
     for line in r.stdout.splitlines():
         if line.startswith("RESULT:"):

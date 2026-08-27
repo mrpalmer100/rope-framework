@@ -1,7 +1,15 @@
 """
-tests/test_validation.py  --  Pin each module to analytic ground truth.
+validation/run_validation.py  --  Pin each module to analytic ground truth.
 
-Run:  python3 tests/test_validation.py
+Run:  python3 validation/run_validation.py        (from the repository root)
+      python3 run_validation.py                   (from validation/)
+
+Both work: the script bootstraps its own import path below, so no
+PYTHONPATH is required. (2026-08-21, annotated: an external reviewer
+reproducing the corpus hit ModuleNotFoundError running the advertised
+command from the root, because this entry point -- unlike the
+benchmarks, which have always self-bootstrapped -- relied on the
+caller's PYTHONPATH. Entry points must not do that.)
 
 Catches the class of errors this programme has repeatedly surfaced
 (spring-vs-tension force, soft-potential unlinking, placeholder potentials).
@@ -14,8 +22,10 @@ boundary. Physics calculations use smooth localised sources and measure
 energy in the interior, where this is negligible. Tests exclude a boundary
 layer and use a resolved (smoothed) source.
 """
-import numpy as np
+import os
 import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import numpy as np
 from rope_solver.psi.solver import grid, solve_psi, laplacian_3d
 from rope_solver.topology.linking import linking_number, torus_link, hopf_curves
 from rope_solver.geometry.curve import tension_force, tension_energy
