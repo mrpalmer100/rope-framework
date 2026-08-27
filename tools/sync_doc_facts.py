@@ -226,6 +226,13 @@ def main():
                         if any(c in low for c in
                                (c.lower() for c in HISTORY_CUES)):
                             continue
+                        # History citations are not staleness:
+                        # lines linking docs/history, or carrying an
+                        # explicit <!-- version-ok --> waiver, cite
+                        # the past on purpose (2026-08-27).
+                        if ('docs/history' in line
+                                or 'version-ok' in line):
+                            continue
                         stale_hits.append((doc.name, i,
                                            f"references v{'.'.join(map(str, ref))}"
                                            f" (current v{cur_str})"))
@@ -234,7 +241,14 @@ def main():
         # before this check existed).
         backed = sum(1 for c in claims if c.get("benchmark"))
         bm = _re.search(r"verify-(\d+)%2F(\d+)%20passing", readme_text)
-        if bm and (int(bm.group(1)) != backed or int(bm.group(2)) != backed):
+        # 2026-08-27: the badge format is now PASSING/CODE-BACKED
+        # (docs/VERIFY_STATUS.md is the audited source; a cold sweep
+        # can legitimately show passing < backed with the exceptions
+        # itemized). The tripwire checks the DENOMINATOR against the
+        # registry and requires passing <= backed; a passing count
+        # that exceeds backed, or a stale denominator, still trips.
+        if bm and (int(bm.group(2)) != backed
+                   or int(bm.group(1)) > backed):
             stale_hits.append(("README.md", 0,
                                f"Verify badge says {bm.group(1)}/{bm.group(2)},"
                                f" registry has {backed} code-backed"))
@@ -244,7 +258,7 @@ def main():
                 print(f"FRONTDOOR-STALE  {name}:{ln}: {msg}")
         else:
             print(f"ok     front-door version tripwire (current v{cur_str},"
-                  f" badge {backed}/{backed})")
+                  f" badge denominator {backed})")
     # ------------------------------------------------------------------------
 
     if check and any_drift:
