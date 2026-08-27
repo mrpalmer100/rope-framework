@@ -187,3 +187,71 @@ sorted list, not its tail.
   cell occupied by the n_sub wound sub-strands. Bracketed
   <= [2.15%, 6.08%] at the registered ceilings; scales as a_f^2.
   Distinct from any EM crossing/contact fraction.
+
+## Addendum (2026-08-18, THE SIGMA FAMILY -- the Sigma_wave registration, FND-134)
+
+Registered BEFORE the composite wave build touches the ledger, per
+FND-132's pre-collision flag (the EM-020/DALET-2 precedent: the corpus
+has already once found two Sigmas wearing one letter with an 11-order
+gap and no conversion). The family now has FOUR live objects; a bare
+Sigma outside a defining claim's local context is a review flag:
+
+- **Sigma_eff** -- the PINNED vacuum energy-density scale of the
+  FND-030 series (provenance audited, downstream bill paid,
+  out-of-sample confronted there). The corpus's canonical vacuum
+  Sigma.
+- **Sigma_EM** -- the EM-sector effective scale, Sigma_EM = T0 n_L
+  ~ 1e25 J/m^3 (EM-RECON-014 lineage; DALET-2 ruled it a DIFFERENT
+  OBJECT from the pinned quantity; its quoted value rests on a
+  superseded pin, disclosed there).
+- **Sigma_vac** -- the STATIC BOOKKEEPING of the strand lattice:
+  3 T0/a^2 areal, i.e. 1 T0 per coarse strand per unit axial length
+  (the object the energy bill was priced AGAINST).
+- **Sigma_wave** -- NEW. The rotating winding's TOTAL energy per
+  coarse strand per unit axial length: tension along the wound path
+  plus the rotation's kinetic energy. CANONICAL UNIT CLASS:
+  per-strand per axial length (T0 units). Registered value:
+  [SUPERSEDED IN VALUE, not in definition, by FND-135 -- the entry as
+  first registered read: BRACKETED [2.598, 4.522] T0, level-1-only
+  exact at sqrt(3) x 3/2 = 2.598, two-level upper at the standing kb
+  bound with the fine-weave path factor 2.409; areal 3x = [7.794,
+  13.565].]
+  REGISTERED VALUE (FND-135, the composite build): Sigma_wave =
+  [3.222, 4.313] T0; areal form 3 x Sigma_wave = [9.67, 12.94] T0/a^2,
+  quoted with the x3 shown. The width is NOT an approximation gap: it
+  is exactly two named causes -- the unregistered relative handedness
+  of the two rotations (a DISCRETE two-valued fork, the cross term's
+  sign) and the standing kb range. The level-1-only value 2.598 is
+  RETIRED as an edge of Sigma_wave: it is the level-1 object, not the
+  composite, and the two may not share a bracket.
+  RIDER (FND-139): the box's values are exact phase averages of the
+  STATED ansatz (superposed rigid rotations), which CURVE-OBJ measured
+  ORDER-ONE OFF-SHELL at kb = 0 (residual RMS 1.4x/1.1x centripetal;
+  arclength not preserved). A refit display places the anti-aligned
+  kb = 0 corner BELOW the box's lower edge (conflict registered; at
+  the author's desk). The level-1 component 2.598 T0 is a verified
+  solution's number and is unaffected. Quote the box only with this
+  rider until the author's decision lands. [STAGE-1 UPDATE
+  (FND-140): option (b) ran; NO rigidly-rotating two-level state
+  exists at the registered pins -- the true state is a two-frequency
+  object and its solve is chartered (stage 2). The rider stands; no
+  re-pricing yet.]
+  PATH-FACTOR RULE, attached here because it is where the collision
+  lived: the arc-per-axial factor 1/(c_ax1 c_ax2) is
+  CONVENTION-SENSITIVE (the swap exchanges sin and cos) and is 2.0114
+  under the load-bearing reading A; 2.409 is the reading-B value. Any
+  new text quoting a path factor states its reading.
+
+UNIT-CLASS CORRECTION, attached by name (registered text is history
+and is not edited): FND-132's prose reads "the wave total
+(2.6-4.5 T0/a^2-class)". The NUMBERS are per-strand per axial length;
+the UNIT LABEL is areal. Quoting text attaches the canonical name and
+unit class in brackets per the standing convention. The hazard this
+registration retires is exactly this mixed-unit adjacency: the
+per-strand bracket's lower edge (2.6) sits numerically beside the
+areal Sigma_vac (3), inviting a false near-equality between objects
+two unit classes apart.
+
+NO NEW SYMBOL for the dynamical share [0.615, 0.779]: it is a derived
+ratio of Sigma_wave (excess over booked / total) and is quoted as "the
+dynamical share (FND-132)", no letter assigned.
