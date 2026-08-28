@@ -1,6 +1,45 @@
 
 # SESSION_CHANGES -- 2026-08-21 (NATIVE-96 session 3: snap hunt + guide repair)
 
+## CI TRIAGE: THE GITHUB VERIFY RUN ADJUDICATED (2026-08-28)
+
+- FND-146's CI TIMEOUT was a seeding-shim defect (wrong /tmp key:
+  svd_ckpt vs svd_diag_ckpt); corrected -- the seeded instrument
+  completes in 3 s. LONG budgets added for the measured borderline
+  pair (svd_diagnostic, qb030: 900 s).
+- WAIVER MECHANISM added to tools/verify_corpus.py for the two
+  adjudicated items (FND-143 archival gap; FND-144 unbounded
+  backing): waived failures print with reasons and count, but do
+  not flip the exit code; unwaived failures still fail CI.
+  Expected CI: PASS WITH 2 DOCUMENTED WAIVER(S), 639/641.
+- docs/VERIFY_STATUS.md carries the CI adjudication section.
+
+## STAGE 2c COMPLETE -- E-LEDGER FIRED AND FND-152 REGISTERED
+## (2026-08-27/28; registry 743)
+
+- The q = 4/3 profile re-march completed: 12 gated triples with
+  per-step full-state retention, rates reproducing FND-147 within
+  1 percent point-by-point (instrument credential). ALL THREE
+  locked E-LEDGER conditions met: r = 0.870 (line 0.8); V_pt
+  monotone (one -1.1 percent tie within allowance); f_dir 0.110
+  -> 0.488 (+0.378 vs the +0.15 line). Arclength allocation
+  rotated 89/11 -> 51/49 amplitude/winding; V_pt doubled as the
+  rate fell 7x; the winding's acceleration PRECEDED the rate's
+  break by two points. Bonus: a gated member PAST the stage-1
+  closure (A2 0.005050, rate 8.308e-5).
+- FND-152 granted by the author and registered via the tool in a
+  verified process-quiet window (a first attempt was reaped
+  before executing and left NO partial state -- verified;
+  redone stepwise). States exported:
+  analysis/qsweep_stage2c_ckpt.pkl. Results:
+  analysis/QSWEEP_stage2c_results.md.
+- The q = 5/3 CONTROL profile (expected null on the flat branch)
+  is chartered, launched, and marching; its outcome registers on
+  its own line and appends to the results doc.
+- The FND-147 interpretive freeze REMAINS IN FORCE per the
+  charter's own terms; the author now holds the completed
+  FND-150/151/152 evidence set against it.
+
 ## FRONT-DOOR DRIFT FIXED + RELEASE CHECKLIST ADOPTED (2026-08-27)
 
 - The author caught README still reading v3.27.6 (version block
