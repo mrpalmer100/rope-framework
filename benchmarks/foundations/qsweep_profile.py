@@ -45,7 +45,14 @@ import sys
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import qsweep_stage1 as q1  # noqa: E402
 
-CKPT = pathlib.Path('/tmp/s2c_ckpt.pkl')
+# CHECKPOINT UNIFICATION (2026-08-27, measured): gn_lean persists
+# rounds through q1.CKPT, so a separate driver store split the
+# state across two files and the first launch clobbered the
+# stage-1 /tmp record (durable analysis/ export intact, by
+# design). One store: q1's. Members come from the durable export.
+CKPT = q1.CKPT
+S1_EXPORT = pathlib.Path(__file__).resolve().parents[2] / \
+    'analysis' / 'qsweep_stage1_ckpt.pkl'
 N = 144 * 36
 DS = 0.08
 BUDGET = 12
@@ -64,8 +71,7 @@ def save(st):
 def run(tag='4/3'):
     n2 = {'4/3': 4, '5/3': 5}[tag]
     T = q1.QTGrid(144, 36, 3, n2)
-    s1 = pickle.loads(pathlib.Path('/tmp/qsweep_ckpt.pkl')
-                      .read_bytes())
+    s1 = pickle.loads(S1_EXPORT.read_bytes())
     ms = s1[f'q{tag}']['members']
     st = load()
     rec = st.setdefault(f'prof-{tag}', dict(states=[], meas=[]))
