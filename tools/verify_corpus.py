@@ -253,12 +253,17 @@ def run_benchmark(rel):
         # against. The check now runs FIRST, before any rc-based
         # return: evidence immutable under verification, offenders
         # named, mutation adjudicates as the benchmark's failure.
-        _mut = []
+        _mut = []; _noise = []
         for _name, _era in _EV_SNAP.items():
             _f = pathlib.Path(ROOT) / 'analysis' / _name
-            if (not _f.exists()) or _f.read_bytes() != _era:
+            if not _f.exists():
+                _f.write_bytes(_era); _mut.append(_name); continue
+            _now = _f.read_bytes()
+            if _now != _era:
                 _f.write_bytes(_era)
-                _mut.append(_name)
+                (_noise if _numeric_equivalent(_now, _era) else _mut).append(_name)
+        if _noise and not _mut:
+            print(f"       note: evidence regenerated within tolerance on this hardware, committed bytes restored: {', '.join(_noise[:4])}")
         if _mut:
             res = (False, 'EVIDENCE MUTATION (restored): ' +
                    ', '.join(_mut[:4]))
@@ -291,6 +296,50 @@ def run_benchmark(rel):
 # docs/VERIFY_STATUS.md. A waived failure still PRINTS as a failure
 # (with its waiver reason) and still appears in the counts; it does
 # not flip the process exit code. Anything not listed here fails CI.
+
+# NOISE-VS-MUTATION ADJUDICATION (2026-09-06): hosted CI runners are
+# not one machine type; eigensolver and optimizer outputs differ in the
+# last bits across vector-instruction sets and BLAS builds. A benchmark
+# that regenerates its evidence file with the SAME numbers to a tight
+# tolerance (and identical non-numeric text) has not mutated evidence;
+# it has reproduced it on other hardware. Committed bytes are restored
+# either way; only a numerical difference adjudicates as MUTATION.
+_NUM = __import__('re').compile(r'[-+]?(?:\d+\.\d*|\.\d+|\d+)(?:[eE][-+]?\d+)?')
+def _numeric_equivalent(a, b, rtol=1e-6, atol=1e-9):
+    import io, json as _j, numpy as _np
+    if a == b:
+        return True
+    def _txt_equiv(sa, sb):
+        ta = _NUM.split(sa); tb = _NUM.split(sb)
+        na = _NUM.findall(sa); nb = _NUM.findall(sb)
+        if ta != tb or len(na) != len(nb):
+            return False
+        for x, y in zip(na, nb):
+            try:
+                fx, fy = float(x), float(y)
+            except ValueError:
+                if x != y: return False
+                continue
+            if not (abs(fx - fy) <= atol + rtol * max(abs(fx), abs(fy))):
+                return False
+        return True
+    try:
+        if a[:4] == b'PK\x03\x04' or a[:6] == b'\x93NUMPY':      # npz / npy
+            za = _np.load(io.BytesIO(a), allow_pickle=True); zb = _np.load(io.BytesIO(b), allow_pickle=True)
+            if hasattr(za, 'files'):
+                if sorted(za.files) != sorted(zb.files): return False
+                for k in za.files:
+                    x, y = za[k], zb[k]
+                    if x.dtype.kind in 'fc' or y.dtype.kind in 'fc':
+                        if x.shape != y.shape or not _np.allclose(x, y, rtol=rtol, atol=atol, equal_nan=True): return False
+                    elif not _np.array_equal(x, y):
+                        return False
+                return True
+            return za.shape == zb.shape and _np.allclose(za, zb, rtol=rtol, atol=atol, equal_nan=True)
+        return _txt_equiv(a.decode('utf-8', 'replace'), b.decode('utf-8', 'replace'))
+    except Exception:
+        return False
+
 VERIFY_MODE = {
     # campaign instruments with a bounded --verify path
     "benchmarks/foundations/traverse96_scout.py",

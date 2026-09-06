@@ -136,3 +136,17 @@ dispositioned:
   exports are copied to the /tmp paths campaign scouts expect.
 - STANDING RULE: every campaign session exports its /tmp
   checkpoints to analysis/ at close-out.
+
+## 2026-09-06: noise-vs-mutation adjudication in the evidence guard
+Hosted CI runners are not one machine type; twelve evidence-regenerating
+benchmarks (ELEC-006/007/008, ROPE-MODE-001/002/003/006/007,
+ROPE-VALIDATION-001..004) reproduce their committed evidence byte-for-byte
+in the reference environment but differ in the last bits on other CPUs
+and BLAS builds, which the guard reported as EVIDENCE MUTATION. The guard
+now adjudicates: a regenerated file whose numbers agree with the
+committed one to rtol 1e-6 / atol 1e-9 (every numeric token; npz arrays
+via allclose) with identical non-numeric text is REPRODUCTION ON OTHER
+HARDWARE -- committed bytes restored, benchmark passes with a note. Only a
+numerical difference is MUTATION. The numerical stack is pinned in
+requirements.txt (numpy 2.4.4, scipy 1.17.1; Python >= 3.11) to remove the
+formatting axis entirely.

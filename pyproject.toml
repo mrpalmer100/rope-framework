@@ -7,7 +7,7 @@ name = "rope_solver"
 version = "3.31.0"
 description = "Computational toolkit for rope solitons: solver, topology, relaxation, validation."
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.11"
 license = {text = "MIT"}
 authors = [{name = "Mark Palmer"}]
 dependencies = ["numpy>=2.4", "scipy>=1.17", "sympy>=1.9", "PyYAML>=6.0"]
