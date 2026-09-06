@@ -2,7 +2,7 @@
 # CORRECTION (2026-07-04, Factor-of-Three Audit): the coarse-graining factor quoted throughout these entries as K = 3J/a (hence c = kappa a/(3T^2), phase T^2 > kappa/3) is CORRECTED to K = 2J/a director / J/a scalar (hence c = kappa a/(2T^2), phase T^2 > kappa/2). Direct analytic + lattice-simulation coarse-graining does NOT reproduce the factor 3 (most probable origin: a dimensional double-count). The historical text below is retained as the reasoning record; read all "3" coefficients in the stiffness/phase chain as corrected. J = T^2/kappa (exact) and all relation FORMS and the structural alpha-G exponent (-2) are unaffected. See rope_microscopic_mechanics.docx and benchmarks/micromech/.
 rope_solver.open_problems  --  Canonical registry of the programme's open problems.
 
-A single place that tracks what the rope programme has NOT derived, so honest
+A single place that tracks what the mesh programme has NOT derived, so honest
 limitations are visible and cannot be quietly forgotten. Each entry records the
 problem, the paper/sector it arose in, and its status.
 
@@ -151,7 +151,7 @@ OPEN_PROBLEMS = [
         "note": "GENUINELY NEW, SCALE-FREE, FALSIFIABLE prediction -- the first the "
                 "programme has produced that escapes the undetermined-primitives "
                 "wall. Structural content (ROBUST): standard physics treats alpha "
-                "and G as independent; the rope programme, having expressed both in "
+                "and G as independent; the mesh programme, having expressed both in "
                 "the same primitives (alpha ~ 3T^2/(kappa a) from the EM coefficient "
                 "c = kappa a/(3T^2); gravity governed by the same tension T), FORCES "
                 "them to co-vary if a shared primitive drifts. It forbids, e.g., a "
@@ -533,7 +533,7 @@ def print_registry():
     """Print the registry grouped by status."""
     order = ["OPEN", "POSTULATE", "CONJECTURE", "CANDIDATE", "PARTIAL", "FALSIFIED"]
     print("=" * 64)
-    print("ROPE PROGRAMME -- OPEN PROBLEMS REGISTRY")
+    print("MESH PROGRAMME -- OPEN PROBLEMS REGISTRY")
     print("=" * 64)
     for st in order:
         items = by_status(st)

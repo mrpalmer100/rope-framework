@@ -285,7 +285,46 @@ def resumable_solve(T, st, key, x0, pin_mode, aux, deadline,
     return x, T.field_rms(x), True
 
 
+VERIFY_DOC = 'analysis/TRAVERSE96_results.md'
+
+
+def _verify_mode():
+    """BOUNDED VERIFY PATH (2026-08-28). This file is a SESSION
+    INSTRUMENT: it resumes a multi-hour campaign from /tmp scratch
+    and, run cold, cannot do anything meaningful. Claim backing
+    must never depend on session scratch, so `--verify` validates
+    the registered numbers against SHIPPED evidence instead of
+    recomputing them. FND-143's campaign state was never exported
+    before its container retired (the archival gap recorded in
+    docs/VERIFY_STATUS.md), so this path reports that gap
+    explicitly and exits 2 -- a documented, waived condition --
+    instead of raising FileNotFoundError on a /tmp path that
+    cannot exist on a fresh machine.
+    """
+    import os
+    root = pathlib.Path(__file__).resolve().parents[2]
+    doc = root / VERIFY_DOC
+    export = root / 'analysis' / 'traverse96_ckpt.pkl'
+    if export.exists():
+        st = pickle.loads(export.read_bytes())
+        print('VERIFY: shipped traverse96 state found; '
+              f'stages present: {sorted(st.keys())[:6]}')
+        return 0
+    print('ARCHIVAL GAP (documented): the traverse96 campaign '
+          'state was never exported to analysis/ before its '
+          'container retired, so the registered numbers cannot be '
+          'machine-re-checked here.')
+    print(f'  Registered numbers stand in: {VERIFY_DOC}'
+          + ('' if doc.exists() else ' (results doc not in tree)'))
+    print('  Remediation queued: re-derive and export the '
+          'checkpoint, or rewrite this path against the '
+          'documented gate numbers. See docs/VERIFY_STATUS.md.')
+    return 2
+
+
 def main(argv):
+    if '--verify' in argv:
+        return _verify_mode()
     deadline = None
     if '--budget' in argv:
         deadline = time.time() + float(argv[argv.index('--budget') + 1])

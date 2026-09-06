@@ -1,0 +1,26 @@
+id: FND-166
+title: 'COMMISSION PEV-IDENT (F2) -- THE PeV COINCIDENCE IS AN IDENTITY: E_rot = 2 sqrt2
+  x E_ceiling(a_f) EXACTLY, THE WINDING ROTATION FREQUENCY EQUALS THE LEVEL-1 WAVE FREQUENCY
+  (sqrt2 pi c/a_f) AND LIES ABOVE THE MEDIUM''S TRANSVERSE BAND; PREDICTION 33 DEMOTED'
+status: registered
+note: 'Charter analysis/PEV_IDENT_charter_LOCKED.md (locked before any ratio was
+  evaluated; grammar fixed in advance). Controls: R_1 = sqrt2 a_f/(2 pi) reproduced
+  to 9e-7; the FND-089/C1 instrument re-run gives S = 3.3575 on the 13^3 grid (c_eff
+  = 0.7615 c); FND-130''s sqrt(3/2) c recovered; clean room grep-verified. Q1
+  (symbolic, sympy, a_f/m/p free): E_rot/E_ceiling = 2 sqrt2 with no free symbols --
+  the rotation quantum and the lambda/4 photon ceiling are ONE scale, a_f, appearing
+  twice; no a_f determination can separate them, so Prediction 33''s stated test was
+  vacuous as written (numerically 2 sqrt2 x 1.4 PeV = 3.960 PeV, the prediction''s own
+  value, read only in Leg 3). Q2 (the fine frequency ladder, units c/a_f):
+  homogenization ceiling pi/2 = 1.571; band ceiling 2.557 (instrument units, S c_eff/
+  a_f) or 3.358 (charter-literal S c/a_f); omega_rot = omega_wave = sqrt2 pi = 4.443
+  IDENTICALLY (fibre length per turn is sqrt3 a_f) -- BAND-ABOVE under either
+  normalization (32-74 pct above, outside the 5 pct edge window): no transverse
+  normal mode exists at the rotation frequency; the winding rotation is a
+  relative-equilibrium state, consistent with FND-131''s forced-not-adopted reading.
+  Q3: IDENT-IDENTITY x BAND-ABOVE -> P33-DEMOTE under the locked grammar. Prediction
+  33 leaves the live Structural inventory and is kept as a registered identity of the
+  ceiling construction at full weight; the count in docs/WHERE_IT_STANDS.md is
+  adjusted by one (paper-sync). Consequence for FINE-GATE: the rotation-quantum
+  relation is not an independent equation in a_f. Results
+  analysis/PEV_IDENT_results.md. Granted by the author 2026-09-05.'

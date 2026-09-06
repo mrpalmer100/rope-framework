@@ -20,3 +20,8 @@ not a claim that Gaede endorses this work, nor an endorsement of all of his
 positions. It is simply the honest acknowledgment that the foundational idea —
 and the philosophical stance that gives this programme its motivation — came from
 him.
+
+
+## Naming (5 September 2026)
+
+The programme is now the Mesh Programme and the theory the mesh framework. The change names the vacuum object the derivations are about (the mesh of strands) rather than its excitations. It does not touch the attribution above: the Rope Hypothesis is Bill Gaede's, keeps its name, and remains the idea this corpus develops. "Rope" also remains the technical name of the two-strand wound object.

@@ -10,7 +10,7 @@ The guide is NOT a hand-edited Word document that drifts from the physics. Its
 content lives in guide/topics/*.md (one file per topic: light, charge, current,
 magnetism, ...), its diagrams in guide/figs/diagrams.py (callable by name), and
 its ordering in guide/topics/00_manifest.yaml. This tool renders the diagrams,
-assembles the topics in order, and produces docs/rope_plain_language_guide.docx
+assembles the topics in order, and produces papers/_sources/rope_plain_language_guide.docx
 via pandoc, so the guide stays in sync with its source by construction.
 
 Topic markdown conventions:
@@ -39,7 +39,7 @@ GUIDE=os.path.join(ROOT,"guide")
 TOPICS=os.path.join(GUIDE,"topics")
 FIGS=os.path.join(GUIDE,"figs")
 BUILD=os.path.join(GUIDE,"_build")
-OUT=os.path.join(ROOT,"docs","rope_plain_language_guide.docx")
+OUT=os.path.join(ROOT,"papers","_sources","rope_plain_language_guide.docx")
 
 def load_manifest():
     import yaml
@@ -209,23 +209,33 @@ def build(make_pdf=False):
     if make_pdf:
         sys.path.insert(0,"/mnt/skills/public/docx/scripts/office")
         from soffice import run_soffice
-        run_soffice(["--headless","--convert-to","pdf","--outdir",os.path.join(ROOT,"docs"),OUT])
-        print("Wrote PDF")
+        import shutil
+        src_dir=os.path.dirname(OUT)
+        run_soffice(["--headless","--convert-to","pdf","--outdir",src_dir,OUT])
+        # soffice writes the PDF next to the input (papers/_sources/); the canonical
+        # home for the paper PDF is papers/, so move it there.
+        pdf_src=os.path.join(src_dir,"rope_plain_language_guide.pdf")
+        pdf_dst=os.path.join(ROOT,"papers","rope_plain_language_guide.pdf")
+        if os.path.exists(pdf_src):
+            shutil.move(pdf_src,pdf_dst)
+        print(f"Wrote PDF -> {pdf_dst}")
 
 
 
 def render_check(docx):
     """Confirm the guide renders (opens + paginates) via soffice->PDF. This is the
-    guide's validation gate in lieu of strict schema validation (see stance above)."""
-    import sys as _s
+    guide's validation gate in lieu of strict schema validation (see stance above).
+    Writes the check PDF to a temp dir so it never pollutes the source/output tree."""
+    import sys as _s, tempfile
     _s.path.insert(0,"/mnt/skills/public/docx/scripts/office")
     try:
         from soffice import run_soffice
-        outdir=os.path.dirname(docx)
+        outdir=tempfile.mkdtemp(prefix="guide_rendercheck_")
         run_soffice(["--headless","--convert-to","pdf","--outdir",outdir,docx])
-        pdf=docx[:-5]+".pdf"
+        pdf=os.path.join(outdir,os.path.basename(docx)[:-5]+".pdf")
         ok=os.path.exists(pdf) and os.path.getsize(pdf)>2000
-        print(f"  render-check: {'PASS' if ok else 'FAIL'} ({pdf})")
+        print(f"  render-check: {'PASS' if ok else 'FAIL'}")
+        import shutil as _sh; _sh.rmtree(outdir,ignore_errors=True)
         return ok
     except Exception as e:
         print(f"  render-check ERROR: {e}"); return False

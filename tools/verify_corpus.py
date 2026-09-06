@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-verify_corpus.py — one-command verification of the Rope Programme corpus.
+verify_corpus.py — one-command verification of the Mesh Programme corpus.
 
 Reads claims.yaml, runs every benchmark referenced by a claim, and reports,
 claim by claim, whether its backing computation passes. Also checks that every
@@ -232,9 +232,39 @@ def run_benchmark(rel):
             _fp = os.path.join(_adir, _f)
             if os.path.isfile(_fp):
                 _snap[_f] = open(_fp, 'rb').read()
-        r = subprocess.run([sys.executable, "-u", path], cwd=ROOT, env=env,
+        # BOUNDED VERIFY ROUTING (2026-08-28): campaign instruments
+        # resume from session scratch or continue long runs when
+        # executed cold; each now carries a self-contained
+        # `--verify` path that checks SHIPPED evidence instead.
+        # Claim backing must never depend on /tmp.
+        _argv = [sys.executable, "-u", path]
+        if rel in VERIFY_MODE:
+            _argv.append("--verify")
+        r = subprocess.run(_argv, cwd=ROOT, env=env,
                            capture_output=True, text=True, timeout=budget,
                            encoding="utf-8", errors="replace")
+        # GUARD REPAIR (2026-08-29, daylight; measured incident #2 of
+        # this failure class): the mutation check below originally sat
+        # AFTER the return statements of this block -- dead code. The
+        # guard snapshotted but never restored, so a live instrument
+        # (electron_kkt_push.py's neighborhood) overwrote 81 analysis/
+        # evidence files mid-sweep and ELEC-011 failed downstream with
+        # era-true numbers, exactly the incident the guard was built
+        # against. The check now runs FIRST, before any rc-based
+        # return: evidence immutable under verification, offenders
+        # named, mutation adjudicates as the benchmark's failure.
+        _mut = []
+        for _name, _era in _EV_SNAP.items():
+            _f = pathlib.Path(ROOT) / 'analysis' / _name
+            if (not _f.exists()) or _f.read_bytes() != _era:
+                _f.write_bytes(_era)
+                _mut.append(_name)
+        if _mut:
+            res = (False, 'EVIDENCE MUTATION (restored): ' +
+                   ', '.join(_mut[:4]))
+            _cache[rel] = res
+            _json.dump(_cache, open(_cp, 'w'))
+            return res
         if r.returncode == 0:
             tail = ((r.stdout or "").strip().splitlines() or ["(no output)"])[-1]
             _cache[rel] = [True, tail]
@@ -249,18 +279,6 @@ def run_benchmark(rel):
         _cache[rel] = [False, tail or "(no output)"]
         _json.dump(_cache, open(_cp, 'w'))
         return False, tail or "(no output)"
-        _mut = []
-        for _name, _era in _EV_SNAP.items():
-            _f = pathlib.Path(ROOT) / 'analysis' / _name
-            if (not _f.exists()) or _f.read_bytes() != _era:
-                _f.write_bytes(_era)
-                _mut.append(_name)
-        if _mut:
-            res = (False, 'EVIDENCE MUTATION (restored): ' +
-                   ', '.join(_mut[:4]))
-            _cache[rel] = res
-            _json.dump(_cache, open(_cp, 'w'))
-            return res
     except subprocess.TimeoutExpired:
         _cache[rel] = [False, f"TIMEOUT ({budget}s)"]
         _json.dump(_cache, open(_cp, 'w'))
@@ -273,12 +291,16 @@ def run_benchmark(rel):
 # docs/VERIFY_STATUS.md. A waived failure still PRINTS as a failure
 # (with its waiver reason) and still appears in the counts; it does
 # not flip the process exit code. Anything not listed here fails CI.
+VERIFY_MODE = {
+    # campaign instruments with a bounded --verify path
+    "benchmarks/foundations/traverse96_scout.py",
+    "benchmarks/foundations/native96_continuation.py",
+}
+
 WAIVERS = {
     "FND-143": "archival gap: /tmp session state never exported; "
                "claim numbers stand in its records; re-derivation "
                "queued",
-    "FND-144": "unbounded verify-backing: live campaign instrument "
-               "resumes and continues; bounded verify path queued",
 }
 
 
@@ -293,7 +315,7 @@ def main():
         args.skip_heavy = True
 
     claims = load_claims()
-    print(f"Rope Programme corpus verification — {len(claims)} claims\n"+"="*64)
+    print(f"Mesh Programme corpus verification — {len(claims)} claims\n"+"="*64)
 
     # 1. existence checks
     missing = []

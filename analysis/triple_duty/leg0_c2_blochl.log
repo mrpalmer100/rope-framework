@@ -1,0 +1,36 @@
+COMMISSION BLOCH-L -- longitudinal branch of the wound fine medium
+psi_1=35.2644 deg  psi_2=59.4444 deg  p=a_f
+
+LEG 0 -- CONVENTION AUDIT (kappa is convention-blind; tau and R are not)
+  A  axial cos = sin(psi) [FND-088]: R=(0.22508,0.09396)  kappa=(2.9619,2.7506)  tau=(2.0944,4.6593)
+  B  axial cos = cos(psi) [FND-125]: R=(0.11254,0.26959)  kappa=(2.9619,2.7506)  tau=(4.1888,1.6239)
+  isotropy control under reading A: E[t_z^2]=0.333333333, E[t_z^4]=0.200000000, max|A4-iso|=8.88e-15
+  -> reading A is the load-bearing one  [PASS]
+
+LEG 1 -- AFFINE HOMOGENISATION (exact at the derived angles)
+  stretch/tension coefficients  L: 0.20000000 (1/5), 0.13333333 (2/15)
+                                T: 0.06666667 (1/15), 0.26666667 (4/15)
+  bending coefficients          L: 5.070636   T: 5.908746  (units 1/a_f^2)
+  closed form: k_f/T0_f = 6(k/T0) - 3 = 9.0000, T/T0_f = 1.5000   (ADDITIVE, angle-free)
+
+LEG 2 -- SUPERCELL BLOCH, CONTROLS
+  (i)   straight control: c_L=2.998629 (3.000000), c_T=1.224185 (1.224745)  [PASS]
+  (ii)  instrument validity: Bloch/supercell only (FND-084 retirement honoured)
+  (iii) polarisation identified by eigenvector; pw weights 0.995/0.995
+  multiplicity repair (one orientation per cell is rank-deficient):
+     m=1 ( 1 fibres/cell): c_L(001)=0.264565  c_L(111)=0.175357  c_T=0.208308
+     m=2 ( 4 fibres/cell): c_L(001)=1.224616  c_L(111)=1.178180  c_T=0.959272
+     m=4 (16 fibres/cell): c_L(001)=1.413486  c_L(111)=1.413504  c_T=0.999519
+     m=6 (36 fibres/cell): c_L(001)=1.413567  c_L(111)=1.413567  c_T=0.999543
+  READING WINDOW: c_L(24p)=1.413567, c_L(48p)=1.414052, drift=0.0343%  [PASS]
+
+LEG 3 -- THE READ
+  stretch+tension (the static stretch-projection):
+     k_f/T0_f = 9.00823   T_fibre/T0_f = 1.50137
+     c_L,f/c  = 3.00137      r_s/a_f = 0.23654   (r_s carries the KBSAT rider)
+  with bending at KBSAT: k_f/T0_f = 7.40833, T_fibre/T0_f = -0.89054  -> INFEASIBLE (T<0)
+  feasibility ceiling: kb <= 0.07909 T0_f a_f^2 (KBSAT 0.126 lies OUTSIDE) -- CONDITIONAL, see results doc
+
+  RIGIDITY DEMAND: transmission equals the static projection to 0.09% -- NOT FIRED
+
+VERDICT: PASS -- read delivered

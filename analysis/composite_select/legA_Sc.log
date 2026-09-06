@@ -1,0 +1,4 @@
+S-c  level-2 material orbital speed on the gated states (units c = 1): v_2 = RMS|om2 dW/dphi| (the pattern-rotation velocity); level-1 orbit RMS|i om1 W| for reference; max|v_total|
+   4/3: v_2 0.0146 (A2 0.00188) -> 0.0508 (A2 0.00505);  v_1 RMS 0.9998;  max|v| 1.0024 -> 1.0263;  v_2 = c at A2* ~ 0.089 (linear display; A2_max 0.00505)
+   5/3: v_2 0.0213 (A2 0.00188) -> 0.0661 (A2 0.00524);  v_1 RMS 0.9994;  max|v| 1.0035 -> 1.0268;  v_2 = c at A2* ~ 0.076 (linear display; A2_max 0.00524)
+   5/4: v_2 0.0126 (A2 0.00188) -> 0.0473 (A2 0.00511);  v_1 RMS 0.9999;  max|v| 1.0022 -> 1.0283;  v_2 = c at A2* ~ 0.094 (linear display; A2_max 0.00511)

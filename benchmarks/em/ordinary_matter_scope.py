@@ -1,4 +1,4 @@
-"""Scope statement for the rope programme's mass claims: the model addresses
+"""Scope statement for the mesh programme's mass claims: the model addresses
 ORDINARY MATTER (first generation + composites + photon), deriving mass STRUCTURE
 (the massless photon, the nuclear composition rule, mass=mode-energy) with a small
 number of absolute mass UNITS as irreducible inputs -- and makes NO claim on

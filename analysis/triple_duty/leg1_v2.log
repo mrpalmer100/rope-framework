@@ -1,0 +1,6 @@
+v2  s=0.25: numeric -0.635660  analytic -0.635829  rel err 0.0266%  [FAIL]
+v2  s=0.4: numeric 7.938649  analytic 7.938891  rel err 0.0030%  [PASS]
+v2  s=0.5: numeric 18.643956  analytic 18.644731  rel err 0.0042%  [PASS]
+v2  s=0.25 N=20000: numeric -0.635660 analytic -0.635829 rel err 0.0266% (abs 1.7e-04) [FAIL]
+v2  s=0.25 N=80000: numeric -0.635787 analytic -0.635829 rel err 0.0066% (abs 4.2e-05) [PASS]
+v2  s=0.25 N=320000: numeric -0.635818 analytic -0.635829 rel err 0.0017% (abs 1.1e-05) [PASS]

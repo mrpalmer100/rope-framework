@@ -83,12 +83,12 @@ def main():
     for c in claims: bysec[c["id"].split("-")[0]].append(c)
 
     L=[]
-    L.append("# The Rope Programme — Overview\n")
+    L.append("# The Mesh Programme — Overview\n")
     L.append("*The front door to the corpus. This document is **generated** from `claims.yaml` and the "
              "computed roadmap by `tools/build_overview.py`, so its statistics, maturity table, and "
              "open-problems list stay in sync with the corpus by construction.*\n")
     L.append("Programme credit: the core Rope Hypothesis is due to Bill Gaede; this corpus develops and "
-             "formalises it.\n")
+              "formalises it as the mesh framework (the Mesh Programme; renamed 5 September 2026, see README).\n")
     L.append("---\n")
 
     # What this is
@@ -149,7 +149,7 @@ def main():
     L.append("## Suggested reading order\n")
     L.append("For a first read of the corpus:\n")
     L.append("1. **This overview** — assumptions, scope, maturity, open problems.")
-    L.append("2. **Topology and Gauge Geometry Underlying the Rope Programme** — the mathematical backbone; "
+    L.append("2. **Topology and Gauge Geometry Underlying the Mesh Programme** — the mathematical backbone; "
              "why bundles, connections, curvature, and topology recur.")
     L.append("3. **Microscopic Mechanics** — the endpoint mechanics the chain starts from.")
     L.append("4. **A Gamma-Convergence Derivation for the Rope Medium** (homogenization) — how the discrete "
@@ -178,7 +178,7 @@ def main():
     L.append("## How to evaluate this corpus\n")
     L.append("- **Dependency graph:** `docs/dependency_graph.txt` — what rests on what.")
     L.append("- **Claim registry:** `claims.yaml` — every claim's status, paper, and benchmark.")
-    L.append("- **Computed roadmap:** `docs/roadmap.md` — sector maturity, auto-flagged if any readiness "
+    L.append("- **Computed roadmap:** `docs/ROADMAP.md` — sector maturity, auto-flagged if any readiness "
              "outruns its evidence.")
     L.append("- **One-command verification:** `make verify` — runs every code-backed claim's benchmark.")
     L.append("- **Heartbeat:** `make heartbeat` — the core validation runs (currently 75/75 + 10/10 + 6/6).\n")

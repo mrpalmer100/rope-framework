@@ -11,7 +11,7 @@ this kind whose target was subsequently closed (EM-RECON-006/007).*
 
 ## Context
 
-You are given the Rope Framework corpus
+You are given the Mesh Framework corpus
 (github.com/mrpalmer100/rope-framework; Zenodo DOI
 10.5281/zenodo.21430784): a machine-verified, falsifiable development of
 a classical filament ontology — 488 status-labeled claims (109 Derived,

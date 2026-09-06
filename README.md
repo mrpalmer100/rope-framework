@@ -1,18 +1,23 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21430784.svg)](https://doi.org/10.5281/zenodo.21430784)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Verify](https://img.shields.io/badge/verify-639%2F641%20passing-brightgreen.svg)](#verify-it-yourself)
+[![Verify](https://img.shields.io/badge/verify-640%2F641%20passing-brightgreen.svg)](#verify-it-yourself)
 [![verify-corpus](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml/badge.svg)](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml)
 
-# rope-framework
+# The Mesh Programme (mesh framework)
+
+Repository: `rope-framework` (identifier unchanged; see the naming note below).
 
 **Published:** [https://doi.org/10.5281/zenodo.21430784](https://doi.org/10.5281/zenodo.21430784) · **Author ORCID:** [https://orcid.org/0009-0007-2454-5573](https://orcid.org/0009-0007-2454-5573) 
 
 **Version:**
 <!-- BEGIN GENERATED: version -->
-3.28.0
+3.31.0
 <!-- END GENERATED: version -->
 
-A machine-verified development of the Rope Hypothesis — a classical, mechanical model in which matter and light are configurations of physical filaments — into falsifiable, independently checkable form.
+A machine-verified development of the Rope Hypothesis into the mesh framework: a classical, mechanical model in which the vacuum is a mesh of physical filaments and matter and light are its configurations, put into falsifiable, independently checkable form.
+
+> **Naming (5 September 2026):** this programme is now **the Mesh Programme**, and the theory it develops **the mesh framework**. The vacuum object in every derivation is the mesh of strands (the mesh spacing a, the fine mesh a_f, mesh compression); "rope" remains the name of one specific thing in the theory, the two-strand wound object that is a particle, and the Rope Hypothesis credited to Bill Gaede keeps its name. Identifiers are unchanged (the `rope-framework` repository and DOI, the `rope_solver` package, file names, claim IDs); the repository will be renamed with a later release, with redirects.
+
 
 > **This corpus establishes numerical reproducibility and internal consistency, not physical truth.** Whether the underlying physics is correct is exactly what external scrutiny is invited to decide.
 
@@ -20,7 +25,7 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 >
 > **What makes it unusual is the discipline.** Every claim is registered with a pass/fail line drawn *before* the computation runs, and the failures are kept on permanent display rather than quietly dropped. As of this release:
 <!-- BEGIN GENERATED: corpus_stats -->
-*742 registered claims, 641 code-backed and passing, 121 Derived, 45 registered Failed and kept.*
+*761 registered claims, 641 code-backed and passing, 121 Derived, 47 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats --> A dealbreaker, if one exists, should be findable in about five minutes — start with [`KNOWN_LIMITATIONS.md`](KNOWN_LIMITATIONS.md).
 >
 > **Where it is strong (the five-line version):** electromagnetism and optics derive from one wave equation on the weave; the classic gravity tests (light bending, Mercury, clock rates) come out exact; the fine-structure constant lands at 178 ppm from geometry; chemistry and the nuclear mass table are full mechanical layers; and the exact quantum ceiling (the Tsirelson bound) is a theorem. Full account: [`docs/WHERE_IT_STANDS.md`](docs/WHERE_IT_STANDS.md); how it unfolded: [`docs/SURPRISES.md`](docs/SURPRISES.md).
@@ -29,11 +34,15 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 
 > **Corpus state:**
 <!-- BEGIN GENERATED: status_breakdown -->
-742 registered claims (121 Derived, 556 Modeled, 4 EFT-constrained, 4 Conjecture, 7 Open, 45 Failed-and-kept, 5 registered); 641 code-backed.
+761 registered claims (121 Derived, 556 Modeled, 4 EFT-constrained, 2 Conjecture, 7 Open, 47 Failed-and-kept, 24 registered); 641 code-backed.
 <!-- END GENERATED: status_breakdown -->
 > Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
 
-**📄 [THE WEAVE RELEASE, 27 Aug 2026](docs/history/RELEASE_NOTES_v3.28.0.md)** -- *v3.28.0*: the medium's topology settled -- a LOCAL WEAVE, not Gaede's every-atom-to-every-atom ropes (9/9 vs 3/9 on the locked spectator tests); weave membership measured as a graded ladder (FND-148) with tension setting the clock, never the roster (FND-149); the q-sensitivity verdict S1-SPLIT (FND-147); and the winding field found load-bearing, its velocity running 2.7x hot exactly where amplitude growth collapses (FND-150/151). New picture paper: [`papers/rope_weave_universe.pdf`](papers/rope_weave_universe.pdf).
+**📄 [THE QUEUE, PROCESSED, 5 Sep 2026](docs/history/RELEASE_NOTES_v3.31.0.md)** -- *v3.31.0*: seven charters executed in a day -- the PeV coincidence reduced to an identity (FND-166); LEAD-RAD's fence held by computation, 37-2000x (FND-167); bending-neutrality a theorem and the c-orbital identity a saturation (FND-168); the two E-identifications reconciled, A = -rho kappa_0 (s x z) (EM-023); no principle selects the level-2 amplitude, Sigma_wave retreats to 2.598 (FND-169); EW-001 and PM-001 demoted. Prior release: [THE FOURTH CELL AND THE REFINED GRID](docs/history/RELEASE_NOTES_v3.30.0.md).
+
+**📄 [THE FOURTH CELL AND THE REFINED GRID, 5 Sep 2026](docs/history/RELEASE_NOTES_v3.30.0.md)** -- *v3.30.0*: the committed q = 5/4 FLAT prediction falsified at 144x36 (FND-163); every line mechanism down on re-pricing (proximity 0/12, j = n falsified, first-order coupling null); the 54-grid replication finds the 5/4 collapse physical and displaced 0.0003 deeper (FND-164, after a rescinded ARTIFACT verdict) and the founding 4/3 collapse NOT FOUND to A2 0.0055 (FND-165); the r discriminator retired for f_dir alone. Prior release: [THE WHY-WINDING ARC](docs/history/RELEASE_NOTES_v3.29.0.md).
+
+**📄 [THE WHY-WINDING ARC, 29 Aug 2026](docs/history/RELEASE_NOTES_v3.29.0.md)** -- *v3.29.0*: six claims interrogating WHY the collapsing cell demands winding -- the collapse motion identified as a migration to a single high harmonic one step below the phi-Nyquist edge (FND-156), found NOT grid-stable (FND-157), and re-priced exactly: FND-152's registered f_dir rise is carried entirely by Nyquist-band content, the resolved-band share FALLING through the collapse while the flat control's band stays at zero (FND-158, RP-FALLS). Riders on FND-152/153; rates and D bounds untouched; the committed q = 5/4 FLAT prediction is the out-of-sample adjudicator. Prior release: [THE MECHANISM CLOSES](docs/history/RELEASE_NOTES_v3.28.1.md).
 
 **📄 [Release history](docs/history/)** — every release note, per release, back to v3.0; the day summaries live there too.
 
@@ -47,13 +56,13 @@ A machine-verified development of the Rope Hypothesis — a classical, mechanica
 
 
 <!-- BEGIN GENERATED: current_release -->
-**Current release: v3.28.0** (26 Aug 2026), 742 claims.
+**Current release: v3.31.0** (5 Sep 2026), 761 claims.
 <!-- END GENERATED: current_release -->
 Headline: THE ENERGY BILL — priced and payable. The vacuum's constituents orbit at exactly c (two registered numbers multiplying to one), and the wave's dynamical share [0.62, 0.78] fits inside the matter sector's registered zero-point window (< 0.889): zero-point energy IS the winding's rotation. Full account: [`docs/history/RELEASE_NOTES_v3.26.77.md`](docs/history/RELEASE_NOTES_v3.26.77.md); prior: [`docs/history/RELEASE_NOTES_v3.26.76.md`](docs/history/RELEASE_NOTES_v3.26.76.md).
 
 **Plain-language guide to the 17 Aug findings** (the vacuum as a rotating wave, the magic angle's triple duty, the energy bill): [`docs/VACUUM_WAVE_PLAIN_LANGUAGE.md`](docs/VACUUM_WAVE_PLAIN_LANGUAGE.md). Canonical constants card, revised: [`docs/ROPE_PARAMETERS.md`](docs/ROPE_PARAMETERS.md).
 
-**If the rope model is wrong**, the transferable result is
+**If the mesh model is wrong**, the transferable result is
 `docs/CONSTRAINTS_FOR_MECHANICAL_SUBSTRATE_THEORIES.md` — universal programme
 disciplines, constraints on finite-scale mechanical substrates, and
 rope-specific findings, kept in three explicitly separate tiers.
@@ -178,13 +187,13 @@ Every claim carries a status label and, where code-backed, a rerunnable benchmar
 
 ## What is derived, what is adopted
 
-A sector earns "Derived" status only where it follows from the rope mechanics, and the corpus is explicit where it instead *adopts* an established description:
+A sector earns "Derived" status only where it follows from the strand mechanics, and the corpus is explicit where it instead *adopts* an established description:
 
 - **Electromagnetism / optics** — Maxwell's equations, charge as winding, optics (10/10 benchmarks); the strongest derived sectors.
 - **Chemistry** — a full mechanical layer: covalent bonding from a mode-overlap functional, the ionic-force sign theorem, first-principles molecular geometry (the 90° heavy-hydride asymptote, with registered predictions for H₂Po and BiH₃), hydrogen bonding, metallic bonding, and reaction dynamics (activation barriers from phase-frustration; Hammond and catalysis emergent). **The Schrödinger equation is adopted, not derived** — ℏ and the absolute atomic scale are inherited inputs (see the chemistry paper, §3.1a). Several energies are "consistency-tier" against quantum chemistry, and labeled as such.
 - **Gravity** — Newtonian gravity is recovered; the relativistic completion is falsified under stated assumptions (a theorem-grade no-go, not a fixable discrepancy).
 - **Nuclear** — an exact Yukawa force law and two mass tracks that meet in the middle: a discrete bond-counting model from A=2..16 (one He-4-calibrated constant, r = 0.978; the A=5 instability, the Be-8 maximum, and C-12's three-alpha structure all emerge rather than being imposed — NUC-007/008/009), and a semi-empirical mass formula now derived from classical physics across all five terms (volume, surface, Coulomb with diffuseness and exchange, asymmetry, pairing) spanning A~8 through U-238 with the heavy-table binding gap closed to ~1%; H-1 remains inputs-by-construction and a quantum shell/pairing tier remains the registered frontier.
-- **Particle sector** — lepton mass ratios (Koide) and the Weinberg angle held at Conjecture pending derivation-or-demotion; the absolute mass scale is an open problem.
+- **Particle sector** — lepton mass ratios (Koide) and the Weinberg angle DEMOTED to kept coincidences (v3.31.0: sensitivity 71; three choice points); no derived Weinberg angle; the absolute mass scale is an open problem.
 
 ## Repository structure
 

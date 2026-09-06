@@ -2,7 +2,7 @@
 
 Light: photon and birefringence
 
-> rope_solver.electromagnetism.photon  --  Light in the rope framework.
+> rope_solver.electromagnetism.photon  --  Light in the mesh framework.
 
 ## `birefringence_velocity_split(chi, wavelength)`
 

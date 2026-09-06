@@ -1,8 +1,8 @@
-# Eleven Results We Did Not Expect
+# Thirteen Results We Did Not Expect
 
 *A non-technical companion to the corpus — and how the investigation actually unfolded. This is a speculative research programme — the odds
 are long and we say so — but along the way the work kept surprising us, and people remember
-stories. Four of the eleven are failures. That is on purpose: a programme that only reports its
+stories. Four of the thirteen are failures. That is on purpose: a programme that only reports its
 wins is advertising, not science. Every surprise below links to registered, machine-verified
 claims you can rerun yourself (see the [Roadmap](ROADMAP.md)).*
 
@@ -76,7 +76,7 @@ route survives on the Sakharov branch at Planck-scale spacing, with a PVLAS-clas
 vacuum-nonlinearity falsifier armed. The sector that opened with a kept no now runs
 unbroken from Newton through Einstein's tests to Hawking's law-form to its own substrate. *(Gravity & Galaxies sector — Failed claims kept; see papers/rope_blackholes.pdf.)*
 
-![Gravity in the rope framework: mass conditions the network into an effective metric](../figures/rope_gravity.png)
+![Gravity in the mesh framework: mass conditions the network into an effective metric](../figures/rope_gravity.png)
 *The figure's original caption told act one — the failures kept in red. The record now runs
 two acts further: the weak field derived unconditionally (gamma = 1, 1.751″), and the strong
 field carried to the Hawking law-form T_inf ∝ kappa (GRV-087), the coefficient dispute
@@ -208,7 +208,7 @@ code-backed benchmarks at last count, rerun on every change; the number grows mo
 
 ---
 
-![Nuclear physics in the rope framework, every panel tagged by corpus status](../figures/rope_nuclear.png)
+![Nuclear physics in the mesh framework, every panel tagged by corpus status](../figures/rope_nuclear.png)
 *Nuclear physics as atomic mechanics scaled by 10^5 — and the clearest example of the project's status discipline applied to a figure: Established (binding-energy/Fe-56, NUC-001/005), Conjecture (strong force = bundle contact, NUC-002), and Open/unbuilt (quarks, the QCD string, decay mechanisms) are each drawn with honest tags rather than uniform confidence. An earlier draft over-claimed; it was corrected against the registry before inclusion. [Figure notes.](../figures/README.md)*
 
 **Honorable mentions, for connoisseurs:** our knot-identification instrument reproduced a
@@ -223,7 +223,7 @@ reported impossible numbers and was twice repaired.
 
 ---
 
-![The atom in the rope framework, with an explicit status declaration](../figures/rope_atom.png)
+![The atom in the mesh framework, with an explicit status declaration](../figures/rope_atom.png)
 *The atom figure is this document in one image: every element tagged Established (green), Hypothesis (orange), or Registered Input (blue). Charge-as-linking and 2n² shell capacities are Derived (FND-008, CHEM-STRUCT-001); the proton-tangle, the electron-mode, and the Pauli mechanism are labeled hypotheses; the electron's mass, spin, and g-factor are measured inputs (PM-005). [Figure notes.](../figures/README.md)*
 
 *None of this proves the rope hypothesis. All of it is rerunnable. That combination is the

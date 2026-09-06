@@ -1,21 +1,8 @@
-# Electricity — Strand Handedness and Its Streaming
+# Electricity — Turning Ropes, Driven by a Tension Difference
 
-Here is the one detail about the rope we have saved until now, because electricity is where it matters most: each rope is really *two strands*. Electric charge is not a substance added to the rope, and not a number of knots tied in it. It is the HANDEDNESS of the two strands — the geometric orientation with which they are arranged, like a left hand versus a right hand.
+Electricity is two things, and both of them are things the rope already does. A **current** is the ropes TURNING IN PLACE: the rope does not travel down the wire, it spins where it lies, like a long flexible drive shaft running the length of the circuit. A **voltage** is a TENSION DIFFERENCE between the two ends: one side of the network is held tauter than the other, and that difference is what turns the ropes. Raise the difference and they turn harder. That is a simple circuit in one sentence — turning, and the tension difference that drives the turning.
 
-> CONTRAST
-> STANDARD| Charge is the conserved "Noether charge" of a gauge symmetry — an abstract bookkeeping quantity that is conserved because the equations have a certain symmetry, and quantized for subtle reasons tied to the mathematics. It is not made "of" anything; it is a property particles simply carry.
-> ROPE| Charge is the HANDEDNESS of a rope's two strands — a concrete geometric orientation, like a left glove versus a right glove. Electron and positron are mirror images of one structure; there is no separate charge-substance, only strand geometry.
-> EQUATIONS| the SAME conservation and quantization, reproduced. What is a symmetry-and-topology statement in the textbooks becomes, in the rope picture, a geometric fact about handedness (you cannot make half a handedness, or a lone unmatched one) — the same rules with a physical origin.
-
-
-> CALLOUT|WHAT CHARGE IS
-> Think of a left glove and a right glove. Same material, same stitching — nothing has been ADDED to make one "left." They differ only in orientation: each is the mirror image of the other. Gaede's picture of charge is exactly this. An electron and a positron are the same two-strand structure with OPPOSITE handedness — mirror images, not different amounts of some charge-fluid. "Charge" is simply which handedness the strands present to the surrounding network. There is no separate charge; there are only strand configurations, and their handedness is what we name positive or negative.
-
-![Charge is the handedness of the two strands — electron and positron are the same structure in mirror-image orientations, like a left and right glove. Opposite handedness can mesh (attract); like handedness cannot (repel).](fig:braid)
-
-This picture makes the familiar rules feel almost obvious. **Opposite charges attract** because opposite-handed ends fit together — the way a left hand and a right hand clasp, or a nut and bolt whose threads match. **Like charges repel** because same-handed ends cannot mesh, like trying to shake two right hands. Attraction and repulsion are not a force reaching across empty space; they are whether two strand-ends can geometrically join.
-
-**Charge comes in whole units** because an end is either one handedness or the other — there is no halfway between a left and a right glove. And **charge is conserved** because you cannot manufacture a single unmatched handedness out of nothing, any more than a factory can make one lone left glove: handedness comes in matched pairs, so charges are created as electron-and-positron together, keeping the total strand geometry balanced.
+Notice what is NOT in that sentence: nothing flows. The wire is not a pipe and the current is not a fluid inside it. The rope material stays where it is, and only the TURNING travels — which is why the lamp lights the instant you flip the switch, as the next section makes concrete. Hold on to the pair, current is turning and voltage is a tension difference, because the rest of this chapter is consequences of it. Charge comes at the end, and when it does it will settle exactly one question: which WAY the turning drives.
 
 ## Current — and the light-switch puzzle every kid notices
 
@@ -33,7 +20,7 @@ Flip a switch and the lamp lights instantly, even though the wire is long. If cu
 
 One honest refinement keeps this picture accurate. A perfectly rigid shaft, spinning in exact lockstep from end to end, would deliver twist but pump nothing THROUGH — a screw only does work as it advances against the nut. So the rope is not perfectly rigid: as you turn one end, the turning runs down the rope as a very fast torsional wave, each section taking up the rotation a hair after the one before it. That is why the rope does not simply wind up in place, and why work actually reaches the load. So "the helix is turned like a screw" and "the turning travels down the rope" are not two mechanisms — the second is just the honest way the first propagates in anything that is not infinitely stiff. What does NOT happen is the rope material itself sliding down the wire; only the turning travels.
 
-There is a subtle point that turns out to be one of the most powerful in the whole picture. If the rope simply kept rotating one way, would it not "wind up" tighter and tighter without limit? No — because the turning is not stored up, it passes THROUGH: as much rotation leaves each section into the next as arrives into it from the one before. For that to hold steadily, the turning must enter at one end and leave at the other, which is only possible if the wire is part of a **closed loop** with a source and a return. (And notice the payoff from the charge chapter: because a right-handed and a left-handed screw drive opposite ways when turned, the HANDEDNESS of the strands — the charge — is exactly what sets which direction the current pumps. Positive and negative charges are opposite-handed screws, and so they drive current in opposite directions.)
+There is a subtle point that turns out to be one of the most powerful in the whole picture. If the rope simply kept rotating one way, would it not "wind up" tighter and tighter without limit? No — because the turning is not stored up, it passes THROUGH: as much rotation leaves each section into the next as arrives into it from the one before. For that to hold steadily, the turning must enter at one end and leave at the other, which is only possible if the wire is part of a **closed loop** with a source and a return. (And notice what this leaves open: nothing so far says which WAY around the loop the turning drives. That question is what charge answers, and we come to it at the end of the chapter.)
 
 ![A current needs a closed loop: the streaming orientation enters at one terminal and returns at the other. No loop means nowhere for it to go — and no steady current.](fig:loop)
 
@@ -42,9 +29,30 @@ There is a subtle point that turns out to be one of the most powerful in the who
 
 ## What makes a current strong or weak, and why wires warm up
 
-Three things set how much current flows. First, how hard you push — the **voltage**, which in the rope picture is the TENSION the strand configuration sources: a stronger orientation mismatch pulls the strands taut and raises the tension. (Voltage is the tension; charge is the handedness — related, but not the same thing.) Second, how many strands push at once — the **thickness** of the wire. Third, how cleanly each strand carries the wave — the **material**. In some materials the rotation glides through; in others it snags.
+Three things set how much current flows. First, how hard you push — the **voltage**, which in the rope picture is the TENSION DIFFERENCE across the circuit: one end of the network held tauter than the other, and the ropes turn in response. Raise the difference and you turn them harder. Second, how many strands push at once — the **thickness** of the wire. Third, how cleanly each strand carries the wave — the **material**. In some materials the rotation glides through; in others it snags.
 
 That snagging is **resistance**, and it is where wires get warm. When the streaming pattern catches on the atomic lattice, some of the ordered rotation is knocked into random jiggling of the ropes — and random rope jiggling, as the heat chapter explains, simply IS temperature. So a resistive wire warms up because ordered streaming is being scattered into disordered motion.
+
+## Charge — the handedness that sets which way it drives
+
+Now the detail about the rope we have saved until now, because this is where it matters: each rope is really *two strands*. Electric charge is not a substance added to the rope, and not a number of knots tied in it. It is the HANDEDNESS of the two strands — the geometric orientation with which they are arranged, like a left hand versus a right hand. Handedness does not make the current and it does not drive it; the turning is the current and the tension difference does the driving. What handedness settles is DIRECTION.
+
+> CONTRAST
+> STANDARD| Charge is the conserved "Noether charge" of a gauge symmetry — an abstract bookkeeping quantity that is conserved because the equations have a certain symmetry, and quantized for subtle reasons tied to the mathematics. It is not made "of" anything; it is a property particles simply carry.
+> ROPE| Charge is the HANDEDNESS of a rope's two strands — a concrete geometric orientation, like a left glove versus a right glove. Electron and positron are mirror images of one structure; there is no separate charge-substance, only strand geometry.
+> EQUATIONS| the SAME conservation and quantization, reproduced. What is a symmetry-and-topology statement in the textbooks becomes, in the rope picture, a geometric fact about handedness (you cannot make half a handedness, or a lone unmatched one) — the same rules with a physical origin.
+
+
+> CALLOUT|WHAT CHARGE IS
+> Think of a left glove and a right glove. Same material, same stitching — nothing has been ADDED to make one "left." They differ only in orientation: each is the mirror image of the other. Gaede's picture of charge is exactly this. An electron and a positron are the same two-strand structure with OPPOSITE handedness — mirror images, not different amounts of some charge-fluid. "Charge" is simply which handedness the strands present to the surrounding network. There is no separate charge; there are only strand configurations, and their handedness is what we name positive or negative.
+
+![Charge is the handedness of the two strands — electron and positron are the same structure in mirror-image orientations, like a left and right glove. Opposite handedness can mesh (attract); like handedness cannot (repel).](fig:braid)
+
+This picture makes the familiar rules feel almost obvious. **Opposite charges attract** because opposite-handed ends fit together — the way a left hand and a right hand clasp, or a nut and bolt whose threads match. **Like charges repel** because same-handed ends cannot mesh, like trying to shake two right hands. Attraction and repulsion are not a force reaching across empty space; they are whether two strand-ends can geometrically join.
+
+**Charge comes in whole units** because an end is either one handedness or the other — there is no halfway between a left and a right glove. And **charge is conserved** because you cannot manufacture a single unmatched handedness out of nothing, any more than a factory can make one lone left glove: handedness comes in matched pairs, so charges are created as electron-and-positron together, keeping the total strand geometry balanced.
+
+And that answers the question left open back at the closed loop. A right-handed screw and a left-handed screw, turned the same way, drive opposite directions. So handedness — charge — is exactly what fixes which way the current pumps around the circuit. Positive and negative are opposite-handed screws, and one tension difference turning both sends them opposite ways.
 
 > CALLOUT|HONEST LIMIT
 > The rope picture reproduces all the standard rules of simple circuits — how current, voltage, and resistance relate, why loops are needed, why resistive wires heat. What it does NOT do here is derive the deep quantum reasons some materials conduct and others insulate; that rests on the electron's quantum behaviour, which this picture does not claim to replace. The mechanism is a faithful mechanical retelling of classical circuit behaviour, not a new theory of materials.

@@ -1,0 +1,72 @@
+### FND-083 [Modeled] COMMISSION SHIN2 -- THE HELICAL-SUBSTRUCTURE ACCEPTANCE TEST PASSES ALL FOUR BARS AND GRANT-CANDIDATE-SUBSTRUC
+  ~ RE-TIGHT adopted with this claim's redistribution result as its length-axis foundation.] [SIGMA-INVARIANCE NOTE (FND-132, 2026-08-17): the redistribution invariance registered here coun
+  ~ eading adds path and kinetic terms totalling 2.6-4.5 T0/a^2-class, a DISTINCT object from Sigma_vac, flagged before naming collision per the EM-020 precedent.]
+
+### FND-086 [Modeled] COMMISSION SHIN4 -- THE HOMOGENIZED-WINDING CHECK PASSES ALL BARS: AT |k| = 2pi/24 WITH PITCH (3, 4) LATTICE U
+  ~ esolution parameter m with a soft falsifier (any confirmed astrophysical photon above m x 1.4 PeV forces m upward; m is underived so the falsifier constrains rather than kills). NAMED NEX
+
+### FND-087 [Modeled] GRANT-SUBSTRUCTURE-TIGHT ADOPTED (author's decision, Mark Palmer, 2026-08-12, exercised through the standing c
+
+
+### FND-110 [Modeled] COMMISSION TSADE4 -- THE SCALE-CLASS DETERMINATION (THE ITEM QUEUED SINCE GRANT-SUBSTRUCTURE-TIGHT, MADE SEPAR
+  ~ vel in one move, T0_f and the winding radii together), and any confirmed photon above m x 1.4 PeV moves the fine ceiling exactly as FND-087 disclosed. The ladder is drawn; what remains un
+
+### FND-125 [Modeled] THE R READING (PE10) -- R-DERIVED + NAMED CORRECTION TO FND-124, AND BLOCH-L's INPUT LIST CLOSES: the register
+
+
+### FND-126 [Modeled] COMMISSION BLOCH-L -- CONFLICT-REGISTERED, THE MAPPING SUPERSEDED IN FORM, AND A NAMED CORRECTION TO THE CHART
+
+
+### FND-131 [Modeled] COMMISSION TWIST -- THE DETERMINATION LANDS, THE STATIC BRANCH IS UNREACHABLE ACROSS THE ENTIRE ADMISSIBLE BOX
+  ~ otation carries kinetic energy density everywhere; its reconciliation with the registered Sigma and the zero-point machinery is now the sector's deepest open question and the wave readi
+
+### FND-122 [Modeled] THE KBSAT CONSEQUENCE SESSION (PE7) -- THE TRAP GOES PURE-r_s AND THE FRAME-DRAGGING COUPLING GOES EQUALITY: u
+
+
+### GRV-113 [Modeled] COMMISSION NUN-GRV9 -- THE chi BOUND FROM REGISTERED POLARIMETRY (THE NAMED NEXT-ORDER ON GRV-112 FACE, AND TH
+  ~ n (can the rope explain the observed cosmic birefringence: no, by nineteen orders and 4.9 sigma), and this commission turns the same registered computation around: if the ambient weave 
+  ~  and the observation caps it. The inversion was locked before computing (ceiling beta + 2 sigma, the registered path, the linear-in-chi reading) and lands at chi <= 2.49e-19, or scale-f
+
+### GRV-128 [Modeled] COMMISSION TAU-IDENT (NUN-GRV21) -- DISTINCT-CERTIFIED ON THE IDENTITY, FINE-BOUND-DERIVED ON THE AMPLITUDE: t
+
+
+### FND-MATTER-044 [Modeled] THE WHISPER-PRICING SESSION: THE 4.6 WAS BOUND-SATURATION ACCOUNTING, NOT PHYSICS -- SOLVING THE m_e-PINNED CO
+
+
+### FND-030 [Modeled] COMMISSION MU — THE SIGMA PROVENANCE AUDIT: THE 28% TENSION WAS ONE RELATION SEEN THROUGH A DEAD INPUT, AND SI
+  ~ The corpus spent three commissions specifying an experiment for Sigma and one ruling that no experiment reaches it; the answer was in the registry the whole ti
+  ~ t died twice after registration -- once by derivation, once by measurement -- without the Sigma registration ever being re-run. The kill-inheritance rule locked in this session's bars e
+  ~ nd is an audit outcome rather than a judgment call. WHAT IS GAINED: kappa_0 = c/sqrt(eps0 Sigma) tightens from a band to a value class; the EM arc's one-number lock (EM-RECON-029 P29) n
+  ~  M-point stands unchanged, the M-point having leaned lattice already. WHAT IS NOT GAINED: Sigma is measured, not derived -- the framework still does not say why the vacuum stiffness tak
+  ~ hether the lattice-measured n = 152-156 counts strands or LABELED strands decides whether Sigma_eff rescales by N. Open; GRANT-N2 did not settle it.] [SCOPE CLARIFIED BY COLLISION (EM-0
+  ~ 20, 2026-08-11): the Sigma this commission pinned (Sigma_eff, lattice tube tension density per FND-034) is NOT the Sigma in EM-016's blocker ledge
+
+### FND-017 [Modeled] THE TENSION QUESTION REDUCES TO ONE ALREADY ON THE BOOKS: T0 IS NOT INDEPENDENT, THE GROUND STATE STORES NO EN
+  ~  is answered by a theorem the corpus already had: ELEC-053's invariance result makes T0 = Sigma a^2/3, and inverting it returns the Lorentz bound to a tenth of a percent for both regist
+  ~ ered scale sets. So T0 was never an independent input -- it is Sigma and the bound wearing a different hat, which means the debt was already on the books, alr
+  ~ it. WHAT REMAINS GENUINELY OPEN IS ONE NUMBER, and it has been one number since ELEC-053: Sigma, the vacuum stiffness, with two candidates 28% apart and an experiment that separates the
+  ~ ary-data analysis -- not by an instrument.] [LEAN RECORDED per ELEC-081 (2026-08-01): the lattice-anchored candidate survives independent recomputation (3.70e35 by fit, 3.61e35 by trapezoid, again
+  ~ n the limit.] [PROMOTED TO THE DEGENERACY LINE by GRV-076 (2026-08-02): the relation T0 = Sigma a^2/3 is now the corpus's statement that (a, Sigma) is one-parameter degenerate at fixed 
+  ~ T0 -- and this claim's 'Sigma and the bound wearing a different hat' is the survey's central citation: the scale sets n
+
+### ELEC-052 [Modeled] THE DECIDER, EXECUTED: THE PAPER'S OWN LATTICE POINTS GIVE R_eq = 0.407(14) fm -- THE RECONSTRUCTION CONFIRMED
+  ~ videntiary base than three distances, and an honest one. WHAT IT MEANS FOR THE CHAIN: the Sigma-route scale set {Sigma = 5.1e35, T0 = 1700, w = 5.78e-17} carries a coherent ~28% oversta
+  ~ UCQ-003, and is now the load-bearing assumption. Two exits exist: absorb the 28% (rescale Sigma to 3.6e35, inflating every HBAR length ~13-18% and re-confronting NUCQ-001), or defend th
+  ~ chain fork. The QGATE-007 polarimetry decider (VMB@CERN) remains the external arbiter for Sigma itself. The ancillary data (CC BY 4.0) ships in anc_data/ so the benchmark is reproducibl
+  ~ lone. [PROMOTED TO THE ROUTE by QGATE-018 (2026-08-01): with polarimetry unable to decide Sigma's value, this claim's ancillary-data flux-tube computation is the corpus's actual path to
+  ~ ith DIFFERENT failure modes. Bootstrap error 0.3%; sech-family model spread 2.2%. The 28% Sigma tension is not an artifact of the trapezoid method.]
+
+### ELEC-081 [Modeled] 0.407 fm SURVIVES A GENUINELY DIFFERENT ESTIMATOR TO 1.3%: THE 28% SIGMA TENSION IS NOT AN ARTIFACT OF ELEC-05
+  ~ The route QGATE-018 identified was taken and the lattice-anchored candidate held. Two estimators that fail in different ways -- trapezoid on discrete point
+  ~ E DETERMINATION IS THE only remaining route, and it is not the corpus's to produce. WHERE SIGMA NOW STANDS: the lattice-anchored candidate 3.70e35 (this computation) or 3.61e35 (ELEC-05
+
+### ELEC-074 [Modeled] SOLVED TO ALL ORDERS: THE CUSP WAS AN ARTIFACT, THE EXACT OBJECT IS HOLLOW WITH A HARD CORE AT FINITE RADIUS, 
+
+
+### ELEC-075 [Modeled] THE DECIDING TEST RETURNS A CLEAN NEGATIVE: THE HARD CORE IS THE CONTINUUM FAILING AT 1.7 PERCENT OF A STRAND 
+
+
+### ELEC-090 [Modeled] COMMISSION CHET-2 -- THE HOLLOW'S BOUNDARY EXPLAINED AND ITS INTERIOR CONSTRAINED (Modeled): ELEC-074's FIRST 
+
+
+### FND-088 [Modeled] COMMISSION SHIN5 -- THE WINDING IS DERIVED: FND-REL-002's ISOTROPY DEMAND PLUS THE REGISTERED LORENTZ BOUND UN

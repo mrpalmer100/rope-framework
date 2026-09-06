@@ -22,6 +22,7 @@ TOPICS=os.path.join(ROOT,"guide","topics")
 # topic -> paper (which primary paper embeds this topic's plain-language section)
 TOPIC_PAPER={
     "light":"rope_classical_optics",
+    "quantum":"rope_strand_dynamics",
     "electricity":"rope_electricity",
     "magnetism":"rope_theory_of_magnetism",
     "maxwell":"rope_maxwell_equations",

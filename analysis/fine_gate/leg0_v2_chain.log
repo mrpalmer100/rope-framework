@@ -1,0 +1,17 @@
+== PHASE 1c: EL-BVP, low branch k/T0=2 ==
+   x*=19333.7 omega=1.6249e-04 Jt=1.908159e+05 E_rot=15.50314
+
+  r_min=1e-03 tol=1e-06: D_int=1.1051029 (lam=1.0915e-04, nodes=4759, E_el=5.32493, LOG=3.69550)
+  r_min=1e-03 tol=1e-08: D_int=1.1051029 (lam=1.0915e-04, nodes=6054, E_el=5.32493, LOG=3.69550)
+  r_min=1e-03 tol=1e-10: D_int=1.1051026 (lam=1.0915e-04, nodes=11334, E_el=5.32493, LOG=3.69551)
+  r_min=1e-04 tol=1e-08: D_int=1.1051030 (lam=1.0915e-04, nodes=6577, E_el=5.32493, LOG=3.69550)
+  r_min=3e-04 tol=1e-08: D_int=1.1051029 (lam=1.0915e-04, nodes=9015, E_el=5.32493, LOG=3.69550)
+
+  median D_int=1.1051029  spread=0.0000% -> GATE PASS
+
+== COMMIT D_int[k/T0=2]=1.1051029 ==
+== MENU ==
+  vs 1.40681 (LEAD-2)    =1.406810: -21.4462%
+  vs pi^2/7              =1.409943: -21.6208%
+  vs 45/32               =1.406250: -21.4149%
+  vs sqrt(2)             =1.414214: -21.8574%

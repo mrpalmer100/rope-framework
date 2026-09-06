@@ -1,7 +1,7 @@
 """
 rope_solver.electromagnetism  --  Canonical EM sector of the rope theory.
 
-This module makes executable the EM sector the rope programme derives
+This module makes executable the EM sector the mesh programme derives
 (rope_topological_maxwell, rope_maxwell_equations, rope_gem_equations), and
 pushes two steps further:
 

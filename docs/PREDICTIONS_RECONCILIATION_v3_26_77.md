@@ -72,6 +72,8 @@ zero-point share: below 0.615 falsifies the wave reading outright; above
 survival ceiling (< 0.889) into a two-sided committed band. Registered
 claims: FND-130, FND-131, FND-132, FND-MATTER-041.
 
+**RE-PRICING (2026-09-05, FND-169, granted): the upper edge (0.779) rested on the Sigma_wave bracket, which COMPOSITE-SELECT Leg A found to be the ansatz's, not the state's; Sigma_wave retreats to the level-1-exact 2.598 T0. The two-sided band collapses to its lower edge plus a rider; the upper edge is re-priced to the level-1 value (number to be entered at Leg C's table). See analysis/COMPOSITE_SELECT_legA_results.md.**
+
 ### Prediction 33 (Structural) — The Vacuum Rotation Quantum and the PeV Coincidence
 **The shape.** The level-1 winding's material orbit at c on radius R_1 =
 0.22508 a_f defines a rotation quantum E_rot = ħc/R_1 = **3.96 PeV at the
@@ -84,6 +86,8 @@ with it under any a_f determination.
 PeV window, co-moving with the photon ceiling. A future a_f determination
 that separates the two scales adjudicates the coincidence; identification
 session chartered. Registered claims: FND-132, FND-086/087.
+
+**DISPOSITION (2026-09-05, FND-166, granted): DEMOTED.** PEV-IDENT reduced the ratio E_rot/E_ceiling to 2 sqrt2 identically (no a_f, no m): the two scales are one scale and the stated test cannot separate them. The rotation frequency sqrt2 pi c/a_f equals the level-1 wave frequency and lies above the medium's transverse band, so no transverse carrier exists. Retained as a registered identity of the ceiling construction; removed from the live Structural inventory. See analysis/PEV_IDENT_results.md.
 
 ### Prediction 34 (Consistency-tier) — The Level-2 Wave Speed Lock
 **The relation.** Any independent determination of kb predicts the level-2

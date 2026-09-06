@@ -1,0 +1,37 @@
+id: FND-169
+title: 'COMMISSION COMPOSITE-SELECT, LEG A -- COMP-PIN-UNREACHABLE: NO REGISTERED PRINCIPLE
+  SELECTS A LEVEL-2 AMPLITUDE THE ROTATING-WAVE FAMILY REACHES (ISOTROPY: NONE; ENERGY:
+  NONE, MONOTONE FROM THE LEVEL-1-EXACT 2.598 T0; LEVEL-2 LORENTZ SATURATION: A2* = 0.076-
+  0.094, AN ORDER BEYOND A2_max); THE COMPOSITE IS SUPERLUMINAL IN MATERIAL SPEED BY UP TO
+  2.8 PCT AT REACHABLE AMPLITUDES'
+status: registered
+note: 'Charter analysis/COMPOSITE_SELECT_charter_LOCKED.md (gating amendment reading
+  FND-164 GR-DISPLACED and FND-165 A-ABSENT; locked before any Leg A number). Controls:
+  v6 the level-1 seed gives E[t_z^2] = 1/3 to 2e-16 on 4/3, 5/3, 5/4 (a first extraction
+  used the wrong field, 0.868, and was corrected: t_z = zp, |t|^2 = 1); v5 the stage-2
+  price() transplanted to the QTGrid state round-trips to 2.2e-5 (the 2.62 T0 anchor on
+  the q = 3/2 member is not reproducible, the 3/2 states predating the release; recorded).
+  Three principles on all 42 gated members (A2 0.0019-0.0052): S-a isotropy on the wave,
+  SEL-NONE -- the fourth-moment deviator E[t_z^4] - 1/5 sits at -0.0889 (the level-1 helix
+  alone) and moves by 0.0002-0.0006 across each family; the principle that produced the
+  static R2 selects nothing the wave approaches. S-b energy, SEL-NONE -- Sigma_wave rises
+  monotonically from 2.598-2.599 T0 to 2.606-2.609 at A2_max (dSigma/dA2 +1.9 to +11.4,
+  never zero); the price is level-1-dominated (+0.3 pct from level 2). S-c level-2
+  Lorentz saturation, SEL-OUTSIDE -- v_2 = RMS|om2 dW/dphi| runs 0.013-0.066 c and reaches
+  c at A2* = 0.089 / 0.076 / 0.094 (4/3, 5/3, 5/4), an order beyond every A2_max
+  (0.0050-0.0052), cell-dependent at 21 pct. JOINT: COMP-PIN-UNREACHABLE under the locked
+  rules -- the two-level rotating-wave state does not exist at its own selected amplitude
+  under the registered protocol; registered as a FAILURE of the two-level composite
+  reading at full weight. Consequence step, R2 = 0.09396 loaded once: S-c''s A2* brackets
+  it and the 5/4 value coincides to 0.1 pct -- reported as a number under the resemblance
+  rule, no identification drafted. Recorded, not adjudicated: max|v_total| on the gated
+  states EXCEEDS c -- 1.002 at A2 = 0.0019 rising to 1.026-1.028 at A2_max -- because level
+  1 sits at exactly c (FND-132; a saturation per FND-168) and level 2 adds to it; the
+  family''s fold is where the excess grows fastest. GRANTED CONSEQUENCES (author,
+  2026-09-05): Sigma_wave RETREATS to the level-1-exact 2.598 T0 with a rider (the
+  reachable-family price is 2.598-2.609; the ansatz bracket [3.222, 4.313] was the
+  ansatz''s, not the state''s); Prediction 32''s upper edge is re-priced to the level-1
+  value (two-sided band -> lower edge plus rider; paper-sync); R2 stays registered as the
+  static-provenance value and is not the level-2 amplitude of any existing wave state.
+  Leg B (the rational ladder, QB) and Leg C (the price table) follow; local execution.
+  Results analysis/COMPOSITE_SELECT_legA_results.md.'

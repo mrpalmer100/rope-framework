@@ -1,5 +1,149 @@
+# SESSION_CHANGES -- 2026-08-29 (post-credential session: SPARSE-J
+# C3-C5, SJ-CREDENTIALED; p42 retry GATED then P42-ARTIFACT;
+# FND-160/161 granted and registered; registry to 161-head)
+
+## SPARSE-J COMMISSION COMPLETE -- SJ-CREDENTIALED
+- C3 rates 0.054/0.042 pct vs 1 pct bar; C4 144x54 round peak
+  2.674 GB vs 3.0 GB bar (ladder 1.814/2.095/2.674); C5 nine
+  faults annotated. Faults 7-9 found/fixed mid-C3 (hist
+  bookkeeping, closure-aware stop, pattern reused across pin
+  modes). analysis/SPARSEJ_credential_results.md. Hardware note
+  amended: capable INSTRUMENT.
+
+## QUEUE ITEM 1 EXECUTED -- p42|4/3|deep RETRY
+- GATED in 12 rounds on the credentialed instrument (RMS 4.7e-11,
+  clos 8.4e-9): the FND-159 refusal was instrument-intrinsic.
+- The locked P42 lines then rendered ** P42-ARTIFACT **: F17
+  0.9325 -> 0.0000 under phi refinement, HIBAND42 5e-4. The n=17
+  winding demand is a 144x36 discretization object.
+  analysis/WHYWIND_p42_retry_results.md.
+
+## GRANTS TAKEN AND REGISTERED (author: "Let's accept the drafts")
+- FND-160 (WHYWIND-G) and FND-161 (WHYWIND-H) inserted via
+  tools/add_claim.py, verify_corpus run after.
+  analysis/WHYWIND_G_H_grant_record.md. The FND-152/153 rider
+  hardens in final form; the FND-150..153 interpretation
+  re-pricing is an open proposal.
+
+## S3R COMPLETE -- ** S3R-ARTIFACT-CONFIRMED **; FND-162 GRANTED
+- All four 144x54 members gated at full bar (S3R-CRED beat-ladder
+  pass on the 5/3 control pair); locked lines rendered once:
+  F17_54 = 0.0000, HIBAND54[19..27] = 0.0000 -- the FND-161
+  loophole closed, two-refinement convergence established.
+  analysis/S3R_results.md.
+- FND-162 granted WITH SCOPE RIDER (phi-continuation scope) and
+  registered (753 claims, strict YAML OK, verify_corpus clean).
+  analysis/S3R_grant_record.md. The FND-150..153 interpretation
+  re-pricing commission is RIPE; q = 5/4 next with artifact-final
+  prior.
+- Instrument ledger: fault 10 (cache key lacked cell) caught
+  LATENT; [SJ-OPT 2026-08-29b] streamed factor memo after an OOM
+  reap at 54.
+
+## ALSO THIS SESSION
+- Handoff doc analysis/HANDOFF_2026-08-29_postcredential.md
+  (operator notes: pattern/pin-mode rule, SJ_MEMO modes,
+  reap-window chunking). Next brick: the stage-3 replication
+  charter, bars locked before computing, P42-ARTIFACT as prior.
+
+# SESSION_CHANGES -- 2026-08-29 (handoff-review session: WHYWIND grants,
+# registry to 750, v3.29.0 cut)
+
+## THE WHYWIND GRANTS TAKEN AND REGISTERED (author's grants, one by one)
+
+- The author reviewed WHYWIND_draft_registration.md and its addendum
+  claim by claim (full dig-ins on WHYWIND-A and -E) and GRANTED all
+  six. Registered via tools/add_claim.py, strict YAML OK at every
+  insert: FND-154 (A, RES-OPEN; amended with the FND-156
+  cross-reference: the j = n refinement kept-and-falsified), FND-155
+  (B, F-INSTRUMENT), FND-156 (C, SEL-OPEN), FND-157 (D,
+  S3-F-INSTRUMENT with the registered doubt), FND-158 (E, RP-FALLS,
+  Derived), FND-159 (F, NO VERDICT, grid-fragility). Registry 744 ->
+  750.
+- The FND-152/153 AMENDMENT RIDER applied in its HARDENED form
+  (OPEN clause pointing at the FND-159 refusal), append-only per
+  NUC-005, prepended to both titles per the FND-144/145 precedent,
+  re-serialized with the canonical dumper; parser-agreement check
+  passed at 750.
+- Grant records (7 files) shipped to analysis/; the QUEUE ACTION
+  approved: stage-3 resolution replication + the q = 5/4 column to
+  the queue head, on hardware where 144x54+ is feasible
+  (analysis/WHYWIND_queue_action_approved.md).
+- STALE-BASE REFUSAL KEPT ON THE RECORD: the GitHub clone stood at
+  743/v3.28.0 (the 2026-08-28 session never pushed); the insert was
+  REFUSED on that base and executed only after the author supplied
+  the full v3.28.1 tree. Registry writes never land on a stale base.
+
+## INCIDENT: THE EVIDENCE-MUTATION GUARD WAS DEAD CODE (resolved in
+## daylight)
+
+- The release sweep failed ELEC-011 with era-true numbers -- the
+  exact incident-2 signature. Diagnosis: in tools/verify_corpus.py
+  the guard's restore-and-fail block sat AFTER the return statements
+  of its try block; it snapshotted evidence but could never restore.
+  A live instrument overwrote 81 analysis/ evidence files mid-sweep,
+  unnamed and unrestored.
+- FIX: all 81 files restored from the author's archive
+  (ELEC006_state.npz hash-verified against the era copy); the
+  mutation check MOVED AHEAD of the returns, annotated at its site;
+  the cached ELEC-011 failure purged; ELEC-011 re-run PASSING.
+- STANDING: the offender's pass was served from cache, so it went
+  unnamed this sweep. The next COLD run (delete
+  /tmp/verify_cache.json) names it under the repaired guard.
+- Also standing (preexisting, untouched): papers/
+  rope_plain_language_guide.pdf older than its source docx per
+  check_freshness; re-render owed from a soffice-capable machine.
+
+## RELEASE v3.29.0 CUT PER THE CHECKLIST (all seven steps, in order)
+
+- pyproject 3.28.1 -> 3.29.0; CITATION.cff realigned (it had lagged
+  at 3.27.6); CHANGELOG 3.29.0 entry; sync_doc_facts run TWICE
+  (after the bump and after all doc edits), both ending "ok
+  front-door version tripwire (current v3.29.0, badge denominator
+  641)"; docs/history/RELEASE_NOTES_v3.29.0.md written (house
+  format) and the README featured paragraph moved to the
+  WHY-WINDING headline; VERIFY_STATUS.md carries the release sweep
+  and the guard incident; ZENODO_RELEASE_NOTE.md rewritten and root
+  RELEASE_NOTES_3.29.0.md placed.
+- VERIFY RESULT: ** PASS WITH 1 DOCUMENTED WAIVER ** -- 641
+  code-backed, 640 passing, FND-143 the single waived item. The six
+  new claims verified in place.
+
 
 # SESSION_CHANGES -- 2026-08-21 (NATIVE-96 session 3: snap hunt + guide repair)
+
+## CONTROL COMPLETE, FND-153 REGISTERED, 2c CLOSED (2026-08-28)
+
+- q = 5/3 control profile: 12 gated triples, E-NULL as required
+  (r = 0.227; f_dir 0.099 -> 0.101; V_pt -0.2 percent). At the
+  matched cliff amplitude the two branches differ by a factor
+  ~130 in sector rotation under the identical instrument.
+- FND-153 granted and registered (744 claims). Results doc
+  appended with the full side-by-side table and an explicit
+  "what the null does not settle" section (why 4/3 demands
+  winding and 5/3 does not -- needs its own charter).
+- Both profiles' 24 retained gated states exported to
+  analysis/qsweep_stage2c_ckpt.pkl. Version 3.28.1 entered in
+  CHANGELOG with docs/history/RELEASE_NOTES_v3.28.1.md.
+
+## THE /tmp BACKING DEFECT FIXED AT THE ROOT (2026-08-28)
+
+- Author's question ("why would our script look for a /tmp file
+  that can't exist on GitHub?") identified the real defect:
+  session instruments were wired in as claim backing with no
+  bounded verify path.
+- FIX: `--verify` modes added to traverse96_scout.py and
+  native96_continuation.py (annotated in-file); verify_corpus
+  routes them through it (VERIFY_MODE). Verification now reads
+  SHIPPED analysis/ evidence, never /tmp.
+- Results: FND-144 PASSES in 1 s (waiver REMOVED); FND-146
+  passes in 1 s (seed-key fix); FND-143 reports its documented
+  archival gap cleanly (exit 2) and remains the ONE waived item
+  until its checkpoint is re-derived. Expected CI: 640/641,
+  PASS WITH 1 DOCUMENTED WAIVER.
+- Standing rule reinforced: claim backing must be self-contained
+  and read exported evidence; session scratch is never a
+  dependency of verification.
 
 ## CI TRIAGE: THE GITHUB VERIFY RUN ADJUDICATED (2026-08-28)
 
@@ -274,7 +418,7 @@
 ## NAME TREATMENT DECIDED + DOC HARMONIZATION PASS (2026-08-24,
 ## author's decisions 1 and 2)
 
-- Option A adopted: the corpus KEEPS the name "ROPE framework"; the
+- Option A adopted: the corpus KEEPS the name "mesh framework"; the
   model within is described as a LOCAL WEAVE OF ROPES. No file or
   identity renames (protects 737-claim citation continuity).
 - guide/topics/gravity.md: chapter retitled "The Weave Pulls Every
@@ -676,3 +820,49 @@ rounds cap as budget); measured-crawl escalation (exact-GN
 alternating with capped-lsmr descent); the KEPT waypoint-tolerance
 incident, hypothesis falsified by member-grade re-measurement, rates
 cited from full-bar states only.
+
+## 2026-08-28/29 -- WHY-WINDING arc (charter: why the 4/3 cell demands
+## winding where 5/3 doesn't)
+- Brick 1 (dispersion lattice): RES-OPEN. New: analysis/WHYWIND_dispersion_{bars_LOCKED,results}.md, benchmarks/foundations/whywind_dispersion.py. Fourth-cell prediction committed: q=5/4 FLAT.
+- Brick 2 (coupling matrix elements): F-INSTRUMENT (statistic annihilated by branch-tangent nullity). New: analysis/WHYWIND_coupling_{bars_LOCKED,results}.md, benchmarks/foundations/whywind_coupling.py.
+- Brick 2a (mode-resolved rotation): SEL-OPEN, evidence-bearing; j=n rule contradicted; collapse mode identified at +-(17,19), phi-Nyquist-1; resolution flag raised. New: analysis/WHYWIND_rotation_{bars_LOCKED,results}.md, benchmarks/foundations/whywind_rotation.py.
+- Stage 3 (targeted resolution replication): S3-F-INSTRUMENT; cross-grid record shows 4/3 deep-end winding content is not grid-stable (5/3 grid-invariant). New: analysis/WHYWIND_stage3_{bars_LOCKED,runbook,results}.md, benchmarks/foundations/whywind_stage3.py, analysis/whywind_stage3_ckpt.pkl.
+- Draft registration AWAITING THE AUTHOR: analysis/WHYWIND_draft_registration.md (WHYWIND-A..D + owed re-pricing decision).
+- No registered claim re-priced this session; registry untouched pending grants.
+
+## 2026-08-29 -- WHY-WINDING arc, second half (option c)
+- Re-pricing (option b): RP-FALLS. FND-152's f_dir rise is entirely Nyquist-band (|n|>=13) content; resolved band FALLS 0.106->0.002; 5/3 f_nyq = 0.0000 throughout. Rider drafted. New: analysis/WHYWIND_reprice_{bars_LOCKED,results}.md, WHYWIND_reprice_run.txt.
+- 144x42 probe (option a): NO VERDICT -- p42|4/3|deep REFUSES full-bar gating (f32 limit cycle 2.3e-7; bounded f64 endgame slid off constraints). p42|4/3|prev and BOTH 5/3 control members gated at full bar on the same grid. Five-instrument grid-fragility finding. New: analysis/WHYWIND_probe42_{bars_LOCKED,results}.md, benchmarks/foundations/whywind_probe42.py, analysis/whywind_probe42_ckpt.pkl.
+- Instrument ledger: phase-C disk-backed factorization (OOM fix); per-dtype resumable jac; bounded f64 endgame; stale-jac cleanup (disk).
+- Draft registration addendum AWAITING THE AUTHOR: analysis/WHYWIND_draft_registration_addendum.md (WHYWIND-E, -F, queue action).
+- Registry untouched; rider drafted not applied; q=5/4 FLAT commitment stands.
+
+# SESSION_CHANGES -- 2026-09-05 (Q54 / GR54 campaign close; v3.30.0 cut)
+
+## RELEASE v3.30.0 CUT PER THE CHECKLIST
+- pyproject 3.29.0 -> 3.30.0; CITATION.cff 3.30.0 / 2026-09-05;
+  CHANGELOG 3.30.0 entry; sync_doc_facts ok ("current v3.30.0,
+  badge denominator 641"); docs/history/RELEASE_NOTES_v3.30.0.md
+  and root copy; README featured paragraph and current-release line;
+  ZENODO_RELEASE_NOTE.md rewritten.
+- Registry: FND-163/164/165 registered via tools/add_claim.py (756
+  claims); riders on FND-150..153 and FND-163 applied with the
+  Canonical dumper; verify_corpus 178 checks, no failures.
+- Campaign artifacts in analysis/: Q54, GR54, GR54X, GR54B, GR54A,
+  REPRICE, BRICK2, DISC charters (LOCKED) and results; seven charter
+  drafts in analysis/charters_draft/; QUEUE_2026-09-04.md;
+  run_local.sh for laptop execution.
+
+# SESSION_CHANGES -- 2026-09-05 (evening): v3.31.0 CUT
+- Registry 756 -> 761 (FND-166..169, EM-023); EW-001/PM-001 demoted; riders
+  applied; verify_corpus 178 checks. Version bumps, CHANGELOG, release
+  notes (docs/history + root), README, Zenodo note, sync_doc_facts ok.
+- Charters locked and executed: PEV-IDENT, FINE-GATE, TRIPLE-DUTY,
+  CASIMIR-PLATE (Legs 0-1; halt lifted by E-RECON), E-RECON, COMPOSITE-
+  SELECT (Leg A), ITEM-6 (6a staged local; 6b/6c/6d done), LADDER.
+- New drivers: casimir_plate.py, casimir_verdict.py, antialigned_q1.py,
+  composite_legB.py, axis_meaning_ladder.py; handoff tarballs shipped
+  (never ship run_local.sh again -- the author's copy is the good one).
+
+- RENAME (A+B): the Mesh Programme / mesh framework. tools/mesh_rename.py (surgical phrase list; identifiers, the rope object and the Rope Hypothesis untouched), tools/paper_rename.py, tools/paper_edit.py. 49 doc replacements; 62 paper sources rebuilt (naming note in front matter), validated against originals, PDFs regenerated. Repository/package/file names unchanged (tier C queued for the next release; tier D not to be done).
+- RENAME pass 2: prose in code docstrings/prints (5 benchmarks, rope_solver/open_problems.py), claims.yaml notes/titles (25), HANDOFF.md (40), and the four doc GENERATORS (build_overview/roadmap/depgraph/claim_status_registry) so regenerated docs keep the name; PROGRAMME_OVERVIEW, ROADMAP, dependency graph regenerated. build_roadmap.py gained the 'registered' status colour (it crashed on the 23 registered claims before). No file, script, package or claim-ID names changed; nothing references a renamed file because none was renamed.

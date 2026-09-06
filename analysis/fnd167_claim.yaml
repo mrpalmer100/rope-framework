@@ -1,0 +1,32 @@
+id: FND-167
+title: 'COMMISSION FINE-GATE -- RAD-EXCLUDED: LEAD-RAD''S FENCE RE-TESTED AND HELD BY
+  COMPUTATION -- THE CLASSICAL MODE SUM CUT AT ANY REGISTERED LENGTH OVERSHOOTS THE
+  SCHWINGER COEFFICIENT 37x TO 2000x; THE a_f GATE IS CLEAN-CEILING AND UNDERDETERMINED'
+status: registered
+note: 'Charter analysis/FINE_GATE_charter_LOCKED.md (locked before any provenance
+  chain was traced; +A1 from PEV-IDENT). Controls: the LEAD-RAD A2 kernel re-run
+  byte-identically (Delta(100) = 0.582669, Delta(30000) = 6.996994, exponent 0.281,
+  ratio -> -sqrt3); the chain solver returns D_E = 1.1051029 (seven digits) and x* =
+  e^(pi^2) = 19333.7; table completeness against ROPE_PARAMETERS section 6; clean
+  room grep-verified. Q1 GATE-CLEAN-CEILING: the provenance table
+  (analysis/FINE_GATE_provenance_table.md, durable) finds every fine length
+  alpha-clean and every one a ceiling on m or a ratio of a_f -- no alpha-clean fine
+  VALUE exists (FND-110 confirmed row by row); the "0.407 fm electron size" is a
+  lattice flux-tube radius anchoring Sigma, not a registered core scale; the
+  hollow-core r0 carries ELEC-075''s continuum-failure verdict. Q2
+  GATE-UNDERDETERMINED: six relations in a_f, none pairs without a second unknown;
+  the relation that would close the most pairs is the CASIMIR-PLATE per-mode
+  action. Q3 licensed as a BOUND (D5) and run with alpha out of the room: the
+  moment-side weight w2 = Delta(M*) at M* = R*/r_core is 5.93 at the coarse floor
+  (M* = x*), ~208 at the fine ceiling (M* = 5.2e9), ~333 at the r_s bound, and
+  increases for every smaller a_f; the energy-side w1 is not formable (its source-
+  to-medium normalization is unregistered, LEAD-RAD''s own caveat). Targets loaded
+  once in Leg 5: the Schwinger coefficient 1/(2 pi) = 0.159 is overshot 37x to
+  2092x by every registered regulator; the exact sum crosses it only at M* ~ 15, a
+  "core" one fifteenth of the orbit radius, three orders of magnitude larger than
+  any registered length. RAD-EXCLUDED: the radiative back-reaction with a physical-
+  length regulator is refuted as the source of the +178.8 ppm residual and the
+  moment gap; LEAD-RAD''s named go-decision is opened and closed; the quantum fence
+  re-closes on a computed exclusion. Not touched: D_E, the 4 pi^3 prefactor, the
+  SHIN grant, the M-point, LEAD-RAD''s classical ladder. Failed and kept. Results
+  analysis/FINE_GATE_results.md. Granted by the author 2026-09-05.'

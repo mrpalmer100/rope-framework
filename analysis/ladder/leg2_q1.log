@@ -1,0 +1,10 @@
+v3 exactness: max|Delta_E(A,0)| = 0.0
+
+textbook (control):  q (N-Z exponent, median over A) = 1.52 [locked 2]   m (A exponent at N-Z=4) = +nan [locked -1]
+   a_A,ladder(A) [MeV via hbar c, the unit]: {16: 32.1, 40: 17.4, 56: 0.0, 80: 11.0, 120: 5.0, 140: 15.8, 208: 7.1}  overall median 11.0
+
+derived massive sqrt(k^2+kappa^2):  q (N-Z exponent, median over A) = 1.52 [locked 2]   m (A exponent at N-Z=4) = +nan [locked -1]
+   a_A,ladder(A) [MeV via hbar c, the unit]: {16: 91.1, 40: 51.8, 56: -0.0, 80: 34.7, 120: 16.1, 140: 50.6, 208: 23.1}  overall median 34.7
+
+derived massless c k:  q (N-Z exponent, median over A) = 1.52 [locked 2]   m (A exponent at N-Z=4) = +nan [locked -1]
+   a_A,ladder(A) [MeV via hbar c, the unit]: {16: 100.8, 40: 57.9, 56: 0.0, 80: 39.4, 120: 18.4, 140: 57.7, 208: 26.5}  overall median 39.4

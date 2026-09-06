@@ -1,5 +1,5 @@
 """
-rope_solver.electromagnetism.magnetism  --  Magnetism in the rope framework.
+rope_solver.electromagnetism.magnetism  --  Magnetism in the mesh framework.
 
 Encodes the rope-SPECIFIC, derived findings of rope_theory_of_magnetism (Section
 4.5 and the 2026 microscopic work): magnetism as the surrounding network's

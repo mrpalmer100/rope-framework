@@ -1,0 +1,16 @@
+v1 -- registered reproduction:
+   Li: D=1.07 persist=0.760 E_model=0.564 eV  (registered Na 0.36 / Li 0.56)
+   Na: D=0.97 persist=0.686 E_model=0.364 eV  (registered Na 0.36 / Li 0.56)
+   halogen: D_band 1.32 -> D_net 0.84 < 1 (discrimination held)
+
+M-a  coherent collective sharing (R4 star form: gain = v sqrt(z), v = t x persist, z = 8 bcc):
+   Li: E(M-a) = sqrt(z) t persist = 1.128 eV  (= 2 x registered band mean gain)
+   Na: E(M-a) = sqrt(z) t persist = 0.727 eV  (= 2 x registered band mean gain)
+   halogen under M-a: D_band 2.63 -> D_net 2.15  [>= 1: Cl2 metallic -- DISCRIMINATION BROKEN]
+
+M-b  p-band directional structure (dipolar-lobe theorems: sigma overlap ~ cos theta; bcc shell (1,1,1)/sqrt3 -> cos^2 = 1/3 per p lobe):
+   alkali (s band): unchanged.  halogen: D_band 1.32 -> 0.76, D_net 0.28 (more insulating; discrimination widened)
+   halogen under M-a + M-b: D_net 1.04  [marginal/metallic]
+
+M-c  spacing feedback: baseline (already executed in the registered model's d_met).
+M-d  display: t = De/2 anchors the per-bond coupling to the dimer's MEASURED De; the electronic bonding gain exceeds De by the core repulsion at d_dim -- an understatement of unknown size, the sector's Consistency-tier ceiling. Not a channel to tune.

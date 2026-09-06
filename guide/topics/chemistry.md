@@ -13,19 +13,8 @@ standing-wave patterns depending on where you press your finger.
 ![Electrons are standing vibration patterns of the ropes around the nucleus — only certain patterns fit, like notes on a plucked string. Their capacities 2, 8, 18 (= 2n²) come from the rope's two strands times the n² shapes that fit on a sphere.](fig:chemistry)
 
 
-  **THE          *Picture a guitar string. Left alone, it can only
-  ANALOGY**      vibrate in certain fixed patterns --- the open string,
-                 the octave, the fifth --- never anything in between; you
-                 cannot get "half a note." An electron's allowed
-                 orbits are the same idea in three dimensions: only
-                 certain standing-wave patterns fit cleanly around the
-                 nucleus without canceling themselves out, and those
-                 patterns are the electron shells chemistry is built
-                 from. A chemical bond, in this picture, is two atoms
-                 sharing a single standing-wave pattern that wraps around
-                 BOTH nuclei at once --- the molecular equivalent of two
-                 guitar strings clamped to the same fixed points, forced
-                 to vibrate together.*
+> CALLOUT|THE ANALOGY
+> Picture a guitar string. Left alone, it can only vibrate in certain fixed patterns --- the open string, the octave, the fifth --- never anything in between; you cannot get "half a note." An electron's allowed orbits are the same idea in three dimensions: only certain standing-wave patterns fit cleanly around the nucleus without canceling themselves out, and those patterns are the electron shells chemistry is built from. A chemical bond, in this picture, is two atoms sharing a single standing-wave pattern that wraps around BOTH nuclei at once --- the molecular equivalent of two guitar strings clamped to the same fixed points, forced to vibrate together.
 
 
 There is a second everyday image that makes WHY only certain patterns

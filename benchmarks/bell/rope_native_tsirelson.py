@@ -1,4 +1,4 @@
-"""QB-020 (Derived): TSIRELSON AS A THEOREM OF THE ROPE FRAMEWORK -- and
+"""QB-020 (Derived): TSIRELSON AS A THEOREM OF THE MESH FRAMEWORK -- and
 the corpus-native singlet, saturating it.
 
 (T1) GRAM FROM THE MECHANISM: the corpus's response object per setting IS
@@ -31,7 +31,7 @@ is the one remaining assumption -- a coherence requirement, the least
 import the wall has ever carried. Given it, the corpus now derives:
 the detection law (QB-011), the mechanism class and its cap (QB-019 +
 this claim's T1), and the saturating state (T2). Tsirelson is a theorem
-of the rope framework's own response structure.
+of the mesh framework's own response structure.
 """
 import numpy as np
 
@@ -102,7 +102,7 @@ def test():
     print(f"T1: bilinearity {bil:.1e}; CHSH-vs-Horodecki gap {gap:.1e}; cap 2 sqrt 2 exact")
     print(f"T2: isotropy + E(a,a) = -1 => the singlet uniquely; CHSH = {chsh:.10f}")
     print(f"T3: base-only {Ecl:+.4f} vs fiber -1.0000 -- the factor 3 is what the fiber buys")
-    print("PASS: Tsirelson is a theorem of the rope framework's own response structure;")
+    print("PASS: Tsirelson is a theorem of the mesh framework's own response structure;")
     print("      the residual import is composite positivity -- probabilities are probabilities.")
 
 

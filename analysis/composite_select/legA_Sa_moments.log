@@ -1,0 +1,12 @@
+v6 MOMENT CONTROL (level-1 seed, A2 = 0): E[t_z^2] must be 1/3 to 1e-9
+   4/3: E[t_z^2] = 0.3333333333 |err| 2.2e-16  E[t_z^4] = 0.111111 (level-1 alone: 1/9)  |t|^2 = 1.0000000000
+   5/3: E[t_z^2] = 0.3333333333 |err| 2.2e-16  E[t_z^4] = 0.111111 (level-1 alone: 1/9)  |t|^2 = 1.0000000000
+   5/4: E[t_z^2] = 0.3333333333 |err| 2.2e-16  E[t_z^4] = 0.111111 (level-1 alone: 1/9)  |t|^2 = 1.0000000000
+
+S-a on the gated families: D2 = E[t_z^2]-1/3, D4 = E[t_z^4]-1/5 (FND-088's conditions), torus average = time average
+   4/3: A2 0.00188 -> 0.00505:  D2 -8.349e-05 -> -1.017e-03;  D4 -0.088865 -> -0.088622  (slope dD4/dA2 = +0.076)
+   5/3: A2 0.00188 -> 0.00524:  D2 -1.214e-04 -> -1.275e-03;  D4 -0.088802 -> -0.088191  (slope dD4/dA2 = +0.182)
+   5/4: A2 0.00188 -> 0.00511:  D2 -5.263e-05 -> -1.035e-03;  D4 -0.088864 -> -0.088728  (slope dD4/dA2 = +0.042)
+   4/3: D4 = -0.08901 + (+0.074) A2  -> zero at A2* = +1.2014  (family reaches A2_max = 0.00505; static R2 loaded at the consequence step)
+   5/3: D4 = -0.08915 + (+0.179) A2  -> zero at A2* = +0.4992  (family reaches A2_max = 0.00524; static R2 loaded at the consequence step)
+   5/4: D4 = -0.08894 + (+0.039) A2  -> zero at A2* = +2.2543  (family reaches A2_max = 0.00511; static R2 loaded at the consequence step)

@@ -1,0 +1,4 @@
+
+# Instrument caches and build output: kept locally, not on GitHub
+analysis/sparsej_pattern_*.pkl
+rope_solver.egg-info/

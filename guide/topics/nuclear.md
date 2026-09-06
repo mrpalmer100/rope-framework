@@ -19,17 +19,8 @@ The single most important idea here is that nuclear physics is not a
 separate world with its own rules. It is ordinary contact physics,
 scaled down.
 
-  **THE          *Press two of your fingertips together. They touch;
-  ANALOGY**      they don't merge, and if you push harder they push back
-                 harder --- that resistance is the crowded material in
-                 each fingertip refusing to share the same space. Now
-                 imagine shrinking that same touching-and-resisting down
-                 to the size of a nucleus. The crowded material is a
-                 bundle of ropes; the touch is the strong force. Nothing
-                 new has been added --- the same "you can't be in my
-                 space" that you feel between your fingers is, a hundred-
-                 thousand times smaller and denser, the force that holds
-                 a nucleus together.*
+> CALLOUT|THE ANALOGY
+> Press two of your fingertips together. They touch; they don't merge, and if you push harder they push back harder --- that resistance is the crowded material in each fingertip refusing to share the same space. Now imagine shrinking that same touching-and-resisting down to the size of a nucleus. The crowded material is a bundle of ropes; the touch is the strong force. Nothing new has been added --- the same "you can't be in my space" that you feel between your fingers is, a hundred- thousand times smaller and denser, the force that holds a nucleus together.
 
 This picture explains three things about the strong force that otherwise
 look like separate, unrelated facts.

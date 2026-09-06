@@ -4,7 +4,7 @@ with the corpus's linking-number description of charge.
 Gaede's ontology holds that charge is not a substance or an abstract topological
 object but a GEOMETRIC handedness of how a rope's two strands are oriented:
 electron and positron are mirror-image strand configurations (the glove analogy),
-with no separate "charge fluid." The Rope Programme's electricity paper instead
+with no separate "charge fluid." The Mesh Programme's electricity paper instead
 identifies charge with the LINKING NUMBER of the strand curves (a topological
 invariant, first Chern class). These are often taken as rival accounts.
 

@@ -1,4 +1,29 @@
-# CORPUS VERIFICATION STATUS -- v3.28.0 (2026-08-27)
+# CORPUS VERIFICATION STATUS -- v3.29.0 (2026-08-29)
+
+## v3.29.0 RELEASE SWEEP (2026-08-29, recorded per checklist step 5)
+
+Result: ** PASS WITH 1 DOCUMENTED WAIVER ** -- 641 code-backed,
+640 passing, 1 failing/waived (FND-143 archival gap, unchanged).
+Registry at 750 after FND-154..159 (the WHY-WINDING arc grants)
+and the FND-152/153 amendment riders; the six new claims verified
+in place.
+
+INCIDENT DURING THE SWEEP, RESOLVED IN DAYLIGHT: the
+evidence-mutation guard (installed 2026-08-27) was DEAD CODE --
+its restore block sat after the return statements and could never
+execute. A live instrument overwrote 81 analysis/ evidence files
+mid-sweep; ELEC-011 failed downstream with era-true numbers (the
+exact incident-2 class). Remediation: all 81 files restored from
+the author's archive (ELEC006_state.npz hash-verified against the
+era copy); the mutation check moved AHEAD of the returns in
+tools/verify_corpus.py, annotated at its site; the cached ELEC-011
+failure purged and re-run PASSING against restored evidence.
+STANDING ITEM: the offending benchmark's pass was served from
+cache this sweep, so it went unnamed; the next COLD run (delete
+/tmp/verify_cache.json) will name the offender under the repaired
+guard. Recommended at the next CI run.
+
+# PRIOR: v3.28.0 STATUS (2026-08-27)
 
 Method: one complete cold-container sweep of tools/verify_corpus.py
 (every code-backed claim's benchmark executed, 300 s cap, cached),
@@ -6,10 +31,10 @@ followed by targeted re-adjudication of its failures.
 
 ## HEADLINE
 
-    Registered claims:            742
+    Registered claims:            744
     Code-backed claims:           641
-    PASSING:                      639
-    NON-PASSING:                    2  (itemized below)
+    PASSING:                      640
+    NON-PASSING:                    1  (FND-143, waived; below)
     Paper-only (status-labelled): 101
 
 ## RESOLVED DURING THIS RELEASE PASS: ELEC-011
@@ -50,6 +75,37 @@ author-granted session-3 updates, mtimes intact at Aug 21).
    confirmation stands in analysis/NATIVE96_results.md +
    analysis/probe94_ckpt.pkl; a purpose-built bounded verify path
    is queued.
+
+## CI ADJUDICATION -- SECOND PASS (2026-08-28): THE ROOT CAUSE
+## FIXED, NOT WAIVED
+
+The author asked the right question: why does claim backing look
+for a /tmp file at all? It should not. Two of the backing scripts
+are SESSION INSTRUMENTS (traverse96_scout resumes a campaign from
+scratch state; native96_continuation resumes and CONTINUES the
+112x42 run), wired in as claim backing without a bounded verify
+path. On any fresh machine they did the only thing they knew:
+looked for a resume file, or ran until the cap.
+
+FIXED STRUCTURALLY: each now carries a self-contained `--verify`
+mode, and tools/verify_corpus.py routes them through it
+(VERIFY_MODE set). Verification checks SHIPPED evidence, never
+session scratch:
+- native96_continuation --verify: loads
+  analysis/probe94_ckpt.pkl and analysis/native96_march_ckpt.pkl
+  and confirms them present and readable. FND-144 now PASSES in
+  1 second; ITS WAIVER IS REMOVED.
+- traverse96_scout --verify: reports the documented ARCHIVAL GAP
+  (its state was never exported before its container retired)
+  with the remediation path, and exits 2 -- a clean, explained
+  condition instead of a FileNotFoundError. FND-143 remains the
+  single waived item until its checkpoint is re-derived.
+- FND-146: the seeding-shim key was wrong ('/tmp/svd_ckpt.pkl'
+  vs the instrument's '/tmp/svd_diag_ckpt.pkl'); corrected, and
+  the benchmark passes in 1 second. LONG budgets (900 s) added
+  for svd_diagnostic and qb030 as belt-and-braces on slow
+  runners.
+Expected CI: 640/641, PASS WITH 1 DOCUMENTED WAIVER.
 
 ## CI ADJUDICATION (2026-08-28, after the first GitHub run)
 

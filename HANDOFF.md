@@ -1,4 +1,4 @@
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-18; cuts v3.27.1 (TRUE-SOLVE) and v3.27.2 (TRUE-STATE
 stage 2). 733 claims, quick-verify green, freshness green; full suite
@@ -62,7 +62,7 @@ controls printing; a solver that stalls silently is a control that
 was not printed.
 
 ---
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-18; arc closed and rolled up as v3.27.0 (the
 curvature arc, FND-133..140). 731 claims, registry green, freshness green.
@@ -112,7 +112,7 @@ controls, and FND-140's decisive evidence WAS a printed control;
 keep controls printing.
 
 ---
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-18 at the close of v3.26.84 (the adjudication
 release). 730 claims, registry at zero failures, freshness green,
@@ -173,7 +173,7 @@ seven releases of debt; run overnight BEFORE TRUE-SOLVE so the
 re-solve lands on a verified base.
 
 ---
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-18 at the close of v3.26.83 (the halt-that-paid
 release). 729 claims, registry at zero failures, freshness green,
@@ -234,7 +234,7 @@ benchmark suite still NOT rerun since the BLOCH-L arc opened -- six
 releases of debt; run it overnight BEFORE CURVE-OBJ if possible.
 
 ---
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-18 at the close of v3.26.82 (the floor-remap
 release). 728 claims, registry at zero failures, freshness green,
@@ -292,7 +292,7 @@ NOT rerun since the BLOCH-L arc opened -- now five releases of debt;
 schedule the overnight run before the next physics session.
 
 ---
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-18 at the close of v3.26.81 (the tightening release).
 727 claims, registry at zero failures, freshness green, badge 629/629.
@@ -343,7 +343,7 @@ opened (multi-hour; standing debt -- now four releases old, schedule
 it).
 
 ---
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-18 at the close of v3.26.80 (the composite-build
 release). 726 claims, registry at zero failures, freshness green,
@@ -408,7 +408,7 @@ opened (multi-hour; standing debt). Registered claim text edited
 nowhere.
 
 ---
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-18 at the close of v3.26.79 (the fourth-Sigma
 release). 725 claims, registry at zero failures, freshness green,
@@ -461,7 +461,7 @@ the FND-132 correction rides the registry per the standing
 convention.
 
 ---
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-18 at the close of v3.26.78 (the null-correction
 release). 724 claims, registry at zero failures, freshness green, badge
@@ -511,7 +511,7 @@ arc opened (multi-hour; standing debt). Bars locked before computing;
 the pre-registration deviation reported, not smoothed; clean room held.
 
 ---
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-17 at the close of v3.26.77 (the energy-bill release,
 end of the eight-release BLOCH-L arc). 723 claims, registry at zero
@@ -632,7 +632,7 @@ induced-strength wall; LARES-2 gated (condition 4); plasma scope;
 n_rs; T2 clocks. The frame-dragging ceiling is Lambda_nat <= 4.7e34
 (FND-122) and inherits any r_s/a_f motion.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *v3.26.65 (FND-121/122): KBSAT GRANTED (auto-supersession tripwire
 armed). The trap is PURE r_s: derive-point 0.2496 a_f, falsifier
@@ -756,7 +756,7 @@ transplant caught by its own scheduled rider. The registry held;
 the momentum did not; the bars chose the registry. That is the
 house.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-16 at the close of v3.26.45 (the residue reading:
 GRV-126). 703 claims. Prior handoff content preserved below.*
@@ -782,7 +782,7 @@ sync (decoupled framing only); doc sync (KNOWN_LIMITATIONS'
 LARES-2 gated (condition 4); plasma scope; beta cross-section;
 core-closure horns; n_rs. T2 clocks unchanged.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Doc-sync note (v3.26.44): KNOWN_LIMITATIONS, README, and the new
 the papers/ plain-language guide are current. The
@@ -826,7 +826,7 @@ three instrument catches, all on faces. The registry was never
 wrong today; everything else was, five times, and the bars caught
 all five.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-16 at the close of v3.26.42 (the kappa_conv
 session: GRV-124). 701 claims. Prior handoff content preserved
@@ -858,7 +858,7 @@ external surface until the fork resolves; LARES-2 gated; plasma
 scope; beta cross-section; core-closure horns; n_rs. T2 clocks
 unchanged.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-16 at the close of v3.26.41 (the Lambda_nat
 pricing: GRV-123). 700 CLAIMS. Prior handoff content preserved
@@ -890,7 +890,7 @@ beta -> chi); predictions-paper sync (T1) pending author framing;
 LARES-2 gated (condition 4); plasma scope; beta cross-section;
 core-closure horns; n_rs. T2 clocks unchanged.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-16 at the close of v3.26.40 (the chiral-vacuum
 reading: GRV-122). 699 claims. Prior handoff content preserved
@@ -930,7 +930,7 @@ T2 clocks unchanged: PSR J1713; adjoint CS bands; PVLAS/VMB@CERN
 polarimetry; continuum SU(6) k-strings; >2.2 PeV photons;
 m x 1.4 PeV.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-16 at the close of v3.26.39 (COMMISSION
 LAMBDA-COMPOSE: GRV-121, with the named handoff correction).
@@ -971,7 +971,7 @@ T2 clocks unchanged: PSR J1713; adjoint CS bands; PVLAS/VMB@CERN
 polarimetry; continuum SU(6) k-strings; >2.2 PeV photons;
 m x 1.4 PeV.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-16 at the close of v3.26.38 (COMMISSION
 FRAME-DRAG-RATIO: GRV-120). 697 claims. Prior handoff content
@@ -1004,7 +1004,7 @@ prose-layer catches, all six on claim faces. T2 clocks unchanged:
 PSR J1713; adjoint CS bands; PVLAS/VMB@CERN polarimetry; continuum
 SU(6) k-strings; >2.2 PeV photons; m x 1.4 PeV.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-16 at the close of v3.26.37 (COMMISSION DYNAMO:
 EM-RECON-041; COMMISSION FRAME-DRAG-RATIO chartered). 696 claims.
@@ -1032,7 +1032,7 @@ T2 clocks unchanged: PSR J1713; adjoint CS bands; PVLAS/VMB@CERN
 polarimetry; continuum SU(6) k-strings; >2.2 PeV photons;
 m x 1.4 PeV.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-16 at the close of v3.26.36 (the k/T0 = 2 grade
 audit: FND-114; fourth claim of the day's current-as-spin arc).
@@ -1062,7 +1062,7 @@ when they fire and the adopted inputs harden themselves. T2 clocks
 unchanged: PSR J1713; adjoint CS bands; PVLAS/VMB@CERN polarimetry;
 continuum SU(6) k-strings; >2.2 PeV photons; m x 1.4 PeV.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-16 at the close of v3.26.35 (THE tau0 PIN SESSION:
 EM-RECON-040; third of the day's adjacent trio with EM-RECON-039 and
@@ -1101,7 +1101,7 @@ tau0_lock (twist rate) vs tau0_trav (retired duration): the
 NAME_REGISTRY addendum is binding; importing 1.95 into any
 lock-sector formula is a registered failure mode.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-16 at the close of v3.26.34 (THE VERTEX SESSION:
 GRV-119; run adjacent to v3.26.33's EM-RECON-039 under shared bars).
@@ -1133,7 +1133,7 @@ T2 clocks unchanged: PSR J1713; adjoint CS bands; PVLAS/VMB@CERN
 polarimetry; continuum SU(6) k-strings; >2.2 PeV photons;
 m x 1.4 PeV.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-16 at the close of v3.26.33 (COMMISSION
 CURRENT-AS-SPIN run: EM-RECON-039). 692 claims. Prior handoff
@@ -1165,7 +1165,7 @@ un-gates sin^2(chi) for free. T2 clocks unchanged: PSR J1713;
 adjoint CS bands; PVLAS/VMB@CERN polarimetry; continuum SU(6)
 k-strings; >2.2 PeV photons; m x 1.4 PeV.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-16 at the close of v3.26.32 (a charter cut:
 COMMISSION CURRENT-AS-SPIN chartered from the author's question, no
@@ -1200,7 +1200,7 @@ attack. T2 clocks unchanged: PSR J1713; adjoint CS bands;
 PVLAS/VMB@CERN polarimetry; continuum SU(6) k-strings; >2.2 PeV
 photons; m x 1.4 PeV.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-15 at the close of v3.26.31 (the documentation
 consolidation: every doc brought current with the fourteen-release
@@ -1226,7 +1226,7 @@ horns; any n_rs attack. T2 clocks: PSR J1713; adjoint CS bands;
 PVLAS/VMB@CERN polarimetry; continuum SU(6) k-strings; >2.2 PeV
 photons; m x 1.4 PeV.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-15 at the close of v3.26.30 (the existence answer:
 twist radiation EXISTS-VIA-LOCK; the margin is clear). 691 claims.
@@ -1262,7 +1262,7 @@ PSR J1713; adjoint CS bands (kill-ready); PVLAS/VMB@CERN
 polarimetry; continuum SU(6) k-strings; >2.2 PeV photons;
 m x 1.4 PeV soft falsifier.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-15 at the close of v3.26.29 (the terminus: the caged
 strain derivation returned NO-BINDING-CONTRADICTION and the
@@ -1301,7 +1301,7 @@ owed.
    PVLAS/VMB@CERN polarimetry; continuum SU(6) k-strings; >2.2 PeV
    photons; m x 1.4 PeV.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-15 at the close of v3.26.28 (the audit: the g* = 2
 policy is convenience-certified and the strain derivation is
@@ -1338,7 +1338,7 @@ arc parks on QGATE-006/018's external clocks.
    PVLAS/VMB@CERN-class polarimetry (QGATE-006/018); continuum SU(6)
    k-strings; >2.2 PeV photons; m x 1.4 PeV.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-15 at the close of v3.26.27 (the isolation: the
 registered-class closure ran, failed at policy amplitude, and the
@@ -1376,7 +1376,7 @@ core-closure arc now runs through it. Two instruments, neither owed:
 3. T2 external clocks unchanged: PSR J1713; adjoint CS bands;
    continuum SU(6) k-strings; >2.2 PeV photons; m x 1.4 PeV.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-15 at the close of v3.26.26 (the dissolution:
 EM-RECON-035 found the free core ratio does not exist in registered
@@ -1421,7 +1421,7 @@ CONSTRUCTED IT. The mode profile existed in a registered doc and a
 registered harness through two closure sessions that each invented
 their own.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-15 at the close of v3.26.25 (the dimension day:
 EM-RECON-034 largely convicted the 1D idealization behind the
@@ -1459,7 +1459,7 @@ twice.
 3. T2 external clocks unchanged: PSR J1713; adjoint CS bands;
    continuum SU(6) k-strings; >2.2 PeV photons; m x 1.4 PeV.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-15 at the close of v3.26.24 (the corrigendum:
 GRV-117, author-caught same day, corrects GRV-116's carrier
@@ -1506,7 +1506,7 @@ must be applied to citations inside commissions, not only to claims
 being annotated: READ THE CITED CLAIM'S VERDICT VERBATIM. A title
 names a candidate; only the claim body names the outcome.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-15 at the close of v3.26.23 (the routing day:
 NUN-GRV11 ran GRV-106's long-named audit and the feared sentence did
@@ -1546,7 +1546,7 @@ vertex decides.
    continuum SU(6) k-string determination; >2.2 PeV photons;
    m x 1.4 PeV soft falsifier.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-15 at the close of v3.26.22 (the grant-and-demotion
 day: GRANT-EXDYN-OVERLAP adopted at v3.26.21 and demoted at its own
@@ -1596,7 +1596,7 @@ not arrive as a rescue of the overlap form.
    continuum SU(6) k-string determination; >2.2 PeV photons;
    m x 1.4 PeV soft falsifier.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-15 at the close of v3.26.20 (the shelf-stocking day:
 NUN7 adopted the SU(3) chromo-profile EXTERNAL-ADOPTED, with the
@@ -1645,7 +1645,7 @@ blind to its own adjudication per the NUN5 discipline.
    (kill-ready); >2.2 PeV photons as corroboration; m x 1.4 PeV soft
    falsifier armed.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-15 at the close of v3.26.19 (the ladder day: TSADE4
 ruled the scale class SINGLE-ANCHOR and drew the suspension ladder).
@@ -1681,7 +1681,7 @@ ruled the scale class SINGLE-ANCHOR and drew the suspension ladder).
    (kill-ready, spec shipped); >2.2 PeV photons as corroboration; any
    photon above m x 1.4 PeV moves the fine ceiling as disclosed.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-15 at the close of v3.26.18 (the supersession day:
 NUN-GRV10 discharged GRV-110's condition 3, the last owed condition of
@@ -1728,7 +1728,7 @@ ACCOUNTED. The arc has no owed item for the first time since GRV-104.
    waiting; the scale-class determination remains queued; T2 external
    clocks unchanged.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-15 at the close of v3.26.17 (the chirality-bound day:
 NUN-GRV8 corrected the statistic and bounded the input, NUN-GRV9
@@ -1777,7 +1777,7 @@ just the existence.
    scale-class determination remains queued; T2 external clocks
    unchanged.
 
-# HANDOFF -- Rope Framework, next session
+# HANDOFF -- Mesh Framework, next session
 
 *Written 2026-08-13 at the close of v3.26.0 (the adjudication release, consolidating the twelve-release day:
 the k-string adjudication, the mechanism eliminations, the armed
@@ -1958,7 +1958,7 @@ cannot rescue [40, 81]).
 
 ## 5. First message for the new session
 
-> Continuing the Rope Framework. Corpus attached (v3.24.3, 650
+> Continuing the Mesh Framework. Corpus attached (v3.24.3, 650
 > claims). Read HANDOFF.md, then analysis/TAV3_widened_gax_results.md.
 > v3.25.0 is cut. Session: the substructure-dividend arc -- the
 > refinement-invariance audit (lock bars first), with the

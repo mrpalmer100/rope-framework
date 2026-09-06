@@ -23,15 +23,8 @@ traveling ripple, moving sideways to the rope's own length, is light.
 
 
 
-  **THE          *Picture two people holding a long jump rope, and one of
-  ANALOGY**      them gives it a single, sharp flick. A hump of rope
-                 travels down the length of the cord at a fixed speed ---
-                 determined by how tightly the rope is pulled and how
-                 heavy it is per foot --- and arrives at the other end
-                 carrying exactly the energy of that flick. That
-                 traveling hump, in the rope picture, IS a photon: a
-                 single, localized kink racing along a real physical
-                 rope.*
+> CALLOUT|THE ANALOGY
+> Picture two people holding a long jump rope, and one of them gives it a single, sharp flick. A hump of rope travels down the length of the cord at a fixed speed --- determined by how tightly the rope is pulled and how heavy it is per foot --- and arrives at the other end carrying exactly the energy of that flick. That traveling hump, in the rope picture, IS a photon: a single, localized kink racing along a real physical rope.
 
 
 

@@ -1,4 +1,4 @@
-# How to Criticize the Rope Programme
+# How to Criticize the Mesh Programme
 
 This document exists because a programme that means its commitment to falsifiability
 should tell critics exactly where to aim. It is written to make rigorous criticism

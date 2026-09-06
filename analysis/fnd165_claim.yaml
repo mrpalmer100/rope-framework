@@ -1,0 +1,31 @@
+id: FND-165
+title: 'A-ABSENT: THE q = 4/3 COLLAPSE (THE CORPUS''S STRONGEST, f_rise +0.3691 AT
+  144x36) IS NOT FOUND AT 144x54 ANYWHERE IN A2 0.0048-0.0055 (W36 +0.0144, WX
+  -0.0009 vs +0.15; 20/20 gated) -- THE TWO COLLAPSE CELLS BEHAVE DIFFERENTLY
+  UNDER REFINEMENT; STATUS BEYOND THE SPAN OPEN'
+status: registered
+note: 'Charter analysis/GR54A_charter_LOCKED.md (locked before data; 20-point
+  budget from the start; forms A-DISPLACED / A-ROBUST / A-ABSENT / A-REFUSED,
+  with A-ABSENT explicitly NOT an artifact verdict, per the GR54 lesson).
+  Protocol identical to FND-164 at cell 4/3: seed pair gated at 1.04e-9 /
+  9.54e-10, fresh 144x54:arc:n2=4 pattern, 20 arc points at ds 0.08, all gated
+  at full bars, Om2 2.2163 -> 2.2448 smooth, continuity verified at every point.
+  Amendment A1 (pre-data): W36 computed once after the in-window stretch;
+  +0.0144, no fire; march continued as chartered. Full-span WX = -0.0009. The
+  profile is flat to three decimals in f_dir (0.1065 -> 0.1055); rate eases 6
+  pct; V_pt flat to 0.5 pct; one transient f_dir bump at points 4-5 (0.128,
+  the solver''s long corrector walks) erased by point 6. NONE of the geometric
+  turn markers that accompanied the 5/4 collapse at 54 appeared: A2 gain per
+  step constant at 3.6e-5 to the last point, no arc overshoot, predictor quality
+  IMPROVING with depth (94.2 -> 94.7 pct). Points 12-19 were marched on the
+  author''s local machine with the identical driver and instrument (the driver
+  never prints sealed quantities; the checkpoint was returned for the single
+  verdict computation). WHAT IS ESTABLISHED: the 4/3 collapse does not occur at
+  54 where the 36 grid placed it, nor displaced into the region where the 5/4
+  collapse relocated; "collapse location is grid-dependent" is a ONE-cell
+  finding (FND-164); the refined grid separates two collapse cells the coarse
+  grid made look alike. WHAT IS NOT: no artifact claim is made; beyond A2
+  0.0055 the 4/3 collapse''s status at 54 is OPEN, and the registered 36-grid
+  collapse''s refined-grid counterpart is the sharpest open question in the
+  program. Results: analysis/GR54A_results.md; states analysis/gr54a_ckpt.pkl.
+  Granted by the author 2026-09-05.'

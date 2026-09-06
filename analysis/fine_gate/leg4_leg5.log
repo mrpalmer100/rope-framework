@@ -1,0 +1,19 @@
+Delta(100) = 0.582669  Delta(30000) = 6.996994
+a_f,ceil (m=1) = 2.214e-22 m ; a/a_f,ceil = 2.710e+05
+  r_core = solver unit (coarse, M* = x*)        M* = 1.933e+04  w2 = Delta(M*) = 5.932  [exact sum]
+  r_core = a_f,ceil (fine ceiling, m=1)         M* = 5.239e+09  w2 = Delta(M*) = 207.951  [M^0.281 extrapolation from 30000]
+  r_core = r_s bound 0.1874 a_f,ceil            M* = 2.796e+10  w2 = Delta(M*) = 332.899  [M^0.281 extrapolation from 30000]
+  Delta at small M: {1: 0.0064, 2: 0.021, 3: 0.0361, 5: 0.0643, 10: 0.1232, 30: 0.2812}
+
+LEG 5  P2 target w2 = 1/(2 pi) = 0.1592
+  r_core = solver unit (coarse, M* = x*)        w2/target =     37.3x
+  r_core = a_f,ceil (fine ceiling, m=1)         w2/target =   1306.6x
+  r_core = r_s bound 0.1874 a_f,ceil            w2/target =   2091.7x
+  Delta(1) = 0.0064, Delta(2) = 0.0210: the target 0.159 is crossed between M* = 1 and 2 -> r_core ~ R*
+  P1: NOT FORMABLE -- w1's source->medium normalization is unregistered (LEAD-RAD A3 caveat); reported per D4.
+12 0.1433
+13 0.1529
+14 0.1621
+15 0.1711
+16 0.1797
+17 0.1882

@@ -1,0 +1,34 @@
+STEP 1 -- NULL CALCULATION (isotropic inclusion: no axis exists)
+   projection must return zero to within noise
+
+   L= 6.0: null projection = -3.191e-16
+   L= 8.0: null projection = -2.032e-16
+
+STEP 2 -- NOISE FLOOR (three seeds, s=1.5, L=8)
+   ['-3.7600e+01', '-3.7631e+01', '-3.7626e+01']   floor = 3.152e-02
+
+STEP 3 -- GLOBAL ROTATION CONTROL (system AND cell rotated together)
+   unrotated -3.7600e+01   rotated -3.7625e+01   |diff| = 2.515e-02   floor = 3.152e-02
+   PASS
+
+STEP 4 -- FINITE-CELL BEHAVIOUR C(L) (labels now readable)
+    L     amplitude      R^2     |amp|/E
+  6.0   -4.9386e+01   0.4630   9.487e-01
+  8.0   -3.7600e+01   0.4629   9.209e-01
+ 10.0   -3.0379e+01   0.4740   9.026e-01
+
+STEP 5 -- PERTURBATIVE CONTROL (reviewer's requirement)
+   Step 4's R^2 ~ 0.46 and |amp|/E ~ 0.9 signal that the
+   single-relaxation estimate is dominated by configuration
+   mismatch, not by anisotropy: rotating [100] -> [111] is NOT a
+   small perturbation, so Hellmann-Feynman does not apply.
+   THE PERTURBATIVE SHORTCUT FAILS ITS CONTROL. Per the bar, PBC
+   is retained and the relaxations are paid for.
+
+STEP 6 -- FULLY RELAXED ORIENTATION SCAN (PBC, L = 8)
+   energies: ['23.3572', '24.7916', '27.5456', '24.0352', '25.2120', '24.7365']
+   K-projection amplitude = -5.2273e+00
+   R^2 = 0.7098   mean E = 24.9464
+   |amp|/E = 2.0954e-01
+   noise floor (from step 2, full-relax scale) ~ 3.152e-02
+   signal/floor = 165.82

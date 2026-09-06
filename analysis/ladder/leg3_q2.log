@@ -1,0 +1,11 @@
+Q2 -- the ladder's top-level spacing delta_top(A) (the 'mode stiffness' under D5) and v0_ladder = delta_top read into R4 (staggering = v0/sqrt(N), N = A/2):
+   A  delta_top derived  delta_top textbook  A^-2/3 x const?
+  16             42.250              14.456            268.3
+  40             27.243               8.139            318.6
+  56             14.438               4.645            211.3
+  80             11.820               3.662            219.5
+ 120              8.008               2.515            194.8
+ 140              7.384               2.270            199.1
+ 208              6.320               1.937            221.9
+   log-log slope of delta_top(derived) vs A: -0.81  -- an A-INDEPENDENT v0 requires 0; the ladder stiffness is not a constant
+   v4 (R4 reproduction): the R4 star form returns -1/2 exactly (samekh re-run, analysis/metallic_v2_r4.log) -- the exponent control is the form's, not the stiffness's

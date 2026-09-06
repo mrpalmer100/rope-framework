@@ -1,0 +1,8 @@
+C1 -- fine-ceiling exhibition (locked bars; certificate S >= pi/2)
+
+Straight control:
+  straight: P=1 c_eff=0.7615 S(9^3)=3.9000 S(13^3)=3.9160 stable=True -> S = 3.9160 >= pi/2=1.5708
+
+Wound members:
+  f=1/3 (context): P=3 c_eff=0.7615 S(9^3)=3.2700 S(13^3)=3.2985 stable=True -> S = 3.2985 >= pi/2=1.5708
+  f=1/4 (context): P=4 c_eff=0.7615 S(9^3)=3.3590 S(13^3)=3.3590 stable=True -> S = 3.3590 >= pi/2=1.5708

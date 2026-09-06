@@ -1,0 +1,36 @@
+== LEAD-RAD SESSION 2: CONSTRUCTION (alpha out of the room) ==
+
+-- A2: moment-side mode sums at beta = 1 (point terminus) --
+  M=   100: sum(react-stat)=0.582669   sum(rad)=0.572703
+  M=   300: sum(react-stat)=1.028008   sum(rad)=0.880133
+  M=  1000: sum(react-stat)=1.790957   sum(rad)=1.375880
+  M=  3000: sum(react-stat)=2.852813   sum(rad)=2.039402
+  M= 10000: sum(react-stat)=4.607985   sum(rad)=3.108061
+  M= 30000: sum(react-stat)=6.996994   sum(rad)=4.537828
+  growth exponent, subtracted reactive sum: M^0.281
+  growth exponent, radiative sum:           M^0.265
+  ADJUDICATION A2: static subtraction DOES NOT cancel the divergence.
+  cutoff sensitivity: 34.1% change over ~half-decade of M -> weight is CUTOFF-DEFINED, power ~1/3 (as flagged in worklog).
+  structural identity: radiated (E - Omega L) = 0 per mode (omega_m = m Omega);
+  the RADIATIVE budget drops out of the rotating-frame functional identically.
+  The REACTIVE stored piece has no such identity; its subtracted sum is the
+  cutoff-sensitive object above.
+
+-- A3: energy-side weight on the committed f(r) (m=1, k=Omega) --
+  r_min=1e-03 tol=1e-08: W_dyn=-2.897097e+16 W_stat=7.586615e+16 W_rad=7.167872e+16  w1=(dyn-stat)/E_rot=-6.762316e+15
+  r_min=1e-03 tol=1e-10: W_dyn=-2.889217e+16 W_stat=7.544756e+16 W_rad=7.167990e+16  w1=(dyn-stat)/E_rot=-6.730233e+15
+  r_min=3e-04 tol=1e-08: W_dyn=-2.897833e+16 W_stat=7.590617e+16 W_rad=7.167853e+16  w1=(dyn-stat)/E_rot=-6.765372e+15
+  w1 median = -6.762316e+15  spread = 0.520% -> STABLE (finite, derived)
+  A3 ADJUDICATION: extended source -> NO cutoff issue; w1 is a derived
+  finite functional of the registered f(r). Sign and magnitude recorded
+  blind; the correction enters as (1 + w1 * coupling^2) on the dressing,
+  coupling carried symbolically (alpha_bare). NO targets loaded.
+
+== CONSTRUCTION VERDICT (pre-confrontation, per worklog handoff) ==
+A2 (moment, point source at beta=1): subtracted reactive sum remains
+   divergent ~ M^(1/3); static subtraction does NOT regulate it. The
+   moment-side weight is defined only WITH a physical UV cutoff, and the
+   corpus's own audit (D-E-COMPLETE A2) showed the core scale -> 0.
+A3 (energy, extended committed f): finite derived weight w1, no cutoff.
+A4 single-mechanism bar: same kernel used for both; no per-observable
+   freedom introduced.

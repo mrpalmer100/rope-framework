@@ -9,7 +9,7 @@ History (why this file was rewritten, 2026-08-01):
   a sibling failure in the same reformat left tools/verify_corpus.py parsing ZERO
   claims while still reporting ALL CHECKS PASS.
 
-  The lesson is recorded in docs/STANDING_RULE_SOURCE_BEFORE_INSTRUMENT.md's
+  The lesson is recorded in docs/technical/STANDING_RULE_SOURCE_BEFORE_INSTRUMENT.md's
   spirit: tooling that depends on incidental formatting will break silently.
   This version parses YAML, inserts into the list, and re-serializes with the
   canonical style, so it is immune to whitespace and quoting changes.

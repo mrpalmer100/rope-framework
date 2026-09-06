@@ -6,16 +6,16 @@ import yaml, re, json, html
 from collections import defaultdict, Counter
 
 SECTORS = [
-    ("Foundations",        ["FND","FND-KIN","FND-STRAND","FND-REL","FND-BOUND","THM","EFT","CM","SOL"]),
+    ("Foundations",        ["FND","FND-KIN","FND-STRAND","FND-REL","FND-BOUND","THM","EFT","CM","SOL","ROPE-MODE","ROPE-SOURCE-AUDIT","ROPE-VALIDATION","XSEC"]),
     ("Electromagnetism",   ["EM","EM-RECON","EW"]),
     ("Optics",             ["OPT"]),
-    ("Matter & Particles", ["FND-MATTER","PM","NUC"]),
+    ("Matter & Particles", ["FND-MATTER","PM","NUC","NUCQ","ELEC","PRED","ALPHA-DE-CHAIN"]),
     ("Chemistry",          ["CHEM-HB","CHEM-DYN","CHEM-GEO","CHEM-STRUCT","CHEM-MET"]),
     ("Gravity & Galaxies", ["GRV","GG"]),
-    ("Quantum Boundary",   ["QB"]),
+    ("Quantum Boundary",   ["QB","QGATE","HBAR"]),
 ]
 COLORS = {"Derived":"#2e8b57","Modeled":"#2b6cb0","EFT-constrained":"#6b46c1",
-          "Conjecture":"#d69e2e","Open":"#ecc94b","Failed":"#c53030"}
+          "Conjecture":"#d69e2e","Open":"#ecc94b","Failed":"#c53030","registered":"#2b6cb0"}
 
 def sector_of(cid):
     pre = re.match(r'([A-Z\-]+?)-\d', cid)
@@ -81,7 +81,7 @@ def build():
         y += rows*rowh + 0.62
     total = len(claims); stat = Counter(c['status'] for c in claims)
     ax.set_ylim(-1.6, y + 1.2)
-    ax.text(0, y + 0.55, "THE ROPE PROGRAMME — ROADMAP OF KNOWLEDGE",
+    ax.text(0, y + 0.55, "THE MESH PROGRAMME — ROADMAP OF KNOWLEDGE",
             fontsize=17, fontweight='bold')
     ax.text(0, y + 0.1,
             f"{total} registered claims · " + " · ".join(f"{s} {n}" for s, n in stat.most_common())
@@ -104,7 +104,7 @@ def build():
     colors_js = json.dumps(COLORS)
     sectors_js = json.dumps([n for n, _ in SECTORS])
     page = """<!DOCTYPE html><html><head><meta charset="utf-8">
-<title>Rope Programme — Roadmap of Knowledge</title>
+<title>Mesh Programme — Roadmap of Knowledge</title>
 <style>
 body{font-family:Georgia,serif;margin:0;display:flex;height:100vh}
 #map{flex:1;overflow:auto;padding:18px;background:#fafaf7}
@@ -124,7 +124,7 @@ h1{font-size:19px;margin:2px 0 4px}
 .legend span{display:inline-block;margin-right:10px;font-size:11px}
 .legend i{display:inline-block;width:11px;height:11px;border-radius:2px;margin-right:3px;vertical-align:-1px}
 </style></head><body>
-<div id="map"><h1>The Rope Programme — Roadmap of Knowledge</h1>
+<div id="map"><h1>The Mesh Programme — Roadmap of Knowledge</h1>
 <div class="meta" id="meta"></div><div class="legend" id="legend"></div><div id="grid"></div></div>
 <div id="panel"><em>Click any claim. Solid outline = its dependencies (upstream); dashed red = everything built on it (direct downstream).</em></div>
 <script>
@@ -163,7 +163,7 @@ function select(id){
     open('docs/roadmap.html', 'w').write(page)
 
     # ---------- ROADMAP.md ----------
-    lines = ["# The Rope Programme — Roadmap of Knowledge\n",
+    lines = ["# The Mesh Programme — Roadmap of Knowledge\n",
              f"*Generated from claims.yaml — {len(claims)} registered claims.*\n",
              "**The ladder** (each sector builds on those above it; the interactive explorer is",
              "[docs/roadmap.html](roadmap.html), the wall chart [docs/roadmap.png](roadmap.png)):\n"]

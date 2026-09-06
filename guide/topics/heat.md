@@ -14,14 +14,8 @@ ropes on top of whatever orderly thing they are also doing.
 ![Temperature is simply how hard the ropes are jiggling; heat flows as vigorous jiggling spreads into calmer regions. Nothing new is added for heat — it is the ordinary vibration of the network, and the standard thermodynamic laws come out unchanged.](fig:heat)
 
 
-  **WHAT HEAT    *Picture the whole rope network shivering --- every
-  IS**           strand twitching a little, in no particular direction,
-                 with no particular rhythm. A cold object is one whose
-                 ropes are nearly still; a hot object is one whose ropes
-                 are jiggling hard. Temperature is just how vigorously
-                 they jiggle. That is the whole of heat: not a substance
-                 that flows in, but the amount of random motion already
-                 in the ropes.*
+> CALLOUT|WHAT HEAT IS
+> Picture the whole rope network shivering --- every strand twitching a little, in no particular direction, with no particular rhythm. A cold object is one whose ropes are nearly still; a hot object is one whose ropes are jiggling hard. Temperature is just how vigorously they jiggle. That is the whole of heat: not a substance that flows in, but the amount of random motion already in the ropes.
 
 
 
@@ -78,17 +72,8 @@ These abrupt switches --- physicists call them phase transitions --- are
 among the sharpest, most testable things in all of physics, and this is
 where the recent rope work has the most to say.
 
-  **THE          *Every phase transition is a tug-of-war between two
-  TUG-OF-WAR**   things the ropes want. Order wants the ropes lined up
-                 neatly, because that costs the least tension energy.
-                 Heat wants them jiggling freely, because there are so
-                 many more ways to be messy. At low temperature order
-                 wins and the ropes lock into a tidy pattern --- a solid,
-                 a magnet. Turn up the heat and at one sharp tipping
-                 point the jiggling suddenly overwhelms the ordering
-                 pull, the tidy pattern breaks, and the material flips to
-                 its disordered state --- liquid, or unmagnetised --- all
-                 at once.*
+> CALLOUT|THE TUG-OF-WAR
+> Every phase transition is a tug-of-war between two things the ropes want. Order wants the ropes lined up neatly, because that costs the least tension energy. Heat wants them jiggling freely, because there are so many more ways to be messy. At low temperature order wins and the ropes lock into a tidy pattern --- a solid, a magnet. Turn up the heat and at one sharp tipping point the jiggling suddenly overwhelms the ordering pull, the tidy pattern breaks, and the material flips to its disordered state --- liquid, or unmagnetised --- all at once.
 
 
 
@@ -116,13 +101,5 @@ one of the cleaner recent results: the same ropes that carry light and
 charge, when you simply let them jiggle, reproduce the textbook physics
 of heat and phase change without anything new added.
 
-  **HONEST       *The rope account here matches the EQUILIBRIUM physics
-  LIMIT**        of heat --- a system that has settled down and shares
-                 its jiggling evenly --- including the sharp phase
-                 transitions, to the standard textbook results. What it
-                 does not yet treat is heat in FULL FLIGHT: the details
-                 of exactly how fast heat flows, how a material conducts
-                 or relaxes moment to moment while still settling. That
-                 living, in-between behaviour is not yet captured; the
-                 settled picture, and the sharp switch between phases, is
-                 what the rope network reproduces.*
+> CALLOUT|HONEST LIMIT
+> The rope account here matches the EQUILIBRIUM physics of heat --- a system that has settled down and shares its jiggling evenly --- including the sharp phase transitions, to the standard textbook results. What it does not yet treat is heat in FULL FLIGHT: the details of exactly how fast heat flows, how a material conducts or relaxes moment to moment while still settling. That living, in-between behaviour is not yet captured; the settled picture, and the sharp switch between phases, is what the rope network reproduces.

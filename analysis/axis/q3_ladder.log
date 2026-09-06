@@ -1,0 +1,8 @@
+Q3 -- s-ladder (K-harmonic amplitude, fraction |amp|/E, seed floor as a fraction, R^2)
+   s       amp     frac  line s^-3/2    floor    R^2  reading
+ 1.5   -5.2273   0.2095       0.2095   0.0000   0.71  on line (within floor)
+ 2.0   +0.8553   0.0295       0.1361   0.0022   0.03  BELOW line by > floor
+ 3.0   -8.3608   0.2733       0.0741   0.0000   0.68  ABOVE line by > floor
+ 4.0   +2.5596   0.0669       0.0481   0.0304   0.08  on line (within floor)
+
+fit-free reading per rung above; log-log slope of the fraction (display): -0.19  (fixed law -1.50)

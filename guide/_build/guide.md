@@ -26,16 +26,31 @@ to change.
 
 Here is the picture in one breath. Imagine the universe filled with an
 unimaginable number of ropes --- not metaphors, real two-strand ropes
-like a twisted double cord --- stretching between every pair of atoms in
-existence. You are tied to your chair, to the Sun, to the nearest star,
-to every scrap of matter in the cosmos. The ropes are under tension,
-like a guitar string pulled tight. They can twist and wiggle. And
-crucially they pass THROUGH each other and through matter without
+like a twisted double cord --- woven into a vast three-dimensional
+fabric that fills all of space. Every atom is knotted into this weave,
+coupled to the fabric around it; and because the weave is connected,
+every atom is in mechanical contact with every other THROUGH it. You
+are laced into the same fabric as your chair, the Sun, the nearest
+star, every scrap of matter in the cosmos. The weave is under tension,
+like a guitar string pulled tight. Its strands can twist and wiggle.
+And crucially they pass THROUGH each other and through matter without
 tangling --- like beams of light crossing, not like ropes piled on a
 table.
 
+(An earlier telling of this picture ran a private rope directly from
+each atom to every other atom --- that is Bill Gaede's rope model, and
+this framework is NOT that model. The distinction is not cosmetic: the
+framework's own locked tests showed the direct-connection picture
+fails six of nine requirements of observed physics --- most simply, a
+constant-tension pair rope would pull equally hard at any distance,
+where nature demands the inverse-square law, which the weave delivers
+as a theorem. The every-atom-to-every-atom rope survives as a
+perfectly good visualization of the EFFECTIVE pull the weave mediates
+between any two masses --- the same license physicists use when they
+draw "field lines" --- but the fabric is the physical object.)
 
-| **THE SIX, IN SIX WORDS** | Light = RIPPLE. Charge = HANDEDNESS (the mirror-orientation of the two strands, like a left vs right glove). Current = TURNING that helix like a screw, so it drives the load at the far end. Magnetism = the network's CIRCULATING RESPONSE to those rotating ropes. Gravity = TENSION. Chemistry = STANDING WAVE. Black hole = EXHAUSTED TENSION. *Six words. One rope. Keep them in mind --- they are the whole book in miniature, and every chapter is just one of these words unpacked.* |
+
+| **THE SIX, IN SIX WORDS** | Light = RIPPLE. Electricity = TURNING: a current is the ropes spinning in place like flexible drive shafts, and the voltage is the TENSION DIFFERENCE across the circuit that turns them. Charge = HANDEDNESS (the mirror-orientation of the two strands, like a left vs right glove), which settles only which WAY they drive. Magnetism = the network's CIRCULATING RESPONSE to those rotating ropes. Gravity = TENSION. Chemistry = STANDING WAVE. Black hole = EXHAUSTED TENSION. *Six words. One rope. Keep them in mind --- they are the whole book in miniature, and every chapter is just one of these words unpacked.* |
 |:--|:--|
 
 
@@ -59,16 +74,10 @@ OVERTURN modern physics --- it reproduces the same tested equations, as
 we will keep noting. It is trying to offer a physical THING to hold in
 your mind where physics usually hands you only mathematics.
 
-  **THE ITCH IT  *Modern physics gets the right ANSWERS but often gives
-  SCRATCHES**    strange non-answers for what is physically HAPPENING. A
-                 "wave packet" that spreads out and then "collapses."
-                 A "virtual particle" that by definition can never be
-                 seen. "Dark matter" that is really just a name for
-                 something not yet found. The rope picture tries to
-                 replace those placeholder words with an actual object
-                 you could, in principle, picture --- the way you can
-                 picture a wave on the ocean, even if you can't picture
-                 a "wave packet."*
+
+| **THE ITCH IT SCRATCHES** | Modern physics gets the right ANSWERS but often gives strange non-answers for what is physically HAPPENING. A "wave packet" that spreads out and then "collapses." A "virtual particle" that by definition can never be seen. "Dark matter" that is really just a name for something not yet found. The rope picture tries to replace those placeholder words with an actual object you could, in principle, picture --- the way you can picture a wave on the ocean, even if you can't picture a "wave packet." |
+|:--|:--|
+
 
 \newpage
 
@@ -100,15 +109,10 @@ traveling ripple, moving sideways to the rope's own length, is light.
 
 
 
-  **THE          *Picture two people holding a long jump rope, and one of
-  ANALOGY**      them gives it a single, sharp flick. A hump of rope
-                 travels down the length of the cord at a fixed speed ---
-                 determined by how tightly the rope is pulled and how
-                 heavy it is per foot --- and arrives at the other end
-                 carrying exactly the energy of that flick. That
-                 traveling hump, in the rope picture, IS a photon: a
-                 single, localized kink racing along a real physical
-                 rope.*
+
+| **THE ANALOGY** | Picture two people holding a long jump rope, and one of them gives it a single, sharp flick. A hump of rope travels down the length of the cord at a fixed speed --- determined by how tightly the rope is pulled and how heavy it is per foot --- and arrives at the other end carrying exactly the energy of that flick. That traveling hump, in the rope picture, IS a photon: a single, localized kink racing along a real physical rope. |
+|:--|:--|
+
 
 
 
@@ -220,16 +224,10 @@ dots and the bright-and-dark pattern of the wave reappears --- not
 because each dot interfered, but because the dots are *placed* by a wave
 that did.
 
-  **THE          *Picture a wave rolling toward a harbour wall with two
-  ANALOGY**      gaps in it. The wave obviously goes through both gaps and
-                 the ripples on the far side cross and interfere — that is
-                 not mysterious. Now imagine the far shore is lined with
-                 mousetraps, and the wave is only strong enough to spring
-                 exactly ONE trap. Which trap springs is a matter of
-                 chance, but traps in the tall-ripple zones spring far more
-                 often. Run it many times and the sprung traps trace out
-                 the interference pattern — each trap sprung singly, by a
-                 wave that always went through both gaps.*
+
+| **THE ANALOGY** | Picture a wave rolling toward a harbour wall with two gaps in it. The wave obviously goes through both gaps and the ripples on the far side cross and interfere — that is not mysterious. Now imagine the far shore is lined with mousetraps, and the wave is only strong enough to spring exactly ONE trap. Which trap springs is a matter of chance, but traps in the tall-ripple zones spring far more often. Run it many times and the sprung traps trace out the interference pattern — each trap sprung singly, by a wave that always went through both gaps. |
+|:--|:--|
+
 
 Why does exactly one absorber fire, and never half of one, never two?
 Because the click is the making of a knot in the network, and a knot is
@@ -282,14 +280,10 @@ Ordinary forward-in-time cause and effect, no retrocausality, and the
 early-choice and late-choice statistics come out identical exactly as
 measured.
 
-  **THE          *You send a wide wave down a canal toward a set of gates.
-  ANALOGY**      While the wave is still travelling, you decide how to set
-                 the gates at the far end. The wave did not "commit" to
-                 anything upstream — it is just a spread-out wave. How it
-                 sorts out at the end depends only on the gate setting it
-                 finds when it gets there, and you set that while it was
-                 still coming. Nothing reached backward; you simply
-                 arranged the ending before the wave arrived.*
+
+| **THE ANALOGY** | You send a wide wave down a canal toward a set of gates. While the wave is still travelling, you decide how to set the gates at the far end. The wave did not "commit" to anything upstream — it is just a spread-out wave. How it sorts out at the end depends only on the gate setting it finds when it gets there, and you set that while it was still coming. Nothing reached backward; you simply arranged the ending before the wave arrived. |
+|:--|:--|
+
 
 The same bookkeeping even reproduces the exact trade-off physicists call
 complementarity --- the rule that the sharper your interference fringes,
@@ -312,7 +306,7 @@ They reach a precise ceiling (physicists call it the Tsirelson bound) and
 go no further. A good account of entanglement should explain both the
 strength and the ceiling.
 
-The rope framework does something genuinely substantial here, and it is
+The mesh framework does something genuinely substantial here, and it is
 worth stating plainly rather than hiding behind caution: it *derives that
 ceiling as a theorem.* From the same two-strand structure that gives
 charge its handedness, the framework's own arithmetic forces the pair's
@@ -342,17 +336,10 @@ mechanical model doing it.
 *The math:* the quantum correlation shape and its exact Tsirelson ceiling are reproduced AND derived, and a dynamical Bell violation is demonstrated. What stays open is narrower and named below — not "can the framework do entanglement" (it does), but "is the guiding influence itself won from the ropes, or added as an ingredient."
 
 
-  **THE          *Two dancers who trained together are sent to distant
-  ANALOGY**      stages and told to improvise to music only they can hear.
-                 Their moves match far more tightly than any pre-agreed
-                 routine could manage --- that is entanglement, and no list
-                 of instructions packed in a suitcase reproduces it. The
-                 framework's contribution is to show WHY the matching can
-                 be as tight as it is and no tighter --- the shared twist
-                 sets a precise ceiling --- and to build a working model in
-                 which two guided partners actually dance that way. What it
-                 has not yet done is explain, from the ropes alone, where
-                 the music comes from.*
+
+| **THE ANALOGY** | Two dancers who trained together are sent to distant stages and told to improvise to music only they can hear. Their moves match far more tightly than any pre-agreed routine could manage --- that is entanglement, and no list of instructions packed in a suitcase reproduces it. The framework's contribution is to show WHY the matching can be as tight as it is and no tighter --- the shared twist sets a precise ceiling --- and to build a working model in which two guided partners actually dance that way. What it has not yet done is explain, from the ropes alone, where the music comes from. |
+|:--|:--|
+
 
 So where is the honest edge? Not at "can the framework explain
 entanglement" --- it derives the ceiling, names the mechanism for the
@@ -414,29 +401,11 @@ which is a good deal further up the mountain than the word
 
 \newpage
 
-# Electricity — Strand Handedness and Its Streaming
+# Electricity — Turning Ropes, Driven by a Tension Difference
 
-Here is the one detail about the rope we have saved until now, because electricity is where it matters most: each rope is really *two strands*. Electric charge is not a substance added to the rope, and not a number of knots tied in it. It is the HANDEDNESS of the two strands — the geometric orientation with which they are arranged, like a left hand versus a right hand.
+Electricity is two things, and both of them are things the rope already does. A **current** is the ropes TURNING IN PLACE: the rope does not travel down the wire, it spins where it lies, like a long flexible drive shaft running the length of the circuit. A **voltage** is a TENSION DIFFERENCE between the two ends: one side of the network is held tauter than the other, and that difference is what turns the ropes. Raise the difference and they turn harder. That is a simple circuit in one sentence — turning, and the tension difference that drives the turning.
 
-
-| What mainstream physics says | What the rope picture proposes |
-|:--|:--|
-| Charge is the conserved "Noether charge" of a gauge symmetry — an abstract bookkeeping quantity that is conserved because the equations have a certain symmetry, and quantized for subtle reasons tied to the mathematics. It is not made "of" anything; it is a property particles simply carry. | Charge is the HANDEDNESS of a rope's two strands — a concrete geometric orientation, like a left glove versus a right glove. Electron and positron are mirror images of one structure; there is no separate charge-substance, only strand geometry. |
-
-*The math:* the SAME conservation and quantization, reproduced. What is a symmetry-and-topology statement in the textbooks becomes, in the rope picture, a geometric fact about handedness (you cannot make half a handedness, or a lone unmatched one) — the same rules with a physical origin.
-
-
-
-
-| **WHAT CHARGE IS** | Think of a left glove and a right glove. Same material, same stitching — nothing has been ADDED to make one "left." They differ only in orientation: each is the mirror image of the other. Gaede's picture of charge is exactly this. An electron and a positron are the same two-strand structure with OPPOSITE handedness — mirror images, not different amounts of some charge-fluid. "Charge" is simply which handedness the strands present to the surrounding network. There is no separate charge; there are only strand configurations, and their handedness is what we name positive or negative. |
-|:--|:--|
-
-
-![Charge is the handedness of the two strands — electron and positron are the same structure in mirror-image orientations, like a left and right glove. Opposite handedness can mesh (attract); like handedness cannot (repel).](/home/claude/rope/rope/guide/_build/braid.png)
-
-This picture makes the familiar rules feel almost obvious. **Opposite charges attract** because opposite-handed ends fit together — the way a left hand and a right hand clasp, or a nut and bolt whose threads match. **Like charges repel** because same-handed ends cannot mesh, like trying to shake two right hands. Attraction and repulsion are not a force reaching across empty space; they are whether two strand-ends can geometrically join.
-
-**Charge comes in whole units** because an end is either one handedness or the other — there is no halfway between a left and a right glove. And **charge is conserved** because you cannot manufacture a single unmatched handedness out of nothing, any more than a factory can make one lone left glove: handedness comes in matched pairs, so charges are created as electron-and-positron together, keeping the total strand geometry balanced.
+Notice what is NOT in that sentence: nothing flows. The wire is not a pipe and the current is not a fluid inside it. The rope material stays where it is, and only the TURNING travels — which is why the lamp lights the instant you flip the switch, as the next section makes concrete. Hold on to the pair, current is turning and voltage is a tension difference, because the rest of this chapter is consequences of it. Charge comes at the end, and when it does it will settle exactly one question: which WAY the turning drives.
 
 ## Current — and the light-switch puzzle every kid notices
 
@@ -459,7 +428,7 @@ Flip a switch and the lamp lights instantly, even though the wire is long. If cu
 
 One honest refinement keeps this picture accurate. A perfectly rigid shaft, spinning in exact lockstep from end to end, would deliver twist but pump nothing THROUGH — a screw only does work as it advances against the nut. So the rope is not perfectly rigid: as you turn one end, the turning runs down the rope as a very fast torsional wave, each section taking up the rotation a hair after the one before it. That is why the rope does not simply wind up in place, and why work actually reaches the load. So "the helix is turned like a screw" and "the turning travels down the rope" are not two mechanisms — the second is just the honest way the first propagates in anything that is not infinitely stiff. What does NOT happen is the rope material itself sliding down the wire; only the turning travels.
 
-There is a subtle point that turns out to be one of the most powerful in the whole picture. If the rope simply kept rotating one way, would it not "wind up" tighter and tighter without limit? No — because the turning is not stored up, it passes THROUGH: as much rotation leaves each section into the next as arrives into it from the one before. For that to hold steadily, the turning must enter at one end and leave at the other, which is only possible if the wire is part of a **closed loop** with a source and a return. (And notice the payoff from the charge chapter: because a right-handed and a left-handed screw drive opposite ways when turned, the HANDEDNESS of the strands — the charge — is exactly what sets which direction the current pumps. Positive and negative charges are opposite-handed screws, and so they drive current in opposite directions.)
+There is a subtle point that turns out to be one of the most powerful in the whole picture. If the rope simply kept rotating one way, would it not "wind up" tighter and tighter without limit? No — because the turning is not stored up, it passes THROUGH: as much rotation leaves each section into the next as arrives into it from the one before. For that to hold steadily, the turning must enter at one end and leave at the other, which is only possible if the wire is part of a **closed loop** with a source and a return. (And notice what this leaves open: nothing so far says which WAY around the loop the turning drives. That question is what charge answers, and we come to it at the end of the chapter.)
 
 ![A current needs a closed loop: the streaming orientation enters at one terminal and returns at the other. No loop means nowhere for it to go — and no steady current.](/home/claude/rope/rope/guide/_build/loop.png)
 
@@ -470,9 +439,35 @@ There is a subtle point that turns out to be one of the most powerful in the who
 
 ## What makes a current strong or weak, and why wires warm up
 
-Three things set how much current flows. First, how hard you push — the **voltage**, which in the rope picture is the TENSION the strand configuration sources: a stronger orientation mismatch pulls the strands taut and raises the tension. (Voltage is the tension; charge is the handedness — related, but not the same thing.) Second, how many strands push at once — the **thickness** of the wire. Third, how cleanly each strand carries the wave — the **material**. In some materials the rotation glides through; in others it snags.
+Three things set how much current flows. First, how hard you push — the **voltage**, which in the rope picture is the TENSION DIFFERENCE across the circuit: one end of the network held tauter than the other, and the ropes turn in response. Raise the difference and you turn them harder. Second, how many strands push at once — the **thickness** of the wire. Third, how cleanly each strand carries the wave — the **material**. In some materials the rotation glides through; in others it snags.
 
 That snagging is **resistance**, and it is where wires get warm. When the streaming pattern catches on the atomic lattice, some of the ordered rotation is knocked into random jiggling of the ropes — and random rope jiggling, as the heat chapter explains, simply IS temperature. So a resistive wire warms up because ordered streaming is being scattered into disordered motion.
+
+## Charge — the handedness that sets which way it drives
+
+Now the detail about the rope we have saved until now, because this is where it matters: each rope is really *two strands*. Electric charge is not a substance added to the rope, and not a number of knots tied in it. It is the HANDEDNESS of the two strands — the geometric orientation with which they are arranged, like a left hand versus a right hand. Handedness does not make the current and it does not drive it; the turning is the current and the tension difference does the driving. What handedness settles is DIRECTION.
+
+
+| What mainstream physics says | What the rope picture proposes |
+|:--|:--|
+| Charge is the conserved "Noether charge" of a gauge symmetry — an abstract bookkeeping quantity that is conserved because the equations have a certain symmetry, and quantized for subtle reasons tied to the mathematics. It is not made "of" anything; it is a property particles simply carry. | Charge is the HANDEDNESS of a rope's two strands — a concrete geometric orientation, like a left glove versus a right glove. Electron and positron are mirror images of one structure; there is no separate charge-substance, only strand geometry. |
+
+*The math:* the SAME conservation and quantization, reproduced. What is a symmetry-and-topology statement in the textbooks becomes, in the rope picture, a geometric fact about handedness (you cannot make half a handedness, or a lone unmatched one) — the same rules with a physical origin.
+
+
+
+
+| **WHAT CHARGE IS** | Think of a left glove and a right glove. Same material, same stitching — nothing has been ADDED to make one "left." They differ only in orientation: each is the mirror image of the other. Gaede's picture of charge is exactly this. An electron and a positron are the same two-strand structure with OPPOSITE handedness — mirror images, not different amounts of some charge-fluid. "Charge" is simply which handedness the strands present to the surrounding network. There is no separate charge; there are only strand configurations, and their handedness is what we name positive or negative. |
+|:--|:--|
+
+
+![Charge is the handedness of the two strands — electron and positron are the same structure in mirror-image orientations, like a left and right glove. Opposite handedness can mesh (attract); like handedness cannot (repel).](/home/claude/rope/rope/guide/_build/braid.png)
+
+This picture makes the familiar rules feel almost obvious. **Opposite charges attract** because opposite-handed ends fit together — the way a left hand and a right hand clasp, or a nut and bolt whose threads match. **Like charges repel** because same-handed ends cannot mesh, like trying to shake two right hands. Attraction and repulsion are not a force reaching across empty space; they are whether two strand-ends can geometrically join.
+
+**Charge comes in whole units** because an end is either one handedness or the other — there is no halfway between a left and a right glove. And **charge is conserved** because you cannot manufacture a single unmatched handedness out of nothing, any more than a factory can make one lone left glove: handedness comes in matched pairs, so charges are created as electron-and-positron together, keeping the total strand geometry balanced.
+
+And that answers the question left open back at the closed loop. A right-handed screw and a left-handed screw, turned the same way, drive opposite directions. So handedness — charge — is exactly what fixes which way the current pumps around the circuit. Positive and negative are opposite-handed screws, and one tension difference turning both sends them opposite ways.
 
 
 | **HONEST LIMIT** | The rope picture reproduces all the standard rules of simple circuits — how current, voltage, and resistance relate, why loops are needed, why resistive wires heat. What it does NOT do here is derive the deep quantum reasons some materials conduct and others insulate; that rests on the electron's quantum behaviour, which this picture does not claim to replace. The mechanism is a faithful mechanical retelling of classical circuit behaviour, not a new theory of materials. |
@@ -548,16 +543,30 @@ Each of these has a mechanical reading in the rope picture. Charges as sources a
 
 \newpage
 
-# Gravity --- A Taut Rope Between Every Two Things
+# Gravity --- The Weave Pulls Every Two Things Together
 
-This is the most basic version of the rope picture, and it is worth
-stating plainly before anything more complicated: every pair of masses
-in the universe is connected by a physical rope, that rope is under
-tension, and a rope under tension pulls its two ends together ---
-exactly the way a stretched rubber band pulls your two hands toward each
-other, or a tightened cable pulls whatever it's anchored to inward.
-Nothing more exotic than that. The apple falls toward the Earth because
-the rope directly connecting them is taut, and a taut rope pulls.
+This is the most basic version of the picture, and it is worth stating
+plainly before anything more complicated: every pair of masses in the
+universe is pulled together through the tensioned weave that fills the
+space between and around them. The weave is under tension, and a
+tensioned medium transmits pull --- exactly the way a stretched rubber
+sheet tugs two heavy balls resting on it toward each other, or a taut
+net drags its loaded points inward. Nothing more exotic than that. The
+apple falls toward the Earth because the weave between them is
+conditioned by both masses, and the conditioned weave pulls.
+
+It is often USEFUL to picture this as a single taut rope running from
+the apple straight to the Earth --- and the framework once spoke that
+way --- but the rope-between-them is a summary of the weave's work,
+the way "field lines" summarize a field. The pull is real, the tension
+is real, and the effective result is exactly as if a rope connected
+each pair; the medium that delivers it is the local weave. The
+commission record for this distinction is the spectator test
+(analysis/TOPOLOGY_spectator_analytic.md): direct pair-ropes with
+constant tension would pull with the same force at every distance,
+while the weave delivers the inverse-square law as a theorem of
+three-dimensional geometry --- and inverse-square is what the universe
+does.
 
 
 | What mainstream physics says | What the rope picture proposes |
@@ -666,17 +675,10 @@ the whole weight by itself --- that is the gravity story. Same cable,
 two different questions: how hard does the bundle pull on others, versus
 how taut is any single strand within it.*
 
-  **THE          *Picture two people each holding one end of a long
-  ANALOGY**      stretched rubber band. The band pulls them toward each
-                 other for one plain reason: it's under tension, and a
-                 rope or band under tension always pulls its two ends
-                 inward. That is the whole of gravity in the rope picture
-                 two people, and the rope between you is always under
-                 tension, always pulling. A heavier mass is like swapping
-                 the single rubber band for a whole bundle of them ---
-                 more strands pulling at once, so a stronger net pull,
-                 but each strand doing the exact same simple job: tension
-                 pulling its ends together.*
+
+| **THE ANALOGY** | Picture two people each holding one end of a long stretched rubber band. The band pulls them toward each other for one plain reason: it's under tension, and a rope or band under tension always pulls its two ends inward. That is the whole of gravity in the rope picture two people, and the rope between you is always under tension, always pulling. A heavier mass is like swapping the single rubber band for a whole bundle of them --- more strands pulling at once, so a stronger net pull, but each strand doing the exact same simple job: tension pulling its ends together. |
+|:--|:--|
+
 
 
 This connects directly to light: because a ripple's speed on the rope
@@ -824,19 +826,10 @@ standing-wave patterns depending on where you press your finger.
 ![Electrons are standing vibration patterns of the ropes around the nucleus — only certain patterns fit, like notes on a plucked string. Their capacities 2, 8, 18 (= 2n²) come from the rope's two strands times the n² shapes that fit on a sphere.](/home/claude/rope/rope/guide/_build/chemistry.png)
 
 
-  **THE          *Picture a guitar string. Left alone, it can only
-  ANALOGY**      vibrate in certain fixed patterns --- the open string,
-                 the octave, the fifth --- never anything in between; you
-                 cannot get "half a note." An electron's allowed
-                 orbits are the same idea in three dimensions: only
-                 certain standing-wave patterns fit cleanly around the
-                 nucleus without canceling themselves out, and those
-                 patterns are the electron shells chemistry is built
-                 from. A chemical bond, in this picture, is two atoms
-                 sharing a single standing-wave pattern that wraps around
-                 BOTH nuclei at once --- the molecular equivalent of two
-                 guitar strings clamped to the same fixed points, forced
-                 to vibrate together.*
+
+| **THE ANALOGY** | Picture a guitar string. Left alone, it can only vibrate in certain fixed patterns --- the open string, the octave, the fifth --- never anything in between; you cannot get "half a note." An electron's allowed orbits are the same idea in three dimensions: only certain standing-wave patterns fit cleanly around the nucleus without canceling themselves out, and those patterns are the electron shells chemistry is built from. A chemical bond, in this picture, is two atoms sharing a single standing-wave pattern that wraps around BOTH nuclei at once --- the molecular equivalent of two guitar strings clamped to the same fixed points, forced to vibrate together. |
+|:--|:--|
+
 
 
 There is a second everyday image that makes WHY only certain patterns
@@ -891,17 +884,10 @@ The single most important idea here is that nuclear physics is not a
 separate world with its own rules. It is ordinary contact physics,
 scaled down.
 
-  **THE          *Press two of your fingertips together. They touch;
-  ANALOGY**      they don't merge, and if you push harder they push back
-                 harder --- that resistance is the crowded material in
-                 each fingertip refusing to share the same space. Now
-                 imagine shrinking that same touching-and-resisting down
-                 to the size of a nucleus. The crowded material is a
-                 bundle of ropes; the touch is the strong force. Nothing
-                 new has been added --- the same "you can't be in my
-                 space" that you feel between your fingers is, a hundred-
-                 thousand times smaller and denser, the force that holds
-                 a nucleus together.*
+
+| **THE ANALOGY** | Press two of your fingertips together. They touch; they don't merge, and if you push harder they push back harder --- that resistance is the crowded material in each fingertip refusing to share the same space. Now imagine shrinking that same touching-and-resisting down to the size of a nucleus. The crowded material is a bundle of ropes; the touch is the strong force. Nothing new has been added --- the same "you can't be in my space" that you feel between your fingers is, a hundred- thousand times smaller and denser, the force that holds a nucleus together. |
+|:--|:--|
+
 
 This picture explains three things about the strong force that otherwise
 look like separate, unrelated facts.
@@ -973,14 +959,10 @@ ropes on top of whatever orderly thing they are also doing.
 ![Temperature is simply how hard the ropes are jiggling; heat flows as vigorous jiggling spreads into calmer regions. Nothing new is added for heat — it is the ordinary vibration of the network, and the standard thermodynamic laws come out unchanged.](/home/claude/rope/rope/guide/_build/heat.png)
 
 
-  **WHAT HEAT    *Picture the whole rope network shivering --- every
-  IS**           strand twitching a little, in no particular direction,
-                 with no particular rhythm. A cold object is one whose
-                 ropes are nearly still; a hot object is one whose ropes
-                 are jiggling hard. Temperature is just how vigorously
-                 they jiggle. That is the whole of heat: not a substance
-                 that flows in, but the amount of random motion already
-                 in the ropes.*
+
+| **WHAT HEAT IS** | Picture the whole rope network shivering --- every strand twitching a little, in no particular direction, with no particular rhythm. A cold object is one whose ropes are nearly still; a hot object is one whose ropes are jiggling hard. Temperature is just how vigorously they jiggle. That is the whole of heat: not a substance that flows in, but the amount of random motion already in the ropes. |
+|:--|:--|
+
 
 
 
@@ -1037,17 +1019,10 @@ These abrupt switches --- physicists call them phase transitions --- are
 among the sharpest, most testable things in all of physics, and this is
 where the recent rope work has the most to say.
 
-  **THE          *Every phase transition is a tug-of-war between two
-  TUG-OF-WAR**   things the ropes want. Order wants the ropes lined up
-                 neatly, because that costs the least tension energy.
-                 Heat wants them jiggling freely, because there are so
-                 many more ways to be messy. At low temperature order
-                 wins and the ropes lock into a tidy pattern --- a solid,
-                 a magnet. Turn up the heat and at one sharp tipping
-                 point the jiggling suddenly overwhelms the ordering
-                 pull, the tidy pattern breaks, and the material flips to
-                 its disordered state --- liquid, or unmagnetised --- all
-                 at once.*
+
+| **THE TUG-OF-WAR** | Every phase transition is a tug-of-war between two things the ropes want. Order wants the ropes lined up neatly, because that costs the least tension energy. Heat wants them jiggling freely, because there are so many more ways to be messy. At low temperature order wins and the ropes lock into a tidy pattern --- a solid, a magnet. Turn up the heat and at one sharp tipping point the jiggling suddenly overwhelms the ordering pull, the tidy pattern breaks, and the material flips to its disordered state --- liquid, or unmagnetised --- all at once. |
+|:--|:--|
+
 
 
 
@@ -1075,16 +1050,10 @@ one of the cleaner recent results: the same ropes that carry light and
 charge, when you simply let them jiggle, reproduce the textbook physics
 of heat and phase change without anything new added.
 
-  **HONEST       *The rope account here matches the EQUILIBRIUM physics
-  LIMIT**        of heat --- a system that has settled down and shares
-                 its jiggling evenly --- including the sharp phase
-                 transitions, to the standard textbook results. What it
-                 does not yet treat is heat in FULL FLIGHT: the details
-                 of exactly how fast heat flows, how a material conducts
-                 or relaxes moment to moment while still settling. That
-                 living, in-between behaviour is not yet captured; the
-                 settled picture, and the sharp switch between phases, is
-                 what the rope network reproduces.*
+
+| **HONEST LIMIT** | The rope account here matches the EQUILIBRIUM physics of heat --- a system that has settled down and shares its jiggling evenly --- including the sharp phase transitions, to the standard textbook results. What it does not yet treat is heat in FULL FLIGHT: the details of exactly how fast heat flows, how a material conducts or relaxes moment to moment while still settling. That living, in-between behaviour is not yet captured; the settled picture, and the sharp switch between phases, is what the rope network reproduces. |
+|:--|:--|
+
 
 \newpage
 
@@ -1122,8 +1091,9 @@ of it.
     field), which in turn exerts the magnetic force on other currents
     and moving charges.
 
--   Gravity is TENSION --- a taut rope between two masses pulls them
-    together.
+-   Gravity is TENSION --- the taut weave between two masses pulls
+    them together, with the effective strength of a rope stretched
+    from one to the other.
 
 -   Chemistry is a STANDING WAVE pattern the rope settles into around a
     nucleus.
@@ -1155,14 +1125,9 @@ any molecule, from the rope alone. The programme states this limitation
 as plainly as it states its successes, because a picture that only
 reports its wins isn't trustworthy about its wins either. There is also a deeper open question the programme is careful to flag: whether the strands LITERALLY are what charge and the fields are made of, or whether the rope picture is our best physical description of something whose ultimate nature is still unsettled. The papers leave that question open rather than pretending it is closed. A related honesty: picturing the ropes as running "between atoms" is a helpful image at everyday scales, but it is not the fundamental one. For the picture to agree with precision tests of relativity, the rope mesh must be far finer than atoms — smaller even than an atomic nucleus — so that atoms are better thought of as coarse knots in a much finer weave, not as the things the ropes directly tie together. The everyday image is a useful simplification, not the bottom layer.
 
-  **THE POINT OF *Not to convince you the rope is real. To offer a
-  ALL THIS**     physical OBJECT in place of abstractions like "fields"
-                 and "wave packets" --- something you could, in
-                 principle, picture --- and to be exactly as honest about
-                 where that picture breaks down as about where it holds
-                 up. The technical papers and the open, tested software
-                 behind them (rope_solver) are where every claim in this
-                 document is checked, qualified, and where possible,
-                 falsified.*
+
+| **THE POINT OF ALL THIS** | Not to convince you the rope is real. To offer a physical OBJECT in place of abstractions like "fields" and "wave packets" --- something you could, in principle, picture --- and to be exactly as honest about where that picture breaks down as about where it holds up. The technical papers and the open, tested software behind them (rope_solver) are where every claim in this document is checked, qualified, and where possible, falsified. |
+|:--|:--|
+
 
 \newpage

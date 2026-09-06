@@ -71,7 +71,7 @@ def emit_ascii(claims):
         deps=c.get("depends_on",[])
         if not deps: roots.append(c["id"])
         for d in deps: children[d].append(c["id"])
-    out=["Rope Programme — claim dependency graph","="*60,
+    out=["Mesh Programme — claim dependency graph","="*60,
          "(roots have no dependencies; arrows = 'is required by')",""]
     seen=set()
     def walk(cid,depth):

@@ -285,8 +285,18 @@ def permanentmagnet():
     return _wrap(H,b,defs)
 REGISTRY["permanentmagnet"]=permanentmagnet
 
-def make(name, outdir="."):
+def make(name, outdir=None):
     import os
+    # Default to the guide's _build dir (resolved from this file's location), NOT
+    # the current working directory -- so running this module standalone from any
+    # cwd (e.g. the repo root) never scatters stray SVGs. build_guide.py passes its
+    # own BUILD path explicitly, which still wins.
+    if outdir is None:
+        # guide/_build, resolved from this file (guide/figs/diagrams.py -> up one, then _build),
+        # matching build_guide.py's BUILD target.
+        here = os.path.dirname(os.path.abspath(__file__))
+        outdir = os.path.join(os.path.dirname(here), "_build")
+    os.makedirs(outdir, exist_ok=True)
     if name not in REGISTRY: raise KeyError(f"no diagram '{name}' (have {list(REGISTRY)})")
     svg=REGISTRY[name]()
     path=os.path.join(outdir,f"{name}.svg")

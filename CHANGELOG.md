@@ -508,11 +508,87 @@
   Lambda_nat <= 4.7e34, chi_required >= 2.1e-35. KL updated.
   713 claims.
 
+## 3.31.0 (2026-09-05) -- THE QUEUE, PROCESSED
+
+- FND-166 PEV-IDENT; FND-167 FINE-GATE; FND-168 TRIPLE-DUTY; FND-169 COMPOSITE-SELECT Leg A; EM-023 E-RECON. Registry 761.
+- EW-001, PM-001 demoted (KOIDE-WEINBERG). Riders across FND/ELEC/CHEM/EM.
+- Five new instruments; three local runs in flight. See docs/history/RELEASE_NOTES_v3.31.0.md.
+
+## 3.30.0 (2026-09-05) -- THE FOURTH CELL AND THE REFINED GRID: ONE COLLAPSE DISPLACED, ONE NOT FOUND
+
+- FND-163 Q54-COLLAPSE; FND-164 GR-DISPLACED (5/4 at 54); FND-165 A-ABSENT (4/3 at 54). Registry 756.
+- Riders on FND-150..153 (re-pricing, r-fault/C1, 54-grid status) and FND-163 (grid rider).
+- SPARSE-J instrument credentialed; 144x54 profile drivers; local runner (run_local.sh).
+- See docs/history/RELEASE_NOTES_v3.30.0.md.
+
+## 3.29.0 (2026-08-29) -- THE WHY-WINDING ARC: SIX CLAIMS, AND THE E-LEDGER INTERPRETATION RE-PRICED TO THE BAND EDGE
+
+- FND-154..159 registered (750 claims), all granted by the author in
+  the handoff-review session (grant records in analysis/). The arc
+  asked WHY the q = 4/3 cell demands winding where q = 5/3 does not:
+  FND-154 (dispersion lattice, RES-OPEN: proximity alone cannot
+  discriminate; lattice Derived, mechanism Failed-and-kept; the
+  j = n refinement kept-and-falsified by FND-156); FND-155
+  (coupling statistic structurally null, F-INSTRUMENT); FND-156
+  (mode-resolved rotation, SEL-OPEN: the collapse motion migrates to
+  +-(17,19) at phi-Nyquist-1); FND-157 (stage 3, S3-F-INSTRUMENT:
+  the 4/3 deep-end winding content is NOT grid-stable; registered
+  doubt entered); FND-158 (re-pricing, RP-FALLS, Derived: the
+  FND-152 f_dir rise is ENTIRELY Nyquist-band content, resolved
+  band FALLS 0.106 -> 0.002, 5/3 control f_nyq 0.0000 throughout);
+  FND-159 (144x42 probe NO VERDICT: the 4/3 deep member refused
+  full-bar gating while three siblings gated cleanly; grid-fragile
+  on five instruments, artifact-vs-physical OPEN pending capable
+  hardware).
+- AMENDMENT RIDERS applied to FND-152 and FND-153 (hardened form,
+  append-only, NUC-005 convention): the mechanism sentence is a
+  statement about band-edge content whose physical vs
+  discretization character is OPEN; rates and D bounds untouched.
+- The q = 5/4 fourth-cell FLAT prediction stands committed
+  (WHYWIND_dispersion_results.md) and doubles as the grid
+  question's out-of-sample test. QUEUE HEAD (author-approved):
+  stage-3 resolution replication + the q = 5/4 column, on hardware
+  where 144x54+ is feasible (analysis/WHYWIND_queue_action_approved.md).
+- INCIDENT RESOLVED IN DAYLIGHT: the evidence-mutation guard in
+  tools/verify_corpus.py was DEAD CODE (the restore block sat after
+  the return statements); a live instrument overwrote 81 analysis/
+  evidence files mid-sweep and ELEC-011 failed downstream with
+  era-true numbers -- the exact incident-2 class the guard was
+  built against. All 81 files restored from the author's archive
+  (ELEC006_state.npz hash-verified against the era copy); the check
+  moved ahead of the returns, annotated at its site. The offending
+  benchmark went unnamed this sweep (its pass was cached); the
+  repaired guard names offenders on the next cold run.
+- Full verify sweep: PASS WITH 1 DOCUMENTED WAIVER, 640/641
+  code-backed (FND-143 archival gap). CITATION.cff realigned to the
+  release version (it had lagged at 3.27.6).
+
+## 3.28.1 (2026-08-28) -- THE MECHANISM CLOSES: E-LEDGER AND ITS CONTROL
+
+- FND-152 (E-LEDGER, r = 0.870): the S1-SPLIT collapse is the
+  branch rotating its motion from the amplitude sector into the
+  direction sector -- 12 gated triples, arclength allocation
+  89/11 -> 51/49, winding velocity doubling as the rate falls
+  sevenfold, the winding's acceleration PRECEDING the rate's
+  break by two points; a member gated past the stage-1 closure.
+- FND-153 (E-NULL): the flat q = 5/3 branch shows no sector
+  rotation under the identical instrument (r = 0.227, f_dir
+  +0.002, V_pt -0.2 percent) -- pinning FND-152's co-movement to
+  the collapse rather than to marching (factor ~130 at matched
+  amplitude).
+- CI/verification: the /tmp backing defect fixed at the root --
+  campaign instruments now carry bounded `--verify` paths that
+  read shipped analysis/ evidence (FND-144 passes, waiver
+  removed; FND-146 seed key corrected; FND-143 reports its
+  documented archival gap cleanly and remains the single waived
+  item). Expected CI: 640/641, PASS WITH 1 DOCUMENTED WAIVER.
+- Registry: 744 claims.
+
 ## 3.28.0 (2026-08-26) -- THE WEAVE RELEASE
 
 - TOPOLOGY SETTLED: the analytic spectator test (V2) establishes
   the local weave over Gaede-style direct ropes 9/9 vs 3/9; guide
-  harmonized under Option A ("ROPE framework" kept; explicit
+  harmonized under Option A ("mesh framework" kept; explicit
   "not Gaede's rope model" section); FND-148 (membership is a
   graded ladder; the z=1 pendant is one-rope physics to 0.5
   percent) and FND-149 (uniform pretension rescales, never
@@ -4018,7 +4094,7 @@ docs/history/RELEASE_NOTES_v3.18.0.md.
   reviewer's framing adopted with attribution; their frame-dragging
   priority reordered and reframed per GRV-071's absent-coefficient
   finding.
-- New paper: **The Rope Programme: Formula Compendium**
+- New paper: **The Mesh Programme: Formula Compendium**
   (papers/rope_formulas.pdf, source papers/_sources/rope_formulas.docx).
   Sector-organised reference for every load-bearing relation in the
   corpus -- foundations, EM and the alpha chain, light/optics, gravity,
@@ -6077,7 +6153,7 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
 ### Addendum (2026-07-04, cont.) — gauge-geometry paper revised per reviewer (make it THE reference)
 - Review scored the paper 95-98% and asked only for exposition upgrades to make it the programme's
   mathematical reference. All implemented:
-  1. RETITLED "...of the Rope Medium" -> "...Underlying the Rope Programme" (it explains the mathematics
+  1. RETITLED "...of the Rope Medium" -> "...Underlying the Mesh Programme" (it explains the mathematics
      used throughout, not the medium itself).
   2. NEW Part III-half "Why Topology Appears at All": local geometry deforms continuously but a global
      integer cannot, so any integer-valued continuous functional is conserved under all smooth dynamics.
@@ -6574,7 +6650,7 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
 
 ### Addendum (2026-07-04, cont.) — per-section CONTRAST boxes (mainstream mechanism vs rope proposal)
 - Mark requested each major section carry a side-by-side contrast: what mainstream physics says the mechanism
-  is (accurately stated — abstract because it genuinely is) vs what the rope programme proposes, plus an
+  is (accurately stated — abstract because it genuinely is) vs what the mesh programme proposes, plus an
   honest "the math" line showing whether equations change.
 - Added a CONTRAST convention to tools/build_guide.py (renders as a 2-column table + a "The math:" line) and
   inserted a contrast box in light, electricity, magnetism, gravity, chemistry, and heat.
@@ -6996,7 +7072,7 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
 - Attacked the last magnetism residual (why domains align). Set the real bar: dipole-dipole is far too weak
   (~1e-6 eV << kT), so real cause is the quantum EXCHANGE interaction (~0.1 eV). A rope explanation must give a
   strong NON-dipole coupling, not rename the mystery.
-- RESULT: the rope framework has the right mechanism -- network MODE-OVERLAP energy (same family as chemical
+- RESULT: the mesh framework has the right mechanism -- network MODE-OVERLAP energy (same family as chemical
   bonds / nuclear binding, NUC), the structural analogue of exchange, naturally bond-strength (~0.1 eV) and
   thus beating thermal jostling. Resolves the HARD part (why the coupling is strong and non-dipolar).
 - SELF-CORRECTION via stress test: my first-pass 'aligned swirls mesh -> low energy' was too glib. Verified
@@ -7249,7 +7325,7 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
   super-quadratic coefficient, now lepton masses) -- reached by reasoning to the boundary and refusing
   numerology, not by forcing derivations.
 
-### Addendum (2026-07-09) — scope statement: rope programme is a theory of ORDINARY MATTER (PM-005)
+### Addendum (2026-07-09) — scope statement: mesh programme is a theory of ORDINARY MATTER (PM-005)
 - Mark's steer: with the ordinary-matter scope in mind, scope out the particles the rope model doesn't need.
 - RESULT (PM-005, Derived, benchmarks/em/ordinary_matter_scope.py): 'ordinary matter' (stable atoms/molecules/
   bulk + interactions) is EXACTLY the first generation (electron, up, down) + composites (proton, neutron,
@@ -7867,7 +7943,7 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
 ### Addendum (2026-07-10) — MAJOR EXTERNAL REVIEW implemented: gravity paper REBUILT (v2); no-monopole lemma (GRV-017); obstruction paper precision-revised; sector reclassified
 - THE STRUCTURAL DEFECT, agreed and fixed: v1 had become two contradictory papers in one file (pages 1-4
   asserting matched-Schwarzschild success; the conclusion asserting classical falsification). FULL REBUILD:
-  new title ('Gravity in the Rope Framework: Newtonian Success and a Classical Obstruction to the Einstein
+  new title ('Gravity in the Mesh Framework: Newtonian Success and a Classical Obstruction to the Einstein
   Metric'), abstract stating the verdict, STATUS TABLE FIRST, the matched metric recast as a historical
   section ('The target metric and why matching it was not a derivation'; GRV-001 reclassified: TARGET ANSATZ
   -- reproduces GR by construction, not generated by the identified rope mechanics). v1 archived
@@ -8749,7 +8825,7 @@ Cosmic-tension origin of G explored and recorded (PARTIAL).
   + glossary + entanglement-language corrections).
 
 ### Addendum (2026-07-20) — rope_electricity: added Current and Voltage sections (paper now matches its title + ontology)
-- GAP (operator's catch): the paper titled "Electricity in the Rope Framework" covered only charge, the
+- GAP (operator's catch): the paper titled "Electricity in the Mesh Framework" covered only charge, the
   Coulomb field, EM constants, and Maxwell -- no current or voltage sections -- while the ontology (just
   corrected) advertises current and voltage as distinct derived quantities. Resolved at the root by adding
   the exposition, built on already-registered/benchmarked claims (no new physics):
@@ -9195,7 +9271,7 @@ the session-level record. Corpus: 157 claims (77 Derived), 143/143 benchmarks pa
   import, now optimally localized. Named next: derive Gram-representability from the Hopf machinery;
   the corpus-native singlet construction. Corpus 144/144, 158 claims (78 Derived).
 
-### Addendum (2026-07-23, v2.2.5 cycle) — QB-020: Tsirelson as a theorem of the rope framework
+### Addendum (2026-07-23, v2.2.5 cycle) — QB-020: Tsirelson as a theorem of the mesh framework
 - QB-019's named next-order, both limbs landed at machine precision. (T1) GRAM FROM THE MECHANISM: the
   corpus's response object IS the derived gamma=1 projector (1+a.sigma)/2 in the Hopf machinery's native
   quaternion algebra; with composite positivity as the only further ingredient, correlations are forced

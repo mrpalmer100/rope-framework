@@ -1,0 +1,37 @@
+id: FND-168
+title: 'COMMISSION TRIPLE-DUTY -- TD-HALF-DEVIATOR: BENDING-NEUTRALITY IS A COROLLARY OF
+  SECOND-MOMENT ISOTROPY (F_bend = R kb (3s-1)/(2(R^2+b^2)^2) FOR EVERY RADIUS AND kb),
+  AND THE c-ORBITAL IDENTITY IS A SATURATION -- v_m(s) <= c ON THE WHOLE PITCH-ANGLE
+  LADDER WITH EQUALITY ONLY AT THE ISOTROPY ANGLE (LORENTZ SATURATION, P-b, PROMOTED)'
+status: registered
+note: 'Charter analysis/TRIPLE_DUTY_charter_LOCKED.md (locked before any reduction was
+  evaluated at the magic angle; s = 1/3 entered once, in Leg 3). Controls c1-c3 and
+  v2-v4 pass (v2 at s = 0.25 required refining the FND-130 discrete-gradient control
+  from N = 20000 to 320000 because f_n there is a near-cancellation; converged
+  second-order to 0.0017 pct; disclosed, no bar moved). R1 (symbolic, s/kb/R/b free):
+  tau^2 - kappa^2/2 = (3s-1)/(2(R^2+b^2)) and F_bend = R kb (3s-1)/(2(R^2+b^2)^2);
+  at p = a_f, F_bend(s) = 4 pi^3 kb s^(3/2) sqrt(1-s) (3s-1), (3s-1) dividing exactly
+  with a cofactor free of zeros and poles on (0,1). Since (3s-1)/3 = E[t_z^2] - 1/3,
+  the bending force density is the deviatoric second moment times a positive
+  cofactor: B1 PASSES -- Duty 2 (FND-130) is a corollary of Duty 1 (FND-088), a
+  theorem for every helix radius and every kb. R2: the BLOCH-L anchor (FND-126,
+  c_T = 1 and c_L^2 = 2 imposed, registered inputs) re-solved as a function of the
+  level-1 angle on the locked ladder s in {0.20,...,0.50} (1/3 excluded), all seven
+  rungs converged at 0.034 pct drift: T_fibre/T0_f = 0.480, 1.149, 1.420, 1.524,
+  1.550, 1.536, 1.503 against 1/(1-s) = 1.250 ... 2.000; max |M| = 61.6 pct vs bar
+  0.5 pct: B2 FAILS -- T_fibre(s) is not 1/(1-s) identically. The shape: M(s) <= 0
+  on every rung, ~0 only at the magic angle -- the curves are TANGENT at s ~ 1/3.
+  Equivalently v_m^2/c^2 = (1-s) T(s) is a hump (0.384, 0.862, 0.994, 0.991, 0.930,
+  0.845, 0.751) peaking at s ~ 0.32-0.33 at unity to the reading window (registered
+  1.0009 at 1/3). The material orbital speed never exceeds c and saturates it at the
+  isotropy angle: candidate P-b (Lorentz saturation) is EXHIBITED with zero new
+  constants and PROMOTED under the TD-HALF rule; P-c reproduces Duties 1-2 only; P-a
+  not separately exhibited; R3 (E[t_z^6] = 0.1369 vs 1/7) predicted by no candidate,
+  displayed. CONSEQUENCES: the KNOWN_LIMITATIONS triple-duty entry moves to "two
+  duties are one theorem; the third is a saturation at the same angle"; FND-132
+  carries a rider (identity at s = 1/3 is the maximum of v_m over the pitch angle;
+  off the angle v_m < c); T_fibre = 3/2, c_L,f, kb, the share band untouched. NAMED
+  NEXT-ORDER: derive the tangency of (1-s) T(s) with 1 at the isotropy angle from the
+  anchor equations -- that would make P-b a theorem and close the entry. Results
+  analysis/TRIPLE_DUTY_results.md; ladder analysis/triple_duty/leg2_ladder.json.
+  Granted by the author 2026-09-05.'

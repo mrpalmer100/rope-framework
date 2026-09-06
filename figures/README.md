@@ -1,6 +1,6 @@
 # Figures — conceptual diagrams
 
-Outreach illustrations of the rope framework. Each carries its **corpus status** so the art
+Outreach illustrations of the mesh framework. Each carries its **corpus status** so the art
 inherits the registry's discipline: a beautiful picture of a *modeled* idea must not read as a
 *derived* one. See the [Roadmap](../docs/ROADMAP.md) for the claims behind each.
 
@@ -193,3 +193,124 @@ term only -- the screen shows the plain envelope sum, envelope shape
 unchanged; (4) one-hump vs two-hump appearance is set by envelope
 overlap (slit spacing / screen distance), not by different physics.
 Embedded in papers/the_detector_understood (item 0).
+
+## electron_winding.png — What "winding" means for an electron
+
+Verified panel by panel against the registry before installation
+(ELEC-088; bars in `analysis/VAV2_winding_figure_bars_LOCKED.md`).
+
+**What it shows.** The electron is a winding of the twist/orientation
+field the ropes carry, NOT a loop of rope. Ropes pass straight through
+the region; walking once around the core turns the orientation through
+2π (winding number n = 1; the positron is n = −1). It is a vortex in a
+field — like a whirlpool, where the water does not orbit but the
+velocity field circulates. The pattern rotates in time.
+
+**Verification grade.** Five of six assertions supported, two by a
+*Derived* theorem: GRV-020 gives G = ℝ × SO(2) on the internal azimuth,
+ground-state manifold S¹, π₁(S¹) = ℤ, winding quantized = charge. The
+rotating-pattern panel is load-bearing rather than decorative —
+ELEC-068 established there is **no static soliton** (Derrick scaling
+collapses it for every material choice), and the surviving dynamical
+branch has scale L* = c/ω.
+
+**Two corrections to loose corpus language this figure makes plain:**
+the electron is not a "knot" (knot/trefoil machinery belongs to the
+matter sector, not to the electron's charge, which is a winding of a
+circle-valued orientation), and it is not static.
+
+**One registered tension, disclosed:** the figure's panel 5 ("not a
+physical loop — rope centrelines do not wrap") follows GRV-020, but
+ELEC-041/042's clasp-and-loop is an explicit *deformed* two-curve
+geometry with a clasp radius, shape ratios and a force budget. These may
+be one object — the clasp being the core where the winding terminates,
+as the figure's legend suggests — but **no registered claim establishes
+that identification.** Adjudicating it is a named acquisition target,
+not a caption.
+
+### Correction to this figure's core rendering (ELEC-089, 2026-08-11)
+
+An external reviewer objected that the figure's solid purple core implies
+"ropes **plus** a separate object", where the ontology says ropes only.
+The objection is well taken, and the adjudication corrected the caption in
+**both** directions:
+
+- **The reviewer's proposed label** ("winding core — microscopic rope
+  configuration to be specified") **understates** what is registered. The
+  core's boundary and its finite radius *are* established: ELEC-074's
+  all-orders solution has bounded F(p) = p/√(1+p²), so the first integral
+  r²F(p) = C admits solutions only for r² ≥ C. **The field exists only
+  outside r₀ = √C.** There is no r = 0 singularity to regularize, because
+  the exterior solution does not extend inside. (ELEC-073's apparent cusp
+  at the origin was a truncation artifact and is withdrawn.)
+- **The solid ball overstates it.** What occupies the interior of r₀ is
+  **not registered by any claim.**
+
+**Read the purple sphere as a boundary, not a body:** a hollow core of
+finite radius, outside which the twist field is defined and inside which
+the strands' configuration is not yet specified. It is not a new particle
+inside the electron.
+
+The reviewer also asked what φ is mechanically, and reconstructed the
+registered answer unaided: it is GRV-020's **internal azimuth** — the
+angular orientation of the strand pair about their common centreline, the
+single circle-valued Goldstone of G = ℝ × SO(2), with π₁(S¹) = ℤ
+quantizing the winding as charge. That part is *Derived*.
+
+**Named acquisition target:** specify the interior of ELEC-074's hollow
+from rope mechanics, and adjudicate whether ELEC-041's clasp geometry is
+that interior (ELEC-088). Two independent routes now converge on this
+question.
+
+### Update: the core boundary is now explained (ELEC-090, 2026-08-11)
+
+Since the correction above, the boundary itself has been derived rather
+than merely located. The profile's first integral reads
+**r² sin θ = C** once the slope p = ψ′ is written as tan θ — so F is the
+**sine of the strand tilt**, and the core boundary is simply where the
+strand tangent reaches **90°**. The tilt runs 6.4° → 14.5° → 26.4° →
+44.0° → 65.1° → 90° as r/r₀ goes 3 → 2 → 1.5 → 1.2 → 1.05 → 1.
+
+Three consequences for anyone drawing this:
+
+1. **Nothing diverges physically at the boundary.** tan(90°) diverges;
+   the geometry is ordinary. Draw strands progressively tilting as they
+   approach r₀ and arriving **tangent** to the sphere.
+2. **The hollow is kinematic, not dynamical** — sin θ ≤ 1 is an angle
+   bound, so the hard core is independent of every material parameter
+   and cannot be tuned away.
+3. **The core is NOT spherically symmetric.** Strands arrive tangentially,
+   so the boundary carries a continuous tangent field on S², whose zeros
+   must have total index 2 (hairy-ball). The core therefore has
+   **distinguished points — generically a pole pair, hence an axis.**
+   A perfectly isotropic ball is the wrong picture.
+
+Still **not** determined: the tangential direction field on that sphere,
+i.e. the interior configuration itself. The verdict is
+INTERIOR-CONSTRAINED, not interior-derived.
+
+### Update: the core's surface structure (ELEC-091, 2026-08-11)
+
+The tangential field ELEC-090 left undetermined is now fixed by matching
+to the exterior winding: it is the **azimuthal field e_φ**, circulating
+about the winding axis. Its zeros are exactly the **two poles** of that
+axis (|e_φ| = sin θ), each of index +1, total 2 — independently
+reproducing the hairy-ball requirement it was not built to satisfy.
+Axisymmetry excludes the single-index-2 alternative.
+
+**For the drawing:** the core is a sphere of radius r₀ whose strands run
+**around** the winding axis like lines of latitude, with **two
+distinguished poles** where that circulation vanishes. Not an isotropic
+ball; not a featureless shell. A sphere with an axis and two poles.
+
+Charge sign reverses the circulation *relative to the axis*, not the
+axis's direction in space.
+
+**RETIRED (ELEC-100, 2026-08-11):** the suggestion that the two axis
+orientations are the electron's two spin states. ELEC-099 measured the
+weave to pin that axis at ordinary strength, so freely degenerate
+orientations are not available — and a dependency trace confirmed no
+registered spin result ever rested on the axis. Spin lives in GRV-020's
+internal azimuth and the Hopf/spinor machinery. **The axis itself
+stands**, derived from topology and now known to be pinned structure of
+the charged defect; do not draw it as a spin indicator.

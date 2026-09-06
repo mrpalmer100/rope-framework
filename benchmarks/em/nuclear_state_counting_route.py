@@ -4,7 +4,7 @@ and the real discriminator is LOCAL versus COLLECTIVE exclusion.
 
 THE SCOPE CORRECTION. NUC-021 proved that an energy written as a sum
 over neighbour PAIRS gives a deficit linear in |N-Z|. That bounds one
-model class. It was then used to suggest the rope framework cannot
+model class. It was then used to suggest the mesh framework cannot
 reach the asymmetry term, which does not follow: the framework already
 contains candidate STATES. NUC-004 binds by MODE OVERLAP, and a bundle
 of length L has a discrete transverse mode ladder. THE OBSTRUCTION IS
@@ -40,7 +40,7 @@ framework with a collective mode ladder would inherit both the correct
 WHAT IS AND IS NOT NEW. That a Fermi gas gives (N-Z)^2/A is textbook.
 What is new here is the scope correction to NUC-021, the identification
 of local-versus-collective exclusion as the discriminator, and the
-observation that the rope framework's own mode-overlap mechanism
+observation that the mesh framework's own mode-overlap mechanism
 already points at the structure it needs. THE SECTOR DOES NOT NEED TO
 ABANDON THE ASYMMETRY TERM; IT NEEDS TO STOP COUNTING NEIGHBOURS AND
 START COUNTING MODES.

@@ -1,0 +1,34 @@
+id: EM-023
+title: 'COMMISSION E-RECON -- THE ORIENTATION CONNECTION IS THE ROTATED COLLECTIVE
+  DISPLACEMENT, A = -rho kappa_0 (s x z): EM-016''s FARADAY E AND EM-RECON-026''s
+  MAGNUS E ARE ONE FIELD; B IS MINUS kappa_0 TIMES THE STRAND-DIRECTION FLUX DENSITY;
+  A PERFECT CONDUCTOR PINS THE TANGENTIAL DISPLACEMENT'
+status: registered
+note: 'Charter analysis/ERECON_charter_LOCKED.md (locked outcomes RECON-IDENTICAL /
+  CONFLICT / OPEN; two candidate identifications of A fixed in advance: tilt, and
+  rotated displacement). Triggered by CASIMIR-PLATE''s CAS-BC-OPEN halt, which found the
+  registry''s two Derived-class identifications of E -- EM-016''s E = -grad phi - dA/dt
+  with A the orientation connection, and EM-RECON-026''s E = rho kappa_0 (v_medium x z)
+  -- mapping "tangential E = 0" to different conductor conditions (Neumann-class vs
+  Dirichlet-class on the transverse displacement) and disagreeing on the polarization
+  of E for a transverse plane wave. VERDICT RECON-IDENTICAL (sympy, symbolic, no
+  constants): with A = -rho kappa_0 (s x z), s the collective transverse displacement
+  (EM-RECON-025''s carrier), -dA/dt = rho kappa_0 (v x z) identically for every medium
+  motion; B = curl A = -kappa_0 rho ds/dz in-plane and +rho kappa_0 div_perp(s) along
+  z, i.e. B_total = -kappa_0 rho_total z with rho_total = rho (1 - div_perp s): EM-RECON-
+  026''s constant B'' = -rho kappa_0 z is the unperturbed background and the in-plane
+  part is the strand tilt -- B is minus kappa_0 times the strand-direction flux density
+  (EM-RECON-011''s "rest-tension flux geometry, rope count" made literal); a transverse
+  plane wave s_x = f(z-t) gives E = rho kappa_0 f'' y, in-plane and transverse to
+  propagation (light is transverse); a uniform translation shifts A by grad of a linear
+  function (pure gauge, GG-004). The tilt candidate A = ds/dz gives a different field
+  for the same motion and is excluded. EM-016''s phrase "orientation-transport rate" is
+  fixed as the rate of the transported DISPLACEMENT (the connection''s holonomy), not
+  the strand slope; EM-016''s Derived grade is untouched -- a reading it left open is
+  fixed, consistent with EM-017''s operational uniqueness (forces on test windings).
+  CONSEQUENCE, the conductor condition: tangential E = 0 pins the tangential collective
+  displacement at the plate (Dirichlet on both transverse bands, d_eff = d + 1) and
+  levels the twist-tension field phi along the plate (the longitudinal carrier
+  constrained at k_par != 0). CAS-BC-OPEN discharged; CASIMIR-PLATE Legs 2-5 licensed
+  (analysis/CASIMIR_PLATE_charter_LOCKED.md A2). Results analysis/ERECON_results.md.
+  Granted by the author 2026-09-05.'

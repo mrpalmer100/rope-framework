@@ -1,5 +1,5 @@
 """
-rope_solver.electromagnetism.photon  --  Light in the rope framework.
+rope_solver.electromagnetism.photon  --  Light in the mesh framework.
 
 Encodes the rope-SPECIFIC, quantitative findings of rope_theory_of_light:
 the photon as a transverse rope kink, its kinematics and exact masslessness,

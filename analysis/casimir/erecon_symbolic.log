@@ -1,0 +1,6 @@
+(D) E = -dA/dt - Magnus E  = Matrix([[0, 0, 0]])
+(D) B = curl A = Matrix([[-kappa_0*rho*Derivative(s_x(x, y, z, t), z), -kappa_0*rho*Derivative(s_y(x, y, z, t), z), kappa_0*rho*(Derivative(s_x(x, y, z, t), x) + Derivative(s_y(x, y, z, t), y))]])   -> B_z = -rho kappa_0 (div_perp s): compression of the strand density; with rho_total = rho(1 + div s) this is the perturbation of B' = -rho kappa_0 z
+(D) plane wave s_x = f(z-t): E = Matrix([[0, kappa_0*rho*Subs(Derivative(f(_xi_1), _xi_1), _xi_1, -t + z), 0]])  (in-plane, perpendicular to z: TRANSVERSE)
+(D) uniform translation shifts A by Matrix([[-c2*kappa_0*rho, c1*kappa_0*rho, 0]]) = grad of a linear chi: pure gauge (GG-004)
+(T) E = -dA/dt = Matrix([[-Derivative(s_x(x, y, z, t), t, z), -Derivative(s_y(x, y, z, t), t, z), 0]])  vs Magnus: True
+(T) plane wave: E = Matrix([[Subs(Derivative(f(_xi_1), (_xi_1, 2)), _xi_1, -t + z), 0, 0]])  (in-plane but = -f''-class: a DIFFERENT field from the Magnus one -- not the same E for the same motion)

@@ -1,5 +1,5 @@
 ================================================================
-ROPE PROGRAMME -- OPEN PROBLEMS REGISTRY
+MESH PROGRAMME -- OPEN PROBLEMS REGISTRY
 ================================================================
 
 [OPEN]  (7)

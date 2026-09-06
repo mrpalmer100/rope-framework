@@ -1,0 +1,7 @@
+v5' round-trip: stage-2 price 2.59813485 (ke 5.000e-01) vs transplanted 2.59807757 (ke 5.000e-01)  |diff| 5.7e-05
+v5  the 2.62 T0 anchor at A2 = 0.0108 on the q = 3/2 member: NOT REPRODUCIBLE -- the 3/2 states predate this release's exports (FINE-GATE/BRICK2 precedent); the formula is verified by round-trip instead (amendment recorded).
+
+S-b  Sigma_wave(A2) along the gated families (kb = 0, the registered display form; per strand per axial length, units T0):
+   4/3: Sigma 2.59873 (A2 0.00188) -> 2.60576 (A2 0.00505);  dSigma/dA2 range [+1.979,+11.399]: monotone increasing; stationary point: NONE in range
+   5/3: Sigma 2.59919 (A2 0.00188) -> 2.60893 (A2 0.00524);  dSigma/dA2 range [+2.600,+4.856]: monotone increasing; stationary point: NONE in range
+   5/4: Sigma 2.59852 (A2 0.00188) -> 2.60554 (A2 0.00511);  dSigma/dA2 range [+1.905,+6.149]: monotone increasing; stationary point: NONE in range

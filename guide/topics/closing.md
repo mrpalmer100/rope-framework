@@ -32,8 +32,9 @@ of it.
     field), which in turn exerts the magnetic force on other currents
     and moving charges.
 
--   Gravity is TENSION --- a taut rope between two masses pulls them
-    together.
+-   Gravity is TENSION --- the taut weave between two masses pulls
+    them together, with the effective strength of a rope stretched
+    from one to the other.
 
 -   Chemistry is a STANDING WAVE pattern the rope settles into around a
     nucleus.
@@ -65,12 +66,5 @@ any molecule, from the rope alone. The programme states this limitation
 as plainly as it states its successes, because a picture that only
 reports its wins isn't trustworthy about its wins either. There is also a deeper open question the programme is careful to flag: whether the strands LITERALLY are what charge and the fields are made of, or whether the rope picture is our best physical description of something whose ultimate nature is still unsettled. The papers leave that question open rather than pretending it is closed. A related honesty: picturing the ropes as running "between atoms" is a helpful image at everyday scales, but it is not the fundamental one. For the picture to agree with precision tests of relativity, the rope mesh must be far finer than atoms — smaller even than an atomic nucleus — so that atoms are better thought of as coarse knots in a much finer weave, not as the things the ropes directly tie together. The everyday image is a useful simplification, not the bottom layer.
 
-  **THE POINT OF *Not to convince you the rope is real. To offer a
-  ALL THIS**     physical OBJECT in place of abstractions like "fields"
-                 and "wave packets" --- something you could, in
-                 principle, picture --- and to be exactly as honest about
-                 where that picture breaks down as about where it holds
-                 up. The technical papers and the open, tested software
-                 behind them (rope_solver) are where every claim in this
-                 document is checked, qualified, and where possible,
-                 falsified.*
+> CALLOUT|THE POINT OF ALL THIS
+> Not to convince you the rope is real. To offer a physical OBJECT in place of abstractions like "fields" and "wave packets" --- something you could, in principle, picture --- and to be exactly as honest about where that picture breaks down as about where it holds up. The technical papers and the open, tested software behind them (rope_solver) are where every claim in this document is checked, qualified, and where possible, falsified.

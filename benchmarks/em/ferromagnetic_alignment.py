@@ -1,4 +1,4 @@
-"""Ferromagnetic alignment in the rope framework: mechanism, honest scope.
+"""Ferromagnetic alignment in the mesh framework: mechanism, honest scope.
 
 The puzzle: neighbouring atomic magnetic moments align strongly enough to survive
 room temperature. This CANNOT be dipole-dipole attraction (far too weak). In

@@ -1,10 +1,10 @@
-# The Detector, Understood: Single-Photon Phenomena in the Rope Framework, in Plain Language
+# The Detector, Understood: Single-Photon Phenomena in the Mesh Framework, in Plain Language
 
 **Mark Palmer** · with computational collaboration by Claude (Anthropic)
 
 Charlotte, NC · palmer100@gmail.com
 
-August 2026 · Rope Framework corpus, v3.8.0+
+August 2026 · Mesh Framework corpus, v3.8.0+
 
 *Companion to the measurement-sector campaigns, FND-STRAND-009 through 029
 (releases v3.7.0 onward), including the third grant. Written for a reader

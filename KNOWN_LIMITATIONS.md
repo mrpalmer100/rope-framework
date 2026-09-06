@@ -1,4 +1,4 @@
-# Known Limitations of the Rope Programme
+# Known Limitations of the Mesh Programme
 
 A single place for every load-bearing caveat, so a reader never has to hunt for them.
 This document is deliberately front-loaded: if any of these is a dealbreaker for you,
@@ -6,7 +6,7 @@ you have found it in under five minutes.
 
 *Revised against the current registry.*
 <!-- BEGIN GENERATED: corpus_stats -->
-*742 registered claims, 641 code-backed and passing, 121 Derived, 45 registered Failed and kept.*
+*761 registered claims, 641 code-backed and passing, 121 Derived, 47 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats -->
 
 
@@ -61,8 +61,14 @@ inside FND-MATTER-041's zero-point window, FND-132).
   distinct from the convicted stiffness mapping); its own dynamical test —
   the wound-bundle c4 on FND-089 machinery — is chartered and unrun.
 - **Sigma naming**: the wave total (2.6–4.5 T0/a²-class) is a distinct object
-  from Sigma_vac = 3 T0/a²; flagged before collision (EM-020 precedent), the
-  Sigma_wave registration is owed.
+  from Sigma_vac = 3 T0/a²; flagged before collision (EM-020 precedent).
+  **UPDATE 2026-09-05 (FND-169, COMPOSITE-SELECT Leg A): Sigma_wave RETREATS to the
+  level-1-exact 2.598 T0 with a rider; on the gated two-frequency families the price
+  is 2.598-2.609 (monotone in A2, no stationary point); the bracket [3.222, 4.313]
+  belonged to the ansatz. No registered principle selects a level-2 amplitude the
+  family reaches (COMP-PIN-UNREACHABLE); R2 = 0.09396 is static provenance only.**
+
+**UPDATE 2026-09-05 (FND-168, TRIPLE-DUTY): two of the three duties are ONE THEOREM -- bending-neutrality is a corollary of second-moment isotropy (F_bend = R kb (3s-1)/(2(R^2+b^2)^2), every radius, every kb). The third (v_m = c) is not an identity of the anchor but a SATURATION: v_m(s) <= c on the whole pitch-angle ladder with equality at the isotropy angle. Remaining open question, sharpened: derive that tangency from the anchor equations.**
 
 ## The electron core's axis: pinned, meaning open
 
@@ -72,8 +78,13 @@ strength — measured on the registered strand engine at anisotropy 0.21, 166x t
 noise floor, on a form fixed before the data existed (ELEC-096/099). Spin is
 untouched (dependency trace ELEC-100). **Open:** what the pinned axis represents —
 three readings recorded on ELEC-091 (observable / non-observable scaffolding /
-coarse-grains away), no commission chartered. Two conditionalities on the
-measurement stand: pre-asymptotic regime (s = 1.5) and a prolate proxy inclusion.
+coarse-grains away). **UPDATE 2026-09-05 (AXIS-MEANING, ITEM 6b): commissioned and
+run. On the same engine the anisotropy fraction at s = 2, 3, 4 is 0.03, 0.27, 0.07
+with sign-alternating harmonic amplitude -- the s^(-3/2) extrapolation is NOT
+exhibited; the 0.21 at s = 1.5 is a commensurability-regime number of the point-line
+proxy on the half-integer mesh. No reading closes (NO CALL); any predicted electron
+splitting from this instrument is unsupported. Next-order: an instrument whose
+inclusion is smooth or is the registered core itself (ELEC-096/099 riders).**
 
 ## The vacuum stiffness tower (conditional, floors without ceiling)
 
@@ -222,8 +233,14 @@ kept straight, several quantum facts are **adopted, not derived**, or **open**:
 
 ## Particle sector
 
-- **Lepton mass ratios (Koide) and the Weinberg angle are CONJECTURES** -- numerical
-  coincidences (~1%) held pending a derivation-or-demotion, not claimed as results.
+- **Lepton mass ratios (Koide) and the Weinberg angle: DEMOTED to kept coincidences
+  (2026-09-05, KOIDE-WEINBERG, ITEM 6d).** PM-001's sensitivity d ln(m_mu/m_e)/d ln(sin^2
+  theta_W) = 71 (a 1.94% input change moves mu/e by x7.8): a fit to the input, not a
+  prediction. EW-001's chain "three dimensions -> 3, two strands -> sqrt2" has three
+  choice points on its face (the combination rule -- "uniqueness is Open" by its own
+  paper -- the quantity, and the multiplicative reading). The coupled inconsistency
+  is closed: there is no derived Weinberg angle; the Koide relation is an observed
+  relation among measured masses, not a rope result.
 - **The absolute atomic scale is CLOSED BY MEASUREMENT, not derived (FND-MATTER-003).**
   Both originally-missing inputs are now determined -- the rope count N by the coverage
   threshold (FND-MATTER-004) and the absolute mesh scale a fixed by measurement at the

@@ -1,13 +1,27 @@
-# Gravity --- A Taut Rope Between Every Two Things
+# Gravity --- The Weave Pulls Every Two Things Together
 
-This is the most basic version of the rope picture, and it is worth
-stating plainly before anything more complicated: every pair of masses
-in the universe is connected by a physical rope, that rope is under
-tension, and a rope under tension pulls its two ends together ---
-exactly the way a stretched rubber band pulls your two hands toward each
-other, or a tightened cable pulls whatever it's anchored to inward.
-Nothing more exotic than that. The apple falls toward the Earth because
-the rope directly connecting them is taut, and a taut rope pulls.
+This is the most basic version of the picture, and it is worth stating
+plainly before anything more complicated: every pair of masses in the
+universe is pulled together through the tensioned weave that fills the
+space between and around them. The weave is under tension, and a
+tensioned medium transmits pull --- exactly the way a stretched rubber
+sheet tugs two heavy balls resting on it toward each other, or a taut
+net drags its loaded points inward. Nothing more exotic than that. The
+apple falls toward the Earth because the weave between them is
+conditioned by both masses, and the conditioned weave pulls.
+
+It is often USEFUL to picture this as a single taut rope running from
+the apple straight to the Earth --- and the framework once spoke that
+way --- but the rope-between-them is a summary of the weave's work,
+the way "field lines" summarize a field. The pull is real, the tension
+is real, and the effective result is exactly as if a rope connected
+each pair; the medium that delivers it is the local weave. The
+commission record for this distinction is the spectator test
+(analysis/TOPOLOGY_spectator_analytic.md): direct pair-ropes with
+constant tension would pull with the same force at every distance,
+while the weave delivers the inverse-square law as a theorem of
+three-dimensional geometry --- and inverse-square is what the universe
+does.
 
 > CONTRAST
 > STANDARD| Gravity is the curvature of spacetime (general relativity): mass-energy bends the four-dimensional geometry of space and time, and objects follow the straightest available paths through that curved geometry. There is no "pull" — only geometry.
@@ -113,17 +127,8 @@ the whole weight by itself --- that is the gravity story. Same cable,
 two different questions: how hard does the bundle pull on others, versus
 how taut is any single strand within it.*
 
-  **THE          *Picture two people each holding one end of a long
-  ANALOGY**      stretched rubber band. The band pulls them toward each
-                 other for one plain reason: it's under tension, and a
-                 rope or band under tension always pulls its two ends
-                 inward. That is the whole of gravity in the rope picture
-                 two people, and the rope between you is always under
-                 tension, always pulling. A heavier mass is like swapping
-                 the single rubber band for a whole bundle of them ---
-                 more strands pulling at once, so a stronger net pull,
-                 but each strand doing the exact same simple job: tension
-                 pulling its ends together.*
+> CALLOUT|THE ANALOGY
+> Picture two people each holding one end of a long stretched rubber band. The band pulls them toward each other for one plain reason: it's under tension, and a rope or band under tension always pulls its two ends inward. That is the whole of gravity in the rope picture two people, and the rope between you is always under tension, always pulling. A heavier mass is like swapping the single rubber band for a whole bundle of them --- more strands pulling at once, so a stronger net pull, but each strand doing the exact same simple job: tension pulling its ends together.
 
 
 This connects directly to light: because a ripple's speed on the rope

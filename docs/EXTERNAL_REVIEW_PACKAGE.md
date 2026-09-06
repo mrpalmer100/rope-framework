@@ -1,4 +1,4 @@
-# The Rope Programme — External Review Package
+# The Mesh Programme — External Review Package
 
 A curated, self-contained set for external evaluation. Everything here is present,
 bundled as both `.docx` and `.pdf`, and mutually consistent. The full corpus is

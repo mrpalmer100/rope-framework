@@ -1,0 +1,19 @@
+LEG 3 -- s = 1/3 entered ONCE (registered anchor read: T_fibre/T0_f = 1.50137, FND-126)
+  M(1/3) = +0.00137 (+0.09%)   v_m^2/c^2(1/3) = 1.00091
+  ladder:  s      T_fibre    1/(1-s)    M(s)%     v_m^2/c^2
+          0.20   0.47992   1.25000    -61.61   0.3839
+          0.25   1.14906   1.33333    -13.82   0.8618
+          0.30   1.42039   1.42857     -0.57   0.9943
+          0.35   1.52438   1.53846     -0.91   0.9909
+          0.40   1.54978   1.66667     -7.01   0.9299
+          0.45   1.53609   1.81818    -15.52   0.8448
+          0.50   1.50263   2.00000    -24.87   0.7513
+  B2: max |M|/(1/(1-s)) = 61.6%  vs bar 0.5%  -> FAIL (5 of 7 rungs exceed; rungs 0.30/0.35 at 0.57/0.91%)
+  v_m^2/c^2(s) is a HUMP: parabola through (0.30, 1/3, 0.35): max at s = 0.3229 (1/3 = 0.3333), value 1.0027; curvature -16.06
+  v_m <= c on every rung; equality (to the 0.09% reading window) only at the magic angle.
+  CANDIDATES: P-c (isotropy sole condition): Duties 1,2 (B1 theorem) yes; Duty 3 as an IDENTITY no (B2 fails).
+              P-b (Lorentz saturation, v_m = c selects T given s): the anchor EXHIBITS v_m(s) <= c with a
+              maximum = c at s = 1/3 -- Duty 3 is a SATURATION/STATIONARITY at the isotropy angle, not an identity;
+              P-b reproduces Duty 3 and coincides with Duty 1; Duty 2 follows from Duty 1 by B1. Zero new constants.
+              P-a (KE stationarity): not separately exhibited; the stationarity found is that of v_m^2, i.e. P-b.
+  R3 (display): E[t_z^6] = 0.1369 vs 1/7 = 0.1429 -- no candidate predicts it; displayed, not claimed.

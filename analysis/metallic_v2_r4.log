@@ -1,0 +1,45 @@
+== COMMISSION SAMEKH: realizing the coherent channel ==
+
+-- R1: star with bare cost (staggering = 4 eps - gain) --
+   n-loc  v = 0.1: staggering at N = [8, 32, 128, 512]: ['3.7172', '3.4343', '2.8686', '1.7373']
+   n-vol  v = 1/N: staggering at N = [8, 32, 128, 512]: ['3.6464', '3.8232', '3.9116', '3.9558']
+   n-loc: gain = v sqrt(N) GROWS; staggering crosses zero and goes
+   negative (unbounded gain, unphysical) -> the bare cost survives
+   only if v sqrt(N) < 4 eps, and then staggering -> 4 eps = CONST.
+   n-vol: gain = v0/sqrt(N) -> 0; staggering -> 4 eps = CONST.
+   LEADING EXPONENT: 0 in both normalizations. R1 reproduces the
+   REFUTED A-independent form (NUC-024/027). Reaching -1/2 would
+   require 4 eps to cancel exactly: REFUSED per B2.
+
+-- R2: rank-1 condensate blocking --
+   n-loc  v = 0.1: staggering ['0.10000', '0.10000', '0.10000', '0.10000']  exponent ~ +0.00
+   n-vol  v = 1/N: staggering ['0.12500', '0.03125', '0.00781', '0.00195']  exponent ~ -1.00
+   n-loc exponent 0 (the refuted form); n-vol exponent -1. Neither -1/2.
+
+-- R3: degenerate seniority --
+   n-loc  G = 0.1: staggering ['0.4500', '1.6500', '6.4500', '25.6500']  exponent ~ +0.97
+   n-vol  G = 1/Omega: staggering ['0.5625', '0.5156', '0.5039', '0.5010']  exponent ~ -0.03
+   n-loc exponent +1, n-vol exponent 0 (the refuted form). Neither -1/2.
+
+-- R4: pure off-diagonal (channel separation) --
+   n-loc  v = 0.1: staggering ['0.28284', '0.56569', '1.13137', '2.26274']  exponent ~ +0.50
+   n-vol  v = 1/N: staggering ['0.35355', '0.17678', '0.08839', '0.04419']  exponent ~ -0.50
+   n-loc: +1/2 (grows, unphysical as a cost). n-vol: -1/2 EXACTLY.
+   R4 + volume-normalized mediator is the UNIQUE surviving
+   realization, with no cancellation anywhere: the diagonal cost is
+   not deleted, it is RELOCATED to the asymmetry channel.
+
+-- B4: the split confrontation (asymmetry must dilute as -1/3) --
+   fitted amplitude: 13.08 MeV; predictions [5.19 3.82 3.04]
+   measured [5.22 3.94 2.84]; fractional residuals [0.6 2.9 6.9] percent
+   max fractional residual 6.9 percent  ->  VERDICT: CONSISTENT
+   (free-fit exponent from NUC-020, reported not fitted: -0.374)
+
+-- pricing the surviving realization --
+   v0 = 16.97 MeV: the TOTAL two-vertex coherent coupling strength
+   (mediator vertex squared over mode stiffness, summed over the
+   mode volume). One number, unregistered, blocked on the mode
+   quantization normalization (QGATE) and the mode-nucleon vertex.
+   NOTE the R4 bonus: no root-extensive smooth component exists in
+   this realization (the hybridization acts only on the odd state),
+   so NUC-028's ABSORBED 24 sqrt(A) MeV shadow is NOT owed here.

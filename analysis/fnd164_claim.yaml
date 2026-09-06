@@ -1,0 +1,37 @@
+id: FND-164
+title: 'GR-DISPLACED: THE q = 5/4 COLLAPSE IS PHYSICAL AND GRID-DISPLACED -- AT
+  144x54 IT DOES NOT OCCUR IN THE 144x36 WINDOW BUT ~0.0003 DEEPER IN A2, SHARPER
+  (f_dir rise +0.1811 vs +0.15 on 20/20 gated points)'
+status: registered
+note: 'Refinement test of FND-163 under charters analysis/GR54_charter_LOCKED.md
+  and analysis/GR54X_charter_LOCKED.md (locked before data; forms and lines
+  fixed in advance). Protocol: the two 36-grid profile points s0/s1
+  phi-continued to 144x54 by the S3R rule and gated at full bars (RMS 5.85e-10 /
+  4.71e-10), then the registered stage-2c arc protocol verbatim at 54 (ds 0.08,
+  fresh 144x54:arc:n2=5 pattern at a non-degenerate state, per-point
+  measurements sealed, verdict computed once). Over the 36-grid A2 window
+  (0.0048-0.0052) the 54 profile is FLAT: f_dir 0.1157 -> 0.1154, rate -4 pct,
+  V_pt +0.4 pct (initially rendered GR-ARTIFACT; that verdict was RESCINDED
+  after the author-requested review found its forms omitted a displaced outcome,
+  and an 8-point extension was chartered with the displacement statistic locked
+  first). The extension found the collapse between A2 0.00526 and 0.00534:
+  rate 4.5e-4 -> 1.6e-5 (30x) over four points, V_pt nearly doubled, f_dir
+  0.115 -> 0.297 then holding. Corrected rule C1 (f_dir rise alone; the DISC
+  commission, analysis/DISC_results.md, found the registered r line to be a
+  co-monotonicity statistic that fires on flat branches -- never load-bearing
+  since the registered pair required both lines) gives rise +0.1811 vs +0.15.
+  Continuity verified at every point (Om2 1.678 -> 1.698 smooth). Solve-behavior
+  leading indicators (predictor slide 95.7 -> 48 pct, capped corrector steps,
+  arc-step overshoot) tracked the sealed collapse exactly and are recorded as a
+  validated indicator. CONSEQUENCES: FND-163 stands as a 144x36 statement with
+  a grid rider; the charter''s FLAT prediction of record is falsified at both
+  grids; the n=17 tangent object (grid-bound, 93 -> 0.1 pct) rode on a real
+  collapse rather than constituting it; the collapse mechanism is grid-robust
+  but grid-shifted at this cell. Scope: ONE cell -- see FND-165 for the 4/3
+  cell, which does not replicate this. The 5/3 flat control at 54 reads FLAT
+  under C1 (rise +0.0015), validating the 54 protocol. Results:
+  analysis/GR54_results.md, analysis/GR54X_results.md, analysis/GR54B_results.md,
+  analysis/DISC_results.md; states analysis/gr54_ckpt.pkl, gr54b_ckpt.pkl.
+  Granted by the author 2026-09-05. (The number FND-164 was earlier drafted for
+  a line-proximity interpretation claim that the author declined to register;
+  that draft is withdrawn and the number reassigned here.)'

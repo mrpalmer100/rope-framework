@@ -1,0 +1,58 @@
+== COMMISSION NUN: the dilution ==
+
+-- D1: classical smearing --
+   M =    1: cost = 4.000000 eps
+   M =    4: cost = 4.000000 eps
+   M =   16: cost = 4.000000 eps
+   M =   64: cost = 4.000000 eps
+   M =  256: cost = 4.000000 eps
+   EXPONENT: 0 exactly. Bilinear bond energy is LINEAR in the defect
+   occupation, so smearing redistributes the cost without reducing it.
+
+-- D2: defect-band delocalization --
+   A =    16: finite-size correction ~ 1.5544 t  (~ A^-2/3)
+   A =    64: finite-size correction ~ 0.6169 t  (~ A^-2/3)
+   A =   256: finite-size correction ~ 0.2448 t  (~ A^-2/3)
+   A =  1024: finite-size correction ~ 0.0971 t  (~ A^-2/3)
+   EXPONENT of the diluting piece: -2/3 (quadratic band bottom).
+   The FIXED part (4 eps - 6t) does not dilute at all; the exponent
+   -2/3 governs only the finite-size remainder. Neither piece is -1/2.
+
+-- D3: elastic screening --
+   The polarization cloud is LOCAL (registered interactions are
+   nearest-neighbour); a local cloud renormalizes the cost by an
+   A-independent factor. EXPONENT: 0.
+
+-- B2: the geometric exponent set --
+   Local energy on a compact 3D droplet: A^1, A^(2/3), A^(1/3), A^0.
+   1/2 is NOT in the set: 1/3 < 1/2 < 2/3, strictly between curvature
+   and surface. NO term of a local/geometric expansion carries A^(1/2).
+   Consequence: D1-D3 (all local) CANNOT produce the -1/2 dilution,
+   consistent with their derived exponents (0, -2/3, 0).
+
+-- D4: coherent collective sharing --
+   E_coh(N) = c sqrt(N); staggering = E(N) - E(N-1) ~ c/(2 sqrt(N)).
+   N =    8: staggering = 0.18268  vs c/(2 sqrt N) = 0.17678
+   N =   32: staggering = 0.08909  vs c/(2 sqrt N) = 0.08839
+   N =  128: staggering = 0.04428  vs c/(2 sqrt N) = 0.04419
+   N =  512: staggering = 0.02211  vs c/(2 sqrt N) = 0.02210
+   EXPONENT: -1/2 EXACTLY, and it is the ONLY enumerated channel that
+   produces it. Root-extensivity (E ~ sqrt(N)) is the signature of
+   coherent amplitude addition and is NON-LOCAL by the B2 no-go.
+
+-- B3: pricing the coherent channel from the measured staggering --
+   staggering 24/sqrt(A) MeV with N = A/2  ->  c = 33.94 MeV
+   implied smooth component: E_coh(A) = c sqrt(A/2) = 24.00 sqrt(A) MeV
+     A = 56: E_coh = 180 MeV
+     A = 120: E_coh = 263 MeV
+     A = 208: E_coh = 346 MeV
+
+-- B4: absorbability of the priced sqrt(A) term --
+   projection coefficients on [A, A^2/3, A^1/3, 1]: [ -0.163   6.483  27.912 -12.962]
+   max |residual| over A in [16, 250]: 0.068 MeV
+   VERDICT (locked grammar): ABSORBED
+   Interpretation is fixed by the bar: ABSORBED means the priced
+   smooth component hides inside refitted droplet coefficients at
+   SEMF-level scatter; the staggering, not the smooth surface, is
+   where the channel is visible. Shifts it would induce:
+     a_V by -0.163 MeV, a_S by +6.483 MeV.

@@ -46,16 +46,8 @@ dots and the bright-and-dark pattern of the wave reappears --- not
 because each dot interfered, but because the dots are *placed* by a wave
 that did.
 
-  **THE          *Picture a wave rolling toward a harbour wall with two
-  ANALOGY**      gaps in it. The wave obviously goes through both gaps and
-                 the ripples on the far side cross and interfere — that is
-                 not mysterious. Now imagine the far shore is lined with
-                 mousetraps, and the wave is only strong enough to spring
-                 exactly ONE trap. Which trap springs is a matter of
-                 chance, but traps in the tall-ripple zones spring far more
-                 often. Run it many times and the sprung traps trace out
-                 the interference pattern — each trap sprung singly, by a
-                 wave that always went through both gaps.*
+> CALLOUT|THE ANALOGY
+> Picture a wave rolling toward a harbour wall with two gaps in it. The wave obviously goes through both gaps and the ripples on the far side cross and interfere — that is not mysterious. Now imagine the far shore is lined with mousetraps, and the wave is only strong enough to spring exactly ONE trap. Which trap springs is a matter of chance, but traps in the tall-ripple zones spring far more often. Run it many times and the sprung traps trace out the interference pattern — each trap sprung singly, by a wave that always went through both gaps.
 
 Why does exactly one absorber fire, and never half of one, never two?
 Because the click is the making of a knot in the network, and a knot is
@@ -108,14 +100,8 @@ Ordinary forward-in-time cause and effect, no retrocausality, and the
 early-choice and late-choice statistics come out identical exactly as
 measured.
 
-  **THE          *You send a wide wave down a canal toward a set of gates.
-  ANALOGY**      While the wave is still travelling, you decide how to set
-                 the gates at the far end. The wave did not "commit" to
-                 anything upstream — it is just a spread-out wave. How it
-                 sorts out at the end depends only on the gate setting it
-                 finds when it gets there, and you set that while it was
-                 still coming. Nothing reached backward; you simply
-                 arranged the ending before the wave arrived.*
+> CALLOUT|THE ANALOGY
+> You send a wide wave down a canal toward a set of gates. While the wave is still travelling, you decide how to set the gates at the far end. The wave did not "commit" to anything upstream — it is just a spread-out wave. How it sorts out at the end depends only on the gate setting it finds when it gets there, and you set that while it was still coming. Nothing reached backward; you simply arranged the ending before the wave arrived.
 
 The same bookkeeping even reproduces the exact trade-off physicists call
 complementarity --- the rule that the sharper your interference fringes,
@@ -138,7 +124,7 @@ They reach a precise ceiling (physicists call it the Tsirelson bound) and
 go no further. A good account of entanglement should explain both the
 strength and the ceiling.
 
-The rope framework does something genuinely substantial here, and it is
+The mesh framework does something genuinely substantial here, and it is
 worth stating plainly rather than hiding behind caution: it *derives that
 ceiling as a theorem.* From the same two-strand structure that gives
 charge its handedness, the framework's own arithmetic forces the pair's
@@ -165,17 +151,8 @@ mechanical model doing it.
 > ROPE| The framework DERIVES the ceiling as a theorem from its own two-strand structure — the correlations are forced into the quantum shape and pinned at exactly the measured maximum, with the framework's native "singlet" state saturating it. The extra strength over ordinary correlations gets a mechanical cause: the twist the fibre carries. And the Bell violation has been demonstrated end to end in a computed model, past the local limit, from positions alone.
 > EQUATIONS| the quantum correlation shape and its exact Tsirelson ceiling are reproduced AND derived, and a dynamical Bell violation is demonstrated. What stays open is narrower and named below — not "can the framework do entanglement" (it does), but "is the guiding influence itself won from the ropes, or added as an ingredient."
 
-  **THE          *Two dancers who trained together are sent to distant
-  ANALOGY**      stages and told to improvise to music only they can hear.
-                 Their moves match far more tightly than any pre-agreed
-                 routine could manage --- that is entanglement, and no list
-                 of instructions packed in a suitcase reproduces it. The
-                 framework's contribution is to show WHY the matching can
-                 be as tight as it is and no tighter --- the shared twist
-                 sets a precise ceiling --- and to build a working model in
-                 which two guided partners actually dance that way. What it
-                 has not yet done is explain, from the ropes alone, where
-                 the music comes from.*
+> CALLOUT|THE ANALOGY
+> Two dancers who trained together are sent to distant stages and told to improvise to music only they can hear. Their moves match far more tightly than any pre-agreed routine could manage --- that is entanglement, and no list of instructions packed in a suitcase reproduces it. The framework's contribution is to show WHY the matching can be as tight as it is and no tighter --- the shared twist sets a precise ceiling --- and to build a working model in which two guided partners actually dance that way. What it has not yet done is explain, from the ropes alone, where the music comes from.
 
 So where is the honest edge? Not at "can the framework explain
 entanglement" --- it derives the ceiling, names the mechanism for the
