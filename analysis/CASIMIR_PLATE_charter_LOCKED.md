@@ -340,3 +340,17 @@ analysis/casimir/.
 ## (~45 h). The scalar control converged at 16 x 8; v4 (in-plane
 ## convergence at the top rung, finer grid) is OWED as a follow-up run
 ## and the verdict will carry it as a caveat until it lands. No bar moved.
+
+## AMENDMENT A5 (post-run, 2026-09-05): v4 (in-plane convergence) DISCHARGED
+## by a stronger test than the owed finer grid -- the exact as-run quadrature
+## (N_r = 12, 4 reduced angles, k = k_c t^3) reproduces the scalar Dirichlet
+## control at every rung to 0.2 pct with p_E = 3.005 (analysis/casimir/
+## v4_diagnostic.log); and on the wound run the piston integrand is smooth,
+## supported at |k| < 0.06 for d = 40, with angular spread < 0.2 wherever it
+## contributes. The wound result's d-dependence is physics, not quadrature.
+
+## INSTRUMENT FAULT LEDGER ENTRY 12 (2026-09-05): quadrature weights mis-paired after
+## the angular-node reduction (np.full(Nt, dth) vs Nt//2 angles); found by the weight-sum
+## cross-check at the verdict; weights recomputed exactly; both verdict runs kept.
+## Rule: after any change to a quadrature, assert sum(W) against the analytic measure
+## before the first integral is read.

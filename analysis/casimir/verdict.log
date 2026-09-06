@@ -1,0 +1,14 @@
+LEG 3 -- readings
+(ii) standing-wave action: E(d)=['-1.992e-07', '-1.162e-08', '-2.783e-09', '-1.126e-09'] sign -1  p_E=3.501 (force p=4.501)  K=[0.002917 0.002261 0.00257  0.003181]  Richardson 0.003384/0.002674
+(iii) warm-weave (log-sum): E(d)=['-4.253e-06', '-5.361e-07', '-1.835e-07', '-8.927e-08'] sign -1  p_E=2.684 (force p=3.684)  K=[0.005661 0.004965 0.005468 0.006153]  Richardson 0.006381/0.005636
+(i) coherent winding (k_par=0 slice): E(d)=['-3.473e-02', '-1.340e-02', '-6.725e-03', '-3.767e-03'] sign -1  p_E=1.889 (force p=2.889)  K=[4.202848 5.910016 6.463204 6.332604]  Richardson 6.289071/6.647600
+
+LEG 5 -- targets loaded once
+  two-polarization energy coefficient pi^2/720 = 0.013708; measured (ii) Richardson 0.003384/0.002674 -> ratio 0.247/0.195
+  VERDICT: CAS-SHAPE-FAIL candidate (p not 4 under reading (ii)); check (i)/(iii) before rendering
+
+LOCAL EXPONENTS (reading ii), pairwise, d_eff = d+1:
+   10->20: p_E = 4.39  (force p = 5.39)
+   20->30: p_E = 3.67  (force p = 4.67)
+   30->40: p_E = 3.24  (force p = 4.24)
+   K d_eff^3: {10: np.float64(0.000265), 20: np.float64(0.000108), 30: np.float64(8.3e-05), 40: np.float64(7.8e-05)}  rising at the top -> pre-asymptotic, K not yet converged

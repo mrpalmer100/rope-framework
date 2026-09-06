@@ -1,0 +1,40 @@
+id: FND-170
+title: 'COMMISSION CASIMIR-PLATE (F3), SIGN RESULT -- THE WOUND MESH WITH THE DERIVED
+  CONDUCTOR CONDITION (EM-023) PRODUCES AN ATTRACTIVE PLATE FORCE FROM ITS CARRIED MODES
+  ALONE, NO ZERO-POINT CONTINUATION, NO SUBTRACTION BY HAND; THE d-DEPENDENCE APPROACHES
+  THE d^-4 LAW FROM ABOVE (LOCAL EXPONENT 4.56 -> 4.30 -> 4.18 AT d = 10..40), PRE-ASYMPTOTIC;
+  THE COEFFICIENT CONVERGES TO ~2.2 x THE TWO-POLARIZATION EM VALUE IN THE S = 1 UNIT'
+status: registered
+note: 'Charter analysis/CASIMIR_PLATE_charter_LOCKED.md with amendments A1 (piston
+  calibrated on scalar Dirichlet/Neumann controls: p = 4.002, K = pi^2/1440 to 0.01 pct;
+  far-slab geometric factor g(d,L); effective plate position d_eff = d+1 for pinned
+  sites), A2 (plate condition from E-RECON/EM-023: tangential collective displacement
+  pinned, both transverse bands Dirichlet; the twist-tension field level along the plate,
+  longitudinal carrier constrained at k_par != 0), A3 (ladder d = 10, 20, 30, 40 at P = 5,
+  L = 120; polar stretched quadrature; readings (i) k_par = 0 slice, (ii) E = (1/2) S sum
+  omega, (iii) log-sum), A4 (budget), A5 (v4 discharged: the as-run quadrature reproduces
+  the scalar control to 0.2 pct at every rung). Leg 1 halted CAS-BC-OPEN and was lifted
+  the same day by EM-023. Legs 2-4 ran on the author''s laptop (49 k-points, dense
+  eigenvalues of slab dynamical matrices up to 8,250 unknowns on the FND-089 instrument,
+  byte-identical). INSTRUMENT FAULT 12 at the verdict: the angular-node reduction left the
+  weight array mis-paired (sum W 0.036 vs pi k_c^2 1.240); found by the weight-sum cross-
+  check, weights recomputed exactly from node radii, both runs kept. Run of record
+  (analysis/casimir/verdict_corrected.log): reading (ii) E(d) = -3.99e-5, -3.99e-6,
+  -1.10e-6, -4.52e-7 -- ATTRACTIVE at every rung (the sign was a locked control: pass);
+  force exponent 4.26 by the locked top-three fit (window [3.9, 4.1]: CAS-SHAPE-FAIL by
+  the letter), local 4.56 / 4.30 / 4.18 falling monotonically toward 4: PRE-ASYMPTOTIC
+  (the GR54 lesson stated alongside the letter). K d_eff^3 = 0.0531, 0.0369, 0.0328,
+  0.0312 converging from above (Richardson 0.0306/0.0314) against pi^2/720 = 0.0137 for
+  two EM polarizations at S_eff = hbar: K/K_2 = 2.2-2.3, about 4.5 scalar-polarization
+  units. Natural accounting, NOT rendered as a verdict: two transverse bands ~2 units plus
+  the longitudinal carrier, constrained by A2 and three times faster (c_L,f = 3.00 c_T,
+  FND-126), ~3 units = 0.0343 -- the CAS-CHANNEL-KILL structure, licensed only under a p
+  in window. Reading (iii) p = 3.56 (pre-asymptotic toward the classical 3); reading (i)
+  p = 2.89 with local 2.47 -> 3.07: the coherent-winding slice is not a Casimir law. (111)
+  orientation unreached. GRANTED (author, 2026-09-05): the SIGN RESULT -- an attractive
+  Casimir-class force from carried modes under the derived plate condition. The exponent
+  and coefficient are recorded as pre-asymptotic; CAS-PIN/GAP/OVER not reached; FINE-GATE
+  Q2''s Casimir relation now sits behind an extension run. Named next-order: CAS-X (d = 60,
+  80 at L = 240; channel-resolved reading by eigenvector projection; CAS-ASYMPTOTIC /
+  STILL-TRANSIENT forms). Results analysis/CASIMIR_PLATE_results.md; checkpoint
+  analysis/casimir_plate_ckpt.pkl (annotated fault12).'

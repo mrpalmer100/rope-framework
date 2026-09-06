@@ -1,4 +1,4 @@
-"""ANTI-ALIGNED (ITEM 6a) Q1 + v1/v2 -- the linear internal spectrum per retained cell,
+"""ANTI-ALIGNED (ITEM 6a) Q1 + v1/v2  [v2: RAMP LADDER, the registered q-sweep protocol] -- the linear internal spectrum per retained cell,
 both sectors, at infinitesimal amplitude (A2 = 0.02 R2), on the 144x36 chart with the
 SJ-CREDENTIALED instrument (stage-2's Leg 0 protocol: a2-pinned small-amplitude solve
 with om2 FREE; the converged om2 is the linear root). Two seeds per sector as stage 2
@@ -20,38 +20,63 @@ CKPT = ROOT / 'analysis' / 'antialigned_ckpt.pkl'
 PAT = ROOT / 'analysis' / 'sparsej_pattern_144x36.pkl'
 CELLS = [('3/2', 2, 3), ('4/3', 3, 4), ('5/3', 3, 5), ('5/4', 4, 5)]
 SEEDS = [('aligned', +0.65), ('aligned', +1.20), ('anti', -0.35), ('anti', -0.65)]   # x Om1
+RAMP = (0.15, 0.30, 0.55, 0.80)                       # registered sub-pin ladder (q-sweep stage 1)
+CKPT_PAT = PAT
+
+
+
+def ramp_seed(T, G, sub, om2_seed):
+    W, Z, Tf, gam, om1 = G.level1()
+    ph = np.exp(1j * G.K2 * G.sgrid)[:, None] * np.exp(-1j * G.pgrid)[None, :]
+    return T.from_stage2(G.pack(W + sub * ph, Z, Tf, gam, om1, om2_seed)), om1
+
+
+def sparse_solve(T, seed, pin, rounds, st, key, stop_rms=None, hard_cap=None):
+    """protocol-faithful rung budget (q54_stage1_sparse.sparse_solve semantics)."""
+    ck, fk = key + '-cum', key + '-lastw'
+    cum = st.get(ck, 0); cap = hard_cap if hard_cap is not None else 4 * rounds
+    if cum >= cap: return np.asarray(st[key]['x'], float)
+    if cum >= rounds and key in st:
+        w = float(np.linalg.norm(T.wres(np.asarray(st[key]['x'], float), 'a2', pin, 50.0)))
+        if abs(w - st.get(fk, -1.0)) < 1e-12: return np.asarray(st[key]['x'], float)
+        st[fk] = w
+    sj, _ = SJ.make_instrument(T, seed, 'a2', pin, 50.0, cache=str(PAT))
+    bs = SJ.BandedTorusSolver(T.NS, T.NP, nglob=2)
+    return SJ.gn_sparse(T, seed, 'a2', pin, sj, bs, rounds=max(1, cap - cum), st=st, key=key, stop_rms=stop_rms)
 
 
 def main():
-    st = pickle.loads(CKPT.read_bytes()) if CKPT.exists() else {}
+    class PersistDict(dict):
+        def __setitem__(self, k, v):
+            if isinstance(k, str) and k.startswith('aa|') and not k.endswith('-cum') and not k.endswith('-lastw'):
+                super().__setitem__(k + '-cum', self.get(k + '-cum', 0) + 1)
+            super().__setitem__(k, v); CKPT.write_bytes(pickle.dumps(dict(self)))
+    st = PersistDict(pickle.loads(CKPT.read_bytes()) if CKPT.exists() else {})
     for tag, N1, N2 in CELLS:
         for sec, fac in SEEDS:
-            key = f'{tag}|{sec}|{fac:+.2f}'
-            if key in st and st[key].get('done'):
-                continue
-            T = q1.QTGrid(144, 36, N1, N2)
-            G = T.G2
-            W, Z, Tf, gam, om1 = G.level1()
-            A2 = 0.02 * S2.R2
-            ph = np.exp(1j * G.K2 * G.sgrid)[:, None] * np.exp(-1j * G.pgrid)[None, :]
-            x0 = T.from_stage2(G.pack(W + A2 * ph, Z, Tf, gam, om1, fac * om1))
-            sj, _ = SJ.make_instrument(T, x0, 'a2', A2, 50.0, cache=str(PAT))
-            bs = SJ.BandedTorusSolver(144, 36, nglob=2)
-            xn = SJ.gn_sparse(T, x0, 'a2', A2, sj, bs, rounds=60, st=st, key=key + '|solve')
+            if sec == 'aligned' and tag != '3/2': continue     # aligned roots at 4/3, 5/3, 5/4 are held by the registered waypoint-1 members
+            key = f'aa|{tag}|{sec}|{fac:+.2f}'
+            if st.get(key + '|done'): continue
+            T = q1.QTGrid(144, 36, N1, N2); G = T.G2; A2 = 0.02 * S2.R2
+            xw = None; om1 = G.level1()[4]
+            for frac in RAMP:
+                sub = frac * A2; rk = f'{key}|rung{frac}'
+                if rk in st: xw = np.asarray(st[rk], float); continue
+                seed = ramp_seed(T, G, sub, fac * om1)[0] if xw is None else xw
+                xw = sparse_solve(T, seed, sub, 10, st, f'{key}|sub{frac}', stop_rms=1e-5)
+                st[rk] = xw
+                print(f"  [{key}] rung {frac} A2 {sub:.7f}: RMS {T.field_rms(xw):.1e}", flush=True); return
+            xn = sparse_solve(T, xw, A2, 60, st, f'{key}|gate', hard_cap=60)
             m, ok = q1.gate(T, xn, key, pin=A2)
-            it = st.get(key + '|solve', {}).get('it', -1)
-            done = ok or it >= 59
-            if done:
+            it = st.get(f'{key}|gate-cum', 0)
+            if ok or it >= 60:
                 ladder = [om1 * n / N1 for n in range(1, 4 * N1 + 1)]
-                near = min(ladder, key=lambda L: abs(abs(m['om2']) - L))
-                st[key] = dict(done=True, gated=bool(ok), om2=float(m['om2']), om1=float(om1), rms=float(m['rms']),
-                               ladder_nearest=float(near), rel=float(abs(abs(m['om2']) - near) / near))
-                CKPT.write_bytes(pickle.dumps(st))
-                print(f"[{key}] {'GATED' if ok else 'BUDGET'} om2 = {m['om2']:+.5f} (Om1 {om1:.5f}); nearest cell mode "
-                      f"{near:.5f} ({'ON' if abs(abs(m['om2'])-near)/near < 1e-4 else 'off'} by {abs(abs(m['om2'])-near)/near:.1e})",
-                      flush=True)
+                near = min(ladder, key=lambda L: abs(abs(m['om2']) - L)); rel = abs(abs(m['om2']) - near) / near
+                st[key + '|done'] = dict(gated=bool(ok), om2=float(m['om2']), om1=float(om1), rms=float(m['rms']), ladder_nearest=float(near), rel=float(rel))
+                print(f"[{key}] {'GATED' if ok else 'BUDGET'} om2 = {m['om2']:+.5f} (Om1 {om1:.5f}); nearest cell mode {near:.5f} "
+                      f"({'ON' if rel < 1e-4 else 'off'} by {rel:.1e})", flush=True)
             else:
-                print(f"[{key}] resume (round {it})", flush=True)
+                print(f"[{key}] gate resume (round {it})", flush=True)
             return
     print("[antialigned] ALL CELLS COMPLETE -- run the Q1 verdict", flush=True)
 

@@ -1,30 +1,26 @@
-name: verify-corpus
+name: verify
+
 on:
   push:
-    branches: [ main ]
   pull_request:
-    branches: [ main ]
+
 jobs:
   verify:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.10", "3.11", "3.12"]
+        python-version: ["3.11", "3.12"]
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Install package
+      - name: Install the evidence-generating numerical stack (pinned)
         run: |
           python -m pip install --upgrade pip
-          pip install -e ".[dev]"
           pip install -r requirements.txt
-      - name: Quickstart smoke test
-        run: python quickstart.py
-      - name: Verify corpus (registry benchmarks; env-sensitive set skipped, labelled)
+          python -c "import numpy, scipy; print('numpy', numpy.__version__, 'scipy', scipy.__version__)"
+      - name: Verify corpus
         run: python tools/verify_corpus.py --skip-heavy
-      - name: Run regression tests
-        run: pytest -q

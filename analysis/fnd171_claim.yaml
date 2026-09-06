@@ -1,0 +1,39 @@
+id: FND-171
+title: 'COMMISSION LADDER -- THE ASYMMETRY COEFFICIENT BRACKETED BY TWO DERIVED LADDERS:
+  THE NUCLEON-MASS (TEXTBOOK) LADDER GIVES 12.8 MeV AND THE BUNDLE-MODE LADDER (DISPERSION
+  DERIVED FROM mu = T/c^2 AND THE YUKAWA MASS GAP, NO FERMI-GAS FORM) GIVES 39.5 MeV, WITH
+  THE EMPIRICAL 23 MeV BETWEEN; SHAPE (N-Z)^2/A EXACT IN THE CONTINUUM LIMIT; THE
+  LADDER-BUILT R4 STIFFNESS IS NOT A CONSTANT; NO STRAND-PATH CLASS GIVES -1/2'
+status: registered
+note: 'Charter analysis/LADDER_charter_LOCKED.md (locked before the dispersion was derived;
+  grade ceiling Modeled-CONDITIONAL on mode quantization and the two-per-level exclusion
+  rule, inherited). CONTROL FINDING (v1): NUC-022''s ladder reproduces BIT-EXACTLY
+  (E(40,4) = 1137.068, deficit 6.9759, continuum E_F/3 = 12.8 at 38.4) only as a CUBIC BOX
+  of side 2R(A) with two nucleons per (nx, ny, nz) state at m = 939.0 MeV; NUC-022''s text
+  says "a sphere of radius R" (the sphere gives 1587 and a median of 32). Calibrated on the
+  instrument NUC-022 ran; the discrepancy goes on NUC-022''s face. LEG 1 (derived, before
+  filling): the bundle''s transverse modes at mu = T/c^2 propagate at c; NUC-004''s mode-
+  overlap binding is the evanescent tail of a mode with mass gap kappa = 1/L (L = 1.4 fm,
+  registered input); hence E(k) = hbar c sqrt(k^2 + kappa^2), gap 141 MeV cancelling in
+  every difference; the nucleon mass enters nowhere. Q1 (ASYM-FORM): the discrete box
+  cannot resolve the exponents even for the textbook control (q = 1.52 for all three
+  dispersions; degenerate shells give zero deficits) -- NO CALL by discrete fit; the
+  continuum limit of the same object is exact at q = 2, m = -1 for every dispersion with
+  a_A = k_F E''(k_F)/6: textbook 12.8, derived massive 39.5, massless 44.7 MeV (discrete
+  medians 11.0 / 34.7 / 39.4). Targets loaded once in Leg 5 (a_A = 23; v0 = 16.97): the
+  derived ladder OVERSHOOTS by R = 1.5-1.9, A-flat -- a SCALE miss with a named defendant,
+  the ladder''s inertia (E_F/c^2 ~ 303 MeV at the Fermi surface where nature carries 939);
+  the label term added per D4 makes the sum larger and worse-shaped (a finding against
+  its asymmetry content, reported not re-weighted). THE BRACKET 12.8 < 23 < 39.5 is the
+  sector''s sharpest statement of the missing inertia: a dispersion carrying both the
+  bundle''s speed and the nucleon''s registered mass (NUC-001) is the named next-order.
+  Q2 (PAIR-ROUTE-SPLIT): the derived ladder''s top-level spacing runs 27 -> 6 MeV across
+  A = 40..208 (slope -0.81), not an A-independent v0; P1 fails; NUC-030 does not return to
+  adjudication. Q3: the three 1D strand-path classes give band-remainder exponents -2/3
+  (chord, on the lattice), -4/3 and -2 (surface walk, space-filling: OFF the lattice, new
+  exponents with mechanism), smearing 0 for all; none within 0.8 of -1/2 except the chord
+  at 0.10: NO LOOPHOLE -- R4''s non-locality is necessary over the enumeration NUN owed;
+  NUC-030 strengthened. Controls: R4 -1/2 reproduced; NUN four channels reproduced; Delta_
+  E(A,0) = 0 exactly; clean room held (the one Leg 2 flag was the computed value 23.1 at
+  A = 208, not the target). Results analysis/LADDER_results.md; logs analysis/ladder/.
+  Granted by the author 2026-09-05.'

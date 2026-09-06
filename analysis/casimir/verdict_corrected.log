@@ -1,0 +1,8 @@
+FAULT 12 corrected: sum W = 1.2403  (pi k_c^2 = 1.2403 )
+LEG 3 (corrected weights):
+(ii) standing-wave action: E(d)=['-3.988e-05', '-3.985e-06', '-1.101e-06', '-4.522e-07']  force p (top-3 fit) = 4.256  local p_F = [np.float64(4.56), np.float64(4.3), np.float64(4.18)]  K d_eff^3 = [0.053084 0.036905 0.032804 0.031165]
+(iii) warm-weave: E(d)=['-1.019e-03', '-1.928e-04', '-7.194e-05', '-3.463e-05']  force p (top-3 fit) = 3.564  local p_F = [np.float64(3.57), np.float64(3.53), np.float64(3.61)]  K d_eff^3 = [1.355904 1.785118 2.143168 2.386784]
+(i) coherent slice: E(d)=['-3.473e-02', '-1.340e-02', '-6.725e-03', '-3.767e-03']  force p (top-3 fit) = 2.889  local p_F = [np.float64(2.47), np.float64(2.77), np.float64(3.07)]  K d_eff^3 = [ 46.231325 124.110336 200.359317 259.63677 ]
+
+LEG 5: two-polarization pi^2/720 = 0.013708; (ii) K Richardson 0.030619/0.031438 -> ratio 2.234/2.293; single-pol pi^2/1440 = 0.006854
+VERDICT: p = 4.26 outside [3.9, 4.1]
