@@ -1,0 +1,37 @@
+id: FND-172
+title: 'COMMISSION ANTI-ALIGNED (ITEM 6a), Q1 -- AA-STRUCTURAL WITH A CLOSED FORM: THE
+  ANTI-ALIGNED LINEAR ROOT IS THE LEVEL-1 DISPERSION AT THE DIFFERENCE WAVENUMBER,
+  om2^(-) = -Om1 (N2 - N1)/N1 = -sqrt(T) (K2 - K1), ON A CELL MODE WITH n = N2 - N1 IN
+  EVERY RETAINED CELL (3/2, 4/3, 5/3, 5/4; rel <= 8e-5); FND-142''s Om1/2 WAS THE N1 = 2
+  INSTANCE; TWO ANTI-ALIGNED MEMBERS GATE AT 5/4 UNDER THE INSTRUMENT BARS, 8e-5 DETUNED'
+status: registered
+note: 'Charter analysis/ITEM6_charters_LOCKED.md section 6a (locked before any root was
+  computed; "on a mode" = within 1e-4 of sqrt(T) k1 n/N1, D1). Instrument: the credentialed
+  sparse torus instrument on the 144x36 chart; protocol = stage 2''s Leg 0 (a2-pinned
+  solve at A2 = 0.02 R2 = the waypoint-1 amplitude, om2 FREE) reached by the registered
+  ramp ladder (0.15/0.3/0.55/0.8, protocol-faithful rung budgets); two seeds per sector;
+  executed on the author''s laptop (benchmarks/foundations/antialigned_q1.py v2); verdict
+  from the sealed checkpoint once (analysis/ANTIALIGNED_Q1_verdict.log). CONTROLS: v1 the
+  aligned root +3.20077 GATED at 3/2 (FND-142''s +3.201) and +2.14841 at 4/3 (FND-147''s
+  2.148); v2 FND-142''s resonant plateau reproduced -- the anti-aligned solves at 3/2, 4/3,
+  5/3 converge om2 to 1e-5 and then crawl at 0.5 pct per round along a direction of nearly
+  constant residual (BUDGET at RMS 4e-7 to 4e-6, closure and Nyquist passing), the
+  degenerate direction at exact resonance (Q2''s 2D kernel seen in Q1''s solves). Q1: om2^(-)
+  = -2.22145 (3/2), -1.48094 (4/3), -2.96179 (5/3), -1.11063 (5/4); nearest cell modes
+  Om1 n/N1 with n = 1, 1, 2, 1 = N2 - N1 in every cell, rel 4e-6 / 2e-5 / 4.5e-5 / 8e-5;
+  seeds agree to 1e-5. Hence om2^(-) = -Om1 (N2 - N1)/N1 = -sqrt(T)(K2 - K1): the level-1
+  dispersion evaluated at the difference wavenumber -- the charter''s "difference frequency
+  by construction". The aligned root sits OFF the ladder in every cell: the two handedness
+  sectors are structurally different objects (a linear difference-frequency resonance vs
+  a nonlinear branch). AA-STRUCTURAL. EXISTENCE EVIDENCE (recorded for D2/D3, not
+  rendered): at 5/4 both anti-aligned seeds GATED under the instrument''s registered bars
+  (RMS 4.4e-9 and 7.4e-9; closure, Nyquist pass) at om2 = -1.11063, 8e-5 detuned from the
+  exact resonance; the charter''s D3 letter (RMS <= 1e-9, 60 rounds, no extension) is a
+  factor 4-7 above these at the budget used. The +1.20 Om1 aligned seed (stage 2''s dense-
+  solver route to the anti root) deadlocks under the 0.05 step cap and was dropped
+  (recorded). NEXT STEP: Q2 (D2), the Lyapunov-Schmidt reduction on the 2D kernel at 5/4
+  predicting the detuning and the leading amplitude relation, then D3 by the letter; AA-
+  BRANCH is the expected outcome, with FND-088''s handedness fork closing (both level-2
+  signs real) and FND-139''s anti-aligned Sigma_wave corner gaining an object. Results
+  analysis/ANTIALIGNED_results.md; checkpoint analysis/antialigned_ckpt.pkl. Granted by
+  the author 2026-09-07.'

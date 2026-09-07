@@ -351,3 +351,12 @@ item, driver to be built after Leg A; Leg C prices last.
 ## 432x54 (N1 = 9) ~ 8 GB estimated -- within the laptop, so the D3
 ## conditional on N1 = 9 is expected to clear; measured peaks recorded by
 ## the run.
+
+## AMENDMENT (Leg B, pre-data, 2026-09-07): the sparse instrument's trust
+## cap (0.05 on the whole step, credentialed at 144 x 36) is made scale-
+## invariant, cap = 0.05 sqrt(n / n_144x36), so the per-point step equals
+## the credentialed one on every chart (0.065 at 240 x 36, 0.094 at
+## 336 x 54, 0.106 at 432 x 54; unchanged at 144 x 36). Observed before any
+## Leg B measurement: the 7/5 ramp at 240 x 36 converged 5-8 pct per round
+## at the fixed cap vs 50-90 pct on 144 x 36. No sealed quantity existed;
+## the level-1 check and the rung states are unaffected in meaning.

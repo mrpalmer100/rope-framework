@@ -1,0 +1,19 @@
+ANTI-ALIGNED Q1 -- sealed members from the v2 (ramp) run, plus the v1 direct-solve preview (unsealed) where present
+cell  sector   seed  grade        om2      RMS  nearest n/N1      rel   n N2-N1  om2 + Om1(q-1)
+ 3/2 aligned  +0.65  GATED   +3.20077  8.8e-09       2.22144  4.4e-01   1     1            +nan
+ 3/2    anti  -0.35 BUDGET   -2.22145  6.1e-07       2.22144  4.9e-06   1     1       -1.08e-05
+ 3/2    anti  -0.65 BUDGET   -2.22145  5.8e-07       2.22144  4.4e-06   1     1       -9.78e-06
+ 4/3    anti  -0.35 BUDGET   -1.48094  6.6e-07       1.48096  1.8e-05   1     1       +2.59e-05
+ 4/3    anti  -0.65 BUDGET   -1.48094  6.8e-07       1.48096  1.7e-05   1     1       +2.55e-05
+ 5/3    anti  -0.35 BUDGET   -2.96179  4.0e-06       2.96192  4.4e-05   2     2       +1.30e-04
+ 5/3    anti  -0.65 BUDGET   -2.96179  3.8e-06       2.96192  4.5e-05   2     2       +1.32e-04
+ 5/4    anti  -0.35  GATED   -1.11063  4.4e-09       1.11072  8.0e-05   1     1       +8.87e-05
+ 3/2 aligned  +1.20 BUDGET   +3.57936  2.2e-03       4.44288  1.9e-01   2     1            +nan
+ 5/4    anti  -0.65  GATED   -1.11063  7.4e-09       1.11072  8.1e-05   1     1       +9.03e-05
+
+Q1 READING: every anti-aligned root lies ON a cell mode (rel <= 8.1e-5 < 1e-4) with n = N2 - N1 in EVERY cell:
+   om2^(-) = -Om1 (N2 - N1)/N1 = -sqrt(T) (K2 - K1): the level-1 dispersion evaluated at the DIFFERENCE wavenumber.
+   The 3/2 value Om1/2 was the N1 = 2, N2 - N1 = 1 case of this law, not a fixed root.
+
+EXISTENCE (D3-equivalent, unplanned): 2 anti-aligned member(s) GATED at full bars: 5/4 seed -0.35 om2 -1.11063 RMS 4.4e-09 rel-detuning 8.0e-05; 5/4 seed -0.65 om2 -1.11063 RMS 7.4e-09 rel-detuning 8.1e-05
+   The other three cells plateau at RMS 4-6e-7 with om2 converged to 1e-5 (FND-142's resonant plateau class, v2): degenerate direction at the exact resonance; the 5/4 member sits 8e-5 detuned and gates.

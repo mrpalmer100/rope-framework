@@ -324,8 +324,16 @@ def gn_sparse(T, x, pin_mode, aux, sj, bs, rounds=60, PW=50.0,
             bs.factor(J, lam, d2)
             dx = bs.solve(J.T @ r0)
             _nd = float(np.linalg.norm(dx))
-            if _nd > 0.05:
-                dx = dx * (0.05 / _nd)
+            # [SJ AMENDMENT 2026-09-07, COMPOSITE-SELECT Leg B] the trust
+            # cap 0.05 was credentialed on the 144 x 36 chart as a bound on
+            # the WHOLE step vector; on larger charts the same bound means
+            # proportionally smaller moves per point (7/5 at 240 x 36: 5-8
+            # pct per round vs 50-90). The cap is made scale-invariant by
+            # keeping the per-point step identical to the credentialed one:
+            # cap = 0.05 * sqrt(n / n_144x36). Unchanged on 144 x 36.
+            _cap = 0.05 * np.sqrt(len(dx) / (2 * 144 * 36 + 2))
+            if _nd > _cap:
+                dx = dx * (_cap / _nd)
             for a_ in (1.0, 0.5, 0.25, 0.1, 0.03):
                 xt = x + a_ * dx
                 f2 = wn(xt)
