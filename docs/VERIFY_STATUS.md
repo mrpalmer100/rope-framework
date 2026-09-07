@@ -150,3 +150,20 @@ HARDWARE -- committed bytes restored, benchmark passes with a note. Only a
 numerical difference is MUTATION. The numerical stack is pinned in
 requirements.txt (numpy 2.4.4, scipy 1.17.1; Python >= 3.11) to remove the
 formatting axis entirely.
+
+## 2026-09-07: hardware-sensitive iterative evidence (six documented waivers)
+After the noise-vs-mutation adjudication, six benchmarks still regenerate
+their evidence differently on the GitHub runner: ELEC-004A-R, ELEC-006,
+ELEC-007, ELEC-008 (electron-candidate searches, Failed and kept),
+ROPE-MODE-003 (surrounding-field modes, Failed and kept) and
+ROPE-VALIDATION-003 (the excluded-core Aharonov-Bohm instrument). All are
+iterative optimizer or validation runs whose trajectories -- iteration
+counts, final digits -- depend on the CPU and BLAS build through hundreds
+of iterations, so a different machine produces a different history file,
+not a last-bit perturbation. Every one reproduces BYTE-EXACTLY in the
+reference environment (Linux, numpy 2.4.4, scipy 1.17.1). The claim content
+does not turn on those digits. They are carried as documented waivers
+(the FND-143 mechanism): they still print as failures, are counted as
+waived, and do not fail the run. Queued: deterministic re-derivation with
+fixed iteration counts and a summary-only evidence file per benchmark, at
+which point the waivers retire.

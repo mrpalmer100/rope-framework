@@ -1,0 +1,37 @@
+id: FND-173
+title: 'COMMISSION ANTI-ALIGNED (ITEM 6a), Q2/D3 -- AA-BRANCH: AN ANTI-ALIGNED TWO-FREQUENCY
+  MEMBER EXISTS AT FULL BARS (RMS 8.35e-10, CLOSURE 5e-12) AT q = 5/4, A2 = 0.02 R2, om2 =
+  -1.110632, 8e-5 DETUNED FROM THE DIFFERENCE-FREQUENCY RESONANCE; BOTH LEVEL-2 HANDEDNESS
+  SIGNS ARE REAL AND STRUCTURALLY DIFFERENT OBJECTS; THE 2D RESONANT KERNEL EXHIBITED'
+status: registered
+note: 'Charter analysis/ITEM6_charters_LOCKED.md section 6a, D2/D3, after FND-172''s Q1.
+  D3 (one gating attempt, 60-round budget, no extension): seeded from the 5/4 anti-
+  aligned member that had gated under the instrument bars (RMS 4.37e-9, seed -0.35 Om1),
+  the a2-pinned solve with om2 free reached RMS 8.35e-10, closure 5.1e-12, om2 = -1.110632
+  in 8 rounds; the D3 letter (RMS <= 1e-9, closure < 1e-6) is met. The member is stored in
+  analysis/antialigned_ckpt.pkl (d3|5/4|anti|polished). Q2 (D2, the Lyapunov-Schmidt
+  reduction on the credentialed sparse instrument at the level-1 state with om2 at the
+  difference frequency): the 2D kernel is exhibited -- in the (s-harmonic 1, phi-harmonic
+  1) subspace the linearization''s singular values are 5.28, 5.28, 2.82, 2.82, 0.108, 6.7e-4,
+  1.2e-4, 1.2e-4 against a mean row norm of 29 (a 1:1 resonance to 2e-5 relative); the
+  injection direction is 99.999 pct inside the kernel; the resonant partner is the other
+  polarization of the same (s - phi) helical pattern, not a phi-independent level-1 wave.
+  The linear pencil on the kernel places the anti-aligned linear roots at detuning -7.2e-5
+  and +3.98e-4 about the exact difference frequency, and the second-order amplitude shift
+  is positive (kappa = +1.2e-4 per unit^2, +4.1e-5 at the member amplitude); the measured
+  member offset +8.9e-5 lies inside the bracket with the predicted sign and magnitude of
+  the nonlinear shift. The charter''s 1 pct amplitude relation (v3 on the aligned branch)
+  was not run and the reduction does not reproduce the detuning to 1 pct: NO CALL on that
+  bar, recorded; the mechanism (a branch off the resonance at a small detuning fixed by
+  the second-order solvability condition) is established and D3 found the branch. Caution
+  recorded: a naive smallest-singular-direction search on this instrument returns Nyquist
+  grid modes (|Jv| ~ 2e-7), not the physical kernel. VERDICT AA-BRANCH. CONSEQUENCES:
+  both level-2 handedness signs are real -- FND-088''s "handedness fork" does NOT close by
+  theorem; it stays open as a genuine two-branch structure whose branches are structurally
+  different (a linear difference-frequency resonance of the level-1 wave, FND-172, vs a
+  nonlinear branch off the cell ladder); FND-139''s anti-aligned Sigma_wave corner has an
+  object to be priced on. Named next-order (executed as COMMISSION ANTI-ARC): an arc march
+  of the anti-aligned family from the polished member under the q-sweep protocol, to test
+  whether it collapses as the aligned families do; and the 1 pct amplitude relation.
+  Results analysis/ANTIALIGNED_results.md; reduction files analysis/antialigned/.
+  Granted by the author 2026-09-07.'

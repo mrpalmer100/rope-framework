@@ -354,9 +354,14 @@ item, driver to be built after Leg A; Leg C prices last.
 
 ## AMENDMENT (Leg B, pre-data, 2026-09-07): the sparse instrument's trust
 ## cap (0.05 on the whole step, credentialed at 144 x 36) is made scale-
-## invariant, cap = 0.05 sqrt(n / n_144x36), so the per-point step equals
-## the credentialed one on every chart (0.065 at 240 x 36, 0.094 at
-## 336 x 54, 0.106 at 432 x 54; unchanged at 144 x 36). Observed before any
+## aware: cap = 0.05 sqrt(n / 10370) as implemented (the constant counts
+## two fields per point; the state carries three, n = 15554 at 144 x 36),
+## so the cap is 0.079 at 240 x 36, 0.115 at 336 x 54, 0.130 at 432 x 54
+## -- a fixed 1.22x of the strictly per-point-equivalent step on every
+## larger chart, and 0.061 (1.22x) at 144 x 36 itself only if this code
+## path is used there; the credentialed 144 x 36 runs predate it. The
+## acceptance ladder and basin guard are unchanged and govern every step.
+## CORRECTED 2026-09-07 after the first scaled rung ran at 0.079. Observed before any
 ## Leg B measurement: the 7/5 ramp at 240 x 36 converged 5-8 pct per round
 ## at the fixed cap vs 50-90 pct on 144 x 36. No sealed quantity existed;
 ## the level-1 check and the rung states are unaffected in meaning.

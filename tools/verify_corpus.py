@@ -346,10 +346,19 @@ VERIFY_MODE = {
     "benchmarks/foundations/native96_continuation.py",
 }
 
+_HW = ("hardware-sensitive iterative evidence: an optimizer/validation run whose "
+       "trajectory (iteration count, final digits) depends on the CPU/BLAS through "
+       "hundreds of iterations; reproduces byte-exactly in the reference environment "
+       "(Linux, numpy 2.4.4, scipy 1.17.1) and within tolerance nowhere else; the "
+       "claim content (a Failed-and-kept search or an instrument validation) is not "
+       "sensitive at that level; deterministic re-derivation with fixed iteration "
+       "counts queued (docs/VERIFY_STATUS.md, 2026-09-07)")
 WAIVERS = {
     "FND-143": "archival gap: /tmp session state never exported; "
                "claim numbers stand in its records; re-derivation "
                "queued",
+    "ELEC-004A-R": _HW, "ELEC-006": _HW, "ELEC-007": _HW, "ELEC-008": _HW,
+    "ROPE-MODE-003": _HW, "ROPE-VALIDATION-003": _HW,
 }
 
 

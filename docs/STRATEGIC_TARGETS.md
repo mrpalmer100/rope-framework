@@ -39,7 +39,7 @@ Tasks, in order:
    paper's own terms (KNOWN_LIMITATIONS already carries it; the
    external document should not be caught with it).
 5. Version the paper (v3.21-aligned), regenerate the PDF, and
-   unfreeze ZENODO_RELEASE_NOTES.md in the same pass.
+   refresh ZENODO_RELEASE_NOTE.md (the live deposit note; the frozen v3.26.0 long-form note is archived at docs/history/ZENODO_RELEASE_NOTES_v3.26.0.md) in the same pass.
 
 Explicitly OUT of scope: any new derivation, any commission, any
 touch of n_b, g_C4, or the multiplicity-currency question.

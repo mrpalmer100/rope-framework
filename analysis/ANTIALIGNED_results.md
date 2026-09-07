@@ -74,3 +74,62 @@ letter is 1e-9); it is the expected outcome and is now cheap to close.
 Ramp ladder = the registered q-sweep protocol; two seeds per sector;
 verdict from the sealed checkpoint once. The v1 direct-solve run (an
 instrument-inappropriate protocol) is kept as the preview it was.
+
+# Q2 AND D3 (2026-09-07) -- ** AA-BRANCH **
+
+## D3 -- the gating attempt by the letter: MET
+Seeded from the 5/4 anti-aligned member that had gated under the
+instrument bars (RMS 4.37e-9), the a2-pinned solve at A2 = 0.02 R2 with
+om2 free reached
+      RMS 8.35e-10   closure 5.1e-12   om2 = -1.110632
+in 8 rounds (charter budget 60; no extension; analysis/antialigned/
+d3_polish.pkl; the polished state is stored in analysis/antialigned_
+ckpt.pkl under d3|5/4|anti|polished). The D3 letter (RMS <= 1e-9,
+closure < 1e-6) is satisfied. The member sits 8e-5 detuned (relative)
+from the exact difference frequency -Om1/4 = -1.11072.
+
+## Q2 -- the Lyapunov-Schmidt reduction at 5/4 (D2): kernel exhibited,
+## detuning bracketed, 1 pct relation NOT reached (NO CALL on that bar)
+Built on the credentialed sparse instrument at the level-1 state with
+om2 at the difference frequency (analysis/antialigned/ls_step*.pkl):
+- THE 2D KERNEL IS REAL. In the (s-harmonic 1, phi-harmonic 1) subspace
+  -- where the level-2 injection lives in the level-1 frame -- the
+  linearization's singular values are 5.28, 5.28, 2.82, 2.82, 0.108,
+  6.7e-4, 1.2e-4, 1.2e-4 against a mean row norm of 29: two near-null
+  directions (plus e2's phase partner), a 1:1 resonance to 2e-5
+  relative. The injection direction e2 is 99.999 pct inside the kernel;
+  the 0.108 direction is e2's amplitude, lifted by the pin row. The
+  resonant partner c is the OTHER POLARIZATION of the same (s - phi)
+  helical pattern, not a phi-independent level-1 wave (that subspace has
+  no null direction). Caution recorded: a naive smallest-singular-
+  direction search returns Nyquist grid modes (|Jv| ~ 2e-7); the
+  physical kernel must be sought in the physical harmonic subspace.
+- THE LINEAR PENCIL on the kernel puts the anti-aligned linear roots at
+  detuning -7.2e-5 and +3.98e-4 about the exact difference frequency;
+  the second-order amplitude shift is POSITIVE, kappa = +1.2e-4 per
+  unit^2, i.e. +4.1e-5 at the member amplitude. The measured member
+  offset +8.9e-5 lies inside the pencil's bracket with the sign and
+  magnitude of the predicted nonlinear shift. The charter's 1 pct
+  amplitude relation (v3, on the aligned branch) was not run and the
+  reduction as built does not reproduce the detuning to 1 pct: Q2 is
+  NO CALL on that bar. What Q2 establishes is the mechanism: a branch
+  exists off the resonance at a small detuning fixed by the second-
+  order solvability condition, and D3 found it.
+
+## VERDICT: ** AA-BRANCH **
+An anti-aligned two-frequency member EXISTS at full bars (D3 letter) at
+the resonant cell, 8e-5 detuned from the difference-frequency
+resonance; the anti-aligned linear root is the level-1 dispersion at
+the difference wavenumber in every cell (Q1, FND-172). Consequences:
+- HANDEDNESS: both level-2 signs are real. FND-088's exhaustive solve
+  carried both; the "handedness fork" of the angle-family file does NOT
+  close by theorem -- it stays open as a genuine two-branch structure,
+  with the two sectors being structurally different objects (a linear
+  difference-frequency resonance vs a nonlinear branch).
+- FND-139's anti-aligned Sigma_wave corner now has an object to be
+  priced on: the polished 5/4 member. Pricing is its own step (the
+  price() transplant of FND-169's Leg A applies directly).
+- Named next-order: the 1 pct amplitude relation (v3 on the aligned
+  branch; the reduction's coefficients are on file) and the anti-
+  aligned family's continuation (an arc march from the polished member
+  under the q-sweep protocol) to see whether it too collapses.
