@@ -17,7 +17,7 @@ dev = ["pytest>=8", "PyYAML>=6.0"]
 
 [project.urls]
 Zenodo = "https://doi.org/10.5281/zenodo.21430784"
-Repository = "https://github.com/mrpalmer100/rope-framework"
+Repository = "https://github.com/mrpalmer100/mesh-framework"
 
 [tool.setuptools]
 packages = ["rope_solver", "rope_solver.psi", "rope_solver.topology",

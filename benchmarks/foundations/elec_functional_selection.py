@@ -45,7 +45,7 @@ def main():
     print("   On this reading that model is not the framework's, so those three")
     print("   claims are DOWNGRADED from conditional to superseded-in-premise:")
     print("   their arithmetic stands, their subject does not exist in this")
-    print("   framework. Nothing in them should be cited as a rope-framework")
+    print("   framework. Nothing in them should be cited as a mesh-framework")
     print("   result without this note attached.")
     print("   EM-RECON-011 IS ITSELF INTERNALLY STRAINED, and this must be said:")
     print("   its leg (1) asserts u is gauge because there are no material points,")

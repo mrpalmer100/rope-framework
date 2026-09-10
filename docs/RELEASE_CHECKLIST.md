@@ -26,7 +26,9 @@ short because the tooling does the work; the ORDER is the point.
    docs/VERIFY_STATUS.md; README badge numerator = passing,
    denominator = code-backed (the tripwire checks the
    denominator and passing <= backed).
-6. ZENODO_RELEASE_NOTE.md and root RELEASE_NOTES_X.Y.Z.md
+6. ZENODO_RELEASE_NOTE.md (release notes live ONLY in
+   docs/history/RELEASE_NOTES_vX.Y.Z.md -- no root copy; the root
+   duplicates were removed 2026-09-09)
    updated (the GitHub release body).
 7. Evidence hygiene: every campaign's /tmp checkpoints exported
    to analysis/ (standing rule); the release zip cut ONLY after

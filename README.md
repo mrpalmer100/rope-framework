@@ -1,11 +1,11 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21430784.svg)](https://doi.org/10.5281/zenodo.21430784)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Verify](https://img.shields.io/badge/verify-640%2F641%20passing-brightgreen.svg)](#verify-it-yourself)
-[![verify-corpus](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml/badge.svg)](https://github.com/mrpalmer100/rope-framework/actions/workflows/verify.yml)
+[![verify-corpus](https://github.com/mrpalmer100/mesh-framework/actions/workflows/verify.yml/badge.svg)](https://github.com/mrpalmer100/mesh-framework/actions/workflows/verify.yml)
 
 # The Mesh Programme (mesh framework)
 
-Repository: `rope-framework` (identifier unchanged; see the naming note below).
+Repository: `mesh-framework` (renamed from `rope-framework` on 9 September 2026; the old URL redirects). See the naming note below.
 
 **Published:** [https://doi.org/10.5281/zenodo.21430784](https://doi.org/10.5281/zenodo.21430784) · **Author ORCID:** [https://orcid.org/0009-0007-2454-5573](https://orcid.org/0009-0007-2454-5573) 
 
@@ -16,7 +16,7 @@ Repository: `rope-framework` (identifier unchanged; see the naming note below).
 
 A machine-verified development of the Rope Hypothesis into the mesh framework: a classical, mechanical model in which the vacuum is a mesh of physical filaments and matter and light are its configurations, put into falsifiable, independently checkable form.
 
-> **Naming (5 September 2026):** this programme is now **the Mesh Programme**, and the theory it develops **the mesh framework**. The vacuum object in every derivation is the mesh of strands (the mesh spacing a, the fine mesh a_f, mesh compression); "rope" remains the name of one specific thing in the theory, the two-strand wound object that is a particle, and the Rope Hypothesis credited to Bill Gaede keeps its name. Identifiers are unchanged (the `rope-framework` repository and DOI, the `rope_solver` package, file names, claim IDs); the repository will be renamed with a later release, with redirects.
+> **Naming (5 September 2026):** this programme is now **the Mesh Programme**, and the theory it develops **the mesh framework**. The vacuum object in every derivation is the mesh of strands (the mesh spacing a, the fine mesh a_f, mesh compression); "rope" remains the name of one specific thing in the theory, the two-strand wound object that is a particle, and the Rope Hypothesis credited to Bill Gaede keeps its name. The repository was renamed `mesh-framework` on 9 September 2026 (the old `rope-framework` URL redirects; the Zenodo concept DOI is unchanged). The `rope_solver` package, file names and claim IDs are identifiers and stay as they are.
 
 
 > **This corpus establishes numerical reproducibility and internal consistency, not physical truth.** Whether the underlying physics is correct is exactly what external scrutiny is invited to decide.
@@ -25,7 +25,7 @@ A machine-verified development of the Rope Hypothesis into the mesh framework: a
 >
 > **What makes it unusual is the discipline.** Every claim is registered with a pass/fail line drawn *before* the computation runs, and the failures are kept on permanent display rather than quietly dropped. As of this release:
 <!-- BEGIN GENERATED: corpus_stats -->
-*764 registered claims, 641 code-backed and passing, 121 Derived, 47 registered Failed and kept.*
+*765 registered claims, 641 code-backed and passing, 121 Derived, 47 registered Failed and kept.*
 <!-- END GENERATED: corpus_stats --> A dealbreaker, if one exists, should be findable in about five minutes — start with [`KNOWN_LIMITATIONS.md`](KNOWN_LIMITATIONS.md).
 >
 > **Where it is strong (the five-line version):** electromagnetism and optics derive from one wave equation on the weave; the classic gravity tests (light bending, Mercury, clock rates) come out exact; the fine-structure constant lands at 178 ppm from geometry; chemistry and the nuclear mass table are full mechanical layers; and the exact quantum ceiling (the Tsirelson bound) is a theorem. Full account: [`docs/WHERE_IT_STANDS.md`](docs/WHERE_IT_STANDS.md); how it unfolded: [`docs/SURPRISES.md`](docs/SURPRISES.md).
@@ -34,7 +34,7 @@ A machine-verified development of the Rope Hypothesis into the mesh framework: a
 
 > **Corpus state:**
 <!-- BEGIN GENERATED: status_breakdown -->
-764 registered claims (121 Derived, 556 Modeled, 4 EFT-constrained, 2 Conjecture, 7 Open, 47 Failed-and-kept, 27 registered); 641 code-backed.
+765 registered claims (121 Derived, 556 Modeled, 4 EFT-constrained, 2 Conjecture, 7 Open, 47 Failed-and-kept, 28 registered); 641 code-backed.
 <!-- END GENERATED: status_breakdown -->
 > Counts regenerate from `claims.yaml` — the authority is the registry, not this line.
 
@@ -56,7 +56,7 @@ A machine-verified development of the Rope Hypothesis into the mesh framework: a
 
 
 <!-- BEGIN GENERATED: current_release -->
-**Current release: v3.31.0** (5 Sep 2026), 764 claims.
+**Current release: v3.31.0** (5 Sep 2026), 765 claims.
 <!-- END GENERATED: current_release -->
 Headline: THE ENERGY BILL — priced and payable. The vacuum's constituents orbit at exactly c (two registered numbers multiplying to one), and the wave's dynamical share [0.62, 0.78] fits inside the matter sector's registered zero-point window (< 0.889): zero-point energy IS the winding's rotation. Full account: [`docs/history/RELEASE_NOTES_v3.26.77.md`](docs/history/RELEASE_NOTES_v3.26.77.md); prior: [`docs/history/RELEASE_NOTES_v3.26.76.md`](docs/history/RELEASE_NOTES_v3.26.76.md).
 
@@ -198,7 +198,7 @@ A sector earns "Derived" status only where it follows from the strand mechanics,
 ## Repository structure
 
 ```
-rope-framework/
+mesh-framework/
   README.md                 you are here
   CITATION.cff              "Cite this repository" metadata (DOI + ORCID)
   CONTRIBUTING.md           how to verify, and how to criticize

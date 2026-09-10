@@ -15,7 +15,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[2]
 CKPT = ROOT / 'analysis' / 'antiarc_ckpt.pkl'
 SRC = ROOT / 'analysis' / 'antialigned_ckpt.pkl'
 PAT = ROOT / 'analysis' / 'sparsej_pattern_144x36.pkl'
-DS, NPTS, N1, N2 = 0.08, 12, 4, 5
+DS, NPTS, N1, N2 = 0.08, 20, 4, 5
 
 
 def arc_point(T, st, key, xa, xb):

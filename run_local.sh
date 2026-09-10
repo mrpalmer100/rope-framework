@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
+# Local runner (author's laptop): loops a checkpointing driver until it prints a terminal line.
+# Prefer ./go.sh <driver.py>, which is self-contained; this file is kept for reference.
 set -u
 DRV="$1"; NAME=$(basename "$DRV" .py); mkdir -p logs
-PY=${PY:-python3}; export SJ_MEMO=${SJ_MEMO:-1}; fails=0
+PY=${PY:-$HOME/rope-venv/bin/python}; export SJ_MEMO=${SJ_MEMO:-1}; fails=0
 while true; do
   "$PY" -u "$DRV" >> "logs/$NAME.log" 2>&1; rc=$?
   tail -2 "logs/$NAME.log"

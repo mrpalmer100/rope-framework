@@ -3,7 +3,7 @@
 *A technically routine, quarter-century-overdue lattice measurement
 that decides a registered theoretical constant. Self-contained; no
 acceptance of the sponsoring framework is required to perform or to
-use it. Contact: Mark Palmer (rope-framework repository).*
+use it. Contact: Mark Palmer (mesh-framework repository).*
 
 ## The measurement
 

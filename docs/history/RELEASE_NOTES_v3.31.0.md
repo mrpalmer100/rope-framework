@@ -62,8 +62,8 @@ The programme is renamed the Mesh Programme; the theory, the mesh
 framework. Prose across the docs and the 62 papers now says so; the
 rope remains the two-strand object; the Rope Hypothesis keeps its name
 and its credit; identifiers (repository, package, file names, claim IDs)
-are unchanged until a later release renames the repository with
-redirects.
+are unchanged; the repository was renamed mesh-framework on 9 September 2026
+(old URL redirects).
 
 ## Papers regenerated
 All 62 paper sources carry the naming note and the rename; seven paper sources additionally (.docx) and PDFs rebuilt from source: the three

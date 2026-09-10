@@ -1782,7 +1782,7 @@ just the existence.
 *Written 2026-08-13 at the close of v3.26.0 (the adjudication release, consolidating the twelve-release day:
 the k-string adjudication, the mechanism eliminations, the armed
 adjoint clock, and the substructure protection completed). Corpus
-zip: rope-framework-github.zip; work in rope/. Prior handoff content
+zip: mesh-framework release zip; work in rope/. Prior handoff content
 preserved below (sections 2+ describe the v3.25.0 state and remain
 accurate as history).*
 
